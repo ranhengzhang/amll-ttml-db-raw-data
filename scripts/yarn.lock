@@ -901,6 +901,7 @@ __metadata:
     prettier: ^3.0.0
     typescript: ^5.1.6
     uid: ^2.0.2
+    xml-minifier: ^1.0.1
   languageName: unknown
   linkType: soft
 
@@ -1074,6 +1075,13 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 53e991bbf928faf5dc6efac9b8eb9ab6497c69feeb94f963d648b7a3530a720b19ec2e0ec037344257e05a4f35bd9ad04d9de6f289615ffb133282031b18c61c
+  languageName: node
+  linkType: hard
+
+"xml-minifier@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "xml-minifier@npm:1.0.1"
+  checksum: 646c012dc5f6329848230bcb85ecd20d7931c28e029ad01997deffd36edaada19d9e0c72e6029eda0b4373610b467abbe772ed14c45ff6870242aec48a4db667
   languageName: node
   linkType: hard
 

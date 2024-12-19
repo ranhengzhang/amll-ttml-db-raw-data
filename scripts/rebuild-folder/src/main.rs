@@ -271,7 +271,7 @@ fn main() -> anyhow::Result<()> {
         } else {
             println!("工作树已变更，正在提交更改");
             add_file_to_git("../..")?;
-            let time = Utc::now();
+            let time = Utc::now().with_timezone(&FixedOffset::east(8 * 3600));
             commit(&format!("于 {time:?} 重新构建更新"))?;
             push("main")?;
 

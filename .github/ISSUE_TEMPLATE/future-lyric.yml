@@ -1,0 +1,64 @@
+name: 歌词计划
+description: 我将要上传一首(些)歌曲的 TTML 歌词！
+title: "[歌词计划] "
+labels: ["歌词计划"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        在创建 Issue 前，请确认歌词确实从来没有人提交过哦！
+  - type: input
+    id: ncmMusicId
+    attributes:
+      label: 歌词所匹配的网易云音乐 ID
+    validations:
+      required: false
+  - type: input
+    id: qqMusicId
+    attributes:
+      label: 歌词所匹配的 QQ 音乐 ID
+    validations:
+      required: false
+  - type: input
+    id: spotifyId
+    attributes:
+      label: 歌词所匹配的 Spotify 音乐 ID
+    validations:
+      required: false
+  - type: input
+    id: appleMusicId
+    attributes:
+      label: 歌词所匹配的 Apple Music 音乐 ID
+    validations:
+      required: false
+  - type: input
+    id: isrc
+    attributes:
+      label: 歌词所匹配的 ISRC 编码
+    validations:
+      required: true
+  - type: input
+    id: artists
+    attributes:
+      label: 歌词所匹配的歌手名
+    validations:
+      required: true
+  - type: input
+    id: album
+    attributes:
+      label: 歌词所匹配的专辑名
+    validations:
+      required: true
+  - type: input
+    id: musicName
+    attributes:
+      label: 歌词所匹配的歌曲名
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: 备注
+      description: 还有什么需要补充说明的吗？
+    validations:
+      required: false

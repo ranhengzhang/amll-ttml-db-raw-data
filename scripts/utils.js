@@ -2,8 +2,8 @@ import { exec } from "child_process";
 
 export const githubToken = process.env.GITHUB_TOKEN;
 export const [REPO_OWNER, REPO_NAME] = process.env.GITHUB_REPOSITORY?.split("/") ?? [
-	"Steve-xmh",
-	"amll-ttml-db",
+	"ranhengzhang",
+	"amll-ttml-db-raw-data",
 ];
 
 export const HAS_CHECKED_MARK = "<!-- AMLL-DB-BOT-CHECKED -->";
