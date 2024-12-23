@@ -138,25 +138,25 @@ function generate_kara(line)
     for i = 1, #line.kara do
         local syl = util.copy(line.kara[i])
 
-        if syl.text ~= '' then
-            syl.text = syl.text:gsub('%s+', ' ')
-            if (syl.duration == 0 and syl.text:match('^%s+$') == nil) then
+        if syl.text_stripped ~= '' then
+            syl.text_stripped = syl.text_stripped:gsub('%s+', ' ')
+            if (syl.duration == 0 and syl.text_stripped:match('^%s+$') == nil) then
                 syl.end_time = syl.end_time + 3
             end
             if line.actor:find('x-bg') ~= nil and i == 1 then
-                syl.text = '(' .. syl.text
+                syl.text_stripped = '(' .. syl.text_stripped
             end
             if line.actor:find('x-bg') ~= nil and i == #line.kara then
-                syl.text = syl.text .. ')'
+                syl.text_stripped = syl.text_stripped .. ')'
             end
 
             local start_time = time_to_string(syl.start_time + line.start_time)
             local end_time = time_to_string(syl.end_time + line.start_time)
             table.insert(ttml,
                          string.format('<span begin="%s" end="%s">%s</span>',
-                                       start_time, end_time, syl.text))
+                                       start_time, end_time, syl.text_stripped))
             aegisub.debug.out(string.format('<%s,%s>%s', start_time, end_time,
-                                            syl.text))
+                                            syl.text_stripped))
         end
     end
     aegisub.debug.out('\r\n')
@@ -306,7 +306,7 @@ function script_main(subtitles)
             width = 75,
             height = 15
         }
-    }, {"Copy", "Save"})
+    }, {"Copy", "Save", "Close"})
 
     if btn == "Copy" then
         local try_copy = clipboard.set(ttml)
