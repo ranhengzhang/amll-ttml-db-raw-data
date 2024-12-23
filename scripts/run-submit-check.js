@@ -286,7 +286,7 @@ async function main() {
 						);
 						try {
 							const submitBranch = "auto-submit-issue-" + issue.number;
-							await checkoutBranch("main");
+							await checkoutBranch("upstream-base");
 							try {
 								await deleteBranch(submitBranch);
 							} catch { }
@@ -296,7 +296,7 @@ async function main() {
 							await addFileToGit("..");
 							await commit(`提交歌曲歌词 ${newFileName} #${issue.number}`);
 							await push(submitBranch);
-							await checkoutBranch("main");
+							await checkoutBranch("upstream-base");
 							let pullBody = [
 								"### 歌词议题",
 								"#" + issue.number,
@@ -360,7 +360,7 @@ async function main() {
 								repo: REPO_NAME,
 								title: issue.title,
 								head: submitBranch,
-								base: "main",
+								base: "upstream-base",
 								body: pullBody,
 							});
 							console.log(
