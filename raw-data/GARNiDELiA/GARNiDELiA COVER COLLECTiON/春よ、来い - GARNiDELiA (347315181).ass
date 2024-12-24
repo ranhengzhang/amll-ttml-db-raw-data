@@ -9,9 +9,12 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
+Active Line: 7
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
+Style: roma-furigana,Raleway-v4020 ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
 Style: roma,Raleway-v4020 ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
 Style: orig,阿里巴巴普惠体 3.0 65 Medium,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,2,10,10,10,1
 Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
@@ -25,8 +28,8 @@ Dialogue: 0,0:00:03.30,0:00:23.99,orig,,0,0,0,meta,{\kf32}曲{\kf7} : {\kf31}松
 Dialogue: 0,0:00:23.99,0:00:28.78,orig,,0,0,0,karaoke,{\ko72}淡|<あ{\ko56}#|わ{\ko9}{\ko43}き{\ko24}光|<ひ{\ko6}#|{\ko17}#|か{\ko13}#|り{\ko16}立|<た{\ko20}つ{\ko0} {\ko76}俄|<に{\ko23}#|わ{\ko7}#|{\ko12}#|か{\ko23}雨|<あ{\ko62}#|め
 Dialogue: 0,0:00:23.99,0:00:28.78,roma,,0,0,0,,a wa ki hi ka ri ta tsu ni wa ka a me
 Dialogue: 0,0:00:23.99,0:00:28.78,ts,,0,0,0,,阵雨从地上折射出淡淡的光影
-Dialogue: 0,0:00:29.49,0:00:34.36,orig,,0,0,0,karaoke,{\ko64}い{\ko8}{\ko48}と{\ko63}し{\ko10}{\ko13}面|<お{\ko18}#|も{\ko19}影|か{\ko17}#|げ{\ko14}の{\ko70}沈|<し{\ko35}#|ん{\ko25}丁|ちょ{\ko17}#|う{\ko66}花|げ
-Dialogue: 0,0:00:29.49,0:00:34.36,roma,,0,0,0,,i to shi o mo ka ge no ji n cho u ge
+Dialogue: 0,0:00:29.49,0:00:34.36,orig,,0,0,0,karaoke,{\ko64}い{\ko8}{\ko48}と{\ko63}し{\ko10}{\ko13}面|<お{\ko18}#|も{\ko19}影|か{\ko17}#|げ{\ko14}の{\ko70}沈|<ち{\ko35}#|ん{\ko25}丁|ちょ{\ko17}#|う{\ko66}花|げ
+Dialogue: 0,0:00:29.49,0:00:34.36,roma,,0,0,0,,i to shi o mo ka ge no chi n cho u ge
 Dialogue: 0,0:00:29.49,0:00:34.36,ts,,0,0,0,,那是令人爱恋的瑞香花的倩影
 Dialogue: 0,0:00:35.05,0:00:39.57,orig,,0,0,0,karaoke,{\ko58}溢|<あ{\ko82}#|ふ{\ko51}る{\ko14}る{\ko19}涙|<な{\ko17}#|み{\ko15}#|だ{\ko15}の{\ko74}蕾|<つ{\ko29}#|ぼ{\ko20}#|み{\ko20}か{\ko38}ら
 Dialogue: 0,0:00:35.05,0:00:39.57,roma,,0,0,0,,a fu ru ru na mi da no tsu bo mi ka ra
