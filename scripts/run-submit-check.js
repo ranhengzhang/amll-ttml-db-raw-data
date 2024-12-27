@@ -286,7 +286,7 @@ async function main() {
 						);
 						try {
 							const submitBranch = "auto-submit-issue-" + issue.number;
-							await checkoutBranch("upstream-base");
+							await checkoutBranch("main");
 							try {
 								await deleteBranch(submitBranch);
 							} catch { }
@@ -296,7 +296,7 @@ async function main() {
 							await addFileToGit("..");
 							await commit(`提交歌曲歌词 ${newFileName} #${issue.number}`);
 							await push(submitBranch);
-							await checkoutBranch("upstream-base");
+							await checkoutBranch("main");
 							let pullBody = [
 								"### 歌词议题",
 								"#" + issue.number,
@@ -360,7 +360,7 @@ async function main() {
 								repo: REPO_NAME,
 								title: issue.title,
 								head: submitBranch,
-								base: "upstream-base",
+								base: "main",
 								body: pullBody,
 							});
 							console.log(
@@ -380,6 +380,36 @@ async function main() {
 								err,
 							);
 						}
+            try {
+              const submitBranch = "auto-pull-request-" + issue.number;
+              await checkoutBranch("upstream-base");
+              try {
+                await deleteBranch(submitBranch);
+              } catch { }
+              await createBranch(submitBranch);
+              const newFileName = `${Date.now()}-${issue.user?.id || "0"}-${uid(8)}.ttml`;
+              await writeFile(resolve("..", "raw-lyrics", newFileName), regeneratedLyric);
+              await addFileToGit("..");
+              await commit(`提交歌曲歌词 ${newFileName} #${issue.number}`);
+              await push(submitBranch);
+              await checkoutBranch("upstream-base");
+              console.log(
+                "议题",
+                issue.title,
+                "(",
+                issue.id,
+                ") 提交合并分支创建成功！",
+              );
+            } catch (err) {
+              console.log(
+                "议题",
+                issue.title,
+                "(",
+                issue.id,
+                ") 创建合并分支失败！请手动提交！",
+                err,
+              );
+            }
 					} catch (err) {
 						console.log(
 							"议题",
