@@ -55,6 +55,12 @@ body:
       label: 歌词所匹配的歌曲名
     validations:
       required: true
+  - type: input
+    id: albumSrc
+    attributes:
+      label: 专辑封面链接
+    validations:
+      required: false
   - type: textarea
     id: comment
     attributes:
