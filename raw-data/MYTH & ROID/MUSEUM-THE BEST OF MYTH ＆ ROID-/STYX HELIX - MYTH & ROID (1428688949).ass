@@ -22,62 +22,149 @@ Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H0000000
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:19.29,0:00:21.34,orig,,0,0,0,karaoke,{\ko23}Oh {\ko24}plea{\ko8}se {\ko19}don't {\ko52}let {\ko41}me {\ko38}die
+Dialogue: 0,0:00:19.29,0:00:21.34,ts,,0,0,0,,请不要让我就此死亡
 Dialogue: 0,0:00:21.57,0:00:23.57,orig,,0,0,0,karaoke,{\ko23}Wai{\ko17}ting {\ko58}for {\ko42}your {\ko36}tou{\ko24}ch
+Dialogue: 0,0:00:21.57,0:00:23.57,ts,,0,0,0,,静候与你的再度相遇
 Dialogue: 0,0:00:27.01,0:00:29.15,orig,,0,0,0,karaoke,{\ko36}No, {\ko28}don't {\ko27}gi{\ko27}ve u{\ko20}p {\ko38}on {\ko38}life
+Dialogue: 0,0:00:27.01,0:00:29.15,ts,,0,0,0,,不要就此向命运屈服
 Dialogue: 0,0:00:29.36,0:00:31.37,orig,,0,0,0,karaoke,{\ko17}Thi{\ko34}s end{\ko47}less {\ko50}dea{\ko53}d end
+Dialogue: 0,0:00:29.36,0:00:31.37,ts,,0,0,0,,屈服于这永无止境的死局
 Dialogue: 0,0:00:37.06,0:00:40.91,orig,,0,0,0,karaoke,{\ko37}狂|<く{\ko11}#|る{\ko11}#|っ{\ko38}#|た{\ko33}{\ko24}時|<と{\ko28}#|け{\ko19}計|い{\ko0} {\ko45}刻|<き{\ko46}#|ざ{\ko35}む{\ko19}命|<い{\ko26}#|の{\ko13}#|ち
+Dialogue: 0,0:00:37.06,0:00:40.91,roma,,0,0,0,,ku ru tta to ke i ki za mu i no chi
+Dialogue: 0,0:00:37.06,0:00:40.91,ts,,0,0,0,,镌刻生命的时针 疯狂旋转
 Dialogue: 0,0:00:41.03,0:00:44.79,orig,,0,0,0,karaoke,{\ko38}こ{\ko15}{\ko40}ぼ{\ko31}{\ko14}れ{\ko12}て{\ko33}く{\ko35}{\ko17}記|<き{\ko11}憶|お{\ko38}#|く{\ko36}{\ko8}の{\ko18}砂|<す{\ko30}#|な
+Dialogue: 0,0:00:41.03,0:00:44.79,roma,,0,0,0,,ko bo re te ku ki o ku no su na
+Dialogue: 0,0:00:41.03,0:00:44.79,ts,,0,0,0,,零落的记忆之砂 渐渐飘散
 Dialogue: 0,0:00:44.92,0:00:48.62,orig,,0,0,0,karaoke,{\ko38}芽|<め{\ko17}#|{\ko34}生|ば{\ko38}{\ko17}え{\ko8}{\ko29}た{\ko21} {\ko44}思|<お{\ko32}#|も{\ko21}い{\ko24}{\ko25}ま{\ko22}で
+Dialogue: 0,0:00:44.92,0:00:48.62,roma,,0,0,0,,me ba e ta o mo i ma de
+Dialogue: 0,0:00:44.92,0:00:48.62,ts,,0,0,0,,哪怕是萌生出的 小小思念
 Dialogue: 0,0:00:48.77,0:00:53.55,orig,,0,0,0,karaoke,{\ko48}ね{\ko109}え{\ko71} {\ko30}こ{\ko20}ん{\ko24}な{\ko22}に{\ko34}呆|<あ{\ko41}気|っ{\ko21}#|け{\ko31}な{\ko27}く
+Dialogue: 0,0:00:48.77,0:00:53.55,roma,,0,0,0,,ne e ko n na ni a kke na ku
+Dialogue: 0,0:00:48.77,0:00:53.55,ts,,0,0,0,,你看 却又这么如此轻易地
 Dialogue: 0,0:00:55.62,0:01:00.94,orig,,0,0,0,karaoke,{\ko54}消|<き{\ko53}え{\ko35}て{\ko15}し{\ko91}ま{\ko98}う{\ko186}の
+Dialogue: 0,0:00:55.62,0:01:00.94,roma,,0,0,0,,ki e te shi ma u no
+Dialogue: 0,0:00:55.62,0:01:00.94,ts,,0,0,0,,随风而散 而又彻底湮灭了
 Dialogue: 0,0:01:01.06,0:01:02.21,orig,,0,0,0,karaoke,{\ko24}I {\ko26}wish {\ko20}I {\ko17}was {\ko28}there{\ko0}...
+Dialogue: 0,0:01:01.06,0:01:02.21,ts,,0,0,0,,我如此希望 我伴你左右
 Dialogue: 0,0:01:02.24,0:01:04.24,orig,,0,0,0,karaoke,{\ko22}Oh, {\ko22}plea{\ko9}se {\ko21}don't {\ko56}let {\ko38}me {\ko32}die
+Dialogue: 0,0:01:02.24,0:01:04.24,ts,,0,0,0,,请不要让我就此死亡
 Dialogue: 0,0:01:04.41,0:01:06.38,orig,,0,0,0,karaoke,{\ko30}Wai{\ko19}ting {\ko52}for {\ko41}your {\ko36}tou{\ko19}ch
+Dialogue: 0,0:01:04.41,0:01:06.38,ts,,0,0,0,,静候与你的再度相遇
 Dialogue: 0,0:01:06.58,0:01:10.83,orig,,0,0,0,karaoke,{\ko37}二|<に{\ko21}度|ど{\ko27}と{\ko19} {\ko31}な{\ko22}に{\ko24}も{\ko18} {\ko54}失|<な{\ko14}く{\ko30}さ{\ko16}ぬ{\ko17}よ{\ko44}う{\ko51}に
-Dialogue: 0,0:01:10.99,0:01:16.11,orig,,0,0,0,karaoke,{\k32}私|<わ{\k25}#|た{\k45}#|し{\k30}を{\k15}{\k19}忘|<わ{\k31}#|す{\k26}れ{\k33}て{\k15} {\k34}始|<は{\k41}#|じ{\k27}め{\k139}て
+Dialogue: 0,0:01:06.58,0:01:10.83,roma,,0,0,0,,ni do to na ni mo na ku sa nu yo u ni
+Dialogue: 0,0:01:06.58,0:01:10.83,ts,,0,0,0,,为了不会再度失去珍视之物
+Dialogue: 0,0:01:10.99,0:01:16.11,orig,,0,0,0,karaoke,{\ko32}私|<わ{\ko25}#|た{\ko45}#|し{\ko30}を{\ko15}{\ko19}忘|<わ{\ko31}#|す{\ko26}れ{\ko33}て{\ko15} {\ko34}始|<は{\ko41}#|じ{\ko27}め{\ko139}て
+Dialogue: 0,0:01:10.99,0:01:16.11,roma,,0,0,0,,wa ta shi wo wa su re te ha ji me te
+Dialogue: 0,0:01:10.99,0:01:16.11,ts,,0,0,0,,请忘却我的存在……
 Dialogue: 0,0:01:16.41,0:01:17.67,orig,,0,0,0,karaoke,{\ko11}"Re{\ko14}s{\ko101}tart!"
+Dialogue: 0,0:01:16.41,0:01:17.67,ts,,0,0,0,,“重新开始”
 Dialogue: 0,0:01:17.80,0:01:19.85,orig,,0,0,0,karaoke,{\ko29}No, {\ko27}don't {\ko24}gi{\ko28}ve u{\ko22}p {\ko38}on {\ko37}life
+Dialogue: 0,0:01:17.80,0:01:19.85,ts,,0,0,0,,不要就此向命运屈服
 Dialogue: 0,0:01:20.08,0:01:21.98,orig,,0,0,0,karaoke,{\ko17}Thi{\ko10}s en{\ko18}d{\ko30}le{\ko23}ss {\ko21}dea{\ko30}d {\ko41}end
+Dialogue: 0,0:01:20.08,0:01:21.98,ts,,0,0,0,,屈服于这永无止境的死局
 Dialogue: 0,0:01:22.23,0:01:26.45,orig,,0,0,0,karaoke,{\ko29}君|<き{\ko27}#|み{\ko24}を{\ko22}{\ko24}砕|<く{\ko23}#|だ{\ko30}く{\ko22}{\ko43}こ{\ko21}の{\ko9}{\ko21}悲|<か{\ko11}#|な{\ko16}し{\ko40}み{\ko60}が
+Dialogue: 0,0:01:22.23,0:01:26.45,roma,,0,0,0,,ki mi wo ku da ku ko no ka na shi mi ga
+Dialogue: 0,0:01:22.23,0:01:26.45,ts,,0,0,0,,愿那些使你痛苦的悲伤
 Dialogue: 0,0:01:26.92,0:01:31.83,orig,,0,0,0,karaoke,{\ko88}い{\ko6}{\ko42}つ{\ko10}{\ko54}か{\ko32} {\ko50}終|<お{\ko34}わ{\ko27}り{\ko61}ま{\ko21}す{\ko13}よ{\ko5}う{\ko48}に
+Dialogue: 0,0:01:26.92,0:01:31.83,roma,,0,0,0,,i tsu ka o wa ri ma su yo u ni
+Dialogue: 0,0:01:26.92,0:01:31.83,ts,,0,0,0,,终将迎接它们的终结
 Dialogue: 0,0:01:32.00,0:01:35.78,orig,,0,0,0,karaoke,{\ko30}For {\ko87}now {\ko68}I'll {\ko25}see {\ko14}you {\ko132}o{\ko22}ff
+Dialogue: 0,0:01:32.00,0:01:35.78,ts,,0,0,0,,为此 我将会目送你的离去
 Dialogue: 0,0:01:36.40,0:01:39.66,orig,,0,0,0,karaoke,{\ko20}My {\ko33}ti{\ko11}me i{\ko10}s s{\ko38}pin{\ko33}ning {\ko25}a{\ko156}round
+Dialogue: 0,0:01:36.40,0:01:39.66,ts,,0,0,0,,围绕着我的时间线交纺错乱
 Dialogue: 0,0:01:39.93,0:01:43.94,orig,,0,0,0,karaoke,{\ko107}Your {\ko94}deep {\ko106}bla{\ko71}ck eye{\ko23}s
+Dialogue: 0,0:01:39.93,0:01:43.94,ts,,0,0,0,,仿佛能被你的深邃黑眸尽数洞悉
 Dialogue: 0,0:01:44.24,0:01:47.33,orig,,0,0,0,karaoke,{\ko21}I {\ko45}for{\ko36}got what {\ko42}ti{\ko28}me i{\ko137}t is
+Dialogue: 0,0:01:44.24,0:01:47.33,ts,,0,0,0,,我早已忘却时间存在的意义
 Dialogue: 0,0:01:47.88,0:01:51.88,orig,,0,0,0,karaoke,{\ko35}And {\ko58}our {\ko70}memorie{\ko30}s are {\ko207}gone{\ko0}...?
+Dialogue: 0,0:01:47.88,0:01:51.88,ts,,0,0,0,,无数回忆 也已然化为了虚无
 Dialogue: 0,0:01:53.27,0:01:56.95,orig,,0,0,0,karaoke,{\ko47}甘|<あ{\ko29}#|ま{\ko11}い{\ko33}{\ko27}香|<か{\ko33}#|お{\ko12}{\ko36}り{\ko52}放|<は{\ko33}#|{\ko28}#|な{\ko27}つ
+Dialogue: 0,0:01:53.27,0:01:56.95,roma,,0,0,0,,a ma i ka o ri ha na tsu
+Dialogue: 0,0:01:53.27,0:01:56.95,ts,,0,0,0,,散发出香甜气息的
 Dialogue: 0,0:01:57.12,0:02:00.87,orig,,0,0,0,karaoke,{\ko49}追|<つ{\ko52}#|い{\ko24}#|{\ko13}憶|お{\ko13}#|く{\ko31}と{\ko41} {\ko10}い{\ko13}う{\ko33}名|<な{\ko40}{\ko12}の{\ko16}罠|<わ{\ko28}#|な
+Dialogue: 0,0:01:57.12,0:02:00.87,roma,,0,0,0,,tsu i o ku to i u na no wa na
+Dialogue: 0,0:01:57.12,0:02:00.87,ts,,0,0,0,,名为追忆的圈套
 Dialogue: 0,0:02:00.89,0:02:04.73,orig,,0,0,0,karaoke,{\ko45}誘|<さ{\ko52}#|そ{\ko40}{\ko26}わ{\ko30}れ{\ko23} {\ko35}囚|<と{\ko54}#|ら{\ko29}{\ko26}わ{\ko24}れ
+Dialogue: 0,0:02:00.89,0:02:04.73,roma,,0,0,0,,sa so wa re to ra wa re
+Dialogue: 0,0:02:00.89,0:02:04.73,ts,,0,0,0,,引诱我步入其中 又被其囚禁
 Dialogue: 0,0:02:04.92,0:02:09.71,orig,,0,0,0,karaoke,{\ko46}な{\ko153}ぜ{\ko15} {\ko39}抗|<あ{\ko22}#|な{\ko21}#|が{\ko23}え{\ko20}も{\ko42}せ{\ko7}{\ko24}ず{\ko29}ま{\ko38}た
+Dialogue: 0,0:02:04.92,0:02:09.71,roma,,0,0,0,,na ze a na ga e mo se zu ma ta
+Dialogue: 0,0:02:04.92,0:02:09.71,ts,,0,0,0,,为何 连反抗之意未曾萌生之时
 Dialogue: 0,0:02:11.74,0:02:16.91,orig,,0,0,0,karaoke,{\ko55}溺|<お{\ko49}#|ぼ{\ko43}れ{\ko7}{\ko77}て{\ko17}し{\ko77}ま{\ko23}う{\ko169}の
+Dialogue: 0,0:02:11.74,0:02:16.91,roma,,0,0,0,,o bo re te shi ma u no
+Dialogue: 0,0:02:11.74,0:02:16.91,ts,,0,0,0,,就这么沉溺于其中了呢……
 Dialogue: 0,0:02:17.09,0:02:18.30,orig,,0,0,0,karaoke,{\ko28}I {\ko26}wish {\ko21}you {\ko11}were {\ko35}here
+Dialogue: 0,0:02:17.09,0:02:18.30,ts,,0,0,0,,我如此希望你于我身旁
 Dialogue: 0,0:02:18.37,0:02:20.59,orig,,0,0,0,karaoke,{\ko23}Oh, {\ko27}ne{\ko19}ver {\ko53}clo{\ko6}se {\ko36}your{\ko9} {\ko25}eye{\ko24}s
+Dialogue: 0,0:02:18.37,0:02:20.59,ts,,0,0,0,,请不要就此闭上双眸
 Dialogue: 0,0:02:20.59,0:02:22.35,orig,,0,0,0,karaoke,{\ko19}Sear{\ko19}ching {\ko35}for {\ko11}a {\ko46}true {\ko46}fate
+Dialogue: 0,0:02:20.59,0:02:22.35,ts,,0,0,0,,还要去探寻那真正的宿命
 Dialogue: 0,0:02:22.71,0:02:26.78,orig,,0,0,0,karaoke,{\ko32}ど{\ko23}こ{\ko28}か{\ko19} {\ko28}消|<き{\ko23}え{\ko27}た{\ko22} {\ko42}あ{\ko26}の{\ko26}ぬ{\ko13}く{\ko18}も{\ko39}り{\ko41}を
+Dialogue: 0,0:02:22.71,0:02:26.78,roma,,0,0,0,,do ko ka ki e ta a no nu ku mo ri wo
+Dialogue: 0,0:02:22.71,0:02:26.78,ts,,0,0,0,,些许的温暖 究竟消失在了何方
 Dialogue: 0,0:02:27.16,0:02:32.31,orig,,0,0,0,karaoke,{\ko25}追|<お{\ko27}い{\ko22}{\ko23}か{\ko28}け{\ko20} {\ko19}続|<つ{\ko21}#|づ{\ko9}{\ko25}け{\ko30}て{\ko11} {\ko36}見|<み{\ko34}失|<う{\ko34}#|し{\ko127}#|な{\ko24}う
+Dialogue: 0,0:02:27.16,0:02:32.31,roma,,0,0,0,,o i ka ke tsu du ke te mi u shi na u
+Dialogue: 0,0:02:27.16,0:02:32.31,ts,,0,0,0,,我不停追寻着 却再度遗失……
 Dialogue: 0,0:02:32.52,0:02:33.77,orig,,0,0,0,karaoke,{\ko14}"Re{\ko13}s{\ko98}tart!"
+Dialogue: 0,0:02:32.52,0:02:33.77,ts,,0,0,0,,“重新开始”
 Dialogue: 0,0:02:33.91,0:02:35.97,orig,,0,0,0,karaoke,{\ko24}So, {\ko33}let {\ko21}us {\ko42}try {\ko53}a{\ko33}gain
+Dialogue: 0,0:02:33.91,0:02:35.97,ts,,0,0,0,,就此踏上时间的回溯
 Dialogue: 0,0:02:36.17,0:02:38.06,orig,,0,0,0,karaoke,{\ko25}From {\ko26}the {\ko24}ve{\ko14}ry {\ko43}fir{\ko14}st {\ko43}time
+Dialogue: 0,0:02:36.17,0:02:38.06,ts,,0,0,0,,再次点亮那遥远的生命之花
 Dialogue: 0,0:02:38.34,0:02:42.56,orig,,0,0,0,karaoke,{\ko30}"き{\ko24}っ{\ko25}と{\ko21}{\ko25}き{\ko27}っ{\ko22}と"{\ko16} {\ko52}そ{\ko21}う{\ko27}や{\ko7}っ{\ko11}て{\ko16}今|<い{\ko50}#|ま{\ko48}も
+Dialogue: 0,0:02:38.34,0:02:42.56,roma,,0,0,0,,"ki tto ki tto" so u ya tte i ma mo
+Dialogue: 0,0:02:38.34,0:02:42.56,ts,,0,0,0,,此刻与你所描绘出的
 Dialogue: 0,0:02:42.84,0:02:47.94,orig,,0,0,0,karaoke,{\ko18}虚|<む{\ko81}#|な{\ko66}し{\ko56}い{\ko29} {\ko50}輪|<わ{\ko31}を{\ko28}描|<え{\ko74}#|が{\ko12}い{\ko15}て{\ko50}る
+Dialogue: 0,0:02:42.84,0:02:47.94,roma,,0,0,0,,mu na shi i wa wo e ga i te ru
+Dialogue: 0,0:02:42.84,0:02:47.94,ts,,0,0,0,,定然是一道虚幻的轮回
 Dialogue: 0,0:02:48.07,0:02:52.08,orig,,0,0,0,karaoke,{\ko33}For {\ko82}now, {\ko74}see {\ko23}you {\ko15}a{\ko174}gain
+Dialogue: 0,0:02:48.07,0:02:52.08,ts,,0,0,0,,只为能与你于此处再度相见
 Dialogue: 0,0:02:52.20,0:02:57.68,orig,,0,0,0,karaoke,{\ko62}Fa{\ko45}ding {\ko51}in{\ko236} {\ko57}Fa{\ko48}ding {\ko49}out
+Dialogue: 0,0:02:52.20,0:02:57.68,ts,,0,0,0,,渐入眼帘 却又逐渐消失
 Dialogue: 0,0:03:00.06,0:03:05.73,orig,,0,0,0,karaoke,{\ko52}Fa{\ko50}ding {\ko51}in{\ko241} {\ko51}Fa{\ko48}ding {\ko74}out
+Dialogue: 0,0:03:00.06,0:03:05.73,ts,,0,0,0,,近在咫尺 却又遥不可及
 Dialogue: 0,0:03:19.55,0:03:20.72,orig,,0,0,0,karaoke,{\ko27}I {\ko21}wish {\ko27}we {\ko13}were {\ko29}there
+Dialogue: 0,0:03:19.55,0:03:20.72,ts,,0,0,0,,我如此希望我们能共同前行……
 Dialogue: 0,0:03:20.77,0:03:24.92,orig,,0,0,0,karaoke,{\ko27}あ{\ko21}の{\ko34}日|<ひ{\ko47}々{\ko44}に{\ko28}は{\ko24} {\ko25}戻|<も{\ko24}#|ど{\ko35}れ{\ko60}な{\ko46}い
+Dialogue: 0,0:03:20.77,0:03:24.92,roma,,0,0,0,,a no hi bi ni wa mo do re na i
+Dialogue: 0,0:03:20.77,0:03:24.92,ts,,0,0,0,,已然无法挽留住 曾经的美好
 Dialogue: 0,0:03:25.18,0:03:29.41,orig,,0,0,0,karaoke,{\ko29}時|<と{\ko25}#|き{\ko31}は{\ko14}{\ko24}強|<つ{\ko26}#|よ{\ko27}く{\ko19} {\ko51}哀|<か{\ko20}#|な{\ko29}し{\ko12}く{\ko15}強|<つ{\ko43}#|よ{\ko58}く
+Dialogue: 0,0:03:25.18,0:03:29.41,roma,,0,0,0,,to ki wa tsu yo ku ka na shi ku tsu yo ku
+Dialogue: 0,0:03:25.18,0:03:29.41,ts,,0,0,0,,时间难以逆转 让人濒临崩溃
 Dialogue: 0,0:03:29.59,0:03:34.76,orig,,0,0,0,karaoke,{\ko25}た{\ko34}だ{\ko16}{\ko24}た{\ko29}だ{\ko0} {\ko33}進|<す{\ko37}#|す{\ko23}ん{\ko28}で{\ko17} {\ko30}ゆ{\ko43}く{\ko25}だ{\ko153}け
+Dialogue: 0,0:03:29.59,0:03:34.76,roma,,0,0,0,,ta da ta da su su n de yu ku da ke
+Dialogue: 0,0:03:29.59,0:03:34.76,ts,,0,0,0,,只能继续去面对 这死循环般的死局……
 Dialogue: 0,0:03:34.94,0:03:36.26,orig,,0,0,0,karaoke,{\ko16}"Re{\ko14}s{\ko102}tart"
+Dialogue: 0,0:03:34.94,0:03:36.26,ts,,0,0,0,,“重新开始”
 Dialogue: 0,0:03:36.45,0:03:38.39,orig,,0,0,0,karaoke,{\ko23}No {\ko24}don't {\ko22}gi{\ko28}ve u{\ko17}p {\ko48}on {\ko32}life
+Dialogue: 0,0:03:36.45,0:03:38.39,ts,,0,0,0,,请不要就此向命运屈服
 Dialogue: 0,0:03:38.60,0:03:40.47,orig,,0,0,0,karaoke,{\ko20}Thi{\ko31}s end{\ko26}le{\ko26}ss {\ko49}dead {\ko35}end
+Dialogue: 0,0:03:38.60,0:03:40.47,ts,,0,0,0,,屈服于这永无止境的死局
 Dialogue: 0,0:03:40.72,0:03:44.99,orig,,0,0,0,karaoke,{\ko36}振|<ふ{\ko23}り{\ko26}返|<か{\ko19}#|{\ko28}#|え{\ko24}ら{\ko20}な{\ko6}い{\ko12} {\ko39}そ{\ko19}{\ko25}ん{\ko19}な{\ko14}強|<つ{\ko11}#|よ{\ko49}さ{\ko57}を
+Dialogue: 0,0:03:40.72,0:03:44.99,roma,,0,0,0,,fu ri ka e ra na i so n na tsu yo sa wo
+Dialogue: 0,0:03:40.72,0:03:44.99,ts,,0,0,0,,放下一切羁绊而装作漠然
 Dialogue: 0,0:03:45.44,0:03:50.38,orig,,0,0,0,karaoke,{\ko102}誰|<だ{\ko41}#|れ{\ko60}も{\ko32}{\ko48}皆|<み{\ko31}#|な{\ko32}演|<え{\ko66}#|ん{\ko17}じ{\ko15}て{\ko50}る
+Dialogue: 0,0:03:45.44,0:03:50.38,roma,,0,0,0,,da re mo mi na e n ji te ru
+Dialogue: 0,0:03:45.44,0:03:50.38,ts,,0,0,0,,想必仅仅只是在故作坚强
 Dialogue: 0,0:03:50.56,0:03:54.49,orig,,0,0,0,karaoke,{\ko24}For {\ko93}now {\ko71}I'll {\ko22}see {\ko15}you {\ko146}o{\ko22}ff
+Dialogue: 0,0:03:50.56,0:03:54.49,ts,,0,0,0,,此刻 我会静静地目视你的离去
 Dialogue: 0,0:03:56.17,0:03:57.47,orig,,0,0,0,karaoke,{\ko54}And {\ko36}we'll {\ko40}die
+Dialogue: 0,0:03:56.17,0:03:57.47,ts,,0,0,0,,以生命的枯萎
 Dialogue: 0,0:03:57.60,0:03:59.51,orig,,0,0,0,karaoke,{\ko31}Wai{\ko17}ting {\ko24}for {\ko22}a {\ko54}new {\ko43}day
+Dialogue: 0,0:03:57.60,0:03:59.51,ts,,0,0,0,,触及崭新的从前
 Dialogue: 0,0:03:59.79,0:04:00.63,orig,,0,0,0,karaoke,{\ko32}二|<に{\ko28}度|ど{\ko24}と{\ko0}...
+Dialogue: 0,0:03:59.79,0:04:00.63,roma,,0,0,0,,ni do to ...
+Dialogue: 0,0:03:59.79,0:04:00.63,ts,,0,0,0,,为了我们能够再一次……
 Dialogue: 0,0:04:04.02,0:04:05.27,orig,,0,0,0,karaoke,{\ko34}And {\ko48}we'll {\ko17}s{\ko26}tart
+Dialogue: 0,0:04:04.02,0:04:05.27,ts,,0,0,0,,我们将从零开始
 Dialogue: 0,0:04:05.40,0:04:07.38,orig,,0,0,0,karaoke,{\ko32}Wai{\ko17}ting {\ko26}for {\ko28}a {\ko49}new {\ko46}day
+Dialogue: 0,0:04:05.40,0:04:07.38,ts,,0,0,0,,迎接崭新的一天
 Dialogue: 0,0:04:07.62,0:04:08.53,orig,,0,0,0,karaoke,{\ko30}君|<き{\ko19}#|み{\ko42}と{\ko0}...
+Dialogue: 0,0:04:07.62,0:04:08.53,roma,,0,0,0,,ki mi to ...
+Dialogue: 0,0:04:07.62,0:04:08.53,ts,,0,0,0,,并再一次与你邂逅……
 Dialogue: 0,0:04:09.49,0:04:14.26,orig,,0,0,0,karaoke,{\ko29}Oh {\ko25}plea{\ko8}se {\ko28}don't {\ko48}let {\ko36}me {\ko303}die
-Dialogue: 0,0:04:15.64,0:04:26.67,orig,,0,0,0,karaoke,{\ko55}消|<き{\ko91}え{\ko103}な{\ko101}い{\ko76}で{\ko677} {\658}ah{\ko0}...
+Dialogue: 0,0:04:09.49,0:04:14.26,ts,,0,0,0,,所以我不想 就此死去
+Dialogue: 0,0:04:15.64,0:04:19.90,orig,,0,0,0,karaoke,{\ko55}消|<き{\ko91}え{\ko103}な{\ko101}い{\ko76}で
+Dialogue: 0,0:04:15.64,0:04:19.90,roma,,0,0,0,,ki e na i de
+Dialogue: 0,0:04:15.64,0:04:19.90,ts,,0,0,0,,亦请不要……离我而去
+Dialogue: 0,0:04:19.90,0:04:26.74,orig,,0,0,0,karaoke,{\k684}ah{\k0}...
