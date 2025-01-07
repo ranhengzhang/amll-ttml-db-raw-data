@@ -94,14 +94,32 @@ local ui_config = {
 
 local anti = false
 
+local marked = {}
+
+function add_mark(actor, num, is_bg)
+    for mark in actor:gmatch('x%-mark[%w%-]*') do
+        if marked[mark] == nil then
+            marked[mark] = {}
+        end
+        table.insert(marked[mark], string.format("第%d行%s", num, is_bg and '和声部分' or ''))
+    end
+end
+
 function pre_process(subtitles)
     local subs = {}
     local meta, styles = karaskel.collect_head(subtitles, true)
 
     for i = 1, #subtitles do
         local line = table.copy(subtitles[i])
-        if line.class == "dialogue" and not line.comment and line.effect == "" then
+        if line.effect == "" or line.effect == "karaoke" then
             karaskel.preproc_line_text(meta, styles, line)
+            if line.style == "orig" and line.actor:find("x-mark") ~= nil then
+                if line.actor:find("x-bg") ~= nil then
+                    add_mark(line.actor, #subs, true)
+                else
+                    add_mark(line.actor, #subs+1, false)
+                end
+            end
             if line.actor:find('x-bg') ~= nil then
                 local parent_line = table.copy(subs[#subs])
                 if line.style == "orig" then
@@ -132,6 +150,15 @@ function time_to_string(time)
                          math.floor(time / 1000) % 60, time % 1000)
 end
 
+function xml_symbol(value)
+    value = string.gsub(value, "&", "&amp;"); -- '&' -> "&amp;"
+    value = string.gsub(value, "<", "&lt;"); -- '<' -> "&lt;"
+    value = string.gsub(value, ">", "&gt;"); -- '>' -> "&gt;"
+    value = string.gsub(value, "\"", "&quot;"); -- '"' -> "&quot;"
+    value = string.gsub(value, "\'", "&apos;"); -- '"' -> "&quot;"
+    return value;
+end
+
 function generate_kara(line)
     local ttml = {}
 
@@ -139,6 +166,7 @@ function generate_kara(line)
         local syl = util.copy(line.kara[i])
 
         if syl.text_stripped ~= '' then
+            syl.text_stripped = xml_symbol(syl.text_stripped)
             syl.text_stripped = syl.text_stripped:gsub('%s+', ' ')
             if (syl.duration == 0 and syl.text_stripped:match('^%s+$') == nil) then
                 syl.end_time = syl.end_time + 3
@@ -243,7 +271,7 @@ function generate_meta(key, value)
     for i = 1, #values do
         aegisub.debug.out(key .. ':\t　' .. values[i]:trim() .. '\r\n')
         table.insert(ttml, string.format('<amll:meta key="%s" value="%s"/>',
-                                         key, values[i]:trim()))
+                                         key, xml_symbol(values[i]:trim())))
     end
 
     return table.concat(ttml)
@@ -272,6 +300,13 @@ function generate_head(metas)
     end
 
     return '<head><metadata>' .. table.concat(ttml) .. '</metadata></head>'
+end
+
+function show_marks()
+    aegisub.debug.out('\n\n')
+    for mark, lines in pairs(marked) do
+        aegisub.debug.out(mark .. ': ' .. table.concat(lines, '，') .. '\n')
+    end
 end
 
 -- ! @bref 插件主函数
@@ -344,6 +379,8 @@ function script_main(subtitles)
             file:close()
         end
     end
+
+    show_marks();
 end
 
 aegisub.register_macro(script_name, script_description, script_main)
