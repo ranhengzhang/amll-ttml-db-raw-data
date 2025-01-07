@@ -1,16 +1,14 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
-    xmlns:amll="http://www.example.com/ns/amll"
-    xmlns:itunes="http://music.apple.com/lyric-ttml-internal">
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal">
     <head>
         <metadata>
-            <ttm:agent type="person" xml:id="v1"/>
-            <amll:meta key="spotifyId" value="1s5NxPAmKw8IxkSoZLfhgF"/>
-            <amll:meta key="isrc" value="JPI101301579"/>
-            <amll:meta key="musicName" value="SPLASH FREE"/>
-            <amll:meta key="artists" value="STYLE FIVE"/>
-            <amll:meta key="album" value="SPLASH FREE"/>
-            <amll:meta key="ttmlAuthorGithub" value="68000793"/>
-            <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang"/>
+            <ttm:agent type="person" xml:id="v1" />
+            <amll:meta key="spotifyId" value="1s5NxPAmKw8IxkSoZLfhgF" />
+            <amll:meta key="isrc" value="JPI101301579" />
+            <amll:meta key="musicName" value="SPLASH FREE" />
+            <amll:meta key="artists" value="STYLE FIVE" />
+            <amll:meta key="album" value="SPLASH FREE" />
+            <amll:meta key="ttmlAuthorGithub" value="68000793" />
+            <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
         </metadata>
     </head>
     <body dur="03:53.690">
@@ -346,8 +344,7 @@
                 <span begin="01:17.370" end="01:18.100">て</span>
                 <span begin="01:18.100" end="01:18.290"> </span>
                 <span begin="01:18.290" end="01:19.160">yeh</span>
-                <span ttm:role="x-roman">i tsu ma te mo o wa ra na i na tsu ni me wo ko ra shi te
-                    yeh</span>
+                <span ttm:role="x-roman">i tsu ma te mo o wa ra na i na tsu ni me wo ko ra shi te yeh</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">凝视着永不结束的夏天</span>
             </p>
             <p begin="01:19.500" end="01:23.190" ttm:agent="v1" itunes:key="L22">
