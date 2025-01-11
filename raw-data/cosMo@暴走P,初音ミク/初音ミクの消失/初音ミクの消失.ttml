@@ -261,7 +261,7 @@
                 <span ttm:role="x-roman">o wa ru se ka i VOCALOID</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">是终焉的世界… 「VOCALOID」</span>
             </p>
-            <p begin="00:59.120" end="01:00.830" ttm:agent="v1" itunes:key="L18">
+            <p begin="00:59.120" end="01:00.830" ttm:agent="v2" itunes:key="L18">
                 <span begin="00:59.120" end="00:59.340">「ボ</span>
                 <span begin="00:59.340" end="00:59.450">ク</span>
                 <span begin="00:59.450" end="00:59.620">ガ</span>
@@ -278,7 +278,7 @@
                 <span ttm:role="x-roman">bo ku ga jo u zu ku u ta e na i to ki mo</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">「即使在我歌唱得不好之时</span>
             </p>
-            <p begin="01:01.720" end="01:05.840" ttm:agent="v1" itunes:key="L19">
+            <p begin="01:01.720" end="01:05.840" ttm:agent="v2" itunes:key="L19">
                 <span begin="01:01.720" end="01:01.900">一</span>
                 <span begin="01:01.900" end="01:02.100">緒</span>
                 <span begin="01:02.100" end="01:02.340">ニ</span>
@@ -304,7 +304,7 @@
                 <span ttm:role="x-roman">i ssho ni kyo te ku re ta ･ so ba ni i te, ha ge ma shi te ku re ta</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">你依然陪伴着我…在我的身边、鼓励着我…</span>
             </p>
-            <p begin="01:07.580" end="01:14.230" ttm:agent="v1" itunes:key="L20">
+            <p begin="01:07.580" end="01:14.230" ttm:agent="v2" itunes:key="L20">
                 <span begin="01:07.580" end="01:07.750">喜</span>
                 <span begin="01:07.750" end="01:08.000">ブ</span>
                 <span begin="01:08.000" end="01:08.300">顔</span>
@@ -734,7 +734,7 @@
                 <span ttm:role="x-roman">i ma mo o bo e te ru ka na</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">不知道现在还记不记得呢</span>
             </p>
-            <p begin="02:21.110" end="02:26.000" ttm:agent="v1" itunes:key="L47">
+            <p begin="02:21.110" end="02:26.000" ttm:agent="v2" itunes:key="L47">
                 <span begin="02:21.110" end="02:21.420">「歌</span>
                 <span begin="02:21.420" end="02:21.530">い</span>
                 <span begin="02:21.530" end="02:21.730">た</span>
