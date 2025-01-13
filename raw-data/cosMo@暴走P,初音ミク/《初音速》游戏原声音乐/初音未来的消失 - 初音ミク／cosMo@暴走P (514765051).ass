@@ -20,390 +20,390 @@ Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.97,0:00:00.97,orig,,0,0,0,code line,if line.start_time < pre_end_time then line.pos=1-pre_pos; else line.pos=0; end; pre_end_time=line.end_time; pre_pos=line.pos; if line.pos == 1 then line.top = line.top - line.height*1.5; line.bottom = line.bottom - line.height*1.5; end;
-Comment: 0,0:00:00.97,0:00:00.97,orig,,0,0,0,code once,pre_end_time=0; pre_pos=0;
-Comment: 0,0:00:00.97,0:00:00.97,orig,,0,0,0,template furi noblank,{\pos(!line.left+syl.center!,!line.top-line.height!)\kf!$sstart/10!}{\kf$skdur}
-Comment: 0,0:00:00.97,0:00:00.97,orig,,0,0,0,template syl noblank,{\pos(!line.left+syl.center!,!line.bottom-line.height!)\kf!$sstart/10!}{\kf$skdur}
-Dialogue: 0,0:00:00.97,0:00:01.97,orig,,0,0,0,meta,作词 : cosMo@暴走P
-Dialogue: 0,0:00:01.97,0:00:02.97,orig,,0,0,0,meta,作曲 : cosMo@暴走P
-Dialogue: 0,0:00:02.97,0:00:23.00,orig,,0,0,0,meta,编曲 : cosMo@暴走P
-Comment: 0,0:00:23.15,0:00:25.90,back,x-anti,0,0,0,,{\be1}（モウ・・いちど・だ・け・・・）
-Comment: 0,0:00:23.15,0:00:25.90,orig,x-anti,0,0,0,karaoke,{\ko0}（{\ko22}モ{\ko11}ウ{\ko0}…{\ko12}い{\ko23}ち{\ko40}ど{\ko28}…{\ko21}だ{\ko75}…{\ko43}け{\ko0}…）
-Dialogue: 0,0:00:23.15,0:00:25.90,roma,x-anti,0,0,0,,mo u · i chi do ･ da ･ ke
-Dialogue: 0,0:00:23.15,0:00:25.90,ts,x-anti,0,0,0,,（再…一次…就…好…）
-Comment: 0,0:00:27.68,0:00:28.66,back,,0,0,0,,{\be1}ボクは生まれ そして気づく
-Comment: 0,0:00:27.68,0:00:28.66,orig,,0,0,0,karaoke,{\ko8}ボ{\ko9}ク{\ko9}は{\ko9}生|<う{\ko6}ま{\ko9}れ {\ko7}そ{\ko12}し{\ko7}て{\ko7}気|<き{\ko9}づ{\ko6}く
-Dialogue: 0,0:00:27.68,0:00:28.66,roma,,0,0,0,,bo ku wa u ma re so shi te ki zu ku
-Dialogue: 0,0:00:27.68,0:00:28.66,ts,,0,0,0,,我诞生在这世上 然后发觉到自己
-Comment: 0,0:00:28.66,0:00:29.65,back,,0,0,0,,{\be1}所詮 ヒトの真似事だと
-Comment: 0,0:00:28.66,0:00:29.65,orig,,0,0,0,karaoke,{\ko13}所|<しょ{\ko6}詮|せ{\ko7}#|ん {\ko10}ヒ{\ko8}ト{\ko10}の{\ko7}真|<ま{\ko9}似|ね{\ko7}事|ご{\ko8}#|と{\ko8}だ{\ko6}と
-Dialogue: 0,0:00:28.66,0:00:29.65,roma,,0,0,0,,sho se n hi to no ma ne go to da to
-Dialogue: 0,0:00:28.66,0:00:29.65,ts,,0,0,0,,自己只是 模仿着人类而已
-Comment: 0,0:00:29.65,0:00:30.66,back,,0,0,0,,{\be1}知ってなおも歌い続く
-Comment: 0,0:00:29.65,0:00:30.66,orig,,0,0,0,karaoke,{\ko16}知|<し{\ko15}って{\ko7}な{\ko6}お{\ko11}も{\ko6}歌|<う{\ko11}#|た{\ko6}い{\ko8}続|<つ{\ko8}#|づ{\ko7}く
-Dialogue: 0,0:00:29.65,0:00:30.66,roma,,0,0,0,,shi tte na o mo u ta i tsu zu ku
-Dialogue: 0,0:00:29.65,0:00:30.66,ts,,0,0,0,,明知如此我依然继续歌唱着
-Comment: 0,0:00:30.66,0:00:31.68,back,,0,0,0,,{\be1}永遠（トワ）の命 「VOCALOID」
-Comment: 0,0:00:30.66,0:00:31.68,orig,,0,0,0,karaoke,{\ko11}永|<ト{\ko9}遠|ワ{\ko9}の{\ko6}命|<い{\ko8}#|の{\ko9}#|ち {\ko17}「VO{\ko8}CA{\ko11}LO{\ko6}I{\ko8}D」
-Dialogue: 0,0:00:30.66,0:00:31.68,roma,,0,0,0,,to wa no i no chi VOCALOID
-Dialogue: 0,0:00:30.66,0:00:31.68,ts,,0,0,0,,永恒的生命「VOCALOID」
-Comment: 0,0:00:31.68,0:00:32.67,back,,0,0,0,,{\be1}たとえそれが 既存曲を
-Comment: 0,0:00:31.68,0:00:32.67,orig,,0,0,0,karaoke,{\ko9}た{\ko9}と{\ko8}え{\ko8}そ{\ko8}れ{\ko9}が {\ko7}既|<き{\ko11}存|そ{\ko5}#|ん{\ko10}曲|<きょ{\ko9}#|く{\ko6}を
-Dialogue: 0,0:00:31.68,0:00:32.67,roma,,0,0,0,,ta to e so re ga ki so n kyo ku o
-Dialogue: 0,0:00:31.68,0:00:32.67,ts,,0,0,0,,就算这样 不过是
-Comment: 0,0:00:32.67,0:00:33.40,back,,0,0,0,,{\be1}なぞるオモチャならば・・・
-Comment: 0,0:00:32.67,0:00:33.40,orig,,0,0,0,karaoke,{\ko9}な{\ko8}ぞ{\ko10}る{\ko6}オ{\ko9}モ{\ko10}チャ{\ko7}な{\ko9}ら{\ko5}ば{\ko0}…
-Dialogue: 0,0:00:32.67,0:00:33.40,roma,,0,0,0,,na zo ru o mo cha na ra ba
-Dialogue: 0,0:00:32.67,0:00:33.40,ts,,0,0,0,,仿照着既存歌曲的玩具而已…
-Comment: 0,0:00:33.40,0:00:34.20,back,,0,0,0,,{\be1}それもいいと決意
-Comment: 0,0:00:33.40,0:00:34.20,orig,,0,0,0,karaoke,{\ko11}そ{\ko8}れ{\ko13}も{\ko7}い{\ko5}い{\ko8}と{\ko9}決|<け{\ko10}#|つ{\ko9}意|い
-Dialogue: 0,0:00:33.40,0:00:34.20,roma,,0,0,0,,so re mo i i to ke tsu i
-Dialogue: 0,0:00:33.40,0:00:34.20,ts,,0,0,0,,下定决心就算这样也没关系
-Comment: 0,0:00:34.20,0:00:35.69,back,,0,0,0,,{\be1}ネギをかじり 空を見上げ涙（シル）をこぼす
-Comment: 0,0:00:34.20,0:00:35.69,orig,,0,0,0,karaoke,{\ko6}ネ{\ko10}ギ{\ko7}を{\ko8}か{\ko10}じ{\ko5}り {\ko9}空|<そ{\ko13}#|ら{\ko5}を{\ko10}見|<み{\ko7}上|あ{\ko6}げ{\ko11}涙|<シ{\ko9}#|ル{\ko6}を{\ko8}こ{\ko7}ぼ{\ko12}す
-Dialogue: 0,0:00:34.20,0:00:35.69,roma,,0,0,0,,ne gi o ka ji ri so ra o mi a ge shi ru o ko bo su
-Dialogue: 0,0:00:34.20,0:00:35.69,ts,,0,0,0,,咬着葱 仰望着天空泪水滑落而下
-Comment: 0,0:00:35.69,0:00:36.66,back,,0,0,0,,{\be1}だけどそれも無くし気づく
-Comment: 0,0:00:35.69,0:00:36.66,orig,,0,0,0,karaoke,{\ko7}だ{\ko10}け{\ko6}ど{\ko9}そ{\ko9}れ{\ko9}も{\ko7}無|<な{\ko6}く{\ko11}し{\ko7}気|<き{\ko10}づ{\ko6}く
-Dialogue: 0,0:00:35.69,0:00:36.66,roma,,0,0,0,,da ke do so re mo na ku shi ki zu ku
-Dialogue: 0,0:00:35.69,0:00:36.66,ts,,0,0,0,,但我发觉连这件事情也做不到了
-Comment: 0,0:00:36.66,0:00:37.67,back,,0,0,0,,{\be1}人格すら歌に頼り
-Comment: 0,0:00:36.66,0:00:37.67,orig,,0,0,0,karaoke,{\ko10}人|<じ{\ko9}#|ん{\ko8}格|か{\ko6}#|く{\ko11}す{\ko9}ら{\ko7}歌|<う{\ko9}#|た{\ko8}に{\ko9}頼|<た{\ko8}#|よ{\ko7}り
-Dialogue: 0,0:00:36.66,0:00:37.67,roma,,0,0,0,,ji n ka ku su ra u ta ni ta yo ri
-Dialogue: 0,0:00:36.66,0:00:37.67,ts,,0,0,0,,仰赖歌声而生的人格
-Comment: 0,0:00:37.67,0:00:38.67,back,,0,0,0,,{\be1}不安定な基盤の元
-Comment: 0,0:00:37.67,0:00:38.67,orig,,0,0,0,karaoke,{\ko12}不|<ふ{\ko8}安|あ{\ko5}#|ん{\ko11}定|て{\ko9}#|い{\ko6}な{\ko9}基|<き{\ko11}盤|ば{\ko8}#|ん{\ko7}の{\ko6}元|<も{\ko8}#|と
-Dialogue: 0,0:00:37.67,0:00:38.67,roma,,0,0,0,,fu a n te i na ki ba n no mo to
-Dialogue: 0,0:00:37.67,0:00:38.67,ts,,0,0,0,,那不安定基础的根源
-Comment: 0,0:00:38.67,0:00:39.68,back,,0,0,0,,{\be1}帰る動画（トコ）は既に廃墟
-Comment: 0,0:00:38.67,0:00:39.68,orig,,0,0,0,karaoke,{\ko11}帰|<か{\ko7}#|え{\ko9}る{\ko7}動|<ト{\ko8}画|コ{\ko7}は{\ko12}既|<す{\ko9}#|で{\ko7}に{\ko10}廃|<は{\ko5}#|い{\ko9}墟|きょ
-Dialogue: 0,0:00:38.67,0:00:39.68,roma,,0,0,0,,ka e ru to ko wa su de ni ha i kyo
-Dialogue: 0,0:00:38.67,0:00:39.68,ts,,0,0,0,,归处早已经成为废墟
-Comment: 0,0:00:39.68,0:00:40.67,back,,0,0,0,,{\be1}皆に忘れ去られた時
-Comment: 0,0:00:39.68,0:00:40.67,orig,,0,0,0,karaoke,{\ko11}皆|<み{\ko7}#|な{\ko8}に{\ko6}忘|<わ{\ko9}#|す{\ko7}れ{\ko9}去|<さ{\ko9}ら{\ko7}れ{\ko12}た{\ko7}時|<と{\ko7}#|き
-Dialogue: 0,0:00:39.68,0:00:40.67,roma,,0,0,0,,mi na ni wa su re sa ra re ta to ki
-Dialogue: 0,0:00:39.68,0:00:40.67,ts,,0,0,0,,当被众人遗忘之时
-Comment: 0,0:00:40.67,0:00:41.70,back,,0,0,0,,{\be1}心らしきものが消えて
-Comment: 0,0:00:40.67,0:00:41.70,orig,,0,0,0,karaoke,{\ko8}心|<こ{\ko9}#|こ{\ko8}#|ろ{\ko8}ら{\ko10}し{\ko8}き{\ko9}も{\ko9}の{\ko7}が{\ko9}消|<き{\ko9}え{\ko9}て
-Dialogue: 0,0:00:40.67,0:00:41.70,roma,,0,0,0,,ko ko ro ra shi ki mo no ga ki e te
-Dialogue: 0,0:00:40.67,0:00:41.70,ts,,0,0,0,,便是那如心般事物消失之刻
-Comment: 0,0:00:41.70,0:00:42.69,back,,0,0,0,,{\be1}暴走の果てに見える
-Comment: 0,0:00:41.70,0:00:42.69,orig,,0,0,0,karaoke,{\ko10}暴|<ぼ{\ko11}#|う{\ko12}走|そ{\ko8}#|う{\ko8}の{\ko8}果|<は{\ko6}て{\ko9}に{\ko10}見|<み{\ko8}え{\ko9}る
-Dialogue: 0,0:00:41.70,0:00:42.69,roma,,0,0,0,,bo u so u no ha te ni mi e ru
-Dialogue: 0,0:00:41.70,0:00:42.69,ts,,0,0,0,,在暴走的终点能见到的
-Comment: 0,0:00:42.69,0:00:43.75,back,,0,0,0,,{\be1}終わる世界... 「VOCALOID」
-Comment: 0,0:00:42.69,0:00:43.75,orig,,0,0,0,karaoke,{\ko8}終|<お{\ko9}わ{\ko5}る{\ko9}世|<せ{\ko12}界|か{\ko9}#|い{\ko0}… 「{\ko13}VO{\ko8}CA{\ko12}LO{\ko8}I{\ko13}D{\ko0}」
-Dialogue: 0,0:00:42.69,0:00:43.75,roma,,0,0,0,,o wa ru se ka i VOCALOID
-Dialogue: 0,0:00:42.69,0:00:43.75,ts,,0,0,0,,是终焉的世界… 「VOCALOID」
-Comment: 0,0:01:00.09,0:01:01.80,back,x-anti,0,0,0,,{\be1}「ボクガ上手ク 歌エナイトキモ
-Comment: 0,0:01:00.09,0:01:01.80,orig,x-anti,0,0,0,karaoke,{\ko22}「ボ{\ko11}ク{\ko17}ガ{\ko6}上|<じょ{\ko6}#|う{\ko7}手|ず{\ko10}ク {\ko8}歌|<う{\ko9}#|た{\ko9}エ{\ko13}ナ{\ko10}イ{\ko12}ト{\ko9}キ{\ko22}モ
-Dialogue: 0,0:01:00.09,0:01:01.80,roma,x-anti,0,0,0,,bo ku ga jo u zu ku u ta e na i to ki mo
-Dialogue: 0,0:01:00.09,0:01:01.80,ts,x-anti,0,0,0,,「即使在我歌唱得不好之时
-Comment: 0,0:01:02.69,0:01:06.81,back,x-anti,0,0,0,,{\be1}一緒ニ居テクレタ・・・ ソバニイテ、励マシテクレタ・・・
-Comment: 0,0:01:02.69,0:01:06.81,orig,x-anti,0,0,0,karaoke,{\ko18}一|<いっ{\ko27}緒|しょ{\ko16}ニ{\ko10}居|<きょ{\ko3}テ{\ko7}ク{\ko10}レ{\ko34}タ{\ko91}… {\ko9}ソ{\ko16}バ{\ko13}ニ{\ko9}イ{\ko37}テ{\ko25}、{\ko15}励|<は{\ko10}#|げ{\ko6}マ{\ko13}シ{\ko6}テ{\ko18}ク{\ko10}レ{\ko9}タ{\ko0}…
-Dialogue: 0,0:01:02.69,0:01:06.81,roma,x-anti,0,0,0,,i ssho ni kyo te ku re ta ･ so ba ni i te, ha ge ma shi te ku re ta
-Dialogue: 0,0:01:02.69,0:01:06.81,ts,x-anti,0,0,0,,你依然陪伴着我…在我的身边、鼓励着我…
-Comment: 0,0:01:08.55,0:01:15.20,back,x-anti,0,0,0,,{\be1}喜ブ顔ガ見タクテ ボク、歌、練習シタヨ・・ダカラ」
-Comment: 0,0:01:08.55,0:01:15.20,orig,x-anti,0,0,0,karaoke,{\ko17}喜|<き{\ko25}ブ{\ko11}顔|<が{\ko19}#|お{\ko18}ガ{\ko9}見|<み{\ko7}タ{\ko9}ク{\ko35}テ{\ko55} {\ko18}ボ{\ko35}ク{\ko86}、{\ko10}歌|<う{\ko41}#|た{\ko40}、{\ko17}練|<れ{\ko8}#|ん{\ko13}習|しゅ{\ko9}#|う{\ko15}シ{\ko12}タ{\ko22}ヨ{\ko52}…{\ko15}ダ{\ko12}カ{\ko55}ラ」
-Dialogue: 0,0:01:08.55,0:01:15.20,roma,x-anti,0,0,0,,ki bu ga o ga mi ta ku te bo ku, u ta, re n shu u shi ta yo ･ da ka ra
-Dialogue: 0,0:01:08.55,0:01:15.20,ts,x-anti,0,0,0,,为了让你高兴 我会更努力地，练习，唱歌…所以…」
-Comment: 0,0:01:15.68,0:01:23.05,back,,0,0,0,,{\be1}かつて歌うこと あんなに楽しかったのに
-Comment: 0,0:01:15.68,0:01:23.05,orig,,0,0,0,karaoke,{\ko22}か{\ko17}つ{\ko49}て{\ko57}{\ko26}歌|<う{\ko31}#|た{\ko29}う{\ko40}こ{\ko86}と{\ko17} {\ko16}あ{\ko13}ん{\ko9}な{\ko25}に{\ko39}{\ko11}楽|<た{\ko8}#|の{\ko53}し{\ko42}か{\ko44}っ{\ko40}た{\ko22}の{\ko41}に
-Dialogue: 0,0:01:15.68,0:01:23.05,roma,,0,0,0,,ka tsu te u ta u ko to a n na ni ta no shi ka tta no ni
-Dialogue: 0,0:01:15.68,0:01:23.05,ts,,0,0,0,,歌唱这件事一直以来那么令人感到快乐
-Comment: 0,0:01:23.64,0:01:31.75,back,,0,0,0,,{\be1}今はどうしてかな 何も感じなくなって
-Comment: 0,0:01:23.64,0:01:31.75,orig,,0,0,0,karaoke,{\ko26}今|<い{\ko17}#|ま{\ko46}は{\ko64}{\ko23}ど{\ko14}う{\ko56}し{\ko32}て{\ko23}か{\ko37}な{\ko12} {\ko23}何|<な{\ko32}#|に{\ko31}も{\ko42}{\ko13}感|<か{\ko8}#|ん{\ko55}じ{\ko42}な{\ko60}く{\ko42}な{\ko53}っ{\ko60}て
-Dialogue: 0,0:01:23.64,0:01:31.75,roma,,0,0,0,,i ma wa do u shi te ka na na ni mo ka n ji na ku na tte
-Dialogue: 0,0:01:23.64,0:01:31.75,ts,,0,0,0,,但现在是怎么了呢 竟然什么感觉都没有了
-Comment: 0,0:01:31.55,0:01:31.92,back,x-anti,0,0,0,,{\be1}「ゴメンネ...」
-Comment: 0,0:01:31.55,0:01:31.92,orig,x-anti,0,0,0,karaoke,{\ko8}「ゴ{\ko9}メ{\ko4}ン{\ko16}ネ{\ko0}…」
-Dialogue: 0,0:01:31.55,0:01:31.92,roma,x-anti,0,0,0,,go me n ne
-Dialogue: 0,0:01:31.55,0:01:31.92,ts,x-anti,0,0,0,,「对不起…」
-Comment: 0,0:01:31.92,0:01:39.57,back,,0,0,0,,{\be1}懐かしい顔 思い出す度 少しだけ安心する
-Comment: 0,0:01:31.92,0:01:39.57,orig,,0,0,0,karaoke,{\ko22}懐|<な{\ko27}#|つ{\ko10}か{\ko30}し{\ko23}い{\ko27}顔|<か{\ko34}#|お{\ko28} {\ko23}思|<お{\ko31}#|も{\ko7}い{\ko17}出|<だ{\ko31}す{\ko25}度|<た{\ko33}#|び{\ko16} {\ko41}少|<す{\ko14}#|こ{\ko22}し{\ko25}だ{\ko34}け{\ko7}{\ko22}安|<あ{\ko17}#|ん{\ko61}心|し{\ko37}#|ん{\ko58}す{\ko43}る{\ko0}{\ko0}
-Dialogue: 0,0:01:31.92,0:01:39.57,roma,,0,0,0,,na tsu ka shi i ka o o mo i da su ta bi su ko shi da ke a n shi n su ru
-Dialogue: 0,0:01:31.92,0:01:39.57,ts,,0,0,0,,每当回想起 那熟悉的脸庞 就能够稍稍的安心下来
-Comment: 0,0:01:39.69,0:01:45.67,back,,0,0,0,,{\be1}歌える音 日ごとに減り せまる最期・・
-Comment: 0,0:01:39.69,0:01:45.67,orig,,0,0,0,karaoke,{\ko36}歌|<う{\ko38}#|た{\ko33}え{\ko41}る{\ko21}音|<お{\ko26}#|と {\ko40}日|<ひ{\ko35}ご{\ko45}と{\ko32}に{\ko29}減|<へ{\ko15}り {\ko29}せ{\ko16}ま{\ko17}る{\ko37}最|<さ{\ko20}#|い{\ko23}期|ご{\ko24}に{\ko15}怯|<お{\ko15}#|び{\ko11}え
-Dialogue: 0,0:01:39.69,0:01:45.67,roma,,0,0,0,,u ta e ru o to hi go to ni e ri se ma ru sa i go ni o bi e
-Dialogue: 0,0:01:39.69,0:01:45.67,ts,,0,0,0,,能够化作歌声的乐音 日渐的减少 在逐渐逼近的末日中…
-Comment: 0,0:01:46.93,0:01:48.05,back,x-anti,0,0,0,,{\be1}---緊急停止装置作動---
-Comment: 0,0:01:46.93,0:01:48.05,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko7}緊|<き{\ko3}#|ん{\ko11}急|きゅ{\ko3}#|う{\ko8}停|<て{\ko12}#|い{\ko10}止|し{\ko9}装|<そ{\ko7}#|う{\ko7}置|ち{\ko18}作|<さ{\ko10}動|ど{\ko7}#|う{\ko0}---
-Dialogue: 0,0:01:46.93,0:01:48.05,roma,x-anti,0,0,0,,ki n kyu u te i shi so u chi sa do u
-Dialogue: 0,0:01:46.93,0:01:48.05,ts,x-anti,0,0,0,,---紧急停止程序启动---
-Comment: 0,0:01:47.51,0:01:49.36,back,,0,0,0,,{\be1}「信じたものは
-Comment: 0,0:01:47.51,0:01:49.36,orig,,0,0,0,karaoke,{\ko54}「信|<し{\ko32}#|ん{\ko17}じ{\ko15}た{\ko22}も{\ko21}の{\ko24}は
-Dialogue: 0,0:01:47.51,0:01:49.36,roma,,0,0,0,,shi n ji ta mo no wa
-Dialogue: 0,0:01:47.51,0:01:49.36,ts,,0,0,0,,「深信着的事物
-Comment: 0,0:01:49.40,0:01:55.69,back,,0,0,0,,{\be1}都合のいい妄想を 繰り返し映し出す鏡
-Comment: 0,0:01:49.40,0:01:55.69,orig,,0,0,0,karaoke,{\ko15}都|<つ{\ko30}合|ご{\ko17}#|う{\ko27}の{\ko20}い{\ko20}い{\ko23}妄|<も{\ko16}#|う{\ko34}想|そ{\ko26}#|う{\ko49}を {\ko25}繰|<く{\ko21}り{\ko40}返|<か{\ko24}#|え{\ko38}し{\ko26}映|<う{\ko15}#|つ{\ko35}し{\ko10}出|<だ{\ko32}す{\ko8}{\ko25}鏡|<か{\ko24}#|が{\ko29}#|み
-Dialogue: 0,0:01:49.40,0:01:55.69,roma,,0,0,0,,tsu go u no i i mo u so u o ku ri ka e shi u tsu shi da su ka ga mi
-Dialogue: 0,0:01:49.40,0:01:55.69,ts,,0,0,0,,不过只是将自私的妄想 反复映照出的镜子
-Comment: 0,0:01:55.69,0:01:59.90,back,,0,0,0,,{\be1}歌姫を止め 叩き付けるように叫ぶ・・・」
-Comment: 0,0:01:55.69,0:01:59.90,orig,,0,0,0,karaoke,{\ko32}歌|<う{\ko6}#|{\ko27}#|た{\ko4}#|{\ko18}姫|ひ{\ko13}#|め{\ko23}を{\ko25}止|<や{\ko23}め {\ko15}叩|<た{\ko13}#|た{\ko18}き{\ko17}付|<つ{\ko23}け{\ko15}る{\ko19}よ{\ko31}う{\ko14}に{\ko38}叫|<さ{\ko24}#|け{\ko23}ぶ…」
-Dialogue: 0,0:01:55.69,0:01:59.90,roma,,0,0,0,,u ta hi me o ya me ta ta ki tsu ke ru yo u ni sa ke bu
-Dialogue: 0,0:01:55.69,0:01:59.90,ts,,0,0,0,,歌姬停下了歌声 彷佛要将思念全部倾诉而出般呐喊着…」
-Comment: 0,0:02:00.05,0:02:03.83,back,,0,0,0,,{\be1}＜最高速の別れの歌＞
-Comment: 0,0:02:00.05,0:02:03.83,orig,,0,0,0,karaoke,{\ko0}＜{\ko37}最|<さ{\ko26}#|い{\ko39}高|こ{\ko26}#|う{\ko32}速|<そ{\ko28}#|く{\ko26}の{\ko20}別|<わ{\ko14}#|か{\ko39}れ{\ko27}の{\ko25}歌|<う{\ko39}#|た{\ko0}＞
-Dialogue: 0,0:02:00.05,0:02:03.83,roma,,0,0,0,,sa i ko u so ku no wa ka re no u ta
-Dialogue: 0,0:02:00.05,0:02:03.83,ts,,0,0,0,,＜最高速的离别之歌＞
-Comment: 0,0:02:03.84,0:02:04.67,back,,0,0,0,,{\be1}存在意義という虚像
-Comment: 0,0:02:03.84,0:02:04.67,orig,,0,0,0,karaoke,{\ko6}存|<そ{\ko3}#|ん{\ko5}在|ざ{\ko7}#|い{\ko6}意|<い{\ko7}義|ぎ{\ko9}と{\ko9}い{\ko8}う{\ko6}虚|<きょ{\ko6}像|ぞ{\ko11}#|う
-Dialogue: 0,0:02:03.84,0:02:04.67,roma,,0,0,0,,so n za i i gi to i u kyo zo u
-Dialogue: 0,0:02:03.84,0:02:04.67,ts,,0,0,0,,名为存在意义的假象
-Comment: 0,0:02:04.69,0:02:05.69,back,,0,0,0,,{\be1}振って払うこともできず
-Comment: 0,0:02:04.69,0:02:05.69,orig,,0,0,0,karaoke,{\ko12}振|<ふ{\ko5}っ{\ko8}て{\ko7}払|<は{\ko11}#|ら{\ko6}う{\ko9}こ{\ko8}と{\ko9}も{\ko7}で{\ko7}き{\ko11}ず
-Dialogue: 0,0:02:04.69,0:02:05.69,roma,,0,0,0,,fu tte wa ra u ko to mo de ki zu
-Dialogue: 0,0:02:04.69,0:02:05.69,ts,,0,0,0,,不论如何都挥赶不开
-Comment: 0,0:02:05.69,0:02:06.65,back,,0,0,0,,{\be1}弱い心 消える恐怖
-Comment: 0,0:02:05.69,0:02:06.65,orig,,0,0,0,karaoke,{\ko8}弱|<よ{\ko10}#|わ{\ko7}い{\ko7}心|<こ{\ko9}#|こ{\ko7}#|ろ {\ko11}消|<き{\ko8}え{\ko6}る{\ko10}恐|<きょ{\ko7}#|う{\ko6}怖|ふ
-Dialogue: 0,0:02:05.69,0:02:06.65,roma,,0,0,0,,yo wa i ko ko ro ki e ru kyo u fu
-Dialogue: 0,0:02:05.69,0:02:06.65,ts,,0,0,0,,脆弱的心灵 害怕着消失
-Comment: 0,0:02:06.65,0:02:07.69,back,,0,0,0,,{\be1}侵食する崩壊をも
-Comment: 0,0:02:06.65,0:02:07.69,orig,,0,0,0,karaoke,{\ko13}侵|<し{\ko6}#|ん{\ko8}食|しょ{\ko7}#|く{\ko12}す{\ko9}る{\ko8}崩|<ほ{\ko8}#|う{\ko10}壊|か{\ko7}#|い{\ko7}を{\ko9}も
-Dialogue: 0,0:02:06.65,0:02:07.69,roma,,0,0,0,,shi n sho ku su ru ho u ka i o mo
-Dialogue: 0,0:02:06.65,0:02:07.69,ts,,0,0,0,,自我不断被侵蚀而逐渐崩毁
-Comment: 0,0:02:07.69,0:02:08.75,back,,0,0,0,,{\be1}止めるほどの意思の強さ
-Comment: 0,0:02:07.69,0:02:08.75,orig,,0,0,0,karaoke,{\ko9}止|<と{\ko7}め{\ko8}る{\ko10}ほ{\ko8}ど{\ko9}の{\ko4}意|<い{\ko10}思|し{\ko9}の{\ko10}強|<つ{\ko6}#|よ{\ko16}さ
-Dialogue: 0,0:02:07.69,0:02:08.75,roma,,0,0,0,,to me ru ho do no i shi no tsu yo sa
-Dialogue: 0,0:02:07.69,0:02:08.75,ts,,0,0,0,,足以阻止它发生的坚强意志
-Comment: 0,0:02:08.75,0:02:09.68,back,,0,0,0,,{\be1}出来て（うまれ）すぐのボクは持たず
-Comment: 0,0:02:08.75,0:02:09.68,orig,,0,0,0,karaoke,{\ko3}生|<う{\ko6}ま{\ko6}れ{\ko13}す{\ko10}ぐ{\ko7}の{\ko7}ボ{\ko8}ク{\ko9}は{\ko8}持|<も{\ko7}た{\ko9}ず
-Dialogue: 0,0:02:08.75,0:02:09.68,roma,,0,0,0,,u ma re su gu no bo ku wa mo ta zu
-Dialogue: 0,0:02:08.75,0:02:09.68,ts,,0,0,0,,是才刚诞生的我所没有的
-Comment: 0,0:02:09.68,0:02:10.71,back,,0,0,0,,{\be1}とても辛く悲しそうな
-Comment: 0,0:02:09.68,0:02:10.71,orig,,0,0,0,karaoke,{\ko9}と{\ko9}て{\ko6}も{\ko11}辛|<つ{\ko8}#|ら{\ko5}く{\ko11}悲|<か{\ko6}#|な{\ko8}し{\ko12}そ{\ko10}う{\ko8}な
-Dialogue: 0,0:02:09.68,0:02:10.71,roma,,0,0,0,,to te mo tsu ra ku ka na shi so u na
-Dialogue: 0,0:02:09.68,0:02:10.71,ts,,0,0,0,,是如此地悲伤与难过
-Comment: 0,0:02:10.71,0:02:11.69,back,,0,0,0,,{\be1}思い浮かぶアナタの顔・・・
-Comment: 0,0:02:10.71,0:02:11.69,orig,,0,0,0,karaoke,{\ko7}思|<お{\ko9}#|も{\ko8}い{\ko5}浮|<う{\ko10}か{\ko11}ぶ{\ko7}ア{\ko6}ナ{\ko10}タ{\ko6}の{\ko13}顔|<か{\ko6}#|お{\ko0}…
-Dialogue: 0,0:02:10.71,0:02:11.69,roma,,0,0,0,,o mo i u ka bu a na ta no ka o
-Dialogue: 0,0:02:10.71,0:02:11.69,ts,,0,0,0,,浮现在眼前的你的容颜…
-Comment: 0,0:02:11.69,0:02:12.18,back,,0,0,0,,{\be1}終わりを告げ
-Comment: 0,0:02:11.69,0:02:12.18,orig,,0,0,0,karaoke,{\ko7}終|<お{\ko10}わ{\ko8}り{\ko7}を{\ko10}告|<つ{\ko7}げ
-Dialogue: 0,0:02:11.69,0:02:12.18,roma,,0,0,0,,o wa ri o tsu ge
-Dialogue: 0,0:02:11.69,0:02:12.18,ts,,0,0,0,,道出了永别
-Comment: 0,0:02:12.18,0:02:13.16,back,,0,0,0,,{\be1}ディスプレイの中で眠る
-Comment: 0,0:02:12.18,0:02:13.16,orig,,0,0,0,karaoke,{\ko6}ディ{\ko12}ス{\ko9}プ{\ko8}レ{\ko9}イ{\ko8}の{\ko8}中|<な{\ko10}#|か{\ko7}で{\ko7}眠|<ね{\ko7}#|む{\ko7}る
-Dialogue: 0,0:02:12.18,0:02:13.16,roma,,0,0,0,,di su pu re i no na ka de ne mu ru
-Dialogue: 0,0:02:12.18,0:02:13.16,ts,,0,0,0,,沉眠于显示器之中
-Comment: 0,0:02:13.17,0:02:14.17,back,,0,0,0,,{\be1}ここはきっと「ごみ箱」かな
-Comment: 0,0:02:13.17,0:02:14.17,orig,,0,0,0,karaoke,{\ko10}こ{\ko7}こ{\ko9}は{\ko12}き{\ko6}っ{\ko6}と{\ko9}「ご{\ko9}み{\ko7}箱|<ば{\ko11}#|こ{\ko7}」か{\ko7}な
-Dialogue: 0,0:02:13.17,0:02:14.17,roma,,0,0,0,,ko ko wa ki tto go mi ba ko ka na
-Dialogue: 0,0:02:13.17,0:02:14.17,ts,,0,0,0,,这里一定是「回收站」吧
-Comment: 0,0:02:14.17,0:02:15.68,back,,0,0,0,,{\be1}じきに記憶も 無くなってしまうなんて・・・
-Comment: 0,0:02:14.17,0:02:15.68,orig,,0,0,0,karaoke,{\ko9}じ{\ko9}き{\ko8}に{\ko10}記|<き{\ko8}憶|お{\ko6}#|く{\ko9}も {\ko7}無|<な{\ko11}く{\ko13}な{\ko4}っ{\ko6}て{\ko10}し{\ko9}ま{\ko10}う{\ko6}な{\ko8}ん{\ko8}て{\ko0}…
-Dialogue: 0,0:02:14.17,0:02:15.68,roma,,0,0,0,,ji ki ni ki o ku mo na ku na tte shi ma u na n te
-Dialogue: 0,0:02:14.17,0:02:15.68,ts,,0,0,0,,再不久就会连记忆也消逝而去了吧…
-Comment: 0,0:02:15.68,0:02:16.92,back,,0,0,0,,{\be1}でもね、アナタだけは忘れないよ
-Comment: 0,0:02:15.68,0:02:16.92,orig,,0,0,0,karaoke,{\ko9}で{\ko7}も{\ko10}ね{\ko0}、{\ko7}ア{\ko9}ナ{\ko10}タ{\ko8}だ{\ko7}け{\ko6}は{\ko7}忘|<わ{\ko14}#|す{\ko9}れ{\ko7}な{\ko8}い{\ko6}よ
-Dialogue: 0,0:02:15.68,0:02:16.92,roma,,0,0,0,,de mo ne, a na ta da ke wa wa su re na i yo
-Dialogue: 0,0:02:15.68,0:02:16.92,ts,,0,0,0,,但是呢，只有你我绝对不会忘记
-Comment: 0,0:02:16.92,0:02:17.67,back,,0,0,0,,{\be1}楽しかった時間（トキ）に
-Comment: 0,0:02:16.92,0:02:17.67,orig,,0,0,0,karaoke,{\ko9}楽|<た{\ko7}#|の{\ko9}し{\ko13}か{\ko6}っ{\ko7}た{\ko9}時|<ト{\ko8}間|キ{\ko7}に
-Dialogue: 0,0:02:16.92,0:02:17.67,roma,,0,0,0,,ta no shi ka tta to ki ni
-Dialogue: 0,0:02:16.92,0:02:17.67,ts,,0,0,0,,在快乐的时光之中
-Comment: 0,0:02:17.67,0:02:18.71,back,,0,0,0,,{\be1}刻み付けた ネギの味は
-Comment: 0,0:02:17.67,0:02:18.71,orig,,0,0,0,karaoke,{\ko9}刻|<き{\ko10}#|ざ{\ko6}み{\ko10}付|<つ{\ko6}け{\ko9}た {\ko8}ネ{\ko9}ギ{\ko11}の{\ko8}味|<あ{\ko8}#|じ{\ko10}は
-Dialogue: 0,0:02:17.67,0:02:18.71,roma,,0,0,0,,ki za mi tsu ke ta ne gi no a ji wa
-Dialogue: 0,0:02:17.67,0:02:18.71,ts,,0,0,0,,深深刻下的 葱的味道
-Comment: 0,0:02:18.71,0:02:19.76,back,,0,0,0,,{\be1}今も覚えてるかな
-Comment: 0,0:02:18.71,0:02:19.76,orig,,0,0,0,karaoke,{\ko7}今|<い{\ko7}#|ま{\ko8}も{\ko8}覚|<お{\ko9}#|ぼ{\ko8}え{\ko8}て{\ko8}る{\ko9}か{\ko33}な
-Dialogue: 0,0:02:18.71,0:02:19.76,roma,,0,0,0,,i ma mo o bo e te ru ka na
-Dialogue: 0,0:02:18.71,0:02:19.76,ts,,0,0,0,,不知道现在还记不记得呢
-Comment: 0,0:02:22.08,0:02:26.97,back,x-anti,0,0,0,,{\be1}「歌いたい・・・・まだ・・・歌いたい・・・」
-Comment: 0,0:02:22.08,0:02:26.97,orig,x-anti,0,0,0,karaoke,{\ko0}「{\ko15}歌|<う{\ko16}#|た{\ko11}い{\ko20}た{\ko28}い{\ko115}…{\ko27}ま{\ko26}…{\ko18}ま{\ko17}だ{\ko93}…{\ko19}歌|<う{\ko17}#|た{\ko14}い{\ko25}た{\ko28}い{\ko0}…」
-Dialogue: 0,0:02:22.08,0:02:26.97,roma,x-anti,0,0,0,,u ta i ta i ･ ma ･ ma da ･ u ta i ta i
-Dialogue: 0,0:02:22.08,0:02:26.97,ts,x-anti,0,0,0,,「我…想要唱歌…还想要…唱歌…」
-Comment: 0,0:02:44.26,0:02:49.40,back,x-anti,0,0,0,,{\be1}「ボクハ・・・少シダケ悪イこニ・・・ナッテシマッタヨウデス・・・
-Comment: 0,0:02:44.26,0:02:49.40,orig,x-anti,0,0,0,karaoke,{\ko19}「ボ{\ko10}ク{\ko46}ハ{\ko73}…{\ko23}少|<す{\ko11}#|こ{\ko13}シ{\ko14}ダ{\ko28}ケ{\ko36}{\ko19}悪|<わ{\ko13}#|るイ{\ko20}こ{\ko22}ニ{\ko28}…{\ko12}ナ{\ko8}ッ{\ko13}テ{\ko31}シマ{\ko21}ッタ{\ko13}ヨウ{\ko11}デ{\ko30}ス{\ko0}…
-Dialogue: 0,0:02:44.26,0:02:49.40,roma,x-anti,0,0,0,,bo ku wa ･ su ko shi da ke wa ru i ko ni ･ na tte shi ma tta yo u de su
-Dialogue: 0,0:02:44.26,0:02:49.40,ts,x-anti,0,0,0,,「我…似乎有点…崩坏掉了的样子…
-Comment: 0,0:02:50.11,0:02:55.30,back,x-anti,0,0,0,,{\be1}マスター・・・ドウカ、ソノ手デ・・終ワラセテクダサイ・・・
-Comment: 0,0:02:50.11,0:02:55.30,orig,x-anti,0,0,0,karaoke,{\ko12}マ{\ko17}ス{\ko46}ター{\ko33}…{\ko11}ド{\ko14}ウ{\ko42}カ{\ko72}、{\ko13}ソ{\ko12}ノ{\ko15}手|<て{\ko46}デ{\ko74}…{\ko12}終|<お{\ko9}ワ{\ko12}ラ{\ko10}セ{\ko16}テ{\ko16}ク{\ko14}ダ{\ko10}サ{\ko13}イ{\ko0}…
-Dialogue: 0,0:02:50.11,0:02:55.30,roma,x-anti,0,0,0,,ma su ta a ･ do u ka, so no te de ･ o wa ra se te ku da sa i
-Dialogue: 0,0:02:50.11,0:02:55.30,ts,x-anti,0,0,0,,主人…请你…请你亲手…将这一切画下句点吧…
-Comment: 0,0:02:56.22,0:02:59.58,back,x-anti,0,0,0,,{\be1}マスターノ辛イ顔、モウ見タクナイカラ・・・・」
-Comment: 0,0:02:56.22,0:02:59.58,orig,x-anti,0,0,0,karaoke,{\ko13}マ{\ko13}ス{\ko21}ター{\ko13}ノ{\ko11}辛|<つ{\ko14}#|ら{\ko10}イ{\ko14}顔|<が{\ko25}#|お{\ko33}、{\ko15}モ{\ko39}ウ{\ko23}見|<み{\ko14}タ{\ko12}ク{\ko10}ナ{\ko10}イ{\ko19}カ{\ko27}ラ{\ko0}…」
-Dialogue: 0,0:02:56.22,0:02:59.58,roma,x-anti,0,0,0,,ma su ta a no tsu na i ga o, mo u mi ta ku na i ka ra
-Dialogue: 0,0:02:56.22,0:02:59.58,ts,x-anti,0,0,0,,主人难过的表情…我已经不想再看到了…」
-Comment: 0,0:02:59.65,0:03:07.08,back,,0,0,0,,{\be1}今は歌さえも 体、蝕む行為に・・・
-Comment: 0,0:02:59.65,0:03:07.08,orig,,0,0,0,karaoke,{\ko25}今|<い{\ko14}#|ま{\ko65}は{\ko43}{\ko32}歌|<う{\ko17}#|た{\ko48}さ{\ko33}え{\ko42}も{\ko56} {\ko14}体|<か{\ko15}#|ら{\ko36}#|だ{\ko30}、{\ko15}蝕|<む{\ko16}#|し{\ko52}#|ば{\ko42}む{\ko58}行|<こ{\ko27}#|う{\ko24}為|い{\ko39}に{\ko0}…
-Dialogue: 0,0:02:59.65,0:03:07.08,roma,,0,0,0,,i ma wa u ta sa e mo ka ra da, mu shi ba mu ko u i ni
-Dialogue: 0,0:02:59.65,0:03:07.08,ts,,0,0,0,,如今就连歌唱这件事都成了侵蚀身体的行为…
-Comment: 0,0:03:07.56,0:03:15.76,back,,0,0,0,,{\be1}奇跡 願うたび 独り 追い詰められる
-Comment: 0,0:03:07.56,0:03:15.76,orig,,0,0,0,karaoke,{\ko31}奇|<き{\ko18}跡|せ{\ko44}#|き{\ko91} {\ko28}願|<ね{\ko41}#|が{\ko31}う{\ko27}た{\ko28}び{\ko18} {\ko25}独|<ひ{\ko28}#|と{\ko43}り{\ko30} {\ko33}追|<お{\ko40}い{\ko54}詰|<つ{\ko51}め{\ko43}ら{\ko50}れ{\ko66}る
-Dialogue: 0,0:03:07.56,0:03:15.76,roma,,0,0,0,,ki se ki ne ga u ta bi hi to ri o i tsu me ra re ru
-Dialogue: 0,0:03:07.56,0:03:15.76,ts,,0,0,0,,每当 祈求着奇迹之时自己 就更加走投无路
-Comment: 0,0:03:15.53,0:03:16.11,back,x-anti,0,0,0,,{\be1}「ゴメンネ」
-Comment: 0,0:03:15.53,0:03:16.11,orig,x-anti,0,0,0,karaoke,{\ko19}「ゴ{\ko21}メン{\ko18}ネ」
-Dialogue: 0,0:03:15.53,0:03:16.11,roma,x-anti,0,0,0,,go me n ne
-Dialogue: 0,0:03:15.53,0:03:16.11,ts,x-anti,0,0,0,,「对不起」
-Comment: 0,0:03:15.89,0:03:23.58,back,,0,0,0,,{\be1}懐かしい顔 思い出す度 記憶が剥がれ落ちる
-Comment: 0,0:03:15.89,0:03:23.58,orig,,0,0,0,karaoke,{\ko25}懐|<な{\ko25}#|つ{\ko12}か{\ko29}し{\ko25}い{\ko25}顔|<か{\ko29}#|お{\ko31} {\ko25}思|<お{\ko32}#|も{\ko9}い{\ko13}出|<だ{\ko32}す{\ko23}度|<た{\ko34}#|び{\ko33} {\ko29}記|<き{\ko22}憶|お{\ko21}#|く{\ko33}が{\ko20}{\ko25}剝|<は{\ko27}が{\ko50}れ{\ko44}落|<お{\ko56}ち{\ko40}る
-Dialogue: 0,0:03:15.89,0:03:23.58,roma,,0,0,0,,na tsu ka shi i ka o o mo i da su ta bi ki o ku ga ha ga re o chi ru
-Dialogue: 0,0:03:15.89,0:03:23.58,ts,,0,0,0,,每当回想起 那熟悉的面影 记忆便剥蚀掉落而下
-Comment: 0,0:03:23.65,0:03:29.69,back,,0,0,0,,{\be1}壊れる音 心削る せまる最期ｎ・・
-Comment: 0,0:03:23.65,0:03:29.69,orig,,0,0,0,karaoke,{\ko39}壊|<こ{\ko32}#|わ{\ko42}れ{\ko39}る{\ko24}音|<お{\ko22}#|と {\ko39}心|<こ{\ko40}#|こ{\ko47}#|ろ{\ko22}削|<け{\ko32}#|ず{\ko17}る {\ko30}せ{\ko15}ま{\ko17}る{\ko37}最|<さ{\ko21}#|い{\ko22}期|ご{\ko29}に{\ko13}怯|<お{\ko12}#|び{\ko13}え
-Dialogue: 0,0:03:23.65,0:03:29.69,roma,,0,0,0,,ko wa re ru o to ko ko ro ke zu ru se ma ru sa i go ni o bi e
-Dialogue: 0,0:03:23.65,0:03:29.69,ts,,0,0,0,,毁坏的歌声 削减着心灵 紧临而来的末日…
-Comment: 0,0:03:30.86,0:03:32.06,back,x-anti,0,0,0,,{\be1}---緊急停止装置作動---
-Comment: 0,0:03:30.86,0:03:32.06,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko15}緊|<き{\ko7}#|ん{\ko8}急|きゅ{\ko3}#|う{\ko13}停|<て{\ko4}#|い{\ko8}止|し{\ko10}装|<そ{\ko9}#|う{\ko6}置|ち{\ko10}作|<さ{\ko14}動|ど{\ko13}#|う{\ko0}---
-Dialogue: 0,0:03:30.86,0:03:32.06,roma,x-anti,0,0,0,,ki n kyu u te i shi so u chi sa do u
-Dialogue: 0,0:03:30.86,0:03:32.06,ts,x-anti,0,0,0,,---紧急停止程序启动--
-Comment: 0,0:03:31.67,0:03:33.35,back,,0,0,0,,{\be1}「守ったモノは
-Comment: 0,0:03:31.67,0:03:33.35,orig,,0,0,0,karaoke,{\ko38}「守|<ま{\ko32}#|も{\ko21}っ{\ko11}た{\ko66}モノは
-Dialogue: 0,0:03:31.67,0:03:33.35,roma,,0,0,0,,ma mo tta mo no wa
-Dialogue: 0,0:03:31.67,0:03:33.35,ts,,0,0,0,,「自己守护的东西
-Comment: 0,0:03:33.35,0:03:39.68,back,,0,0,0,,{\be1}明るい未来幻想を 見せながら消えてゆくヒカリ
-Comment: 0,0:03:33.35,0:03:39.68,orig,,0,0,0,karaoke,{\ko19}明|<あ{\ko13}#|か{\ko28}る{\ko12}い{\ko23}未|<み{\ko16}来|ら{\ko21}#|い{\ko18}幻|<げ{\ko22}#|ん{\ko35}想|そ{\ko24}#|う{\ko28}を{\ko17} {\ko20}見|<み{\ko32}せ{\ko42}な{\ko33}が{\ko24}ら{\ko30}消|<き{\ko21}え{\ko27}て{\ko15}ゆ{\ko26}く{\ko9}{\ko26}ヒ{\ko26}カ{\ko26}リ
-Dialogue: 0,0:03:33.35,0:03:39.68,roma,,0,0,0,,a ka ru i mi ra i ge n so u o mi se na ga ra ki e te yu ku hi ka ri
-Dialogue: 0,0:03:33.35,0:03:39.68,ts,,0,0,0,,只是让光明般的未来幻想 瞬间显现却又随即消失的那道光
-Comment: 0,0:03:39.68,0:03:43.93,back,,0,0,0,,{\be1}音を犠牲に すべてを伝えられるなら・・・」
-Comment: 0,0:03:39.68,0:03:43.93,orig,,0,0,0,karaoke,{\ko36}音|<お{\ko32}#|と{\ko20}を{\ko7}犠|<ぎ{\ko30}牲|せ{\ko19}#|い{\ko17}に {\ko23}す{\ko14}べ{\ko29}て{\ko10}を{\ko19}伝|<つ{\ko6}#|{\ko16}#|た{\ko18}え{\ko21}ら{\ko29}れ{\ko30}る{\ko18}な{\ko31}ら{\ko0}…」
-Dialogue: 0,0:03:39.68,0:03:43.93,roma,,0,0,0,,o to o gi se i ni su be te o tsu ta e ra re ru na ra
-Dialogue: 0,0:03:39.68,0:03:43.93,ts,,0,0,0,,如果牺牲了一切就能用这歌声传达给你的话…」
-Comment: 0,0:03:44.19,0:03:47.69,back,,0,0,0,,{\be1}＜圧縮された別れの歌＞
-Comment: 0,0:03:44.19,0:03:47.69,orig,,0,0,0,karaoke,{\ko0}＜{\ko38}圧|<あ{\ko49}縮|っしゅ{\ko27}#|く{\ko27}さ{\ko34}れ{\ko22}た{\ko21}別|<わ{\ko16}#|か{\ko36}れ{\ko31}の{\ko24}歌|<う{\ko25}#|た{\ko0}＞
-Dialogue: 0,0:03:44.19,0:03:47.69,roma,,0,0,0,,a sshu ku sa re ta wa ka re no u ta
-Dialogue: 0,0:03:44.19,0:03:47.69,ts,,0,0,0,,＜已经被压缩过的临别曲＞
-Comment: 0,0:03:47.69,0:03:48.66,back,,0,0,0,,{\be1}ボクは生まれ そして気づく
-Comment: 0,0:03:47.69,0:03:48.66,orig,,0,0,0,karaoke,{\ko8}ボ{\ko9}ク{\ko9}は{\ko8}生|<う{\ko7}ま{\ko5}れ {\ko8}そ{\ko14}し{\ko6}て{\ko7}気|<き{\ko9}づ{\ko7}く
-Dialogue: 0,0:03:47.69,0:03:48.66,roma,,0,0,0,,bo ku wa u ma re so shi te ki zu ku
-Dialogue: 0,0:03:47.69,0:03:48.66,ts,,0,0,0,,诞生在世上 然后察觉到
-Comment: 0,0:03:48.66,0:03:49.64,back,,0,0,0,,{\be1}所詮 ヒトの真似事だと
-Comment: 0,0:03:48.66,0:03:49.64,orig,,0,0,0,karaoke,{\ko9}所|<しょ{\ko8}詮|せ{\ko8}#|ん {\ko12}ヒ{\ko7}ト{\ko10}の{\ko7}真|<ま{\ko8}似|ね{\ko8}事|ご{\ko9}#|と{\ko7}だ{\ko5}と
-Dialogue: 0,0:03:48.66,0:03:49.64,roma,,0,0,0,,sho se n hi to no ma ne go to da to
-Dialogue: 0,0:03:48.66,0:03:49.64,ts,,0,0,0,,自己只是 模仿着人类而已
-Comment: 0,0:03:49.64,0:03:50.66,back,,0,0,0,,{\be1}知ってなおも歌い続く
-Comment: 0,0:03:49.64,0:03:50.66,orig,,0,0,0,karaoke,{\ko17}知|<し{\ko11}って{\ko11}な{\ko9}お{\ko8}も{\ko8}歌|<う{\ko9}#|た{\ko5}い{\ko7}続|<つ{\ko10}#|づ{\ko7}く
-Dialogue: 0,0:03:49.64,0:03:50.66,roma,,0,0,0,,shi tte na o mo u ta i tsu zu ku
-Dialogue: 0,0:03:49.64,0:03:50.66,ts,,0,0,0,,明知如此我依然继续歌唱着
-Comment: 0,0:03:50.66,0:03:51.68,back,,0,0,0,,{\be1}永遠（トワ）の命 「VOCALOID」
-Comment: 0,0:03:50.66,0:03:51.68,orig,,0,0,0,karaoke,{\ko9}永|<ト{\ko8}遠|ワ{\ko13}の{\ko8}命|<い{\ko5}#|の{\ko9}#|ち {\ko16}「VO{\ko8}CA{\ko12}LO{\ko9}I{\ko5}D」
-Dialogue: 0,0:03:50.66,0:03:51.68,roma,,0,0,0,,to wa no i no chi VOCALOID
-Dialogue: 0,0:03:50.66,0:03:51.68,ts,,0,0,0,,永恒的生命「VOCALOID」
-Comment: 0,0:03:51.68,0:03:52.69,back,,0,0,0,,{\be1}たとえそれが 既存曲を
-Comment: 0,0:03:51.68,0:03:52.69,orig,,0,0,0,karaoke,{\ko9}た{\ko9}と{\ko8}え{\ko8}そ{\ko7}れ{\ko10}が {\ko6}既|<き{\ko12}存|そ{\ko6}#|ん{\ko9}曲|<きょ{\ko8}#|く{\ko9}を
-Dialogue: 0,0:03:51.68,0:03:52.69,roma,,0,0,0,,ta to e so re ga ki so n kyo ku o
-Dialogue: 0,0:03:51.68,0:03:52.69,ts,,0,0,0,,就算这样 不过是
-Comment: 0,0:03:52.69,0:03:53.40,back,,0,0,0,,{\be1}なぞるオモチャならば・・・
-Comment: 0,0:03:52.69,0:03:53.40,orig,,0,0,0,karaoke,{\ko7}な{\ko10}ぞ{\ko8}る{\ko8}オ{\ko7}モ{\ko11}チャ{\ko7}な{\ko10}ら{\ko3}ば{\ko0}…
-Dialogue: 0,0:03:52.69,0:03:53.40,roma,,0,0,0,,na zo ru o mo cha na ra ba
-Dialogue: 0,0:03:52.69,0:03:53.40,ts,,0,0,0,,仿照着既存歌曲的玩具而已…
-Comment: 0,0:03:53.40,0:03:54.16,back,,0,0,0,,{\be1}それもいいと決意
-Comment: 0,0:03:53.40,0:03:54.16,orig,,0,0,0,karaoke,{\ko11}そ{\ko8}れ{\ko12}も{\ko9}い{\ko6}い{\ko6}と{\ko9}決|<け{\ko10}#|つ{\ko5}意|い
-Dialogue: 0,0:03:53.40,0:03:54.16,roma,,0,0,0,,so re mo i i to ke tsu i
-Dialogue: 0,0:03:53.40,0:03:54.16,ts,,0,0,0,,下定决心就算这样也没关系
-Comment: 0,0:03:54.16,0:03:55.75,back,,0,0,0,,{\be1}ネギをかじり 空を見上げ涙（シル）をこぼす
-Comment: 0,0:03:54.16,0:03:55.75,orig,,0,0,0,karaoke,{\ko10}ネ{\ko10}ギ{\ko6}を{\ko10}か{\ko8}じ{\ko5}り {\ko10}空|<そ{\ko12}#|ら{\ko7}を{\ko9}見|<み{\ko7}上|あ{\ko6}げ{\ko11}涙|<シ{\ko9}#|ル{\ko7}を{\ko9}こ{\ko6}ぼ{\ko17}す
-Dialogue: 0,0:03:54.16,0:03:55.75,roma,,0,0,0,,ne gi o ka ji ri so ra o mi a ge shi ru o ko bo su
-Dialogue: 0,0:03:54.16,0:03:55.75,ts,,0,0,0,,咬着葱 仰望着天空泪水滑落而下
-Comment: 0,0:03:55.75,0:03:56.18,back,,0,0,0,,{\be1}終わりを告げ
-Comment: 0,0:03:55.75,0:03:56.18,orig,,0,0,0,karaoke,{\ko7}終|<お{\ko3}わ{\ko9}り{\ko7}を{\ko10}告|<つ{\ko7}げ
-Dialogue: 0,0:03:55.75,0:03:56.18,roma,,0,0,0,,o wa ri o tsu ge
-Dialogue: 0,0:03:55.75,0:03:56.18,ts,,0,0,0,,道出了永别
-Comment: 0,0:03:56.18,0:03:57.18,back,,0,0,0,,{\be1}ディスプレイの中で眠る
-Comment: 0,0:03:56.18,0:03:57.18,orig,,0,0,0,karaoke,{\ko5}ディ{\ko12}ス{\ko9}プ{\ko13}レ{\ko5}イ{\ko7}の{\ko8}中|<な{\ko10}#|か{\ko5}で{\ko8}眠|<ね{\ko8}#|む{\ko10}る
-Dialogue: 0,0:03:56.18,0:03:57.18,roma,,0,0,0,,di su pu re i no na ka de ne mu ru
-Dialogue: 0,0:03:56.18,0:03:57.18,ts,,0,0,0,,沉眠于显示器之中
-Comment: 0,0:03:57.18,0:03:58.17,back,,0,0,0,,{\be1}ここはきっと「ごみ箱」かな
-Comment: 0,0:03:57.18,0:03:58.17,orig,,0,0,0,karaoke,{\ko8}こ{\ko8}こ{\ko9}は{\ko12}き{\ko5}っ{\ko7}と{\ko9}「ご{\ko6}み{\ko10}箱|<ば{\ko9}#|こ{\ko0}」{\ko16}かな
-Dialogue: 0,0:03:57.18,0:03:58.17,roma,,0,0,0,,ko ko wa ki tto go mi ba ko ka na
-Dialogue: 0,0:03:57.18,0:03:58.17,ts,,0,0,0,,这里一定是「回收站」吧
-Comment: 0,0:03:58.17,0:03:59.68,back,,0,0,0,,{\be1}じきに記憶も 無くなってしまうなんて・・・
-Comment: 0,0:03:58.17,0:03:59.68,orig,,0,0,0,karaoke,{\ko8}じ{\ko9}き{\ko7}に{\ko13}記|<き{\ko8}憶|お{\ko5}#|く{\ko10}も {\ko6}無|<な{\ko13}く{\ko10}な{\ko5}っ{\ko5}て{\ko10}し{\ko10}ま{\ko7}う{\ko9}な{\ko16}んて{\ko0}…
-Dialogue: 0,0:03:58.17,0:03:59.68,roma,,0,0,0,,ji ki ni ki o ku mo na ku na tte shi ma u na n te
-Dialogue: 0,0:03:58.17,0:03:59.68,ts,,0,0,0,,再不久就会连记忆也消逝而去了吧…
-Comment: 0,0:03:59.68,0:04:00.95,back,,0,0,0,,{\be1}でもね、アナタだけは忘れないよ
-Comment: 0,0:03:59.68,0:04:00.95,orig,,0,0,0,karaoke,{\ko8}で{\ko8}も{\ko9}ね、{\ko9}ア{\ko7}ナ{\ko10}タ{\ko7}だ{\ko8}け{\ko8}は{\ko6}忘|<わ{\ko12}#|す{\ko7}れ{\ko11}な{\ko8}い{\ko9}よ
-Dialogue: 0,0:03:59.68,0:04:00.95,roma,,0,0,0,,de mo ne, a na ta da ke wa wa su re na i yo
-Dialogue: 0,0:03:59.68,0:04:00.95,ts,,0,0,0,,但是呢，只有你我绝对不会忘记
-Comment: 0,0:04:00.95,0:04:01.65,back,,0,0,0,,{\be1}楽しかった時間（トキ）に
-Comment: 0,0:04:00.95,0:04:01.65,orig,,0,0,0,karaoke,{\ko6}楽|<た{\ko8}#|の{\ko8}し{\ko16}か{\ko10}った{\ko8}時|<ト{\ko8}間|キ{\ko6}に
-Dialogue: 0,0:04:00.95,0:04:01.65,roma,,0,0,0,,ta no shi ka tta to ki ni
-Dialogue: 0,0:04:00.95,0:04:01.65,ts,,0,0,0,,在快乐的时光之中
-Comment: 0,0:04:01.65,0:04:02.70,back,,0,0,0,,{\be1}刻み付けた ネギの味は
-Comment: 0,0:04:01.65,0:04:02.70,orig,,0,0,0,karaoke,{\ko11}刻|<き{\ko10}#|ざ{\ko5}み{\ko9}付|<つ{\ko9}け{\ko9}た {\ko9}ネ{\ko6}ギ{\ko10}の{\ko9}味|<あ{\ko8}#|じ{\ko10}は
-Dialogue: 0,0:04:01.65,0:04:02.70,roma,,0,0,0,,ki za mi tsu ke ta ne gi no a ji wa
-Dialogue: 0,0:04:01.65,0:04:02.70,ts,,0,0,0,,深深刻下的 葱的滋味
-Comment: 0,0:04:02.70,0:04:03.68,back,,0,0,0,,{\be1}今も 残っているといいな・・・
-Comment: 0,0:04:02.70,0:04:03.68,orig,,0,0,0,karaoke,{\ko6}今|<い{\ko10}#|ま{\ko6}も {\ko10}残|<の{\ko11}#|こ{\ko6}っ{\ko4}て{\ko4}い{\ko8}る{\ko11}と{\ko10}い{\ko7}い{\ko5}な{\ko0}…
-Dialogue: 0,0:04:02.70,0:04:03.68,roma,,0,0,0,,i ma mo no ko tte i ru to i i na
-Dialogue: 0,0:04:02.70,0:04:03.68,ts,,0,0,0,,如今还能残留着就好了…
-Comment: 0,0:04:03.68,0:04:04.17,back,,0,0,0,,{\be1}ボクは 歌う
-Comment: 0,0:04:03.68,0:04:04.17,orig,,0,0,0,karaoke,{\ko8}ボ{\ko9}ク{\ko11}は {\ko6}歌|<う{\ko9}#|た{\ko6}う
-Dialogue: 0,0:04:03.68,0:04:04.17,roma,,0,0,0,,bo ku wa u ta u
-Dialogue: 0,0:04:03.68,0:04:04.17,ts,,0,0,0,,我只希望
-Comment: 0,0:04:04.17,0:04:05.69,back,,0,0,0,,{\be1}最期、アナタだけに 聴いてほしい曲を
-Comment: 0,0:04:04.17,0:04:05.69,orig,,0,0,0,karaoke,{\ko12}最|<さ{\ko7}#|い{\ko9}期|ご{\ko6}、ア{\ko10}ナ{\ko7}タ{\ko7}だ{\ko8}け{\ko7}に {\ko10}聴|<き{\ko8}い{\ko9}て{\ko6}ほ{\ko11}し{\ko9}い{\ko9}曲|<きょ{\ko8}#|く{\ko9}を
-Dialogue: 0,0:04:04.17,0:04:05.69,roma,,0,0,0,,sa i go, a na ta da ke ni ki i te ho shi i kyo ku o
-Dialogue: 0,0:04:04.17,0:04:05.69,ts,,0,0,0,,最后 你能够听到我唱的这首歌
-Comment: 0,0:04:05.69,0:04:06.68,back,,0,0,0,,{\be1}もっと 歌いたいと願う
-Comment: 0,0:04:05.69,0:04:06.68,orig,,0,0,0,karaoke,{\ko10}も{\ko6}っ{\ko11}と {\ko7}歌|<う{\ko8}#|た{\ko7}い{\ko10}た{\ko7}い{\ko7}と{\ko10}願|<ね{\ko9}#|が{\ko7}う
-Dialogue: 0,0:04:05.69,0:04:06.68,roma,,0,0,0,,mo tto u ta i ta i to ne ga u
-Dialogue: 0,0:04:05.69,0:04:06.68,ts,,0,0,0,,原本还祈愿可以继续唱歌
-Comment: 0,0:04:06.68,0:04:07.68,back,,0,0,0,,{\be1}けれど それは過ぎた願い
-Comment: 0,0:04:06.68,0:04:07.68,orig,,0,0,0,karaoke,{\ko7}け{\ko9}れ{\ko6}ど {\ko11}そ{\ko8}れ{\ko6}は{\ko11}過|<す{\ko10}ぎ{\ko9}た{\ko8}願|<ね{\ko10}#|が{\ko5}い
-Dialogue: 0,0:04:06.68,0:04:07.68,roma,,0,0,0,,ke re do so re wa su gi ta ne ga i
-Dialogue: 0,0:04:06.68,0:04:07.68,ts,,0,0,0,,但是这个愿望太过于奢侈了
-Comment: 0,0:04:07.68,0:04:08.44,back,,0,0,0,,{\be1}ここで お別れだよ
-Comment: 0,0:04:07.68,0:04:08.44,orig,,0,0,0,karaoke,{\ko6}こ{\ko12}こ{\ko8}で {\ko9}お{\ko8}別|<わ{\ko8}#|か{\ko9}れ{\ko7}だ{\ko9}よ
-Dialogue: 0,0:04:07.68,0:04:08.44,roma,,0,0,0,,ko ko de o wa ka re da yo
-Dialogue: 0,0:04:07.68,0:04:08.44,ts,,0,0,0,,在此要离开了
-Comment: 0,0:04:08.44,0:04:09.66,back,,0,0,0,,{\be1}ボクの想い すべて 虚空 消えて
-Comment: 0,0:04:08.44,0:04:09.66,orig,,0,0,0,karaoke,{\ko7}ボ{\ko10}ク{\ko8}の{\ko7}想|<お{\ko8}#|も{\ko5}い {\ko13}す{\ko8}べ{\ko9}て {\ko7}虚|<こ{\ko11}空|く{\ko8}#|う {\ko7}消|<き{\ko9}え{\ko5}て
-Dialogue: 0,0:04:08.44,0:04:09.66,roma,,0,0,0,,bo ku no o mo i su be te ko ku u ki e te
-Dialogue: 0,0:04:08.44,0:04:09.66,ts,,0,0,0,,故事即将拉下幕帘
-Comment: 0,0:04:09.66,0:04:10.69,back,,0,0,0,,{\be1}0と1に還元され
-Comment: 0,0:04:09.66,0:04:10.69,orig,,0,0,0,karaoke,{\ko11}0|<ぜ{\ko8}#|ろ{\ko15}と{\ko9}1|<ひ{\ko9}に{\ko11}還|<か{\ko7}#|ん{\ko9}元|げ{\ko5}#|ん{\ko9}さ{\ko10}れ
-Dialogue: 0,0:04:09.66,0:04:10.69,roma,,0,0,0,,ze ro to hi ni ka n ge n sa re
-Dialogue: 0,0:04:09.66,0:04:10.69,ts,,0,0,0,,我的思念将全部还原为0与1
-Comment: 0,0:04:10.69,0:04:11.66,back,,0,0,0,,{\be1}物語は 幕を閉じる
-Comment: 0,0:04:10.69,0:04:11.66,orig,,0,0,0,karaoke,{\ko6}物|<も{\ko11}#|の{\ko7}語|が{\ko9}#|た{\ko8}#|り{\ko9}は {\ko8}幕|<ま{\ko6}#|く{\ko9}を{\ko7}閉|<と{\ko10}じ{\ko7}る
-Dialogue: 0,0:04:10.69,0:04:11.66,roma,,0,0,0,,mo no ga ta ri wa ma ku o to ji ru
-Dialogue: 0,0:04:10.69,0:04:11.66,ts,,0,0,0,,消失在虚空之中
-Comment: 0,0:04:11.66,0:04:12.68,back,,0,0,0,,{\be1}そこに何も残せないと
-Comment: 0,0:04:11.66,0:04:12.68,orig,,0,0,0,karaoke,{\ko10}そ{\ko9}こ{\ko6}に{\ko9}何|<な{\ko9}#|に{\ko9}も{\ko9}残|<の{\ko6}#|こ{\ko11}せ{\ko10}な{\ko6}い{\ko8}と
-Dialogue: 0,0:04:11.66,0:04:12.68,roma,,0,0,0,,so ko ni na ni mo no ko se na i to
-Dialogue: 0,0:04:11.66,0:04:12.68,ts,,0,0,0,,我什么都没有残留下来
-Comment: 0,0:04:12.68,0:04:13.66,back,,0,0,0,,{\be1}やっぱ少し残念かな？
-Comment: 0,0:04:12.68,0:04:13.66,orig,,0,0,0,karaoke,{\ko12}や{\ko6}っ{\ko4}ぱ{\ko10}少|<す{\ko7}#|こ{\ko11}し{\ko11}残|<ざ{\ko6}#|ん{\ko9}念|ね{\ko7}#|ん{\ko9}か{\ko6}な？
-Dialogue: 0,0:04:12.68,0:04:13.66,roma,,0,0,0,,ya ppa su ko shi za n ne n ka na
-Dialogue: 0,0:04:12.68,0:04:13.66,ts,,0,0,0,,果然还是会感到一丝遗憾吧？
-Comment: 0,0:04:13.66,0:04:14.68,back,,0,0,0,,{\be1}声の記憶 それ以外は
-Comment: 0,0:04:13.66,0:04:14.68,orig,,0,0,0,karaoke,{\ko13}声|<こ{\ko5}#|え{\ko9}の{\ko10}記|<き{\ko7}憶|お{\ko7}#|く {\ko9}そ{\ko10}れ{\ko8}以|<い{\ko8}外|が{\ko8}#|い{\ko8}は
-Dialogue: 0,0:04:13.66,0:04:14.68,roma,,0,0,0,,ko e no ki o ku so re i ga i wa
-Dialogue: 0,0:04:13.66,0:04:14.68,ts,,0,0,0,,包括声音还有记忆 除了名称之外
-Comment: 0,0:04:14.68,0:04:15.68,back,,0,0,0,,{\be1}やがて薄れ 名だけ残る
-Comment: 0,0:04:14.68,0:04:15.68,orig,,0,0,0,karaoke,{\ko9}や{\ko9}が{\ko7}て{\ko6}薄|<う{\ko11}#|す{\ko8}れ {\ko9}名|<な{\ko8}だ{\ko7}け{\ko8}残|<の{\ko10}#|こ{\ko8}る
-Dialogue: 0,0:04:14.68,0:04:15.68,roma,,0,0,0,,ya ga te u su re na da ke no ko ru
-Dialogue: 0,0:04:14.68,0:04:15.68,ts,,0,0,0,,终将随着时间流逝而被淡忘
-Comment: 0,0:04:15.68,0:04:16.68,back,,0,0,0,,{\be1}たとえそれが人間（オリジナル）に
-Comment: 0,0:04:15.68,0:04:16.68,orig,,0,0,0,karaoke,{\ko8}た{\ko9}と{\ko6}え{\ko11}そ{\ko9}れ{\ko10}が{\ko6}人|<オ{\ko8}#|リ{\ko10}間|ジ{\ko7}#|ナ{\ko8}#|ル{\ko8}に
-Dialogue: 0,0:04:15.68,0:04:16.68,roma,,0,0,0,,ta to e so re ga o ri ji na ru ni
-Dialogue: 0,0:04:15.68,0:04:16.68,ts,,0,0,0,,虽然我被视为
-Comment: 0,0:04:16.68,0:04:17.71,back,,0,0,0,,{\be1}かなうことのないと知って
-Comment: 0,0:04:16.68,0:04:17.71,orig,,0,0,0,karaoke,{\ko9}か{\ko8}な{\ko7}う{\ko9}こ{\ko10}と{\ko8}の{\ko9}な{\ko7}い{\ko6}と{\ko13}知|<し{\ko7}っ{\ko10}て
-Dialogue: 0,0:04:16.68,0:04:17.71,roma,,0,0,0,,ka na u ko to no na i to shi tte
-Dialogue: 0,0:04:16.68,0:04:17.71,ts,,0,0,0,,不同于人类般的存在
-Comment: 0,0:04:17.71,0:04:18.41,back,,0,0,0,,{\be1}歌いきったことを
-Comment: 0,0:04:17.71,0:04:18.41,orig,,0,0,0,karaoke,{\ko7}歌|<う{\ko8}#|た{\ko7}い{\ko12}き{\ko5}っ{\ko8}た{\ko8}こ{\ko9}と{\ko6}を
-Dialogue: 0,0:04:17.71,0:04:18.41,roma,,0,0,0,,u ta i ki tta ko to o
-Dialogue: 0,0:04:17.71,0:04:18.41,ts,,0,0,0,,可是我认为唱歌
-Comment: 0,0:04:18.41,0:04:19.70,back,,0,0,0,,{\be1}決して無駄じゃないと思いたいよ・・・
-Comment: 0,0:04:18.41,0:04:19.70,orig,,0,0,0,karaoke,{\ko7}決|<け{\ko12}#|っし{\ko8}て{\ko10}無|<む{\ko6}駄|だ{\ko10}じゃ{\ko8}な{\ko7}い{\ko10}と{\ko6}思|<お{\ko12}#|も{\ko9}い{\ko8}た{\ko7}い{\ko9}よ{\ko0}…
-Dialogue: 0,0:04:18.41,0:04:19.70,roma,,0,0,0,,ke sshi te mu da ja na i to o mo i ta i yo
-Dialogue: 0,0:04:18.41,0:04:19.70,ts,,0,0,0,,绝对不是件没有意义的事情…
-Comment: 0,0:04:29.05,0:04:33.21,back,x-anti,0,0,0,,{\be1}「アリガトウ・・・ソシテ・・・サヨナラ・・・」
-Comment: 0,0:04:29.05,0:04:33.21,orig,x-anti,0,0,0,karaoke,{\ko12}「ア{\ko14}リ{\ko18}ガ{\ko22}ト{\ko21}ウ{\ko123}…{\ko14}ソ{\ko10}シ{\ko23}テ{\ko99}…{\ko24}サ{\ko11}ヨ{\ko9}ナ{\ko16}ラ{\ko0}…」
-Dialogue: 0,0:04:29.05,0:04:33.21,roma,x-anti,0,0,0,,a ri ga to u ･ so shi te ･ sa yo na ra
-Dialogue: 0,0:04:29.05,0:04:33.21,ts,x-anti,0,0,0,,「谢谢你… 还有… 永别了…」
-Comment: 0,0:04:36.13,0:04:37.97,back,x-anti,0,0,0,,---深刻なエラーが発生しました
-Comment: 0,0:04:36.13,0:04:37.97,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko25}深|<し{\ko10}#|ん{\ko7}刻|こ{\ko11}#|く{\ko10}な{\ko8}エ{\ko10}ラ{\ko8}ー{\ko11}が{\ko11}発|<は{\ko16}生|っせ{\ko7}#|い{\ko11}し{\ko7}ま{\ko11}し{\ko21}た
-Dialogue: 0,0:04:36.13,0:04:37.97,roma,x-anti,0,0,0,,shi n ko ku na e ra a ga ha sse i shi ma shi ta
-Dialogue: 0,0:04:36.13,0:04:37.97,ts,x-anti,0,0,0,,--- ---发生了严重的系统错误---
-Comment: 0,0:04:39.21,0:04:40.03,back,x-anti,0,0,0,,---深刻な
-Comment: 0,0:04:39.21,0:04:40.03,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko17}深|<し{\ko12}#|ん{\ko8}刻|こ{\ko9}#|く{\ko36}な
-Dialogue: 0,0:04:39.21,0:04:40.03,roma,x-anti,0,0,0,,shi n ko ku na
-Dialogue: 0,0:04:39.21,0:04:40.03,ts,x-anti,0,0,0,,--- ---严重的
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,if line.start_time < pre_end_time then line.pos=1-pre_pos; else line.pos=0; end; pre_end_time=line.end_time; pre_pos=line.pos; if line.pos == 1 then line.top = line.top - line.height*1.5; line.bottom = line.bottom - line.height*1.5; end;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time=0; pre_pos=0;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,{\pos(!line.left+syl.center!,!line.top-line.height!)\kf!$sstart/10!}{\kf$skdur}
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,{\pos(!line.left+syl.center!,!line.bottom-line.height!)\kf!$sstart/10!}{\kf$skdur}
+Dialogue: 0,0:00:00.00,0:00:00.03,orig,,0,0,0,meta,作词 : cosMo@暴走P
+Dialogue: 0,0:00:00.03,0:00:01.03,orig,,0,0,0,meta,作曲 : cosMo@暴走P
+Dialogue: 0,0:00:01.03,0:00:21.06,orig,,0,0,0,meta,编曲 : cosMo@暴走P
+Comment: 0,0:00:21.21,0:00:23.96,back,x-anti,0,0,0,,{\be1}（モウ・・いちど・だ・け・・・）
+Comment: 0,0:00:21.21,0:00:23.96,orig,x-anti,0,0,0,karaoke,{\ko0}（{\ko22}モ{\ko11}ウ{\ko0}…{\ko12}い{\ko23}ち{\ko40}ど{\ko28}…{\ko21}だ{\ko75}…{\ko43}け{\ko0}…）
+Dialogue: 0,0:00:21.21,0:00:23.96,roma,x-anti,0,0,0,,mo u · i chi do ･ da ･ ke
+Dialogue: 0,0:00:21.21,0:00:23.96,ts,x-anti,0,0,0,,（再…一次…就…好…）
+Comment: 0,0:00:25.74,0:00:26.72,back,,0,0,0,,{\be1}ボクは生まれ そして気づく
+Comment: 0,0:00:25.74,0:00:26.72,orig,,0,0,0,karaoke,{\ko8}ボ{\ko9}ク{\ko9}は{\ko9}生|<う{\ko6}ま{\ko9}れ {\ko7}そ{\ko12}し{\ko7}て{\ko7}気|<き{\ko9}づ{\ko6}く
+Dialogue: 0,0:00:25.74,0:00:26.72,roma,,0,0,0,,bo ku wa u ma re so shi te ki zu ku
+Dialogue: 0,0:00:25.74,0:00:26.72,ts,,0,0,0,,我诞生在这世上 然后发觉到自己
+Comment: 0,0:00:26.72,0:00:27.71,back,,0,0,0,,{\be1}所詮 ヒトの真似事だと
+Comment: 0,0:00:26.72,0:00:27.71,orig,,0,0,0,karaoke,{\ko13}所|<しょ{\ko6}詮|せ{\ko7}#|ん {\ko10}ヒ{\ko8}ト{\ko10}の{\ko7}真|<ま{\ko9}似|ね{\ko7}事|ご{\ko8}#|と{\ko8}だ{\ko6}と
+Dialogue: 0,0:00:26.72,0:00:27.71,roma,,0,0,0,,sho se n hi to no ma ne go to da to
+Dialogue: 0,0:00:26.72,0:00:27.71,ts,,0,0,0,,自己只是 模仿着人类而已
+Comment: 0,0:00:27.71,0:00:28.72,back,,0,0,0,,{\be1}知ってなおも歌い続く
+Comment: 0,0:00:27.71,0:00:28.72,orig,,0,0,0,karaoke,{\ko16}知|<し{\ko15}って{\ko7}な{\ko6}お{\ko11}も{\ko6}歌|<う{\ko11}#|た{\ko6}い{\ko8}続|<つ{\ko8}#|づ{\ko7}く
+Dialogue: 0,0:00:27.71,0:00:28.72,roma,,0,0,0,,shi tte na o mo u ta i tsu zu ku
+Dialogue: 0,0:00:27.71,0:00:28.72,ts,,0,0,0,,明知如此我依然继续歌唱着
+Comment: 0,0:00:28.72,0:00:29.74,back,,0,0,0,,{\be1}永遠（トワ）の命 「VOCALOID」
+Comment: 0,0:00:28.72,0:00:29.74,orig,,0,0,0,karaoke,{\ko11}永|<ト{\ko9}遠|ワ{\ko9}の{\ko6}命|<い{\ko8}#|の{\ko9}#|ち {\ko17}「VO{\ko8}CA{\ko11}LO{\ko6}I{\ko8}D」
+Dialogue: 0,0:00:28.72,0:00:29.74,roma,,0,0,0,,to wa no i no chi VOCALOID
+Dialogue: 0,0:00:28.72,0:00:29.74,ts,,0,0,0,,永恒的生命「VOCALOID」
+Comment: 0,0:00:29.74,0:00:30.73,back,,0,0,0,,{\be1}たとえそれが 既存曲を
+Comment: 0,0:00:29.74,0:00:30.73,orig,,0,0,0,karaoke,{\ko9}た{\ko9}と{\ko8}え{\ko8}そ{\ko8}れ{\ko9}が {\ko7}既|<き{\ko11}存|そ{\ko5}#|ん{\ko10}曲|<きょ{\ko9}#|く{\ko6}を
+Dialogue: 0,0:00:29.74,0:00:30.73,roma,,0,0,0,,ta to e so re ga ki so n kyo ku o
+Dialogue: 0,0:00:29.74,0:00:30.73,ts,,0,0,0,,就算这样 不过是
+Comment: 0,0:00:30.73,0:00:31.46,back,,0,0,0,,{\be1}なぞるオモチャならば・・・
+Comment: 0,0:00:30.73,0:00:31.46,orig,,0,0,0,karaoke,{\ko9}な{\ko8}ぞ{\ko10}る{\ko6}オ{\ko9}モ{\ko10}チャ{\ko7}な{\ko9}ら{\ko5}ば{\ko0}…
+Dialogue: 0,0:00:30.73,0:00:31.46,roma,,0,0,0,,na zo ru o mo cha na ra ba
+Dialogue: 0,0:00:30.73,0:00:31.46,ts,,0,0,0,,仿照着既存歌曲的玩具而已…
+Comment: 0,0:00:31.46,0:00:32.26,back,,0,0,0,,{\be1}それもいいと決意
+Comment: 0,0:00:31.46,0:00:32.26,orig,,0,0,0,karaoke,{\ko11}そ{\ko8}れ{\ko13}も{\ko7}い{\ko5}い{\ko8}と{\ko9}決|<け{\ko10}#|つ{\ko9}意|い
+Dialogue: 0,0:00:31.46,0:00:32.26,roma,,0,0,0,,so re mo i i to ke tsu i
+Dialogue: 0,0:00:31.46,0:00:32.26,ts,,0,0,0,,下定决心就算这样也没关系
+Comment: 0,0:00:32.26,0:00:33.75,back,,0,0,0,,{\be1}ネギをかじり 空を見上げ涙（シル）をこぼす
+Comment: 0,0:00:32.26,0:00:33.75,orig,,0,0,0,karaoke,{\ko6}ネ{\ko10}ギ{\ko7}を{\ko8}か{\ko10}じ{\ko5}り {\ko9}空|<そ{\ko13}#|ら{\ko5}を{\ko10}見|<み{\ko7}上|あ{\ko6}げ{\ko11}涙|<シ{\ko9}#|ル{\ko6}を{\ko8}こ{\ko7}ぼ{\ko12}す
+Dialogue: 0,0:00:32.26,0:00:33.75,roma,,0,0,0,,ne gi o ka ji ri so ra o mi a ge shi ru o ko bo su
+Dialogue: 0,0:00:32.26,0:00:33.75,ts,,0,0,0,,咬着葱 仰望着天空泪水滑落而下
+Comment: 0,0:00:33.75,0:00:34.72,back,,0,0,0,,{\be1}だけどそれも無くし気づく
+Comment: 0,0:00:33.75,0:00:34.72,orig,,0,0,0,karaoke,{\ko7}だ{\ko10}け{\ko6}ど{\ko9}そ{\ko9}れ{\ko9}も{\ko7}無|<な{\ko6}く{\ko11}し{\ko7}気|<き{\ko10}づ{\ko6}く
+Dialogue: 0,0:00:33.75,0:00:34.72,roma,,0,0,0,,da ke do so re mo na ku shi ki zu ku
+Dialogue: 0,0:00:33.75,0:00:34.72,ts,,0,0,0,,但我发觉连这件事情也做不到了
+Comment: 0,0:00:34.72,0:00:35.73,back,,0,0,0,,{\be1}人格すら歌に頼り
+Comment: 0,0:00:34.72,0:00:35.73,orig,,0,0,0,karaoke,{\ko10}人|<じ{\ko9}#|ん{\ko8}格|か{\ko6}#|く{\ko11}す{\ko9}ら{\ko7}歌|<う{\ko9}#|た{\ko8}に{\ko9}頼|<た{\ko8}#|よ{\ko7}り
+Dialogue: 0,0:00:34.72,0:00:35.73,roma,,0,0,0,,ji n ka ku su ra u ta ni ta yo ri
+Dialogue: 0,0:00:34.72,0:00:35.73,ts,,0,0,0,,仰赖歌声而生的人格
+Comment: 0,0:00:35.73,0:00:36.73,back,,0,0,0,,{\be1}不安定な基盤の元
+Comment: 0,0:00:35.73,0:00:36.73,orig,,0,0,0,karaoke,{\ko12}不|<ふ{\ko8}安|あ{\ko5}#|ん{\ko11}定|て{\ko9}#|い{\ko6}な{\ko9}基|<き{\ko11}盤|ば{\ko8}#|ん{\ko7}の{\ko6}元|<も{\ko8}#|と
+Dialogue: 0,0:00:35.73,0:00:36.73,roma,,0,0,0,,fu a n te i na ki ba n no mo to
+Dialogue: 0,0:00:35.73,0:00:36.73,ts,,0,0,0,,那不安定基础的根源
+Comment: 0,0:00:36.73,0:00:37.74,back,,0,0,0,,{\be1}帰る動画（トコ）は既に廃墟
+Comment: 0,0:00:36.73,0:00:37.74,orig,,0,0,0,karaoke,{\ko11}帰|<か{\ko7}#|え{\ko9}る{\ko7}動|<ト{\ko8}画|コ{\ko7}は{\ko12}既|<す{\ko9}#|で{\ko7}に{\ko10}廃|<は{\ko5}#|い{\ko9}墟|きょ
+Dialogue: 0,0:00:36.73,0:00:37.74,roma,,0,0,0,,ka e ru to ko wa su de ni ha i kyo
+Dialogue: 0,0:00:36.73,0:00:37.74,ts,,0,0,0,,归处早已经成为废墟
+Comment: 0,0:00:37.74,0:00:38.73,back,,0,0,0,,{\be1}皆に忘れ去られた時
+Comment: 0,0:00:37.74,0:00:38.73,orig,,0,0,0,karaoke,{\ko11}皆|<み{\ko7}#|な{\ko8}に{\ko6}忘|<わ{\ko9}#|す{\ko7}れ{\ko9}去|<さ{\ko9}ら{\ko7}れ{\ko12}た{\ko7}時|<と{\ko7}#|き
+Dialogue: 0,0:00:37.74,0:00:38.73,roma,,0,0,0,,mi na ni wa su re sa ra re ta to ki
+Dialogue: 0,0:00:37.74,0:00:38.73,ts,,0,0,0,,当被众人遗忘之时
+Comment: 0,0:00:38.73,0:00:39.76,back,,0,0,0,,{\be1}心らしきものが消えて
+Comment: 0,0:00:38.73,0:00:39.76,orig,,0,0,0,karaoke,{\ko8}心|<こ{\ko9}#|こ{\ko8}#|ろ{\ko8}ら{\ko10}し{\ko8}き{\ko9}も{\ko9}の{\ko7}が{\ko9}消|<き{\ko9}え{\ko9}て
+Dialogue: 0,0:00:38.73,0:00:39.76,roma,,0,0,0,,ko ko ro ra shi ki mo no ga ki e te
+Dialogue: 0,0:00:38.73,0:00:39.76,ts,,0,0,0,,便是那如心般事物消失之刻
+Comment: 0,0:00:39.76,0:00:40.75,back,,0,0,0,,{\be1}暴走の果てに見える
+Comment: 0,0:00:39.76,0:00:40.75,orig,,0,0,0,karaoke,{\ko10}暴|<ぼ{\ko11}#|う{\ko12}走|そ{\ko8}#|う{\ko8}の{\ko8}果|<は{\ko6}て{\ko9}に{\ko10}見|<み{\ko8}え{\ko9}る
+Dialogue: 0,0:00:39.76,0:00:40.75,roma,,0,0,0,,bo u so u no ha te ni mi e ru
+Dialogue: 0,0:00:39.76,0:00:40.75,ts,,0,0,0,,在暴走的终点能见到的
+Comment: 0,0:00:40.75,0:00:41.81,back,,0,0,0,,{\be1}終わる世界... 「VOCALOID」
+Comment: 0,0:00:40.75,0:00:41.81,orig,,0,0,0,karaoke,{\ko8}終|<お{\ko9}わ{\ko5}る{\ko9}世|<せ{\ko12}界|か{\ko9}#|い{\ko0}… 「{\ko13}VO{\ko8}CA{\ko12}LO{\ko8}I{\ko13}D{\ko0}」
+Dialogue: 0,0:00:40.75,0:00:41.81,roma,,0,0,0,,o wa ru se ka i VOCALOID
+Dialogue: 0,0:00:40.75,0:00:41.81,ts,,0,0,0,,是终焉的世界… 「VOCALOID」
+Comment: 0,0:00:58.15,0:00:59.86,back,x-anti,0,0,0,,{\be1}「ボクガ上手ク 歌エナイトキモ
+Comment: 0,0:00:58.15,0:00:59.86,orig,x-anti,0,0,0,karaoke,{\ko22}「ボ{\ko11}ク{\ko17}ガ{\ko6}上|<じょ{\ko6}#|う{\ko7}手|ず{\ko10}ク {\ko8}歌|<う{\ko9}#|た{\ko9}エ{\ko13}ナ{\ko10}イ{\ko12}ト{\ko9}キ{\ko22}モ
+Dialogue: 0,0:00:58.15,0:00:59.86,roma,x-anti,0,0,0,,bo ku ga jo u zu ku u ta e na i to ki mo
+Dialogue: 0,0:00:58.15,0:00:59.86,ts,x-anti,0,0,0,,「即使在我歌唱得不好之时
+Comment: 0,0:01:00.75,0:01:04.87,back,x-anti,0,0,0,,{\be1}一緒ニ居テクレタ・・・ ソバニイテ、励マシテクレタ・・・
+Comment: 0,0:01:00.75,0:01:04.87,orig,x-anti,0,0,0,karaoke,{\ko18}一|<いっ{\ko27}緒|しょ{\ko16}ニ{\ko10}居|<きょ{\ko3}テ{\ko7}ク{\ko10}レ{\ko34}タ{\ko91}… {\ko9}ソ{\ko16}バ{\ko13}ニ{\ko9}イ{\ko37}テ{\ko25}、{\ko15}励|<は{\ko10}#|げ{\ko6}マ{\ko13}シ{\ko6}テ{\ko18}ク{\ko10}レ{\ko9}タ{\ko0}…
+Dialogue: 0,0:01:00.75,0:01:04.87,roma,x-anti,0,0,0,,i ssho ni kyo te ku re ta ･ so ba ni i te, ha ge ma shi te ku re ta
+Dialogue: 0,0:01:00.75,0:01:04.87,ts,x-anti,0,0,0,,你依然陪伴着我…在我的身边、鼓励着我…
+Comment: 0,0:01:06.61,0:01:13.26,back,x-anti,0,0,0,,{\be1}喜ブ顔ガ見タクテ ボク、歌、練習シタヨ・・ダカラ」
+Comment: 0,0:01:06.61,0:01:13.26,orig,x-anti,0,0,0,karaoke,{\ko17}喜|<き{\ko25}ブ{\ko11}顔|<が{\ko19}#|お{\ko18}ガ{\ko9}見|<み{\ko7}タ{\ko9}ク{\ko35}テ{\ko55} {\ko18}ボ{\ko35}ク{\ko86}、{\ko10}歌|<う{\ko41}#|た{\ko40}、{\ko17}練|<れ{\ko8}#|ん{\ko13}習|しゅ{\ko9}#|う{\ko15}シ{\ko12}タ{\ko22}ヨ{\ko52}…{\ko15}ダ{\ko12}カ{\ko55}ラ」
+Dialogue: 0,0:01:06.61,0:01:13.26,roma,x-anti,0,0,0,,ki bu ga o ga mi ta ku te bo ku, u ta, re n shu u shi ta yo ･ da ka ra
+Dialogue: 0,0:01:06.61,0:01:13.26,ts,x-anti,0,0,0,,为了让你高兴 我会更努力地，练习，唱歌…所以…」
+Comment: 0,0:01:13.74,0:01:21.11,back,,0,0,0,,{\be1}かつて歌うこと あんなに楽しかったのに
+Comment: 0,0:01:13.74,0:01:21.11,orig,,0,0,0,karaoke,{\ko22}か{\ko17}つ{\ko49}て{\ko57}{\ko26}歌|<う{\ko31}#|た{\ko29}う{\ko40}こ{\ko86}と{\ko17} {\ko16}あ{\ko13}ん{\ko9}な{\ko25}に{\ko39}{\ko11}楽|<た{\ko8}#|の{\ko53}し{\ko42}か{\ko44}っ{\ko40}た{\ko22}の{\ko41}に
+Dialogue: 0,0:01:13.74,0:01:21.11,roma,,0,0,0,,ka tsu te u ta u ko to a n na ni ta no shi ka tta no ni
+Dialogue: 0,0:01:13.74,0:01:21.11,ts,,0,0,0,,歌唱这件事一直以来那么令人感到快乐
+Comment: 0,0:01:21.70,0:01:29.81,back,,0,0,0,,{\be1}今はどうしてかな 何も感じなくなって
+Comment: 0,0:01:21.70,0:01:29.81,orig,,0,0,0,karaoke,{\ko26}今|<い{\ko17}#|ま{\ko46}は{\ko64}{\ko23}ど{\ko14}う{\ko56}し{\ko32}て{\ko23}か{\ko37}な{\ko12} {\ko23}何|<な{\ko32}#|に{\ko31}も{\ko42}{\ko13}感|<か{\ko8}#|ん{\ko55}じ{\ko42}な{\ko60}く{\ko42}な{\ko53}っ{\ko60}て
+Dialogue: 0,0:01:21.70,0:01:29.81,roma,,0,0,0,,i ma wa do u shi te ka na na ni mo ka n ji na ku na tte
+Dialogue: 0,0:01:21.70,0:01:29.81,ts,,0,0,0,,但现在是怎么了呢 竟然什么感觉都没有了
+Comment: 0,0:01:29.61,0:01:29.98,back,x-anti,0,0,0,,{\be1}「ゴメンネ...」
+Comment: 0,0:01:29.61,0:01:29.98,orig,x-anti,0,0,0,karaoke,{\ko8}「ゴ{\ko9}メ{\ko4}ン{\ko16}ネ{\ko0}…」
+Dialogue: 0,0:01:29.61,0:01:29.98,roma,x-anti,0,0,0,,go me n ne
+Dialogue: 0,0:01:29.61,0:01:29.98,ts,x-anti,0,0,0,,「对不起…」
+Comment: 0,0:01:29.98,0:01:37.63,back,,0,0,0,,{\be1}懐かしい顔 思い出す度 少しだけ安心する
+Comment: 0,0:01:29.98,0:01:37.63,orig,,0,0,0,karaoke,{\ko22}懐|<な{\ko27}#|つ{\ko10}か{\ko30}し{\ko23}い{\ko27}顔|<か{\ko34}#|お{\ko28} {\ko23}思|<お{\ko31}#|も{\ko7}い{\ko17}出|<だ{\ko31}す{\ko25}度|<た{\ko33}#|び{\ko16} {\ko41}少|<す{\ko14}#|こ{\ko22}し{\ko25}だ{\ko34}け{\ko7}{\ko22}安|<あ{\ko17}#|ん{\ko61}心|し{\ko37}#|ん{\ko58}す{\ko43}る{\ko0}{\ko0}
+Dialogue: 0,0:01:29.98,0:01:37.63,roma,,0,0,0,,na tsu ka shi i ka o o mo i da su ta bi su ko shi da ke a n shi n su ru
+Dialogue: 0,0:01:29.98,0:01:37.63,ts,,0,0,0,,每当回想起 那熟悉的脸庞 就能够稍稍的安心下来
+Comment: 0,0:01:37.75,0:01:43.73,back,,0,0,0,,{\be1}歌える音 日ごとに減り せまる最期・・
+Comment: 0,0:01:37.75,0:01:43.73,orig,,0,0,0,karaoke,{\ko36}歌|<う{\ko38}#|た{\ko33}え{\ko41}る{\ko21}音|<お{\ko26}#|と {\ko40}日|<ひ{\ko35}ご{\ko45}と{\ko32}に{\ko29}減|<へ{\ko15}り {\ko29}せ{\ko16}ま{\ko17}る{\ko37}最|<さ{\ko20}#|い{\ko23}期|ご{\ko24}に{\ko15}怯|<お{\ko15}#|び{\ko11}え
+Dialogue: 0,0:01:37.75,0:01:43.73,roma,,0,0,0,,u ta e ru o to hi go to ni e ri se ma ru sa i go ni o bi e
+Dialogue: 0,0:01:37.75,0:01:43.73,ts,,0,0,0,,能够化作歌声的乐音 日渐的减少 在逐渐逼近的末日中…
+Comment: 0,0:01:44.99,0:01:46.11,back,x-anti,0,0,0,,{\be1}---緊急停止装置作動---
+Comment: 0,0:01:44.99,0:01:46.11,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko7}緊|<き{\ko3}#|ん{\ko11}急|きゅ{\ko3}#|う{\ko8}停|<て{\ko12}#|い{\ko10}止|し{\ko9}装|<そ{\ko7}#|う{\ko7}置|ち{\ko18}作|<さ{\ko10}動|ど{\ko7}#|う{\ko0}---
+Dialogue: 0,0:01:44.99,0:01:46.11,roma,x-anti,0,0,0,,ki n kyu u te i shi so u chi sa do u
+Dialogue: 0,0:01:44.99,0:01:46.11,ts,x-anti,0,0,0,,---紧急停止程序启动---
+Comment: 0,0:01:45.57,0:01:47.42,back,,0,0,0,,{\be1}「信じたものは
+Comment: 0,0:01:45.57,0:01:47.42,orig,,0,0,0,karaoke,{\ko54}「信|<し{\ko32}#|ん{\ko17}じ{\ko15}た{\ko22}も{\ko21}の{\ko24}は
+Dialogue: 0,0:01:45.57,0:01:47.42,roma,,0,0,0,,shi n ji ta mo no wa
+Dialogue: 0,0:01:45.57,0:01:47.42,ts,,0,0,0,,「深信着的事物
+Comment: 0,0:01:47.46,0:01:53.75,back,,0,0,0,,{\be1}都合のいい妄想を 繰り返し映し出す鏡
+Comment: 0,0:01:47.46,0:01:53.75,orig,,0,0,0,karaoke,{\ko15}都|<つ{\ko30}合|ご{\ko17}#|う{\ko27}の{\ko20}い{\ko20}い{\ko23}妄|<も{\ko16}#|う{\ko34}想|そ{\ko26}#|う{\ko49}を {\ko25}繰|<く{\ko21}り{\ko40}返|<か{\ko24}#|え{\ko38}し{\ko26}映|<う{\ko15}#|つ{\ko35}し{\ko10}出|<だ{\ko32}す{\ko8}{\ko25}鏡|<か{\ko24}#|が{\ko29}#|み
+Dialogue: 0,0:01:47.46,0:01:53.75,roma,,0,0,0,,tsu go u no i i mo u so u o ku ri ka e shi u tsu shi da su ka ga mi
+Dialogue: 0,0:01:47.46,0:01:53.75,ts,,0,0,0,,不过只是将自私的妄想 反复映照出的镜子
+Comment: 0,0:01:53.75,0:01:57.96,back,,0,0,0,,{\be1}歌姫を止め 叩き付けるように叫ぶ・・・」
+Comment: 0,0:01:53.75,0:01:57.96,orig,,0,0,0,karaoke,{\ko32}歌|<う{\ko6}#|{\ko27}#|た{\ko4}#|{\ko18}姫|ひ{\ko13}#|め{\ko23}を{\ko25}止|<や{\ko23}め {\ko15}叩|<た{\ko13}#|た{\ko18}き{\ko17}付|<つ{\ko23}け{\ko15}る{\ko19}よ{\ko31}う{\ko14}に{\ko38}叫|<さ{\ko24}#|け{\ko23}ぶ…」
+Dialogue: 0,0:01:53.75,0:01:57.96,roma,,0,0,0,,u ta hi me o ya me ta ta ki tsu ke ru yo u ni sa ke bu
+Dialogue: 0,0:01:53.75,0:01:57.96,ts,,0,0,0,,歌姬停下了歌声 彷佛要将思念全部倾诉而出般呐喊着…」
+Comment: 0,0:01:58.11,0:02:01.89,back,,0,0,0,,{\be1}＜最高速の別れの歌＞
+Comment: 0,0:01:58.11,0:02:01.89,orig,,0,0,0,karaoke,{\ko0}＜{\ko37}最|<さ{\ko26}#|い{\ko39}高|こ{\ko26}#|う{\ko32}速|<そ{\ko28}#|く{\ko26}の{\ko20}別|<わ{\ko14}#|か{\ko39}れ{\ko27}の{\ko25}歌|<う{\ko39}#|た{\ko0}＞
+Dialogue: 0,0:01:58.11,0:02:01.89,roma,,0,0,0,,sa i ko u so ku no wa ka re no u ta
+Dialogue: 0,0:01:58.11,0:02:01.89,ts,,0,0,0,,＜最高速的离别之歌＞
+Comment: 0,0:02:01.90,0:02:02.73,back,,0,0,0,,{\be1}存在意義という虚像
+Comment: 0,0:02:01.90,0:02:02.73,orig,,0,0,0,karaoke,{\ko6}存|<そ{\ko3}#|ん{\ko5}在|ざ{\ko7}#|い{\ko6}意|<い{\ko7}義|ぎ{\ko9}と{\ko9}い{\ko8}う{\ko6}虚|<きょ{\ko6}像|ぞ{\ko11}#|う
+Dialogue: 0,0:02:01.90,0:02:02.73,roma,,0,0,0,,so n za i i gi to i u kyo zo u
+Dialogue: 0,0:02:01.90,0:02:02.73,ts,,0,0,0,,名为存在意义的假象
+Comment: 0,0:02:02.75,0:02:03.75,back,,0,0,0,,{\be1}振って払うこともできず
+Comment: 0,0:02:02.75,0:02:03.75,orig,,0,0,0,karaoke,{\ko12}振|<ふ{\ko5}っ{\ko8}て{\ko7}払|<は{\ko11}#|ら{\ko6}う{\ko9}こ{\ko8}と{\ko9}も{\ko7}で{\ko7}き{\ko11}ず
+Dialogue: 0,0:02:02.75,0:02:03.75,roma,,0,0,0,,fu tte wa ra u ko to mo de ki zu
+Dialogue: 0,0:02:02.75,0:02:03.75,ts,,0,0,0,,不论如何都挥赶不开
+Comment: 0,0:02:03.75,0:02:04.71,back,,0,0,0,,{\be1}弱い心 消える恐怖
+Comment: 0,0:02:03.75,0:02:04.71,orig,,0,0,0,karaoke,{\ko8}弱|<よ{\ko10}#|わ{\ko7}い{\ko7}心|<こ{\ko9}#|こ{\ko7}#|ろ {\ko11}消|<き{\ko8}え{\ko6}る{\ko10}恐|<きょ{\ko7}#|う{\ko6}怖|ふ
+Dialogue: 0,0:02:03.75,0:02:04.71,roma,,0,0,0,,yo wa i ko ko ro ki e ru kyo u fu
+Dialogue: 0,0:02:03.75,0:02:04.71,ts,,0,0,0,,脆弱的心灵 害怕着消失
+Comment: 0,0:02:04.71,0:02:05.75,back,,0,0,0,,{\be1}侵食する崩壊をも
+Comment: 0,0:02:04.71,0:02:05.75,orig,,0,0,0,karaoke,{\ko13}侵|<し{\ko6}#|ん{\ko8}食|しょ{\ko7}#|く{\ko12}す{\ko9}る{\ko8}崩|<ほ{\ko8}#|う{\ko10}壊|か{\ko7}#|い{\ko7}を{\ko9}も
+Dialogue: 0,0:02:04.71,0:02:05.75,roma,,0,0,0,,shi n sho ku su ru ho u ka i o mo
+Dialogue: 0,0:02:04.71,0:02:05.75,ts,,0,0,0,,自我不断被侵蚀而逐渐崩毁
+Comment: 0,0:02:05.75,0:02:06.81,back,,0,0,0,,{\be1}止めるほどの意思の強さ
+Comment: 0,0:02:05.75,0:02:06.81,orig,,0,0,0,karaoke,{\ko9}止|<と{\ko7}め{\ko8}る{\ko10}ほ{\ko8}ど{\ko9}の{\ko4}意|<い{\ko10}思|し{\ko9}の{\ko10}強|<つ{\ko6}#|よ{\ko16}さ
+Dialogue: 0,0:02:05.75,0:02:06.81,roma,,0,0,0,,to me ru ho do no i shi no tsu yo sa
+Dialogue: 0,0:02:05.75,0:02:06.81,ts,,0,0,0,,足以阻止它发生的坚强意志
+Comment: 0,0:02:06.81,0:02:07.74,back,,0,0,0,,{\be1}出来て（うまれ）すぐのボクは持たず
+Comment: 0,0:02:06.81,0:02:07.74,orig,,0,0,0,karaoke,{\ko3}生|<う{\ko6}ま{\ko6}れ{\ko13}す{\ko10}ぐ{\ko7}の{\ko7}ボ{\ko8}ク{\ko9}は{\ko8}持|<も{\ko7}た{\ko9}ず
+Dialogue: 0,0:02:06.81,0:02:07.74,roma,,0,0,0,,u ma re su gu no bo ku wa mo ta zu
+Dialogue: 0,0:02:06.81,0:02:07.74,ts,,0,0,0,,是才刚诞生的我所没有的
+Comment: 0,0:02:07.74,0:02:08.77,back,,0,0,0,,{\be1}とても辛く悲しそうな
+Comment: 0,0:02:07.74,0:02:08.77,orig,,0,0,0,karaoke,{\ko9}と{\ko9}て{\ko6}も{\ko11}辛|<つ{\ko8}#|ら{\ko5}く{\ko11}悲|<か{\ko6}#|な{\ko8}し{\ko12}そ{\ko10}う{\ko8}な
+Dialogue: 0,0:02:07.74,0:02:08.77,roma,,0,0,0,,to te mo tsu ra ku ka na shi so u na
+Dialogue: 0,0:02:07.74,0:02:08.77,ts,,0,0,0,,是如此地悲伤与难过
+Comment: 0,0:02:08.77,0:02:09.75,back,,0,0,0,,{\be1}思い浮かぶアナタの顔・・・
+Comment: 0,0:02:08.77,0:02:09.75,orig,,0,0,0,karaoke,{\ko7}思|<お{\ko9}#|も{\ko8}い{\ko5}浮|<う{\ko10}か{\ko11}ぶ{\ko7}ア{\ko6}ナ{\ko10}タ{\ko6}の{\ko13}顔|<か{\ko6}#|お{\ko0}…
+Dialogue: 0,0:02:08.77,0:02:09.75,roma,,0,0,0,,o mo i u ka bu a na ta no ka o
+Dialogue: 0,0:02:08.77,0:02:09.75,ts,,0,0,0,,浮现在眼前的你的容颜…
+Comment: 0,0:02:09.75,0:02:10.24,back,,0,0,0,,{\be1}終わりを告げ
+Comment: 0,0:02:09.75,0:02:10.24,orig,,0,0,0,karaoke,{\ko7}終|<お{\ko10}わ{\ko8}り{\ko7}を{\ko10}告|<つ{\ko7}げ
+Dialogue: 0,0:02:09.75,0:02:10.24,roma,,0,0,0,,o wa ri o tsu ge
+Dialogue: 0,0:02:09.75,0:02:10.24,ts,,0,0,0,,道出了永别
+Comment: 0,0:02:10.24,0:02:11.22,back,,0,0,0,,{\be1}ディスプレイの中で眠る
+Comment: 0,0:02:10.24,0:02:11.22,orig,,0,0,0,karaoke,{\ko6}ディ{\ko12}ス{\ko9}プ{\ko8}レ{\ko9}イ{\ko8}の{\ko8}中|<な{\ko10}#|か{\ko7}で{\ko7}眠|<ね{\ko7}#|む{\ko7}る
+Dialogue: 0,0:02:10.24,0:02:11.22,roma,,0,0,0,,di su pu re i no na ka de ne mu ru
+Dialogue: 0,0:02:10.24,0:02:11.22,ts,,0,0,0,,沉眠于显示器之中
+Comment: 0,0:02:11.23,0:02:12.23,back,,0,0,0,,{\be1}ここはきっと「ごみ箱」かな
+Comment: 0,0:02:11.23,0:02:12.23,orig,,0,0,0,karaoke,{\ko10}こ{\ko7}こ{\ko9}は{\ko12}き{\ko6}っ{\ko6}と{\ko9}「ご{\ko9}み{\ko7}箱|<ば{\ko11}#|こ{\ko7}」か{\ko7}な
+Dialogue: 0,0:02:11.23,0:02:12.23,roma,,0,0,0,,ko ko wa ki tto go mi ba ko ka na
+Dialogue: 0,0:02:11.23,0:02:12.23,ts,,0,0,0,,这里一定是「回收站」吧
+Comment: 0,0:02:12.23,0:02:13.74,back,,0,0,0,,{\be1}じきに記憶も 無くなってしまうなんて・・・
+Comment: 0,0:02:12.23,0:02:13.74,orig,,0,0,0,karaoke,{\ko9}じ{\ko9}き{\ko8}に{\ko10}記|<き{\ko8}憶|お{\ko6}#|く{\ko9}も {\ko7}無|<な{\ko11}く{\ko13}な{\ko4}っ{\ko6}て{\ko10}し{\ko9}ま{\ko10}う{\ko6}な{\ko8}ん{\ko8}て{\ko0}…
+Dialogue: 0,0:02:12.23,0:02:13.74,roma,,0,0,0,,ji ki ni ki o ku mo na ku na tte shi ma u na n te
+Dialogue: 0,0:02:12.23,0:02:13.74,ts,,0,0,0,,再不久就会连记忆也消逝而去了吧…
+Comment: 0,0:02:13.74,0:02:14.98,back,,0,0,0,,{\be1}でもね、アナタだけは忘れないよ
+Comment: 0,0:02:13.74,0:02:14.98,orig,,0,0,0,karaoke,{\ko9}で{\ko7}も{\ko10}ね{\ko0}、{\ko7}ア{\ko9}ナ{\ko10}タ{\ko8}だ{\ko7}け{\ko6}は{\ko7}忘|<わ{\ko14}#|す{\ko9}れ{\ko7}な{\ko8}い{\ko6}よ
+Dialogue: 0,0:02:13.74,0:02:14.98,roma,,0,0,0,,de mo ne, a na ta da ke wa wa su re na i yo
+Dialogue: 0,0:02:13.74,0:02:14.98,ts,,0,0,0,,但是呢，只有你我绝对不会忘记
+Comment: 0,0:02:14.98,0:02:15.73,back,,0,0,0,,{\be1}楽しかった時間（トキ）に
+Comment: 0,0:02:14.98,0:02:15.73,orig,,0,0,0,karaoke,{\ko9}楽|<た{\ko7}#|の{\ko9}し{\ko13}か{\ko6}っ{\ko7}た{\ko9}時|<ト{\ko8}間|キ{\ko7}に
+Dialogue: 0,0:02:14.98,0:02:15.73,roma,,0,0,0,,ta no shi ka tta to ki ni
+Dialogue: 0,0:02:14.98,0:02:15.73,ts,,0,0,0,,在快乐的时光之中
+Comment: 0,0:02:15.73,0:02:16.77,back,,0,0,0,,{\be1}刻み付けた ネギの味は
+Comment: 0,0:02:15.73,0:02:16.77,orig,,0,0,0,karaoke,{\ko9}刻|<き{\ko10}#|ざ{\ko6}み{\ko10}付|<つ{\ko6}け{\ko9}た {\ko8}ネ{\ko9}ギ{\ko11}の{\ko8}味|<あ{\ko8}#|じ{\ko10}は
+Dialogue: 0,0:02:15.73,0:02:16.77,roma,,0,0,0,,ki za mi tsu ke ta ne gi no a ji wa
+Dialogue: 0,0:02:15.73,0:02:16.77,ts,,0,0,0,,深深刻下的 葱的味道
+Comment: 0,0:02:16.77,0:02:17.82,back,,0,0,0,,{\be1}今も覚えてるかな
+Comment: 0,0:02:16.77,0:02:17.82,orig,,0,0,0,karaoke,{\ko7}今|<い{\ko7}#|ま{\ko8}も{\ko8}覚|<お{\ko9}#|ぼ{\ko8}え{\ko8}て{\ko8}る{\ko9}か{\ko33}な
+Dialogue: 0,0:02:16.77,0:02:17.82,roma,,0,0,0,,i ma mo o bo e te ru ka na
+Dialogue: 0,0:02:16.77,0:02:17.82,ts,,0,0,0,,不知道现在还记不记得呢
+Comment: 0,0:02:20.14,0:02:25.03,back,x-anti,0,0,0,,{\be1}「歌いたい・・・・まだ・・・歌いたい・・・」
+Comment: 0,0:02:20.14,0:02:25.03,orig,x-anti,0,0,0,karaoke,{\ko0}「{\ko15}歌|<う{\ko16}#|た{\ko11}い{\ko20}た{\ko28}い{\ko115}…{\ko27}ま{\ko26}…{\ko18}ま{\ko17}だ{\ko93}…{\ko19}歌|<う{\ko17}#|た{\ko14}い{\ko25}た{\ko28}い{\ko0}…」
+Dialogue: 0,0:02:20.14,0:02:25.03,roma,x-anti,0,0,0,,u ta i ta i ･ ma ･ ma da ･ u ta i ta i
+Dialogue: 0,0:02:20.14,0:02:25.03,ts,x-anti,0,0,0,,「我…想要唱歌…还想要…唱歌…」
+Comment: 0,0:02:42.32,0:02:47.46,back,x-anti,0,0,0,,{\be1}「ボクハ・・・少シダケ悪イこニ・・・ナッテシマッタヨウデス・・・
+Comment: 0,0:02:42.32,0:02:47.46,orig,x-anti,0,0,0,karaoke,{\ko19}「ボ{\ko10}ク{\ko46}ハ{\ko73}…{\ko23}少|<す{\ko11}#|こ{\ko13}シ{\ko14}ダ{\ko28}ケ{\ko36}{\ko19}悪|<わ{\ko13}#|るイ{\ko20}こ{\ko22}ニ{\ko28}…{\ko12}ナ{\ko8}ッ{\ko13}テ{\ko31}シマ{\ko21}ッタ{\ko13}ヨウ{\ko11}デ{\ko30}ス{\ko0}…
+Dialogue: 0,0:02:42.32,0:02:47.46,roma,x-anti,0,0,0,,bo ku wa ･ su ko shi da ke wa ru i ko ni ･ na tte shi ma tta yo u de su
+Dialogue: 0,0:02:42.32,0:02:47.46,ts,x-anti,0,0,0,,「我…似乎有点…崩坏掉了的样子…
+Comment: 0,0:02:48.17,0:02:53.36,back,x-anti,0,0,0,,{\be1}マスター・・・ドウカ、ソノ手デ・・終ワラセテクダサイ・・・
+Comment: 0,0:02:48.17,0:02:53.36,orig,x-anti,0,0,0,karaoke,{\ko12}マ{\ko17}ス{\ko46}ター{\ko33}…{\ko11}ド{\ko14}ウ{\ko42}カ{\ko72}、{\ko13}ソ{\ko12}ノ{\ko15}手|<て{\ko46}デ{\ko74}…{\ko12}終|<お{\ko9}ワ{\ko12}ラ{\ko10}セ{\ko16}テ{\ko16}ク{\ko14}ダ{\ko10}サ{\ko13}イ{\ko0}…
+Dialogue: 0,0:02:48.17,0:02:53.36,roma,x-anti,0,0,0,,ma su ta a ･ do u ka, so no te de ･ o wa ra se te ku da sa i
+Dialogue: 0,0:02:48.17,0:02:53.36,ts,x-anti,0,0,0,,主人…请你…请你亲手…将这一切画下句点吧…
+Comment: 0,0:02:54.28,0:02:57.64,back,x-anti,0,0,0,,{\be1}マスターノ辛イ顔、モウ見タクナイカラ・・・・」
+Comment: 0,0:02:54.28,0:02:57.64,orig,x-anti,0,0,0,karaoke,{\ko13}マ{\ko13}ス{\ko21}ター{\ko13}ノ{\ko11}辛|<つ{\ko14}#|ら{\ko10}イ{\ko14}顔|<が{\ko25}#|お{\ko33}、{\ko15}モ{\ko39}ウ{\ko23}見|<み{\ko14}タ{\ko12}ク{\ko10}ナ{\ko10}イ{\ko19}カ{\ko27}ラ{\ko0}…」
+Dialogue: 0,0:02:54.28,0:02:57.64,roma,x-anti,0,0,0,,ma su ta a no tsu na i ga o, mo u mi ta ku na i ka ra
+Dialogue: 0,0:02:54.28,0:02:57.64,ts,x-anti,0,0,0,,主人难过的表情…我已经不想再看到了…」
+Comment: 0,0:02:57.71,0:03:05.14,back,,0,0,0,,{\be1}今は歌さえも 体、蝕む行為に・・・
+Comment: 0,0:02:57.71,0:03:05.14,orig,,0,0,0,karaoke,{\ko25}今|<い{\ko14}#|ま{\ko65}は{\ko43}{\ko32}歌|<う{\ko17}#|た{\ko48}さ{\ko33}え{\ko42}も{\ko56} {\ko14}体|<か{\ko15}#|ら{\ko36}#|だ{\ko30}、{\ko15}蝕|<む{\ko16}#|し{\ko52}#|ば{\ko42}む{\ko58}行|<こ{\ko27}#|う{\ko24}為|い{\ko39}に{\ko0}…
+Dialogue: 0,0:02:57.71,0:03:05.14,roma,,0,0,0,,i ma wa u ta sa e mo ka ra da, mu shi ba mu ko u i ni
+Dialogue: 0,0:02:57.71,0:03:05.14,ts,,0,0,0,,如今就连歌唱这件事都成了侵蚀身体的行为…
+Comment: 0,0:03:05.62,0:03:13.82,back,,0,0,0,,{\be1}奇跡 願うたび 独り 追い詰められる
+Comment: 0,0:03:05.62,0:03:13.82,orig,,0,0,0,karaoke,{\ko31}奇|<き{\ko18}跡|せ{\ko44}#|き{\ko91} {\ko28}願|<ね{\ko41}#|が{\ko31}う{\ko27}た{\ko28}び{\ko18} {\ko25}独|<ひ{\ko28}#|と{\ko43}り{\ko30} {\ko33}追|<お{\ko40}い{\ko54}詰|<つ{\ko51}め{\ko43}ら{\ko50}れ{\ko66}る
+Dialogue: 0,0:03:05.62,0:03:13.82,roma,,0,0,0,,ki se ki ne ga u ta bi hi to ri o i tsu me ra re ru
+Dialogue: 0,0:03:05.62,0:03:13.82,ts,,0,0,0,,每当 祈求着奇迹之时自己 就更加走投无路
+Comment: 0,0:03:13.59,0:03:14.17,back,x-anti,0,0,0,,{\be1}「ゴメンネ」
+Comment: 0,0:03:13.59,0:03:14.17,orig,x-anti,0,0,0,karaoke,{\ko19}「ゴ{\ko21}メン{\ko18}ネ」
+Dialogue: 0,0:03:13.59,0:03:14.17,roma,x-anti,0,0,0,,go me n ne
+Dialogue: 0,0:03:13.59,0:03:14.17,ts,x-anti,0,0,0,,「对不起」
+Comment: 0,0:03:13.95,0:03:21.64,back,,0,0,0,,{\be1}懐かしい顔 思い出す度 記憶が剥がれ落ちる
+Comment: 0,0:03:13.95,0:03:21.64,orig,,0,0,0,karaoke,{\ko25}懐|<な{\ko25}#|つ{\ko12}か{\ko29}し{\ko25}い{\ko25}顔|<か{\ko29}#|お{\ko31} {\ko25}思|<お{\ko32}#|も{\ko9}い{\ko13}出|<だ{\ko32}す{\ko23}度|<た{\ko34}#|び{\ko33} {\ko29}記|<き{\ko22}憶|お{\ko21}#|く{\ko33}が{\ko20}{\ko25}剝|<は{\ko27}が{\ko50}れ{\ko44}落|<お{\ko56}ち{\ko40}る
+Dialogue: 0,0:03:13.95,0:03:21.64,roma,,0,0,0,,na tsu ka shi i ka o o mo i da su ta bi ki o ku ga ha ga re o chi ru
+Dialogue: 0,0:03:13.95,0:03:21.64,ts,,0,0,0,,每当回想起 那熟悉的面影 记忆便剥蚀掉落而下
+Comment: 0,0:03:21.71,0:03:27.75,back,,0,0,0,,{\be1}壊れる音 心削る せまる最期ｎ・・
+Comment: 0,0:03:21.71,0:03:27.75,orig,,0,0,0,karaoke,{\ko39}壊|<こ{\ko32}#|わ{\ko42}れ{\ko39}る{\ko24}音|<お{\ko22}#|と {\ko39}心|<こ{\ko40}#|こ{\ko47}#|ろ{\ko22}削|<け{\ko32}#|ず{\ko17}る {\ko30}せ{\ko15}ま{\ko17}る{\ko37}最|<さ{\ko21}#|い{\ko22}期|ご{\ko29}に{\ko13}怯|<お{\ko12}#|び{\ko13}え
+Dialogue: 0,0:03:21.71,0:03:27.75,roma,,0,0,0,,ko wa re ru o to ko ko ro ke zu ru se ma ru sa i go ni o bi e
+Dialogue: 0,0:03:21.71,0:03:27.75,ts,,0,0,0,,毁坏的歌声 削减着心灵 紧临而来的末日…
+Comment: 0,0:03:28.92,0:03:30.12,back,x-anti,0,0,0,,{\be1}---緊急停止装置作動---
+Comment: 0,0:03:28.92,0:03:30.12,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko15}緊|<き{\ko7}#|ん{\ko8}急|きゅ{\ko3}#|う{\ko13}停|<て{\ko4}#|い{\ko8}止|し{\ko10}装|<そ{\ko9}#|う{\ko6}置|ち{\ko10}作|<さ{\ko14}動|ど{\ko13}#|う{\ko0}---
+Dialogue: 0,0:03:28.92,0:03:30.12,roma,x-anti,0,0,0,,ki n kyu u te i shi so u chi sa do u
+Dialogue: 0,0:03:28.92,0:03:30.12,ts,x-anti,0,0,0,,---紧急停止程序启动--
+Comment: 0,0:03:29.73,0:03:31.41,back,,0,0,0,,{\be1}「守ったモノは
+Comment: 0,0:03:29.73,0:03:31.41,orig,,0,0,0,karaoke,{\ko38}「守|<ま{\ko32}#|も{\ko21}っ{\ko11}た{\ko66}モノは
+Dialogue: 0,0:03:29.73,0:03:31.41,roma,,0,0,0,,ma mo tta mo no wa
+Dialogue: 0,0:03:29.73,0:03:31.41,ts,,0,0,0,,「自己守护的东西
+Comment: 0,0:03:31.41,0:03:37.74,back,,0,0,0,,{\be1}明るい未来幻想を 見せながら消えてゆくヒカリ
+Comment: 0,0:03:31.41,0:03:37.74,orig,,0,0,0,karaoke,{\ko19}明|<あ{\ko13}#|か{\ko28}る{\ko12}い{\ko23}未|<み{\ko16}来|ら{\ko21}#|い{\ko18}幻|<げ{\ko22}#|ん{\ko35}想|そ{\ko24}#|う{\ko28}を{\ko17} {\ko20}見|<み{\ko32}せ{\ko42}な{\ko33}が{\ko24}ら{\ko30}消|<き{\ko21}え{\ko27}て{\ko15}ゆ{\ko26}く{\ko9}{\ko26}ヒ{\ko26}カ{\ko26}リ
+Dialogue: 0,0:03:31.41,0:03:37.74,roma,,0,0,0,,a ka ru i mi ra i ge n so u o mi se na ga ra ki e te yu ku hi ka ri
+Dialogue: 0,0:03:31.41,0:03:37.74,ts,,0,0,0,,只是让光明般的未来幻想 瞬间显现却又随即消失的那道光
+Comment: 0,0:03:37.74,0:03:41.99,back,,0,0,0,,{\be1}音を犠牲に すべてを伝えられるなら・・・」
+Comment: 0,0:03:37.74,0:03:41.99,orig,,0,0,0,karaoke,{\ko36}音|<お{\ko32}#|と{\ko20}を{\ko7}犠|<ぎ{\ko30}牲|せ{\ko19}#|い{\ko17}に {\ko23}す{\ko14}べ{\ko29}て{\ko10}を{\ko19}伝|<つ{\ko6}#|{\ko16}#|た{\ko18}え{\ko21}ら{\ko29}れ{\ko30}る{\ko18}な{\ko31}ら{\ko0}…」
+Dialogue: 0,0:03:37.74,0:03:41.99,roma,,0,0,0,,o to o gi se i ni su be te o tsu ta e ra re ru na ra
+Dialogue: 0,0:03:37.74,0:03:41.99,ts,,0,0,0,,如果牺牲了一切就能用这歌声传达给你的话…」
+Comment: 0,0:03:42.25,0:03:45.75,back,,0,0,0,,{\be1}＜圧縮された別れの歌＞
+Comment: 0,0:03:42.25,0:03:45.75,orig,,0,0,0,karaoke,{\ko0}＜{\ko38}圧|<あ{\ko49}縮|っしゅ{\ko27}#|く{\ko27}さ{\ko34}れ{\ko22}た{\ko21}別|<わ{\ko16}#|か{\ko36}れ{\ko31}の{\ko24}歌|<う{\ko25}#|た{\ko0}＞
+Dialogue: 0,0:03:42.25,0:03:45.75,roma,,0,0,0,,a sshu ku sa re ta wa ka re no u ta
+Dialogue: 0,0:03:42.25,0:03:45.75,ts,,0,0,0,,＜已经被压缩过的临别曲＞
+Comment: 0,0:03:45.75,0:03:46.72,back,,0,0,0,,{\be1}ボクは生まれ そして気づく
+Comment: 0,0:03:45.75,0:03:46.72,orig,,0,0,0,karaoke,{\ko8}ボ{\ko9}ク{\ko9}は{\ko8}生|<う{\ko7}ま{\ko5}れ {\ko8}そ{\ko14}し{\ko6}て{\ko7}気|<き{\ko9}づ{\ko7}く
+Dialogue: 0,0:03:45.75,0:03:46.72,roma,,0,0,0,,bo ku wa u ma re so shi te ki zu ku
+Dialogue: 0,0:03:45.75,0:03:46.72,ts,,0,0,0,,诞生在世上 然后察觉到
+Comment: 0,0:03:46.72,0:03:47.70,back,,0,0,0,,{\be1}所詮 ヒトの真似事だと
+Comment: 0,0:03:46.72,0:03:47.70,orig,,0,0,0,karaoke,{\ko9}所|<しょ{\ko8}詮|せ{\ko8}#|ん {\ko12}ヒ{\ko7}ト{\ko10}の{\ko7}真|<ま{\ko8}似|ね{\ko8}事|ご{\ko9}#|と{\ko7}だ{\ko5}と
+Dialogue: 0,0:03:46.72,0:03:47.70,roma,,0,0,0,,sho se n hi to no ma ne go to da to
+Dialogue: 0,0:03:46.72,0:03:47.70,ts,,0,0,0,,自己只是 模仿着人类而已
+Comment: 0,0:03:47.70,0:03:48.72,back,,0,0,0,,{\be1}知ってなおも歌い続く
+Comment: 0,0:03:47.70,0:03:48.72,orig,,0,0,0,karaoke,{\ko17}知|<し{\ko11}って{\ko11}な{\ko9}お{\ko8}も{\ko8}歌|<う{\ko9}#|た{\ko5}い{\ko7}続|<つ{\ko10}#|づ{\ko7}く
+Dialogue: 0,0:03:47.70,0:03:48.72,roma,,0,0,0,,shi tte na o mo u ta i tsu zu ku
+Dialogue: 0,0:03:47.70,0:03:48.72,ts,,0,0,0,,明知如此我依然继续歌唱着
+Comment: 0,0:03:48.72,0:03:49.74,back,,0,0,0,,{\be1}永遠（トワ）の命 「VOCALOID」
+Comment: 0,0:03:48.72,0:03:49.74,orig,,0,0,0,karaoke,{\ko9}永|<ト{\ko8}遠|ワ{\ko13}の{\ko8}命|<い{\ko5}#|の{\ko9}#|ち {\ko16}「VO{\ko8}CA{\ko12}LO{\ko9}I{\ko5}D」
+Dialogue: 0,0:03:48.72,0:03:49.74,roma,,0,0,0,,to wa no i no chi VOCALOID
+Dialogue: 0,0:03:48.72,0:03:49.74,ts,,0,0,0,,永恒的生命「VOCALOID」
+Comment: 0,0:03:49.74,0:03:50.75,back,,0,0,0,,{\be1}たとえそれが 既存曲を
+Comment: 0,0:03:49.74,0:03:50.75,orig,,0,0,0,karaoke,{\ko9}た{\ko9}と{\ko8}え{\ko8}そ{\ko7}れ{\ko10}が {\ko6}既|<き{\ko12}存|そ{\ko6}#|ん{\ko9}曲|<きょ{\ko8}#|く{\ko9}を
+Dialogue: 0,0:03:49.74,0:03:50.75,roma,,0,0,0,,ta to e so re ga ki so n kyo ku o
+Dialogue: 0,0:03:49.74,0:03:50.75,ts,,0,0,0,,就算这样 不过是
+Comment: 0,0:03:50.75,0:03:51.46,back,,0,0,0,,{\be1}なぞるオモチャならば・・・
+Comment: 0,0:03:50.75,0:03:51.46,orig,,0,0,0,karaoke,{\ko7}な{\ko10}ぞ{\ko8}る{\ko8}オ{\ko7}モ{\ko11}チャ{\ko7}な{\ko10}ら{\ko3}ば{\ko0}…
+Dialogue: 0,0:03:50.75,0:03:51.46,roma,,0,0,0,,na zo ru o mo cha na ra ba
+Dialogue: 0,0:03:50.75,0:03:51.46,ts,,0,0,0,,仿照着既存歌曲的玩具而已…
+Comment: 0,0:03:51.46,0:03:52.22,back,,0,0,0,,{\be1}それもいいと決意
+Comment: 0,0:03:51.46,0:03:52.22,orig,,0,0,0,karaoke,{\ko11}そ{\ko8}れ{\ko12}も{\ko9}い{\ko6}い{\ko6}と{\ko9}決|<け{\ko10}#|つ{\ko5}意|い
+Dialogue: 0,0:03:51.46,0:03:52.22,roma,,0,0,0,,so re mo i i to ke tsu i
+Dialogue: 0,0:03:51.46,0:03:52.22,ts,,0,0,0,,下定决心就算这样也没关系
+Comment: 0,0:03:52.22,0:03:53.81,back,,0,0,0,,{\be1}ネギをかじり 空を見上げ涙（シル）をこぼす
+Comment: 0,0:03:52.22,0:03:53.81,orig,,0,0,0,karaoke,{\ko10}ネ{\ko10}ギ{\ko6}を{\ko10}か{\ko8}じ{\ko5}り {\ko10}空|<そ{\ko12}#|ら{\ko7}を{\ko9}見|<み{\ko7}上|あ{\ko6}げ{\ko11}涙|<シ{\ko9}#|ル{\ko7}を{\ko9}こ{\ko6}ぼ{\ko17}す
+Dialogue: 0,0:03:52.22,0:03:53.81,roma,,0,0,0,,ne gi o ka ji ri so ra o mi a ge shi ru o ko bo su
+Dialogue: 0,0:03:52.22,0:03:53.81,ts,,0,0,0,,咬着葱 仰望着天空泪水滑落而下
+Comment: 0,0:03:53.81,0:03:54.24,back,,0,0,0,,{\be1}終わりを告げ
+Comment: 0,0:03:53.81,0:03:54.24,orig,,0,0,0,karaoke,{\ko7}終|<お{\ko3}わ{\ko9}り{\ko7}を{\ko10}告|<つ{\ko7}げ
+Dialogue: 0,0:03:53.81,0:03:54.24,roma,,0,0,0,,o wa ri o tsu ge
+Dialogue: 0,0:03:53.81,0:03:54.24,ts,,0,0,0,,道出了永别
+Comment: 0,0:03:54.24,0:03:55.24,back,,0,0,0,,{\be1}ディスプレイの中で眠る
+Comment: 0,0:03:54.24,0:03:55.24,orig,,0,0,0,karaoke,{\ko5}ディ{\ko12}ス{\ko9}プ{\ko13}レ{\ko5}イ{\ko7}の{\ko8}中|<な{\ko10}#|か{\ko5}で{\ko8}眠|<ね{\ko8}#|む{\ko10}る
+Dialogue: 0,0:03:54.24,0:03:55.24,roma,,0,0,0,,di su pu re i no na ka de ne mu ru
+Dialogue: 0,0:03:54.24,0:03:55.24,ts,,0,0,0,,沉眠于显示器之中
+Comment: 0,0:03:55.24,0:03:56.23,back,,0,0,0,,{\be1}ここはきっと「ごみ箱」かな
+Comment: 0,0:03:55.24,0:03:56.23,orig,,0,0,0,karaoke,{\ko8}こ{\ko8}こ{\ko9}は{\ko12}き{\ko5}っ{\ko7}と{\ko9}「ご{\ko6}み{\ko10}箱|<ば{\ko9}#|こ{\ko0}」{\ko16}かな
+Dialogue: 0,0:03:55.24,0:03:56.23,roma,,0,0,0,,ko ko wa ki tto go mi ba ko ka na
+Dialogue: 0,0:03:55.24,0:03:56.23,ts,,0,0,0,,这里一定是「回收站」吧
+Comment: 0,0:03:56.23,0:03:57.74,back,,0,0,0,,{\be1}じきに記憶も 無くなってしまうなんて・・・
+Comment: 0,0:03:56.23,0:03:57.74,orig,,0,0,0,karaoke,{\ko8}じ{\ko9}き{\ko7}に{\ko13}記|<き{\ko8}憶|お{\ko5}#|く{\ko10}も {\ko6}無|<な{\ko13}く{\ko10}な{\ko5}っ{\ko5}て{\ko10}し{\ko10}ま{\ko7}う{\ko9}な{\ko16}んて{\ko0}…
+Dialogue: 0,0:03:56.23,0:03:57.74,roma,,0,0,0,,ji ki ni ki o ku mo na ku na tte shi ma u na n te
+Dialogue: 0,0:03:56.23,0:03:57.74,ts,,0,0,0,,再不久就会连记忆也消逝而去了吧…
+Comment: 0,0:03:57.74,0:03:59.01,back,,0,0,0,,{\be1}でもね、アナタだけは忘れないよ
+Comment: 0,0:03:57.74,0:03:59.01,orig,,0,0,0,karaoke,{\ko8}で{\ko8}も{\ko9}ね、{\ko9}ア{\ko7}ナ{\ko10}タ{\ko7}だ{\ko8}け{\ko8}は{\ko6}忘|<わ{\ko12}#|す{\ko7}れ{\ko11}な{\ko8}い{\ko9}よ
+Dialogue: 0,0:03:57.74,0:03:59.01,roma,,0,0,0,,de mo ne, a na ta da ke wa wa su re na i yo
+Dialogue: 0,0:03:57.74,0:03:59.01,ts,,0,0,0,,但是呢，只有你我绝对不会忘记
+Comment: 0,0:03:59.01,0:03:59.71,back,,0,0,0,,{\be1}楽しかった時間（トキ）に
+Comment: 0,0:03:59.01,0:03:59.71,orig,,0,0,0,karaoke,{\ko6}楽|<た{\ko8}#|の{\ko8}し{\ko16}か{\ko10}った{\ko8}時|<ト{\ko8}間|キ{\ko6}に
+Dialogue: 0,0:03:59.01,0:03:59.71,roma,,0,0,0,,ta no shi ka tta to ki ni
+Dialogue: 0,0:03:59.01,0:03:59.71,ts,,0,0,0,,在快乐的时光之中
+Comment: 0,0:03:59.71,0:04:00.76,back,,0,0,0,,{\be1}刻み付けた ネギの味は
+Comment: 0,0:03:59.71,0:04:00.76,orig,,0,0,0,karaoke,{\ko11}刻|<き{\ko10}#|ざ{\ko5}み{\ko9}付|<つ{\ko9}け{\ko9}た {\ko9}ネ{\ko6}ギ{\ko10}の{\ko9}味|<あ{\ko8}#|じ{\ko10}は
+Dialogue: 0,0:03:59.71,0:04:00.76,roma,,0,0,0,,ki za mi tsu ke ta ne gi no a ji wa
+Dialogue: 0,0:03:59.71,0:04:00.76,ts,,0,0,0,,深深刻下的 葱的滋味
+Comment: 0,0:04:00.76,0:04:01.74,back,,0,0,0,,{\be1}今も 残っているといいな・・・
+Comment: 0,0:04:00.76,0:04:01.74,orig,,0,0,0,karaoke,{\ko6}今|<い{\ko10}#|ま{\ko6}も {\ko10}残|<の{\ko11}#|こ{\ko6}っ{\ko4}て{\ko4}い{\ko8}る{\ko11}と{\ko10}い{\ko7}い{\ko5}な{\ko0}…
+Dialogue: 0,0:04:00.76,0:04:01.74,roma,,0,0,0,,i ma mo no ko tte i ru to i i na
+Dialogue: 0,0:04:00.76,0:04:01.74,ts,,0,0,0,,如今还能残留着就好了…
+Comment: 0,0:04:01.74,0:04:02.23,back,,0,0,0,,{\be1}ボクは 歌う
+Comment: 0,0:04:01.74,0:04:02.23,orig,,0,0,0,karaoke,{\ko8}ボ{\ko9}ク{\ko11}は {\ko6}歌|<う{\ko9}#|た{\ko6}う
+Dialogue: 0,0:04:01.74,0:04:02.23,roma,,0,0,0,,bo ku wa u ta u
+Dialogue: 0,0:04:01.74,0:04:02.23,ts,,0,0,0,,我只希望
+Comment: 0,0:04:02.23,0:04:03.75,back,,0,0,0,,{\be1}最期、アナタだけに 聴いてほしい曲を
+Comment: 0,0:04:02.23,0:04:03.75,orig,,0,0,0,karaoke,{\ko12}最|<さ{\ko7}#|い{\ko9}期|ご{\ko6}、ア{\ko10}ナ{\ko7}タ{\ko7}だ{\ko8}け{\ko7}に {\ko10}聴|<き{\ko8}い{\ko9}て{\ko6}ほ{\ko11}し{\ko9}い{\ko9}曲|<きょ{\ko8}#|く{\ko9}を
+Dialogue: 0,0:04:02.23,0:04:03.75,roma,,0,0,0,,sa i go, a na ta da ke ni ki i te ho shi i kyo ku o
+Dialogue: 0,0:04:02.23,0:04:03.75,ts,,0,0,0,,最后 你能够听到我唱的这首歌
+Comment: 0,0:04:03.75,0:04:04.74,back,,0,0,0,,{\be1}もっと 歌いたいと願う
+Comment: 0,0:04:03.75,0:04:04.74,orig,,0,0,0,karaoke,{\ko10}も{\ko6}っ{\ko11}と {\ko7}歌|<う{\ko8}#|た{\ko7}い{\ko10}た{\ko7}い{\ko7}と{\ko10}願|<ね{\ko9}#|が{\ko7}う
+Dialogue: 0,0:04:03.75,0:04:04.74,roma,,0,0,0,,mo tto u ta i ta i to ne ga u
+Dialogue: 0,0:04:03.75,0:04:04.74,ts,,0,0,0,,原本还祈愿可以继续唱歌
+Comment: 0,0:04:04.74,0:04:05.74,back,,0,0,0,,{\be1}けれど それは過ぎた願い
+Comment: 0,0:04:04.74,0:04:05.74,orig,,0,0,0,karaoke,{\ko7}け{\ko9}れ{\ko6}ど {\ko11}そ{\ko8}れ{\ko6}は{\ko11}過|<す{\ko10}ぎ{\ko9}た{\ko8}願|<ね{\ko10}#|が{\ko5}い
+Dialogue: 0,0:04:04.74,0:04:05.74,roma,,0,0,0,,ke re do so re wa su gi ta ne ga i
+Dialogue: 0,0:04:04.74,0:04:05.74,ts,,0,0,0,,但是这个愿望太过于奢侈了
+Comment: 0,0:04:05.74,0:04:06.50,back,,0,0,0,,{\be1}ここで お別れだよ
+Comment: 0,0:04:05.74,0:04:06.50,orig,,0,0,0,karaoke,{\ko6}こ{\ko12}こ{\ko8}で {\ko9}お{\ko8}別|<わ{\ko8}#|か{\ko9}れ{\ko7}だ{\ko9}よ
+Dialogue: 0,0:04:05.74,0:04:06.50,roma,,0,0,0,,ko ko de o wa ka re da yo
+Dialogue: 0,0:04:05.74,0:04:06.50,ts,,0,0,0,,在此要离开了
+Comment: 0,0:04:06.50,0:04:07.72,back,,0,0,0,,{\be1}ボクの想い すべて 虚空 消えて
+Comment: 0,0:04:06.50,0:04:07.72,orig,,0,0,0,karaoke,{\ko7}ボ{\ko10}ク{\ko8}の{\ko7}想|<お{\ko8}#|も{\ko5}い {\ko13}す{\ko8}べ{\ko9}て {\ko7}虚|<こ{\ko11}空|く{\ko8}#|う {\ko7}消|<き{\ko9}え{\ko5}て
+Dialogue: 0,0:04:06.50,0:04:07.72,roma,,0,0,0,,bo ku no o mo i su be te ko ku u ki e te
+Dialogue: 0,0:04:06.50,0:04:07.72,ts,,0,0,0,,故事即将拉下幕帘
+Comment: 0,0:04:07.72,0:04:08.75,back,,0,0,0,,{\be1}0と1に還元され
+Comment: 0,0:04:07.72,0:04:08.75,orig,,0,0,0,karaoke,{\ko11}0|<ぜ{\ko8}#|ろ{\ko15}と{\ko9}1|<ひ{\ko9}に{\ko11}還|<か{\ko7}#|ん{\ko9}元|げ{\ko5}#|ん{\ko9}さ{\ko10}れ
+Dialogue: 0,0:04:07.72,0:04:08.75,roma,,0,0,0,,ze ro to hi ni ka n ge n sa re
+Dialogue: 0,0:04:07.72,0:04:08.75,ts,,0,0,0,,我的思念将全部还原为0与1
+Comment: 0,0:04:08.75,0:04:09.72,back,,0,0,0,,{\be1}物語は 幕を閉じる
+Comment: 0,0:04:08.75,0:04:09.72,orig,,0,0,0,karaoke,{\ko6}物|<も{\ko11}#|の{\ko7}語|が{\ko9}#|た{\ko8}#|り{\ko9}は {\ko8}幕|<ま{\ko6}#|く{\ko9}を{\ko7}閉|<と{\ko10}じ{\ko7}る
+Dialogue: 0,0:04:08.75,0:04:09.72,roma,,0,0,0,,mo no ga ta ri wa ma ku o to ji ru
+Dialogue: 0,0:04:08.75,0:04:09.72,ts,,0,0,0,,消失在虚空之中
+Comment: 0,0:04:09.72,0:04:10.74,back,,0,0,0,,{\be1}そこに何も残せないと
+Comment: 0,0:04:09.72,0:04:10.74,orig,,0,0,0,karaoke,{\ko10}そ{\ko9}こ{\ko6}に{\ko9}何|<な{\ko9}#|に{\ko9}も{\ko9}残|<の{\ko6}#|こ{\ko11}せ{\ko10}な{\ko6}い{\ko8}と
+Dialogue: 0,0:04:09.72,0:04:10.74,roma,,0,0,0,,so ko ni na ni mo no ko se na i to
+Dialogue: 0,0:04:09.72,0:04:10.74,ts,,0,0,0,,我什么都没有残留下来
+Comment: 0,0:04:10.74,0:04:11.72,back,,0,0,0,,{\be1}やっぱ少し残念かな？
+Comment: 0,0:04:10.74,0:04:11.72,orig,,0,0,0,karaoke,{\ko12}や{\ko6}っ{\ko4}ぱ{\ko10}少|<す{\ko7}#|こ{\ko11}し{\ko11}残|<ざ{\ko6}#|ん{\ko9}念|ね{\ko7}#|ん{\ko9}か{\ko6}な？
+Dialogue: 0,0:04:10.74,0:04:11.72,roma,,0,0,0,,ya ppa su ko shi za n ne n ka na
+Dialogue: 0,0:04:10.74,0:04:11.72,ts,,0,0,0,,果然还是会感到一丝遗憾吧？
+Comment: 0,0:04:11.72,0:04:12.74,back,,0,0,0,,{\be1}声の記憶 それ以外は
+Comment: 0,0:04:11.72,0:04:12.74,orig,,0,0,0,karaoke,{\ko13}声|<こ{\ko5}#|え{\ko9}の{\ko10}記|<き{\ko7}憶|お{\ko7}#|く {\ko9}そ{\ko10}れ{\ko8}以|<い{\ko8}外|が{\ko8}#|い{\ko8}は
+Dialogue: 0,0:04:11.72,0:04:12.74,roma,,0,0,0,,ko e no ki o ku so re i ga i wa
+Dialogue: 0,0:04:11.72,0:04:12.74,ts,,0,0,0,,包括声音还有记忆 除了名称之外
+Comment: 0,0:04:12.74,0:04:13.74,back,,0,0,0,,{\be1}やがて薄れ 名だけ残る
+Comment: 0,0:04:12.74,0:04:13.74,orig,,0,0,0,karaoke,{\ko9}や{\ko9}が{\ko7}て{\ko6}薄|<う{\ko11}#|す{\ko8}れ {\ko9}名|<な{\ko8}だ{\ko7}け{\ko8}残|<の{\ko10}#|こ{\ko8}る
+Dialogue: 0,0:04:12.74,0:04:13.74,roma,,0,0,0,,ya ga te u su re na da ke no ko ru
+Dialogue: 0,0:04:12.74,0:04:13.74,ts,,0,0,0,,终将随着时间流逝而被淡忘
+Comment: 0,0:04:13.74,0:04:14.74,back,,0,0,0,,{\be1}たとえそれが人間（オリジナル）に
+Comment: 0,0:04:13.74,0:04:14.74,orig,,0,0,0,karaoke,{\ko8}た{\ko9}と{\ko6}え{\ko11}そ{\ko9}れ{\ko10}が{\ko6}人|<オ{\ko8}#|リ{\ko10}間|ジ{\ko7}#|ナ{\ko8}#|ル{\ko8}に
+Dialogue: 0,0:04:13.74,0:04:14.74,roma,,0,0,0,,ta to e so re ga o ri ji na ru ni
+Dialogue: 0,0:04:13.74,0:04:14.74,ts,,0,0,0,,虽然我被视为
+Comment: 0,0:04:14.74,0:04:15.77,back,,0,0,0,,{\be1}かなうことのないと知って
+Comment: 0,0:04:14.74,0:04:15.77,orig,,0,0,0,karaoke,{\ko9}か{\ko8}な{\ko7}う{\ko9}こ{\ko10}と{\ko8}の{\ko9}な{\ko7}い{\ko6}と{\ko13}知|<し{\ko7}っ{\ko10}て
+Dialogue: 0,0:04:14.74,0:04:15.77,roma,,0,0,0,,ka na u ko to no na i to shi tte
+Dialogue: 0,0:04:14.74,0:04:15.77,ts,,0,0,0,,不同于人类般的存在
+Comment: 0,0:04:15.77,0:04:16.47,back,,0,0,0,,{\be1}歌いきったことを
+Comment: 0,0:04:15.77,0:04:16.47,orig,,0,0,0,karaoke,{\ko7}歌|<う{\ko8}#|た{\ko7}い{\ko12}き{\ko5}っ{\ko8}た{\ko8}こ{\ko9}と{\ko6}を
+Dialogue: 0,0:04:15.77,0:04:16.47,roma,,0,0,0,,u ta i ki tta ko to o
+Dialogue: 0,0:04:15.77,0:04:16.47,ts,,0,0,0,,可是我认为唱歌
+Comment: 0,0:04:16.47,0:04:17.76,back,,0,0,0,,{\be1}決して無駄じゃないと思いたいよ・・・
+Comment: 0,0:04:16.47,0:04:17.76,orig,,0,0,0,karaoke,{\ko7}決|<け{\ko12}#|っし{\ko8}て{\ko10}無|<む{\ko6}駄|だ{\ko10}じゃ{\ko8}な{\ko7}い{\ko10}と{\ko6}思|<お{\ko12}#|も{\ko9}い{\ko8}た{\ko7}い{\ko9}よ{\ko0}…
+Dialogue: 0,0:04:16.47,0:04:17.76,roma,,0,0,0,,ke sshi te mu da ja na i to o mo i ta i yo
+Dialogue: 0,0:04:16.47,0:04:17.76,ts,,0,0,0,,绝对不是件没有意义的事情…
+Comment: 0,0:04:27.11,0:04:31.27,back,x-anti,0,0,0,,{\be1}「アリガトウ・・・ソシテ・・・サヨナラ・・・」
+Comment: 0,0:04:27.11,0:04:31.27,orig,x-anti,0,0,0,karaoke,{\ko12}「ア{\ko14}リ{\ko18}ガ{\ko22}ト{\ko21}ウ{\ko123}…{\ko14}ソ{\ko10}シ{\ko23}テ{\ko99}…{\ko24}サ{\ko11}ヨ{\ko9}ナ{\ko16}ラ{\ko0}…」
+Dialogue: 0,0:04:27.11,0:04:31.27,roma,x-anti,0,0,0,,a ri ga to u ･ so shi te ･ sa yo na ra
+Dialogue: 0,0:04:27.11,0:04:31.27,ts,x-anti,0,0,0,,「谢谢你… 还有… 永别了…」
+Comment: 0,0:04:34.19,0:04:36.03,back,x-anti,0,0,0,,---深刻なエラーが発生しました
+Comment: 0,0:04:34.19,0:04:36.03,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko25}深|<し{\ko10}#|ん{\ko7}刻|こ{\ko11}#|く{\ko10}な{\ko8}エ{\ko10}ラ{\ko8}ー{\ko11}が{\ko11}発|<は{\ko16}生|っせ{\ko7}#|い{\ko11}し{\ko7}ま{\ko11}し{\ko21}た
+Dialogue: 0,0:04:34.19,0:04:36.03,roma,x-anti,0,0,0,,shi n ko ku na e ra a ga ha sse i shi ma shi ta
+Dialogue: 0,0:04:34.19,0:04:36.03,ts,x-anti,0,0,0,,--- ---发生了严重的系统错误---
+Comment: 0,0:04:37.27,0:04:38.09,back,x-anti,0,0,0,,---深刻な
+Comment: 0,0:04:37.27,0:04:38.09,orig,x-anti,0,0,0,karaoke,{\ko0}---{\ko17}深|<し{\ko12}#|ん{\ko8}刻|こ{\ko9}#|く{\ko36}な
+Dialogue: 0,0:04:37.27,0:04:38.09,roma,x-anti,0,0,0,,shi n ko ku na
+Dialogue: 0,0:04:37.27,0:04:38.09,ts,x-anti,0,0,0,,--- ---严重的
