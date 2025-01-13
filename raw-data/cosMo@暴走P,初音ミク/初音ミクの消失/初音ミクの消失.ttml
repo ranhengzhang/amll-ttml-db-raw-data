@@ -1,11 +1,10 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal">
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:amll="http://www.example.com/ns/amll">
     <head>
         <metadata>
             <ttm:agent type="person" xml:id="v1" />
             <ttm:agent type="other" xml:id="v2" />
             <amll:meta key="ncmMusicId" value="22686712" />
             <amll:meta key="ncmMusicId" value="28844030" />
-            <amll:meta key="ncmMusicId" value="514765051" />
             <amll:meta key="qqMusicId" value="1162271" />
             <amll:meta key="qqMusicId" value="105647984" />
             <amll:meta key="appleMusicId" value="547927461" />
@@ -267,11 +266,11 @@
                 <span begin="00:59.450" end="00:59.620">ガ</span>
                 <span begin="00:59.620" end="00:59.740">上</span>
                 <span begin="00:59.740" end="00:59.810">手</span>
-                <span begin="00:59.810" end="00:59.870">ク </span>
-                <span begin="00:59.870" end="01:00.060">歌</span>
-                <span begin="01:00.060" end="01:00.110">エ</span>
-                <span begin="01:00.110" end="01:00.240">ナ</span>
-                <span begin="01:00.240" end="01:00.400">イ</span>
+                <span begin="00:59.810" end="00:59.910">ク </span>
+                <span begin="00:59.910" end="01:00.080">歌</span>
+                <span begin="01:00.080" end="01:00.170">エ</span>
+                <span begin="01:00.170" end="01:00.300">ナ</span>
+                <span begin="01:00.300" end="01:00.400">イ</span>
                 <span begin="01:00.400" end="01:00.520">ト</span>
                 <span begin="01:00.520" end="01:00.610">キ</span>
                 <span begin="01:00.610" end="01:00.830">モ</span>
@@ -280,27 +279,27 @@
             </p>
             <p begin="01:01.720" end="01:05.840" ttm:agent="v2" itunes:key="L19">
                 <span begin="01:01.720" end="01:01.900">一</span>
-                <span begin="01:01.900" end="01:02.100">緒</span>
-                <span begin="01:02.100" end="01:02.340">ニ</span>
-                <span begin="01:02.340" end="01:02.450">居</span>
-                <span begin="01:02.450" end="01:02.490">テ</span>
-                <span begin="01:02.490" end="01:02.550">ク</span>
-                <span begin="01:02.550" end="01:02.620">レ</span>
-                <span begin="01:02.620" end="01:02.970">タ</span>
-                <span begin="01:02.970" end="01:03.830">… </span>
-                <span begin="01:03.830" end="01:03.880">ソ</span>
-                <span begin="01:03.880" end="01:04.130">バ</span>
+                <span begin="01:01.900" end="01:02.170">緒</span>
+                <span begin="01:02.170" end="01:02.330">ニ</span>
+                <span begin="01:02.330" end="01:02.430">居</span>
+                <span begin="01:02.430" end="01:02.460">テ</span>
+                <span begin="01:02.460" end="01:02.530">ク</span>
+                <span begin="01:02.530" end="01:02.630">レ</span>
+                <span begin="01:02.630" end="01:02.970">タ</span>
+                <span begin="01:02.970" end="01:03.880">… </span>
+                <span begin="01:03.880" end="01:03.970">ソ</span>
+                <span begin="01:03.970" end="01:04.130">バ</span>
                 <span begin="01:04.130" end="01:04.260">ニ</span>
                 <span begin="01:04.260" end="01:04.350">イ</span>
                 <span begin="01:04.350" end="01:04.720">テ</span>
                 <span begin="01:04.720" end="01:04.970">、</span>
                 <span begin="01:04.970" end="01:05.220">励</span>
                 <span begin="01:05.220" end="01:05.280">マ</span>
-                <span begin="01:05.280" end="01:05.430">シ</span>
-                <span begin="01:05.430" end="01:05.630">テ</span>
-                <span begin="01:05.630" end="01:05.690">ク</span>
-                <span begin="01:05.690" end="01:05.770">レ</span>
-                <span begin="01:05.770" end="01:05.840">タ…</span>
+                <span begin="01:05.280" end="01:05.410">シ</span>
+                <span begin="01:05.410" end="01:05.470">テ</span>
+                <span begin="01:05.470" end="01:05.650">ク</span>
+                <span begin="01:05.650" end="01:05.750">レ</span>
+                <span begin="01:05.750" end="01:05.840">タ…</span>
                 <span ttm:role="x-roman">i ssho ni kyo te ku re ta ･ so ba ni i te, ha ge ma shi te ku re ta</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">你依然陪伴着我…在我的身边、鼓励着我…</span>
             </p>
@@ -326,8 +325,8 @@
                 <span begin="01:12.670" end="01:12.890">ヨ</span>
                 <span begin="01:12.890" end="01:13.410">…</span>
                 <span begin="01:13.410" end="01:13.560">ダ</span>
-                <span begin="01:13.560" end="01:13.860">カ</span>
-                <span begin="01:13.860" end="01:14.230">ラ」</span>
+                <span begin="01:13.560" end="01:13.680">カ</span>
+                <span begin="01:13.680" end="01:14.230">ラ」</span>
                 <span ttm:role="x-roman">ki bu ga o ga mi ta ku te bo ku, u ta, re n shu u shi ta yo ･ da ka ra</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">为了让你高兴 我会更努力地，练习，唱歌…所以…」</span>
             </p>
@@ -370,9 +369,9 @@
                 <span begin="01:27.660" end="01:28.210">じ</span>
                 <span begin="01:28.210" end="01:28.630">な</span>
                 <span begin="01:28.630" end="01:29.230">く</span>
-                <span begin="01:29.230" end="01:30.070">な</span>
-                <span begin="01:30.070" end="01:30.220">っ</span>
-                <span begin="01:30.220" end="01:30.780">て</span>
+                <span begin="01:29.230" end="01:29.650">な</span>
+                <span begin="01:29.650" end="01:30.180">っ</span>
+                <span begin="01:30.180" end="01:30.780">て</span>
                 <span ttm:role="x-roman">i ma wa do u shi te ka na na ni mo ka n ji na ku na tte</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">但现在是怎么了呢 竟然什么感觉都没有了</span>
             </p>

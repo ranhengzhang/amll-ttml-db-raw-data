@@ -96,15 +96,15 @@ Comment: 0,0:00:41.72,0:00:42.78,orig,,0,0,0,karaoke,{\ko8}終|<お{\ko9}わ{\ko
 Dialogue: 0,0:00:41.72,0:00:42.78,roma,,0,0,0,,o wa ru se ka i VOCALOID
 Dialogue: 0,0:00:41.72,0:00:42.78,ts,,0,0,0,,是终焉的世界… 「VOCALOID」
 Comment: 0,0:00:59.12,0:01:00.83,back,x-anti,0,0,0,,{\be1}「ボクガ上手ク 歌エナイトキモ
-Comment: 0,0:00:59.12,0:01:00.83,orig,x-anti,0,0,0,karaoke,{\ko22}「ボ{\ko11}ク{\ko17}ガ{\ko6}上|<じょ{\ko6}#|う{\ko7}手|ず{\ko6}ク {\ko12}歌|<う{\ko7}#|た{\ko5}エ{\ko13}ナ{\ko16}イ{\ko12}ト{\ko9}キ{\ko22}モ
+Comment: 0,0:00:59.12,0:01:00.83,orig,x-anti,0,0,0,karaoke,{\ko22}「ボ{\ko11}ク{\ko17}ガ{\ko6}上|<じょ{\ko6}#|う{\ko7}手|ず{\ko10}ク {\ko8}歌|<う{\ko9}#|た{\ko9}エ{\ko13}ナ{\ko10}イ{\ko12}ト{\ko9}キ{\ko22}モ
 Dialogue: 0,0:00:59.12,0:01:00.83,roma,x-anti,0,0,0,,bo ku ga jo u zu ku u ta e na i to ki mo
 Dialogue: 0,0:00:59.12,0:01:00.83,ts,x-anti,0,0,0,,「即使在我歌唱得不好之时
 Comment: 0,0:01:01.72,0:01:05.84,back,x-anti,0,0,0,,{\be1}一緒ニ居テクレタ・・・ ソバニイテ、励マシテクレタ・・・
-Comment: 0,0:01:01.72,0:01:05.84,orig,x-anti,0,0,0,karaoke,{\ko18}一|<いっ{\ko20}緒|しょ{\ko24}ニ{\ko11}居|<きょ{\ko4}テ{\ko6}ク{\ko7}レ{\ko35}タ{\ko86}… {\ko5}ソ{\ko25}バ{\ko13}ニ{\ko9}イ{\ko37}テ{\ko25}、{\ko16}励|<は{\ko9}#|げ{\ko6}マ{\ko15}シ{\ko20}テ{\ko6}ク{\ko8}レ{\ko7}タ{\ko0}…
+Comment: 0,0:01:01.72,0:01:05.84,orig,x-anti,0,0,0,karaoke,{\ko18}一|<いっ{\ko27}緒|しょ{\ko16}ニ{\ko10}居|<きょ{\ko3}テ{\ko7}ク{\ko10}レ{\ko34}タ{\ko91}… {\ko9}ソ{\ko16}バ{\ko13}ニ{\ko9}イ{\ko37}テ{\ko25}、{\ko15}励|<は{\ko10}#|げ{\ko6}マ{\ko13}シ{\ko6}テ{\ko18}ク{\ko10}レ{\ko9}タ{\ko0}…
 Dialogue: 0,0:01:01.72,0:01:05.84,roma,x-anti,0,0,0,,i ssho ni kyo te ku re ta ･ so ba ni i te, ha ge ma shi te ku re ta
 Dialogue: 0,0:01:01.72,0:01:05.84,ts,x-anti,0,0,0,,你依然陪伴着我…在我的身边、鼓励着我…
 Comment: 0,0:01:07.58,0:01:14.23,back,x-anti,0,0,0,,{\be1}喜ブ顔ガ見タクテ ボク、歌、練習シタヨ・・ダカラ」
-Comment: 0,0:01:07.58,0:01:14.23,orig,x-anti,0,0,0,karaoke,{\ko17}喜|<き{\ko25}ブ{\ko11}顔|<が{\ko19}#|お{\ko18}ガ{\ko9}見|<み{\ko7}タ{\ko9}ク{\ko35}テ{\ko55} {\ko18}ボ{\ko35}ク{\ko86}、{\ko10}歌|<う{\ko41}#|た{\ko40}、{\ko17}練|<れ{\ko8}#|ん{\ko13}習|しゅ{\ko9}#|う{\ko15}シ{\ko12}タ{\ko22}ヨ{\ko52}…{\ko15}ダ{\ko30}カ{\ko37}ラ」
+Comment: 0,0:01:07.58,0:01:14.23,orig,x-anti,0,0,0,karaoke,{\ko17}喜|<き{\ko25}ブ{\ko11}顔|<が{\ko19}#|お{\ko18}ガ{\ko9}見|<み{\ko7}タ{\ko9}ク{\ko35}テ{\ko55} {\ko18}ボ{\ko35}ク{\ko86}、{\ko10}歌|<う{\ko41}#|た{\ko40}、{\ko17}練|<れ{\ko8}#|ん{\ko13}習|しゅ{\ko9}#|う{\ko15}シ{\ko12}タ{\ko22}ヨ{\ko52}…{\ko15}ダ{\ko12}カ{\ko55}ラ」
 Dialogue: 0,0:01:07.58,0:01:14.23,roma,x-anti,0,0,0,,ki bu ga o ga mi ta ku te bo ku, u ta, re n shu u shi ta yo ･ da ka ra
 Dialogue: 0,0:01:07.58,0:01:14.23,ts,x-anti,0,0,0,,为了让你高兴 我会更努力地，练习，唱歌…所以…」
 Comment: 0,0:01:14.71,0:01:22.08,back,,0,0,0,,{\be1}かつて歌うこと あんなに楽しかったのに
@@ -112,7 +112,7 @@ Comment: 0,0:01:14.71,0:01:22.08,orig,,0,0,0,karaoke,{\ko22}か{\ko17}つ{\ko49}
 Dialogue: 0,0:01:14.71,0:01:22.08,roma,,0,0,0,,ka tsu te u ta u ko to a n na ni ta no shi ka tta no ni
 Dialogue: 0,0:01:14.71,0:01:22.08,ts,,0,0,0,,歌唱这件事一直以来那么令人感到快乐
 Comment: 0,0:01:22.67,0:01:30.78,back,,0,0,0,,{\be1}今はどうしてかな 何も感じなくなって
-Comment: 0,0:01:22.67,0:01:30.78,orig,,0,0,0,karaoke,{\ko26}今|<い{\ko17}#|ま{\ko46}は{\ko64}{\ko23}ど{\ko14}う{\ko56}し{\ko32}て{\ko23}か{\ko37}な{\ko12} {\ko23}何|<な{\ko32}#|に{\ko31}も{\ko42}{\ko13}感|<か{\ko8}#|ん{\ko55}じ{\ko42}な{\ko60}く{\ko84}な{\ko15}っ{\ko56}て
+Comment: 0,0:01:22.67,0:01:30.78,orig,,0,0,0,karaoke,{\ko26}今|<い{\ko17}#|ま{\ko46}は{\ko64}{\ko23}ど{\ko14}う{\ko56}し{\ko32}て{\ko23}か{\ko37}な{\ko12} {\ko23}何|<な{\ko32}#|に{\ko31}も{\ko42}{\ko13}感|<か{\ko8}#|ん{\ko55}じ{\ko42}な{\ko60}く{\ko42}な{\ko53}っ{\ko60}て
 Dialogue: 0,0:01:22.67,0:01:30.78,roma,,0,0,0,,i ma wa do u shi te ka na na ni mo ka n ji na ku na tte
 Dialogue: 0,0:01:22.67,0:01:30.78,ts,,0,0,0,,但现在是怎么了呢 竟然什么感觉都没有了
 Comment: 0,0:01:30.58,0:01:30.95,back,x-anti,0,0,0,,{\be1}「ゴメンネ...」
