@@ -14,7 +14,7 @@ Last Style Storage: Default
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
 Style: roma-furigana,Raleway-v4020 ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
-Style: orig-furigana,M PLUS 2 Medium,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
+Style: orig-furigana,Comfortaa Medium,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
 Style: orig,阿里巴巴普惠体 3.0 65 Medium,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,7.5,0,1,6.5,0,2,10,10,10,1
 Style: roma,Raleway-v4020 ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
 Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
@@ -29,7 +29,7 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,for i=1,line.kara.n do lo
 Comment: 2,0:00:00.00,0:00:00.00,orig,,0,0,0,template pre-line img notext,!retime("abs",$lstart-200,$lstart+$lwidth-200)!{\shad0\fsp0\fscx75\fscy75\fsp0\move(!$lleft+$lheight/2!,!line.bottom-$lheight/2!,!$lright+$lheight/2!,!line.bottom-$lheight/2!)\p1\t(\frz-!($lwidth+$lheight)/$lheight*180/3.14!)\alpha&H60\fad(200,200)}m 66 122 b 27 92 41 68 67 63 b 80 64 89 79 85 89 b 74 96 67 116 66 122 m 72 125 b 89 79 115 84 129 108 b 132 121 121 134 110 133 b 99 125 78 124 72 125 m 71 132 b 121 134 123 161 105 181 b 93 188 78 181 76 171 b 80 158 74 138 71 132 m 65 133 b 78 181 53 192 29 181 b 19 172 20 155 29 149 b 43 150 60 138 65 133 m 61 127 b 20 155 2 135 5 108 b 10 96 27 92 35 99 b 39 112 56 124 61 127
 Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template line img notext,!''!
 Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line",$sstart-300,-($lright-$sright)+200)!{\pos(!line.left+syl.center!,!line.top!)\xshad2\fscx75\fscy75\fsvp-!math.floor($sheight/3)!\t(0,100,0.8,\fsvp0\fscx100\fscy100)\t(200,!$sdur+150!,\fsvp3\yshad3)\k!30!\kf$skdur\fad(200,200)}
-Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line",($sleft-$lleft)-200,-($lright-$sright)+200)!{\pos(!line.left+syl.center!,!line.bottom!)\xshad3\t(!math.floor($sstart-($sleft-$lleft)+200)!,!math.floor($send-($sleft-$lleft)+200)!,\fsvp4\yshad4)\k!math.floor(($sstart-($sleft-$lleft))/10+20)!\kf$skdur\fad(200,200)!glow(syl,$sstart-($sleft-$lleft)+200)!}
+Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line",($sleft-($lleft))-200,-($lright-($sright))+200)!{\pos(!line.left+syl.center!,!line.bottom!)\xshad3\t(!math.floor($sstart-($sleft-($lleft))+200)!,!math.floor($send-($sleft-($lleft))+200)!,\fsvp4\yshad4)\k!math.floor(($sstart-($sleft-($lleft)))/10+20)!\kf$skdur\fad(200,200)!glow(syl,$sstart-($sleft-($lleft))+200)!}
 Dialogue: 0,0:00:00.00,0:00:01.00,orig,,0,0,0,meta,{\kf3}乐{\kf3}园{\kf3}游{\kf3}梦{\kf3}记{\kf3} {\kf3}-{\kf3} {\kf3}三{\kf3}Z{\kf3}-{\kf3}S{\kf3}T{\kf3}U{\kf3}D{\kf3}I{\kf3}O{\kf3}/{\kf3}H{\kf3}O{\kf3}Y{\kf3}O{\kf3}-{\kf3}M{\kf3}i{\kf3}X
 Dialogue: 0,0:00:01.00,0:00:02.00,orig,,0,0,0,meta,{\kf16}作{\kf16}曲{\kf16}：{\kf16}耀{\kf16}嘉{\kf16}音
 Dialogue: 0,0:00:02.00,0:00:03.00,orig,,0,0,0,meta,{\kf16}作{\kf16}词{\kf16}：{\kf16}耀{\kf16}嘉{\kf16}音
@@ -77,8 +77,8 @@ Comment: 0,0:00:49.45,0:00:50.69,orig,,0,0,0,karaoke,{\ko42}谁|<seoi4{\ko29}会
 Dialogue: 0,0:00:49.45,0:00:50.69,roma,,0,0,0,,seoi4 wui6 zoi6 pong4
 Comment: 0,0:00:50.89,0:00:54.04,orig,,0,0,0,karaoke,{\ko13}压|<aat3{\ko12}轴|<zuk6{\ko20}送|<sung3{\ko12}出|<ceot1{\ko7}{\ko26}当|<dong1{\ko52}初|<co1{\ko15}我|<ngo5{\ko31}最|<zeoi3{\ko35}爱|<oi3{\ko25}的|<dik1{\ko11}{\ko56}歌|<go1
 Dialogue: 0,0:00:50.89,0:00:54.04,roma,,0,0,0,,aat3 zuk6 sung3 ceot1 dong1 co1 ngo5 zeoi3 oi3 dik1 go1
-Comment: 0,0:00:54.04,0:00:54.95,orig,,0,0,0,karaoke,{\ko26}是|<si6{\ko12}你|<nei5{\ko53}么|<jiu1
-Dialogue: 0,0:00:54.04,0:00:54.95,roma,,0,0,0,,si6 nei5 jiu1
+Comment: 0,0:00:54.04,0:00:54.95,orig,,0,0,0,karaoke,{\ko26}是|<si6{\ko12}你|<nei5{\ko53}么|<mo1
+Dialogue: 0,0:00:54.04,0:00:54.95,roma,,0,0,0,,si6 nei5 mo1
 Comment: 0,0:00:55.41,0:00:57.27,orig,,0,0,0,karaoke,{\ko18}如|<jyu4{\ko63}飞|<fei1{\ko13}天|<tin1{\ko29}星|<sing1{\ko63}火|<fo2
 Dialogue: 0,0:00:55.41,0:00:57.27,roma,,0,0,0,,jyu4 fei1 tin1 sing1 fo2
 Comment: 0,0:00:57.27,0:00:59.02,orig,,0,0,0,karaoke,{\ko30}随|<ceoi4{\ko61}心|<sam1{\ko8}不|<bat1{\ko42}闪|<sim2{\ko34}躲|<do2
@@ -111,8 +111,8 @@ Comment: 0,0:01:48.25,0:01:49.69,orig,,0,0,0,karaoke,{\ko38}贴|<tip3{\ko12}{\ko
 Dialogue: 0,0:01:48.25,0:01:49.69,roma,,0,0,0,,tip3 gan6 ji5 do2
 Comment: 0,0:01:50.22,0:01:52.61,orig,,0,0,0,karaoke,{\ko46}大|<daai6{\ko16}门|<mun4{\ko35}外|<ngoi6{\ko23}景|<ging2{\ko30}色|<sik1{\ko9}{\ko37}照|<ziu3{\ko43}旧|<gau6
 Dialogue: 0,0:01:50.22,0:01:52.61,roma,,0,0,0,,daai6 mun4 ngoi6 ging2 sik1 ziu3 gau6
-Comment: 0,0:01:52.61,0:01:53.88,orig,,0,0,0,karaoke,{\ko19}还|<waan4{\ko18}没|<mut6{\ko17}变|<bin3{\ko73}么|<jiu1
-Dialogue: 0,0:01:52.61,0:01:53.88,roma,,0,0,0,,waan4 mut6 bin3 jiu1
+Comment: 0,0:01:52.61,0:01:53.88,orig,,0,0,0,karaoke,{\ko19}还|<waan4{\ko18}没|<mut6{\ko17}变|<bin3{\ko73}么|<mo1
+Dialogue: 0,0:01:52.61,0:01:53.88,roma,,0,0,0,,waan4 mut6 bin3 mo1
 Comment: 0,0:01:54.38,0:01:55.90,orig,,0,0,0,karaoke,{\ko17}放|<fong3{\ko15}声|<sing1{\ko16}全|<cyun4{\ko13}力|<lik6{\ko31}去|<heoi3{\ko60}唱|<coeng3
 Dialogue: 0,0:01:54.38,0:01:55.90,roma,,0,0,0,,fong3 sing1 cyun4 lik6 heoi3 coeng3
 Comment: 0,0:01:56.37,0:01:57.70,orig,,0,0,0,karaoke,{\ko16}再|<zoi3{\ko20}三|<saam1{\ko14}为|<wai4{\ko14}我|<ngo5{\ko29}鼓|<gu2{\ko40}掌|<zoeng2
