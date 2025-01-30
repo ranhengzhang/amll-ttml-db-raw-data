@@ -31,8 +31,8 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template line img notext,!''!
 Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line",($sstart)-300,-(($lright)-($sright))+200)!{\pos(!line.left+syl.center!,!line.top!)\xshad2\fscx75\fscy75\fsvp-!math.floor(($sheight)/3)!\t(0,100,0.8,\fsvp0\fscx100\fscy100)\t(200,!($sdur)+150!,\fsvp3\yshad3)\k!30!\kf($skdur)\fad(200,200)}
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line",(($sleft)-($lleft))-200,-(($lright)-($sright))+200)!{\pos(!line.left+syl.center!,!line.bottom!)\xshad3\t(!math.floor(($sstart)-(($sleft)-($lleft))+200)!,!math.floor(($send)-(($sleft)-($lleft))+200)!,\fsvp4\yshad4)\k!math.floor((($sstart)-(($sleft)-($lleft)))/10+20)!\kf($skdur)\fad(200,200)!glow(syl,($sstart)-(($sleft)-($lleft))+200)!}
 Comment: 0,0:00:18.81,0:00:23.10,back,,0,0,0,,{\kf24}寄{\kf13}り{\kf33}添{\kf11}う{\kf59}二{\kf34}人{\kf24}に {\kf68}君{\kf27}が{\kf18}オ{\kf18}ー{\kf7}バ{\kf26}ー{\kf38}ラ{\kf14}ッ{\kf12}プ
-Comment: 0,0:00:18.81,0:00:23.10,orig,,0,0,0,karaoke,{\ko20}寄|<よ{\ko9}り{\ko27}添|<そ{\ko20}う{\ko19}二|<ふ{\ko11}#|{\ko31}#|た{\ko26}人|<に{\ko8}#|ん{\ko19}に{\ko8} {\ko38}君|<き{\ko26}#|み{\ko18}が{\ko13}{\ko33}オー|<o{\ko38}バー|ver{\ko31}ラ|la{\ko14}ッ|{\ko20}プ|p
-Dialogue: 0,0:00:18.81,0:00:23.10,roma,,0,0,0,,yo ri sō fu ta ni n ni ki mi ga overlap
+Comment: 0,0:00:18.81,0:00:23.10,orig,,0,0,0,karaoke,{\ko20}寄|<よ{\ko9}り{\ko27}添|<そ{\ko20}う{\ko19}二|<ふ{\ko11}#|{\ko31}#|た{\ko34}人|り{\ko19}に{\ko8} {\ko38}君|<き{\ko26}#|み{\ko18}が{\ko13}{\ko33}オー|<o{\ko38}バー|ver{\ko31}ラ|la{\ko14}ッ|{\ko20}プ|p
+Dialogue: 0,0:00:18.81,0:00:23.10,roma,,0,0,0,,yo ri sō fu ta ri ni ki mi ga overlap
 Dialogue: 0,0:00:18.81,0:00:23.10,ts,,0,0,0,,相互依偎的拥抱，重叠着我与你的身影
 Comment: 0,0:00:24.01,0:00:28.09,back,,0,0,0,,{\kf50}色{\kf36}な{\kf27}き{\kf63}風{\kf32}に {\kf69}思{\kf21}い{\kf27}馳{\kf37}せ{\kf78}て
 Comment: 0,0:00:24.01,0:00:28.09,orig,,0,0,0,karaoke,{\ko14}色|<い{\ko19}#|ろ{\ko36}な{\ko8}{\ko12}き{\ko6}{\ko24}風|<か{\ko32}#|ぜ{\ko9}{\ko20}に{\ko9} {\ko29}思|<お{\ko36}#|も{\ko24}い{\ko28}馳|<は{\ko34}せ{\ko12}{\ko56}て
