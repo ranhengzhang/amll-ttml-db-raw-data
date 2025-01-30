@@ -45,99 +45,99 @@ Dialogue: 0,0:00:11.00,0:00:12.00,orig,,0,0,0,meta,{\kf3}音{\kf3}乐{\kf3}编{\
 Dialogue: 0,0:00:12.00,0:00:13.00,orig,,0,0,0,meta,{\kf6}制{\kf6}作{\kf6}统{\kf6}筹{\kf6}：{\kf6}许{\kf6}夙{\kf6} {\kf6}@{\kf6}E{\kf6}L{\kf6}E{\kf6}V{\kf6}E{\kf6}N{\kf6}Z
 Dialogue: 0,0:00:13.00,0:00:14.00,orig,,0,0,0,meta,{\kf5}制{\kf5}作{\kf5}助{\kf5}理{\kf5}：{\kf5}卜{\kf5}澳{\kf5}鹏{\kf5} {\kf5}@{\kf5}E{\kf5}L{\kf5}E{\kf5}V{\kf5}E{\kf5}N{\kf5}Z
 Dialogue: 0,0:00:14.00,0:00:15.00,orig,,0,0,0,meta,{\kf5}混{\kf5}音{\kf5}母{\kf5}带{\kf5}：{\kf5}赵{\kf5}靖{\kf5}B{\kf5}I{\kf5}G{\kf5}.{\kf5}J{\kf5} {\kf5}({\kf5}S{\kf5}B{\kf5}M{\kf5}S{\kf5})
-Comment: 0,0:00:16.16,0:00:17.96,orig,,0,0,0,karaoke,{\ko24}想|<soeng2{\ko19}要|<jiu3{\ko10}一|<jat1{\ko9}{\ko14}个|<go3{\ko17}人|<jan4{\ko14}听|<ting1{\ko29}海|<hoi2{\ko44}风|<fung1
+Comment: 0,0:00:16.16,0:00:17.96,orig,L__1,0,0,0,karaoke,{\ko24}想|<soeng2{\ko19}要|<jiu3{\ko10}一|<jat1{\ko9}{\ko14}个|<go3{\ko17}人|<jan4{\ko14}听|<ting1{\ko29}海|<hoi2{\ko44}风|<fung1
 Dialogue: 0,0:00:16.16,0:00:17.96,roma,,0,0,0,,soeng2 jiu3 jat1 go3 jan4 ting1 hoi2 fung1
-Comment: 0,0:00:18.14,0:00:19.85,orig,,0,0,0,karaoke,{\ko25}想|<soeng2{\ko15}要|<jiu3{\ko12}一|<jat1{\ko8}{\ko12}个|<go3{\ko17}人|<jan4{\ko14}看|<hon3{\ko33}晚|<maan5{\ko35}空|<hung1
+Comment: 0,0:00:18.14,0:00:19.85,orig,L__2,0,0,0,karaoke,{\ko25}想|<soeng2{\ko15}要|<jiu3{\ko12}一|<jat1{\ko8}{\ko12}个|<go3{\ko17}人|<jan4{\ko14}看|<hon3{\ko33}晚|<maan5{\ko35}空|<hung1
 Dialogue: 0,0:00:18.14,0:00:19.85,roma,,0,0,0,,soeng2 jiu3 jat1 go3 jan4 hon3 maan5 hung1
-Comment: 0,0:00:20.18,0:00:22.55,orig,,0,0,0,karaoke,{\ko21}带|<daai3{\ko14}着|<zoek6{\ko15}那|<naa5{\ko18}份|<fan6{\ko21}悸|<gwai3{\ko10}动|<dung6{\ko31}逃|<tou4{\ko27}离|<ci1{\ko10}{\ko16}缚|<bok3{\ko8}{\ko46}束|<cuk1
+Comment: 0,0:00:20.18,0:00:22.55,orig,L__3,0,0,0,karaoke,{\ko21}带|<daai3{\ko14}着|<zoek6{\ko15}那|<naa5{\ko18}份|<fan6{\ko21}悸|<gwai3{\ko10}动|<dung6{\ko31}逃|<tou4{\ko27}离|<ci1{\ko10}{\ko16}缚|<bok3{\ko8}{\ko46}束|<cuk1
 Dialogue: 0,0:00:20.18,0:00:22.55,roma,,0,0,0,,daai3 zoek6 naa5 fan6 gwai3 dung6 tou4 ci1 bok3 cuk1
-Comment: 0,0:00:22.98,0:00:25.45,orig,,0,0,0,karaoke,{\ko14}环|<waan4{\ko30}游|<jau4{\ko39}绝|<zyut6{\ko26}美|<mei5{\ko7}{\ko95}岛|<dou2{\ko36}屿|<zeoi6
+Comment: 0,0:00:22.98,0:00:25.45,orig,L__4,0,0,0,karaoke,{\ko14}环|<waan4{\ko30}游|<jau4{\ko39}绝|<zyut6{\ko26}美|<mei5{\ko7}{\ko95}岛|<dou2{\ko36}屿|<zeoi6
 Dialogue: 0,0:00:22.98,0:00:25.45,roma,,0,0,0,,waan4 jau4 zyut6 mei5 dou2 zeoi6
-Comment: 0,0:00:25.61,0:00:27.40,orig,,0,0,0,karaoke,{\ko14}和|<wo4{\ko15}自|<zi6{\ko16}己|<gei2{\ko44}约|<joek3{\ko24}{\ko13}定|<ding6{\ko14}说|<syut3{\ko39}好|<hou2
+Comment: 0,0:00:25.61,0:00:27.40,orig,L__5,0,0,0,karaoke,{\ko14}和|<wo4{\ko15}自|<zi6{\ko16}己|<gei2{\ko44}约|<joek3{\ko24}{\ko13}定|<ding6{\ko14}说|<syut3{\ko39}好|<hou2
 Dialogue: 0,0:00:25.61,0:00:27.40,roma,,0,0,0,,wo4 zi6 gei2 joek3 ding6 syut3 hou2
-Comment: 0,0:00:27.94,0:00:29.52,orig,,0,0,0,karaoke,{\ko35}从|<cung4{\ko7}{\ko35}不|<bat1{\ko9}{\ko21}乱|<lyun6{\ko51}套|<tou3
+Comment: 0,0:00:27.94,0:00:29.52,orig,L__6,0,0,0,karaoke,{\ko35}从|<cung4{\ko7}{\ko35}不|<bat1{\ko9}{\ko21}乱|<lyun6{\ko51}套|<tou3
 Dialogue: 0,0:00:27.94,0:00:29.52,roma,,0,0,0,,cung4 bat1 lyun6 tou3
-Comment: 0,0:00:29.93,0:00:31.27,orig,,0,0,0,karaoke,{\ko26}全|<cyun4{\ko52}可|<ho2{\ko25}做|<zou6{\ko31}到|<dou3
+Comment: 0,0:00:29.93,0:00:31.27,orig,L__7,0,0,0,karaoke,{\ko26}全|<cyun4{\ko52}可|<ho2{\ko25}做|<zou6{\ko31}到|<dou3
 Dialogue: 0,0:00:29.93,0:00:31.27,roma,,0,0,0,,cyun4 ho2 zou6 dou3
-Comment: 0,0:00:31.55,0:00:35.20,orig,,0,0,0,karaoke,{\ko33}序|<zeoi6{\ko104}曲|<kuk1{\ko32} {\ko19}躲|<do2{\ko15}进|<zeon3{\ko13}雨|<jyu5{\ko18}水|<seoi2{\ko62}倒|<dou2{\ko28}影|<jing2{\ko41}中|<zung1
+Comment: 0,0:00:31.55,0:00:35.20,orig,L__8,0,0,0,karaoke,{\ko33}序|<zeoi6{\ko104}曲|<kuk1{\ko32} {\ko19}躲|<do2{\ko15}进|<zeon3{\ko13}雨|<jyu5{\ko18}水|<seoi2{\ko62}倒|<dou2{\ko28}影|<jing2{\ko41}中|<zung1
 Dialogue: 0,0:00:31.55,0:00:35.20,roma,,0,0,0,,zeoi6 kuk1 do2 zeon3 jyu5 seoi2 dou2 jing2 zung1
-Comment: 0,0:00:35.83,0:00:37.40,orig,,0,0,0,karaoke,{\ko20}每|<mui5{\ko9}步|<bou6{\ko20}踩|<caai2{\ko10}着|<zoek6{\ko24}细|<sai3{\ko18}腻|<nei6{\ko23}乐|<lok6{\ko10}{\ko23}句|<geoi3
-Dialogue: 0,0:00:35.83,0:00:37.40,roma,,0,0,0,,mui5 bou6 caai2 zoek6 sai3 nei6 lok6 geoi3
-Comment: 0,0:00:37.40,0:00:39.04,orig,,0,0,0,karaoke,{\ko40}找|<zaau2{\ko41}音|<jam1{\ko25}符|<fu4{\ko18}有|<jau5{\ko16}几|<gei1{\ko24}高|<gou1
-Dialogue: 0,0:00:37.40,0:00:39.04,roma,,0,0,0,,zaau2 jam1 fu4 jau5 gei1 gou1
-Comment: 0,0:00:39.41,0:00:43.10,orig,,0,0,0,karaoke,{\ko33}琴|<kam4{\ko112}谱|<pou2{\ko20} {\ko21}等|<dang2{\ko9}到|<dou3{\ko16}哪|<naa5{\ko11}一|<jat1{\ko6}{\ko67}天|<tin1{\ko21}再|<zoi3{\ko53}数|<sou3
-Dialogue: 0,0:00:39.41,0:00:43.10,roma,,0,0,0,,kam4 pou2 dang2 dou3 naa5 jat1 tin1 zoi3 sou3
-Comment: 0,0:00:43.64,0:00:45.48,orig,,0,0,0,karaoke,{\ko23}苦|<fu2{\ko10}练|<lin6{\ko36}那|<naa5{\ko18}半|<bun3{\ko9}段|<dyun6{\ko22}合|<hap6{\ko10}{\ko37}奏|<zau3{\ko19}曲|<kuk1
+Comment: 0,0:00:35.83,0:00:37.40,orig,L__9,0,0,0,karaoke,{\ko20}每|<mui5{\ko9}步|<bou6{\ko20}踩|<caai2{\ko10}着|<zoek6{\ko24}细|<sai3{\ko18}腻|<nei6{\ko23}乐|<ngok6{\ko10}{\ko23}句|<geoi3
+Dialogue: 0,0:00:35.83,0:00:37.40,roma,,0,0,0,,mui5 bou6 caai2 zoek6 sai3 nei6 ngok6 geoi3
+Comment: 0,0:00:37.40,0:00:39.04,orig,L_10,0,0,0,karaoke,{\ko40}找|<zaau2{\ko41}音|<jam1{\ko25}符|<fu4{\ko18}有|<jau5{\ko16}几|<gei2{\ko24}高|<gou1
+Dialogue: 0,0:00:37.40,0:00:39.04,roma,,0,0,0,,zaau2 jam1 fu4 jau5 gei2 gou1
+Comment: 0,0:00:39.41,0:00:43.10,orig,L_11,0,0,0,karaoke,{\ko33}琴|<kam4{\ko112}谱|<pou2{\ko20} {\ko21}等|<dang2{\ko9}到|<dou3{\ko16}哪|<naa5{\ko11}一|<jat1{\ko6}{\ko67}天|<tin1{\ko21}再|<zoi3{\ko53}数|<sou2
+Dialogue: 0,0:00:39.41,0:00:43.10,roma,,0,0,0,,kam4 pou2 dang2 dou3 naa5 jat1 tin1 zoi3 sou2
+Comment: 0,0:00:43.64,0:00:45.48,orig,L_12,0,0,0,karaoke,{\ko23}苦|<fu2{\ko10}练|<lin6{\ko36}那|<naa5{\ko18}半|<bun3{\ko9}段|<dyun6{\ko22}合|<hap6{\ko10}{\ko37}奏|<zau3{\ko19}曲|<kuk1
 Dialogue: 0,0:00:43.64,0:00:45.48,roma,,0,0,0,,fu2 lin6 naa5 bun3 dyun6 hap6 zau3 kuk1
-Comment: 0,0:00:45.60,0:00:47.18,orig,,0,0,0,karaoke,{\ko35}终|<zung1{\ko34}将|<zoeng1{\ko18}听|<ting1{\ko7}得|<dak1{\ko10}{\ko54}到|<dou3
+Comment: 0,0:00:45.60,0:00:47.18,orig,L_13,0,0,0,karaoke,{\ko35}终|<zung1{\ko34}将|<zoeng1{\ko18}听|<ting1{\ko7}得|<dak1{\ko10}{\ko54}到|<dou3
 Dialogue: 0,0:00:45.60,0:00:47.18,roma,,0,0,0,,zung1 zoeng1 ting1 dak1 dou3
-Comment: 0,0:00:47.50,0:00:49.32,orig,,0,0,0,karaoke,{\ko36}旋|<syun4{\ko57}转|<zyun2{\ko7}的|<dik1{\ko10}{\ko31}灯|<dang1{\ko41}光|<gwong1
+Comment: 0,0:00:47.50,0:00:49.32,orig,L_14,0,0,0,karaoke,{\ko36}旋|<syun4{\ko57}转|<zyun2{\ko7}的|<dik1{\ko10}{\ko31}灯|<dang1{\ko41}光|<gwong1
 Dialogue: 0,0:00:47.50,0:00:49.32,roma,,0,0,0,,syun4 zyun2 dik1 dang1 gwong1
-Comment: 0,0:00:49.45,0:00:50.69,orig,,0,0,0,karaoke,{\ko42}谁|<seoi4{\ko29}会|<wui6{\ko31}在|<zoi6{\ko22}旁|<pong4
-Dialogue: 0,0:00:49.45,0:00:50.69,roma,,0,0,0,,seoi4 wui6 zoi6 pong4
-Comment: 0,0:00:50.89,0:00:54.04,orig,,0,0,0,karaoke,{\ko13}压|<aat3{\ko12}轴|<zuk6{\ko20}送|<sung3{\ko12}出|<ceot1{\ko7}{\ko26}当|<dong1{\ko52}初|<co1{\ko15}我|<ngo5{\ko31}最|<zeoi3{\ko35}爱|<oi3{\ko25}的|<dik1{\ko11}{\ko56}歌|<go1
+Comment: 0,0:00:49.45,0:00:50.69,orig,L_15,0,0,0,karaoke,{\ko42}谁|<seoi4{\ko29}会|<wui5{\ko31}在|<zoi6{\ko22}旁|<pong4
+Dialogue: 0,0:00:49.45,0:00:50.69,roma,,0,0,0,,seoi4 wui5 zoi6 pong4
+Comment: 0,0:00:50.89,0:00:54.04,orig,L_16,0,0,0,karaoke,{\ko13}压|<aat3{\ko12}轴|<zuk6{\ko20}送|<sung3{\ko12}出|<ceot1{\ko7}{\ko26}当|<dong1{\ko52}初|<co1{\ko15}我|<ngo5{\ko31}最|<zeoi3{\ko35}爱|<oi3{\ko25}的|<dik1{\ko11}{\ko56}歌|<go1
 Dialogue: 0,0:00:50.89,0:00:54.04,roma,,0,0,0,,aat3 zuk6 sung3 ceot1 dong1 co1 ngo5 zeoi3 oi3 dik1 go1
-Comment: 0,0:00:54.04,0:00:54.95,orig,,0,0,0,karaoke,{\ko26}是|<si6{\ko12}你|<nei5{\ko53}么|<mo1
+Comment: 0,0:00:54.04,0:00:54.95,orig,L_17,0,0,0,karaoke,{\ko26}是|<si6{\ko12}你|<nei5{\ko53}么|<mo1
 Dialogue: 0,0:00:54.04,0:00:54.95,roma,,0,0,0,,si6 nei5 mo1
-Comment: 0,0:00:55.41,0:00:57.27,orig,,0,0,0,karaoke,{\ko18}如|<jyu4{\ko63}飞|<fei1{\ko13}天|<tin1{\ko29}星|<sing1{\ko63}火|<fo2
+Comment: 0,0:00:55.41,0:00:57.27,orig,L_18,0,0,0,karaoke,{\ko18}如|<jyu4{\ko63}飞|<fei1{\ko13}天|<tin1{\ko29}星|<sing1{\ko63}火|<fo2
 Dialogue: 0,0:00:55.41,0:00:57.27,roma,,0,0,0,,jyu4 fei1 tin1 sing1 fo2
-Comment: 0,0:00:57.27,0:00:59.02,orig,,0,0,0,karaoke,{\ko30}随|<ceoi4{\ko61}心|<sam1{\ko8}不|<bat1{\ko42}闪|<sim2{\ko34}躲|<do2
+Comment: 0,0:00:57.27,0:00:59.02,orig,L_19,0,0,0,karaoke,{\ko30}随|<ceoi4{\ko61}心|<sam1{\ko8}不|<bat1{\ko42}闪|<sim2{\ko34}躲|<do2
 Dialogue: 0,0:00:57.27,0:00:59.02,roma,,0,0,0,,ceoi4 sam1 bat1 sim2 do2
-Comment: 0,0:00:59.32,0:01:00.90,orig,,0,0,0,karaoke,{\ko21}载|<zoi3{\ko11}住|<zyu6{\ko14}昨|<zok3{\ko7}{\ko14}日|<jat6{\ko18}美|<mei5{\ko10}梦|<mung6{\ko33}碎|<seoi3{\ko30}片|<pin2
+Comment: 0,0:00:59.32,0:01:00.90,orig,L_20,0,0,0,karaoke,{\ko21}载|<zoi3{\ko11}住|<zyu6{\ko14}昨|<zok3{\ko7}{\ko14}日|<jat6{\ko18}美|<mei5{\ko10}梦|<mung6{\ko33}碎|<seoi3{\ko30}片|<pin2
 Dialogue: 0,0:00:59.32,0:01:00.90,roma,,0,0,0,,zoi3 zyu6 zok3 jat6 mei5 mung6 seoi3 pin2
-Comment: 0,0:01:00.90,0:01:02.67,orig,,0,0,0,karaoke,{\ko39}冲|<cung1{\ko55}破|<po3{\ko37}险|<him2{\ko46}阻|<zo2
+Comment: 0,0:01:00.90,0:01:02.67,orig,L_21,0,0,0,karaoke,{\ko39}冲|<cung1{\ko55}破|<po3{\ko37}险|<him2{\ko46}阻|<zo2
 Dialogue: 0,0:01:00.90,0:01:02.67,roma,,0,0,0,,cung1 po3 him2 zo2
-Comment: 0,0:01:03.16,0:01:04.90,orig,,0,0,0,karaoke,{\ko39}云|<wan4{\ko48}朵|<do2{\ko5}{\ko7}的|<dik1{\ko6}{\ko32}轨|<gwai2{\ko37}迹|<zik1
+Comment: 0,0:01:03.16,0:01:04.90,orig,L_22,0,0,0,karaoke,{\ko39}云|<wan4{\ko48}朵|<do2{\ko5}{\ko7}的|<dik1{\ko6}{\ko32}轨|<gwai2{\ko37}迹|<zik1
 Dialogue: 0,0:01:03.16,0:01:04.90,roma,,0,0,0,,wan4 do2 dik1 gwai2 zik1
-Comment: 0,0:01:04.93,0:01:06.52,orig,,0,0,0,karaoke,{\ko27}是|<si6{\ko35}游|<jau4{\ko18}园|<jyun4{\ko48}胜|<saang1{\ko31}地|<dei6
-Dialogue: 0,0:01:04.93,0:01:06.52,roma,,0,0,0,,si6 jau4 jyun4 saang1 dei6
-Comment: 0,0:01:06.78,0:01:08.44,orig,,0,0,0,karaoke,{\ko29}乘|<sing4{\ko12}着|<zoek6{\ko33}音|<jam1{\ko30}阶|<gaai1{\ko32}观|<gun1{\ko30}光|<gwong1
+Comment: 0,0:01:04.93,0:01:06.52,orig,L_23,0,0,0,karaoke,{\ko27}是|<si6{\ko35}游|<jau4{\ko18}园|<jyun4{\ko48}胜|<sing3{\ko31}地|<dei6
+Dialogue: 0,0:01:04.93,0:01:06.52,roma,,0,0,0,,si6 jau4 jyun4 sing3 dei6
+Comment: 0,0:01:06.78,0:01:08.44,orig,L_24,0,0,0,karaoke,{\ko29}乘|<sing4{\ko12}着|<zoek6{\ko33}音|<jam1{\ko30}阶|<gaai1{\ko32}观|<gun1{\ko30}光|<gwong1
 Dialogue: 0,0:01:06.78,0:01:08.44,roma,,0,0,0,,sing4 zoek6 jam1 gaai1 gun1 gwong1
-Comment: 0,0:01:08.44,0:01:10.67,orig,,0,0,0,karaoke,{\ko28}梦|<mung6{\ko33}里|<lei5{\ko39}早|<zou2{\ko24}已|<ji5{\ko25}学|<hok6{\ko14}会|<wui2{\ko60}飞|<fei1
+Comment: 0,0:01:08.44,0:01:10.67,orig,L_25,0,0,0,karaoke,{\ko28}梦|<mung6{\ko33}里|<lei5{\ko39}早|<zou2{\ko24}已|<ji5{\ko25}学|<hok6{\ko14}会|<wui2{\ko60}飞|<fei1
 Dialogue: 0,0:01:08.44,0:01:10.67,roma,,0,0,0,,mung6 lei5 zou2 ji5 hok6 wui2 fei1
-Comment: 0,0:01:11.05,0:01:12.81,orig,,0,0,0,karaoke,{\ko20}一|<jat1{\ko14}{\ko34}点|<dim2{\ko31}点|<dim2{\ko29}堆|<deoi1{\ko48}积|<zik1
+Comment: 0,0:01:11.05,0:01:12.81,orig,L_26,0,0,0,karaoke,{\ko20}一|<jat1{\ko14}{\ko34}点|<dim2{\ko31}点|<dim2{\ko29}堆|<deoi1{\ko48}积|<zik1
 Dialogue: 0,0:01:11.05,0:01:12.81,roma,,0,0,0,,jat1 dim2 dim2 deoi1 zik1
-Comment: 0,0:01:13.05,0:01:14.70,orig,,0,0,0,karaoke,{\ko25}沿|<jyun4{\ko9}{\ko45}街|<gaai1{\ko12}的|<dik1{\ko36}风|<fung1{\ko38}景|<ging2
+Comment: 0,0:01:13.05,0:01:14.70,orig,L_27,0,0,0,karaoke,{\ko25}沿|<jyun4{\ko9}{\ko45}街|<gaai1{\ko12}的|<dik1{\ko36}风|<fung1{\ko38}景|<ging2
 Dialogue: 0,0:01:13.05,0:01:14.70,roma,,0,0,0,,jyun4 gaai1 dik1 fung1 ging2
-Comment: 0,0:01:15.01,0:01:18.29,orig,,0,0,0,karaoke,{\ko17}努|<nou5{\ko9}力|<lik6{\ko33}去|<heoi3{\ko20}创|<cong3{\ko19}造|<zou6{\ko21}幻|<waan6{\ko42}想|<soeng2{\ko31}中|<zung1{\ko6}{\ko42}的|<dik1{\ko9}{\ko47}仙|<sin1{\ko32}境|<ging2
+Comment: 0,0:01:15.01,0:01:18.29,orig,L_28,0,0,0,karaoke,{\ko17}努|<nou5{\ko9}力|<lik6{\ko33}去|<heoi3{\ko20}创|<cong3{\ko19}造|<zou6{\ko21}幻|<waan6{\ko42}想|<soeng2{\ko31}中|<zung1{\ko6}{\ko42}的|<dik1{\ko9}{\ko47}仙|<sin1{\ko32}境|<ging2
 Dialogue: 0,0:01:15.01,0:01:18.29,roma,,0,0,0,,nou5 lik6 heoi3 cong3 zou6 waan6 soeng2 zung1 dik1 sin1 ging2
-Comment: 0,0:01:18.60,0:01:19.60,orig,,0,0,0,karaoke,{\ko36}太|<taai3{\ko64}美|<mei5
+Comment: 0,0:01:18.60,0:01:19.60,orig,L_29,0,0,0,karaoke,{\ko36}太|<taai3{\ko64}美|<mei5
 Dialogue: 0,0:01:18.60,0:01:19.60,roma,,0,0,0,,taai3 mei5
-Comment: 0,0:01:19.87,0:01:23.20,orig,,0,0,0,karaoke,{\ko29}来|<loi4{\ko6}{\ko21}吧|<baa6{\ko37}送|<sung3{\ko96}给|<kap1{\ko144}你|<nei5
+Comment: 0,0:01:19.87,0:01:23.20,orig,L_30,0,0,0,karaoke,{\ko29}来|<loi4{\ko6}{\ko21}吧|<baa6{\ko37}送|<sung3{\ko96}给|<kap1{\ko144}你|<nei5
 Dialogue: 0,0:01:19.87,0:01:23.20,roma,,0,0,0,,loi4 baa6 sung3 kap1 nei5
-Comment: 0,0:01:45.91,0:01:48.20,orig,,0,0,0,karaoke,{\ko15}期|<kei4{\ko23}望|<mong6{\ko43}对|<deoi3{\ko26}着|<zoek6{\ko21}你|<nei5{\ko32}轻|<heng6{\ko35}轻|<heng1{\ko34}唱|<coeng3
+Comment: 0,0:01:45.91,0:01:48.20,orig,L_31,0,0,0,karaoke,{\ko15}期|<kei4{\ko23}望|<mong6{\ko43}对|<deoi3{\ko26}着|<zoek6{\ko21}你|<nei5{\ko32}轻|<heng6{\ko35}轻|<heng1{\ko34}唱|<coeng3
 Dialogue: 0,0:01:45.91,0:01:48.20,roma,,0,0,0,,kei4 mong6 deoi3 zoek6 nei5 heng6 heng1 coeng3
-Comment: 0,0:01:48.25,0:01:49.69,orig,,0,0,0,karaoke,{\ko38}贴|<tip3{\ko12}{\ko16}近|<gan6{\ko28}耳|<ji5{\ko6}{\ko44}朵|<do2
+Comment: 0,0:01:48.25,0:01:49.69,orig,L_32,0,0,0,karaoke,{\ko38}贴|<tip3{\ko12}{\ko16}近|<gan6{\ko28}耳|<ji5{\ko6}{\ko44}朵|<do2
 Dialogue: 0,0:01:48.25,0:01:49.69,roma,,0,0,0,,tip3 gan6 ji5 do2
-Comment: 0,0:01:50.22,0:01:52.61,orig,,0,0,0,karaoke,{\ko46}大|<daai6{\ko16}门|<mun4{\ko35}外|<ngoi6{\ko23}景|<ging2{\ko30}色|<sik1{\ko9}{\ko37}照|<ziu3{\ko43}旧|<gau6
+Comment: 0,0:01:50.22,0:01:52.61,orig,L_33,0,0,0,karaoke,{\ko46}大|<daai6{\ko16}门|<mun4{\ko35}外|<ngoi6{\ko23}景|<ging2{\ko30}色|<sik1{\ko9}{\ko37}照|<ziu3{\ko43}旧|<gau6
 Dialogue: 0,0:01:50.22,0:01:52.61,roma,,0,0,0,,daai6 mun4 ngoi6 ging2 sik1 ziu3 gau6
-Comment: 0,0:01:52.61,0:01:53.88,orig,,0,0,0,karaoke,{\ko19}还|<waan4{\ko18}没|<mut6{\ko17}变|<bin3{\ko73}么|<mo1
-Dialogue: 0,0:01:52.61,0:01:53.88,roma,,0,0,0,,waan4 mut6 bin3 mo1
-Comment: 0,0:01:54.38,0:01:55.90,orig,,0,0,0,karaoke,{\ko17}放|<fong3{\ko15}声|<sing1{\ko16}全|<cyun4{\ko13}力|<lik6{\ko31}去|<heoi3{\ko60}唱|<coeng3
+Comment: 0,0:01:52.61,0:01:53.88,orig,L_34,0,0,0,karaoke,{\ko19}还|<waan4{\ko18}没|<mut6{\ko17}变|<bin3{\ko73}么|<mei6
+Dialogue: 0,0:01:52.61,0:01:53.88,roma,,0,0,0,,waan4 mut6 bin3 mei6
+Comment: 0,0:01:54.38,0:01:55.90,orig,L_35,0,0,0,karaoke,{\ko17}放|<fong3{\ko15}声|<sing1{\ko16}全|<cyun4{\ko13}力|<lik6{\ko31}去|<heoi3{\ko60}唱|<coeng3
 Dialogue: 0,0:01:54.38,0:01:55.90,roma,,0,0,0,,fong3 sing1 cyun4 lik6 heoi3 coeng3
-Comment: 0,0:01:56.37,0:01:57.70,orig,,0,0,0,karaoke,{\ko16}再|<zoi3{\ko20}三|<saam1{\ko14}为|<wai4{\ko14}我|<ngo5{\ko29}鼓|<gu2{\ko40}掌|<zoeng2
-Dialogue: 0,0:01:56.37,0:01:57.70,roma,,0,0,0,,zoi3 saam1 wai4 ngo5 gu2 zoeng2
-Comment: 0,0:01:57.97,0:01:59.52,orig,,0,0,0,karaoke,{\ko38}心|<sam1{\ko35}底|<dai2{\ko13}的|<dik1{\ko47}火|<fo2{\ko22}花|<faa1
+Comment: 0,0:01:56.37,0:01:57.70,orig,L_36,0,0,0,karaoke,{\ko16}再|<zoi3{\ko20}三|<saam1{\ko14}为|<wei6{\ko14}我|<ngo5{\ko29}鼓|<gu2{\ko40}掌|<zoeng2
+Dialogue: 0,0:01:56.37,0:01:57.70,roma,,0,0,0,,zoi3 saam1 wei6 ngo5 gu2 zoeng2
+Comment: 0,0:01:57.97,0:01:59.52,orig,L_37,0,0,0,karaoke,{\ko38}心|<sam1{\ko35}底|<dai2{\ko13}的|<dik1{\ko47}火|<fo2{\ko22}花|<faa1
 Dialogue: 0,0:01:57.97,0:01:59.52,roma,,0,0,0,,sam1 dai2 dik1 fo2 faa1
-Comment: 0,0:01:59.63,0:02:01.60,orig,,0,0,0,karaoke,{\ko37}在|<zoi6{\ko97}高|<gou1{\ko63}涨|<zoeng2
+Comment: 0,0:01:59.63,0:02:01.60,orig,L_38,0,0,0,karaoke,{\ko37}在|<zoi6{\ko97}高|<gou1{\ko63}涨|<zoeng2
 Dialogue: 0,0:01:59.63,0:02:01.60,roma,,0,0,0,,zoi6 gou1 zoeng2
-Comment: 0,0:02:01.92,0:02:05.37,orig,,0,0,0,karaoke,{\ko130}听|<ting1{\ko6} {\ko28}旋|<syun4{\ko15}律|<leot2{\ko19}奏|<zau3{\ko147}响|<hoeng2
+Comment: 0,0:02:01.92,0:02:05.37,orig,L_39,0,0,0,karaoke,{\ko130}听|<ting1{\ko6} {\ko28}旋|<syun4{\ko15}律|<leot2{\ko19}奏|<zau3{\ko147}响|<hoeng2
 Dialogue: 0,0:02:01.92,0:02:05.37,roma,,0,0,0,,ting1 syun4 leot2 zau3 hoeng2
-Comment: 0,0:02:05.77,0:02:09.60,orig,,0,0,0,karaoke,{\ko139}看|<hon3{\ko6} {\ko24}谁|<seoi4{\ko16}在|<zoi6{\ko22}发|<faat3{\ko176}亮|<loeng6
+Comment: 0,0:02:05.77,0:02:09.60,orig,L_40,0,0,0,karaoke,{\ko139}看|<hon3{\ko6} {\ko24}谁|<seoi4{\ko16}在|<zoi6{\ko22}发|<faat3{\ko176}亮|<loeng6
 Dialogue: 0,0:02:05.77,0:02:09.60,roma,,0,0,0,,hon3 seoi4 zoi6 faat3 loeng6
-Comment: 0,0:02:11.58,0:02:13.93,orig,,0,0,0,karaoke,{\ko54}幻|<waan6{\ko8}{\ko59}觉|<gok3{\ko14}{\ko17}会|<wui6{\ko34}褪|<teoi3{\ko49}去|<heoi3
+Comment: 0,0:02:11.58,0:02:13.93,orig,L_41,0,0,0,karaoke,{\ko54}幻|<waan6{\ko8}{\ko59}觉|<gok3{\ko14}{\ko17}会|<wui6{\ko34}褪|<teoi3{\ko49}去|<heoi3
 Dialogue: 0,0:02:11.58,0:02:13.93,roma,,0,0,0,,waan6 gok3 wui6 teoi3 heoi3
-Comment: 0,0:02:14.33,0:02:16.02,orig,,0,0,0,karaoke,{\ko36}若|<joek6{\ko22}{\ko44}感|<gam2{\ko44}到|<dou3{\ko23}累|<leoi6
+Comment: 0,0:02:14.33,0:02:16.02,orig,L_42,0,0,0,karaoke,{\ko36}若|<joek6{\ko22}{\ko44}感|<gam2{\ko44}到|<dou3{\ko23}累|<leoi6
 Dialogue: 0,0:02:14.33,0:02:16.02,roma,,0,0,0,,joek6 gam2 dou3 leoi6
-Comment: 0,0:02:16.29,0:02:21.89,orig,,0,0,0,karaoke,{\ko19}那|<naa5{\ko26}就|<zau6{\ko15}回|<wui4{\ko26}味|<mei6{\ko34}我|<ngo5{\ko73}创|<cong3{\ko19}作|<zok3{\ko9}{\ko34}谱|<pou2{\ko48}写|<se2{\ko11}{\ko23}的|<dik1{\ko17}{\ko39}魔|<mo1{\ko43}法|<faat3{\ko12}{\ko46}之|<zi1{\ko66}旅|<leoi5
+Comment: 0,0:02:16.29,0:02:21.89,orig,L_43,0,0,0,karaoke,{\ko19}那|<naa5{\ko26}就|<zau6{\ko15}回|<wui4{\ko26}味|<mei6{\ko34}我|<ngo5{\ko73}创|<cong3{\ko19}作|<zok3{\ko9}{\ko34}谱|<pou2{\ko48}写|<se2{\ko11}{\ko23}的|<dik1{\ko17}{\ko39}魔|<mo1{\ko43}法|<faat3{\ko12}{\ko46}之|<zi1{\ko66}旅|<leoi5
 Dialogue: 0,0:02:16.29,0:02:21.89,roma,,0,0,0,,naa5 zau6 wui4 mei6 ngo5 cong3 zok3 pou2 se2 dik1 mo1 faat3 zi1 leoi5
-Comment: 0,0:02:22.49,0:02:24.75,orig,,0,0,0,karaoke,{\ko32}一|<jat1{\ko26}{\ko44}点|<dim2{\ko47}点|<dim2{\ko36}堆|<deoi1{\ko41}积|<zik1
+Comment: 0,0:02:22.49,0:02:24.75,orig,L_44,0,0,0,karaoke,{\ko32}一|<jat1{\ko26}{\ko44}点|<dim2{\ko47}点|<dim2{\ko36}堆|<deoi1{\ko41}积|<zik1
 Dialogue: 0,0:02:22.49,0:02:24.75,roma,,0,0,0,,jat1 dim2 dim2 deoi1 zik1
-Comment: 0,0:02:25.34,0:02:27.61,orig,,0,0,0,karaoke,{\ko36}沿|<jyun4{\ko13}{\ko61}街|<gaai1{\ko5}{\ko10}的|<dik1{\ko51}风|<fung1{\ko6}{\ko45}景|<ging2
+Comment: 0,0:02:25.34,0:02:27.61,orig,L_45,0,0,0,karaoke,{\ko36}沿|<jyun4{\ko13}{\ko61}街|<gaai1{\ko5}{\ko10}的|<dik1{\ko51}风|<fung1{\ko6}{\ko45}景|<ging2
 Dialogue: 0,0:02:25.34,0:02:27.61,roma,,0,0,0,,jyun4 gaai1 dik1 fung1 ging2
-Comment: 0,0:02:28.02,0:02:29.41,orig,,0,0,0,karaoke,{\ko35}唱|<coeng3{\ko11}着|<zoek6{\ko6}{\ko28}跳|<tiu3{\ko11}着|<zoek6{\ko23}说|<syut3{\ko9}{\ko16}着|<zoek6
+Comment: 0,0:02:28.02,0:02:29.41,orig,L_46,0,0,0,karaoke,{\ko35}唱|<coeng3{\ko11}着|<zoek6{\ko6}{\ko28}跳|<tiu3{\ko11}着|<zoek6{\ko23}说|<syut3{\ko9}{\ko16}着|<zoek6
 Dialogue: 0,0:02:28.02,0:02:29.41,roma,,0,0,0,,coeng3 zoek6 tiu3 zoek6 syut3 zoek6
-Comment: 0,0:02:29.41,0:02:32.66,orig,,0,0,0,karaoke,{\ko37}细|<sai3{\ko52}心|<sam1{\ko39}编|<pin1{\ko52}写|<se2{\ko31}{\ko21}游|<jau4{\ko13}历|<lik6{\ko9}{\ko23}过|<gwo3{\ko48}程|<cing4
+Comment: 0,0:02:29.41,0:02:32.66,orig,L_47,0,0,0,karaoke,{\ko37}细|<sai3{\ko52}心|<sam1{\ko39}编|<pin1{\ko52}写|<se2{\ko31}{\ko21}游|<jau4{\ko13}历|<lik6{\ko9}{\ko23}过|<gwo3{\ko48}程|<cing4
 Dialogue: 0,0:02:29.41,0:02:32.66,roma,,0,0,0,,sai3 sam1 pin1 se2 jau4 lik6 gwo3 cing4
-Comment: 0,0:02:33.32,0:02:35.81,orig,,0,0,0,karaoke,{\ko41}太|<taai3{\ko37}动|<dung6{\ko171}听|<ting3
-Dialogue: 0,0:02:33.32,0:02:35.81,roma,,0,0,0,,taai3 dung6 ting3
+Comment: 0,0:02:33.32,0:02:35.81,orig,L_48,0,0,0,karaoke,{\ko41}太|<taai3{\ko37}动|<dung6{\ko171}听|<teng3
+Dialogue: 0,0:02:33.32,0:02:35.81,roma,,0,0,0,,taai3 dung6 teng3
