@@ -257,7 +257,7 @@
                 <span begin="01:50.560" end="01:50.650">た</span>
                 <span begin="01:50.650" end="01:51.360">の？</span>
                 <span ttm:role="x-roman">ta da shi i ko to na do da re ga ki me ta no</span>
-                <span ttm:role="x-translation" xml:lang="zh-CN">所谓的正确又是由谁决定的呢?</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">所谓的正确又是由谁决定的呢？</span>
             </p>
             <p begin="01:51.660" end="01:57.620" ttm:agent="v1" itunes:key="L14">
                 <span begin="01:51.660" end="01:51.780">目</span>
@@ -498,7 +498,7 @@
                 <span begin="03:42.770" end="03:43.150">る</span>
                 <span begin="03:43.150" end="03:43.670">の？</span>
                 <span ttm:role="x-roman">ji bu n no ko to ma de go ma ka shi te i ki te ru no</span>
-                <span ttm:role="x-translation" xml:lang="zh-CN">就连面对自己 也还在敷衍度日吗?</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">就连面对自己 也还在敷衍度日吗？</span>
             </p>
             <p begin="03:43.930" end="03:46.570" ttm:agent="v1" itunes:key="L27">
                 <span begin="03:43.930" end="03:44.130">ど</span>
