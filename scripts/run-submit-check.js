@@ -178,7 +178,11 @@ async function main() {
 				}
 				console.log("正在下载 TTML 歌词文件", lyricURL.trim());
 				try {
-					const lyric = minify(await fetch(lyricURL).then((v) => {
+					let url = new URL(lyricURL);
+					let params = new URLSearchParams(url.search);
+					params.set('date', Date.now().toString());
+					url.search = params.toString();
+					const lyric = minify(await fetch(url.toString()).then((v) => {
 						if (v.ok) {
 							return v.text();
 						} else {
