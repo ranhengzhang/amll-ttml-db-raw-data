@@ -23,25 +23,25 @@
                 <span begin="00:28.285" end="00:28.485">い</span>
                 <span begin="00:28.485" end="00:28.635">つ</span>
                 <span begin="00:28.735" end="00:28.935">か</span>
-                <span begin="00:28.935" end="00:29.085">ら</span>
-                <span begin="00:29.155" end="00:29.505">か</span>
+                <span begin="00:28.935" end="00:29.115">ら</span>
+                <span begin="00:29.115" end="00:29.505">か</span>
                 <span ttm:role="x-roman">i tsu ka ra ka</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">什么时候开始</span>
             </p>
             <p begin="00:29.995" end="00:31.245" ttm:agent="v1" itunes:key="L2">
-                <span begin="00:29.995" end="00:30.115">間</span>
-                <span begin="00:30.165" end="00:30.435">違</span>
-                <span begin="00:30.635" end="00:30.795">え</span>
-                <span begin="00:30.875" end="00:31.245">て</span>
+                <span begin="00:29.995" end="00:30.125">間</span>
+                <span begin="00:30.125" end="00:30.635">違</span>
+                <span begin="00:30.635" end="00:30.825">え</span>
+                <span begin="00:30.825" end="00:31.245">て</span>
                 <span ttm:role="x-roman">ma chi ga e te</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">错误连篇</span>
             </p>
             <p begin="00:31.695" end="00:33.165" ttm:agent="v1" itunes:key="L3">
-                <span begin="00:31.695" end="00:31.815">待</span>
-                <span begin="00:31.875" end="00:32.115">ち</span>
-                <span begin="00:32.115" end="00:32.505">続</span>
-                <span begin="00:32.575" end="00:32.705">け</span>
-                <span begin="00:32.805" end="00:33.165">て</span>
+                <span begin="00:31.695" end="00:31.845">待</span>
+                <span begin="00:31.845" end="00:32.115">ち</span>
+                <span begin="00:32.115" end="00:32.545">続</span>
+                <span begin="00:32.545" end="00:32.755">け</span>
+                <span begin="00:32.755" end="00:33.165">て</span>
                 <span ttm:role="x-roman">ma chi tsu zu ke te</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">持续等待</span>
             </p>
@@ -63,10 +63,10 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">看到明朗的天空</span>
             </p>
             <p begin="00:36.875" end="00:38.045" ttm:agent="v1" itunes:key="L6">
-                <span begin="00:36.875" end="00:36.985">理</span>
-                <span begin="00:37.075" end="00:37.415">解</span>
-                <span begin="00:37.415" end="00:37.645">し</span>
-                <span begin="00:37.735" end="00:38.045">て</span>
+                <span begin="00:36.875" end="00:37.025">理</span>
+                <span begin="00:37.025" end="00:37.415">解</span>
+                <span begin="00:37.415" end="00:37.685">し</span>
+                <span begin="00:37.685" end="00:38.045">て</span>
                 <span ttm:role="x-roman">ri ka i shi te</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">去理解吧</span>
             </p>
@@ -79,10 +79,10 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">直到那装饰的边框</span>
             </p>
             <p begin="00:40.305" end="00:41.175" ttm:agent="v1" itunes:key="L8">
-                <span begin="00:40.305" end="00:40.435">溶</span>
-                <span begin="00:40.525" end="00:40.625">か</span>
-                <span begin="00:40.625" end="00:40.875">し</span>
-                <span begin="00:40.955" end="00:41.175">て</span>
+                <span begin="00:40.305" end="00:40.475">溶</span>
+                <span begin="00:40.475" end="00:40.625">か</span>
+                <span begin="00:40.625" end="00:40.915">し</span>
+                <span begin="00:40.915" end="00:41.175">て</span>
                 <span ttm:role="x-roman">to ka shi te</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">都融化为止</span>
             </p>
@@ -106,13 +106,13 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">能看到什么？</span>
             </p>
             <p begin="00:48.175" end="00:50.965" ttm:agent="v1" itunes:key="L11">
-                <span begin="00:48.175" end="00:48.385">出</span>
-                <span begin="00:48.445" end="00:48.615">た</span>
+                <span begin="00:48.175" end="00:48.425">出</span>
+                <span begin="00:48.425" end="00:48.615">た</span>
                 <span begin="00:48.615" end="00:48.865">目</span>
                 <span begin="00:48.865" end="00:49.065">の</span>
                 <span begin="00:49.065" end="00:49.725">分</span>
-                <span begin="00:49.725" end="00:49.875">だ</span>
-                <span begin="00:49.935" end="00:50.965">け</span>
+                <span begin="00:49.725" end="00:49.905">だ</span>
+                <span begin="00:49.905" end="00:50.965">け</span>
                 <span ttm:role="x-roman">de ta me no bu n da ke</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">睁大眼睛</span>
             </p>
@@ -172,11 +172,11 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="01:23.145" end="01:24.415" ttm:agent="v1" itunes:key="L16">
-                <span begin="01:23.145" end="01:23.265">こ</span>
-                <span begin="01:23.385" end="01:23.585">と</span>
+                <span begin="01:23.145" end="01:23.315">こ</span>
+                <span begin="01:23.315" end="01:23.585">と</span>
                 <span begin="01:23.585" end="01:23.735">の</span>
-                <span begin="01:23.735" end="01:23.925">ほ</span>
-                <span begin="01:24.005" end="01:24.415">か</span>
+                <span begin="01:23.735" end="01:23.955">ほ</span>
+                <span begin="01:23.955" end="01:24.415">か</span>
                 <span ttm:role="x-roman">ko to no ho ka</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">格外</span>
             </p>
@@ -197,8 +197,8 @@
             </p>
             <p begin="01:28.275" end="01:29.465" ttm:agent="v1" itunes:key="L19">
                 <span begin="01:28.275" end="01:28.725">落</span>
-                <span begin="01:28.725" end="01:28.835">書</span>
-                <span begin="01:28.915" end="01:29.155">き</span>
+                <span begin="01:28.725" end="01:28.875">書</span>
+                <span begin="01:28.875" end="01:29.155">き</span>
                 <span begin="01:29.155" end="01:29.465">で</span>
                 <span ttm:role="x-roman">ra ku ga ki de</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">在胡乱涂写</span>
@@ -206,15 +206,15 @@
             <p begin="01:29.985" end="01:31.205" ttm:agent="v1" itunes:key="L20">
                 <span begin="01:29.985" end="01:30.425">夜</span>
                 <span begin="01:30.425" end="01:30.655">が</span>
-                <span begin="01:30.655" end="01:30.795">ま</span>
-                <span begin="01:30.865" end="01:31.205">た</span>
+                <span begin="01:30.655" end="01:30.825">ま</span>
+                <span begin="01:30.825" end="01:31.205">た</span>
                 <span ttm:role="x-roman">yo ru ga ma ta</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">夜晚再一次来临</span>
             </p>
             <p begin="01:31.695" end="01:32.855" ttm:agent="v1" itunes:key="L21">
                 <span begin="01:31.695" end="01:32.125">朗</span>
-                <span begin="01:32.125" end="01:32.515">々</span>
-                <span begin="01:32.595" end="01:32.855">と</span>
+                <span begin="01:32.125" end="01:32.545">々</span>
+                <span begin="01:32.545" end="01:32.855">と</span>
                 <span ttm:role="x-roman">rō rō to</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">声音响亮地</span>
             </p>
@@ -227,8 +227,8 @@
             </p>
             <p begin="01:35.145" end="01:36.045" ttm:agent="v1" itunes:key="L23">
                 <span begin="01:35.145" end="01:35.395">口</span>
-                <span begin="01:35.395" end="01:35.515">説</span>
-                <span begin="01:35.585" end="01:35.775">く</span>
+                <span begin="01:35.395" end="01:35.535">説</span>
+                <span begin="01:35.535" end="01:35.775">く</span>
                 <span begin="01:35.775" end="01:36.045">の</span>
                 <span ttm:role="x-roman">ku do ku no</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">所追求的是</span>
@@ -248,8 +248,8 @@
                 <span begin="01:38.125" end="01:38.335">ら</span>
                 <span begin="01:38.335" end="01:38.495">め</span>
                 <span begin="01:38.495" end="01:38.705">く</span>
-                <span begin="01:38.705" end="01:39.385">星</span>
-                <span begin="01:39.465" end="01:40.505">空</span>
+                <span begin="01:38.705" end="01:39.425">星</span>
+                <span begin="01:39.425" end="01:40.505">空</span>
                 <span ttm:role="x-roman">ki ra me ku ho shi zo ra</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">闪耀星空</span>
             </p>
@@ -269,8 +269,8 @@
                 <span begin="01:43.425" end="01:43.705">さ</span>
                 <span begin="01:43.705" end="01:43.865">を</span>
                 <span begin="01:43.865" end="01:44.565">紡</span>
-                <span begin="01:44.565" end="01:44.725">い</span>
-                <span begin="01:44.795" end="01:45.775">で</span>
+                <span begin="01:44.565" end="01:44.765">い</span>
+                <span begin="01:44.765" end="01:45.775">で</span>
                 <span ttm:role="x-roman">se tsu na sa o tsu mu i de</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">编织起来</span>
             </p>
@@ -281,8 +281,8 @@
                 <span begin="01:45.235" end="01:45.435">さ</span>
                 <span begin="01:45.435" end="01:45.665">を</span>
                 <span begin="01:45.665" end="01:46.245">紡</span>
-                <span begin="01:46.245" end="01:46.435">い</span>
-                <span begin="01:46.505" end="01:47.445">で</span>
+                <span begin="01:46.245" end="01:46.455">い</span>
+                <span begin="01:46.455" end="01:47.445">で</span>
                 <span ttm:role="x-roman">se tsu na sa o tsu mu i de</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">编织起来</span>
             </p>
