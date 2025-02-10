@@ -141,6 +141,7 @@
                 <span begin="00:59.815" end="01:00.025">a</span>
                 <span begin="01:00.025" end="01:00.255">ny</span>
                 <span begin="01:00.455" end="01:00.795">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再诉说</span>
             </p>
             <p begin="01:00.795" end="01:07.655" ttm:agent="v1" itunes:key="L14">
                 <span begin="01:00.795" end="01:01.085">I </span>
@@ -160,6 +161,7 @@
                 <span begin="01:06.635" end="01:06.885">a</span>
                 <span begin="01:06.885" end="01:07.145">ny</span>
                 <span begin="01:07.295" end="01:07.655">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="01:07.655" end="01:08.995" ttm:agent="v1" itunes:key="L15">
                 <span begin="01:07.655" end="01:07.945">I </span>
@@ -167,6 +169,7 @@
                 <span begin="01:08.145" end="01:08.365">cry </span>
                 <span begin="01:08.365" end="01:08.585">a</span>
                 <span begin="01:08.585" end="01:08.995">ny</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="01:23.145" end="01:24.415" ttm:agent="v1" itunes:key="L16">
                 <span begin="01:23.145" end="01:23.265">こ</span>
@@ -307,6 +310,7 @@
                 <span begin="01:54.665" end="01:54.885">a</span>
                 <span begin="01:54.885" end="01:55.105">ny</span>
                 <span begin="01:55.265" end="01:55.695">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再诉说</span>
             </p>
             <p begin="01:55.695" end="02:02.495" ttm:agent="v1" itunes:key="L31">
                 <span begin="01:55.695" end="01:55.925">I </span>
@@ -325,6 +329,7 @@
                 <span begin="02:01.455" end="02:01.735">a</span>
                 <span begin="02:01.735" end="02:01.975">ny</span>
                 <span begin="02:02.175" end="02:02.495">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="02:02.495" end="02:09.405" ttm:agent="v1" itunes:key="L32">
                 <span begin="02:02.495" end="02:02.775">I </span>
@@ -343,6 +348,7 @@
                 <span begin="02:08.325" end="02:08.595">a</span>
                 <span begin="02:08.595" end="02:08.845">ny</span>
                 <span begin="02:09.035" end="02:09.405">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再诉说</span>
             </p>
             <p begin="02:09.405" end="02:16.255" ttm:agent="v1" itunes:key="L33">
                 <span begin="02:09.405" end="02:09.665">I </span>
@@ -362,6 +368,7 @@
                 <span begin="02:15.145" end="02:15.465">a</span>
                 <span begin="02:15.465" end="02:15.705">ny</span>
                 <span begin="02:15.885" end="02:16.255">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="02:16.255" end="02:17.535" ttm:agent="v1" itunes:key="L34">
                 <span begin="02:16.255" end="02:16.525">I </span>
@@ -369,6 +376,7 @@
                 <span begin="02:16.725" end="02:16.955">cry </span>
                 <span begin="02:16.955" end="02:17.145">a</span>
                 <span begin="02:17.145" end="02:17.535">ny</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="03:11.135" end="03:17.955" ttm:agent="v1" itunes:key="L35">
                 <span begin="03:11.135" end="03:11.375">I </span>
@@ -387,6 +395,7 @@
                 <span begin="03:16.975" end="03:17.175">a</span>
                 <span begin="03:17.175" end="03:17.395">ny</span>
                 <span begin="03:17.625" end="03:17.955">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再诉说</span>
             </p>
             <p begin="03:17.955" end="03:24.775" ttm:agent="v1" itunes:key="L36">
                 <span begin="03:17.955" end="03:18.235">I </span>
@@ -406,6 +415,7 @@
                 <span begin="03:23.805" end="03:24.025">a</span>
                 <span begin="03:24.025" end="03:24.245">ny</span>
                 <span begin="03:24.415" end="03:24.775">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="03:24.775" end="03:31.705" ttm:agent="v1" itunes:key="L37">
                 <span begin="03:24.775" end="03:25.095">I </span>
@@ -424,6 +434,7 @@
                 <span begin="03:30.645" end="03:30.865">a</span>
                 <span begin="03:30.865" end="03:31.125">ny</span>
                 <span begin="03:31.255" end="03:31.705">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再诉说</span>
                 <span ttm:role="x-bg" begin="03:26.625" end="03:29.585">
                     <span begin="03:26.625" end="03:26.955">(A</span>
                     <span begin="03:26.955" end="03:27.175">ny</span>
@@ -432,6 +443,7 @@
                     <span begin="03:28.325" end="03:28.685">a</span>
                     <span begin="03:28.685" end="03:28.885">ny</span>
                     <span begin="03:28.885" end="03:29.585">more)</span>
+                    <span ttm:role="x-translation" xml:lang="zh-CN">不再 不再</span>
                 </span>
             </p>
             <p begin="03:31.705" end="03:38.505" ttm:agent="v1" itunes:key="L38">
@@ -452,6 +464,7 @@
                 <span begin="03:37.455" end="03:37.745">a</span>
                 <span begin="03:37.745" end="03:37.965">ny</span>
                 <span begin="03:38.175" end="03:38.505">more</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
             <p begin="03:38.505" end="03:39.955" ttm:agent="v1" itunes:key="L39">
                 <span begin="03:38.505" end="03:38.765">I </span>
@@ -459,6 +472,7 @@
                 <span begin="03:38.995" end="03:39.205">cry </span>
                 <span begin="03:39.205" end="03:39.475">a</span>
                 <span begin="03:39.475" end="03:39.955">ny</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">我不再哭泣</span>
             </p>
         </div>
     </body>

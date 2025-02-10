@@ -82,8 +82,11 @@ Comment: 0,0:00:52.13,0:00:53.82,orig,L_12,0,0,0,karaoke,{\ko34}手|<て{\ko65}�
 Dialogue: 0,0:00:52.13,0:00:53.82,roma,____,0,0,0,,te sa gu ri
 Dialogue: 0,0:00:52.13,0:00:53.82,ts,____,0,0,0,,摸索着
 Comment: 0,0:00:54.05,0:01:00.84,orig,L_13,0,0,0,karaoke,{\ko22}I {\ko14}don't {\ko27}say {\ko25}a{\ko16}ny{\ko114}more{\ko19}, {\ko7}a{\ko39}ny{\ko17}{\ko83}more{\ko23}, {\ko25}a{\ko23}ny{\ko19}{\ko108}more, {\ko21}a{\ko23}ny{\ko20}{\ko34}more
+Dialogue: 0,0:00:54.05,0:01:00.84,ts,L_13,0,0,0,karaoke,我不再诉说
 Comment: 0,0:01:00.84,0:01:07.70,orig,L_14,0,0,0,karaoke,{\ko29}I {\ko18}don't {\ko22}cry {\ko24}a{\ko18}ny{\ko101}more{\ko29}, {\ko25}a{\ko23}ny{\ko18}{\ko83}more{\ko23}, {\ko24}a{\ko26}ny{\ko15}{\ko106}more, {\ko25}a{\ko26}ny{\ko15}{\ko36}more
+Dialogue: 0,0:01:00.84,0:01:07.70,ts,L_14,0,0,0,karaoke,我不再哭泣
 Comment: 0,0:01:07.70,0:01:09.04,orig,L_15,0,0,0,karaoke,{\ko29}I {\ko20}don't {\ko22}cry {\ko22}a{\ko41}ny
+Dialogue: 0,0:01:07.70,0:01:09.04,ts,L_15,0,0,0,karaoke,我不再哭泣
 Comment: 0,0:01:23.19,0:01:24.46,back,____,0,0,0,,{\kf21}こ{\kf26}と{\kf17}の{\kf23}ほ{\kf47}か
 Comment: 0,0:01:23.19,0:01:24.46,orig,L_16,0,0,0,karaoke,{\ko12}こ{\ko12}{\ko20}と{\ko15}の{\ko19}ほ{\ko8}{\ko41}か
 Dialogue: 0,0:01:23.19,0:01:24.46,roma,____,0,0,0,,ko to no ho ka
@@ -141,13 +144,24 @@ Comment: 0,0:01:46.94,0:01:48.64,orig,L_29,0,0,0,karaoke,{\ko40}手|<て{\ko69}�
 Dialogue: 0,0:01:46.94,0:01:48.64,roma,____,0,0,0,,te ma ne ki
 Dialogue: 0,0:01:46.94,0:01:48.64,ts,____,0,0,0,,招招手
 Comment: 0,0:01:48.90,0:01:55.74,orig,L_30,0,0,0,karaoke,{\ko24}I {\ko15}don't {\ko24}say {\ko23}a{\ko19}ny{\ko114}more{\ko17}, {\ko23}a{\ko23}ny{\ko18}{\ko101}more, {\ko31}a{\ko23}ny{\ko17}{\ko109}more, {\ko22}a{\ko22}ny{\ko16}{\ko43}more
+Dialogue: 0,0:01:48.90,0:01:55.74,ts,L_30,0,0,0,karaoke,我不再诉说
 Comment: 0,0:01:55.74,0:02:02.54,orig,L_31,0,0,0,karaoke,{\ko23}I {\ko19}don't {\ko24}cry {\ko26}a{\ko11}ny{\ko106}more{\ko29}, {\ko25}a{\ko22}ny{\ko19}{\ko108}more, {\ko22}a{\ko22}ny{\ko18}{\ko102}more, {\ko28}a{\ko24}ny{\ko20}{\ko32}more
+Dialogue: 0,0:01:55.74,0:02:02.54,ts,L_31,0,0,0,karaoke,我不再哭泣
 Comment: 0,0:02:02.54,0:02:09.45,orig,L_32,0,0,0,karaoke,{\ko28}I {\ko15}don't {\ko28}say {\ko27}a{\ko15}ny{\ko105}more{\ko24}, {\ko25}a{\ko18}ny{\ko23}{\ko101}more, {\ko30}a{\ko22}ny{\ko19}{\ko103}more, {\ko27}a{\ko25}ny{\ko19}{\ko37}more
+Dialogue: 0,0:02:02.54,0:02:09.45,ts,L_32,0,0,0,karaoke,我不再诉说
 Comment: 0,0:02:09.45,0:02:16.30,orig,L_33,0,0,0,karaoke,{\ko26}I {\ko17}don't {\ko25}cry {\ko24}a{\ko12}ny{\ko106}more{\ko25}, {\ko27}a{\ko20}ny{\ko22}{\ko89}more{\ko19}, {\ko23}a{\ko22}ny{\ko17}{\ko100}more, {\ko32}a{\ko24}ny{\ko18}{\ko37}more
+Dialogue: 0,0:02:09.45,0:02:16.30,ts,L_33,0,0,0,karaoke,我不再哭泣
 Comment: 0,0:02:16.30,0:02:17.58,orig,L_34,0,0,0,karaoke,{\ko27}I {\ko20}don't {\ko23}cry {\ko19}a{\ko39}ny
+Dialogue: 0,0:02:16.30,0:02:17.58,ts,L_34,0,0,0,karaoke,我不再哭泣
 Comment: 0,0:03:11.18,0:03:18.00,orig,L_35,0,0,0,karaoke,{\ko24}I {\ko17}don't {\ko24}say {\ko24}a{\ko20}ny{\ko106}more{\ko21}, {\ko25}a{\ko23}ny{\ko17}{\ko104}more, {\ko28}a{\ko22}ny{\ko17}{\ko112}more, {\ko20}a{\ko22}ny{\ko23}{\ko33}more
+Dialogue: 0,0:03:11.18,0:03:18.00,ts,L_35,0,0,0,karaoke,我不再诉说
 Comment: 0,0:03:18.00,0:03:24.82,orig,L_36,0,0,0,karaoke,{\ko28}I {\ko17}don't {\ko24}cry {\ko21}a{\ko20}ny{\ko102}more{\ko28}, {\ko25}a{\ko18}ny{\ko21}{\ko88}more{\ko22}, {\ko23}a{\ko22}ny{\ko19}{\ko107}more, {\ko22}a{\ko22}ny{\ko17}{\ko36}more
+Dialogue: 0,0:03:18.00,0:03:24.82,ts,L_36,0,0,0,karaoke,我不再哭泣
 Comment: 0,0:03:24.82,0:03:31.75,orig,L_37,0,0,0,karaoke,{\ko32}I {\ko16}don't {\ko27}say {\ko23}a{\ko15}ny{\ko114}more{\ko13}, {\ko25}a{\ko34}ny{\ko10}{\ko103}more, {\ko29}a{\ko23}ny{\ko18}{\ko105}more, {\ko22}a{\ko26}ny{\ko13}{\ko45}more
+Dialogue: 0,0:03:24.82,0:03:31.75,ts,L_37,0,0,0,karaoke,我不再诉说
 Comment: 0,0:03:26.67,0:03:29.63,orig,____ x-bg,0,0,0,karaoke,{\ko33}A{\ko22}ny{\ko59}more{\ko56} {\ko36}a{\ko20}ny{\ko70}more
+Dialogue: 0,0:03:26.67,0:03:29.63,ts,____ x-bg,0,0,0,karaoke,不再 不再
 Comment: 0,0:03:31.75,0:03:38.55,orig,L_38,0,0,0,karaoke,{\ko23}I {\ko20}don't {\ko21}cry {\ko24}a{\ko17}ny{\ko105}more{\ko27}, {\ko24}a{\ko23}ny{\ko20}{\ko75}more{\ko32}, {\ko23}a{\ko18}ny{\ko21}{\ko102}more, {\ko29}a{\ko22}ny{\ko21}{\ko33}more
+Dialogue: 0,0:03:31.75,0:03:38.55,ts,L_38,0,0,0,karaoke,我不再哭泣
 Comment: 0,0:03:38.55,0:03:40.00,orig,L_39,0,0,0,karaoke,{\ko26}I {\ko23}don't {\ko21}cry {\ko27}a{\ko48}ny
+Dialogue: 0,0:03:38.55,0:03:40.00,ts,L_39,0,0,0,karaoke,我不再哭泣
