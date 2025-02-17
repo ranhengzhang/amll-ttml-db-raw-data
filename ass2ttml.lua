@@ -89,7 +89,23 @@ local ui_config = {
         y = 4,
         width = 1
     },
-    {class = "edit", name = "ttmlAuthorGithubLogins", x = 19, y = 4, width = 16}
+    {class = "edit", name = "ttmlAuthorGithubLogins", x = 19, y = 4, width = 16},
+    {
+        class = "label",
+        label = "时间偏移",
+        name = "tag_offset",
+        x = 0,
+        y = 5,
+        width = 1
+    },
+    {
+        class = "label",
+        label = "ms",
+        name = "unit_offset",
+        x = 2,
+        y = 5,
+        width = 1
+    }
 }
 
 local anti = false
@@ -98,56 +114,10 @@ local marked = {}
 
 function add_mark(actor, num, is_bg)
     for mark in actor:gmatch('x%-mark[%w%-]*') do
-        if marked[mark] == nil then
-            marked[mark] = {}
-        end
-        table.insert(marked[mark], string.format("第%d行%s", num, is_bg and '和声部分' or ''))
+        if marked[mark] == nil then marked[mark] = {} end
+        table.insert(marked[mark], string.format("第%d行%s", num,
+                                                 is_bg and '和声部分' or ''))
     end
-end
-
-function pre_process(subtitles)
-    local subs = {}
-    local meta, styles = karaskel.collect_head(subtitles, true)
-
-    for i = 1, #subtitles do
-        local line = table.copy(subtitles[i])
-        if line.effect == "" or line.effect == "karaoke" then
-            karaskel.preproc_line_text(meta, styles, line)
-            if line.style == "orig" and line.actor:find("x-mark") ~= nil then
-                if line.actor:find("x-bg") ~= nil then
-                    add_mark(line.actor, #subs, true)
-                else
-                    add_mark(line.actor, #subs+1, false)
-                end
-            end
-            if line.actor:find('x-bg') ~= nil then
-                local parent_line = table.copy(subs[#subs])
-                if line.style == "orig" then
-                    parent_line.bg_line = line
-                    parent_line.end_time =
-                        math.max(parent_line.end_time, line.end_time)
-                elseif line.style == "ts" or line.style == "roma" then
-                    parent_line.bg_line[line.style .. "_line"] = line
-                end
-                subs[#subs] = parent_line
-            else
-                if line.style == "orig" then
-                    subs[#subs + 1] = line
-                elseif line.style == "roma" or line.style == "ts" then
-                    orig_line = table.copy(subs[#subs])
-                    orig_line[line.style .. "_line"] = line
-                    subs[#subs] = orig_line
-                end
-            end
-        end
-    end
-
-    return subs
-end
-
-function time_to_string(time)
-    return string.format("%02d:%02d.%03d", math.floor(time / 60000),
-                         math.floor(time / 1000) % 60, time % 1000)
 end
 
 function xml_symbol(value)
@@ -159,16 +129,84 @@ function xml_symbol(value)
     return value;
 end
 
+local title = "";
+local script_offset = 0;
+
+function pre_process(subtitles)
+    local subs = {}
+    local meta, styles = karaskel.collect_head(subtitles, true)
+
+    for i = 1, #subtitles do
+        local line = table.copy(subtitles[i])
+        if subtitles[i].class == "info" then
+            if subtitles[i].key == "Title" then
+                title = subtitles[i].value
+            elseif subtitles[i].key == "Update Details" then
+                local res = subtitles[i].value:match("[+-]%d+")
+                script_offset = tonumber(res or "0")
+            end
+        else
+            if line.effect == "" or line.effect == "karaoke" then
+                karaskel.preproc_line_text(meta, styles, line)
+                if line.style == "orig" and line.actor:find("x-mark") ~= nil then
+                    if line.actor:find("x-bg") ~= nil then
+                        add_mark(line.actor, #subs, true)
+                    else
+                        add_mark(line.actor, #subs + 1, false)
+                    end
+                end
+                if line.actor:find('x-bg') ~= nil then
+                    local parent_line = table.copy(subs[#subs])
+                    if line.style == "orig" then
+                        parent_line.bg_line = line
+                        parent_line.end_time =
+                            math.max(parent_line.end_time, line.end_time)
+                    elseif line.style == "ts" or line.style == "roma" then
+                        parent_line.bg_line[line.style .. "_line"] = line
+                    end
+                    subs[#subs] = parent_line
+                else
+                    if line.style == "orig" then
+                        subs[#subs + 1] = line
+                    elseif line.style == "roma" or line.style == "ts" then
+                        orig_line = table.copy(subs[#subs])
+                        orig_line[line.style .. "_line"] = line
+                        subs[#subs] = orig_line
+                    end
+                end
+            end
+        end
+    end
+
+    return subs
+end
+
+local offset
+
+function time_to_string(time)
+    time = time + offset
+    return string.format("%02d:%02d.%03d", math.floor(time / 60000),
+                         math.floor(time / 1000) % 60, time % 1000)
+end
+
 function generate_kara(line)
     local ttml = {}
 
     for i = 1, #line.kara do
         local syl = util.copy(line.kara[i])
+        syl.text_stripped = xml_symbol(syl.text_stripped)
 
-        if syl.text_stripped ~= '' then
-            syl.text_stripped = xml_symbol(syl.text_stripped)
+        if syl.duration == 0 and unicode.len(syl.text_stripped:trim()) <= 1 then
+            if i == 1 and #line.kara > 2 then
+                line.kara[2].text_stripped =
+                    syl.text_stripped .. line.kara[2].text_stripped
+            else
+                table.remove(ttml)
+                table.insert(ttml, syl.text_stripped .. '</span>')
+            end
+        elseif syl.text_stripped ~= '' then
             syl.text_stripped = syl.text_stripped:gsub('%s+', ' ')
-            if (syl.duration == 0 and syl.text_stripped:match('^%s+$') == nil) then
+            if syl.duration == 0 and not syl.text_stripped == ' ' then
                 syl.end_time = syl.end_time + 3
             end
             if line.actor:find('x-bg') ~= nil and i == 1 then
@@ -181,8 +219,9 @@ function generate_kara(line)
             local start_time = time_to_string(syl.start_time + line.start_time)
             local end_time = time_to_string(syl.end_time + line.start_time)
             table.insert(ttml,
-                         string.format('<span begin="%s" end="%s">%s</span>',
+                         string.format('<span begin="%s" end="%s">%s',
                                        start_time, end_time, syl.text_stripped))
+            table.insert(ttml, '</span>')
             aegisub.debug.out(string.format('<%s,%s>%s', start_time, end_time,
                                             syl.text_stripped))
         end
@@ -220,12 +259,12 @@ function generate_line(line, n)
     ttml = ttml .. generate_kara(line)
 
     if line['roma_line'] ~= nil then
-        ttml = ttml .. '<span ttm:role="x-roman">' .. line['roma_line'].text ..
-                   '</span>'
+        ttml = ttml .. '<span ttm:role="x-roman">' ..
+                   xml_symbol(line['roma_line'].text) .. '</span>'
     end
     if line['ts_line'] ~= nil then
         ttml = ttml .. '<span ttm:role="x-translation" xml:lang="zh-CN">' ..
-                   line['ts_line'].text .. '</span>'
+                   xml_symbol(line['ts_line'].text) .. '</span>'
     end
     if line['bg_line'] ~= nil then
         ttml = ttml .. generate_line(line.bg_line, -1)
@@ -270,8 +309,9 @@ function generate_meta(key, value)
 
     for i = 1, #values do
         aegisub.debug.out(key .. ':\t　' .. values[i]:trim() .. '\r\n')
-        table.insert(ttml, string.format('<amll:meta key="%s" value="%s"/>',
-                                         key, xml_symbol(values[i]:trim())))
+        table.insert(ttml,
+                     string.format('<amll:meta key="%s" value="%s"/>', key,
+                                   xml_symbol(values[i]:trim())))
     end
 
     return table.concat(ttml)
@@ -302,6 +342,18 @@ function generate_head(metas)
     return '<head><metadata>' .. table.concat(ttml) .. '</metadata></head>'
 end
 
+-- 获取路径
+function stripfilename(filename)
+    -- return string.match(filename, "(.+)/[^/]*%.%w+$") --*nix system
+    return string.match(filename, "(.+)\\[^\\]*%.%w+$") -- windows
+end
+
+-- 获取文件名
+function strippath(filename)
+    -- return string.match(filename, ".+/([^/]*%.%w+)$") -- *nix system
+    return string.match(filename, ".+\\([^\\]*%.%w+)$") -- windows
+end
+
 function show_marks()
     aegisub.debug.out('\n\n')
     for mark, lines in pairs(marked) do
@@ -315,16 +367,25 @@ end
 -- ! @param selected_lines: 选择的行数, Aegisub传入, table类型
 -- ! @param active_line: 当前选中的行, number类型
 function script_main(subtitles)
+    local subs = util.deep_copy(subtitles)
+    subs = pre_process(subs)
+
+    if #subs == 0 then aegisub.cancel() end
+
+    ui_config[#ui_config] = {
+        class = "intedit",
+        name = "offset",
+        x = 1,
+        y = 5,
+        width = 1,
+        value = script_offset
+    }
     local btn, result = aegisub.dialog.display(ui_config, {"Start", "Cancel"})
 
     if btn == false or btn == "Cancel" then aegisub.cancel() end
 
     local options = util.deep_copy(result)
-
-    local subs = util.deep_copy(subtitles)
-    subs = pre_process(subs)
-
-    if #subs == 0 then aegisub.cancel() end
+    offset = options["offset"]
 
     local body = generate_body(subs)
     local head = generate_head(options)
@@ -339,7 +400,7 @@ function script_main(subtitles)
             x = 0,
             y = 0,
             width = 75,
-            height = 15
+            height = 25
         }
     }, {"Copy", "Save", "Close"})
 
@@ -371,7 +432,8 @@ function script_main(subtitles)
     elseif btn == "Save" then
         local ttml_file = aegisub.dialog.save('保存TTML文件',
                                               'D:/Users/LEGION/Desktop/amll-ttml-db-raw-data',
-                                              options.musicNames .. '.ttml',
+                                              (title or options.musicNames) ..
+                                                  '.ttml',
                                               'TTML files (.ttml)|.ttml')
         if ttml_file ~= nil then
             local file = assert(io.open(ttml_file, "w"))
@@ -383,4 +445,4 @@ function script_main(subtitles)
     show_marks();
 end
 
-aegisub.register_macro(script_name, script_description, script_main)
+aegisub.register_macro(script_name, script_description, script_main);
