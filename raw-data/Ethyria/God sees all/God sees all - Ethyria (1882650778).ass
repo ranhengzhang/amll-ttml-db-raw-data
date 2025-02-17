@@ -32,104 +32,104 @@ Comment: 99,0:00:00.00,0:00:00.00,orig,,0,0,0,template pre-line img notext,!reti
 Comment: 99,0:00:00.00,0:00:00.00,orig,,0,0,0,template line img notext,!''!
 Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line",($sstart)-300,-(($lright)-($sright))+200)!{\pos(!line.left+syl.center!,!line.top!)\xshad2\fscx75\fscy75\fsvp-!math.floor(($sheight)/3)!\t(0,100,0.8,\fsvp0\fscx100\fscy100)\t(200,!($sdur)+150!,\fsvp3\yshad3)\k!30!\kf($skdur)\fad(200,200)}
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line",(($sleft)-($lleft))-200,-(($lright)-($sright))+200)!{\pos(!line.left+syl.center!,!line.bottom!)\xshad3\t(!math.floor(($sstart)-(($sleft)-($lleft))+200)!,!math.floor(($send)-(($sleft)-($lleft))+200)!,\fsvp4\yshad4)\k!math.floor((($sstart)-(($sleft)-($lleft)))/10+20)!\kf($skdur)\fad(200,200)!glow(syl,($sstart)-(($sleft)-($lleft))+200)!}
-Comment: 0,0:00:13.31,0:00:19.06,orig,L__1,0,0,0,karaoke,{\ko16}En{\ko22}ligh{\ko20}ten {\ko37}the {\ko79}world {\ko14}be{\ko82}fore{\ko63} {\ko16}e{\ko15}very{\ko73}thing{\ko31} {\ko17}co{\ko67}lla{\ko23}pse
-Dialogue: 0,0:00:13.31,0:00:19.06,ts,____ ,0,0,0,,于万物崩塌前将正途广布世间
+Comment: 0,0:00:13.31,0:00:19.06,orig,L__1,0,0,0,karaoke,{\ko16}En{\ko22}ligh{\ko20}ten {\ko37}the {\ko79}world {\ko14}be{\ko82}fore{\ko63} {\ko31}every{\ko73}thing{\ko31} {\ko17}co{\ko67}lla{\ko23}pse
+Dialogue: 0,0:00:13.31,0:00:19.06,ts,____,0,0,0,,于万物崩塌前将正途广布世间
 Comment: 0,0:00:19.75,0:00:25.48,orig,L__2,0,0,0,karaoke,{\ko24}We {\ko18}know {\ko33}the {\ko82}world {\ko79}where{\ko74} {\ko26}the{\ko18}re is {\ko53}no{\ko46} {\ko18}e{\ko30}mo{\ko72}tions
-Dialogue: 0,0:00:19.75,0:00:25.48,ts,____ ,0,0,0,,我等深知没有感情的世界
+Dialogue: 0,0:00:19.75,0:00:25.48,ts,____,0,0,0,,我等深知没有感情的世界
 Comment: 0,0:00:26.37,0:00:31.48,orig,L__3,0,0,0,karaoke,{\ko19}In {\ko24}this {\ko38}pro{\ko43}gram {\ko31}domi{\ko47}na{\ko76}ted{\ko41} {\ko24}by a {\ko47}string {\ko47}of {\ko23}le{\ko51}tters
-Dialogue: 0,0:00:26.37,0:00:31.48,ts,____ ,0,0,0,,在这由文符字列主宰的世界程序
+Dialogue: 0,0:00:26.37,0:00:31.48,ts,____,0,0,0,,在这由文符字列主宰的世界程序
 Comment: 0,0:00:32.65,0:00:37.68,orig,L__4,0,0,0,karaoke,{\ko24}Win{\ko21}ners {\ko37}will {\ko39}al{\ko78}ways{\ko116} {\ko44}force {\ko37}their {\ko40}own {\ko67}rules
-Dialogue: 0,0:00:32.65,0:00:37.68,ts,____ ,0,0,0,,胜者总是用他们的法则颠覆秩序
+Dialogue: 0,0:00:32.65,0:00:37.68,ts,____,0,0,0,,胜者总是用他们的法则颠覆秩序
 Comment: 0,0:00:39.72,0:00:41.17,orig,L__5,0,0,0,karaoke,{\ko38}Time {\ko46}keeps {\ko22}go{\ko39}ing
-Dialogue: 0,0:00:39.72,0:00:41.17,ts,____ ,0,0,0,,时间辗转流离
+Dialogue: 0,0:00:39.72,0:00:41.17,ts,____,0,0,0,,时间辗转流离
 Comment: 0,0:00:42.91,0:00:44.36,orig,L__6,0,0,0,karaoke,{\ko19}In {\ko20}the {\ko32}emo{\ko74}tion
-Dialogue: 0,0:00:42.91,0:00:44.36,ts,____ ,0,0,0,,在感情里
+Dialogue: 0,0:00:42.91,0:00:44.36,ts,____,0,0,0,,在感情里
 Comment: 0,0:00:46.02,0:00:47.58,orig,L__7,0,0,0,karaoke,{\ko39}We {\ko38}keep {\ko79}praying
-Dialogue: 0,0:00:46.02,0:00:47.58,ts,____ ,0,0,0,,我们不停祈祷
+Dialogue: 0,0:00:46.02,0:00:47.58,ts,____,0,0,0,,我们不停祈祷
 Comment: 0,0:00:49.18,0:00:50.61,orig,L__8,0,0,0,karaoke,{\ko31}For {\ko25}ha{\ko19}ppi{\ko68}ness
-Dialogue: 0,0:00:49.18,0:00:50.61,ts,____ ,0,0,0,,为了幸福
+Dialogue: 0,0:00:49.18,0:00:50.61,ts,____,0,0,0,,为了幸福
 Comment: 0,0:00:51.13,0:00:56.28,orig,L__9,0,0,0,karaoke,{\ko19}Rea{\ko22}ching {\ko20}for {\ko10}the {\ko157}sky{\ko85} {\ko18}to {\ko63}feel {\ko18}e{\ko20}very{\ko83}thing
-Dialogue: 0,0:00:51.13,0:00:56.28,ts,____ ,0,0,0,,将手伸向天 来感知这一切
+Dialogue: 0,0:00:51.13,0:00:56.28,ts,____,0,0,0,,将手伸向天 来感知这一切
 Comment: 0,0:00:57.35,0:01:02.11,orig,L_10,0,0,0,karaoke,{\ko24}Clo{\ko18}sing {\ko43}your {\ko162}eyes{\ko69} {\ko20}to {\ko22}see {\ko16}wha{\ko20}t you {\ko35}can’t {\ko47}see
-Dialogue: 0,0:00:57.35,0:01:02.11,ts,____ ,0,0,0,,闭上你的双眼 来看见不可见
+Dialogue: 0,0:00:57.35,0:01:02.11,ts,____,0,0,0,,闭上你的双眼 来看见不可见
 Comment: 0,0:01:02.11,0:01:03.34,orig,L_11,0,0,0,karaoke,{\ko30}“God {\ko37}see{\ko56}s all”
-Dialogue: 0,0:01:02.11,0:01:03.34,ts,____ ,0,0,0,,“神见万物”
+Dialogue: 0,0:01:02.11,0:01:03.34,ts,____,0,0,0,,“神见万物”
 Comment: 0,0:01:08.41,0:01:09.52,orig,L_12 x-anti,0,0,0,karaoke,{\ko26}“God {\ko52}sees {\ko33}all”
 Dialogue: 0,0:01:08.41,0:01:09.52,ts,____ x-anti,0,0,0,,“神见万物”
-Comment: 0,0:01:15.45,0:01:17.81,back,____ ,0,0,0,,{\kf18}溢{\kf18}れ{\kf18}出{\kf18}す{\kf18}感{\kf18}情{\kf19}を
+Comment: 0,0:01:15.45,0:01:17.81,back,____,0,0,0,,{\kf18}溢{\kf18}れ{\kf18}出{\kf18}す{\kf18}感{\kf18}情{\kf19}を
 Comment: 0,0:01:15.45,0:01:17.81,orig,L_13,0,0,0,karaoke,{\ko16}溢|<あ{\ko26}#|ふ{\ko18}れ{\ko17}出|<だ{\ko34}す{\ko10}{\ko19}感|<か{\ko17}#|ん{\ko21}情|じょ{\ko18}#|う{\ko40}を
-Dialogue: 0,0:01:15.45,0:01:17.81,roma,____ ,0,0,0,,a fu re da su ka n jō o
-Dialogue: 0,0:01:15.45,0:01:17.81,ts,____ ,0,0,0,,永远地抱紧
-Comment: 0,0:01:18.62,0:01:21.04,back,____ ,0,0,0,,{\kf56}永{\kf56}遠{\kf56}に{\kf56}抱{\kf56}き{\kf56}し{\kf56}め{\kf56}て
+Dialogue: 0,0:01:15.45,0:01:17.81,roma,____,0,0,0,,a fu re da su ka n jō o
+Dialogue: 0,0:01:15.45,0:01:17.81,ts,____,0,0,0,,永远地抱紧
+Comment: 0,0:01:18.62,0:01:21.04,back,____,0,0,0,,{\kf56}永{\kf56}遠{\kf56}に{\kf56}抱{\kf56}き{\kf56}し{\kf56}め{\kf56}て
 Comment: 0,0:01:18.62,0:01:21.04,orig,L_14,0,0,0,karaoke,{\ko16}永|<え{\ko18}#|い{\ko22}遠|え{\ko20}#|ん{\ko40}に{\ko17}抱|<だ{\ko14}き{\ko27}し{\ko18}め{\ko50}て
-Dialogue: 0,0:01:18.62,0:01:21.04,roma,____ ,0,0,0,,e i e n ni da ki shi me te
-Dialogue: 0,0:01:18.62,0:01:21.04,ts,____ ,0,0,0,,这满溢出的感情
+Dialogue: 0,0:01:18.62,0:01:21.04,roma,____,0,0,0,,e i e n ni da ki shi me te
+Dialogue: 0,0:01:18.62,0:01:21.04,ts,____,0,0,0,,这满溢出的感情
 Comment: 0,0:01:21.74,0:01:24.47,orig,L_15 x-anti,0,0,0,karaoke,{\ko24}What{\ko11} {\ko27}you {\ko47}see{\ko7} {\ko39}is{\ko21} {\ko20}on{\ko39}ly a {\ko17}mo{\ko21}ment
 Dialogue: 0,0:01:21.74,0:01:24.47,ts,____ x-anti,0,0,0,,汝所见无非瞬间
 Comment: 0,0:01:24.86,0:01:27.58,orig,L_16 x-anti,0,0,0,karaoke,{\ko25}What{\ko11} {\ko31}you {\ko55}hear {\ko33}is{\ko22} {\ko19}on{\ko35}ly a {\ko24}mo{\ko17}ment
 Dialogue: 0,0:01:24.86,0:01:27.58,ts,____ x-anti,0,0,0,,汝所闻无非瞬间
-Comment: 0,0:01:28.01,0:01:30.34,back,____ ,0,0,0,,{\kf63}本{\kf3}当{\kf39}の{\kf12}幸{\kf3}せ{\kf15}を
+Comment: 0,0:01:28.01,0:01:30.34,back,____,0,0,0,,{\kf63}本{\kf3}当{\kf39}の{\kf12}幸{\kf3}せ{\kf15}を
 Comment: 0,0:01:28.01,0:01:30.34,orig,L_17,0,0,0,karaoke,{\ko22}本|<ほ{\ko19}#|ん{\ko21}当|と{\ko16}#|う{\ko24}の{\ko38}幸|<し{\ko18}#|あ{\ko13}#|わ{\ko24}せ{\ko38}を
-Dialogue: 0,0:01:28.01,0:01:30.34,roma,____ ,0,0,0,,ho n tō no shi a wa se o
-Dialogue: 0,0:01:28.01,0:01:30.34,ts,____ ,0,0,0,,这真正的幸福
-Comment: 0,0:01:31.16,0:01:33.52,back,____ ,0,0,0,,{\kf21}永{\kf3}遠{\kf117}に{\kf111}抱{\kf3}き{\kf24}し{\kf57}め{\kf108}て
+Dialogue: 0,0:01:28.01,0:01:30.34,roma,____,0,0,0,,ho n tō no shi a wa se o
+Dialogue: 0,0:01:28.01,0:01:30.34,ts,____,0,0,0,,这真正的幸福
+Comment: 0,0:01:31.16,0:01:33.52,back,____,0,0,0,,{\kf21}永{\kf3}遠{\kf117}に{\kf111}抱{\kf3}き{\kf24}し{\kf57}め{\kf108}て
 Comment: 0,0:01:31.16,0:01:33.52,orig,L_18,0,0,0,karaoke,{\ko16}永|<え{\ko21}#|い{\ko20}遠|え{\ko22}#|ん{\ko29}に{\ko10}{\ko18}抱|<だ{\ko15}き{\ko21}し{\ko23}め{\ko41}て
-Dialogue: 0,0:01:31.16,0:01:33.52,roma,____ ,0,0,0,,e i e n ni da ki shi me te
-Dialogue: 0,0:01:31.16,0:01:33.52,ts,____ ,0,0,0,,永远抱紧
+Dialogue: 0,0:01:31.16,0:01:33.52,roma,____,0,0,0,,e i e n ni da ki shi me te
+Dialogue: 0,0:01:31.16,0:01:33.52,ts,____,0,0,0,,永远抱紧
 Comment: 0,0:01:34.28,0:01:37.01,orig,L_19 x-anti,0,0,0,karaoke,{\ko28}What{\ko9} {\ko26}you {\ko47}see{\ko10} {\ko36}is{\ko22} {\ko22}on{\ko35}ly a {\ko23}mo{\ko15}ment
 Dialogue: 0,0:01:34.28,0:01:37.01,ts,____ x-anti,0,0,0,,汝所见无非瞬间
 Comment: 0,0:01:37.41,0:01:40.17,orig,L_20 x-anti,0,0,0,karaoke,{\ko25}What{\ko12} {\ko30}you {\ko44}hear{\ko11} {\ko31}is{\ko23} {\ko20}on{\ko35}ly a {\ko45}moment
 Dialogue: 0,0:01:37.41,0:01:40.17,ts,____ x-anti,0,0,0,,汝所闻无非瞬间
-Comment: 0,0:01:44.30,0:01:50.01,orig,L_21,0,0,0,karaoke,{\ko17}En{\ko41}lighten {\ko36}the {\ko67}world{\ko13} {\ko11}be{\ko83}fore{\ko65} {\ko16}e{\ko17}very{\ko72}thing{\ko30} {\ko21}is {\ko82}gone
-Dialogue: 0,0:01:44.30,0:01:50.01,ts,____ ,0,0,0,,在万物消散前将正途广布世间
+Comment: 0,0:01:44.30,0:01:50.01,orig,L_21,0,0,0,karaoke,{\ko17}En{\ko41}lighten {\ko36}the {\ko67}world{\ko13} {\ko11}be{\ko83}fore{\ko65} {\ko33}every{\ko72}thing{\ko30} {\ko21}is {\ko82}gone
+Dialogue: 0,0:01:44.30,0:01:50.01,ts,____,0,0,0,,在万物消散前将正途广布世间
 Comment: 0,0:01:50.77,0:01:56.60,orig,L_22,0,0,0,karaoke,{\ko20}We {\ko19}know {\ko36}the {\ko82}world {\ko68}that{\ko84} {\ko25}has {\ko19}re{\ko65}gained{\ko31} {\ko18}e{\ko30}mo{\ko86}tions
-Dialogue: 0,0:01:50.77,0:01:56.60,ts,____ ,0,0,0,,我等深知夺回感情的世界
+Dialogue: 0,0:01:50.77,0:01:56.60,ts,____,0,0,0,,我等深知夺回感情的世界
 Comment: 0,0:01:56.92,0:02:02.29,orig,L_23 x-anti,0,0,0,karaoke,{\ko44}Some{\ko32}where {\ko45}some{\ko42}one{\ko27} {\ko19}is s{\ko25}till{\ko14} {\ko33}thin{\ko35}king{\ko28} {\ko14}a{\ko33}bout{\ko18} {\ko28}some{\ko33}one{\ko10} {\ko57}else
 Dialogue: 0,0:01:56.92,0:02:02.29,ts,____ x-anti,0,0,0,,在哪里某处仍有某人在思念他人
 Comment: 0,0:02:03.30,0:02:08.72,orig,L_24 x-anti,0,0,0,karaoke,{\ko15}E{\ko21}ven {\ko35}in {\ko37}time{\ko35}s of {\ko44}chan{\ko12}ge {\ko30}what {\ko28}ma{\ko42}tters{\ko50} {\ko40}will{\ko21} {\ko44}last{\ko14} {\ko39}fore{\ko35}ver
 Dialogue: 0,0:02:03.30,0:02:08.72,ts,____ x-anti,0,0,0,,即便沧海桑田重要之物仍会永恒
 Comment: 0,0:02:09.20,0:02:11.96,orig,L_25,0,0,0,karaoke,{\ko17}We{\ko21}'ll lo{\ko21}ve a{\ko16}ny {\ko16}emo{\ko25}tions {\ko20}whe{\ko34}ther it{\ko22}’s a {\ko84}lie
-Dialogue: 0,0:02:09.20,0:02:11.96,ts,____ ,0,0,0,,不论是非谎言我等爱任何感情之如一
+Dialogue: 0,0:02:09.20,0:02:11.96,ts,____,0,0,0,,不论是非谎言我等爱任何感情之如一
 Comment: 0,0:02:12.30,0:02:15.28,orig,L_26,0,0,0,karaoke,{\ko23}Gen{\ko19}tly {\ko20}wra{\ko18}p you {\ko19}li{\ko12}ke a {\ko50}shi{\ko27}ning {\ko110}light
-Dialogue: 0,0:02:12.30,0:02:15.28,ts,____ ,0,0,0,,如同闪耀的光一般温柔地包裹着你
+Dialogue: 0,0:02:12.30,0:02:15.28,ts,____,0,0,0,,如同闪耀的光一般温柔地包裹着你
 Comment: 0,0:02:15.46,0:02:18.35,orig,L_27,0,0,0,karaoke,{\ko15}E{\ko21}very {\ko40}red {\ko20}ro{\ko18}ses {\ko38}chan{\ko40}ging {\ko97}white
-Dialogue: 0,0:02:15.46,0:02:18.35,ts,____ ,0,0,0,,所有逐渐失去颜色变白的红蔷薇
+Dialogue: 0,0:02:15.46,0:02:18.35,ts,____,0,0,0,,所有逐渐失去颜色变白的红蔷薇
 Comment: 0,0:02:18.58,0:02:21.55,orig,L_28,0,0,0,karaoke,{\ko18}Ligh{\ko24}t tell {\ko15}u{\ko23}s the {\ko35}fasci{\ko32}na{\ko29}tion {\ko17}of {\ko104}night
-Dialogue: 0,0:02:18.58,0:02:21.55,ts,____ ,0,0,0,,光告与我们得知那夜色的魅力
+Dialogue: 0,0:02:18.58,0:02:21.55,ts,____,0,0,0,,光告与我们得知那夜色的魅力
 Comment: 0,0:02:22.14,0:02:24.40,orig,L_29,0,0,0,karaoke,{\ko36}In {\ko37}your {\ko153}heart
-Dialogue: 0,0:02:22.14,0:02:24.40,ts,____ ,0,0,0,,在你的心中
+Dialogue: 0,0:02:22.14,0:02:24.40,ts,____,0,0,0,,在你的心中
 Comment: 0,0:02:23.62,0:02:25.69,orig,____ x-bg,0,0,0,karaoke,{\ko59}In {\ko16}your {\ko132}heart
 Dialogue: 0,0:02:24.21,0:02:25.69,ts,____ x-bg,0,0,0,,你的心中
 Comment: 0,0:02:25.22,0:02:27.46,orig,L_30,0,0,0,karaoke,{\ko40}In {\ko40}your {\ko144}time
-Dialogue: 0,0:02:25.22,0:02:27.46,ts,____ ,0,0,0,,在你的时间里
-Comment: 0,0:02:26.04,0:02:28.30,orig,____ x-bg,0,0,0,karaoke,{\ko226}Time
+Dialogue: 0,0:02:25.22,0:02:27.46,ts,____,0,0,0,,在你的时间里
+Comment: 0,0:02:26.04,0:02:28.30,orig,____ x-bg,0,0,0,karaoke,{\ko202}Ti{\ko24}me
 Dialogue: 0,0:02:26.04,0:02:28.30,ts,____ x-bg,0,0,0,,时间里
 Comment: 0,0:02:28.40,0:02:32.29,orig,L_31,0,0,0,karaoke,{\ko34}We {\ko42}keep {\ko136}praying{\ko55} {\ko41}for {\ko24}ha{\ko21}ppi{\ko36}ness
-Dialogue: 0,0:02:28.40,0:02:32.29,ts,____ ,0,0,0,,我等一直为幸福求祈
+Dialogue: 0,0:02:28.40,0:02:32.29,ts,____,0,0,0,,我等一直为幸福求祈
 Comment: 0,0:02:32.29,0:02:33.87,orig,L_32,0,0,0,karaoke,{\ko44}We are {\ko28}“E{\ko46}thy{\ko40}ria”
-Dialogue: 0,0:02:32.29,0:02:33.87,ts,____ ,0,0,0,,我等即是“Ethyria”
+Dialogue: 0,0:02:32.29,0:02:33.87,ts,____,0,0,0,,我等即是“Ethyria”
 Comment: 0,0:02:39.38,0:02:40.50,orig,L_33 x-anti,0,0,0,karaoke,{\ko26}“God {\ko53}sees {\ko33}all”
 Dialogue: 0,0:02:39.38,0:02:40.50,ts,____ x-anti,0,0,0,,“神见万物”
-Comment: 0,0:02:46.45,0:02:48.84,back,____ ,0,0,0,,{\kf3}閉{\kf18}ざ{\kf3}さ{\kf18}れ{\kf42}た{\kf33}そ{\kf42}の{\kf3}声{\kf138}に
+Comment: 0,0:02:46.45,0:02:48.84,back,____,0,0,0,,{\kf3}閉{\kf18}ざ{\kf3}さ{\kf18}れ{\kf42}た{\kf33}そ{\kf42}の{\kf3}声{\kf138}に
 Comment: 0,0:02:46.45,0:02:48.84,orig,L_34,0,0,0,karaoke,{\ko16}閉|<と{\ko17}ざ{\ko27}さ{\ko18}れ{\ko29}た{\ko29}そ{\ko18}の{\ko23}声|<こ{\ko19}#|え{\ko43}に
-Dialogue: 0,0:02:46.45,0:02:48.84,roma,____ ,0,0,0,,to za sa re ta so no ko e ni
-Dialogue: 0,0:02:46.45,0:02:48.84,ts,____ ,0,0,0,,侧着耳倾听
-Comment: 0,0:02:49.50,0:02:51.97,back,____ ,0,0,0,,{\kf29}そ{\kf29}の{\kf29}耳{\kf29}を{\kf29}傾{\kf29}け{\kf29}て
+Dialogue: 0,0:02:46.45,0:02:48.84,roma,____,0,0,0,,to za sa re ta so no ko e ni
+Dialogue: 0,0:02:46.45,0:02:48.84,ts,____,0,0,0,,侧着耳倾听
+Comment: 0,0:02:49.50,0:02:51.97,back,____,0,0,0,,{\kf29}そ{\kf29}の{\kf29}耳{\kf29}を{\kf29}傾{\kf29}け{\kf29}て
 Comment: 0,0:02:49.50,0:02:51.97,orig,L_35,0,0,0,karaoke,{\ko28}そ{\ko17}の{\ko22}耳|<み{\ko20}#|み{\ko38}を{\ko17}傾|<か{\ko20}#|た{\ko20}#|む{\ko21}け{\ko44}て
-Dialogue: 0,0:02:49.50,0:02:51.97,roma,____ ,0,0,0,,so no mi mi o ka ta mu ke te
-Dialogue: 0,0:02:49.50,0:02:51.97,ts,____ ,0,0,0,,那闭锁着的声音
+Dialogue: 0,0:02:49.50,0:02:51.97,roma,____,0,0,0,,so no mi mi o ka ta mu ke te
+Dialogue: 0,0:02:49.50,0:02:51.97,ts,____,0,0,0,,那闭锁着的声音
 Comment: 0,0:02:52.70,0:02:55.44,orig,L_36 x-anti,0,0,0,karaoke,{\ko28}What{\ko10} {\ko25}you {\ko48}see{\ko8} {\ko37}is{\ko23} {\ko21}on{\ko37}ly a {\ko16}mo{\ko21}ment
 Dialogue: 0,0:02:52.70,0:02:55.44,ts,____ x-anti,0,0,0,,汝所见无非瞬间
 Comment: 0,0:02:55.84,0:02:58.59,orig,L_37 x-anti,0,0,0,karaoke,{\ko25}What{\ko12} {\ko30}you {\ko56}hear {\ko31}is{\ko23} {\ko19}on{\ko39}ly a {\ko20}mo{\ko20}ment
 Dialogue: 0,0:02:55.84,0:02:58.59,ts,____ x-anti,0,0,0,,汝所闻无非瞬间
-Comment: 0,0:02:58.94,0:03:01.39,back,____ ,0,0,0,,{\kf114}本{\kf3}当{\kf39}の{\kf12}幸{\kf3}せ{\kf12}を
+Comment: 0,0:02:58.94,0:03:01.39,back,____,0,0,0,,{\kf114}本{\kf3}当{\kf39}の{\kf12}幸{\kf3}せ{\kf12}を
 Comment: 0,0:02:58.94,0:03:01.39,orig,L_38,0,0,0,karaoke,{\ko26}本|<ほ{\ko18}#|ん{\ko20}当|と{\ko20}#|う{\ko23}の{\ko36}幸|<し{\ko21}#|あ{\ko12}#|わ{\ko26}せ{\ko43}を
-Dialogue: 0,0:02:58.94,0:03:01.39,roma,____ ,0,0,0,,ho n tō no shi a wa se o
-Dialogue: 0,0:02:58.94,0:03:01.39,ts,____ ,0,0,0,,为了能不与
-Comment: 0,0:03:02.15,0:03:04.50,back,____ ,0,0,0,,{\kf3}永{\kf24}遠{\kf114}に{\kf117}離{\kf36}さ{\kf24}ず{\kf102}に
+Dialogue: 0,0:02:58.94,0:03:01.39,roma,____,0,0,0,,ho n tō no shi a wa se o
+Dialogue: 0,0:02:58.94,0:03:01.39,ts,____,0,0,0,,为了能不与
+Comment: 0,0:03:02.15,0:03:04.50,back,____,0,0,0,,{\kf3}永{\kf24}遠{\kf114}に{\kf117}離{\kf36}さ{\kf24}ず{\kf102}に
 Comment: 0,0:03:02.15,0:03:04.50,orig,L_39,0,0,0,karaoke,{\ko17}永|<え{\ko20}#|い{\ko19}遠|え{\ko21}#|ん{\ko28}に{\ko10}{\ko20}離|<は{\ko15}#|な{\ko20}さ{\ko25}ず{\ko40}に
-Dialogue: 0,0:03:02.15,0:03:04.50,roma,____ ,0,0,0,,e i e n ni ha na sa zu ni
-Dialogue: 0,0:03:02.15,0:03:04.50,ts,____ ,0,0,0,,真正的幸福永离
+Dialogue: 0,0:03:02.15,0:03:04.50,roma,____,0,0,0,,e i e n ni ha na sa zu ni
+Dialogue: 0,0:03:02.15,0:03:04.50,ts,____,0,0,0,,真正的幸福永离
 Comment: 0,0:03:05.27,0:03:07.99,orig,L_40 x-anti,0,0,0,karaoke,{\ko25}What{\ko12} {\ko24}you {\ko47}see{\ko8} {\ko38}is{\ko23} {\ko22}on{\ko36}ly a {\ko17}mo{\ko20}ment
 Dialogue: 0,0:03:05.27,0:03:07.99,ts,____ x-anti,0,0,0,,汝所见无非瞬间
 Comment: 0,0:03:08.36,0:03:11.15,orig,L_41 x-anti,0,0,0,karaoke,{\ko27}What{\ko9} {\ko33}you {\ko44}hear{\ko9} {\ko33}is{\ko28} {\ko21}on{\ko34}ly a {\ko19}mo{\ko22}ment

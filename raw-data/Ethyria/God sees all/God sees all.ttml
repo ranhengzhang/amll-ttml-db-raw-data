@@ -27,8 +27,7 @@
                 <span begin="00:15.050" end="00:15.190">be</span>
                 <span begin="00:15.190" end="00:16.010">fore</span>
                 <span begin="00:16.010" end="00:16.640"> </span>
-                <span begin="00:16.640" end="00:16.800">e</span>
-                <span begin="00:16.800" end="00:16.950">very</span>
+                <span begin="00:16.640" end="00:16.950">every</span>
                 <span begin="00:16.950" end="00:17.680">thing</span>
                 <span begin="00:17.680" end="00:17.990"> </span>
                 <span begin="00:17.990" end="00:18.160">co</span>
@@ -256,8 +255,7 @@
                 <span begin="01:46.040" end="01:46.150">be</span>
                 <span begin="01:46.150" end="01:46.980">fore</span>
                 <span begin="01:46.980" end="01:47.630"> </span>
-                <span begin="01:47.630" end="01:47.790">e</span>
-                <span begin="01:47.790" end="01:47.960">very</span>
+                <span begin="01:47.630" end="01:47.960">every</span>
                 <span begin="01:47.960" end="01:48.680">thing</span>
                 <span begin="01:48.680" end="01:48.980"> </span>
                 <span begin="01:48.980" end="01:49.190">is </span>
@@ -387,7 +385,8 @@
                 <span begin="02:26.020" end="02:27.460">time</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">在你的时间里</span>
                 <span ttm:role="x-bg" begin="02:26.040" end="02:28.300">
-                    <span begin="02:26.040" end="02:28.300">(Time)</span>
+                    <span begin="02:26.040" end="02:28.060">(Ti</span>
+                    <span begin="02:28.060" end="02:28.300">me)</span>
                     <span ttm:role="x-translation" xml:lang="zh-CN">时间里</span>
                 </span>
             </p>
