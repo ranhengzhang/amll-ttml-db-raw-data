@@ -11,7 +11,10 @@
             <amll:meta key="isrc" value="JPY252300045"/>
             <amll:meta key="musicName" value="Wanderer"/>
             <amll:meta key="artists" value="Ren Zotto"/>
+            <amll:meta key="artists" value="レン ゾット" />
+            <amll:meta key="artists" value="れん ぞっと" />
             <amll:meta key="album" value="Wanderer"/>
+            <amll:meta key="album" value="Wanderer - Single"/>
             <amll:meta key="ttmlAuthorGithub" value="68000793"/>
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang"/>
         </metadata>

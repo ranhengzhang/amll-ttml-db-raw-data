@@ -5,11 +5,14 @@
             <amll:meta key="ncmMusicId" value="2671878212" />
             <amll:meta key="qqMusicId" value="559353496" />
             <amll:meta key="spotifyId" value="5ok3NYYTzHfgSSyCUbGQ0x" />
+            <amll:meta key="appleMusicId" value="1794275881" />
             <amll:meta key="isrc" value="JPY252500012" />
             <amll:meta key="musicName" value="Monstrosity" />
             <amll:meta key="artists" value="Ren Zotto" />
             <amll:meta key="artists" value="レン ゾット" />
+            <amll:meta key="artists" value="れん ぞっと" />
             <amll:meta key="album" value="Monstrosity" />
+            <amll:meta key="album" value="Monstrosity - Single" />
             <amll:meta key="ttmlAuthorGithub" value="68000793" />
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
         </metadata>

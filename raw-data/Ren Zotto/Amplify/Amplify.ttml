@@ -11,7 +11,10 @@
             <amll:meta key="isrc" value="JPY252200028"/>
             <amll:meta key="musicName" value="Amplify"/>
             <amll:meta key="artists" value="Ren Zotto"/>
+            <amll:meta key="artists" value="レン ゾット" />
+            <amll:meta key="artists" value="れん ぞっと" />
             <amll:meta key="album" value="Amplify"/>
+            <amll:meta key="album" value="Amplify - Single"/>
             <amll:meta key="ttmlAuthorGithub" value="68000793"/>
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang"/>
         </metadata>
