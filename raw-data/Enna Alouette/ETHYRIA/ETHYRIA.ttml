@@ -11,7 +11,10 @@
             <amll:meta key="isrc" value="JPY252200061"/>
             <amll:meta key="musicName" value="ETHYRIA"/>
             <amll:meta key="artists" value="Enna Alouette"/>
+            <amll:meta key="artists" value="えなー あーるうぇっと"/>
+            <amll:meta key="artists" value="エナー・アールウェット"/>
             <amll:meta key="album" value="ETHYRIA"/>
+            <amll:meta key="album" value="Ethyria - Single"/>
             <amll:meta key="ttmlAuthorGithub" value="68000793"/>
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang"/>
         </metadata>
