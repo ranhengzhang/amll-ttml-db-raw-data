@@ -12,6 +12,8 @@ Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: roma-furigana,Raleway-v4020 ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
+Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
 Style: orig,Sarasa Gothic J,64,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,2,10,10,10,0
 Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
 Style: orig-furigana,M PLUS 2 Medium,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,128

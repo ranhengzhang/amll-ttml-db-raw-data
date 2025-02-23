@@ -2,6 +2,7 @@
     <head>
         <metadata>
             <ttm:agent type="person" xml:id="v1" />
+            <ttm:agent type="other" xml:id="v2" />
             <amll:meta key="ncmMusicId" value="1825914151" />
             <amll:meta key="ncmMusicId" value="2014227990" />
             <amll:meta key="qqMusicId" value="300975205" />
