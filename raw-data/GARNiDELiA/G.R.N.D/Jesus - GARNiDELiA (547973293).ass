@@ -28,53 +28,53 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,if (line.start_time)-200 
 Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -200, 200)!{\pos(!line.left+syl.center!,!line.top-128!)\k!($sstart/10)+20!\kf!($skdur)!\fad(200,200)}
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -200, 200)!{\pos(!line.left+syl.center!,!line.bottom-128!)\k!($sstart/10)+20!\kf!($skdur)!\fad(200,200)}
 Comment: 0,0:00:35.86,0:00:40.51,orig,L__1,0,0,0,karaoke,{\ko30}見|<み{\ko27}え{\ko24}て{\ko26}る{\ko34}ん{\ko20}で{\ko68}しょ{\ko19} {\ko35}世|<せ{\ko21}界|か{\ko12}#|い{\ko16}の{\ko25}ど{\ko31}こ{\ko38}か{\ko39}で
-Dialogue: 0,0:00:35.86,0:00:40.51,roma,____ ,0,0,0,,mi e te ru n de sho  se ka i no do ko ka de
-Dialogue: 0,0:00:35.86,0:00:40.51,ts,____ ,0,0,0,,祢一定看得到吧 在这世界的某处
-Comment: 0,0:00:35.86,0:00:40.51,tuck,____ ,0,0,0,,{\kf43}見{\kf22}え{\kf24}て{\kf18}る{\kf45}ん{\kf18}で{\kf19}し{\kf59}ょ {\kf41}世{\kf36}界{\kf15}の{\kf24}ど{\kf32}こ{\kf34}か{\kf42}で
+Dialogue: 0,0:00:35.86,0:00:40.51,roma,____,0,0,0,,mi e te ru n de sho se ka i no do ko ka de
+Dialogue: 0,0:00:35.86,0:00:40.51,ts,____,0,0,0,,祢一定看得到吧 在这世界的某处
+Comment: 0,0:00:35.86,0:00:40.51,tuck,____,0,0,0,,{\kf43}見{\kf22}え{\kf24}て{\kf18}る{\kf45}ん{\kf18}で{\kf19}し{\kf59}ょ {\kf41}世{\kf36}界{\kf15}の{\kf24}ど{\kf32}こ{\kf34}か{\kf42}で
 Comment: 0,0:00:40.94,0:00:45.38,orig,L__2,0,0,0,karaoke,{\ko27}汚|<け{\ko34}#|が{\ko14}れ{\ko23}き{\ko13}っ{\ko28}た{\ko30}私|<わ{\ko37}#|た{\ko40}#|し{\ko19}を{\ko22}見|<み{\ko11}{\ko31}下|く{\ko19}#|だ{\ko32}し{\ko12}{\ko52}て
-Dialogue: 0,0:00:40.94,0:00:45.38,roma,____ ,0,0,0,,ke ga re ki tta wa ta shi o mi ku da shi te
-Dialogue: 0,0:00:40.94,0:00:45.38,ts,____ ,0,0,0,,有人正轻蔑俯视 污秽不堪的我
-Comment: 0,0:00:40.94,0:00:45.38,tuck,____ ,0,0,0,,{\kf72}汚{\kf11}れ{\kf26}き{\kf12}っ{\kf24}た{\kf113}私{\kf18}を{\kf27}見{\kf58}下{\kf34}し{\kf64}て
+Dialogue: 0,0:00:40.94,0:00:45.38,roma,____,0,0,0,,ke ga re ki tta wa ta shi o mi ku da shi te
+Dialogue: 0,0:00:40.94,0:00:45.38,ts,____,0,0,0,,有人正轻蔑俯视 污秽不堪的我
+Comment: 0,0:00:40.94,0:00:45.38,tuck,____,0,0,0,,{\kf72}汚{\kf11}れ{\kf26}き{\kf12}っ{\kf24}た{\kf113}私{\kf18}を{\kf27}見{\kf58}下{\kf34}し{\kf64}て
 Comment: 0,0:00:45.86,0:00:50.62,orig,L__3,0,0,0,karaoke,{\ko26}信|<し{\ko15}#|ん{\ko27}じ{\ko20}る{\ko27}モ{\ko36}ノ{\ko32}だ{\ko45}け{\ko27}が{\ko22}救|<す{\ko25}#|く{\ko35}わ{\ko38}れ{\ko32}る{\ko18}な{\ko12}ん{\ko39}て
-Dialogue: 0,0:00:45.86,0:00:50.62,roma,____ ,0,0,0,,shi n ji ru mo no da ke ga su ku wa re ru na n te
-Dialogue: 0,0:00:45.86,0:00:50.62,ts,____ ,0,0,0,,若说唯有坚信者才能获得救赎
-Comment: 0,0:00:45.86,0:00:50.62,tuck,____ ,0,0,0,,{\kf48}信{\kf25}じ{\kf21}る{\kf27}モ{\kf35}ノ{\kf30}だ{\kf47}け{\kf31}が{\kf36}救{\kf42}わ{\kf34}れ{\kf36}る{\kf19}な{\kf17}ん{\kf40}て
+Dialogue: 0,0:00:45.86,0:00:50.62,roma,____,0,0,0,,shi n ji ru mo no da ke ga su ku wa re ru na n te
+Dialogue: 0,0:00:45.86,0:00:50.62,ts,____,0,0,0,,若说唯有坚信者才能获得救赎
+Comment: 0,0:00:45.86,0:00:50.62,tuck,____,0,0,0,,{\kf48}信{\kf25}じ{\kf21}る{\kf27}モ{\kf35}ノ{\kf30}だ{\kf47}け{\kf31}が{\kf36}救{\kf42}わ{\kf34}れ{\kf36}る{\kf19}な{\kf17}ん{\kf40}て
 Comment: 0,0:00:51.00,0:00:55.78,orig,L__4,0,0,0,karaoke,{\ko31}今|<い{\ko22}#|ま{\ko27}す{\ko29}ぐ{\ko24}助|<た{\ko42}#|す{\ko44}け{\ko59}て{\ko64}よ {\ko69}ね{\ko67}ぇ
-Dialogue: 0,0:00:51.00,0:00:55.78,roma,____ ,0,0,0,,i ma su gu ta su ke te yo  nē
-Dialogue: 0,0:00:51.00,0:00:55.78,ts,____ ,0,0,0,,就请此刻拯救我吧
-Comment: 0,0:00:51.00,0:00:55.78,tuck,____ ,0,0,0,,{\kf65}今{\kf16}す{\kf39}ぐ{\kf62}助{\kf49}け{\kf54}て{\kf61}よ {\kf29}ね{\kf115}ぇ
+Dialogue: 0,0:00:51.00,0:00:55.78,roma,____,0,0,0,,i ma su gu ta su ke te yo nē
+Dialogue: 0,0:00:51.00,0:00:55.78,ts,____,0,0,0,,就请此刻拯救我吧
+Comment: 0,0:00:51.00,0:00:55.78,tuck,____,0,0,0,,{\kf65}今{\kf16}す{\kf39}ぐ{\kf62}助{\kf49}け{\kf54}て{\kf61}よ {\kf29}ね{\kf115}ぇ
 Comment: 0,0:00:56.06,0:01:00.22,orig,L__5 x-duet,0,0,0,karaoke,{\ko13}神|<か{\ko9}#|み{\ko41}様|さ{\ko18}#|ま{\ko14}ど{\ko8}う{\ko25}し{\ko34}て{\ko92} {\ko16}こ{\ko17}ん{\ko30}な{\ko20}に{\ko13}醜|<み{\ko14}#|に{\ko17}#|く{\ko35}い
-Dialogue: 0,0:00:56.06,0:01:00.22,roma,____ x-duet,0,0,0,,ka mi sa ma dō shi te  ko n na ni mi ni ku i
+Dialogue: 0,0:00:56.06,0:01:00.22,roma,____ x-duet,0,0,0,,ka mi sa ma dō shi te ko n na ni mi ni ku i
 Dialogue: 0,0:00:56.06,0:01:00.22,ts,____ x-duet,0,0,0,,且问神明为何 如此不堪的
 Comment: 0,0:00:56.06,0:01:00.22,tuck,____ x-duet,0,0,0,,{\kf29}神{\kf29}様{\kf29}ど{\kf29}う{\kf29}し{\kf29}て {\kf29}こ{\kf29}ん{\kf29}な{\kf29}に{\kf29}醜{\kf30}い
 Comment: 0,0:01:00.40,0:01:05.26,orig,L__6,0,0,0,karaoke,{\ko37}ワ{\ko40}タ{\ko55}シ{\ko75}を{\ko20}{\ko19}創|<つ{\ko19}#|く{\ko24}っ{\ko27}て{\ko21}し{\ko39}ま{\ko13}っ{\ko13}た{\ko84}の？
-Dialogue: 0,0:01:00.40,0:01:05.26,roma,____ ,0,0,0,,wa ta shi o tsu ku tte shi ma tta no
-Dialogue: 0,0:01:00.40,0:01:05.26,ts,____ ,0,0,0,,我的形体皆由祢塑造
-Comment: 0,0:01:00.40,0:01:05.26,tuck,____ ,0,0,0,,{\kf134}ワ{\kf43}タ{\kf50}シ{\kf93}を{\kf61}創{\kf9}っ{\kf26}て{\kf19}し{\kf40}ま{\kf10}っ{\kf12}た{\kf120}の{\kf49}?
+Dialogue: 0,0:01:00.40,0:01:05.26,roma,____,0,0,0,,wa ta shi o tsu ku tte shi ma tta no
+Dialogue: 0,0:01:00.40,0:01:05.26,ts,____,0,0,0,,我的形体皆由祢塑造
+Comment: 0,0:01:00.40,0:01:05.26,tuck,____,0,0,0,,{\kf134}ワ{\kf43}タ{\kf50}シ{\kf93}を{\kf61}創{\kf9}っ{\kf26}て{\kf19}し{\kf40}ま{\kf10}っ{\kf12}た{\kf120}の{\kf49}?
 Comment: 0,0:01:06.13,0:01:10.38,orig,L__7 x-duet,0,0,0,karaoke,{\ko25}聞|<き{\ko32}こ{\ko23}え{\ko23}て{\ko16}る{\ko14}な{\ko61}ら{\ko59} {\ko24}ど{\ko10}う{\ko27}か{\ko29}教|<お{\ko20}#|し{\ko22}え{\ko40}て
-Dialogue: 0,0:01:06.13,0:01:10.38,roma,____ x-duet,0,0,0,,ki ko e te ru na ra  dō ka o shi e te
+Dialogue: 0,0:01:06.13,0:01:10.38,roma,____ x-duet,0,0,0,,ki ko e te ru na ra dō ka o shi e te
 Dialogue: 0,0:01:06.13,0:01:10.38,ts,____ x-duet,0,0,0,,若祢听见这悲鸣 请回答我
 Comment: 0,0:01:06.13,0:01:10.38,tuck,____ x-duet,0,0,0,,{\kf20}聞{\kf6}こ{\kf66}え{\kf10}て{\kf29}る{\kf6}な{\kf124}ら {\kf5}ど{\kf30}う{\kf31}か{\kf46}教{\kf68}え{\kf9}て
 Comment: 0,0:01:10.61,0:01:15.39,orig,L__8,0,0,0,karaoke,{\k26}ア{\k49}ナ{\k48}タ{\k73}の{\k25}{\k54}居|<い{\k28}な{\k17}い{\k41}世|<せ{\k22}界|か{\k14}#|い{\k81}に
-Dialogue: 0,0:01:10.61,0:01:15.39,roma,____ ,0,0,0,,a na ta no i na i se ka i ni
-Dialogue: 0,0:01:10.61,0:01:15.39,ts,____ ,0,0,0,,这没有祢存在的世界
-Comment: 0,0:01:10.61,0:01:15.39,tuck,____ ,0,0,0,,{\kf27}ア{\kf53}ナ{\kf44}タ{\kf88}の{\kf70}居{\kf22}な{\kf22}い{\kf37}世{\kf35}界{\kf83}に
+Dialogue: 0,0:01:10.61,0:01:15.39,roma,____,0,0,0,,a na ta no i na i se ka i ni
+Dialogue: 0,0:01:10.61,0:01:15.39,ts,____,0,0,0,,这没有祢存在的世界
+Comment: 0,0:01:10.61,0:01:15.39,tuck,____,0,0,0,,{\kf27}ア{\kf53}ナ{\kf44}タ{\kf88}の{\kf70}居{\kf22}な{\kf22}い{\kf37}世{\kf35}界{\kf83}に
 Comment: 0,0:01:18.33,0:01:20.97,orig,L__9,0,0,0,karaoke,{\ko17}な{\ko17}ん{\ko28}の{\ko37}意|<い{\ko25}味|み{\ko35}が{\ko34}あ{\ko12}る{\ko59}の
-Dialogue: 0,0:01:18.33,0:01:20.97,roma,____ ,0,0,0,,na n no i mi ga a ru no
-Dialogue: 0,0:01:18.33,0:01:20.97,ts,____ ,0,0,0,,究竟还有何意义可循
-Comment: 0,0:01:18.33,0:01:20.97,tuck,____ ,0,0,0,,{\kf29}な{\kf11}ん{\kf31}の{\kf26}意{\kf37}味{\kf49}が{\kf16}あ{\kf15}る{\kf51}の
+Dialogue: 0,0:01:18.33,0:01:20.97,roma,____,0,0,0,,na n no i mi ga a ru no
+Dialogue: 0,0:01:18.33,0:01:20.97,ts,____,0,0,0,,究竟还有何意义可循
+Comment: 0,0:01:18.33,0:01:20.97,tuck,____,0,0,0,,{\kf29}な{\kf11}ん{\kf31}の{\kf26}意{\kf37}味{\kf49}が{\kf16}あ{\kf15}る{\kf51}の
 Comment: 0,0:01:21.02,0:01:23.21,orig,L_10,0,0,0,karaoke,{\ko60}Je{\ko139}su{\ko20}s
-Dialogue: 0,0:01:21.02,0:01:23.21,ts,____ ,0,0,0,,神明啊
+Dialogue: 0,0:01:21.02,0:01:23.21,ts,____,0,0,0,,神明啊
 Comment: 0,0:01:23.85,0:01:28.02,orig,L_11,0,0,0,karaoke,{\ko29}痛|<い{\ko17}#|た{\ko29}く{\ko34}て{\ko34}苦|<く{\ko20}#|る{\ko57}し{\ko48}い{\ko20}の{\ko129}に
-Dialogue: 0,0:01:23.85,0:01:28.02,roma,____ ,0,0,0,,i ta ku te ku ru shi i no ni
-Dialogue: 0,0:01:23.85,0:01:28.02,ts,____ ,0,0,0,,明明痛楚已深入骨髓
-Comment: 0,0:01:23.85,0:01:28.02,tuck,____ ,0,0,0,,{\kf68}痛{\kf32}く{\kf30}て{\kf60}苦{\kf14}し{\kf89}い{\kf17}の{\kf136}に
+Dialogue: 0,0:01:23.85,0:01:28.02,roma,____,0,0,0,,i ta ku te ku ru shi i no ni
+Dialogue: 0,0:01:23.85,0:01:28.02,ts,____,0,0,0,,明明痛楚已深入骨髓
+Comment: 0,0:01:23.85,0:01:28.02,tuck,____,0,0,0,,{\kf68}痛{\kf32}く{\kf30}て{\kf60}苦{\kf14}し{\kf89}い{\kf17}の{\kf136}に
 Comment: 0,0:01:30.82,0:01:33.47,orig,L_12,0,0,0,karaoke,{\k26}Oh, {\k66}Je{\k150}su{\k23}s
-Dialogue: 0,0:01:30.82,0:01:33.47,ts,____ ,0,0,0,,上天啊
+Dialogue: 0,0:01:30.82,0:01:33.47,ts,____,0,0,0,,上天啊
 Comment: 0,0:01:33.95,0:01:39.33,orig,L_13,0,0,0,karaoke,{\ko31}愛|<あ{\ko9}#|い{\ko43}す{\ko27}る{\ko31}こ{\ko30}と{\ko40}や{\ko60}め{\ko14}ら{\ko44}れ{\ko24}な{\ko42}い{\ko19}の{\ko39}は{\ko21}な{\ko64}ぜ？
-Dialogue: 0,0:01:33.95,0:01:39.33,roma,____ ,0,0,0,,a i su ru ko to ya me ra re na i no wa na ze
-Dialogue: 0,0:01:33.95,0:01:39.33,ts,____ ,0,0,0,,为何仍无法停止去爱？
-Comment: 0,0:01:33.95,0:01:39.33,tuck,____ ,0,0,0,,{\kf53}愛{\kf30}す{\kf38}る{\kf28}こ{\kf28}と{\kf44}や{\kf58}め{\kf13}ら{\kf43}れ{\kf26}な{\kf44}い{\kf16}の{\kf38}は{\kf23}な{\kf70}ぜ{\kf183}？
+Dialogue: 0,0:01:33.95,0:01:39.33,roma,____,0,0,0,,a i su ru ko to ya me ra re na i no wa na ze
+Dialogue: 0,0:01:33.95,0:01:39.33,ts,____,0,0,0,,为何仍无法停止去爱？
+Comment: 0,0:01:33.95,0:01:39.33,tuck,____,0,0,0,,{\kf53}愛{\kf30}す{\kf38}る{\kf28}こ{\kf28}と{\kf44}や{\kf58}め{\kf13}ら{\kf43}れ{\kf26}な{\kf44}い{\kf16}の{\kf38}は{\kf23}な{\kf70}ぜ{\kf183}？
 Comment: 0,0:01:41.23,0:01:43.51,orig,L_14 x-duet,0,0,0,karaoke,{\ko34}I{\ko16} {\ko32}on{\ko17}{\ko26}ly{\ko21} {\ko35}lo{\ko12}{\ko35}ve you.
 Dialogue: 0,0:01:41.23,0:01:43.51,ts,____ x-duet,0,0,0,,我唯独深爱着祢
 Comment: 0,0:01:43.78,0:01:46.01,orig,L_15 x-duet,0,0,0,karaoke,{\ko28}Please{\ko21} {\ko39}give {\ko43}me{\ko13} {\ko43}your {\ko36}love.
@@ -92,41 +92,41 @@ Dialogue: 0,0:01:56.38,0:01:58.69,ts,____ x-duet,0,0,0,,我唯独深爱着祢
 Comment: 0,0:01:58.92,0:02:01.34,orig,L_21 x-duet,0,0,0,karaoke,{\ko29}Please{\ko19} {\ko37}give{\ko9} {\ko37}me{\ko13} {\ko41}your {\ko57}love.
 Dialogue: 0,0:01:58.92,0:02:01.34,ts,____ x-duet,0,0,0,,请赐予我祢的爱
 Comment: 0,0:02:23.22,0:02:27.42,orig,L_22 x-duet,0,0,0,karaoke,{\ko13}神|<か{\ko9}#|み{\ko42}様|さ{\ko17}#|ま{\ko13}ど{\ko9}う{\ko19}し{\ko35}て{\ko97} {\ko15}こ{\ko15}ん{\ko21}な{\ko21}に{\ko11}醜|<み{\ko21}#|に{\ko21}#|く{\ko41}い
-Dialogue: 0,0:02:23.22,0:02:27.42,roma,____ x-duet,0,0,0,,ka mi sa ma dō shi te  ko n na ni mi ni ku i
+Dialogue: 0,0:02:23.22,0:02:27.42,roma,____ x-duet,0,0,0,,ka mi sa ma dō shi te ko n na ni mi ni ku i
 Dialogue: 0,0:02:23.22,0:02:27.42,ts,____ x-duet,0,0,0,,且问神明为何 如此不堪的
 Comment: 0,0:02:23.22,0:02:27.42,tuck,____ x-duet,0,0,0,,{\kf83}神{\kf60}様{\kf3}ど{\kf18}う{\kf24}し{\kf128}て {\kf14}こ{\kf18}ん{\kf25}な{\kf107}に{\kf26}醜{\kf3}い
 Comment: 0,0:02:27.63,0:02:32.42,orig,L_23,0,0,0,karaoke,{\ko28}ワ{\ko42}タ{\ko58}シ{\ko72}を{\ko18}{\ko20}創|<つ{\ko18}#|く{\ko25}っ{\ko28}て{\ko24}し{\ko36}ま{\ko13}っ{\ko14}た{\ko83}の？
-Dialogue: 0,0:02:27.63,0:02:32.42,roma,____ ,0,0,0,,wa ta shi o tsu ku tte shi ma tta no
-Dialogue: 0,0:02:27.63,0:02:32.42,ts,____ ,0,0,0,,我的形体皆由祢塑造
-Comment: 0,0:02:27.63,0:02:32.42,tuck,____ ,0,0,0,,{\kf22}ワ{\kf42}タ{\kf50}シ{\kf92}を{\kf62}創{\kf8}っ{\kf27}て{\kf20}し{\kf41}ま{\kf9}っ{\kf14}た{\kf86}の{\kf83}?
+Dialogue: 0,0:02:27.63,0:02:32.42,roma,____,0,0,0,,wa ta shi o tsu ku tte shi ma tta no
+Dialogue: 0,0:02:27.63,0:02:32.42,ts,____,0,0,0,,我的形体皆由祢塑造
+Comment: 0,0:02:27.63,0:02:32.42,tuck,____,0,0,0,,{\kf22}ワ{\kf42}タ{\kf50}シ{\kf92}を{\kf62}創{\kf8}っ{\kf27}て{\kf20}し{\kf41}ま{\kf9}っ{\kf14}た{\kf86}の{\kf83}?
 Comment: 0,0:02:33.31,0:02:37.61,orig,L_24 x-duet,0,0,0,karaoke,{\ko22}聞|<き{\ko33}こ{\ko24}え{\ko19}て{\ko18}る{\ko14}な{\ko35}ら{\ko89} {\ko15}ど{\ko17}う{\ko26}か{\ko30}教|<お{\ko22}#|し{\ko16}え{\ko50}て
-Dialogue: 0,0:02:33.31,0:02:37.61,roma,____ x-duet,0,0,0,,ki ko e te ru na ra  dō ka o shi e te
+Dialogue: 0,0:02:33.31,0:02:37.61,roma,____ x-duet,0,0,0,,ki ko e te ru na ra dō ka o shi e te
 Dialogue: 0,0:02:33.31,0:02:37.61,ts,____ x-duet,0,0,0,,若祢听见这悲鸣 请回答我
 Comment: 0,0:02:33.31,0:02:37.61,tuck,____ x-duet,0,0,0,,{\kf19}聞{\kf6}こ{\kf73}え{\kf6}て{\kf17}る{\kf7}な{\kf130}ら {\kf7}ど{\kf27}う{\kf38}か{\kf41}教{\kf15}え{\kf59}て
 Comment: 0,0:02:37.74,0:02:42.49,orig,L_25,0,0,0,karaoke,{\ko17}ワ{\ko10}タ{\ko50}シ{\ko44}に{\ko75}は{\ko28}{\ko57}ア{\ko21}ナ{\ko20}タ{\ko14}し{\ko29}か{\ko14}い{\ko22}な{\ko74}い
-Dialogue: 0,0:02:37.74,0:02:42.49,roma,____ ,0,0,0,,wa ta shi ni wa a na ta shi ka i na i
-Dialogue: 0,0:02:37.74,0:02:42.49,ts,____ ,0,0,0,,我的世界里唯有祢存在
-Comment: 0,0:02:37.74,0:02:42.49,tuck,____ ,0,0,0,,{\kf17}ワ{\kf10}タ{\kf27}シ{\kf28}に{\kf135}は{\kf64}ア{\kf23}ナ{\kf20}タ{\kf19}し{\kf24}か{\kf13}い{\kf17}な{\kf86}い
+Dialogue: 0,0:02:37.74,0:02:42.49,roma,____,0,0,0,,wa ta shi ni wa a na ta shi ka i na i
+Dialogue: 0,0:02:37.74,0:02:42.49,ts,____,0,0,0,,我的世界里唯有祢存在
+Comment: 0,0:02:37.74,0:02:42.49,tuck,____,0,0,0,,{\kf17}ワ{\kf10}タ{\kf27}シ{\kf28}に{\kf135}は{\kf64}ア{\kf23}ナ{\kf20}タ{\kf19}し{\kf24}か{\kf13}い{\kf17}な{\kf86}い
 Comment: 0,0:02:45.48,0:02:48.14,orig,L_26,0,0,0,karaoke,{\ko15}も{\ko16}う{\ko32}全|<ぜ{\ko37}#|ん{\ko17}部|ぶ{\ko13}終|<お{\ko30}わ{\ko23}ら{\ko24}せ{\ko59}て
-Dialogue: 0,0:02:45.48,0:02:48.14,roma,____ ,0,0,0,,mō ze m bu o wa ra se te
-Dialogue: 0,0:02:45.48,0:02:48.14,ts,____ ,0,0,0,,让这一切都结束吧
-Comment: 0,0:02:45.48,0:02:48.14,tuck,____ ,0,0,0,,{\kf20}も{\kf21}う{\kf69}全{\kf19}部{\kf13}終{\kf28}わ{\kf26}ら{\kf20}せ{\kf70}て
+Dialogue: 0,0:02:45.48,0:02:48.14,roma,____,0,0,0,,mō ze m bu o wa ra se te
+Dialogue: 0,0:02:45.48,0:02:48.14,ts,____,0,0,0,,让这一切都结束吧
+Comment: 0,0:02:45.48,0:02:48.14,tuck,____,0,0,0,,{\kf20}も{\kf21}う{\kf69}全{\kf19}部{\kf13}終{\kf28}わ{\kf26}ら{\kf20}せ{\kf70}て
 Comment: 0,0:02:47.96,0:02:50.24,orig,L_27 x-duet,0,0,0,karaoke,{\ko31}い{\ko16}っ{\ko22}そ{\ko32}ひ{\ko21}と{\ko12}思|<お{\ko17}#|も{\ko16}い{\ko61}に
 Dialogue: 0,0:02:47.96,0:02:50.24,roma,____ x-duet,0,0,0,,i sso hi to o mo i ni
 Dialogue: 0,0:02:47.96,0:02:50.24,ts,____ x-duet,0,0,0,,干脆痛快地解脱
 Comment: 0,0:02:47.96,0:02:50.24,tuck,____ x-duet,0,0,0,,{\kf4}い{\kf5}っ{\kf15}そ{\kf32}ひ{\kf17}と{\kf30}思{\kf17}い{\kf58}に
 Comment: 0,0:02:50.69,0:02:52.90,orig,L_28,0,0,0,karaoke,{\ko61}Je{\ko138}su{\ko22}s
-Dialogue: 0,0:02:50.69,0:02:52.90,ts,____ ,0,0,0,,神明啊
+Dialogue: 0,0:02:50.69,0:02:52.90,ts,____,0,0,0,,神明啊
 Comment: 0,0:02:53.53,0:02:57.74,orig,L_29,0,0,0,karaoke,{\ko29}痛|<い{\ko18}#|た{\ko28}く{\ko35}て{\ko35}苦|<く{\ko19}#|る{\ko58}し{\ko47}い{\ko21}の{\ko131}に
-Dialogue: 0,0:02:53.53,0:02:57.74,roma,____ ,0,0,0,,i ta ku te ku ru shi i no ni
-Dialogue: 0,0:02:53.53,0:02:57.74,ts,____ ,0,0,0,,明明痛楚已深入骨髓
-Comment: 0,0:02:53.53,0:02:57.74,tuck,____ ,0,0,0,,{\kf57}痛{\kf33}く{\kf29}て{\kf60}苦{\kf14}し{\kf88}い{\kf17}の{\kf139}に
+Dialogue: 0,0:02:53.53,0:02:57.74,roma,____,0,0,0,,i ta ku te ku ru shi i no ni
+Dialogue: 0,0:02:53.53,0:02:57.74,ts,____,0,0,0,,明明痛楚已深入骨髓
+Comment: 0,0:02:53.53,0:02:57.74,tuck,____,0,0,0,,{\kf57}痛{\kf33}く{\kf29}て{\kf60}苦{\kf14}し{\kf88}い{\kf17}の{\kf139}に
 Comment: 0,0:03:00.50,0:03:03.17,orig,L_30,0,0,0,karaoke,{\ko26}Oh, {\ko67}Je{\ko148}su{\ko26}s
-Dialogue: 0,0:03:00.50,0:03:03.17,ts,____ ,0,0,0,,上天啊
+Dialogue: 0,0:03:00.50,0:03:03.17,ts,____,0,0,0,,上天啊
 Comment: 0,0:03:03.64,0:03:09.17,orig,L_31,0,0,0,karaoke,{\ko30}愛|<あ{\ko8}#|い{\ko39}す{\ko33}る{\ko28}こ{\ko34}と{\ko41}や{\ko58}め{\ko15}ら{\ko43}れ{\ko24}な{\ko39}い{\ko22}の{\ko35}は{\ko23}な{\ko81}ぜ？
-Dialogue: 0,0:03:03.64,0:03:09.17,roma,____ ,0,0,0,,a i su ru ko to ya me ra re na i no wa na ze
-Dialogue: 0,0:03:03.64,0:03:09.17,ts,____ ,0,0,0,,为何仍无法停止去爱？
-Comment: 0,0:03:03.64,0:03:09.17,tuck,____ ,0,0,0,,{\kf50}愛{\kf27}す{\kf40}る{\kf28}こ{\kf30}と{\kf44}や{\kf57}め{\kf17}ら{\kf42}れ{\kf23}な{\kf43}い{\kf18}の{\kf35}は{\kf25}な{\kf94}ぜ{\kf161}?
+Dialogue: 0,0:03:03.64,0:03:09.17,roma,____,0,0,0,,a i su ru ko to ya me ra re na i no wa na ze
+Dialogue: 0,0:03:03.64,0:03:09.17,ts,____,0,0,0,,为何仍无法停止去爱？
+Comment: 0,0:03:03.64,0:03:09.17,tuck,____,0,0,0,,{\kf50}愛{\kf27}す{\kf40}る{\kf28}こ{\kf30}と{\kf44}や{\kf57}め{\kf17}ら{\kf42}れ{\kf23}な{\kf43}い{\kf18}の{\kf35}は{\kf25}な{\kf94}ぜ{\kf161}?
 Comment: 0,0:03:10.92,0:03:13.21,orig,L_32 x-duet,0,0,0,karaoke,{\ko34}I{\ko15} {\ko34}on{\ko17}{\ko22}ly{\ko24} {\ko26}lo{\ko21}{\ko36}ve you.
 Dialogue: 0,0:03:10.92,0:03:13.21,ts,____ x-duet,0,0,0,,我唯独深爱着祢
 Comment: 0,0:03:13.48,0:03:15.62,orig,L_33 x-duet,0,0,0,karaoke,{\ko27}Please{\ko19} {\ko49}give {\ko27}me{\ko21} {\ko43}your {\ko28}love.
