@@ -1,0 +1,15 @@
+name: 同步上游分支
+
+on:
+  schedule:
+    - cron: '* * */1 * *'
+
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v2.0.10
+        with:
+          owner: Steve-xmh # fork 的上游仓库 user
+          head: main # fork 的上游仓库 branch
+          base: upstream-base # 本地仓库 branch
