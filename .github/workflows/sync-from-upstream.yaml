@@ -11,5 +11,6 @@ jobs:
       - uses: tgymnich/fork-sync@v2.0.10
         with:
           owner: Steve-xmh # fork 的上游仓库 user
+          repo: amll-ttml-db # fork 的上游仓库 repo
           head: main # fork 的上游仓库 branch
           base: upstream-base # 本地仓库 branch
