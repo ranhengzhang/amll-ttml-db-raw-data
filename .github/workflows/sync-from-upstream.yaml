@@ -2,7 +2,7 @@ name: 同步上游分支
 
 on:
   schedule:
-    - cron: '* * */1 * *'
+    - cron: '0 0 */1 * *'
 
 jobs:
   repo-sync:
