@@ -16,98 +16,6 @@ include("karaskel.lua")
 
 -- local xml = xmlSimple.newParser()
 
-local ui_config = {
-    {
-        class = "label",
-        label = "网易云音乐 ID(s)",
-        name = "tag_ncmMusicId",
-        x = 0,
-        y = 0,
-        width = 1
-    }, {class = "edit", name = "ncmMusicIds", x = 1, y = 0, width = 16}, {
-        class = "label",
-        label = "QQ 音乐 ID(s)",
-        name = "tag_qqMusicId",
-        x = 0,
-        y = 1,
-        width = 1
-    }, {class = "edit", name = "qqMusicIds", x = 1, y = 1, width = 16}, {
-        class = "label",
-        label = "Spotify 音乐 ID(s)",
-        name = "tag_spotifyId",
-        x = 0,
-        y = 2,
-        width = 1
-    }, {class = "edit", name = "spotifyIds", x = 1, y = 2, width = 16}, {
-        class = "label",
-        label = "Apple Music 音乐 ID(s)",
-        name = "tag_appleMusicId",
-        x = 0,
-        y = 3,
-        width = 1
-    }, {class = "edit", name = "appleMusicIds", x = 1, y = 3, width = 16}, {
-        class = "label",
-        label = "歌曲的 ISRC 号码(s)",
-        name = "tag_isrc",
-        x = 0,
-        y = 4,
-        width = 1
-    }, {class = "edit", name = "isrcs", x = 1, y = 4, width = 16}, {
-        class = "label",
-        label = "歌曲作者",
-        name = "tag_artists",
-        x = 18,
-        y = 0,
-        width = 1
-    }, {class = "edit", name = "artistss", x = 19, y = 0, width = 16}, {
-        class = "label",
-        label = "歌曲专辑",
-        name = "tag_album",
-        x = 18,
-        y = 1,
-        width = 1
-    }, {class = "edit", name = "albums", x = 19, y = 1, width = 16}, {
-        class = "label",
-        label = "歌曲名称",
-        name = "tag_musicName",
-        x = 18,
-        y = 2,
-        width = 1
-    }, {class = "edit", name = "musicNames", x = 19, y = 2, width = 16}, {
-        class = "label",
-        label = "歌词作者 Github ID",
-        name = "tag_ttmlAuthorGithub",
-        x = 18,
-        y = 3,
-        width = 1
-    }, {class = "edit", name = "ttmlAuthorGithubs", x = 19, y = 3, width = 16},
-    {
-        class = "label",
-        label = "歌曲作者 Github 用户名",
-        name = "tag_ttmlAuthorGithubLogin",
-        x = 18,
-        y = 4,
-        width = 1
-    },
-    {class = "edit", name = "ttmlAuthorGithubLogins", x = 19, y = 4, width = 16},
-    {
-        class = "label",
-        label = "时间偏移",
-        name = "tag_offset",
-        x = 0,
-        y = 5,
-        width = 1
-    },
-    {
-        class = "label",
-        label = "ms",
-        name = "unit_offset",
-        x = 2,
-        y = 5,
-        width = 1
-    }
-}
-
 local anti = false
 
 local marked = {}
@@ -235,7 +143,9 @@ function generate_line(line, n)
     local ttml = ""
     local is_bg = line.actor:find('x-bg') ~= nil
 
-    if line.actor:find('x-anti') ~= nil then anti = true end
+    if line.actor:find('x-anti') ~= nil or line.actor:find('x-duet') ~= nil then
+        anti = true
+    end
 
     if is_bg then
         ttml = ttml .. '<span ttm:role="x-bg"'
@@ -250,8 +160,9 @@ function generate_line(line, n)
 
     if not is_bg then
         ttml = ttml .. string.format(' ttm:agent="%s" itunes:key="L%d"',
-                                     line.actor:find('x-anti') == nil and 'v1' or
-                                         'v2', n)
+                                     (line.actor:find('x-anti') == nil and
+                                         line.actor:find('x-duet') == nil) and
+                                         'v1' or 'v2', n)
     end
 
     ttml = ttml .. '>'
@@ -372,14 +283,107 @@ function script_main(subtitles)
 
     if #subs == 0 then aegisub.cancel() end
 
-    ui_config[#ui_config] = {
-        class = "intedit",
-        name = "offset",
-        x = 1,
-        y = 5,
-        width = 1,
-        value = script_offset
+    local ui_config = {
+        {
+            class = "label",
+            label = "网易云音乐 ID(s)",
+            name = "tag_ncmMusicId",
+            x = 0,
+            y = 0,
+            width = 1
+        }, {class = "edit", name = "ncmMusicIds", x = 1, y = 0, width = 16}, {
+            class = "label",
+            label = "QQ 音乐 ID(s)",
+            name = "tag_qqMusicId",
+            x = 0,
+            y = 1,
+            width = 1
+        }, {class = "edit", name = "qqMusicIds", x = 1, y = 1, width = 16}, {
+            class = "label",
+            label = "Spotify 音乐 ID(s)",
+            name = "tag_spotifyId",
+            x = 0,
+            y = 2,
+            width = 1
+        }, {class = "edit", name = "spotifyIds", x = 1, y = 2, width = 16}, {
+            class = "label",
+            label = "Apple Music 音乐 ID(s)",
+            name = "tag_appleMusicId",
+            x = 0,
+            y = 3,
+            width = 1
+        }, {class = "edit", name = "appleMusicIds", x = 1, y = 3, width = 16},
+        {
+            class = "label",
+            label = "歌曲的 ISRC 号码(s)",
+            name = "tag_isrc",
+            x = 0,
+            y = 4,
+            width = 1
+        }, {class = "edit", name = "isrcs", x = 1, y = 4, width = 16}, {
+            class = "label",
+            label = "歌曲作者",
+            name = "tag_artists",
+            x = 18,
+            y = 0,
+            width = 1
+        }, {class = "edit", name = "artistss", x = 19, y = 0, width = 16}, {
+            class = "label",
+            label = "歌曲专辑",
+            name = "tag_album",
+            x = 18,
+            y = 1,
+            width = 1
+        }, {class = "edit", name = "albums", x = 19, y = 1, width = 16}, {
+            class = "label",
+            label = "歌曲名称",
+            name = "tag_musicName",
+            x = 18,
+            y = 2,
+            width = 1
+        }, {class = "edit", name = "musicNames", x = 19, y = 2, width = 16}, {
+            class = "label",
+            label = "歌词作者 Github ID",
+            name = "tag_ttmlAuthorGithub",
+            x = 18,
+            y = 3,
+            width = 1
+        }, {
+            class = "edit",
+            name = "ttmlAuthorGithubs",
+            x = 19,
+            y = 3,
+            width = 16
+        }, {
+            class = "label",
+            label = "歌曲作者 Github 用户名",
+            name = "tag_ttmlAuthorGithubLogin",
+            x = 18,
+            y = 4,
+            width = 1
+        }, {
+            class = "edit",
+            name = "ttmlAuthorGithubLogins",
+            x = 19,
+            y = 4,
+            width = 16
+        }, {
+            class = "label",
+            label = "时间偏移",
+            name = "tag_offset",
+            x = 0,
+            y = 5,
+            width = 1
+        }, {
+            class = "intedit",
+            name = "offset",
+            x = 1,
+            y = 5,
+            width = 1,
+            value = script_offset
+        }, {class = "label", label = "ms", name = "ms", x = 2, y = 5, width = 1}
     }
+
     local btn, result = aegisub.dialog.display(ui_config, {"Start", "Cancel"})
 
     if btn == false or btn == "Cancel" then aegisub.cancel() end
