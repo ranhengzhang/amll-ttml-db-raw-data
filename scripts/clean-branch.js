@@ -19,3 +19,5 @@ async function main() {
     } catch (e) {}
   }
 }
+
+main().catch(console.error);
