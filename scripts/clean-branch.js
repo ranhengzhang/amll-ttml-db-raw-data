@@ -16,9 +16,7 @@ async function main() {
   const reg = /[0-9]+$/
   for (const pull of openingPulls.data) {
     try {
-      if (reg.test(pull.title)) {
-        console.log(pull.head.ref);
-      }
+      console.log(pull.head.ref);
     } catch (e) {}
   }
 }
