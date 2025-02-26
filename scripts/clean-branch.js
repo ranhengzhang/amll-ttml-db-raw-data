@@ -1,5 +1,5 @@
 import {Octokit} from "octokit";
-import {deleteBranch, githubToken, REPO_NAME, REPO_OWNER} from "./utils.js";
+import {deleteBranch, githubToken, removeBranch, REPO_NAME, REPO_OWNER} from "./utils.js";
 
 const octokit = new Octokit({
   auth: githubToken,
@@ -19,7 +19,7 @@ async function main() {
       if (reg.test(pull.head.ref)) {
         console.log(pull.head.ref);
         try {
-          await deleteBranch(pull.head.ref);
+          await removeBranch(pull.head.ref);
         } catch { }
       }
     } catch {}

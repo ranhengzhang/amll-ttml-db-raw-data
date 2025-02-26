@@ -155,3 +155,20 @@ export function push(branch) {
     });
 }
 
+/**
+ * @param {string} branch
+ * @returns {Promise<void>}
+ */
+export function removeBranch(branch) {
+    return new Promise((resolve, reject) => {
+        exec(`git push --set-upstream origin :${branch}`, (err, stdout, stderr) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve();
+            }
+        }
+        );
+    });
+}
+
