@@ -2,15 +2,15 @@ name: 同步 Github 到 Gitee
 
 on:
   workflow_run:
-    workflows: [重建歌词文件夹, 同步上游分支]
+    workflows: [清除分支, 同步上游分支]
     types:
       - completed
 concurrency:
-  group: sync-to-gitee
+  group: sync
   cancel-in-progress: true
 
 jobs:
-  build:
+  sybc-to:
     runs-on: ubuntu-latest
     steps:
       - name: Sync to Gitee

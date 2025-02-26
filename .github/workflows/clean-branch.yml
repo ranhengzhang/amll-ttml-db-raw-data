@@ -2,11 +2,10 @@ name: 清除分支
 
 on:
   workflow_dispatch:
-  push:
-  # workflow_run:
-  #   workflows: [重建歌词文件夹]
-  #   types:
-  #     - completed
+  workflow_run:
+    workflows: [重建歌词文件夹]
+    types:
+      - completed
 concurrency:
   group: sync
   cancel-in-progress: true

@@ -3,9 +3,12 @@ name: 同步上游分支
 on:
   schedule:
     - cron: '0 0 */1 * *'
+concurrency:
+  group: sync
+  cancel-in-progress: true
 
 jobs:
-  repo-sync:
+  sync-from:
     runs-on: ubuntu-latest
     steps:
       - uses: tgymnich/fork-sync@v2.0.10

@@ -7,11 +7,11 @@ on:
       - 'scripts/**'
       - 'raw-lyrics/**'
 concurrency:
-  group: check-submit
+  group: upload
   cancel-in-progress: true
 
 jobs:
-  check-submit:
+  rebuild-folder:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
