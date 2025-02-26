@@ -9,6 +9,8 @@ const octokit = new Octokit({
 async function main() {
   console.log("???")
   const openingPulls = await octokit.rest.pulls.list({
+    owner: REPO_OWNER,
+    repo: REPO_NAME,
     state: "closed",
   });
 
