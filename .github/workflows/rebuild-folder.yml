@@ -27,7 +27,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
       - name: 缓存构建产物
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: scripts/rebuild-folder/target
           key: ${{ runner.os }}-target-${{ hashFiles('**/Cargo.lock') }}
