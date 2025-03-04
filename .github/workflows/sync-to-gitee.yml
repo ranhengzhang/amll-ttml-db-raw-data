@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  sybc-to:
+  sync-to:
     runs-on: ubuntu-latest
     steps:
       - name: Sync to Gitee
