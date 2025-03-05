@@ -17,3 +17,4 @@ jobs:
           repo: amll-ttml-db # fork 的上游仓库 repo
           head: main # fork 的上游仓库 branch
           base: upstream-base # 本地仓库 branch
+          token: ${{ secrets.GITHUB_TOKEN }}
