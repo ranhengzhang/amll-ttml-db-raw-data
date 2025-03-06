@@ -4,20 +4,18 @@
             <ttm:agent type="person" xml:id="v1" />
             <ttm:agent type="other" xml:id="v2" />
             <amll:meta key="ncmMusicId" value="1825914151" />
-            <amll:meta key="ncmMusicId" value="2014227990" />
             <amll:meta key="qqMusicId" value="300975205" />
-            <amll:meta key="qqMusicId" value="391608594" />
             <amll:meta key="spotifyId" value="6USOAniv1S82lFShPe4hrG" />
-            <amll:meta key="spotifyId" value="54TspY54yq4pmpSnXDoq00" />
-            <amll:meta key="spotifyId" value="42Rx3xI6mapG1woy4Nnwte" />
             <amll:meta key="appleMusicId" value="1556546085" />
-            <amll:meta key="appleMusicId" value="1660494214" />
             <amll:meta key="appleMusicId" value="1559845901" />
             <amll:meta key="isrc" value="JPB602003965" />
             <amll:meta key="musicName" value="春よ、来い" />
+            <amll:meta key="musicName" value="Haruyokoi" />
             <amll:meta key="artists" value="浜崎あゆみ" />
+            <amll:meta key="artists" value="Ayumi Hamasaki" />
             <amll:meta key="album" value="A BALLADS 2" />
-            <amll:meta key="album" value="Remember you" />
+            <amll:meta key="album" value="春よ、来い - Single" />
+            <amll:meta key="album" value="Haruyokoi - Single" />
             <amll:meta key="ttmlAuthorGithub" value="68000793" />
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
         </metadata>
