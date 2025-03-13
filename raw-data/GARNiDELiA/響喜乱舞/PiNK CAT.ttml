@@ -5,25 +5,19 @@
             <ttm:agent type="other" xml:id="v2" />
             <amll:meta key="album" value="Kyoukiranbu" />
             <amll:meta key="album" value="MIRAI (期間生産限定アニメ盤)" />
-            <amll:meta key="album" value="MIRAI - EP" />
-            <amll:meta key="album" value="MIRAI" />
             <amll:meta key="album" value="响喜乱舞" />
-            <amll:meta key="album" value="未来" />
             <amll:meta key="album" value="響喜乱舞" />
-            <amll:meta key="appleMusicId" value="1536157864" />
             <amll:meta key="appleMusicId" value="1537901353" />
             <amll:meta key="artists" value="GARNiDELiA" />
             <amll:meta key="artists" value="ガルニデリア" />
             <amll:meta key="artists" value="加尼德里亚" />
             <amll:meta key="isrc" value="JPU901501080" />
             <amll:meta key="musicName" value="PiNKCAT" />
+            <amll:meta key="musicName" value="Pink Cat" />
             <amll:meta key="ncmMusicId" value="1311758712" />
             <amll:meta key="ncmMusicId" value="1347683971" />
-            <amll:meta key="ncmMusicId" value="31917314" />
-            <amll:meta key="qqMusicId" value="102343124" />
             <amll:meta key="qqMusicId" value="217447633" />
             <amll:meta key="spotifyId" value="4RxEbZFmQrO7HoOkagrmiA" />
-            <amll:meta key="spotifyId" value="753RThnRJWREk61vZZL4bn" />
             <amll:meta key="ttmlAuthorGithub" value="68000793" />
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
         </metadata>
