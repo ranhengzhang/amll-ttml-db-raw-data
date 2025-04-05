@@ -114,7 +114,7 @@ function generate_kara(line)
             end
         elseif syl.text_stripped ~= '' then
             syl.text_stripped = syl.text_stripped:gsub('%s+', ' ')
-            if syl.duration == 0 and not syl.text_stripped == ' ' then
+            if syl.duration == 0 and not (syl.text_stripped == ' ') then
                 syl.end_time = syl.end_time + 3
             end
             if line.actor:find('x-bg') ~= nil and i == 1 then
