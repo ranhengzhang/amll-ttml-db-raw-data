@@ -104,7 +104,7 @@ function generate_kara(line)
         local syl = util.copy(line.kara[i])
         syl.text_stripped = xml_symbol(syl.text_stripped)
 
-        if syl.duration == 0 and unicode.len(syl.text_stripped:trim()) <= 1 then
+        if syl.duration == 0 and unicode.len(syl.text_stripped:trim() or '') <= 1 then
             if i == 1 and #line.kara > 2 then
                 line.kara[2].text_stripped =
                     syl.text_stripped .. line.kara[2].text_stripped
