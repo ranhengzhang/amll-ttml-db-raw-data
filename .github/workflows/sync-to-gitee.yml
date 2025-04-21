@@ -1,4 +1,4 @@
-name: 同步 Github 到 Gitee
+name: 同步 Github 到 Gitea
 
 on:
   workflow_run:
@@ -13,7 +13,9 @@ jobs:
   sync-to:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync to Gitee
+      - name: Mask
+        run: echo "::add-mask::${{ secrets.PRIVATE_HOST }}"
+      - name: Sync to Gitea
         uses: wearerequired/git-mirror-action@master
         env:
           # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
@@ -22,4 +24,4 @@ jobs:
           # 注意替换为你的 GitHub 源仓库地址
           source-repo: git@github.com:ranhengzhang/amll-ttml-db-raw-data.git
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: git@gitee.com:Lyre_of_Apollo/amll-ttml-db-raw-data.git
+          destination-repo: git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
