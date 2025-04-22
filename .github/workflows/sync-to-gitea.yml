@@ -34,8 +34,8 @@ jobs:
           GITEA_USERNAME: ranhengzhang
           GITEA_PAT: ${{ secrets.GITEA_TOKEN }}
           CREATE_ORG: true
-          REMOVE_INEXIST_REPO: false
-          REMOVE_EXISTING_REPO: false
+          REMOVE_INEXIST_REPO: true
+          REMOVE_EXISTING_REPO: true
           MIRROR_OWNED: true
           MIRROR_PRIVATE: false
           MIRROR_FORKED: true
