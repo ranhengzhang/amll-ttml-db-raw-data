@@ -34,9 +34,9 @@ jobs:
           gitea_username: ranhengzhang
           gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
           gitea_gist_prefix: ""
-          gitea_gist_surfix: ""
+          gitea_gist_surfix: "amll-ttml-db-raw-data"
           gistsSource: true
-          gistsStared: true
+          gistsStared: false
           repositoryStared: true
-          repositorySource: true
-          repositoryForked: true
+          repositorySource: false
+          repositoryForked: false
