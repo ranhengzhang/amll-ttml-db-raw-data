@@ -27,6 +27,10 @@ jobs:
       #   with:
       #     source-repo: git@github.com:ranhengzhang/amll-ttml-db-raw-data.git
       #     destination-repo: git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
+      - name: Git Config
+        run: |
+          git config user.name ranhengzhang
+          git config user.password ${{ secrets.GITEA_RSA_PRIVATE_KEY }}
       - name: Sync to Gitea
         run: git remote add gitea http://${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}/ranhengzhang/amll-ttml-db-raw-data.git
       - name: Push to Gitea
