@@ -16,10 +16,14 @@ jobs:
     steps:
       - name: Mask
         run: echo "::add-mask::${{ secrets.PRIVATE_HOST }}"
+      # - name: Sync to Gitea
+      #   uses: wearerequired/git-mirror-action@master
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{ secrets.GITEA_RSA_PRIVATE_KEY }}
+      #   with:
+      #     source-repo: git@github.com:ranhengzhang/amll-ttml-db-raw-data.git
+      #     destination-repo: git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
       - name: Sync to Gitea
-        uses: wearerequired/git-mirror-action@master
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.GITEA_RSA_PRIVATE_KEY }}
-        with:
-          source-repo: git@github.com:ranhengzhang/amll-ttml-db-raw-data.git
-          destination-repo: git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
+        run: git remote add gitea git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
+      - name: Push to Gitea
+        run: git push gitea main
