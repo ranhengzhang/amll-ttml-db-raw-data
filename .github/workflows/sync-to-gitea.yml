@@ -32,6 +32,8 @@ jobs:
       #     git config user.name "ranhengzhang"
       #     git config user.password "${{ secrets.GITEA_TOKEN }}"
       - name: Sync to Gitea
-        run: git remote add gitea http://ranhengzhang:${{ secrets.GITEA_TOKEN }}@${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}/ranhengzhang/amll-ttml-db-raw-data.git
+        run: |
+          git remote add gitea http://ranhengzhang:${{ secrets.GITEA_TOKEN }}@${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}/ranhengzhang/amll-ttml-db-raw-data.git
+          git filter-branch -- --all
       - name: Push to Gitea
         run: git push gitea main --force
