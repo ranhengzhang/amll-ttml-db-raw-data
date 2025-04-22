@@ -38,7 +38,7 @@ jobs:
           REMOVE_EXISTING_REPO: false
           MIRROR_OWNED: true
           MIRROR_PRIVATE: false
-          MIRROR_FORKED: false
+          MIRROR_FORKED: true
           MIRROR_STARRED: false
           MIRROR_COLLABORATOR: false
           MIRROR_ORGANIZATION: false
