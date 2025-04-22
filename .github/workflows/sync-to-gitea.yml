@@ -25,18 +25,22 @@ jobs:
       #   with:
       #     source-repo: git@github.com:ranhengzhang/amll-ttml-db-raw-data.git
       #     destination-repo: git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
-      - uses: varunsridharan/action-gitea-mirror@main
-        name: " ⏳ Setting Up Mirror"
+      - name: GitHub mirror Gitea
+        uses: katorlys/gitea-mirror-action@v1
         with:
-          gh_username: ranhengzhang
-          gh_accesstoken: ${{ secrets.GH_TOKEN }}
-          gitea_host: http://${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}
-          gitea_username: ranhengzhang
-          gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
-          gitea_gist_prefix: ""
-          gitea_gist_surfix: "amll-ttml-db-raw-data"
-          gistsSource: true
-          gistsStared: false
-          repositoryStared: true
-          repositorySource: false
-          repositoryForked: false
+          GITHUB_USERNAME: ranhengzhang
+          GITHUB_PAT: ${{ secrets.GH_TOKEN }}
+          GITEA_HOST: http://${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}
+          GITEA_USERNAME: ranhengzhang
+          GITEA_PAT: ${{ secrets.GITEA_TOKEN }}
+          CREATE_ORG: true
+          REMOVE_INEXIST_REPO: false
+          REMOVE_EXISTING_REPO: false
+          MIRROR_OWNED: true
+          MIRROR_PRIVATE: false
+          MIRROR_FORKED: false
+          MIRROR_STARRED: false
+          MIRROR_COLLABORATOR: false
+          MIRROR_ORGANIZATION: false
+          MODE: 'whitelist'
+          REGEX: 'amll-ttml-db-raw-data'
