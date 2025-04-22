@@ -15,7 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mask
-        run: echo "::add-mask::${{ secrets.PRIVATE_HOST }}"
+        run: |
+          echo "::add-mask::${{ secrets.PRIVATE_HOST }}"
+          echo "::add-mask::${{ secrets.PRIVATE_PORT }}"
       # - name: Sync to Gitea
       #   uses: wearerequired/git-mirror-action@master
       #   env:
@@ -28,7 +30,7 @@ jobs:
         with:
           gh_username: ranhengzhang
           gh_accesstoken: ${{ secrets.GH_TOKEN }}
-          gitea_host: ${{ secrets.PRIVATE_HOST }}
+          gitea_host: http://${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}
           gitea_username: ranhengzhang
           gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
           gitea_gist_prefix: ""
