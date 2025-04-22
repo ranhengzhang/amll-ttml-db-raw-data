@@ -2,6 +2,21 @@
     <head>
         <metadata>
             <ttm:agent type="person" xml:id="v1" />
+            <amll:meta key="musicName" value="ソフォン" />
+            <amll:meta key="musicName" value="Sophon" />
+            <amll:meta key="musicName" value="智子" />
+            <amll:meta key="artists" value="水桥舞" />
+            <amll:meta key="artists" value="MARiA" />
+            <amll:meta key="artists" value="メイリア" />
+            <amll:meta key="artists" value="美依礼芽" />
+            <amll:meta key="album" value="《三体》音乐专辑" />
+            <amll:meta key="album" value="智子 - Single" />
+            <amll:meta key="album" value="智子" />
+            <amll:meta key="ncmMusicId" value="2656238202" />
+            <amll:meta key="qqMusicId" value="0007o2Wx1SEcwS" />
+            <amll:meta key="spotifyId" value="5lovuXWroBUPUXB42GeNCf" />
+            <amll:meta key="appleMusicId" value="1785164455" />
+            <amll:meta key="isrc" value="CNZ882400153" />
             <amll:meta key="ttmlAuthorGithub" value="68000793" />
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
         </metadata>
