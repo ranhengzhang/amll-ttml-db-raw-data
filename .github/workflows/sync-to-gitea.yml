@@ -43,4 +43,4 @@ jobs:
           MIRROR_COLLABORATOR: false
           MIRROR_ORGANIZATION: false
           MODE: 'whitelist'
-          REGEX: 'amll-ttml-db-raw-data'
+          REGEX: '.*raw-data.*'
