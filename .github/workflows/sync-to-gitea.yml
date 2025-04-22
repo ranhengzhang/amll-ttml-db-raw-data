@@ -23,7 +23,18 @@ jobs:
       #   with:
       #     source-repo: git@github.com:ranhengzhang/amll-ttml-db-raw-data.git
       #     destination-repo: git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
-      - name: Sync to Gitea
-        run: git remote add gitea git@${{ secrets.PRIVATE_HOST }}:ranhengzhang/amll-ttml-db.git
-      - name: Push to Gitea
-        run: git push gitea main
+      - uses: varunsridharan/action-gitea-mirror@main
+        name: " ⏳ Setting Up Mirror"
+        with:
+          gh_username: ranhengzhang
+          gh_accesstoken: ${{ secrets.GH_TOKEN }}
+          gitea_host: ${{ secrets.PRIVATE_HOST }}
+          gitea_username: ranhengzhang
+          gitea_accesstoken: ${{ secrets.GITEA_TOKEN }}
+          gitea_gist_prefix: ""
+          gitea_gist_surfix: ""
+          gistsSource: true
+          gistsStared: true
+          repositoryStared: true
+          repositorySource: true
+          repositoryForked: true
