@@ -14,6 +14,8 @@ jobs:
   sync-to:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Mask
         run: |
           echo "::add-mask::${{ secrets.PRIVATE_HOST }}"
