@@ -9,8 +9,8 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.1"
-script_modified = "2024-12-17"
+script_version = "0.2"
+script_modified = "2025-04-23"
 
 include("karaskel.lua")
 
@@ -69,16 +69,30 @@ function pre_process(subtitles)
                         parent_line.bg_line = line
                         parent_line.end_time =
                             math.max(parent_line.end_time, line.end_time)
-                    elseif line.style == "ts" or line.style == "roma" then
-                        parent_line.bg_line[line.style .. "_line"] = line
+                    elseif line.style == "roma" then
+                        parent_line.bg_line["roma_line"] = line
+                    elseif line.style == "ts" then
+                        local bg_line = parent_line.bg_line
+                        local ts_line = bg_line["ts_line"]
+                        ts_line.n = ts_line.n + 1
+                        ts_line[ts_line.n] = line
+                        bg_line["ts_line"] = ts_line
+                        parent_line.bg_line = bg_line
                     end
                     subs[#subs] = parent_line
                 else
                     if line.style == "orig" then
+                        line.ts_line = {n=0}
                         subs[#subs + 1] = line
-                    elseif line.style == "roma" or line.style == "ts" then
+                    elseif line.style == "roma" then
                         orig_line = table.copy(subs[#subs])
-                        orig_line[line.style .. "_line"] = line
+                        orig_line["roma_line"] = line
+                        subs[#subs] = orig_line
+                    elseif line.style == "ts" then
+                        orig_line = table.copy(subs[#subs])
+                        local ts_line = orig_line["ts_line"]
+                        ts_line.n = ts_line.n + 1
+                        ts_line[ts_line.n] = line
                         subs[#subs] = orig_line
                     end
                 end
@@ -173,9 +187,16 @@ function generate_line(line, n)
         ttml = ttml .. '<span ttm:role="x-roman">' ..
                    xml_symbol(line['roma_line'].text) .. '</span>'
     end
-    if line['ts_line'] ~= nil then
-        ttml = ttml .. '<span ttm:role="x-translation" xml:lang="zh-CN">' ..
-                   xml_symbol(line['ts_line'].text) .. '</span>'
+    if line['ts_line'].n ~= 0 then
+        for i = 1, line['ts_line'].n do
+            local ts_line = line['ts_line'][i]
+            local lang = 'zh-CN'
+            if ts_line.actor:find('x-lang') ~= nil then
+                lang = ts_line.actor:match('x%-lang%:[%w%-]*'):sub(8)
+            end
+            ttml = ttml .. '<span ttm:role="x-translation" xml:lang="'.. lang .. '">' ..
+                   xml_symbol(ts_line.text) .. '</span>'
+        end
     end
     if line['bg_line'] ~= nil then
         ttml = ttml .. generate_line(line.bg_line, -1)
