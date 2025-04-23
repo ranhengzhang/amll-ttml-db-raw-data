@@ -4,6 +4,8 @@
 
 ## ass2ttml.lua
 
+<img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/> <img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/> <img src="https://img.shields.io/badge/Lua-000080"/> <img src="https://img.shields.io/badge/TTML-1ba784"/>
+
 > [!NOTE]
 >
 > 用于在 Aegisub 应用内将 ass 字幕文件直接导出可用 ttml 文件的自动化脚本。
@@ -28,7 +30,7 @@
 
 #### 标记行类型
 
-该脚本不会区分 Dialog 行和 Comment 行，并且只会处理「样式」为 `orig` `ts` `roma` 并且「特效」为空或「karaoke」的部分
+该脚本不会区分 Dialog 行和 Comment 行，并且只会处理「样式」为 `orig` `ts` `roma` 同时「特效」为**空**或「**karaoke**」的部分
 
 ![image-20250405151712938](./img/README/image-20250405151712938.png)
 
