@@ -9,8 +9,8 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.2"
-script_modified = "2025-04-23"
+script_version = "0.3"
+script_modified = "2025-04-30"
 
 include("karaskel.lua")
 
@@ -82,7 +82,7 @@ function pre_process(subtitles)
                     subs[#subs] = parent_line
                 else
                     if line.style == "orig" then
-                        line.ts_line = {n=0}
+                        line.ts_line = {n = 0}
                         subs[#subs + 1] = line
                     elseif line.style == "roma" then
                         orig_line = table.copy(subs[#subs])
@@ -111,6 +111,9 @@ function time_to_string(time)
                          math.floor(time / 1000) % 60, time % 1000)
 end
 
+local merge_space = false
+local merge_symbol = false
+
 function generate_kara(line)
     local ttml = {}
 
@@ -118,13 +121,40 @@ function generate_kara(line)
         local syl = util.copy(line.kara[i])
         syl.text_stripped = xml_symbol(syl.text_stripped)
 
-        if syl.duration == 0 and unicode.len(syl.text_stripped:trim()) <= 1 then
-            if i == 1 and #line.kara > 2 then
-                line.kara[2].text_stripped =
-                    syl.text_stripped .. line.kara[2].text_stripped
-            else
-                table.remove(ttml)
-                table.insert(ttml, syl.text_stripped .. '</span>')
+        if syl.duration == 0 then
+            if i < #line.kara and line.kara[i + 1].duration == 0 then -- 合并连续无时长音节
+                local next_syl = line.kara[i + 1]
+                next_syl.text_stripped =
+                    syl.text_stripped .. line.kara[i + 1].text_stripped
+                line.kara[i + 1] = next_syl
+                goto continue
+            end
+            if unicode.len(syl.text_stripped:trim()) == 0 and merge_space then -- 时长为 0 的空格
+                if i == 1 and #line.kara > 2 then
+                    goto continue
+                else
+                    table.remove(ttml)
+                    table.insert(ttml, syl.text_stripped .. '</span>')
+                end
+            elseif unicode.len(syl.text_stripped:trim()) == 1 and merge_symbol then -- 时长为 0 的单个非空字符
+                if i == 1 and #line.kara > 2 then
+                    line.kara[2].text_stripped =
+                        syl.text_stripped .. line.kara[2].text_stripped
+                else
+                    table.remove(ttml)
+                    table.insert(ttml, syl.text_stripped .. '</span>')
+                end
+            else -- 时长为 0 的不合并字符
+                local start_time = time_to_string(syl.start_time +
+                                                      line.start_time)
+                local end_time = time_to_string(syl.end_time + line.start_time)
+                table.insert(ttml,
+                             string.format('<span begin="%s" end="%s">%s',
+                                           start_time, end_time,
+                                           syl.text_stripped))
+                table.insert(ttml, '</span>')
+                aegisub.debug.out(string.format('<%s,%s>%s', start_time,
+                                                end_time, syl.text_stripped))
             end
         elseif syl.text_stripped ~= '' then
             syl.text_stripped = syl.text_stripped:gsub('%s+', ' ')
@@ -147,6 +177,7 @@ function generate_kara(line)
             aegisub.debug.out(string.format('<%s,%s>%s', start_time, end_time,
                                             syl.text_stripped))
         end
+        ::continue::
     end
     aegisub.debug.out('\r\n')
 
@@ -194,8 +225,9 @@ function generate_line(line, n)
             if ts_line.actor:find('x-lang') ~= nil then
                 lang = ts_line.actor:match('x%-lang%:[%w%-]*'):sub(8)
             end
-            ttml = ttml .. '<span ttm:role="x-translation" xml:lang="'.. lang .. '">' ..
-                   xml_symbol(ts_line.text) .. '</span>'
+            ttml =
+                ttml .. '<span ttm:role="x-translation" xml:lang="' .. lang ..
+                    '">' .. xml_symbol(ts_line.text) .. '</span>'
         end
     end
     if line['bg_line'] ~= nil then
@@ -374,7 +406,8 @@ function script_main(subtitles)
             name = "ttmlAuthorGithubs",
             x = 19,
             y = 3,
-            width = 16
+            width = 16,
+            value = "打开脚本更改这里"
         }, {
             class = "label",
             label = "歌曲作者 Github 用户名",
@@ -387,7 +420,8 @@ function script_main(subtitles)
             name = "ttmlAuthorGithubLogins",
             x = 19,
             y = 4,
-            width = 16
+            width = 16,
+            value = "打开脚本更改这里"
         }, {
             class = "label",
             label = "时间偏移",
@@ -402,7 +436,38 @@ function script_main(subtitles)
             y = 5,
             width = 1,
             value = script_offset
-        }, {class = "label", label = "ms", name = "ms", x = 2, y = 5, width = 1}
+        },
+        {class = "label", label = "ms", name = "ms", x = 2, y = 5, width = 1},
+        {
+            class = "checkbox",
+            name = "space",
+            x = 19,
+            y = 5,
+            width = 1,
+            value = true
+        }, {
+            class = "label",
+            label = "合并空格",
+            name = "tag_space",
+            x = 20,
+            y = 5,
+            width = 1
+        },
+        {
+            class = "checkbox",
+            name = "symbol",
+            x = 21,
+            y = 5,
+            width = 1,
+            value = true
+        }, {
+            class = "label",
+            label = "合并单个(半/全角)标点",
+            name = "tag_symbol",
+            x = 22,
+            y = 5,
+            width = 1
+        }
     }
 
     local btn, result = aegisub.dialog.display(ui_config, {"Start", "Cancel"})
@@ -411,6 +476,8 @@ function script_main(subtitles)
 
     local options = util.deep_copy(result)
     offset = options["offset"]
+    merge_space = options["space"]
+    merge_symbol = options["symbol"]
 
     local body = generate_body(subs)
     local head = generate_head(options)
