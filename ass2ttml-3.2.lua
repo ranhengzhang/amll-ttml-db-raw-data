@@ -9,8 +9,8 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.3"
-script_modified = "2025-04-30"
+script_version = "0.4"
+script_modified = "2025-05-01"
 
 include("karaskel.lua")
 
@@ -66,6 +66,7 @@ function pre_process(subtitles)
                 if line.actor:find('x-bg') ~= nil then
                     local parent_line = table.copy(subs[#subs])
                     if line.style == "orig" then
+                        line.ts_line = {n = 0}
                         parent_line.bg_line = line
                         parent_line.end_time =
                             math.max(parent_line.end_time, line.end_time)
