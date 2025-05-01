@@ -373,9 +373,9 @@
                 <span begin="02:22.870" end="02:24.400">heart</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">在你的心中</span>
                 <span ttm:role="x-bg" begin="02:23.620" end="02:25.690">
-                    <span begin="02:23.620" end="02:24.210">(In </span>
-                    <span begin="02:24.210" end="02:24.370">your </span>
-                    <span begin="02:24.370" end="02:25.690">heart)</span>
+                    <span begin="02:23.620" end="02:24.100">(In </span>
+                    <span begin="02:24.100" end="02:24.380">your </span>
+                    <span begin="02:24.380" end="02:25.690">heart)</span>
                     <span ttm:role="x-translation" xml:lang="zh-CN">你的心中</span>
                 </span>
             </p>
