@@ -2,9 +2,7 @@
 
 为[amll-ttml-db](https://github.com/Steve-xmh/amll-ttml-db)提交AMLL歌词使用的存储库。
 
-## ass2ttml.lua
-
-<center><img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/> <img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/> <img src="https://img.shields.io/badge/Lua-000080"/> <img src="https://img.shields.io/badge/TTML-1ba784"/></center>
+## ass2ttml.lua <img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/> <img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/> <img src="https://img.shields.io/badge/Lua-000080"/> <img src="https://img.shields.io/badge/TTML-1ba784"/>
 
 > [!NOTE]
 >
