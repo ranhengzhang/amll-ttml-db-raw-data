@@ -9,8 +9,8 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.5"
-script_modified = "2025-05-01"
+script_version = "0.6"
+script_modified = "2025-05-03"
 
 include("karaskel.lua")
 
@@ -55,8 +55,9 @@ function pre_process(subtitles)
             end
         else
             if line.effect == "" or line.effect == "karaoke" then
+                line.raw = line.raw:gsub('%s+', ' ')
                 karaskel.preproc_line_text(meta, styles, line)
-                if line.style == "orig" and line.actor:find("x-mark") ~= nil then
+                if line.style == "orig" and line.actor:find("x-mark") ~= nil then -- 处理标记
                     if line.actor:find("x-bg") ~= nil then
                         add_mark(line.actor, #subs, true)
                     else
@@ -112,6 +113,7 @@ function time_to_string(time)
                          math.floor(time / 1000) % 60, time % 1000)
 end
 
+local split_space = false
 local merge_space = false
 local merge_symbol = false
 
@@ -122,6 +124,24 @@ function generate_kara(line)
         local syl = util.copy(line.kara[i])
         syl.text_stripped = xml_symbol(syl.text_stripped)
 
+        local space = nil
+        if split_space then
+            space = re.find(syl.text_stripped, "^(\\ |\\　)")
+
+            if space then
+                syl.text_stripped = re.sub(syl.text_stripped, "^(\\ |\\　)",
+                                           "")
+                local hole_time = time_to_string(syl.start_time +
+                                                     line.start_time)
+                table.insert(ttml,
+                             string.format(
+                                 '<span begin="%s" end="%s">%s</span>',
+                                 hole_time, hole_time, space[1].str))
+            end
+
+            space = re.find(syl.text_stripped, "(\\ |\\　)$")
+            syl.text_stripped = re.sub(syl.text_stripped, "(\\ |\\　)$", "")
+        end
         if syl.duration == 0 then
             if i < #line.kara and line.kara[i + 1].duration == 0 then -- 合并连续无时长音节
                 local next_syl = line.kara[i + 1]
@@ -145,6 +165,14 @@ function generate_kara(line)
                 else
                     table.remove(ttml)
                     table.insert(ttml, syl.text_stripped .. '</span>')
+                    if split_space and space then
+                        local hole_time = time_to_string(syl.end_time +
+                                                             line.start_time)
+                        table.insert(ttml,
+                                     string.format(
+                                         '<span begin="%s" end="%s">%s</span>',
+                                         hole_time, hole_time, space[1].str))
+                    end
                 end
             else -- 时长为 0 的不合并字符
                 local start_time = time_to_string(syl.start_time +
@@ -157,9 +185,16 @@ function generate_kara(line)
                 table.insert(ttml, '</span>')
                 aegisub.debug.out(string.format('<%s,%s>%s', start_time,
                                                 end_time, syl.text_stripped))
+                if split_space and space then
+                    local hole_time = time_to_string(syl.end_time +
+                                                         line.start_time)
+                    table.insert(ttml,
+                                 string.format(
+                                     '<span begin="%s" end="%s">%s</span>',
+                                     hole_time, hole_time, space[1].str))
+                end
             end
         elseif syl.text_stripped ~= '' then
-            syl.text_stripped = syl.text_stripped:gsub('%s+', ' ')
             if syl.duration == 0 and not (syl.text_stripped == ' ') then
                 syl.end_time = syl.end_time + 3
             end
@@ -178,6 +213,13 @@ function generate_kara(line)
             table.insert(ttml, '</span>')
             aegisub.debug.out(string.format('<%s,%s>%s', start_time, end_time,
                                             syl.text_stripped))
+            if split_space and space then
+                local hole_time = time_to_string(syl.end_time + line.start_time)
+                table.insert(ttml,
+                             string.format(
+                                 '<span begin="%s" end="%s">%s</span>',
+                                 hole_time, hole_time, space[1].str))
+            end
         end
         ::continue::
     end
@@ -355,11 +397,6 @@ end
 -- ! @param selected_lines: 选择的行数, Aegisub传入, table类型
 -- ! @param active_line: 当前选中的行, number类型
 function script_main(subtitles)
-    local subs = deep_copy(subtitles)
-    subs = pre_process(subs)
-
-    if #subs == 0 then aegisub.cancel() end
-
     local ui_config = {
         {
             class = "label",
@@ -463,24 +500,25 @@ function script_main(subtitles)
         },
         {class = "label", label = "ms", name = "ms", x = 2, y = 5, width = 1},
         {
-            class = "checkbox",
-            name = "space",
+            class = "label",
+            label = "空格处理方式",
+            name = "tag_space",
             x = 19,
             y = 5,
-            width = 1,
-            value = true
-        }, {
-            class = "label",
-            label = "合并空格",
-            name = "tag_space",
-            x = 20,
-            y = 5,
             width = 1
+        }, {
+            class = "dropdown",
+            name = "space",
+            x = 21,
+            y = 5,
+            width = 1,
+            items = {"不处理", "合并", "拆分"},
+            value = "拆分"
         },
         {
             class = "checkbox",
             name = "symbol",
-            x = 21,
+            x = 33,
             y = 5,
             width = 1,
             value = true
@@ -488,7 +526,7 @@ function script_main(subtitles)
             class = "label",
             label = "合并单个(半/全角)标点",
             name = "tag_symbol",
-            x = 22,
+            x = 34,
             y = 5,
             width = 1
         }
@@ -500,8 +538,14 @@ function script_main(subtitles)
 
     local options = deep_copy(result)
     offset = options["offset"]
-    merge_space = options["space"]
+    split_space = options["space"] == "拆分"
+    merge_space = options["space"] == "合并"
     merge_symbol = options["symbol"]
+
+    local subs = deep_copy(subtitles)
+    subs = pre_process(subs)
+
+    if #subs == 0 then aegisub.cancel() end
 
     local body = generate_body(subs)
     local head = generate_head(options)
