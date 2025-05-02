@@ -4,7 +4,7 @@
 
 ## ass2ttml.lua
 
-<img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/> <img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/> <img src="https://img.shields.io/badge/Lua-000080"/> <img src="https://img.shields.io/badge/TTML-1ba784"/>
+<center><img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/> <img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/> <img src="https://img.shields.io/badge/Lua-000080"/> <img src="https://img.shields.io/badge/TTML-1ba784"/></center>
 
 > [!NOTE]
 >
