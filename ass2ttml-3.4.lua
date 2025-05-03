@@ -9,7 +9,7 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.6"
+script_version = "0.7"
 script_modified = "2025-05-03"
 
 include("karaskel.lua")
@@ -126,7 +126,7 @@ function generate_kara(line)
 
         local space = nil
         if split_space then
-            space = re.find(syl.text_stripped, "^(\\ |\\　)")
+            space = re.find(syl.text_stripped, "^(\\ |\\　)(?=.)")
 
             if space then
                 syl.text_stripped = re.sub(syl.text_stripped, "^(\\ |\\　)",
@@ -139,8 +139,10 @@ function generate_kara(line)
                                  hole_time, hole_time, space[1].str))
             end
 
-            space = re.find(syl.text_stripped, "(\\ |\\　)$")
-            syl.text_stripped = re.sub(syl.text_stripped, "(\\ |\\　)$", "")
+            space = re.find(syl.text_stripped, "(?<=.)(\\ |\\　)$")
+            if space then
+                syl.text_stripped = re.sub(syl.text_stripped, "(\\ |\\　)$", "")
+            end
         end
         if syl.duration == 0 then
             if i < #line.kara and line.kara[i + 1].duration == 0 then -- 合并连续无时长音节
