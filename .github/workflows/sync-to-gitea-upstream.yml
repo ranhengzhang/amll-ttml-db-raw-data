@@ -1,0 +1,29 @@
+name: 同步 Github 到 Gitea [upstream]
+
+on:
+  # workflow_dispatch:
+  workflow_run:
+    workflows: [同步上游分支]
+    branches: [main]
+    types:
+      - completed
+concurrency:
+  group: sync
+  cancel-in-progress: true
+
+jobs:
+  sync-to:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Mask
+        run: |
+          echo "::add-mask::${{ secrets.PRIVATE_HOST }}"
+          echo "::add-mask::${{ secrets.PRIVATE_PORT }}"
+      - name: Sync to Gitea
+        run: |
+          git remote add gitea http://ranhengzhang:${{ secrets.GITEA_TOKEN }}@${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}/ranhengzhang/amll-ttml-db-raw-data.git
+          git filter-branch -- --all
+      - name: Push to Gitea
+        run: git push gitea upstream --force
