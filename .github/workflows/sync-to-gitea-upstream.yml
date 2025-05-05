@@ -4,7 +4,7 @@ on:
   # workflow_dispatch:
   workflow_run:
     workflows: [同步上游分支]
-    branches: [main]
+    branches: [upstream]
     types:
       - completed
 concurrency:
