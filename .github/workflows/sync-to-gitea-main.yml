@@ -8,7 +8,7 @@ on:
     types:
       - completed
 concurrency:
-  group: sync
+  group: upload
   cancel-in-progress: true
 
 jobs:
