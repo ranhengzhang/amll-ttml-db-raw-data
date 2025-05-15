@@ -1,10 +1,10 @@
-name: 同步 Github 到 Gitea [upstream]
+name: 同步 Github 到 Gitea [upstream-base]
 
 on:
   # workflow_dispatch:
   workflow_run:
     workflows: [同步上游分支]
-    branches: [upstream]
+    branches: [upstream-base]
     types:
       - completed
 concurrency:
@@ -26,4 +26,4 @@ jobs:
           git remote add gitea http://ranhengzhang:${{ secrets.GITEA_TOKEN }}@${{ secrets.PRIVATE_HOST }}:${{ secrets.PRIVATE_PORT }}/ranhengzhang/amll-ttml-db-raw-data.git
           git filter-branch -- --all
       - name: Push to Gitea
-        run: git push gitea upstream --force
+        run: git push gitea upstream-base --force
