@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TTML 内容显示工具</title>
+    <script>
+        function processHTML() {
+            const input = document.getElementById("inputHtml").value;
+            const parser = new DOMParser();
+            
+            // 使用XML模式解析输入内容
+            const doc = parser.parseFromString(input, "application/xml");
+            
+            // 检查解析错误
+            const parserError = doc.querySelector("parsererror");
+            if (parserError) {
+                alert("XML解析错误：" + parserError.textContent);
+                return;
+            }
+
+            // 获取tt根节点（带命名空间）
+            const tt = doc.documentElement;
+            if (!tt || tt.nodeName.toLowerCase() !== "tt") {
+                alert("根节点tt未找到");
+                return;
+            }
+
+            // 定义TTML和ttm命名空间
+            const NS_TTM = "http://www.w3.org/ns/ttml#metadata"; // ttm命名空间
+
+            // 提取带命名空间的head和body
+            const newHead = tt.getElementsByTagName("head")[0];
+            const newBody = tt.getElementsByTagName("body")[0];
+            
+            if (!newHead || !newBody) {
+                alert("输入的TTML必须包含head和body");
+                return;
+            }
+
+            // 处理所有p元素中的span
+            const pElements = newBody.getElementsByTagName("p");
+            Array.from(pElements).forEach(p => {
+                const spans = p.getElementsByTagName("span");
+                
+                // 收集需要移动的span
+                Array.from(spans).forEach(span => {
+                    const role = span.getAttributeNS(NS_TTM, "role");
+                    if (role === "x-bg") {
+                        // 移动span到p末尾
+                        p.removeChild(span);
+                        p.appendChild(span);
+                    }
+                });
+            });
+            
+            // 清空当前内容并插入处理后的newBody内容
+            const serializer = new XMLSerializer();
+            let newBodyContent = '';
+            for (const child of newBody.childNodes) {
+                newBodyContent += serializer.serializeToString(child);
+            }
+            document.body.innerHTML = newBodyContent;
+
+            // 克隆并导入新head内容
+            Array.from(newHead.children).forEach(node => {
+                const imported = document.importNode(node, true);
+                document.head.appendChild(imported);
+            });
+        }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 10vh;
+            font-family: 'Manrope', 'vivo Sans';
+            font-weight: 450;
+            scrollbar-width: none;
+        }
+        html:has(div[xmlns])::before {
+            content: '下 ↓ 滑';
+            color: #fff;
+            position: absolute;
+            top: 40vw;
+            width: 100%;
+            text-align: center;
+        }
+        html:has(div[xmlns]) {
+            /* background-image: linear-gradient(180deg, #fff 75vw, #000 95vw); */
+            background-color: #000;
+            padding-top: calc(100vw + 10vh);
+        }
+        body > div {
+            padding: 8vh 8vw;
+        }
+        textarea, button {
+            font-size: 20px;
+        }
+        p:first-child {
+            border-radius: 8vh 8vh 4vh 4vh;
+        }
+        p:last-child {
+            border-radius: 4vh 4vh 8vh 8vh;
+        }
+        p {
+            margin: 8vh 0;
+            padding: 4vh;
+            background-color: #fff;
+            color: #000000cc;
+            border-radius: 4vh;
+        }
+        div:has(p[ttm\:agent^="v1"]) p[ttm\:agent="v1"] {
+            padding-right: 16vh;
+        }
+        div:has(p[ttm\:agent^="v1"]) p:not([ttm\:agent="v1"]) {
+            padding-left: 16vh;
+            text-align: right;
+        }
+        span[ttm\:role] {
+            display: block;
+            font-size: .65em;
+        }
+        span[ttm\:role="x-bg"] > span:not([ttm\:role]) {
+            font-size: .8em;
+        }
+        span[ttm\:role="x-bg"] > span[ttm\:role] {
+            font-size: .55em;
+        }
+        p:has(span[ttm\:role="x-roman"]) span:not([ttm\:role]) {
+            font-family: 'Manrope', 'M PLUS 2';
+        }
+        span[ttm\:role="x-translation"] {
+            font-family: 'Comfortaa Medium', 'HarmonyOS Sans SC';
+        }
+        span[ttm\:role="x-translation"][xml\:lang="ja-JP"] {
+            font-family: 'Comfortaa Medium', 'Zen Maru Gothic';
+        }
+        span[ttm\:role="x-roman"] {
+            font-family: 'Raleway-v4020', 'vivo Sans';
+        }
+    </style>
+</head>
+<body>
+    <textarea id="inputHtml" rows="15" cols="50" placeholder="请输入TTML"></textarea>
+    <br>
+    <button onclick="processHTML()">合并内容</button>
+</body>
+</html>
