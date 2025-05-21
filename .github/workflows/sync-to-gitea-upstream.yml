@@ -4,7 +4,6 @@ on:
   # workflow_dispatch:
   workflow_run:
     workflows: [同步上游分支]
-    branches: [upstream-base]
     types:
       - completed
 concurrency:
@@ -17,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: 'upstream-base'
       - name: Mask
         run: |
           echo "::add-mask::${{ secrets.PRIVATE_HOST }}"
