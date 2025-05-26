@@ -1,33 +1,37 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata"
-    xmlns:amll="http://www.example.com/ns/amll"
-    xmlns:itunes="http://music.apple.com/lyric-ttml-internal">
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal">
     <head>
         <metadata>
-            <ttm:agent type="person" xml:id="v1"/>
-            <amll:meta key="ncmMusicId" value="2063192649"/>
-            <amll:meta key="spotifyId" value="4Noa6zmCx7fu3MdAXSnArx"/>
-            <amll:meta key="isrc" value="HKG732488930"/>
-            <amll:meta key="musicName" value="逃往虚拟"/>
-            <amll:meta key="artists" value="Evra"/>
-            <amll:meta key="album" value="逃往虚拟"/>
-            <amll:meta key="ttmlAuthorGithub" value="68000793"/>
+            <ttm:agent type="person" xml:id="v1" />
+            <amll:meta key="ncmMusicId" value="2063192649" />
+            <amll:meta key="spotifyId" value="4Noa6zmCx7fu3MdAXSnArx" />
+            <amll:meta key="isrc" value="HKG732488930" />
+            <amll:meta key="musicName" value="逃往虚拟" />
+            <amll:meta key="artists" value="Evra" />
+            <amll:meta key="album" value="逃往虚拟" />
+            <amll:meta key="ttmlAuthorGithub" value="68000793" />
         </metadata>
     </head>
     <body dur="02:54.640">
         <div begin="00:17.940" end="02:54.640">
             <p begin="00:17.940" end="00:18.800" ttm:agent="v1" itunes:key="L1">
                 <span begin="00:17.940" end="00:18.270">La</span>
-                <span begin="00:18.270" end="00:18.410">te </span>
-                <span begin="00:18.410" end="00:18.510">at </span>
+                <span begin="00:18.270" end="00:18.410">te</span>
+                <span begin="00:18.410" end="00:18.410"> </span>
+                <span begin="00:18.410" end="00:18.510">at</span>
+                <span begin="00:18.510" end="00:18.510"> </span>
                 <span begin="00:18.510" end="00:18.800">night</span>
             </p>
             <p begin="00:18.800" end="00:19.880" ttm:agent="v1" itunes:key="L2">
                 <span begin="00:18.800" end="00:18.960">In</span>
                 <span begin="00:18.960" end="00:19.090">va</span>
-                <span begin="00:19.090" end="00:19.220">ding </span>
-                <span begin="00:19.220" end="00:19.430">your </span>
+                <span begin="00:19.090" end="00:19.220">ding</span>
+                <span begin="00:19.220" end="00:19.220"> </span>
+                <span begin="00:19.220" end="00:19.430">your</span>
+                <span begin="00:19.430" end="00:19.430"> </span>
                 <span begin="00:19.430" end="00:19.790">li</span>
                 <span begin="00:19.790" end="00:19.880">fe</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">深夜时分</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">侵入你的生活</span>
             </p>
             <p begin="00:19.880" end="00:22.330" ttm:agent="v1" itunes:key="L3">
                 <span begin="00:19.880" end="00:20.020">霓</span>
@@ -44,17 +48,23 @@
                 <span begin="00:21.980" end="00:22.330">待</span>
             </p>
             <p begin="00:22.330" end="00:23.110" ttm:agent="v1" itunes:key="L4">
-                <span begin="00:22.330" end="00:22.550">Be </span>
-                <span begin="00:22.550" end="00:22.800">your </span>
+                <span begin="00:22.330" end="00:22.550">Be</span>
+                <span begin="00:22.550" end="00:22.550"> </span>
+                <span begin="00:22.550" end="00:22.800">your</span>
+                <span begin="00:22.800" end="00:22.800"> </span>
                 <span begin="00:22.800" end="00:23.110">knight</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">成为你的骑士</span>
             </p>
             <p begin="00:23.110" end="00:24.220" ttm:agent="v1" itunes:key="L5">
                 <span begin="00:23.110" end="00:23.210">Pu</span>
-                <span begin="00:23.210" end="00:23.330">ppy </span>
-                <span begin="00:23.330" end="00:23.540">free </span>
+                <span begin="00:23.210" end="00:23.330">ppy</span>
+                <span begin="00:23.330" end="00:23.330"> </span>
+                <span begin="00:23.330" end="00:23.540">free</span>
+                <span begin="00:23.540" end="00:23.540"> </span>
                 <span begin="00:23.540" end="00:23.680">to</span>
                 <span begin="00:23.680" end="00:23.820"> </span>
                 <span begin="00:23.820" end="00:24.220">bite</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">小狗般肆意啃咬</span>
             </p>
             <p begin="00:24.250" end="00:26.620" ttm:agent="v1" itunes:key="L6">
                 <span begin="00:24.250" end="00:24.380">别</span>
@@ -73,13 +83,18 @@
                 <span begin="00:26.950" end="00:27.160">your</span>
                 <span begin="00:27.160" end="00:27.250"> </span>
                 <span begin="00:27.250" end="00:27.460">eyes</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">捕捉你的视线</span>
             </p>
             <p begin="00:27.460" end="00:28.560" ttm:agent="v1" itunes:key="L8">
                 <span begin="00:27.460" end="00:27.630">Wan</span>
-                <span begin="00:27.630" end="00:27.700">na </span>
-                <span begin="00:27.700" end="00:27.890">hear </span>
-                <span begin="00:27.890" end="00:28.050">your </span>
+                <span begin="00:27.630" end="00:27.700">na</span>
+                <span begin="00:27.700" end="00:27.700"> </span>
+                <span begin="00:27.700" end="00:27.890">hear</span>
+                <span begin="00:27.890" end="00:27.890"> </span>
+                <span begin="00:27.890" end="00:28.050">your</span>
+                <span begin="00:28.050" end="00:28.050"> </span>
                 <span begin="00:28.050" end="00:28.560">sigh</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">渴望听见叹息</span>
             </p>
             <p begin="00:28.610" end="00:30.890" ttm:agent="v1" itunes:key="L9">
                 <span begin="00:28.610" end="00:28.730">纽</span>
@@ -97,16 +112,22 @@
             </p>
             <p begin="00:30.890" end="00:31.840" ttm:agent="v1" itunes:key="L10">
                 <span begin="00:30.890" end="00:31.060">Be</span>
-                <span begin="00:31.060" end="00:31.250">fore </span>
-                <span begin="00:31.250" end="00:31.580">we </span>
+                <span begin="00:31.060" end="00:31.250">fore</span>
+                <span begin="00:31.250" end="00:31.250"> </span>
+                <span begin="00:31.250" end="00:31.580">we</span>
+                <span begin="00:31.580" end="00:31.580"> </span>
                 <span begin="00:31.580" end="00:31.840">die</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">在生命终结前</span>
             </p>
             <p begin="00:31.840" end="00:32.810" ttm:agent="v1" itunes:key="L11">
                 <span begin="00:31.840" end="00:31.970">Lin</span>
                 <span begin="00:31.970" end="00:32.050">ge</span>
-                <span begin="00:32.050" end="00:32.260">ring </span>
-                <span begin="00:32.260" end="00:32.440">all </span>
+                <span begin="00:32.050" end="00:32.260">ring</span>
+                <span begin="00:32.260" end="00:32.260"> </span>
+                <span begin="00:32.260" end="00:32.440">all</span>
+                <span begin="00:32.440" end="00:32.440"> </span>
                 <span begin="00:32.440" end="00:32.810">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">整夜缠绵</span>
             </p>
             <p begin="00:32.930" end="00:34.910" ttm:agent="v1" itunes:key="L12">
                 <span begin="00:32.930" end="00:33.090">禁</span>
@@ -269,16 +290,22 @@
             </p>
             <p begin="01:10.300" end="01:11.170" ttm:agent="v1" itunes:key="L26">
                 <span begin="01:10.300" end="01:10.630">La</span>
-                <span begin="01:10.630" end="01:10.770">te </span>
-                <span begin="01:10.770" end="01:10.870">at </span>
+                <span begin="01:10.630" end="01:10.770">te</span>
+                <span begin="01:10.770" end="01:10.770"> </span>
+                <span begin="01:10.770" end="01:10.870">at</span>
+                <span begin="01:10.870" end="01:10.870"> </span>
                 <span begin="01:10.870" end="01:11.170">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">深夜时分</span>
             </p>
             <p begin="01:11.170" end="01:12.210" ttm:agent="v1" itunes:key="L27">
                 <span begin="01:11.170" end="01:11.250">In</span>
                 <span begin="01:11.250" end="01:11.440">va</span>
-                <span begin="01:11.440" end="01:11.580">ding </span>
-                <span begin="01:11.580" end="01:11.790">your </span>
+                <span begin="01:11.440" end="01:11.580">ding</span>
+                <span begin="01:11.580" end="01:11.580"> </span>
+                <span begin="01:11.580" end="01:11.790">your</span>
+                <span begin="01:11.790" end="01:11.790"> </span>
                 <span begin="01:11.790" end="01:12.210">life</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">侵入你的生活</span>
             </p>
             <p begin="01:12.260" end="01:14.700" ttm:agent="v1" itunes:key="L28">
                 <span begin="01:12.260" end="01:12.390">霓</span>
@@ -295,17 +322,23 @@
                 <span begin="01:14.340" end="01:14.700">待</span>
             </p>
             <p begin="01:14.700" end="01:15.470" ttm:agent="v1" itunes:key="L29">
-                <span begin="01:14.700" end="01:14.920">Be </span>
-                <span begin="01:14.920" end="01:15.170">your </span>
+                <span begin="01:14.700" end="01:14.920">Be</span>
+                <span begin="01:14.920" end="01:14.920"> </span>
+                <span begin="01:14.920" end="01:15.170">your</span>
+                <span begin="01:15.170" end="01:15.170"> </span>
                 <span begin="01:15.170" end="01:15.470">knight</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">成为你的骑士</span>
             </p>
             <p begin="01:15.500" end="01:16.470" ttm:agent="v1" itunes:key="L30">
                 <span begin="01:15.500" end="01:15.560">Pu</span>
-                <span begin="01:15.560" end="01:15.680">ppy </span>
-                <span begin="01:15.680" end="01:15.910">free </span>
+                <span begin="01:15.560" end="01:15.680">ppy</span>
+                <span begin="01:15.680" end="01:15.680"> </span>
+                <span begin="01:15.680" end="01:15.910">free</span>
+                <span begin="01:15.910" end="01:15.910"> </span>
                 <span begin="01:15.910" end="01:16.040">to</span>
                 <span begin="01:16.040" end="01:16.180"> </span>
                 <span begin="01:16.180" end="01:16.470">bite</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">小狗般肆意啃咬</span>
             </p>
             <p begin="01:16.620" end="01:18.970" ttm:agent="v1" itunes:key="L31">
                 <span begin="01:16.620" end="01:16.740">别</span>
@@ -319,24 +352,31 @@
                 <span begin="01:18.460" end="01:18.970">海</span>
             </p>
             <p begin="01:18.970" end="01:19.830" ttm:agent="v1" itunes:key="L32">
-                <span begin="01:18.970" end="01:19.300">Trap </span>
+                <span begin="01:18.970" end="01:19.300">Trap</span>
+                <span begin="01:19.300" end="01:19.300"> </span>
                 <span begin="01:19.300" end="01:19.530">your</span>
                 <span begin="01:19.530" end="01:19.620"> </span>
                 <span begin="01:19.620" end="01:19.830">eyes</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">捕捉你的视线</span>
             </p>
             <p begin="01:19.830" end="01:20.910" ttm:agent="v1" itunes:key="L33">
                 <span begin="01:19.830" end="01:19.960">Wan</span>
-                <span begin="01:19.960" end="01:20.050">na </span>
-                <span begin="01:20.050" end="01:20.250">hear </span>
-                <span begin="01:20.250" end="01:20.410">your </span>
+                <span begin="01:19.960" end="01:20.050">na</span>
+                <span begin="01:20.050" end="01:20.050"> </span>
+                <span begin="01:20.050" end="01:20.250">hear</span>
+                <span begin="01:20.250" end="01:20.250"> </span>
+                <span begin="01:20.250" end="01:20.410">your</span>
+                <span begin="01:20.410" end="01:20.410"> </span>
                 <span begin="01:20.410" end="01:20.910">sigh</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">渴望听见叹息</span>
             </p>
             <p begin="01:20.970" end="01:23.260" ttm:agent="v1" itunes:key="L34">
                 <span begin="01:20.970" end="01:21.090">纽</span>
                 <span begin="01:21.090" end="01:21.240">扣</span>
                 <span begin="01:21.240" end="01:21.490">已</span>
                 <span begin="01:21.490" end="01:21.750">解</span>
-                <span begin="01:21.750" end="01:21.980">开 </span>
+                <span begin="01:21.750" end="01:21.980">开</span>
+                <span begin="01:21.980" end="01:21.980"> </span>
                 <span begin="01:21.980" end="01:22.210">心</span>
                 <span begin="01:22.210" end="01:22.290">跳</span>
                 <span begin="01:22.290" end="01:22.500">速</span>
@@ -346,16 +386,22 @@
             </p>
             <p begin="01:23.260" end="01:24.150" ttm:agent="v1" itunes:key="L35">
                 <span begin="01:23.260" end="01:23.430">Be</span>
-                <span begin="01:23.430" end="01:23.650">fore </span>
-                <span begin="01:23.650" end="01:23.950">we </span>
+                <span begin="01:23.430" end="01:23.650">fore</span>
+                <span begin="01:23.650" end="01:23.650"> </span>
+                <span begin="01:23.650" end="01:23.950">we</span>
+                <span begin="01:23.950" end="01:23.950"> </span>
                 <span begin="01:23.950" end="01:24.150">die</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">在生命终结前</span>
             </p>
             <p begin="01:24.150" end="01:25.300" ttm:agent="v1" itunes:key="L36">
                 <span begin="01:24.150" end="01:24.280">Lin</span>
                 <span begin="01:24.280" end="01:24.440">ge</span>
-                <span begin="01:24.440" end="01:24.620">ring </span>
-                <span begin="01:24.620" end="01:24.790">all </span>
+                <span begin="01:24.440" end="01:24.620">ring</span>
+                <span begin="01:24.620" end="01:24.620"> </span>
+                <span begin="01:24.620" end="01:24.790">all</span>
+                <span begin="01:24.790" end="01:24.790"> </span>
                 <span begin="01:24.790" end="01:25.300">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">整夜缠绵</span>
             </p>
             <p begin="01:25.300" end="01:27.390" ttm:agent="v1" itunes:key="L37">
                 <span begin="01:25.300" end="01:25.450">禁</span>
@@ -520,24 +566,31 @@
             </p>
             <p begin="02:20.110" end="02:21.000" ttm:agent="v1" itunes:key="L51">
                 <span begin="02:20.110" end="02:20.460">La</span>
-                <span begin="02:20.460" end="02:20.590">te </span>
-                <span begin="02:20.590" end="02:20.690">at </span>
+                <span begin="02:20.460" end="02:20.590">te</span>
+                <span begin="02:20.590" end="02:20.590"> </span>
+                <span begin="02:20.590" end="02:20.690">at</span>
+                <span begin="02:20.690" end="02:20.690"> </span>
                 <span begin="02:20.690" end="02:21.000">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">深夜时分</span>
             </p>
             <p begin="02:21.000" end="02:22.000" ttm:agent="v1" itunes:key="L52">
                 <span begin="02:21.000" end="02:21.090">In</span>
                 <span begin="02:21.090" end="02:21.270">va</span>
-                <span begin="02:21.270" end="02:21.400">ding </span>
-                <span begin="02:21.400" end="02:21.590">your </span>
+                <span begin="02:21.270" end="02:21.400">ding</span>
+                <span begin="02:21.400" end="02:21.400"> </span>
+                <span begin="02:21.400" end="02:21.590">your</span>
+                <span begin="02:21.590" end="02:21.590"> </span>
                 <span begin="02:21.590" end="02:21.940">li</span>
                 <span begin="02:21.940" end="02:22.000">fe</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">侵入你的生活</span>
             </p>
             <p begin="02:22.030" end="02:24.510" ttm:agent="v1" itunes:key="L53">
                 <span begin="02:22.030" end="02:22.180">霓</span>
                 <span begin="02:22.180" end="02:22.350">虹</span>
                 <span begin="02:22.350" end="02:22.580">灯</span>
                 <span begin="02:22.580" end="02:22.850">出</span>
-                <span begin="02:22.850" end="02:23.160">卖 </span>
+                <span begin="02:22.850" end="02:23.160">卖</span>
+                <span begin="02:23.160" end="02:23.160"> </span>
                 <span begin="02:23.160" end="02:23.290">你</span>
                 <span begin="02:23.290" end="02:23.370">脸</span>
                 <span begin="02:23.370" end="02:23.620">上</span>
@@ -546,17 +599,23 @@
                 <span begin="02:24.050" end="02:24.510">待</span>
             </p>
             <p begin="02:24.510" end="02:25.300" ttm:agent="v1" itunes:key="L54">
-                <span begin="02:24.510" end="02:24.790">Be </span>
-                <span begin="02:24.790" end="02:25.000">your </span>
+                <span begin="02:24.510" end="02:24.790">Be</span>
+                <span begin="02:24.790" end="02:24.790"> </span>
+                <span begin="02:24.790" end="02:25.000">your</span>
+                <span begin="02:25.000" end="02:25.000"> </span>
                 <span begin="02:25.000" end="02:25.300">knight</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">成为你的骑士</span>
             </p>
             <p begin="02:25.300" end="02:26.320" ttm:agent="v1" itunes:key="L55">
                 <span begin="02:25.300" end="02:25.390">Pu</span>
-                <span begin="02:25.390" end="02:25.530">ppy </span>
-                <span begin="02:25.530" end="02:25.720">free </span>
+                <span begin="02:25.390" end="02:25.530">ppy</span>
+                <span begin="02:25.530" end="02:25.530"> </span>
+                <span begin="02:25.530" end="02:25.720">free</span>
+                <span begin="02:25.720" end="02:25.720"> </span>
                 <span begin="02:25.720" end="02:25.880">to</span>
                 <span begin="02:25.880" end="02:26.040"> </span>
                 <span begin="02:26.040" end="02:26.320">bite</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">小狗般肆意啃咬</span>
             </p>
             <p begin="02:26.440" end="02:28.790" ttm:agent="v1" itunes:key="L56">
                 <span begin="02:26.440" end="02:26.550">别</span>
@@ -570,17 +629,23 @@
                 <span begin="02:28.260" end="02:28.790">海</span>
             </p>
             <p begin="02:28.790" end="02:29.630" ttm:agent="v1" itunes:key="L57">
-                <span begin="02:28.790" end="02:29.120">Trap </span>
+                <span begin="02:28.790" end="02:29.120">Trap</span>
+                <span begin="02:29.120" end="02:29.120"> </span>
                 <span begin="02:29.120" end="02:29.350">your</span>
                 <span begin="02:29.350" end="02:29.430"> </span>
                 <span begin="02:29.430" end="02:29.630">eyes</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">捕捉你的视线</span>
             </p>
             <p begin="02:29.630" end="02:30.740" ttm:agent="v1" itunes:key="L58">
                 <span begin="02:29.630" end="02:29.780">Wan</span>
-                <span begin="02:29.780" end="02:29.890">na </span>
-                <span begin="02:29.890" end="02:30.100">hear </span>
-                <span begin="02:30.100" end="02:30.230">your </span>
+                <span begin="02:29.780" end="02:29.890">na</span>
+                <span begin="02:29.890" end="02:29.890"> </span>
+                <span begin="02:29.890" end="02:30.100">hear</span>
+                <span begin="02:30.100" end="02:30.100"> </span>
+                <span begin="02:30.100" end="02:30.230">your</span>
+                <span begin="02:30.230" end="02:30.230"> </span>
                 <span begin="02:30.230" end="02:30.740">sigh</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">渴望听见叹息</span>
             </p>
             <p begin="02:30.810" end="02:33.140" ttm:agent="v1" itunes:key="L59">
                 <span begin="02:30.810" end="02:30.950">纽</span>
@@ -598,16 +663,22 @@
             </p>
             <p begin="02:33.140" end="02:34.050" ttm:agent="v1" itunes:key="L60">
                 <span begin="02:33.140" end="02:33.220">Be</span>
-                <span begin="02:33.220" end="02:33.500">fore </span>
-                <span begin="02:33.500" end="02:33.780">we </span>
+                <span begin="02:33.220" end="02:33.500">fore</span>
+                <span begin="02:33.500" end="02:33.500"> </span>
+                <span begin="02:33.500" end="02:33.780">we</span>
+                <span begin="02:33.780" end="02:33.780"> </span>
                 <span begin="02:33.780" end="02:34.050">die</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">在生命终结前</span>
             </p>
             <p begin="02:34.050" end="02:35.130" ttm:agent="v1" itunes:key="L61">
                 <span begin="02:34.050" end="02:34.120">Lin</span>
                 <span begin="02:34.120" end="02:34.250">ge</span>
-                <span begin="02:34.250" end="02:34.450">ring </span>
-                <span begin="02:34.450" end="02:34.700">all </span>
+                <span begin="02:34.250" end="02:34.450">ring</span>
+                <span begin="02:34.450" end="02:34.450"> </span>
+                <span begin="02:34.450" end="02:34.700">all</span>
+                <span begin="02:34.700" end="02:34.700"> </span>
                 <span begin="02:34.700" end="02:35.130">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">整夜缠绵</span>
             </p>
             <p begin="02:35.130" end="02:37.240" ttm:agent="v1" itunes:key="L62">
                 <span begin="02:35.130" end="02:35.320">禁</span>
@@ -620,24 +691,31 @@
             </p>
             <p begin="02:37.570" end="02:38.460" ttm:agent="v1" itunes:key="L63">
                 <span begin="02:37.570" end="02:37.910">La</span>
-                <span begin="02:37.910" end="02:38.050">te </span>
-                <span begin="02:38.050" end="02:38.150">at </span>
+                <span begin="02:37.910" end="02:38.050">te</span>
+                <span begin="02:38.050" end="02:38.050"> </span>
+                <span begin="02:38.050" end="02:38.150">at</span>
+                <span begin="02:38.150" end="02:38.150"> </span>
                 <span begin="02:38.150" end="02:38.460">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">深夜时分</span>
             </p>
             <p begin="02:38.460" end="02:39.460" ttm:agent="v1" itunes:key="L64">
                 <span begin="02:38.460" end="02:38.570">In</span>
                 <span begin="02:38.570" end="02:38.720">va</span>
-                <span begin="02:38.720" end="02:38.870">ding </span>
-                <span begin="02:38.870" end="02:39.050">your </span>
+                <span begin="02:38.720" end="02:38.870">ding</span>
+                <span begin="02:38.870" end="02:38.870"> </span>
+                <span begin="02:38.870" end="02:39.050">your</span>
+                <span begin="02:39.050" end="02:39.050"> </span>
                 <span begin="02:39.050" end="02:39.410">li</span>
                 <span begin="02:39.410" end="02:39.460">fe</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">侵入你的生活</span>
             </p>
             <p begin="02:39.490" end="02:41.970" ttm:agent="v1" itunes:key="L65">
                 <span begin="02:39.490" end="02:39.630">霓</span>
                 <span begin="02:39.630" end="02:39.800">虹</span>
                 <span begin="02:39.800" end="02:40.030">灯</span>
                 <span begin="02:40.030" end="02:40.320">出</span>
-                <span begin="02:40.320" end="02:40.580">卖 </span>
+                <span begin="02:40.320" end="02:40.580">卖</span>
+                <span begin="02:40.580" end="02:40.580"> </span>
                 <span begin="02:40.580" end="02:40.720">你</span>
                 <span begin="02:40.720" end="02:40.830">脸</span>
                 <span begin="02:40.830" end="02:41.080">上</span>
@@ -646,17 +724,23 @@
                 <span begin="02:41.600" end="02:41.970">待</span>
             </p>
             <p begin="02:41.970" end="02:42.760" ttm:agent="v1" itunes:key="L66">
-                <span begin="02:41.970" end="02:42.230">Be </span>
-                <span begin="02:42.230" end="02:42.450">your </span>
+                <span begin="02:41.970" end="02:42.230">Be</span>
+                <span begin="02:42.230" end="02:42.230"> </span>
+                <span begin="02:42.230" end="02:42.450">your</span>
+                <span begin="02:42.450" end="02:42.450"> </span>
                 <span begin="02:42.450" end="02:42.760">knight</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">成为你的骑士</span>
             </p>
             <p begin="02:42.760" end="02:43.820" ttm:agent="v1" itunes:key="L67">
                 <span begin="02:42.760" end="02:42.860">Pu</span>
-                <span begin="02:42.860" end="02:42.990">ppy </span>
-                <span begin="02:42.990" end="02:43.190">free </span>
+                <span begin="02:42.860" end="02:42.990">ppy</span>
+                <span begin="02:42.990" end="02:42.990"> </span>
+                <span begin="02:42.990" end="02:43.190">free</span>
+                <span begin="02:43.190" end="02:43.190"> </span>
                 <span begin="02:43.190" end="02:43.390">to</span>
                 <span begin="02:43.390" end="02:43.500"> </span>
                 <span begin="02:43.500" end="02:43.820">bite</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">小狗般肆意啃咬</span>
             </p>
             <p begin="02:43.890" end="02:46.240" ttm:agent="v1" itunes:key="L68">
                 <span begin="02:43.890" end="02:43.990">别</span>
@@ -670,24 +754,31 @@
                 <span begin="02:45.720" end="02:46.240">海</span>
             </p>
             <p begin="02:46.240" end="02:47.100" ttm:agent="v1" itunes:key="L69">
-                <span begin="02:46.240" end="02:46.580">Trap </span>
+                <span begin="02:46.240" end="02:46.580">Trap</span>
+                <span begin="02:46.580" end="02:46.580"> </span>
                 <span begin="02:46.580" end="02:46.790">your</span>
                 <span begin="02:46.790" end="02:46.900"> </span>
                 <span begin="02:46.900" end="02:47.100">eyes</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">捕捉你的视线</span>
             </p>
             <p begin="02:47.100" end="02:48.190" ttm:agent="v1" itunes:key="L70">
                 <span begin="02:47.100" end="02:47.260">Wan</span>
-                <span begin="02:47.260" end="02:47.340">na </span>
-                <span begin="02:47.340" end="02:47.550">hear </span>
-                <span begin="02:47.550" end="02:47.680">your </span>
+                <span begin="02:47.260" end="02:47.340">na</span>
+                <span begin="02:47.340" end="02:47.340"> </span>
+                <span begin="02:47.340" end="02:47.550">hear</span>
+                <span begin="02:47.550" end="02:47.550"> </span>
+                <span begin="02:47.550" end="02:47.680">your</span>
+                <span begin="02:47.680" end="02:47.680"> </span>
                 <span begin="02:47.680" end="02:48.190">sigh</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">渴望听见叹息</span>
             </p>
             <p begin="02:48.260" end="02:50.620" ttm:agent="v1" itunes:key="L71">
                 <span begin="02:48.260" end="02:48.400">纽</span>
                 <span begin="02:48.400" end="02:48.530">扣</span>
                 <span begin="02:48.530" end="02:48.780">已</span>
                 <span begin="02:48.780" end="02:49.060">解</span>
-                <span begin="02:49.060" end="02:49.210">开 </span>
+                <span begin="02:49.060" end="02:49.210">开</span>
+                <span begin="02:49.210" end="02:49.210"> </span>
                 <span begin="02:49.210" end="02:49.500">心</span>
                 <span begin="02:49.500" end="02:49.570">跳</span>
                 <span begin="02:49.570" end="02:49.760">速</span>
@@ -697,16 +788,22 @@
             </p>
             <p begin="02:50.620" end="02:51.490" ttm:agent="v1" itunes:key="L72">
                 <span begin="02:50.620" end="02:50.660">Be</span>
-                <span begin="02:50.660" end="02:50.940">fore </span>
-                <span begin="02:50.940" end="02:51.220">we </span>
+                <span begin="02:50.660" end="02:50.940">fore</span>
+                <span begin="02:50.940" end="02:50.940"> </span>
+                <span begin="02:50.940" end="02:51.220">we</span>
+                <span begin="02:51.220" end="02:51.220"> </span>
                 <span begin="02:51.220" end="02:51.490">die</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">在生命终结前</span>
             </p>
             <p begin="02:51.490" end="02:52.580" ttm:agent="v1" itunes:key="L73">
                 <span begin="02:51.490" end="02:51.600">Lin</span>
                 <span begin="02:51.600" end="02:51.710">ge</span>
-                <span begin="02:51.710" end="02:51.950">ring </span>
-                <span begin="02:51.950" end="02:52.150">all </span>
+                <span begin="02:51.710" end="02:51.950">ring</span>
+                <span begin="02:51.950" end="02:51.950"> </span>
+                <span begin="02:51.950" end="02:52.150">all</span>
+                <span begin="02:52.150" end="02:52.150"> </span>
                 <span begin="02:52.150" end="02:52.580">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">整夜缠绵</span>
             </p>
             <p begin="02:52.580" end="02:54.640" ttm:agent="v1" itunes:key="L74">
                 <span begin="02:52.580" end="02:52.750">禁</span>
