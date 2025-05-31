@@ -20,8 +20,8 @@ Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H0000000
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:17.94,0:00:18.80,orig,,0,0,0,,{\kf33}La{\kf14}te {\kf10}at {\kf29}night
-Dialogue: 0,0:00:18.80,0:00:19.88,orig,,0,0,0,,{\kf16}In{\kf13}va{\kf13}ding {\kf21}your {\kf36}li{\kf9}fe
 Dialogue: 0,0:00:17.94,0:00:18.80,ts,,0,0,0,,深夜时分
+Dialogue: 0,0:00:18.80,0:00:19.88,orig,,0,0,0,,{\kf16}In{\kf13}va{\kf13}ding {\kf21}your {\kf36}li{\kf9}fe
 Dialogue: 0,0:00:18.80,0:00:19.88,ts,,0,0,0,,侵入你的生活
 Dialogue: 0,0:00:19.88,0:00:22.33,orig,,0,0,0,,{\kf14}霓{\kf13}虹{\kf24}灯{\kf29}出{\kf22}卖{\kf8} {\kf14}你{\kf10}脸{\kf25}上{\kf12}的{\kf34}期{\kf5}{\kf35}待
 Dialogue: 0,0:00:22.33,0:00:23.11,orig,,0,0,0,,{\kf22}Be {\kf25}your {\kf31}knight
