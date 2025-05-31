@@ -20,6 +20,7 @@
                 <span begin="00:18.410" end="00:18.510">at</span>
                 <span begin="00:18.510" end="00:18.510"> </span>
                 <span begin="00:18.510" end="00:18.800">night</span>
+                <span ttm:role="x-translation" xml:lang="zh-CN">深夜时分</span>
             </p>
             <p begin="00:18.800" end="00:19.880" ttm:agent="v1" itunes:key="L2">
                 <span begin="00:18.800" end="00:18.960">In</span>
@@ -30,7 +31,6 @@
                 <span begin="00:19.430" end="00:19.430"> </span>
                 <span begin="00:19.430" end="00:19.790">li</span>
                 <span begin="00:19.790" end="00:19.880">fe</span>
-                <span ttm:role="x-translation" xml:lang="zh-CN">深夜时分</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">侵入你的生活</span>
             </p>
             <p begin="00:19.880" end="00:22.330" ttm:agent="v1" itunes:key="L3">
