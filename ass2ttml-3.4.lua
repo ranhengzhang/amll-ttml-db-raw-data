@@ -1,7 +1,6 @@
 clipboard = require 'aegisub.clipboard'
 util = require 'aegisub.util'
 re = require 'aegisub.re'
--- xmlSimple = require 'xmlSimple'
 
 local tr = aegisub.gettext
 
@@ -9,12 +8,10 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.7"
-script_modified = "2025-05-03"
+script_version = "0.8"
+script_modified = "2025-06-03"
 
 include("karaskel.lua")
-
--- local xml = xmlSimple.newParser()
 
 local anti = false
 
@@ -116,6 +113,7 @@ end
 local split_space = false
 local merge_space = false
 local merge_symbol = false
+local pre_symbols = "([<（【〔［｛〈《｢「『“‘"
 
 function generate_kara(line)
     local ttml = {}
@@ -129,19 +127,20 @@ function generate_kara(line)
             space = re.find(syl.text_stripped, "^(\\ |\\　)(?=.)")
 
             if space then
-                syl.text_stripped = re.sub(syl.text_stripped, "^(\\ |\\　)",
-                                           "")
+                syl.text_stripped =
+                    re.sub(syl.text_stripped, "^(\\ |\\　)", "")
                 local hole_time = time_to_string(syl.start_time +
                                                      line.start_time)
-                table.insert(ttml,
-                             string.format(
-                                 '<span begin="%s" end="%s">%s</span>',
-                                 hole_time, hole_time, space[1].str))
+                table.insert(ttml, string.format('<span begin="%s" end="%s">',
+                                                 hole_time, hole_time))
+                table.insert(ttml, space[1].str)
+                table.insert(ttml, '</span>')
             end
 
             space = re.find(syl.text_stripped, "(?<=.)(\\ |\\　)$")
             if space then
-                syl.text_stripped = re.sub(syl.text_stripped, "(\\ |\\　)$", "")
+                syl.text_stripped =
+                    re.sub(syl.text_stripped, "(\\ |\\　)$", "")
             end
         end
         if syl.duration == 0 then
@@ -158,42 +157,47 @@ function generate_kara(line)
                     goto continue
                 else
                     table.remove(ttml)
-                    table.insert(ttml, syl.text_stripped .. '</span>')
+                    table.insert(ttml, syl.text_stripped)
+                    table.insert(ttml, '</span>')
                 end
-            elseif unicode.len(trimed) == 1 and merge_symbol then -- 时长为 0 的单个非空字符
-                if i == 1 and #line.kara > 2 then
+            elseif unicode.len(trimed) == 1 and merge_symbol then -- 合并时长为 0 的单个非空字符
+                if i == 1 and #line.kara > 2 then -- 首字符向后合并
                     line.kara[2].text_stripped =
                         syl.text_stripped .. line.kara[2].text_stripped
+                elseif i > 1 and i < #line.kara and
+                    pre_symbols:find(syl.text_stripped) ~= nil then -- 特殊字符向后合并
+                    line.kara[i + 1].text_stripped =
+                        syl.text_stripped .. line.kara[i + 1].text_stripped
                 else
                     table.remove(ttml)
-                    table.insert(ttml, syl.text_stripped .. '</span>')
+                    table.insert(ttml, syl.text_stripped)
+                    table.insert(ttml, '</span>')
                     if split_space and space then
-                        local hole_time = time_to_string(syl.end_time +
-                                                             line.start_time)
-                        table.insert(ttml,
-                                     string.format(
-                                         '<span begin="%s" end="%s">%s</span>',
-                                         hole_time, hole_time, space[1].str))
+                        local hole_time =
+                            time_to_string(syl.end_time + line.start_time)
+                        table.insert(ttml, string.format(
+                                         '<span begin="%s" end="%s">',
+                                         hole_time, hole_time))
+                        table.insert(ttml, space[1].str)
+                        table.insert(ttml, '</span>')
                     end
                 end
             else -- 时长为 0 的不合并字符
                 local start_time = time_to_string(syl.start_time +
                                                       line.start_time)
                 local end_time = time_to_string(syl.end_time + line.start_time)
-                table.insert(ttml,
-                             string.format('<span begin="%s" end="%s">%s',
-                                           start_time, end_time,
-                                           syl.text_stripped))
+                table.insert(ttml, string.format('<span begin="%s" end="%s">',
+                                                 start_time, end_time))
+                table.insert(ttml, syl.text_stripped)
                 table.insert(ttml, '</span>')
-                aegisub.debug.out(string.format('<%s,%s>%s', start_time,
-                                                end_time, syl.text_stripped))
                 if split_space and space then
                     local hole_time = time_to_string(syl.end_time +
                                                          line.start_time)
-                    table.insert(ttml,
-                                 string.format(
-                                     '<span begin="%s" end="%s">%s</span>',
-                                     hole_time, hole_time, space[1].str))
+                    table.insert(ttml, string.format(
+                                     '<span begin="%s" end="%s">', hole_time,
+                                     hole_time))
+                    table.insert(ttml, space[1].str)
+                    table.insert(ttml, '</span>')
                 end
             end
         elseif syl.text_stripped ~= '' then
@@ -209,23 +213,20 @@ function generate_kara(line)
 
             local start_time = time_to_string(syl.start_time + line.start_time)
             local end_time = time_to_string(syl.end_time + line.start_time)
-            table.insert(ttml,
-                         string.format('<span begin="%s" end="%s">%s',
-                                       start_time, end_time, syl.text_stripped))
+            table.insert(ttml, string.format('<span begin="%s" end="%s">',
+                                             start_time, end_time))
+            table.insert(ttml, syl.text_stripped)
             table.insert(ttml, '</span>')
-            aegisub.debug.out(string.format('<%s,%s>%s', start_time, end_time,
-                                            syl.text_stripped))
             if split_space and space then
                 local hole_time = time_to_string(syl.end_time + line.start_time)
-                table.insert(ttml,
-                             string.format(
-                                 '<span begin="%s" end="%s">%s</span>',
-                                 hole_time, hole_time, space[1].str))
+                table.insert(ttml, string.format('<span begin="%s" end="%s">',
+                                                 hole_time, hole_time))
+                table.insert(ttml, space[1].str)
+                table.insert(ttml, '</span>')
             end
         end
         ::continue::
     end
-    aegisub.debug.out('\r\n')
 
     return table.concat(ttml)
 end
@@ -247,7 +248,6 @@ function generate_line(line, n)
     local start_time = time_to_string(line.start_time)
     local end_time = time_to_string(line.end_time)
     ttml = ttml .. string.format(' begin="%s" end="%s"', start_time, end_time)
-    aegisub.debug.out(string.format('[%s,%s]', start_time, end_time))
 
     if not is_bg then
         ttml = ttml .. string.format(' ttm:agent="%s" itunes:key="L%d"',
@@ -318,7 +318,7 @@ function generate_meta(key, value)
     local values = split(value)
 
     for i = 1, #values do
-        aegisub.debug.out(key .. ':\t　' .. values[i]:trim() .. '\r\n')
+        aegisub.log(key .. ':\t　' .. values[i]:trim() .. '\r\n')
         table.insert(ttml,
                      string.format('<amll:meta key="%s" value="%s"/>', key,
                                    xml_symbol(values[i]:trim())))
@@ -365,24 +365,18 @@ function strippath(filename)
 end
 
 function show_marks()
-    aegisub.debug.out('\n\n')
+    aegisub.log('\n\n')
     for mark, lines in pairs(marked) do
-        aegisub.debug.out(mark .. ': ' .. table.concat(lines, '，') .. '\n')
+        aegisub.log(mark .. ': ' .. table.concat(lines, '，') .. '\n')
     end
 end
 
 function deep_copy(source)
-    if source == nil then
-        return nil
-    end
-    if type(source) ~= "table" then
-        return source
-    end
+    if source == nil then return nil end
+    if type(source) ~= "table" then return source end
     local target = {}
     local mt = getmetatable(source)
-    if mt ~= nil then
-        setmetatable(target, mt)
-    end
+    if mt ~= nil then setmetatable(target, mt) end
     for i, v in pairs(source) do
         if type(v) == "table" then
             target[i] = deep_copy(v)
@@ -399,6 +393,9 @@ end
 -- ! @param selected_lines: 选择的行数, Aegisub传入, table类型
 -- ! @param active_line: 当前选中的行, number类型
 function script_main(subtitles)
+    local subs = deep_copy(subtitles)
+    subs = pre_process(subs)
+
     local ui_config = {
         {
             class = "label",
@@ -543,9 +540,6 @@ function script_main(subtitles)
     split_space = options["space"] == "拆分"
     merge_space = options["space"] == "合并"
     merge_symbol = options["symbol"]
-
-    local subs = deep_copy(subtitles)
-    subs = pre_process(subs)
 
     if #subs == 0 then aegisub.cancel() end
 
