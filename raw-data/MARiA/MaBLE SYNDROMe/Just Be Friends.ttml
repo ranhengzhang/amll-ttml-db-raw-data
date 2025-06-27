@@ -17,7 +17,7 @@
     </head>
     <body dur="04:54.550">
         <div begin="00:19.730" end="04:54.550">
-            <p begin="00:19.730" end="00:23.530" ttm:agent="v1" itunes:key="L1">
+            <p begin="00:19.730" end="00:23.530" ttm:agent="v2" itunes:key="L1">
                 <span begin="00:19.730" end="00:19.900">Ju</span>
                 <span begin="00:19.900" end="00:20.010">st</span>
                 <span begin="00:20.010" end="00:20.010"> </span>
@@ -36,7 +36,7 @@
                 <span begin="00:23.030" end="00:23.530">do</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 这是我们唯一能做的</span>
             </p>
-            <p begin="00:23.530" end="00:27.310" ttm:agent="v1" itunes:key="L2">
+            <p begin="00:23.530" end="00:27.310" ttm:agent="v2" itunes:key="L2">
                 <span begin="00:23.530" end="00:23.680">Ju</span>
                 <span begin="00:23.680" end="00:23.790">st</span>
                 <span begin="00:23.790" end="00:23.790"> </span>
@@ -58,7 +58,7 @@
                 <span begin="00:26.750" end="00:27.310">bye</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 是时候说再见了</span>
             </p>
-            <p begin="00:27.310" end="00:31.010" ttm:agent="v1" itunes:key="L3">
+            <p begin="00:27.310" end="00:31.010" ttm:agent="v2" itunes:key="L3">
                 <span begin="00:27.310" end="00:27.420">Ju</span>
                 <span begin="00:27.420" end="00:27.540">st</span>
                 <span begin="00:27.540" end="00:27.540"> </span>
@@ -77,7 +77,7 @@
                 <span begin="00:30.530" end="00:31.010">do</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 这是我们唯一能做的</span>
             </p>
-            <p begin="00:31.010" end="00:33.850" ttm:agent="v1" itunes:key="L4">
+            <p begin="00:31.010" end="00:33.850" ttm:agent="v2" itunes:key="L4">
                 <span begin="00:31.010" end="00:31.170">Ju</span>
                 <span begin="00:31.170" end="00:31.290">st</span>
                 <span begin="00:31.290" end="00:31.290"> </span>
@@ -449,7 +449,7 @@
                 <span ttm:role="x-translation" xml:lang="en-US">I mumbled as somebody&apos;s tears flow down the dried cheeks</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">流在毫无生气的脸庞上的 是谁的眼泪</span>
             </p>
-            <p begin="01:51.880" end="01:53.520" ttm:agent="v1" itunes:key="L24">
+            <p begin="01:51.880" end="01:53.520" ttm:agent="v2" itunes:key="L24">
                 <span begin="01:51.880" end="01:52.350">All</span>
                 <span begin="01:52.350" end="01:52.350"> </span>
                 <span begin="01:52.350" end="01:52.600">we</span>
@@ -460,7 +460,7 @@
                 <span begin="01:53.030" end="01:53.520">do</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">这是我们唯一能做的</span>
             </p>
-            <p begin="01:53.520" end="01:57.300" ttm:agent="v1" itunes:key="L25">
+            <p begin="01:53.520" end="01:57.300" ttm:agent="v2" itunes:key="L25">
                 <span begin="01:53.520" end="01:53.680">Ju</span>
                 <span begin="01:53.680" end="01:53.780">st</span>
                 <span begin="01:53.780" end="01:53.780"> </span>
@@ -482,7 +482,7 @@
                 <span begin="01:56.770" end="01:57.300">bye</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 是时候说再见了</span>
             </p>
-            <p begin="01:57.300" end="02:01.020" ttm:agent="v1" itunes:key="L26">
+            <p begin="01:57.300" end="02:01.020" ttm:agent="v2" itunes:key="L26">
                 <span begin="01:57.300" end="01:57.420">Ju</span>
                 <span begin="01:57.420" end="01:57.540">st</span>
                 <span begin="01:57.540" end="01:57.540"> </span>
@@ -501,7 +501,7 @@
                 <span begin="02:00.540" end="02:01.020">do</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 这是我们唯一能做的</span>
             </p>
-            <p begin="02:01.020" end="02:03.820" ttm:agent="v1" itunes:key="L27">
+            <p begin="02:01.020" end="02:03.820" ttm:agent="v2" itunes:key="L27">
                 <span begin="02:01.020" end="02:01.180">Ju</span>
                 <span begin="02:01.180" end="02:01.290">st</span>
                 <span begin="02:01.290" end="02:01.290"> </span>
@@ -1077,7 +1077,7 @@
                 <span ttm:role="x-translation" xml:lang="en-US">It&apos;s all over</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">就此划下句点了</span>
             </p>
-            <p begin="04:27.230" end="04:31.040" ttm:agent="v1" itunes:key="L58">
+            <p begin="04:27.230" end="04:31.040" ttm:agent="v2" itunes:key="L58">
                 <span begin="04:27.230" end="04:27.390">Ju</span>
                 <span begin="04:27.390" end="04:27.510">st</span>
                 <span begin="04:27.510" end="04:27.510"> </span>
@@ -1099,7 +1099,7 @@
                 <span begin="04:30.540" end="04:31.040">bye</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 是时候说再见了</span>
             </p>
-            <p begin="04:31.040" end="04:34.780" ttm:agent="v1" itunes:key="L59">
+            <p begin="04:31.040" end="04:34.780" ttm:agent="v2" itunes:key="L59">
                 <span begin="04:31.040" end="04:31.170">Ju</span>
                 <span begin="04:31.170" end="04:31.280">st</span>
                 <span begin="04:31.280" end="04:31.280"> </span>
@@ -1118,7 +1118,7 @@
                 <span begin="04:34.270" end="04:34.780">do</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 这是我们唯一能做的</span>
             </p>
-            <p begin="04:34.780" end="04:38.530" ttm:agent="v1" itunes:key="L60">
+            <p begin="04:34.780" end="04:38.530" ttm:agent="v2" itunes:key="L60">
                 <span begin="04:34.780" end="04:34.930">Ju</span>
                 <span begin="04:34.930" end="04:35.040">st</span>
                 <span begin="04:35.040" end="04:35.040"> </span>
@@ -1140,7 +1140,7 @@
                 <span begin="04:37.990" end="04:38.530">bye</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 是时候说再见了</span>
             </p>
-            <p begin="04:35.460" end="04:37.690" ttm:agent="v2" itunes:key="L61">
+            <p begin="04:35.460" end="04:37.690" ttm:agent="v1" itunes:key="L61">
                 <span begin="04:35.460" end="04:35.700">Ju</span>
                 <span begin="04:35.700" end="04:35.860">st</span>
                 <span begin="04:35.860" end="04:35.860"> </span>
@@ -1150,7 +1150,7 @@
                 <span begin="04:37.500" end="04:37.690">ds</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系</span>
             </p>
-            <p begin="04:38.530" end="04:42.260" ttm:agent="v1" itunes:key="L62">
+            <p begin="04:38.530" end="04:42.260" ttm:agent="v2" itunes:key="L62">
                 <span begin="04:38.530" end="04:38.680">Ju</span>
                 <span begin="04:38.680" end="04:38.790">st</span>
                 <span begin="04:38.790" end="04:38.790"> </span>
@@ -1169,7 +1169,7 @@
                 <span begin="04:41.820" end="04:42.260">do</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 这是我们唯一能做的</span>
             </p>
-            <p begin="04:42.060" end="04:44.400" ttm:agent="v2" itunes:key="L63">
+            <p begin="04:42.060" end="04:44.400" ttm:agent="v1" itunes:key="L63">
                 <span begin="04:42.060" end="04:42.290">Ju</span>
                 <span begin="04:42.290" end="04:42.410">st</span>
                 <span begin="04:42.410" end="04:42.410"> </span>
@@ -1179,7 +1179,7 @@
                 <span begin="04:44.230" end="04:44.400">ds</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系</span>
             </p>
-            <p begin="04:42.260" end="04:46.010" ttm:agent="v1" itunes:key="L64">
+            <p begin="04:42.260" end="04:46.010" ttm:agent="v2" itunes:key="L64">
                 <span begin="04:42.260" end="04:42.430">Ju</span>
                 <span begin="04:42.430" end="04:42.530">st</span>
                 <span begin="04:42.530" end="04:42.530"> </span>
@@ -1201,7 +1201,7 @@
                 <span begin="04:45.520" end="04:46.010">bye</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 是时候说再见了</span>
             </p>
-            <p begin="04:46.010" end="04:49.790" ttm:agent="v1" itunes:key="L65">
+            <p begin="04:46.010" end="04:49.790" ttm:agent="v2" itunes:key="L65">
                 <span begin="04:46.010" end="04:46.180">Ju</span>
                 <span begin="04:46.180" end="04:46.290">st</span>
                 <span begin="04:46.290" end="04:46.290"> </span>
@@ -1220,7 +1220,7 @@
                 <span begin="04:49.340" end="04:49.790">do</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 这是我们唯一能做的</span>
             </p>
-            <p begin="04:49.790" end="04:53.520" ttm:agent="v1" itunes:key="L66">
+            <p begin="04:49.790" end="04:53.520" ttm:agent="v2" itunes:key="L66">
                 <span begin="04:49.790" end="04:49.930">Ju</span>
                 <span begin="04:49.930" end="04:50.010">st</span>
                 <span begin="04:50.010" end="04:50.010"> </span>
@@ -1242,7 +1242,7 @@
                 <span begin="04:53.030" end="04:53.520">bye</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系 是时候说再见了</span>
             </p>
-            <p begin="04:53.290" end="04:55.710" ttm:agent="v2" itunes:key="L67">
+            <p begin="04:53.290" end="04:55.710" ttm:agent="v1" itunes:key="L67">
                 <span begin="04:53.290" end="04:53.520">Ju</span>
                 <span begin="04:53.520" end="04:53.670">st</span>
                 <span begin="04:53.670" end="04:53.670"> </span>
@@ -1252,7 +1252,7 @@
                 <span begin="04:55.540" end="04:55.710">ds</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">保持朋友关系</span>
             </p>
-            <p begin="04:53.520" end="04:54.550" ttm:agent="v1" itunes:key="L68">
+            <p begin="04:53.520" end="04:54.550" ttm:agent="v2" itunes:key="L68">
                 <span begin="04:53.520" end="04:53.690">Ju</span>
                 <span begin="04:53.690" end="04:53.790">st</span>
                 <span begin="04:53.790" end="04:53.790"> </span>
