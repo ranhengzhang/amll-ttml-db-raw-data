@@ -4,8 +4,8 @@
             <ttm:agent type="person" xml:id="v1" />
             <ttm:agent type="other" xml:id="v2" />
             <amll:meta key="musicName" value="Just Be Friends" />
-            <amll:meta key="artists" value="美依礼芽" />
             <amll:meta key="artists" value="MARiA" />
+            <amll:meta key="artists" value="美依礼芽" />
             <amll:meta key="artists" value="メイリア" />
             <amll:meta key="artists" value="水桥舞" />
             <amll:meta key="album" value="MaBLE SYNDROMe" />
@@ -112,6 +112,7 @@
                 <span begin="00:36.640" end="00:37.000">日</span>
                 <span begin="00:37.000" end="00:37.360">の</span>
                 <span begin="00:37.360" end="00:37.800">朝</span>
+                <span begin="00:37.800" end="00:37.800"> </span>
                 <span begin="00:37.800" end="00:38.160">早</span>
                 <span begin="00:38.290" end="00:38.480">く</span>
                 <span begin="00:38.480" end="00:38.920">に</span>
@@ -552,6 +553,7 @@
                 <span begin="02:09.670" end="02:09.820">た</span>
                 <span begin="02:09.820" end="02:10.060">花</span>
                 <span begin="02:10.160" end="02:10.600">弁</span>
+                <span begin="02:10.600" end="02:10.600"> </span>
                 <span begin="02:10.600" end="02:10.950">拾</span>
                 <span begin="02:10.950" end="02:11.010">い</span>
                 <span begin="02:11.130" end="02:11.340">上</span>
@@ -707,6 +709,7 @@
                 <span begin="02:39.630" end="02:39.830">し</span>
                 <span begin="02:39.830" end="02:40.040">い</span>
                 <span begin="02:40.040" end="02:40.460">程</span>
+                <span begin="02:40.460" end="02:40.640"> </span>
                 <span begin="02:40.640" end="02:40.750">変</span>
                 <span begin="02:40.750" end="02:40.870">わ</span>
                 <span begin="02:40.870" end="02:41.120">ら</span>
@@ -847,6 +850,7 @@
                 <span begin="03:13.160" end="03:13.440">し</span>
                 <span begin="03:13.440" end="03:13.550">た</span>
                 <span begin="03:13.550" end="03:14.200">人</span>
+                <span begin="03:14.200" end="03:14.380"> </span>
                 <span begin="03:14.380" end="03:14.600">こ</span>
                 <span begin="03:14.600" end="03:14.850">こ</span>
                 <span begin="03:14.850" end="03:15.090">ま</span>
@@ -1035,6 +1039,7 @@
                 <span begin="04:16.890" end="04:17.170">し</span>
                 <span begin="04:17.170" end="04:17.300">た</span>
                 <span begin="04:17.300" end="04:17.950">人</span>
+                <span begin="04:17.950" end="04:18.140"> </span>
                 <span begin="04:18.140" end="04:18.350">こ</span>
                 <span begin="04:18.350" end="04:18.610">こ</span>
                 <span begin="04:18.610" end="04:18.850">ま</span>
