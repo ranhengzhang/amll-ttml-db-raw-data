@@ -5,7 +5,7 @@ Title: 耀斑
 ScriptType: v4.00+
 Timer: 100.0000
 PlayResX: 4096
-PlayResY: 1080
+PlayResY: 3072
 WrapStyle: 0
 ScaledBorderAndShadow: no
 
@@ -27,90 +27,508 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:03.95,orig,,0,0,0,meta,{\kf17}耀{\kf17}斑{\kf17} (《{\kf17}崩{\kf17}坏{\kf17}：{\kf17}星{\kf17}穹{\kf17}铁{\kf17}道{\kf17}》{\kf17}白{\kf17}厄{\kf17}动{\kf17}画{\kf17}短{\kf17}片{\kf17}单{\kf17}曲{\kf17}) - {\kf17}HOYO-{\kf17}MiX/{\kf17}YMIR
-Comment: 0,0:00:03.95,0:00:06.18,orig,,0,0,0,meta,{\kf17}作{\kf17}词{\kf17} {\kf17}Lyricist：{\kf17}Ruby {\kf17}Qu/{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W (HOYO-MiX)/{\kf17}YMIR
-Comment: 0,0:00:06.18,0:00:09.09,orig,,0,0,0,meta,{\kf17}作{\kf17}曲{\kf17} {\kf17}Composer：{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W ({\kf17}HOYO-{\kf17}MiX)/{\kf17}宫{\kf17}奇{\kf17}Gon ({\kf17}HOYO-{\kf17}MiX)
-Comment: 0,0:00:09.09,0:00:12.01,orig,,0,0,0,meta,{\kf17}编{\kf17}曲{\kf17} {\kf17}Arranger：{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W ({\kf17}HOYO-{\kf17}MiX)/{\kf17}宫{\kf17}奇{\kf17}Gon ({\kf17}HOYO-{\kf17}MiX)
-Comment: 0,0:00:12.01,0:00:15.10,orig,,0,0,0,meta,{\kf17}制{\kf17}作{\kf17}人{\kf17} {\kf17}Producer：{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W ({\kf17}HOYO-{\kf17}MiX)/{\kf17}宫{\kf17}奇{\kf17}Gon ({\kf17}HOYO-{\kf17}MiX)
-Comment: 0,0:00:14.76,0:00:17.89,orig,L__1,0,0,0,karaoke,{\ko16}I {\ko27}feel {\ko11}the {\ko30}pain {\ko10}and {\ko31}an{\ko21}ger{\ko0}, {\ko14}wi{\ko15}cked{\ko9} {\ko16}mon{\ko27}ster{\ko0}, {\ko14}lo{\ko22}sin' {\ko14}con{\ko36}trol
-Comment: 0,0:00:14.76,0:00:17.89,ts,____ ,0,0,0,karaoke,愤怒 源自苦弱 邪恶生物挣脱枷锁
-Comment: 0,0:00:18.04,0:00:21.06,orig,L__2,0,0,0,karaoke,{\ko20}I'm {\ko19}rea{\ko8}dy {\ko31}for {\ko11}a{\ko12} {\ko21}ba{\ko17}ttle{\ko0}, {\ko19}wa{\ko12}kened {\ko32}sha{\ko17}dow{\ko0}, {\ko21}bloo{\ko14}d on {\ko14}my {\ko34}soul
-Comment: 0,0:00:18.04,0:00:21.06,ts,____ ,0,0,0,karaoke,步入 硝烟战火 阴影苏醒金血入魄
-Comment: 0,0:00:21.26,0:00:27.63,orig,L__3,0,0,0,karaoke,{\ko18}Burn {\ko26}it{\ko0},{\ko14} {\ko27}bur{\ko17}ning {\ko22}it {\ko24}all{\ko0},{\ko15} {\ko23}hea{\ko21}ven{\ko14}s{\ko0}, {\ko26}let {\ko26}them {\ko236}fall~{\ko43} {\ko25}Ha{\ko60}ha
-Comment: 0,0:00:21.26,0:00:27.63,ts,____ ,0,0,0,karaoke,烧吧 烧尽神国 乐园 已陨落 哈哈
-Comment: 0,0:00:27.69,0:00:30.79,orig,L__4,0,0,0,karaoke,{\ko26}They {\ko12}ta{\ko15}ste {\ko12}of {\ko24}bi{\ko19}tter {\ko12}a{\ko16}she{\ko14}s{\ko0}, {\ko18}li{\ko9}ttered{\ko8} {\ko18}pla{\ko15}stic{\ko0},{\ko8} {\ko24}crum{\ko8}b{\ko15}lin {\ko16}a{\ko21}way
-Comment: 0,0:00:27.69,0:00:30.79,ts,____ ,0,0,0,karaoke,痛饮 死灰苦涩 糟粕四散崩溃沉没
-Comment: 0,0:00:30.97,0:00:34.02,orig,L__5,0,0,0,karaoke,{\ko24}They {\ko13}glimp{\ko28}se the {\ko20}bro{\ko13}ken {\ko22}fa{\ko12}ce{\ko13}s{\ko0}, {\ko23}de{\ko18}vil {\ko8}ra{\ko21}cin'{\ko0}, {\ko26}sear{\ko19}ching {\ko15}for {\ko30}faith
-Comment: 0,0:00:30.97,0:00:34.02,ts,____ ,0,0,0,karaoke,掠过 面孔零落 恶兽驰骋争向神堕
-Comment: 0,0:00:34.23,0:00:40.51,orig,L__6,0,0,0,karaoke,{\ko20}Cru{\ko38}shing{\ko0}, {\ko17}cru{\ko27}shing {\ko24}i{\ko16}t all{\ko0},{\ko14} {\ko34}sha{\ko25}dow{\ko13}s{\ko0}, {\ko17}wa{\ko16}tch {\ko23}them {\ko16}c{\ko183}rawl~{\ko21} {\ko30}Ha{\ko29}ha{\ko65}ha
-Comment: 0,0:00:34.23,0:00:40.51,ts,____ ,0,0,0,karaoke,撕破 撕裂所有 黑夜 也跪我
+Comment: 0,0:00:00.01,0:00:03.96,orig,,0,0,0,meta,{\kf17}耀{\kf17}斑{\kf17} (《{\kf17}崩{\kf17}坏{\kf17}：{\kf17}星{\kf17}穹{\kf17}铁{\kf17}道{\kf17}》{\kf17}白{\kf17}厄{\kf17}动{\kf17}画{\kf17}短{\kf17}片{\kf17}单{\kf17}曲{\kf17}) - {\kf17}HOYO-{\kf17}MiX/{\kf17}YMIR
+Comment: 0,0:00:03.96,0:00:06.19,orig,,0,0,0,meta,{\kf17}作{\kf17}词{\kf17} {\kf17}Lyricist：{\kf17}Ruby {\kf17}Qu/{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W (HOYO-MiX)/{\kf17}YMIR
+Comment: 0,0:00:06.19,0:00:09.10,orig,,0,0,0,meta,{\kf17}作{\kf17}曲{\kf17} {\kf17}Composer：{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W ({\kf17}HOYO-{\kf17}MiX)/{\kf17}宫{\kf17}奇{\kf17}Gon ({\kf17}HOYO-{\kf17}MiX)
+Comment: 0,0:00:09.10,0:00:12.02,orig,,0,0,0,meta,{\kf17}编{\kf17}曲{\kf17} {\kf17}Arranger：{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W ({\kf17}HOYO-{\kf17}MiX)/{\kf17}宫{\kf17}奇{\kf17}Gon ({\kf17}HOYO-{\kf17}MiX)
+Comment: 0,0:00:12.02,0:00:15.11,orig,,0,0,0,meta,{\kf17}制{\kf17}作{\kf17}人{\kf17} {\kf17}Producer：{\kf17}王{\kf17}可{\kf17}鑫{\kf17} {\kf17}Eli.{\kf17}W ({\kf17}HOYO-{\kf17}MiX)/{\kf17}宫{\kf17}奇{\kf17}Gon ({\kf17}HOYO-{\kf17}MiX)
+Comment: 0,0:00:14.76,0:00:17.89,orig,L__1,0,0,0,karaoke,{\ko16}I {\ko27}feel {\ko11}the {\ko30}pain {\ko10}and {\ko31}an{\ko21}ger{\ko0\-Z}, {\ko14}wi{\ko15}cked{\ko9} {\ko16}mon{\ko27}ster{\ko0\-Z}, {\ko14}lo{\ko22}sin' {\ko14}con{\ko36}trol
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:de-DE,0,0,0,karaoke,Schmerz tobt in mir, Zorn entfacht, die Monster stürzen in blinde Macht.
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:es-ES,0,0,0,karaoke,Siento el dolor y la ira, un monstruo malvado, perdiendo el control
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:fr-FR,0,0,0,karaoke,La rage dans mes veines, un monstre de haine, hors de contrôle
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:id-ID,0,0,0,karaoke,Aku merasakan rasa sakit dan amarah, monster jahat ini, lepas kendali
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:ja-JP,0,0,0,karaoke,苦痛と怒りに呑まれ 邪悪な怪物は理性を失う
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:ko-KR,0,0,0,karaoke,느껴지는 고통과 분노 통제를 잃어가는 사악한 괴물
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:pt-BR,0,0,0,karaoke,Sinto a dor e a raiva, monstro perverso, perdendo o controle
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:ru-RU,0,0,0,karaoke,Я чувствую боль и гнев, злобный монстр выходит из-под контроля
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:th-TH,0,0,0,karaoke,ฉันรู้สึกถึงความเจ็บปวดโกรธแค้น สัตว์ประหลาดชั่วร้ายสูญเสียการควบคุม
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:vi-VN,0,0,0,karaoke,Cơn giận dữ bắt nguồn từ đau khổ và yếu đuối, sinh vật tà ác vùng thoát khỏi xiềng xích
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:zh-CN,0,0,0,karaoke,愤怒 源自苦弱 邪恶生物挣脱枷锁
+Comment: 0,0:00:14.76,0:00:17.89,ts,x-lang:zh-TW,0,0,0,karaoke,憤怒 源自苦弱 邪惡生物掙脫枷鎖
+Comment: 0,0:00:18.04,0:00:21.06,orig,L__2,0,0,0,karaoke,{\ko20}I'm {\ko19}rea{\ko8}dy {\ko31}for {\ko11}a{\ko12} {\ko21}ba{\ko17}ttle{\ko0\-Z}, {\ko19}wa{\ko12}kened {\ko32}sha{\ko17}dow{\ko0\-Z}, {\ko21}bloo{\ko14}d on {\ko14}my {\ko34}soul
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:de-DE,0,0,0,karaoke,Bereit zum Kampf, der Schatten erwacht, blutige Seele im Feuer kracht.
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:es-ES,0,0,0,karaoke,Estoy listo para una batalla, la sombra despierta, sangre en mi alma
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:fr-FR,0,0,0,karaoke,Prêt pour le combat fatal, ombre infernale, sang sur mon âme
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:id-ID,0,0,0,karaoke,Siap untuk bertempur, bayangan gelap terbangun, darah membasuh jiwaku
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:ja-JP,0,0,0,karaoke,剣は研いだ 目覚めた影よ その魂を血に染めろ
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:ko-KR,0,0,0,karaoke,전투 준비는 끝났어 깨어난 그림자, 피로 물든 나의 영혼
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:pt-BR,0,0,0,karaoke,Estou pronto para a batalha, sombra desperta, sangue na minha alma
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:ru-RU,0,0,0,karaoke,Я готов к битве, пробудившаяся тень, душа запятнана кровью
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:th-TH,0,0,0,karaoke,ฉันพร้อมจะต่อสู้ฝ่าฟัน เงามืดได้ตื่นขึ้น จิตวิญญาณย้อมด้วยโลหิต
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:vi-VN,0,0,0,karaoke,Bước vào khói lửa chiến trường, bóng tối dần bừng tỉnh, máu vàng hòa vào linh hồn
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:zh-CN,0,0,0,karaoke,步入 硝烟战火 阴影苏醒金血入魄
+Comment: 0,0:00:18.04,0:00:21.06,ts,x-lang:zh-TW,0,0,0,karaoke,步入 硝煙戰火 陰影甦醒金血入魄
+Comment: 0,0:00:21.26,0:00:27.63,orig,L__3,0,0,0,karaoke,{\ko18}Burn {\ko26}it{\ko14\-Z}, {\ko27}bur{\ko17}ning {\ko22}it {\ko24}all{\ko15\-Z}, {\ko23}hea{\ko21}ven{\ko14}s{\ko0\-Z}, {\ko26}let {\ko26}them {\ko236}fall~{\ko43} {\ko25}Ha{\ko60}ha
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:de-DE,0,0,0,karaoke,Verbrenne, verbrenne alles. Lass den Himmel stürzen und fallen.
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:es-ES,0,0,0,karaoke,Quemarlo, quemarlo todo, que los cielos caigan
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:fr-FR,0,0,0,karaoke,Que tout brûle et s'éteigne dans les flammes!
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:id-ID,0,0,0,karaoke,Bakar, bakar semuanya, surga, biarkan runtuh
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:ja-JP,0,0,0,karaoke,燃やせ すべてを焼き払い 空を墜とせ
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:ko-KR,0,0,0,karaoke,불태워라, 모든 것을 불태우고 천국이 무너지게 해
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:pt-BR,0,0,0,karaoke,Queime, queime tudo, céus, faça-os cair!
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:ru-RU,0,0,0,karaoke,Сожги, испепели всё сущее, пусть падут небеса~
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:th-TH,0,0,0,karaoke,จงแผดเผา แผดเผาไปทั้งหมด ให้สรวงสวรรค์ล่มสลายไปซะ
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:vi-VN,0,0,0,karaoke,Thiêu đốt đi, thiêu rụi vương quốc của thần, vườn địa đàng, đã sụp đổ
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:zh-CN,0,0,0,karaoke,烧吧 烧尽神国 乐园 已陨落 哈哈
+Comment: 0,0:00:21.26,0:00:27.63,ts,x-lang:zh-TW,0,0,0,karaoke,燒吧 燒盡神國 樂園 已隕落
+Comment: 0,0:00:27.69,0:00:30.79,orig,L__4,0,0,0,karaoke,{\ko26}They {\ko12}ta{\ko15}ste {\ko12}of {\ko24}bi{\ko19}tter {\ko12}a{\ko16}she{\ko14}s{\ko0\-Z}, {\ko18}li{\ko9}ttered{\ko8} {\ko18}pla{\ko15}stic{\ko8\-Z}, {\ko24}crum{\ko8}b{\ko15}lin {\ko16}a{\ko21}way
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:de-DE,0,0,0,karaoke,Bittere Asche schmecken sie, Kunststoff zerfällt im Wind wie nie.
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:es-ES,0,0,0,karaoke,Saben a cenizas amargas, plástico roto, deshaciéndose
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:fr-FR,0,0,0,karaoke,Ils goûtent la cendre amère, monde de misère, tout se défait
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:id-ID,0,0,0,karaoke,Pahit seperti abu, sampah plastik berserak, segalanya runtuh, tak tersisa
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:ja-JP,0,0,0,karaoke,彼らは苦い灰を味わい 崩れた可塑物は朽ちていく
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:ko-KR,0,0,0,karaoke,그들은 쓰디쓴 잔화를 맛보고 버려진 가소물은 부서져가
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:pt-BR,0,0,0,karaoke,Eles saboreiam cinzas amargas, plástico espalhado, desintegrando-se
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:ru-RU,0,0,0,karaoke,Они вкушают горькую золу, разбитый пластик, рассыпающийся в прах
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:th-TH,0,0,0,karaoke,พวกเขาได้ลิ้มรสเถ้าถ่านอันขื่นขม เศษพลาสติกเกลื่อนได้สลายหาย
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:vi-VN,0,0,0,karaoke,Uống đắng cay tro tàn, mọi thứ mục nát vỡ vụn, sụp đổ và lặng lẽ chìm sâu
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:zh-CN,0,0,0,karaoke,痛饮 死灰苦涩 糟粕四散崩溃沉没
+Comment: 0,0:00:27.69,0:00:30.79,ts,x-lang:zh-TW,0,0,0,karaoke,痛飲 死灰苦澀 糟粕四散崩潰沉沒
+Comment: 0,0:00:30.97,0:00:34.02,orig,L__5,0,0,0,karaoke,{\ko24}They {\ko13}glimp{\ko28}se the {\ko20}bro{\ko13}ken {\ko22}fa{\ko12}ce{\ko13}s{\ko0\-Z}, {\ko23}de{\ko18}vil {\ko8}ra{\ko21}cin'{\ko0\-Z}, {\ko26}sear{\ko19}ching {\ko15}for {\ko30}faith
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:de-DE,0,0,0,karaoke,Sie erhaschen zerbrochene Gesichter, Dämonen rennen, suchen Glauben.
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:es-ES,0,0,0,karaoke,Vislumbran rostros destrozados, el demonio corre, en busca de la fe
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:fr-FR,0,0,0,karaoke,Visages brisés sans grâce, le diable les chasse, cherchant la paix
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:id-ID,0,0,0,karaoke,Melihat wajah yang hancur, iblis berpacu, mencari keyakinan
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:ja-JP,0,0,0,karaoke,傷ついた顔を見て 悪魔は信仰を追う
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:ko-KR,0,0,0,karaoke,그들은 망가진 얼굴을 엿보고 악마는 신앙을 찾아 달려가
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:pt-BR,0,0,0,karaoke,Vislumbram rostos partidos, o demônio correndo, buscando a fé
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:ru-RU,0,0,0,karaoke,Они видят разбитые лица, гонятся за дьяволом, ищут веру
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:th-TH,0,0,0,karaoke,เมื่อเหลือบเห็นใบหน้าที่แตกสลาย ปีศาจก็ปรี่ตัวหาความศรัทธา
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:vi-VN,0,0,0,karaoke,Gương mặt vỡ tan lướt qua, ác thú phi nhanh, tranh nhau lao đến nơi thần sa ngã
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:zh-CN,0,0,0,karaoke,掠过 面孔零落 恶兽驰骋争向神堕
+Comment: 0,0:00:30.97,0:00:34.02,ts,x-lang:zh-TW,0,0,0,karaoke,掠過 面孔零落 惡獸馳騁爭向神墮
+Comment: 0,0:00:34.23,0:00:40.51,orig,L__6,0,0,0,karaoke,{\ko20}Cru{\ko38}shing{\ko0\-Z}, {\ko17}cru{\ko27}shing {\ko24}i{\ko16}t all{\ko14\-Z}, {\ko34}sha{\ko25}dow{\ko13}s{\ko0\-Z}, {\ko17}wa{\ko16}tch {\ko23}them {\ko16}c{\ko183}rawl~{\ko21} {\ko30}Ha{\ko29}ha{\ko65}ha
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:de-DE,0,0,0,karaoke,Zerschmettere, zerschmettere alles. Schatten sehen, wie sie kriechen.
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:es-ES,0,0,0,karaoke,Aplastarlo, aplastarlo todo, vean las sombras, arrastrándose
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:fr-FR,0,0,0,karaoke,Écrase tout sous tes pas, ombres!
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:id-ID,0,0,0,karaoke,Hancurkan, hancurkan semuanya, bayangan, saksikan ia merangkak~
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:ja-JP,0,0,0,karaoke,潰せ すべてを蹂躙し 影は這い上がる者たちを見下ろす
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:ko-KR,0,0,0,karaoke,부숴라, 모든 것을 부수고 기어가는 그림자들을 봐
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:pt-BR,0,0,0,karaoke,Esmague, esmague tudo, sombras, vejam-nas rastejar!
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:ru-RU,0,0,0,karaoke,Разрушь, уничтожь всё сущее, пусть ползут тени~
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:th-TH,0,0,0,karaoke,บดขยี้ บดขยี้มันทั้งหมด เงาทอดมองพวกเขาคืบคลาน
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:vi-VN,0,0,0,karaoke,Xé nát, xé nát tất cả, bóng đêm cũng quỳ gối trước ta
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:zh-CN,0,0,0,karaoke,撕破 撕裂所有 黑夜 也跪我
+Comment: 0,0:00:34.23,0:00:40.51,ts,x-lang:zh-TW,0,0,0,karaoke,撕破 撕裂所有 黑夜 也跪我
 Comment: 0,0:00:40.81,0:00:43.43,orig,L__7,0,0,0,karaoke,{\ko10}C{\ko39}ree{\ko38}pin' {\ko20}up{\ko10} {\ko28}my{\ko8} {\ko109}brain
-Comment: 0,0:00:40.81,0:00:43.43,ts,____ ,0,0,0,karaoke,癫狂染意念
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:de-DE,0,0,0,karaoke,Schatten dringt in mein Hirn,
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:es-ES,0,0,0,karaoke,Invadiendo mi mente
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:fr-FR,0,0,0,karaoke,Ça envahit mon esprit
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:id-ID,0,0,0,karaoke,Merayap masuk ke dalam pikiranku
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:ja-JP,0,0,0,karaoke,暗黒が思考を蝕み
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:ko-KR,0,0,0,karaoke,내 머릿속을 침식하고
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:pt-BR,0,0,0,karaoke,Rastejando no meu cérebro
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:ru-RU,0,0,0,karaoke,Мой разум распадается
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:th-TH,0,0,0,karaoke,แทรกซึมสู่ความคิด
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:vi-VN,0,0,0,karaoke,Sự điên cuồng xâm chiếm ý niệm
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:zh-CN,0,0,0,karaoke,癫狂染意念
+Comment: 0,0:00:40.81,0:00:43.43,ts,x-lang:zh-TW,0,0,0,karaoke,癲狂染意念
 Comment: 0,0:00:44.07,0:00:49.04,orig,L__8,0,0,0,karaoke,{\ko44}Lear{\ko28}nin' {\ko57}from {\ko39}my{\ko11} {\ko318}pain
-Comment: 0,0:00:44.07,0:00:49.04,ts,____ ,0,0,0,karaoke,苦痛中蔓延
-Comment: 0,0:00:49.78,0:00:53.12,orig,L__9,0,0,0,karaoke,{\ko27}Ba{\ko19}by {\ko22}wat{\ko27}chin' it{\ko13} {\ko32}burn{\ko0}, {\ko26}send {\ko18}death {\ko19}to{\ko7} {\ko20}i{\ko42}so{\ko30}la{\ko32}tion
-Comment: 0,0:00:49.78,0:00:53.12,ts,____ ,0,0,0,karaoke,白夜 烈日燎燃 看孤身 爆发耀斑
-Comment: 0,0:00:53.28,0:00:56.40,orig,L_10,0,0,0,karaoke,{\ko21}Oh {\ko21}wat{\ko28}chin' it{\ko12} {\ko40}burn{\ko0}, {\ko19}ain't {\ko22}got {\ko17}no {\ko30}he{\ko25}si{\ko41}ta{\ko36}tion
-Comment: 0,0:00:53.28,0:00:56.40,ts,____ ,0,0,0,karaoke,厄焰狂乱 看骄阳 无畏崩坍
-Comment: 0,0:00:56.54,0:00:59.82,orig,L_11,0,0,0,karaoke,{\ko60}Oh {\ko16}wat{\ko30}chin' it{\ko12} {\ko40}burn{\ko0}, {\ko11}we're {\ko48}fal{\ko19}lin' {\ko48}hi{\ko44}gher
-Comment: 0,0:00:56.54,0:00:59.82,ts,____ ,0,0,0,karaoke,越是粉碎（我）越要俯瞰
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:de-DE,0,0,0,karaoke,nimmt den Schmerz tief drin.
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:es-ES,0,0,0,karaoke,Aprendiendo de mi dolor
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:fr-FR,0,0,0,karaoke,Cette douleur m'instruit
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:id-ID,0,0,0,karaoke,Belajar dari rasa sakitku
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:ja-JP,0,0,0,karaoke,この苦痛を糧にする
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:ko-KR,0,0,0,karaoke,내 고통을 양식으로 삼는구나
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:pt-BR,0,0,0,karaoke,Aprendendo com a minha dor
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:ru-RU,0,0,0,karaoke,Я учусь на боли
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:th-TH,0,0,0,karaoke,เรียนรู้จากความเจ็บปวด
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:vi-VN,0,0,0,karaoke,Lan tràn trong nỗi đau
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:zh-CN,0,0,0,karaoke,苦痛中蔓延
+Comment: 0,0:00:44.07,0:00:49.04,ts,x-lang:zh-TW,0,0,0,karaoke,苦痛中蔓延
+Comment: 0,0:00:49.78,0:00:53.12,orig,L__9,0,0,0,karaoke,{\ko27}Ba{\ko19}by {\ko22}wat{\ko27}chin' it{\ko13} {\ko32}burn{\ko0\-Z}, {\ko26}send {\ko18}death {\ko19}to{\ko7} {\ko20}i{\ko42}so{\ko30}la{\ko32}tion
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:de-DE,0,0,0,karaoke,Baby, sieh, wie es brennt. Schick den Tod in einsam’ Land.
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:es-ES,0,0,0,karaoke,Cariño, mírala arder, envía la muerte al aislamiento
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:fr-FR,0,0,0,karaoke,Bébé, regarde brûler la mort en perdition
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:id-ID,0,0,0,karaoke,Sayang, lihatlah ia terbakar, kirimkan kematian pada kesendirian
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:ja-JP,0,0,0,karaoke,さあ 炎が一切を呑み 死を孤独の深淵へ導くのを見ろ
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐 죽음을 고독한 심연으로 보내
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:pt-BR,0,0,0,karaoke,Baby, vendo tudo queimar, mande a morte ao isolamento
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит, смерть канула в бездну
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:th-TH,0,0,0,karaoke,ที่รัก จงดูมันแผดเผา ส่งความตายสู่ความโดดเดี่ยว
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:vi-VN,0,0,0,karaoke,Đêm trắng, mặt trời thiêu đốt, nhìn thân đơn độc, bùng cháy sáng rực
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:zh-CN,0,0,0,karaoke,白夜 烈日燎燃 看孤身 爆发耀斑
+Comment: 0,0:00:49.78,0:00:53.12,ts,x-lang:zh-TW,0,0,0,karaoke,白夜 烈日燎燃 看孤身 爆發耀斑
+Comment: 0,0:00:53.28,0:00:56.40,orig,L_10,0,0,0,karaoke,{\ko21}Oh {\ko21}wat{\ko28}chin' it{\ko12} {\ko40}burn{\ko0\-Z}, {\ko19}ain't {\ko22}got {\ko17}no {\ko30}he{\ko25}si{\ko41}ta{\ko36}tion
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:de-DE,0,0,0,karaoke,Oh, sieh zu, wie es brennt. Kein Zögern, kein Zurück.
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:es-ES,0,0,0,karaoke,Oh, mírala arder, no dudo ni un momento
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:fr-FR,0,0,0,karaoke,Regarde tout ça brûler, sans aucune hésitation
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:id-ID,0,0,0,karaoke,Oh lihatlah ia terbakar, tanpa ragu menanti
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:ja-JP,0,0,0,karaoke,この劫火を見よ もはや躊躇いはない
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐, 망설임 따윈 없는걸
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:pt-BR,0,0,0,karaoke,Oh, vendo tudo queimar, a hesitação eu enfrento
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит, сомнений не осталось
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:th-TH,0,0,0,karaoke,โอ้ จงดูเปลวไฟแผดเผา โดยไร้ซึ่งความลังเล
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:vi-VN,0,0,0,karaoke,Lửa dữ cuồng loạn, nhìn mặt trời kiêu hãnh, không hề nao núng khi tất cả sụp đổ
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:zh-CN,0,0,0,karaoke,厄焰狂乱 看骄阳 无畏崩坍
+Comment: 0,0:00:53.28,0:00:56.40,ts,x-lang:zh-TW,0,0,0,karaoke,厄焰狂亂 看驕陽 無畏崩坍
+Comment: 0,0:00:56.54,0:00:59.82,orig,L_11,0,0,0,karaoke,{\ko60}Oh {\ko16}wat{\ko30}chin' it{\ko12} {\ko40}burn{\ko0\-Z}, {\ko11}we're {\ko48}fal{\ko19}lin' {\ko48}hi{\ko44}gher
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:de-DE,0,0,0,karaoke,Sieh zu, wie es brennt. Gemeinsam stürzen wir himmelwärts.
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:es-ES,0,0,0,karaoke,Mírala arder, caemos más alto
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:fr-FR,0,0,0,karaoke,Regarde tout flamber, tout tomber dans le brasier
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:id-ID,0,0,0,karaoke,Lihatlah ia terbakar, kita jatuh semakin tinggi
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:ja-JP,0,0,0,karaoke,この劫火を見よ 僕たちは高みへと堕ちていく
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐 우리는 추락 속에 승화하리
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:pt-BR,0,0,0,karaoke,Vendo queimar, estamos caindo para o alto
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит, мы падаем всё выше
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:th-TH,0,0,0,karaoke,จงดูเปลวไฟแผดเผา เราจะร่วงหล่นไปที่สูงกว่าเดิม
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:vi-VN,0,0,0,karaoke,Càng nghiền nát, ta càng phải ngạo nghễ nhìn xuống
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:zh-CN,0,0,0,karaoke,越是粉碎（我）越要俯瞰
+Comment: 0,0:00:56.54,0:00:59.82,ts,x-lang:zh-TW,0,0,0,karaoke,越是粉碎（我）越要俯瞰
 Comment: 0,0:00:59.97,0:01:04.54,orig,L_12,0,0,0,karaoke,{\ko30}Oh {\ko33}oh {\ko30}oh{\ko11} {\ko40}oh {\ko26}oh{\ko13} {\ko39}oh {\ko38}oh {\ko42}oh {\ko155}oh~
-Comment: 0,0:01:05.03,0:01:08.10,orig,L_13,0,0,0,karaoke,{\ko22}I'll {\ko14}ca{\ko25}st your {\ko25}dar{\ko16}k in{\ko20}ten{\ko11}tion{\ko12}s{\ko0}, {\ko22}con{\ko20}vo{\ko7}lu{\ko31}tion{\ko0}, {\ko21}ne{\ko19}ver {\ko9}be{\ko33}fore
-Comment: 0,0:01:05.03,0:01:08.10,ts,____ ,0,0,0,karaoke,破纵横 阴谋交错 斩断混沌从未有过
-Comment: 0,0:01:08.30,0:01:11.29,orig,L_14,0,0,0,karaoke,{\ko18}I'll {\ko22}fight {\ko9}with {\ko14}s{\ko20}ke{\ko12}le{\ko21}ton{\ko16}s, a{\ko30}dre{\ko19}na{\ko14}line{\ko0}, {\ko22}con{\ko15}vic{\ko25}tion {\ko26}in {\ko16}war
-Comment: 0,0:01:08.30,0:01:11.29,ts,____ ,0,0,0,karaoke,焚血骨 血灰血肉 激素迸射定罪战火
-Comment: 0,0:01:11.43,0:01:16.42,orig,L_15,0,0,0,karaoke,{\ko29}Ter{\ko34}ror{\ko0}, {\ko31}ter{\ko17}ror {\ko18}is {\ko25}near{\ko0},{\ko15} {\ko27}I {\ko27}will {\ko44}sha{\ko12}tter {\ko20}you {\ko200}all!
-Comment: 0,0:01:11.43,0:01:16.42,ts,____ ,0,0,0,karaoke,来吧 恐怖压迫，碾碎 这世末！
-Comment: 0,0:01:19.02,0:01:22.42,orig,L_16,0,0,0,karaoke,{\ko25}Ba{\ko17}by {\ko18}wa{\ko25}tchin' {\ko6}it{\ko12} {\ko31}burn{\ko0}, {\ko28}send {\ko18}death {\ko17}to{\ko9} {\ko20}i{\ko41}so{\ko31}la{\ko42}tion
-Comment: 0,0:01:19.02,0:01:22.42,ts,____ ,0,0,0,karaoke,白夜 烈日燎燃 看孤身 爆发耀斑
-Comment: 0,0:01:22.49,0:01:25.56,orig,L_17,0,0,0,karaoke,{\ko20}Oh {\ko20}wa{\ko27}tchin' it{\ko11} {\ko39}burn{\ko0}, {\ko21}ain't {\ko24}got {\ko16}no {\ko30}he{\ko25}si{\ko42}ta{\ko32}tion
-Comment: 0,0:01:22.49,0:01:25.56,ts,____ ,0,0,0,karaoke,厄焰狂乱 看骄阳 无畏崩坍
-Comment: 0,0:01:25.73,0:01:29.01,orig,L_18,0,0,0,karaoke,{\ko58}Oh {\ko20}wa{\ko31}tchin' it{\ko11} {\ko41}burn{\ko0}, {\ko7}we're {\ko50}fa{\ko18}llin' {\ko47}hi{\ko45}gher
-Comment: 0,0:01:25.73,0:01:29.01,ts,____ ,0,0,0,karaoke,越是粉碎（我）越要俯瞰
+Comment: 0,0:01:05.03,0:01:08.10,orig,L_13,0,0,0,karaoke,{\ko22}I'll {\ko14}ca{\ko25}st your {\ko25}dar{\ko16}k in{\ko20}ten{\ko11}tion{\ko12}s{\ko0\-Z}, {\ko22}con{\ko20}vo{\ko7}lu{\ko31}tion{\ko0\-Z}, {\ko21}ne{\ko19}ver {\ko9}be{\ko33}fore
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:de-DE,0,0,0,karaoke,Ich vertreibe deine finst’ren Intrigen, verschlungen und neu.
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:es-ES,0,0,0,karaoke,Lanzaré tus oscuras intenciones, con convolución, como nunca antes.
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:fr-FR,0,0,0,karaoke,Je briserai les noirs desseins, les ruses, comme aucun
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:id-ID,0,0,0,karaoke,'Kan kubongkar niat gelap, konspirasi yang paling kacau
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:ja-JP,0,0,0,karaoke,暗き陰謀を 未曽有の混沌を 切り裂く
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:ko-KR,0,0,0,karaoke,교차하는 음모, 전에 없던 혼돈을 끊어내겠어
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:pt-BR,0,0,0,karaoke,Despedaçarei as tuas intenções sombrias, artimanhas, como nunca antes
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:ru-RU,0,0,0,karaoke,Раскрою твои замыслы, положу смуте конец
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:th-TH,0,0,0,karaoke,ฉันจะเปิดโปงแผนและความซับซ้อนอันชั่วร้ายที่ไม่เคยมีมาก่อน
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:vi-VN,0,0,0,karaoke,Phá vỡ cục diện, âm mưu chằng chịt, chặt đứt hỗn loạn chưa từng có
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:zh-CN,0,0,0,karaoke,破纵横 阴谋交错 斩断混沌从未有过
+Comment: 0,0:01:05.03,0:01:08.10,ts,x-lang:zh-TW,0,0,0,karaoke,破縱橫 陰謀交錯 斬斷混沌從未有過
+Comment: 0,0:01:08.30,0:01:11.29,orig,L_14,0,0,0,karaoke,{\ko18}I'll {\ko22}fight {\ko9}with {\ko14}s{\ko20}ke{\ko12}le{\ko21}ton{\ko16}s, a{\ko30}dre{\ko19}na{\ko14}line{\ko0\-Z}, {\ko22}con{\ko15}vic{\ko25}tion {\ko26}in {\ko16}war
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:de-DE,0,0,0,karaoke,Ich kämpfe mit Skeletten, Adrenalin und Kriegstreu.
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:es-ES,0,0,0,karaoke,Lucharé contra esqueletos, con adrenalina y convicción en la guerra.
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:fr-FR,0,0,0,karaoke,Je combattrai les squelettes en travers, avec adrénaline et foi dans la guerre
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:id-ID,0,0,0,karaoke,Dengan kerangka, degupan, dan tekad membara, aku berperang
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:ja-JP,0,0,0,karaoke,この肉体 アドレナリン 信念を以って戦おう
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:ko-KR,0,0,0,karaoke,전장 위 함께 싸우는 해골, 아드레날린, 신념
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:pt-BR,0,0,0,karaoke,Lutarei com esqueletos, adrenalina, convicção na guerra
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:ru-RU,0,0,0,karaoke,Сражусь с костями, адреналином и войной
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:th-TH,0,0,0,karaoke,ฉันจะสู้สงครามด้วยเลือดเนื้อ อะดรีนาลีนและความมุ่งมั่น
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:vi-VN,0,0,0,karaoke,Thiêu đốt huyết cốt, thịt máu hóa tro, xúc cảm bùng nổ, chiến hỏa định tội
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:zh-CN,0,0,0,karaoke,焚血骨 血灰血肉 激素迸射定罪战火
+Comment: 0,0:01:08.30,0:01:11.29,ts,x-lang:zh-TW,0,0,0,karaoke,焚血骨 血灰血肉 激素迸射定罪戰火
+Comment: 0,0:01:11.43,0:01:16.42,orig,L_15,0,0,0,karaoke,{\ko29}Ter{\ko34}ror{\ko0\-Z}, {\ko31}ter{\ko17}ror {\ko18}is {\ko25}near{\ko15\-Z}, {\ko27}I {\ko27}will {\ko44}sha{\ko12}tter {\ko20}you {\ko200}all!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:de-DE,0,0,0,karaoke,Terror naht, die Angst erwacht. Ich zerbreche euch bald!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:es-ES,0,0,0,karaoke,Terror, el terror está cerca, ¡los destrozaré a todos!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:fr-FR,0,0,0,karaoke,La terreur s'avance, j'anéantirai toute forme d'existence!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:id-ID,0,0,0,karaoke,Teror, teror yang mendekat, 'kan kuhancurkan semua!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:ja-JP,0,0,0,karaoke,迫りくる恐怖を すべて砕くのだ
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:ko-KR,0,0,0,karaoke,가까워진 공포, 난 모든 걸 부숴버리겠어!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:pt-BR,0,0,0,karaoke,O Terror, o terror está perto, vou fazê-los em pedaço!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:ru-RU,0,0,0,karaoke,Ужас, ужас близок, уничтожу вас всех!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:th-TH,0,0,0,karaoke,ความหวาดกลัวกำลังใกล้เข้ามา ฉันจะทำลายทั้งหมดให้สิ้นซากเอง!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:vi-VN,0,0,0,karaoke,Hãy đến đây, nỗi kinh hoàng áp bức. Hãy nghiền nát tận thế này!
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:zh-CN,0,0,0,karaoke,来吧 恐怖压迫，碾碎 这世末！
+Comment: 0,0:01:11.43,0:01:16.42,ts,x-lang:zh-TW,0,0,0,karaoke,來吧 恐怖壓迫，碾碎 這世末！
+Comment: 0,0:01:19.02,0:01:22.42,orig,L_16,0,0,0,karaoke,{\ko25}Ba{\ko17}by {\ko18}wa{\ko25}tchin' {\ko6}it{\ko12} {\ko31}burn{\ko0\-Z}, {\ko28}send {\ko18}death {\ko17}to{\ko9} {\ko20}i{\ko41}so{\ko31}la{\ko42}tion
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:de-DE,0,0,0,karaoke,Baby, sieh, wie es brennt. Schick den Tod in einsam’ Land.
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:es-ES,0,0,0,karaoke,Cariño, mírala arder, envía la muerte al aislamiento
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:fr-FR,0,0,0,karaoke,Bébé, regarde brûler la mort en perdition
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:id-ID,0,0,0,karaoke,Sayang, lihatlah ia terbakar, kirimkan kematian pada kesendirian
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:ja-JP,0,0,0,karaoke,さあ 炎が一切を呑み 死を孤独の深淵へ導くのを見ろ
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐 죽음을 고독한 심연으로 보내
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:pt-BR,0,0,0,karaoke,Baby, vendo tudo queimar, mande a morte ao isolamento
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит, смерть канула в бездну
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:th-TH,0,0,0,karaoke,ที่รัก จงดูมันแผดเผา ส่งความตายสู่ความโดดเดี่ยว
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:vi-VN,0,0,0,karaoke,Đêm trắng, mặt trời thiêu đốt, nhìn thân đơn độc, bùng cháy sáng rực
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:zh-CN,0,0,0,karaoke,白夜 烈日燎燃 看孤身 爆发耀斑
+Comment: 0,0:01:19.02,0:01:22.42,ts,x-lang:zh-TW,0,0,0,karaoke,白夜 烈日燎燃 看孤身 爆發耀斑
+Comment: 0,0:01:22.49,0:01:25.56,orig,L_17,0,0,0,karaoke,{\ko20}Oh {\ko20}wa{\ko27}tchin' it{\ko11} {\ko39}burn{\ko0\-Z}, {\ko21}ain't {\ko24}got {\ko16}no {\ko30}he{\ko25}si{\ko42}ta{\ko32}tion
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:de-DE,0,0,0,karaoke,Oh, sieh zu, wie es brennt. Kein Zögern, kein Zurück.
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:es-ES,0,0,0,karaoke,Oh, mírala arder, no dudo ni un momento
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:fr-FR,0,0,0,karaoke,Regarde tout ça brûler, sans aucune hésitation
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:id-ID,0,0,0,karaoke,Oh lihatlah ia terbakar, tanpa ragu menanti
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:ja-JP,0,0,0,karaoke,この劫火を見よ もはや躊躇いはない
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐, 망설임 따윈 없는걸
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:pt-BR,0,0,0,karaoke,Oh, vendo tudo queimar, a hesitação eu enfrento
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит, сомнений не осталось
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:th-TH,0,0,0,karaoke,โอ้ จงดูเปลวไฟแผดเผา โดยไร้ซึ่งความลังเล
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:vi-VN,0,0,0,karaoke,Lửa dữ cuồng loạn, nhìn mặt trời kiêu hãnh, không hề nao núng khi tất cả sụp đổ
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:zh-CN,0,0,0,karaoke,厄焰狂乱 看骄阳 无畏崩坍
+Comment: 0,0:01:22.49,0:01:25.56,ts,x-lang:zh-TW,0,0,0,karaoke,厄焰狂亂 看驕陽 無畏崩坍
+Comment: 0,0:01:25.73,0:01:29.01,orig,L_18,0,0,0,karaoke,{\ko58}Oh {\ko20}wa{\ko31}tchin' it{\ko11} {\ko41}burn{\ko0\-Z}, {\ko7}we're {\ko50}fa{\ko18}llin' {\ko47}hi{\ko45}gher
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:de-DE,0,0,0,karaoke,Sieh zu, wie es brennt. Gemeinsam stürzen wir himmelwärts.
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:es-ES,0,0,0,karaoke,Mírala arder, caemos más alto
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:fr-FR,0,0,0,karaoke,Regarde tout flamber, tout tomber dans le brasier
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:id-ID,0,0,0,karaoke,Lihatlah ia terbakar, kita jatuh semakin tinggi
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:ja-JP,0,0,0,karaoke,この劫火を見よ 僕たちは高みへと堕ちていく
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐 우리는 추락 속에 승화하리
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:pt-BR,0,0,0,karaoke,Vendo queimar, estamos caindo para o alto
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит, мы падаем всё выше
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:th-TH,0,0,0,karaoke,จงดูเปลวไฟแผดเผา เราจะร่วงหล่นไปที่สูงกว่าเดิม
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:vi-VN,0,0,0,karaoke,Càng nghiền nát, ta càng phải ngạo nghễ nhìn xuống
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:zh-CN,0,0,0,karaoke,越是粉碎（我）越要俯瞰
+Comment: 0,0:01:25.73,0:01:29.01,ts,x-lang:zh-TW,0,0,0,karaoke,越是粉碎（我）越要俯瞰
 Comment: 0,0:01:29.17,0:01:32.42,orig,L_19,0,0,0,karaoke,{\ko29}Oh {\ko36}oh {\ko29}oh{\ko11} {\ko36}oh {\ko30}oh{\ko11} {\ko40}oh {\ko103}oh~
 Comment: 0,0:01:32.42,0:01:37.76,orig,L_20,0,0,0,karaoke,{\ko21}Wa{\ko31}tchin' it{\ko11} {\ko80}burn!{\ko140} {\ko39}Oh {\ko25}wa{\ko20}tchi{\ko9}n' i{\ko11}t{\ko20} {\ko127}burn!
-Comment: 0,0:01:32.42,0:01:37.76,ts,____ ,0,0,0,karaoke,爆发耀斑 无畏崩坍
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:de-DE,0,0,0,karaoke,Sieh zu, wie es brennt! Oh, wie es brennt!
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:es-ES,0,0,0,karaoke,¡Mírala arder! ¡Oh, mírala arder!
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:fr-FR,0,0,0,karaoke,Regarde tout ça brûler! Oh regarde tout ça brûler!
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:id-ID,0,0,0,karaoke,Lihatlah ia terbakar! Oh lihatlah ia terbakar!
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:ja-JP,0,0,0,karaoke,見よ この劫火を！ 見よ この劫火を！
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐 타오르는 불꽃을 봐
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:pt-BR,0,0,0,karaoke,Vendo tudo queimar! Oh, vendo tudo queimar!
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит! Смотри, как всё горит!
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:th-TH,0,0,0,karaoke,จงดูเปลวไฟแผดเผา โอ้ จงดูเปลวไฟแผดเผา
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:vi-VN,0,0,0,karaoke,Bùng cháy sáng rực. Không hề nao núng khi tất cả sụp đổ
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:zh-CN,0,0,0,karaoke,爆发耀斑 无畏崩坍
+Comment: 0,0:01:32.42,0:01:37.76,ts,x-lang:zh-TW,0,0,0,karaoke,爆發耀斑 無畏崩坍
 Comment: 0,0:01:38.69,0:01:41.95,orig,L_21,0,0,0,karaoke,{\ko16}Oh {\ko33}wa{\ko36}tchin' {\ko32}it {\ko209}burn!
-Comment: 0,0:01:38.69,0:01:41.95,ts,____ ,0,0,0,karaoke,越是粉碎
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:de-DE,0,0,0,karaoke,Sieh zu, wie es brennt!
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:es-ES,0,0,0,karaoke,¡Mírala arder!
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:fr-FR,0,0,0,karaoke,Regarde tout ça brûler!
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:id-ID,0,0,0,karaoke,Lihatlah ia terbakar!
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:ja-JP,0,0,0,karaoke,見よ この劫火を！
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:pt-BR,0,0,0,karaoke,Vendo tudo queimar!
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит!
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:th-TH,0,0,0,karaoke,จงดูเปลวไฟแผดเผา
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:vi-VN,0,0,0,karaoke,Càng nghiền nát
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:zh-CN,0,0,0,karaoke,越是粉碎
+Comment: 0,0:01:38.69,0:01:41.95,ts,x-lang:zh-TW,0,0,0,karaoke,越是粉碎
 Comment: 0,0:01:41.97,0:01:46.07,orig,L_22,0,0,0,karaoke,{\ko18}Oh {\ko34}wa{\ko44}tchin' {\ko44}it {\ko270}burn!
-Comment: 0,0:01:41.97,0:01:46.07,ts,____ ,0,0,0,karaoke,越 要 俯 瞰
-Comment: 0,0:01:59.66,0:02:03.33,orig,L_23,0,0,0,karaoke,{\ko18}Like{\ko12} {\ko24}gla{\ko19}ss {\ko13}that {\ko58}sha{\ko11}{\ko20}ttered{\ko0},{\ko17} {\ko31}rea{\ko39}ching {\ko26}through {\ko9}the{\ko14} {\ko31}dark{\ko15}ne{\ko10}ss
-Comment: 0,0:01:59.66,0:02:03.33,ts,____ ,0,0,0,karaoke,琉璃成飞灰 偏要刺破黑夜
-Comment: 0,0:02:03.57,0:02:07.36,orig,L_24,0,0,0,karaoke,{\ko10}V{\ko30}oi{\ko13}ce{\ko9}s {\ko29}trai{\ko16}ling {\ko31}fi{\ko24}res{\ko0},{\ko28} {\ko33}e{\ko9}{\ko19}cho {\ko24}of {\ko19}de{\ko57}si{\ko21}re{\ko7}s
-Comment: 0,0:02:03.57,0:02:07.36,ts,____ ,0,0,0,karaoke,呼声牵动残焰 自由渴念不歇
-Comment: 0,0:02:07.36,0:02:10.86,orig,L_25,0,0,0,karaoke,{\ko28}A {\ko36}worl{\ko19}d o{\ko5}f {\ko61}si{\ko27}len{\ko8}ce{\ko0}, {\ko52}soun{\ko20}d of {\ko32}Death's {\ko25}pa{\ko37}rading
-Comment: 0,0:02:07.36,0:02:10.86,ts,____ ,0,0,0,karaoke,沉默这世界 末日狂欢不灭
-Comment: 0,0:02:11.17,0:02:19.47,orig,L_26,0,0,0,karaoke,{\ko46}Phan{\ko21}tom{\ko11}s {\ko23}in {\ko8}the {\ko45}sha{\ko18}dow{\ko0},{\ko28} {\ko69}so{\ko50}ftly {\ko60}wai{\ko451}ting…
-Comment: 0,0:02:11.17,0:02:19.47,ts,____ ,0,0,0,karaoke,直到往日旧念 为我阖眼
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:de-DE,0,0,0,karaoke,Sieh zu, wie es brennt!
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:es-ES,0,0,0,karaoke,¡Mírala arder!
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:fr-FR,0,0,0,karaoke,Regarde tout ça brûler!
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:id-ID,0,0,0,karaoke,Lihatlah ia terbakar!
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:ja-JP,0,0,0,karaoke,見よ この劫火を！
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:ko-KR,0,0,0,karaoke,타오르는 불꽃을 봐
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:pt-BR,0,0,0,karaoke,Vendo tudo queimar!
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:ru-RU,0,0,0,karaoke,Смотри, как всё горит!
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:th-TH,0,0,0,karaoke,จงดูเปลวไฟแผดเผา
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:vi-VN,0,0,0,karaoke,Càng phải ngạo nghễ nhìn xuống
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:zh-CN,0,0,0,karaoke,越 要 俯 瞰
+Comment: 0,0:01:41.97,0:01:46.07,ts,x-lang:zh-TW,0,0,0,karaoke,越 要 俯 瞰
+Comment: 0,0:01:59.66,0:02:03.33,orig,L_23,0,0,0,karaoke,{\ko18}Like{\ko12} {\ko24}gla{\ko19}ss {\ko13}that {\ko58}sha{\ko11}{\ko20}ttered{\ko17\-Z}, {\ko31}rea{\ko39}ching {\ko26}through {\ko9}the{\ko14} {\ko31}dark{\ko15}ne{\ko10}ss
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:de-DE,0,0,0,karaoke,Wie Glas in Splittern, greifend durch das Dunkel.
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:es-ES,0,0,0,karaoke,Como vidrio roto, alcanzando a través de la oscuridad
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:fr-FR,0,0,0,karaoke,Un verre éclaté, brisé, perçant les ténèbres glacées
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:id-ID,0,0,0,karaoke,Laksana pecahan kaca, menembus kegelapan
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:ja-JP,0,0,0,karaoke,砕け散った硝子のように 闇を突き抜けていく
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:ko-KR,0,0,0,karaoke,산산조각 난 유리처럼, 어둠 속으로 손을 뻗어
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:pt-BR,0,0,0,karaoke,Como vidro estilhaçado, alcançando por meio da escuridão
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:ru-RU,0,0,0,karaoke,Словно разбитое стекло, тянусь сквозь тьму
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:th-TH,0,0,0,karaoke,แตกกระจายดุจแก้ว ไขว่คว้าผ่านความมืดมิด
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:vi-VN,0,0,0,karaoke,Lưu ly hóa thành tro bụi, kiên trì xuyên màn đêm đen
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:zh-CN,0,0,0,karaoke,琉璃成飞灰 偏要刺破黑夜
+Comment: 0,0:01:59.66,0:02:03.33,ts,x-lang:zh-TW,0,0,0,karaoke,琉璃成飛灰 偏要刺破黑夜
+Comment: 0,0:02:03.57,0:02:07.36,orig,L_24,0,0,0,karaoke,{\ko10}V{\ko30}oi{\ko13}ce{\ko9}s {\ko29}trai{\ko16}ling {\ko31}fi{\ko24}res{\ko28\-Z}, {\ko33}e{\ko9}{\ko19}cho {\ko24}of {\ko19}de{\ko57}si{\ko21}re{\ko7}s
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:de-DE,0,0,0,karaoke,Stimmen steigen mit dem Licht, Sehnsucht hallt in ihnen mit.
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:es-ES,0,0,0,karaoke,Voces que siguen el fuego, el eco del deseo
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:fr-FR,0,0,0,karaoke,Une voix enflammée, écho des désirs niés
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:id-ID,0,0,0,karaoke,Suara-suara membuntuti api, gema dari hasrat yang membara
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:ja-JP,0,0,0,karaoke,炎を追う声 欲望の残響
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:ko-KR,0,0,0,karaoke,불꽃을 따라가는 목소리, 욕망의 메아리
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:pt-BR,0,0,0,karaoke,Vozes seguindo o fogo, eco de desejos
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:ru-RU,0,0,0,karaoke,Голоса за пламенем, отголоски желания
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:th-TH,0,0,0,karaoke,เสียงที่ตามไล่หลังเปลวไฟ สะท้อนก้องถึงความปรารถนา
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:vi-VN,0,0,0,karaoke,Tiếng gào vang động ngọn lửa tàn, khát khao tự do không ngừng nghỉ
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:zh-CN,0,0,0,karaoke,呼声牵动残焰 自由渴念不歇
+Comment: 0,0:02:03.57,0:02:07.36,ts,x-lang:zh-TW,0,0,0,karaoke,呼聲牽動殘焰 自由渴念不歇
+Comment: 0,0:02:07.36,0:02:10.86,orig,L_25,0,0,0,karaoke,{\ko28}A {\ko36}worl{\ko19}d o{\ko5}f {\ko61}si{\ko27}len{\ko8}ce{\ko0\-Z}, {\ko52}soun{\ko20}d of {\ko32}Death's {\ko25}pa{\ko37}rading
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:de-DE,0,0,0,karaoke,Schweigt die Welt, nur der Klang des Todeszugs bleibt.
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:es-ES,0,0,0,karaoke,Un mundo silencioso, el sonido de la marcha de la muerte
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:fr-FR,0,0,0,karaoke,Un monde sans espérance, où la Mort s'avance
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:id-ID,0,0,0,karaoke,Di dunia yang sunyi, melodi Kematian berarak
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:ja-JP,0,0,0,karaoke,沈黙した世界に響く 死の行進曲
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:ko-KR,0,0,0,karaoke,고요한 세계, 들려오는 죽음의 행진 소리
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:pt-BR,0,0,0,karaoke,Um mundo de silêncio, o som do desfile da Morte
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:ru-RU,0,0,0,karaoke,В безмолвном мире звучит марш смерти
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:th-TH,0,0,0,karaoke,ในโลกอันเงียบสงัด ทำนองความตายกลับกู่ก้อง
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:vi-VN,0,0,0,karaoke,Thế giới im lặng, đại tiệc tận thế bất diệt
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:zh-CN,0,0,0,karaoke,沉默这世界 末日狂欢不灭
+Comment: 0,0:02:07.36,0:02:10.86,ts,x-lang:zh-TW,0,0,0,karaoke,沉默這世界 末日狂歡不滅
+Comment: 0,0:02:11.17,0:02:19.47,orig,L_26,0,0,0,karaoke,{\ko46}Phan{\ko21}tom{\ko11}s {\ko23}in {\ko8}the {\ko45}sha{\ko18}dow{\ko28\-Z}, {\ko69}so{\ko50}ftly {\ko60}wai{\ko451}ting…
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:de-DE,0,0,0,karaoke,Phantome im Schatten, leises Warten ...
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:es-ES,0,0,0,karaoke,Fantasmas en las sombras, esperando silenciosos...
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:fr-FR,0,0,0,karaoke,Des spectres dans la nuit, qui guettent sans bruit...
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:id-ID,0,0,0,karaoke,Bayangan di balik gelap, diam-diam menunggu
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:ja-JP,0,0,0,karaoke,影に潜む魂は ただ静かに待つ…
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:ko-KR,0,0,0,karaoke,조용히 기다리고 있는 그림자 속 유령…
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:pt-BR,0,0,0,karaoke,Fantasmas na sombra, suavemente à espera...
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:ru-RU,0,0,0,karaoke,Призраки в тенях безмолвно наблюдают...
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:th-TH,0,0,0,karaoke,ภูตผีในเงาเฝ้าคอยอย่างเงียบงัน
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:vi-VN,0,0,0,karaoke,Cho đến khi những ký ức cũ, nhắm mắt cùng ta...
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:zh-CN,0,0,0,karaoke,直到往日旧念 为我阖眼
+Comment: 0,0:02:11.17,0:02:19.47,ts,x-lang:zh-TW,0,0,0,karaoke,直到往日舊念 為我闔眼
 Comment: 0,0:02:20.27,0:02:23.62,orig,L_27,0,0,0,karaoke,{\ko35}I'm {\ko43}tea{\ko22}rin' it {\ko46}down! {\ko20}Em{\ko24}brace {\ko6}the{\ko8} {\ko30}de{\ko33}to{\ko29}na{\ko39}tion
-Comment: 0,0:02:20.27,0:02:23.62,ts,____ ,0,0,0,karaoke,撕碎 金血怒绽 拥抱我 爆裂璀璨
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:de-DE,0,0,0,karaoke,Ich reiße es nieder! Umarme die Detonation.
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:es-ES,0,0,0,karaoke,¡Lo estoy derribando! Acepta la detonación
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:fr-FR,0,0,0,karaoke,J'arrache tout! Dans la déflagration
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:id-ID,0,0,0,karaoke,'Kan kuhancurkan! Rangkullah ledakan ini
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:ja-JP,0,0,0,karaoke,枷を破り 壊滅の狂気に身を任せろ
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:ko-KR,0,0,0,karaoke,전부 찢어버려! 폭발을 끌어안겠어
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:pt-BR,0,0,0,karaoke,Eu estou me desfazendo! Receba a detonação
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:ru-RU,0,0,0,karaoke,Я разорву оковы! Приму Разрушение
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:th-TH,0,0,0,karaoke,ฉันจะฉีกทำลายมัน! โอบกอดการทำลายล้าง
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:vi-VN,0,0,0,karaoke,Xé nát, máu vàng giận dữ, ôm lấy ta giữa bùng nổ chói lóa
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:zh-CN,0,0,0,karaoke,撕碎 金血怒绽 拥抱我 爆裂璀璨
+Comment: 0,0:02:20.27,0:02:23.62,ts,x-lang:zh-TW,0,0,0,karaoke,撕碎 金血怒綻 擁抱我 爆裂璀璨
 Comment: 0,0:02:23.96,0:02:27.00,orig,L_28,0,0,0,karaoke,{\ko24}Bur{\ko11}nin' {\ko27}it {\ko28}loud!{\ko7} {\ko23}Cra{\ko19}vin' {\ko13}our{\ko9} {\ko35}damn {\ko31}cre{\ko26}a{\ko51}tion
-Comment: 0,0:02:23.96,0:02:27.00,ts,____ ,0,0,0,karaoke,三千万转 响彻这 罪业回环
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:de-DE,0,0,0,karaoke,Brenn es laut! Verlange nach unserer verdammten Schöpfung.
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:es-ES,0,0,0,karaoke,¡Ardiendo fuerte! Deseando nuestra maldita creación
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:fr-FR,0,0,0,karaoke,Ça brûle fort! Notre œuvre de damnation
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:id-ID,0,0,0,karaoke,Bakar sebesar mungkin! Inilah ciptaan terkutuk kita
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:ja-JP,0,0,0,karaoke,赫々と炎を燃やし 咎を掴み取れ
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:ko-KR,0,0,0,karaoke,불꽃이여 포효하라! 우리가 만들어낸 죄악을 갈구하네
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:pt-BR,0,0,0,karaoke,Queimando alto! Desejando nossa maldita criação
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:ru-RU,0,0,0,karaoke,Пусть ревёт пламя! Жажда грехов, которые мы совершили
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:th-TH,0,0,0,karaoke,จงแผดเผาให้วอดวาย! ความกระหายในสิ่งที่เราสรรค์สร้าง
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:vi-VN,0,0,0,karaoke,Ba mươi triệu vòng luân hồi, vang dội trong vòng xoáy tội nghiệt
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:zh-CN,0,0,0,karaoke,三千万转 响彻这 罪业回环
+Comment: 0,0:02:23.96,0:02:27.00,ts,x-lang:zh-TW,0,0,0,karaoke,三千萬轉 響徹這 罪業迴環
 Comment: 0,0:02:27.57,0:02:30.25,orig,L_29,0,0,0,karaoke,{\ko27}Brea{\ko12}kin' {\ko14}the {\ko51}chain! {\ko24}I'm {\ko24}rea{\ko25}chin' {\ko46}for {\ko45}ya
-Comment: 0,0:02:27.57,0:02:30.25,ts,____ ,0,0,0,karaoke,锁链挣断（我）向你之畔
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:de-DE,0,0,0,karaoke,Spreng jede Kette! Ich greife nach dir.
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:es-ES,0,0,0,karaoke,¡Rompiendo las cadenas! Te estoy alcanzado
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:fr-FR,0,0,0,karaoke,Les chaînes sont brisées! Ma main est tendue vers toi
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:id-ID,0,0,0,karaoke,Putuskan rantai! 'Kan kuraih dirimu
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:ja-JP,0,0,0,karaoke,いま鎖を断ち切り 君に手を伸ばす
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:ko-KR,0,0,0,karaoke,사슬을 부숴! 네게 다가가고 있어
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:pt-BR,0,0,0,karaoke,Quebrando a corrente! Estou alcançando você
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:ru-RU,0,0,0,karaoke,Разорви цепи! Я иду к тебе
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:th-TH,0,0,0,karaoke,ทลายโซ่ตรวน! ฉันจะมุ่งไปหาเธอ
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:vi-VN,0,0,0,karaoke,Xiềng xích đứt đoạn, ta hướng đến ngươi
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:zh-CN,0,0,0,karaoke,锁链挣断（我）向你之畔
+Comment: 0,0:02:27.57,0:02:30.25,ts,x-lang:zh-TW,0,0,0,karaoke,鎖鏈掙斷（我）向你之畔
 Comment: 0,0:02:30.42,0:02:33.53,orig,L_30,0,0,0,karaoke,{\ko24}Oh{\ko7} {\ko35}oh {\ko26}oh{\ko15} {\ko27}oh{\ko12} {\ko28}oh{\ko11} {\ko27}oh {\ko99}yeah!!
 Comment: 0,0:02:33.53,0:02:36.74,orig,L_31,0,0,0,karaoke,{\ko38}Shout {\ko15}till {\ko22}the {\ko37}end! {\ko22}This {\ko21}bla{\ko10}ze {\ko12}is {\ko27}my {\ko26}sal{\ko10}{\ko29}va{\ko52}tion!
-Comment: 0,0:02:33.53,0:02:36.74,ts,____ ,0,0,0,karaoke,咆哮 直至终焉 此身为 救世烈焰
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:de-DE,0,0,0,karaoke,Schrei bis zum Ende! Dieser Brand ist meine Erlösung!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:es-ES,0,0,0,karaoke,¡Grita hasta el final! ¡Esta llama es mi salvación!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:fr-FR,0,0,0,karaoke,Crie jusqu'au bout! Ces flammes sont mon salut!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:id-ID,0,0,0,karaoke,Berserulah hingga akhir! Api ini penebusanku!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:ja-JP,0,0,0,karaoke,物語の終焉まで咆哮を枯らすな この烈火は僕を救うだろう
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:ko-KR,0,0,0,karaoke,끝까지 외쳐라! 이 불길이 바로 나의 구원이니!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:pt-BR,0,0,0,karaoke,Grite até o fim! Esta chama é a minha salvação!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:ru-RU,0,0,0,karaoke,Кричи до конца! Это пламя - моё искупление!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:th-TH,0,0,0,karaoke,คำรามไปจนถึงบทสุดท้าย! เปลวเพลิงนี้คือการไถ่บาปของฉัน!
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:vi-VN,0,0,0,karaoke,Gầm thét đến tận cùng, thân này là ngọn lửa cứu thế
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:zh-CN,0,0,0,karaoke,咆哮 直至终焉 此身为 救世烈焰
+Comment: 0,0:02:33.53,0:02:36.74,ts,x-lang:zh-TW,0,0,0,karaoke,咆哮 直至終焉 此身為 救世烈焰
 Comment: 0,0:02:36.83,0:02:40.28,orig,L_32,0,0,0,karaoke,{\ko35}Sword {\ko11}in {\ko20}the {\ko48}wind! {\ko7}I {\ko29}stri{\ko22}ke wi{\ko30}thout {\ko33}dam{\ko26}na{\ko84}tion!
-Comment: 0,0:02:36.83,0:02:40.28,ts,____ ,0,0,0,karaoke,侵晨作剑 再创世 无毁信念
-Comment: 0,0:02:40.45,0:02:46.55,orig,L_33,0,0,0,karaoke,{\ko43}Sha{\ko9}tter {\ko9}the {\ko17}s{\ko58}ki{\ko18}es!{\ko14} {\ko25}No {\ko82}fate{\ko0},{\ko24} {\ko28}no {\ko71}king{\ko0},{\ko15} {\ko35}no {\ko162}god!
-Comment: 0,0:02:40.45,0:02:46.55,ts,____ ,0,0,0,karaoke,破晓星天 轮回 命运 乌有
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:de-DE,0,0,0,karaoke,Schwert in dem Wind! Ich schlage zu, ohne Scheu!
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:es-ES,0,0,0,karaoke,¡Espada en el viento! ¡Ataco sin condenación!
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:fr-FR,0,0,0,karaoke,Lame dans le vent! Je frappe, libre et absolu
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:id-ID,0,0,0,karaoke,Pedang di tengah angin! Aku menghantam tanpa penyesalan!
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:ja-JP,0,0,0,karaoke,この剣は風すらも裂く 神託は意味をなさない
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:ko-KR,0,0,0,karaoke,바람을 가르는 검! 후회 없이 휘두르리!
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:pt-BR,0,0,0,karaoke,Espada no vento! Eu golpeio sem condenação!
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:ru-RU,0,0,0,karaoke,Острый меч рассекает ветер! Я наношу удар, не слушая пророчество!
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:th-TH,0,0,0,karaoke,แกว่งดาบกลางสายลม! ฉันฟาดฟันโดยไม่สนคำพิพากษา
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:vi-VN,0,0,0,karaoke,Thanh kiếm Bình Minh Khởi Sáng, tái sáng thế, niềm tin không thể phá hủy
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:zh-CN,0,0,0,karaoke,侵晨作剑 再创世 无毁信念
+Comment: 0,0:02:36.83,0:02:40.28,ts,x-lang:zh-TW,0,0,0,karaoke,侵晨作劍 再創世 無毀信念
+Comment: 0,0:02:40.45,0:02:46.55,orig,L_33,0,0,0,karaoke,{\ko43}Sha{\ko9}tter {\ko9}the {\ko17}s{\ko58}ki{\ko18}es!{\ko14} {\ko25}No {\ko82}fate{\ko24\-Z}, {\ko28}no {\ko71}king{\ko15\-Z}, {\ko35}no {\ko162}god!
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:de-DE,0,0,0,karaoke,Zerschmettere den Himmel! Kein Schicksal, kein König, kein Gott!
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:es-ES,0,0,0,karaoke,¡Rompe los cielos! ¡No hay destino, ni rey, ni dios!
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:fr-FR,0,0,0,karaoke,Brise les cieux! Plus de destin, roi ou dieu
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:id-ID,0,0,0,karaoke,Hancurkan langit! Tiada takdir, tiada raja, tiada dewa!
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:ja-JP,0,0,0,karaoke,あの蒼穹を貫き 運命も 王も 神さえも
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:ko-KR,0,0,0,karaoke,창공을 부숴라! 운명도, 왕도, 신도 없을 것이니
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:pt-BR,0,0,0,karaoke,Estilhaça os céus! Sem destino, sem rei, sem divindade!
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:ru-RU,0,0,0,karaoke,Разбей небосвод! Нет судьбы! Нет правителей! Нет богов!
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:th-TH,0,0,0,karaoke,และจะทลายซึ่งท้องฟ้า! โชคชะตาก็ดี ราชาก็ช่าง หรือจะเทพเจ้าก็ตาม!
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:vi-VN,0,0,0,karaoke,Phá vỡ bầu trời! Luân hồi, vận mệnh, đều hóa hư vô
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:zh-CN,0,0,0,karaoke,破晓星天 轮回 命运 乌有
+Comment: 0,0:02:40.45,0:02:46.55,ts,x-lang:zh-TW,0,0,0,karaoke,破曉星天 輪迴 命運 烏有
 Comment: 0,0:02:46.66,0:02:48.97,orig,L_34,0,0,0,karaoke,{\kf31}Fall {\kf36}to {\kf34}my {\kf130}name!
-Comment: 0,0:02:46.66,0:02:48.97,ts,____ ,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:de-DE,0,0,0,karaoke,Fallt nieder vor meinem Namen!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:es-ES,0,0,0,karaoke,¡Sométete ante mi nombre!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:fr-FR,0,0,0,karaoke,Ploie sous mon nom!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:id-ID,0,0,0,karaoke,Tunduklah pada keagunganku!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:ja-JP,0,0,0,karaoke,この名に跪かせるんだ！
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에 무릎 꿇으라!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:pt-BR,0,0,0,karaoke,Caiam diante do meu nome!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:ru-RU,0,0,0,karaoke,Покорись мне!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:th-TH,0,0,0,karaoke,จงสยบต่อชื่อของฉัน!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:vi-VN,0,0,0,karaoke,Cúi đầu trước ta!
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:zh-CN,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:46.66,0:02:48.97,ts,x-lang:zh-TW,0,0,0,karaoke,向我俯首！
 Comment: 0,0:02:49.82,0:02:53.05,orig,L_35,0,0,0,karaoke,{\kf38}Fall {\kf31}to {\kf32}my {\kf222}name!
-Comment: 0,0:02:49.82,0:02:53.05,ts,____ ,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:de-DE,0,0,0,karaoke,Fallt nieder vor meinem Namen!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:es-ES,0,0,0,karaoke,¡Sométete ante mi nombre!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:fr-FR,0,0,0,karaoke,Ploie sous mon nom!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:id-ID,0,0,0,karaoke,Tunduklah pada keagunganku!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:ja-JP,0,0,0,karaoke,この名に跪かせるんだ！
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에 무릎 꿇으라!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:pt-BR,0,0,0,karaoke,Caiam diante do meu nome!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:ru-RU,0,0,0,karaoke,Покорись мне!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:th-TH,0,0,0,karaoke,จงสยบต่อชื่อของฉัน!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:vi-VN,0,0,0,karaoke,Cúi đầu trước ta!
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:zh-CN,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:49.82,0:02:53.05,ts,x-lang:zh-TW,0,0,0,karaoke,向我俯首！
 Comment: 0,0:02:53.11,0:02:55.48,orig,L_36,0,0,0,karaoke,{\kf38}Fall {\kf32}to{\kf8} {\kf30}my{\kf12} {\kf117}name!
-Comment: 0,0:02:53.11,0:02:55.48,ts,____ ,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:de-DE,0,0,0,karaoke,Fallt nieder vor meinem Namen!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:es-ES,0,0,0,karaoke,¡Sométete ante mi nombre!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:fr-FR,0,0,0,karaoke,Ploie sous mon nom!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:id-ID,0,0,0,karaoke,Tunduklah pada keagunganku!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:ja-JP,0,0,0,karaoke,この名に跪かせるんだ！
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에 무릎 꿇으라!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:pt-BR,0,0,0,karaoke,Caiam diante do meu nome!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:ru-RU,0,0,0,karaoke,Покорись мне!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:th-TH,0,0,0,karaoke,จงสยบต่อชื่อของฉัน!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:vi-VN,0,0,0,karaoke,Cúi đầu trước ta!
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:zh-CN,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:53.11,0:02:55.48,ts,x-lang:zh-TW,0,0,0,karaoke,向我俯首！
 Comment: 0,0:02:56.33,0:02:59.53,orig,L_37,0,0,0,karaoke,{\kf34}Fall {\kf41}to {\kf33}my {\kf212}name!
-Comment: 0,0:02:56.33,0:02:59.53,ts,____ ,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:de-DE,0,0,0,karaoke,Fallt nieder vor meinem Namen!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:es-ES,0,0,0,karaoke,¡Sométete ante mi nombre!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:fr-FR,0,0,0,karaoke,Ploie sous mon nom!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:id-ID,0,0,0,karaoke,Tunduklah pada keagunganku!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:ja-JP,0,0,0,karaoke,この名に跪かせるんだ！
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에 무릎 꿇으라!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:pt-BR,0,0,0,karaoke,Caiam diante do meu nome!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:ru-RU,0,0,0,karaoke,Покорись мне!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:th-TH,0,0,0,karaoke,จงสยบต่อชื่อของฉัน!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:vi-VN,0,0,0,karaoke,Cúi đầu trước ta!
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:zh-CN,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:56.33,0:02:59.53,ts,x-lang:zh-TW,0,0,0,karaoke,向我俯首！
 Comment: 0,0:02:59.57,0:03:02.31,orig,L_38,0,0,0,karaoke,{\ko42}Fall {\ko26}to {\ko41}my {\ko165}name!
-Comment: 0,0:02:59.57,0:03:02.31,ts,____ ,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:de-DE,0,0,0,karaoke,Fallt nieder vor meinem Namen!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:es-ES,0,0,0,karaoke,¡Sométete ante mi nombre!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:fr-FR,0,0,0,karaoke,Ploie sous mon nom!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:id-ID,0,0,0,karaoke,Tunduklah pada keagunganku!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:ja-JP,0,0,0,karaoke,この名に跪かせるんだ！
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에 무릎 꿇으라!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:pt-BR,0,0,0,karaoke,Caiam diante do meu nome!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:ru-RU,0,0,0,karaoke,Покорись мне!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:th-TH,0,0,0,karaoke,จงสยบต่อชื่อของฉัน!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:vi-VN,0,0,0,karaoke,Cúi đầu trước ta!
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:zh-CN,0,0,0,karaoke,向我俯首！
+Comment: 0,0:02:59.57,0:03:02.31,ts,x-lang:zh-TW,0,0,0,karaoke,向我俯首！
 Comment: 0,0:03:03.10,0:03:06.02,orig,L_39,0,0,0,karaoke,{\ko72}Fall{\ko11} {\ko37}to {\ko25}my{\ko10} {\ko137}name!
-Comment: 0,0:03:03.10,0:03:06.02,ts,____ ,0,0,0,karaoke,向我俯首！
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:de-DE,0,0,0,karaoke,Fallt nieder vor meinem Namen!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:es-ES,0,0,0,karaoke,¡Sométete ante mi nombre!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:fr-FR,0,0,0,karaoke,Ploie sous mon nom!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:id-ID,0,0,0,karaoke,Tunduklah pada keagunganku!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:ja-JP,0,0,0,karaoke,この名に跪かせるんだ！
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에 무릎 꿇으라!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:pt-BR,0,0,0,karaoke,Caiam diante do meu nome!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:ru-RU,0,0,0,karaoke,Покорись мне!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:th-TH,0,0,0,karaoke,จงสยบต่อชื่อของฉัน!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:vi-VN,0,0,0,karaoke,Cúi đầu trước ta!
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:zh-CN,0,0,0,karaoke,向我俯首！
+Comment: 0,0:03:03.10,0:03:06.02,ts,x-lang:zh-TW,0,0,0,karaoke,向我俯首！
 Comment: 0,0:03:06.79,0:03:08.62,orig,L_40,0,0,0,karaoke,{\kf16}… {\kf28}my{\kf9} {\kf130}name!
-Comment: 0,0:03:06.79,0:03:08.62,ts,____ ,0,0,0,karaoke,向 我
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:de-DE,0,0,0,karaoke,Vor... meinem
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:es-ES,0,0,0,karaoke,Ante mi...
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:fr-FR,0,0,0,karaoke,Sous... mon
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:id-ID,0,0,0,karaoke,Pada... keagungan
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:ja-JP,0,0,0,karaoke,この名に…
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에...
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:pt-BR,0,0,0,karaoke,Diante do...
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:ru-RU,0,0,0,karaoke,Мне...
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:th-TH,0,0,0,karaoke,ต่อ...ชื่อ
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:vi-VN,0,0,0,karaoke,trước... ta
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:zh-CN,0,0,0,karaoke,向 我
+Comment: 0,0:03:06.79,0:03:08.62,ts,x-lang:zh-TW,0,0,0,karaoke,向 我
 Comment: 0,0:03:09.16,0:03:17.53,orig,L_41,0,0,0,karaoke,{\kf53}Fall{\kf10} {\kf35}to{\kf11} {\kf39}my {\kf689}name!
-Comment: 0,0:03:09.16,0:03:17.53,ts,____ ,0,0,0,karaoke,向我俯首！
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:de-DE,0,0,0,karaoke,Fallt nieder vor meinem Namen!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:es-ES,0,0,0,karaoke,¡Sométete ante mi nombre!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:fr-FR,0,0,0,karaoke,Ploie sous mon nom!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:id-ID,0,0,0,karaoke,Tunduklah pada keagunganku!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:ja-JP,0,0,0,karaoke,この名に跪かせるんだ！
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:ko-KR,0,0,0,karaoke,내 이름 앞에 무릎 꿇으라!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:pt-BR,0,0,0,karaoke,Caiam diante do meu nome!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:ru-RU,0,0,0,karaoke,Покорись мне!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:th-TH,0,0,0,karaoke,จงสยบต่อชื่อของฉัน!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:vi-VN,0,0,0,karaoke,Cúi đầu trước ta!
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:zh-CN,0,0,0,karaoke,向我俯首！
+Comment: 0,0:03:09.16,0:03:17.53,ts,x-lang:zh-TW,0,0,0,karaoke,向我俯首！
 Comment: 0,0:03:18.13,0:03:18.94,orig,,0,0,0,meta,{\kf22}人{\kf14}声{\kf0} {\kf15}Vocal {\kf14}Artist：{\kf14}YMIR
 Comment: 0,0:03:18.94,0:03:20.62,orig,,0,0,0,meta,{\kf15}制{\kf14}谱{\kf0} {\kf14}Music {\kf15}Copyist：{\kf15}吴{\kf16}泽{\kf14}熙{\kf0} {\kf15}Jersey {\kf15}Wu ({\kf15}HOYO-{\kf16}MiX)
 Comment: 0,0:03:20.62,0:03:22.50,orig,,0,0,0,meta,{\kf16}电{\kf16}吉{\kf15}他{\kf0} {\kf15}Electric {\kf15}Guitar：{\kf15}宫{\kf16}奇{\kf51}Gon ({\kf2}HOYO-{\kf3}MiX)/{\kf3}程{\kf3}子{\kf3}岂{\kf4}SevenOranges/{\kf2}陈{\kf3}义
