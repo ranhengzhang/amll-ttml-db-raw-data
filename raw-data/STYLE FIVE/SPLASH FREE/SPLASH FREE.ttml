@@ -2,6 +2,7 @@
   <head>
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
+      <amll:meta key="ttmlAuthorGithub" value="68000793" />
       <amll:meta key="musicName" value="SPLASH FREE" />
       <amll:meta key="artists" value="STYLE FIVE" />
       <amll:meta key="album" value="Free! STYLE FIVE BEST ALBUM～Timeless Blue～" />
@@ -9,7 +10,6 @@
       <amll:meta key="spotifyId" value="1s5NxPAmKw8IxkSoZLfhgF" />
       <amll:meta key="spotifyId" value="59nxgbq4fedSUnZreYEaFF" />
       <amll:meta key="isrc" value="JPI101301579" />
-      <amll:meta key="ttmlAuthorGithub" value="68000793" />
       <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
     </metadata>
   </head>
@@ -174,7 +174,6 @@
         <span begin="00:37.295" end="00:37.565">い</span>
         <span ttm:role="x-roman">bu re na i hi ga na i ku ra i</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">几乎没有不迷茫的日子</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">几乎不存在</span>
         <span ttm:role="x-bg" begin="00:36.905" end="00:38.385">
           <span begin="00:36.905" end="00:37.235">(な</span>
           <span begin="00:37.235" end="00:37.335">い</span>
@@ -182,6 +181,7 @@
           <span begin="00:37.625" end="00:38.165">ら</span>
           <span begin="00:38.165" end="00:38.385">い)</span>
           <span ttm:role="x-roman">na i ku ra i</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">几乎不存在</span>
         </span>
       </p>
       <p begin="00:38.115" end="00:41.675" ttm:agent="v1" itunes:key="L11">
@@ -212,7 +212,6 @@
         <span begin="00:44.165" end="00:44.845">は</span>
         <span ttm:role="x-roman">shi ko u sa ku go no sho u ri tsu wa</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">反复试错的胜率</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">在未来</span>
         <span ttm:role="x-bg" begin="00:44.475" end="00:45.605">
           <span begin="00:44.475" end="00:44.665">(In</span>
           <span begin="00:44.665" end="00:44.665"> </span>
@@ -220,6 +219,7 @@
           <span begin="00:44.815" end="00:44.815"> </span>
           <span begin="00:44.815" end="00:45.115">fu</span>
           <span begin="00:45.115" end="00:45.605">ture)</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">在未来</span>
         </span>
       </p>
       <p begin="00:45.425" end="00:49.205" ttm:agent="v1" itunes:key="L13">
@@ -231,7 +231,6 @@
         <span begin="00:47.055" end="00:48.015">ろ</span>
         <span ttm:role="x-roman">a to de i i da ro</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">之后再说吧</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">所以放轻松</span>
         <span ttm:role="x-bg" begin="00:46.875" end="00:49.205">
           <span begin="00:46.875" end="00:47.265">(So,</span>
           <span begin="00:47.265" end="00:47.265"> </span>
@@ -242,6 +241,7 @@
           <span begin="00:47.935" end="00:48.445">sy,</span>
           <span begin="00:48.445" end="00:48.445"> </span>
           <span begin="00:48.445" end="00:49.205">ah)</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">所以放轻松</span>
         </span>
       </p>
       <p begin="00:49.175" end="00:52.935" ttm:agent="v1" itunes:key="L14">
@@ -250,7 +250,6 @@
         <span begin="00:50.755" end="00:51.585">て</span>
         <span ttm:role="x-roman">u ru o shi te</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">浸润吧</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">划水的指间</span>
         <span ttm:role="x-bg" begin="00:50.925" end="00:52.935">
           <span begin="00:50.925" end="00:51.365">(水</span>
           <span begin="00:51.365" end="00:51.495">を</span>
@@ -259,6 +258,7 @@
           <span begin="00:51.945" end="00:52.395">指</span>
           <span begin="00:52.395" end="00:52.935">に)</span>
           <span ttm:role="x-roman">mi zu wo ka ku yu bi ni</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">划水的指间</span>
         </span>
       </p>
       <p begin="00:52.655" end="00:56.835" ttm:agent="v1" itunes:key="L15">
@@ -272,7 +272,6 @@
         <span begin="00:54.425" end="00:55.525">tion</span>
         <span ttm:role="x-roman">na ka re ko mu emotion</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">涌入的情感</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">填满干渴</span>
         <span ttm:role="x-bg" begin="00:54.945" end="00:56.835">
           <span begin="00:54.945" end="00:55.245">(渇</span>
           <span begin="00:55.245" end="00:55.465">き</span>
@@ -281,6 +280,7 @@
           <span begin="00:55.905" end="00:56.065">た</span>
           <span begin="00:56.065" end="00:56.835">せ)</span>
           <span ttm:role="x-roman">ka wa ki wo mi ta se</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">填满干渴</span>
         </span>
       </p>
       <p begin="00:56.505" end="00:59.425" ttm:agent="v1" itunes:key="L16">
@@ -464,13 +464,13 @@
         <span begin="01:38.635" end="01:39.385">ろ</span>
         <span ttm:role="x-roman">mu ki ni na ru hi mo a ru da ro</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">也有较真的时候吧</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">存在的吧</span>
         <span ttm:role="x-bg" begin="01:38.835" end="01:40.315">
           <span begin="01:38.835" end="01:39.105">(あ</span>
           <span begin="01:39.105" end="01:39.225">る</span>
           <span begin="01:39.335" end="01:39.515">だ</span>
           <span begin="01:39.515" end="01:40.315">ろ)</span>
           <span ttm:role="x-roman">a ru da ro</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">存在的吧</span>
         </span>
       </p>
       <p begin="01:39.995" end="01:43.455" ttm:agent="v1" itunes:key="L28">
@@ -500,7 +500,6 @@
         <span begin="01:46.105" end="01:46.655">か</span>
         <span ttm:role="x-roman">ra kka n te ki na u wa be to ka</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">那些乐观的表面</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">我明白</span>
         <span ttm:role="x-bg" begin="01:46.325" end="01:47.405">
           <span begin="01:46.325" end="01:46.535">(I</span>
           <span begin="01:46.535" end="01:46.535"> </span>
@@ -510,6 +509,7 @@
           <span begin="01:46.825" end="01:47.065">I</span>
           <span begin="01:47.065" end="01:47.065"> </span>
           <span begin="01:47.065" end="01:47.405">know)</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">我明白</span>
         </span>
       </p>
       <p begin="01:47.285" end="01:51.035" ttm:agent="v1" itunes:key="L30">
@@ -521,7 +521,6 @@
         <span begin="01:48.875" end="01:49.525">て</span>
         <span ttm:role="x-roman">u ra ya n da ri shi te</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">也曾羡慕过</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">但永远为时不晚啊</span>
         <span ttm:role="x-bg" begin="01:48.895" end="01:51.035">
           <span begin="01:48.895" end="01:49.175">(But,</span>
           <span begin="01:49.175" end="01:49.175"> </span>
@@ -534,6 +533,7 @@
           <span begin="01:50.175" end="01:50.345">,</span>
           <span begin="01:50.345" end="01:50.345"> </span>
           <span begin="01:50.345" end="01:51.035">ah)</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">但永远为时不晚啊</span>
         </span>
       </p>
       <p begin="01:50.965" end="01:54.805" ttm:agent="v1" itunes:key="L31">
@@ -542,7 +542,6 @@
         <span begin="01:52.695" end="01:53.345">に</span>
         <span ttm:role="x-roman">tsu ma sa ki ni</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">脚尖</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">早于感知之前</span>
         <span ttm:role="x-bg" begin="01:52.855" end="01:54.805">
           <span begin="01:52.855" end="01:53.095">(感</span>
           <span begin="01:53.095" end="01:53.205">じ</span>
@@ -552,6 +551,7 @@
           <span begin="01:53.705" end="01:54.305">先</span>
           <span begin="01:54.305" end="01:54.805">に)</span>
           <span ttm:role="x-roman">ka n ji ru yo ri sa ki ni</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">早于感知之前</span>
         </span>
       </p>
       <p begin="01:54.465" end="01:58.765" ttm:agent="v1" itunes:key="L32">
@@ -564,7 +564,6 @@
         <span begin="01:56.285" end="01:57.295">tion</span>
         <span ttm:role="x-roman">tsu gi no vibration</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">下一波律动</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">已然察觉</span>
         <span ttm:role="x-bg" begin="01:56.835" end="01:58.765">
           <span begin="01:56.835" end="01:56.995">(気</span>
           <span begin="01:56.995" end="01:57.155">づ</span>
@@ -574,6 +573,7 @@
           <span begin="01:57.785" end="01:57.915">ま</span>
           <span begin="01:58.065" end="01:58.765">う)</span>
           <span ttm:role="x-roman">ki du i te shi ma u</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">已然察觉</span>
         </span>
       </p>
       <p begin="01:58.455" end="02:02.235" ttm:agent="v1" itunes:key="L33">
@@ -583,7 +583,6 @@
         <span begin="02:00.135" end="02:00.705">た</span>
         <span ttm:role="x-roman">chu u cho shi ta</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">曾经犹豫的</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">往昔的自己</span>
         <span ttm:role="x-bg" begin="02:00.625" end="02:02.235">
           <span begin="02:00.625" end="02:00.765">(い</span>
           <span begin="02:00.765" end="02:00.845">つ</span>
@@ -592,6 +591,7 @@
           <span begin="02:01.315" end="02:01.575">自</span>
           <span begin="02:01.575" end="02:02.235">分)</span>
           <span ttm:role="x-roman">i tsu ka no ji bu n</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">往昔的自己</span>
         </span>
       </p>
       <p begin="02:02.055" end="02:07.705" ttm:agent="v1" itunes:key="L34">
@@ -606,7 +606,6 @@
         <span begin="02:04.615" end="02:05.205">け</span>
         <span ttm:role="x-roman">ka ge wo to bi ko e te i ke</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">飞越那道阴影前行吧</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">只存于此刻的浪潮</span>
         <span ttm:role="x-bg" begin="02:04.405" end="02:07.705">
           <span begin="02:04.405" end="02:04.965">(今</span>
           <span begin="02:04.965" end="02:05.315">し</span>
@@ -617,6 +616,7 @@
           <span begin="02:06.015" end="02:07.515">wa</span>
           <span begin="02:07.515" end="02:07.705">ve)</span>
           <span ttm:role="x-roman">i ma shi ka na i wave</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">只存于此刻的浪潮</span>
         </span>
       </p>
       <p begin="02:05.505" end="02:10.955" ttm:agent="v1" itunes:key="L35">
@@ -628,7 +628,6 @@
         <span begin="02:08.155" end="02:08.315">い</span>
         <span ttm:role="x-roman">ma mo ri ki re na i</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">无法完全守护</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">如同踢水般</span>
         <span ttm:role="x-bg" begin="02:07.825" end="02:10.955">
           <span begin="02:07.825" end="02:08.235">(水</span>
           <span begin="02:08.235" end="02:08.345">を</span>
@@ -638,6 +637,7 @@
           <span begin="02:09.025" end="02:09.235">う</span>
           <span begin="02:09.235" end="02:10.955">に)</span>
           <span ttm:role="x-roman">mi zu wo ke ru yo u ni</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">如同踢水般</span>
         </span>
       </p>
       <p begin="02:09.435" end="02:14.735" ttm:agent="v1" itunes:key="L36">
@@ -654,7 +654,6 @@
         <span begin="02:12.835" end="02:13.215">だ</span>
         <span ttm:role="x-roman">ge n ji tsu mi no na i pride na n da</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">那是不切实际的飞溅</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">若用平滑的线条</span>
         <span ttm:role="x-bg" begin="02:11.815" end="02:14.735">
           <span begin="02:11.815" end="02:12.115">(滑</span>
           <span begin="02:12.115" end="02:12.325">ら</span>
@@ -663,6 +662,7 @@
           <span begin="02:12.725" end="02:13.295">線</span>
           <span begin="02:13.295" end="02:14.735">で)</span>
           <span ttm:role="x-roman">na me ra ka na se n de</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">若用平滑的线条</span>
         </span>
       </p>
       <p begin="02:13.405" end="02:18.965" ttm:agent="v1" itunes:key="L37">
@@ -682,7 +682,6 @@
         <span begin="02:16.755" end="02:17.295">ぜ</span>
         <span ttm:role="x-roman">sa i ze n no tsu ma ri ja chi i sa ku na ru ze</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">自以为最优解只会愈发渺小</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">来吧</span>
         <span ttm:role="x-bg" begin="02:15.125" end="02:18.965">
           <span begin="02:15.125" end="02:15.355">(Wo-</span>
           <span begin="02:15.355" end="02:15.575">o-</span>
@@ -691,6 +690,7 @@
           <span begin="02:16.925" end="02:17.275">さ</span>
           <span begin="02:17.275" end="02:18.965">あ)</span>
           <span ttm:role="x-roman">wo-o-oh sa a</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">来吧</span>
         </span>
       </p>
       <p begin="02:17.445" end="02:20.105" ttm:agent="v1" itunes:key="L38">
