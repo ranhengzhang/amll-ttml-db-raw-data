@@ -2,14 +2,16 @@
   <head>
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
-      <amll:meta key="ttmlAuthorGithub" value="68000793" />
       <amll:meta key="musicName" value="SPLASH FREE" />
       <amll:meta key="artists" value="STYLE FIVE" />
       <amll:meta key="album" value="Free! STYLE FIVE BEST ALBUM～Timeless Blue～" />
       <amll:meta key="album" value="SPLASH FREE" />
       <amll:meta key="spotifyId" value="1s5NxPAmKw8IxkSoZLfhgF" />
       <amll:meta key="spotifyId" value="59nxgbq4fedSUnZreYEaFF" />
+      <amll:meta key="appleMusicId" value="1699822045" />
+      <amll:meta key="appleMusicId" value="1584335402" />
       <amll:meta key="isrc" value="JPI101301579" />
+      <amll:meta key="ttmlAuthorGithub" value="68000793" />
       <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
     </metadata>
   </head>
