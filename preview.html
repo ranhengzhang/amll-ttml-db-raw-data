@@ -79,7 +79,7 @@
         }
         html:has(div[xmlns])::before {
             content: '下 ↓ 滑';
-            color: #fff;
+            color: #000;
             position: absolute;
             top: 40vw;
             width: 100%;
@@ -89,6 +89,7 @@
             /* background-image: linear-gradient(180deg, #fff 75vw, #000 95vw); */
             background-color: #000;
             padding-top: calc(100vw + 10vh);
+            background-image: linear-gradient(180deg, white 80vw, transparent 100vw);
         }
         body > div {
             padding: 8vh 8vw;
@@ -130,10 +131,24 @@
             font-family: 'Manrope', 'M PLUS 2';
         }
         span[ttm\:role="x-translation"] {
-            font-family: 'Comfortaa Medium', 'HarmonyOS Sans SC';
+            font-family: 'Comfortaa Medium', 'Kantumruy Pro', 'HarmonyOS Sans SC', 'vivo Sans';
         }
         span[ttm\:role="x-translation"][xml\:lang="ja-JP"] {
             font-family: 'Comfortaa Medium', 'Zen Maru Gothic';
+        }
+        span[ttm\:role="x-translation"][xml\:lang="ko-KR"] {
+            font-family: 'Comfortaa Medium', 'Gothic A1';
+        }
+        span[ttm\:role="x-translation"][xml\:lang="zh-TW"] {
+            font-family: 'Comfortaa Medium', 'HarmonyOS Sans TC';
+        }
+        span[ttm\:role="x-translation"][xml\:lang="th-TH"] {
+            font-family: 'Comfortaa Medium', 'Playpen Sans Thai Regular';
+        }
+        span[ttm\:role]{
+            border-top: 1px solid #ccc;
+            padding-top: .2em;
+            padding-bottom: .2em;
         }
         span[ttm\:role="x-roman"] {
             font-family: 'Raleway-v4020', 'vivo Sans';
