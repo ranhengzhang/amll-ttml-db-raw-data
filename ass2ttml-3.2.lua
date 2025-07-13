@@ -8,8 +8,8 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.7"
-script_modified = "2025-06-03"
+script_version = "0.8"
+script_modified = "2025-07-13"
 
 include("karaskel.lua")
 
@@ -38,6 +38,7 @@ local title = "";
 local script_offset = 0;
 
 function pre_process(subtitles)
+    local is_bg = false
     local subs = {}
     local meta, styles = karaskel.collect_head(subtitles, true)
 
@@ -53,15 +54,21 @@ function pre_process(subtitles)
         else
             if line.effect == "" or line.effect == "karaoke" then
                 line.raw = line.raw:gsub('%s+', ' ')
+                line.text, _ = re.sub(line.text,
+                                      "(?<=\\\\-)([^\\}]+\\}[^\\}]+)(?=\\})",
+                                      "\\1\\\\-X")
                 karaskel.preproc_line_text(meta, styles, line)
-                if line.style == "orig" and line.actor:find("x-mark") ~= nil then -- 处理标记
-                    if line.actor:find("x-bg") ~= nil then
-                        add_mark(line.actor, #subs, true)
-                    else
-                        add_mark(line.actor, #subs + 1, false)
+                if line.style == "orig" then
+                    is_bg = line.actor:find("x-bg")
+                    if line.actor:find("x-mark") ~= nil then -- 处理标记
+                        if is_bg then
+                            add_mark(line.actor, #subs, true)
+                        else
+                            add_mark(line.actor, #subs + 1, false)
+                        end
                     end
                 end
-                if line.actor:find('x-bg') ~= nil then
+                if is_bg then
                     local parent_line = table.copy(subs[#subs])
                     if line.style == "orig" then
                         line.ts_line = {n = 0}
@@ -110,124 +117,184 @@ function time_to_string(time)
                          math.floor(time / 1000) % 60, time % 1000)
 end
 
+local optimize = false
 local split_space = false
 local merge_space = false
 local merge_symbol = false
 local pre_symbols = "([<（【〔［｛〈《｢「『“‘"
 
 function generate_kara(line)
-    local ttml = {}
+    local ttml = {n = 0}
 
     for i = 1, #line.kara do
         local syl = util.copy(line.kara[i])
         syl.text_stripped = xml_symbol(syl.text_stripped)
 
-        local space = nil
-        if split_space then
-            space = re.find(syl.text_stripped, "^(\\ |\\　)(?=.)")
-
-            if space then
-                syl.text_stripped =
-                    re.sub(syl.text_stripped, "^(\\ |\\　)", "")
-                local hole_time = time_to_string(syl.start_time +
-                                                     line.start_time)
-                table.insert(ttml, string.format('<span begin="%s" end="%s">',
-                                                 hole_time, hole_time))
-                table.insert(ttml, space[1].str)
-                table.insert(ttml, '</span>')
-            end
-
-            space = re.find(syl.text_stripped, "(?<=.)(\\ |\\　)$")
-            if space then
+        if syl.inline_fx == "text" or syl.inline_fx == "T" then
+            local hole_time = time_to_string(syl.start_time + line.start_time)
+            table.insert(ttml, string.format('<span begin="%s" end="%s">',
+                                             hole_time, hole_time))
+            table.insert(ttml, syl.text_stripped)
+            table.insert(ttml, '</span>')
+        elseif syl.inline_fx == "zero" or syl.inline_fx == "Z" then
+            local space = nil
+            if split_space then
+                space = re.find(syl.text_stripped, "(?<=.)(\\ |\\　)$")
                 syl.text_stripped =
                     re.sub(syl.text_stripped, "(\\ |\\　)$", "")
             end
-        end
-        if syl.duration == 0 then
-            if i < #line.kara and line.kara[i + 1].duration == 0 then -- 合并连续无时长音节
-                local next_syl = line.kara[i + 1]
-                next_syl.text_stripped =
-                    syl.text_stripped .. line.kara[i + 1].text_stripped
-                line.kara[i + 1] = next_syl
-                goto continue
+
+            local start_time = time_to_string(syl.start_time + line.start_time)
+            local end_time =
+                time_to_string(syl.start_time + line.start_time + 3)
+            ttml[ttml.n] = {
+                sbegin = start_time,
+                send = end_time,
+                stext = syl.text_stripped
+            }
+            ttml.n = ttml.n + 1
+            if split_space and space then
+                local hole_time = time_to_string(syl.end_time + line.start_time)
+                ttml[ttml.n] = {
+                    sbegin = hole_time,
+                    send = hole_time,
+                    stext = space[1].str
+                }
+                ttml.n = ttml.n + 1
             end
-            if unicode.len(syl.text_stripped:trim()) == 0 and merge_space then -- 合并时长为 0 的空格
-                if i == 1 and #line.kara > 2 then
-                    goto continue
-                else
-                    table.remove(ttml)
-                    table.insert(ttml, syl.text_stripped)
-                    table.insert(ttml, '</span>')
+        else
+            local space = nil
+            if split_space then
+                space = re.find(syl.text_stripped, "^(\\ |\\　)(?=.)")
+
+                if space then
+                    syl.text_stripped = re.sub(syl.text_stripped,
+                                               "^(\\ |\\　)", "")
+                    local hole_time = time_to_string(syl.start_time +
+                                                         line.start_time)
+                    ttml[ttml.n] = {
+                        sbegin = hole_time,
+                        send = hole_time,
+                        stext = space[1].str
+                    }
+                    ttml.n = ttml.n + 1
                 end
-            elseif unicode.len(syl.text_stripped:trim()) == 1 and merge_symbol then -- 合并时长为 0 的单个非空字符
-                if i == 1 and #line.kara > 2 then -- 首字符向后合并
-                    line.kara[2].text_stripped =
-                        syl.text_stripped .. line.kara[2].text_stripped
-                elseif i > 1 and i < #line.kara and
-                    pre_symbols:find(syl.text_stripped) ~= nil then -- 特殊字符向后合并
-                    line.kara[i + 1].text_stripped =
+
+                space = re.find(syl.text_stripped, "(?<=.)(\\ |\\　)$")
+                if space then
+                    syl.text_stripped = re.sub(syl.text_stripped,
+                                               "(\\ |\\　)$", "")
+                end
+            end
+            if syl.duration == 0 then
+                if i < #line.kara and line.kara[i + 1].duration == 0 then -- 合并连续无时长音节
+                    local next_syl = line.kara[i + 1]
+                    next_syl.text_stripped =
                         syl.text_stripped .. line.kara[i + 1].text_stripped
-                else
-                    table.remove(ttml)
-                    table.insert(ttml, syl.text_stripped)
-                    table.insert(ttml, '</span>')
+                    line.kara[i + 1] = next_syl
+                    goto continue
+                end
+                if unicode.len(syl.text_stripped:trim()) == 0 and merge_space then -- 合并时长为 0 的空格
+                    if i == 1 and #line.kara > 2 then
+                        goto continue
+                    else
+                        ttml[ttml.n - 1].stext =
+                            ttml[ttml.n - 1].stext .. syl.text_stripped
+                    end
+                elseif unicode.len(syl.text_stripped:trim()) == 1 and
+                    merge_symbol then -- 合并时长为 0 的单个非空字符
+                    if i == 1 and #line.kara > 2 then -- 首字符向后合并
+                        line.kara[2].text_stripped =
+                            syl.text_stripped .. line.kara[2].text_stripped
+                    elseif i > 1 and i < #line.kara and
+                        pre_symbols:find(syl.text_stripped) ~= nil then -- 特殊字符向后合并
+                        line.kara[i + 1].text_stripped =
+                            syl.text_stripped .. line.kara[i + 1].text_stripped
+                    else
+                        ttml[ttml.n - 1].stext =
+                            ttml[ttml.n - 1].stext .. syl.text_stripped
+                        if split_space and space then
+                            local hole_time =
+                                time_to_string(syl.end_time + line.start_time)
+                            ttml[ttml.n] = {
+                                sbegin = hole_time,
+                                send = hole_time,
+                                stext = space[1].str
+                            }
+                            ttml.n = ttml.n + 1
+                        end
+                    end
+                else -- 时长为 0 的不合并字符
+                    local start_time = time_to_string(syl.start_time +
+                                                          line.start_time)
+                    local end_time = time_to_string(syl.end_time +
+                                                        line.start_time)
+                    ttml[ttml.n] = {
+                        sbegin = start_time,
+                        send = end_time,
+                        stext = syl.text_stripped
+                    }
+                    ttml.n = ttml.n + 1
                     if split_space and space then
                         local hole_time =
                             time_to_string(syl.end_time + line.start_time)
-                        table.insert(ttml, string.format(
-                                         '<span begin="%s" end="%s">',
-                                         hole_time, hole_time))
-                        table.insert(ttml, space[1].str)
-                        table.insert(ttml, '</span>')
+                        ttml[ttml.n] = {
+                            sbegin = hole_time,
+                            send = hole_time,
+                            stext = space[1].str
+                        }
+                        ttml.n = ttml.n + 1
                     end
                 end
-            else -- 时长为 0 的不合并字符
+            elseif syl.text_stripped ~= '' then
+                if syl.duration == 0 and not (syl.text_stripped == ' ') then
+                    syl.end_time = syl.end_time + 3
+                end
+                if line.actor:find('x-bg') ~= nil and i == 1 then
+                    syl.text_stripped = '(' .. syl.text_stripped
+                end
+                if line.actor:find('x-bg') ~= nil and i == #line.kara then
+                    syl.text_stripped = syl.text_stripped .. ')'
+                end
+
                 local start_time = time_to_string(syl.start_time +
                                                       line.start_time)
                 local end_time = time_to_string(syl.end_time + line.start_time)
-                table.insert(ttml, string.format('<span begin="%s" end="%s">',
-                                                 start_time, end_time))
-                table.insert(ttml, syl.text_stripped)
-                table.insert(ttml, '</span>')
+                ttml[ttml.n] = {
+                    sbegin = start_time,
+                    send = end_time,
+                    stext = syl.text_stripped
+                }
+                ttml.n = ttml.n + 1
                 if split_space and space then
                     local hole_time = time_to_string(syl.end_time +
                                                          line.start_time)
-                    table.insert(ttml, string.format(
-                                     '<span begin="%s" end="%s">', hole_time,
-                                     hole_time))
-                    table.insert(ttml, space[1].str)
-                    table.insert(ttml, '</span>')
+                    ttml[ttml.n] = {
+                        sbegin = hole_time,
+                        send = hole_time,
+                        stext = space[1].str
+                    }
+                    ttml.n = ttml.n + 1
                 end
-            end
-        elseif syl.text_stripped ~= '' then
-            if syl.duration == 0 and not (syl.text_stripped == ' ') then
-                syl.end_time = syl.end_time + 3
-            end
-            if line.actor:find('x-bg') ~= nil and i == 1 then
-                syl.text_stripped = '(' .. syl.text_stripped
-            end
-            if line.actor:find('x-bg') ~= nil and i == #line.kara then
-                syl.text_stripped = syl.text_stripped .. ')'
-            end
-
-            local start_time = time_to_string(syl.start_time + line.start_time)
-            local end_time = time_to_string(syl.end_time + line.start_time)
-            table.insert(ttml, string.format('<span begin="%s" end="%s">',
-                                             start_time, end_time))
-            table.insert(ttml, syl.text_stripped)
-            table.insert(ttml, '</span>')
-            if split_space and space then
-                local hole_time = time_to_string(syl.end_time + line.start_time)
-                table.insert(ttml, string.format('<span begin="%s" end="%s">',
-                                                 hole_time, hole_time))
-                table.insert(ttml, space[1].str)
-                table.insert(ttml, '</span>')
             end
         end
         ::continue::
     end
 
-    return table.concat(ttml)
+    local text = {}
+
+    for i = 0, ttml.n - 1 do
+        local syl = ttml[i]
+        if optimize and (syl.sbegin == syl.send or syl.stext:trim() == "") then
+            table.insert(text, syl.stext)
+        else
+            table.insert(text,
+                         string.format('<span begin="%s" end="%s">%s</span>',
+                                       syl.sbegin, syl.send, syl.stext))
+        end
+    end
+
+    return table.concat(text)
 end
 
 function generate_line(line, n)
@@ -261,7 +328,7 @@ function generate_line(line, n)
 
     if line['roma_line'] ~= nil then
         ttml = ttml .. '<span ttm:role="x-roman">' ..
-                   xml_symbol(line['roma_line'].text) .. '</span>'
+                   xml_symbol(line['roma_line'].text:trim()) .. '</span>'
     end
     if line['ts_line'].n ~= 0 then
         for i = 1, line['ts_line'].n do
@@ -272,7 +339,7 @@ function generate_line(line, n)
             end
             ttml =
                 ttml .. '<span ttm:role="x-translation" xml:lang="' .. lang ..
-                    '">' .. xml_symbol(ts_line.text) .. '</span>'
+                    '">' .. xml_symbol(ts_line.text:trim()) .. '</span>'
         end
     end
     if line['bg_line'] ~= nil then
@@ -485,13 +552,13 @@ function script_main(subtitles)
             class = "label",
             label = "空格处理方式",
             name = "tag_space",
-            x = 19,
+            x = 18,
             y = 5,
             width = 1
         }, {
             class = "dropdown",
             name = "space",
-            x = 21,
+            x = 19,
             y = 5,
             width = 1,
             items = {"不处理", "合并", "拆分"},
@@ -500,7 +567,7 @@ function script_main(subtitles)
         {
             class = "checkbox",
             name = "symbol",
-            x = 33,
+            x = 30,
             y = 5,
             width = 1,
             value = true
@@ -508,6 +575,20 @@ function script_main(subtitles)
             class = "label",
             label = "合并单个(半/全角)标点",
             name = "tag_symbol",
+            x = 31,
+            y = 5,
+            width = 1
+        }, {
+            class = "checkbox",
+            name = "optimize",
+            x = 33,
+            y = 5,
+            width = 1,
+            value = false
+        }, {
+            class = "label",
+            label = "优化 TTML 结构",
+            name = "tag_optimize",
             x = 34,
             y = 5,
             width = 1
@@ -523,6 +604,7 @@ function script_main(subtitles)
     split_space = options["space"] == "拆分"
     merge_space = options["space"] == "合并"
     merge_symbol = options["symbol"]
+    optimize = options["optimize"]
 
     if #subs == 0 then aegisub.cancel() end
 
@@ -573,7 +655,7 @@ function script_main(subtitles)
                                               'D:/Users/LEGION/Desktop/amll-ttml-db-raw-data',
                                               (title or options.musicNames) ..
                                                   '.ttml',
-                                              'TTML files (.ttml)|.ttml')
+                                              'TTML files (*.ttml)|*.ttml')
         if ttml_file ~= nil then
             local file = assert(io.open(ttml_file, "w"))
             file:write(ttml)
