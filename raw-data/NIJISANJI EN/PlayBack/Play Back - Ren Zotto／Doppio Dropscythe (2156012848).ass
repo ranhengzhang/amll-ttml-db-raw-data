@@ -12,6 +12,8 @@ Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: roma-furigana,Raleway-v4020 ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
+Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
 Style: orig,阿里巴巴普惠体 3.0 65 Medium,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,2,10,10,10,1
 Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
 Style: orig-furigana,M PLUS 2 Medium,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,128
@@ -23,171 +25,171 @@ Dialogue: 0,0:00:00.00,0:00:00.66,orig,,0,0,0,meta,作曲 : TeddyLoid
 Dialogue: 0,0:00:00.66,0:00:01.33,orig,,0,0,0,meta,作词 : TeddyLoid
 Dialogue: 0,0:00:01.33,0:00:01.99,orig,,0,0,0,meta,编曲 : TeddyLoid
 Dialogue: 0,0:00:01.99,0:00:02.66,orig,,0,0,0,meta,制作人 : TeddyLoid
-Dialogue: 0,0:00:02.84,0:00:06.12,orig,,0,0,0,,{\kf27}Tell {\kf15}me {\kf22}wha{\kf16}t {\kf17}you {\kf39}need {\kf26}ba{\kf50}by {\kf116}yeah
-Dialogue: 0,0:00:02.84,0:00:06.12,ts,,0,0,0,,告诉我你想要什么，宝贝
-Dialogue: 0,0:00:09.96,0:00:13.03,orig,,0,0,0,,{\kf30}Tell {\kf24}me {\kf7}wha{\kf22}t {\kf13}you {\kf45}need {\kf23}ba{\kf38}by{\kf16} {\kf89}yeah
-Dialogue: 0,0:00:09.96,0:00:13.03,ts,,0,0,0,,告诉我你想要什么，宝贝
-Dialogue: 0,0:00:13.90,0:00:17.25,orig,,0,0,0,,{\kf42}Sa{\kf15}tis{\kf32}fa{\kf44}ction{\kf14}’s {\kf27}what {\kf21}I {\kf24}get {\kf20}ad{\kf43}dic{\kf53}ted
-Dialogue: 0,0:00:13.90,0:00:17.25,ts,,0,0,0,,满足感使我上瘾
-Dialogue: 0,0:00:17.53,0:00:18.85,orig,,0,0,0,,{\kf31}So {\kf11}a{\kf48}ffec{\kf36}te{\kf6}d
-Dialogue: 0,0:00:17.53,0:00:18.85,ts,,0,0,0,,深受影响
-Dialogue: 0,0:00:18.85,0:00:20.83,orig,,0,0,0,,{\kf34}And {\kf44}go {\kf43}round {\kf49}round {\kf28}round{\kf0}...
-Dialogue: 0,0:00:18.85,0:00:20.83,ts,,0,0,0,,因此旋转，缠绕，涌动
-Dialogue: 0,0:00:21.00,0:00:24.29,orig,,0,0,0,,{\kf22}As {\kf24}days {\kf20}go {\kf27}on{\kf0}, {\kf18}I {\kf24}thought {\kf21}that {\kf44}I {\kf39}won’t {\kf30}ri{\kf21}s{\kf13}k {\kf26}it
-Dialogue: 0,0:00:21.00,0:00:24.29,ts,,0,0,0,,日渐星移，我以为我不愿再冒险
-Dialogue: 0,0:00:24.52,0:00:28.72,orig,,0,0,0,,{\kf34}But {\kf18}I’m {\kf39}rea{\kf17}dy {\kf16}so {\kf16}s{\kf45}tea{\kf27}dy{\kf19}, {\kf40}now {\kf47}now {\kf45}now {\kf57}now
-Dialogue: 0,0:00:24.52,0:00:28.72,ts,,0,0,0,,但我已做好准备，此时此刻
-Dialogue: 0,0:00:29.24,0:00:31.99,orig,,0,0,0,,{\kf50}Ho{\kf6}p {\kf16}out {\kf11}to {\kf34}set {\kf17}us {\kf29}free {\kf34}from {\kf38}tra{\kf40}ps
-Dialogue: 0,0:00:29.24,0:00:31.99,ts,,0,0,0,,跳跃起来，让我们摆脱陷阱
-Dialogue: 0,0:00:31.77,0:00:32.36,orig,,0,0,0,,{\kf59}Yeah
-Dialogue: 0,0:00:31.77,0:00:32.36,ts,,0,0,0,,是的
-Dialogue: 0,0:00:32.83,0:00:36.09,orig,,0,0,0,,{\kf43}Come {\kf30}feel {\kf24}it{\kf0}, {\kf16}ma{\kf9}ke {\kf9}it {\kf34}real {\kf32}and {\kf49}true {\kf80}oh
-Dialogue: 0,0:00:32.83,0:00:36.09,ts,,0,0,0,,来感受，更真实的感受
-Dialogue: 0,0:00:35.29,0:00:36.09,orig,,0,0,0,,{\kf80}Ooh
-Dialogue: 0,0:00:35.29,0:00:36.09,ts,,0,0,0,,哦
-Dialogue: 0,0:00:36.47,0:00:38.87,orig,,0,0,0,,{\kf40}I {\kf30}know {\kf14}you{\kf8}’re {\kf13}u{\kf4}p {\kf7}to {\kf41}some{\kf46}thing {\kf37}new
-Dialogue: 0,0:00:36.47,0:00:38.87,ts,,0,0,0,,我知道，你正在感受新奇
-Dialogue: 0,0:00:39.11,0:00:41.06,orig,,0,0,0,,{\kf25}Let {\kf10}me {\kf41}show {\kf26}you{\kf0}, {\kf29}so {\kf41}hol{\kf6}d {\kf17}on
-Dialogue: 0,0:00:39.11,0:00:41.06,ts,,0,0,0,,让我袒露给你，所以，坚持住
-Dialogue: 0,0:00:41.06,0:00:43.16,orig,,0,0,0,,{\kf21}I{\kf8}’ve {\kf27}got {\kf27}thi{\kf18}s {\kf27}right {\kf82}now
-Dialogue: 0,0:00:41.06,0:00:43.16,ts,,0,0,0,,我现在就要得到
-Dialogue: 0,0:00:43.64,0:00:45.01,orig,,0,0,0,,{\kf14}Off {\kf13}with {\kf12}the {\kf39}chain{\kf10}s {\kf49}now
-Dialogue: 0,0:00:43.64,0:00:45.01,ts,,0,0,0,,现在解开束缚
-Dialogue: 0,0:00:45.01,0:00:46.56,orig,,0,0,0,,{\kf18}Di{\kf16}-lat{\kf28}-tat{\kf0}, {\kf16}Di{\kf26}-lat{\kf34}-ta{\kf17}t
-Dialogue: 0,0:00:45.01,0:00:46.56,ts,,0,0,0,,逐渐膨胀，不断放大
-Dialogue: 0,0:00:47.13,0:00:49.01,orig,,0,0,0,,{\kf34}Change {\kf9}of {\kf6}a {\kf34}heart {\kf30}for {\kf14}to{\kf61}night
-Dialogue: 0,0:00:47.13,0:00:49.01,ts,,0,0,0,,今晚改变心意
-Dialogue: 0,0:00:48.57,0:00:50.00,orig,,0,0,0,,{\kf15}Di{\kf24}-lat{\kf26}-tat{\kf0}, {\kf11}Di{\kf31}-lat{\kf36}-tat
-Dialogue: 0,0:00:48.57,0:00:50.00,ts,,0,0,0,,逐渐膨胀，不断放大
-Dialogue: 0,0:00:50.23,0:00:52.12,orig,,0,0,0,,{\kf25}Gi{\kf8}ve {\kf22}me {\kf20}that{\kf0}, {\kf22}give {\kf25}me {\kf22}that {\kf39}ba{\kf6}ss
-Dialogue: 0,0:00:50.23,0:00:52.12,ts,,0,0,0,,给我，给我那低吟
-Dialogue: 0,0:00:52.12,0:00:53.88,orig,,0,0,0,,{\kf21}Give {\kf24}me {\kf21}that{\kf0}, {\kf22}give {\kf23}me {\kf23}that {\kf42}ace
-Dialogue: 0,0:00:52.12,0:00:53.88,ts,,0,0,0,,给我，给我那招数
-Dialogue: 0,0:00:53.88,0:00:56.54,orig,,0,0,0,,{\kf22}My {\kf51}sweet {\kf12}e{\kf37}scape {\kf38}with {\kf106}you
-Dialogue: 0,0:00:53.88,0:00:56.54,ts,,0,0,0,,亲爱的，我们一起逃离
-Dialogue: 0,0:00:56.54,0:00:57.56,orig,,0,0,0,,{\kf25}Let{\kf25}’s {\kf52}go
-Dialogue: 0,0:00:56.54,0:00:57.56,ts,,0,0,0,,来吧
-Dialogue: 0,0:00:57.95,0:00:59.26,orig,,0,0,0,,{\kf31}Ah{\kf4}, {\kf31}Play {\kf23}back{\kf0}, {\kf22}play {\kf20}back{\kf0}...
-Dialogue: 0,0:00:57.95,0:00:59.26,ts,,0,0,0,,啊，重播，回放
-Dialogue: 0,0:00:59.44,0:01:01.52,orig,,0,0,0,,{\kf22}I{\kf6}’ve {\kf26}got {\kf19}a {\kf24}be{\kf11}tter {\kf38}fee{\kf62}ling
-Dialogue: 0,0:00:59.44,0:01:01.52,ts,,0,0,0,,我有更美妙的感受
-Dialogue: 0,0:01:01.52,0:01:02.86,orig,,0,0,0,,{\kf37}Ah{\kf0}, {\kf32}Play {\kf23}back{\kf0}, {\kf22}play {\kf20}back{\kf0}...
-Dialogue: 0,0:01:01.52,0:01:02.86,ts,,0,0,0,,啊，重播，回放
-Dialogue: 0,0:01:02.99,0:01:05.14,orig,,0,0,0,,{\kf28}So {\kf23}take {\kf32}my {\kf18}han{\kf11}d, i{\kf15}t’s {\kf27}for {\kf61}you
-Dialogue: 0,0:01:02.99,0:01:05.14,ts,,0,0,0,,抓住我的手，它是你的
-Dialogue: 0,0:01:05.35,0:01:06.77,orig,,0,0,0,,{\kf13}We {\kf7}could {\kf29}fly {\kf8}and {\kf21}run{\kf9}a{\kf55}way
-Dialogue: 0,0:01:05.35,0:01:06.77,ts,,0,0,0,,我们可以飞奔着逃脱
-Dialogue: 0,0:01:07.01,0:01:09.66,orig,,0,0,0,,{\kf24}Tell {\kf7}my {\kf20}heart {\kf5}to {\kf44}stay {\kf91}beating{\kf0}, {\kf74}beating
-Dialogue: 0,0:01:07.01,0:01:09.66,ts,,0,0,0,,让我的心继续跳动，跳动
-Dialogue: 0,0:01:09.69,0:01:11.81,orig,,0,0,0,,{\kf80}Wo{\kf47}-wo{\kf45}-wo{\kf43}-woah
-Dialogue: 0,0:01:09.69,0:01:11.81,ts,,0,0,0,,喔 喔 喔 喔
-Dialogue: 0,0:01:10.28,0:01:11.62,orig,,0,0,0,,{\kf53}Stay{\kf0}, {\kf43}stay{\kf0}, {\kf38}stay
-Dialogue: 0,0:01:10.28,0:01:11.62,ts,,0,0,0,,继续，逗留，坚持
-Dialogue: 0,0:01:11.81,0:01:14.48,orig,,0,0,0,,{\kf33}Wa{\kf10}ke {\kf19}u{\kf10}p {\kf13}and {\kf41}find {\kf21}me {\kf22}you{\kf4}’ll {\kf32}see {\kf62}it
-Dialogue: 0,0:01:11.81,0:01:14.48,ts,,0,0,0,,醒来后寻找我，你会明白的
-Dialogue: 0,0:01:14.75,0:01:18.21,orig,,0,0,0,,{\kf23}And {\kf14}I{\kf8}’m {\kf20}just {\kf70}tired {\kf9}of {\kf35}fin{\kf37}ding {\kf27}all {\kf37}mea{\kf66}nings
-Dialogue: 0,0:01:14.75,0:01:18.21,ts,,0,0,0,,我疲于寻找所有的意义
-Dialogue: 0,0:01:18.21,0:01:21.56,orig,,0,0,0,,{\kf28}So {\kf25}I’ll {\kf22}just {\kf35}ta{\kf23}ke {\kf12}us{\kf0}, {\kf16}you {\kf30}won’t {\kf43}nee{\kf5}d {\kf16}a {\kf27}rea{\kf53}son
-Dialogue: 0,0:01:18.21,0:01:21.56,ts,,0,0,0,,就让我引导我们，你不需要任何理由
-Dialogue: 0,0:01:21.89,0:01:24.01,orig,,0,0,0,,{\kf18}Come {\kf29}taste {\kf11}the {\kf44}fla{\kf24}vor{\kf0}, {\kf42}fla{\kf44}vor
-Dialogue: 0,0:01:21.89,0:01:24.01,ts,,0,0,0,,品尝这鲜美，滋味
-Dialogue: 0,0:01:24.31,0:01:25.71,orig,,0,0,0,,{\kf39}Play {\kf30}back{\kf0}, {\kf35}play {\kf36}back
-Dialogue: 0,0:01:24.31,0:01:25.71,ts,,0,0,0,,重播，回放
-Dialogue: 0,0:01:25.71,0:01:29.01,orig,,0,0,0,,{\kf48}Better {\kf41}late {\kf47}than {\kf19}ne{\kf26}ver{\kf0}, {\kf43}now {\kf35}brea{\kf13}the {\kf58}in
-Dialogue: 0,0:01:25.71,0:01:29.01,ts,,0,0,0,,迟到总比没有更好，现在深呼吸
-Dialogue: 0,0:01:29.26,0:01:30.35,orig,,0,0,0,,{\kf26}Hear {\kf16}the {\kf47}time {\kf16}ti{\kf4}ck
-Dialogue: 0,0:01:29.26,0:01:30.35,ts,,0,0,0,,听时间滴答作响
-Dialogue: 0,0:01:30.35,0:01:33.14,orig,,0,0,0,,{\kf42}Ring{\kf47}ing {\kf46}loud{\kf0}, {\kf48}loud{\kf0}, {\kf96}loud
-Dialogue: 0,0:01:30.35,0:01:33.14,ts,,0,0,0,,铃声作响，作响，作响
-Dialogue: 0,0:01:32.66,0:01:36.00,orig,,0,0,0,,{\kf23}And {\kf43}my {\kf34}hand{\kf15}s {\kf33}are {\kf33}filled {\kf21}up {\kf19}with {\kf6}de{\kf22}s{\kf34}i{\kf51}re
-Dialogue: 0,0:01:32.66,0:01:36.00,ts,,0,0,0,,我的双手溢满欲望
-Dialogue: 0,0:01:36.20,0:01:37.91,orig,,0,0,0,,{\kf23}See {\kf13}it {\kf39}fall{\kf18}, {\kf20}ma{\kf8}ke {\kf6}a {\kf44}vow
-Dialogue: 0,0:01:36.20,0:01:37.91,ts,,0,0,0,,看它坠落，许下誓言
-Dialogue: 0,0:01:37.91,0:01:40.49,orig,,0,0,0,,{\kf34}So {\kf16}we {\kf47}drown, {\kf45}drown, {\kf58}drown, {\kf58}drown{\kf0}...
-Dialogue: 0,0:01:37.91,0:01:40.49,ts,,0,0,0,,让我们沉溺，沉溺，沉溺，沉溺
-Dialogue: 0,0:01:39.92,0:01:41.41,orig,,0,0,0,,{\kf30}Rea{\kf12}son {\kf8}to {\kf31}walk {\kf6}on {\kf15}my {\kf47}way
-Dialogue: 0,0:01:39.92,0:01:41.41,ts,,0,0,0,,前行的原因
-Dialogue: 0,0:01:41.57,0:01:43.16,orig,,0,0,0,,{\kf25}Gotta {\kf29}keep {\kf6}it {\kf35}sound {\kf9}cause {\kf6}I’ll {\kf49}stay
-Dialogue: 0,0:01:41.57,0:01:43.16,ts,,0,0,0,,记得保持理智，因为我会继续
-Dialogue: 0,0:01:43.38,0:01:44.30,orig,,0,0,0,,{\kf10}Let {\kf13}it {\kf18}go {\kf12}with {\kf8}the {\kf10}f{\kf21}low{\kf0}?
-Dialogue: 0,0:01:43.38,0:01:44.30,ts,,0,0,0,,顺其自然吗
-Dialogue: 0,0:01:44.30,0:01:45.63,orig,,0,0,0,,{\kf20}Listen {\kf23}up, {\kf15}get {\kf7}a {\kf26}will{\kf0}, {\kf10}o{\kf11}pen {\kf21}up
-Dialogue: 0,0:01:44.30,0:01:45.63,ts,,0,0,0,,听话，遵从意愿，打开
-Dialogue: 0,0:01:45.63,0:01:46.74,orig,,0,0,0,,{\kf14}Let {\kf10}them {\kf16}hear {\kf9}wha{\kf9}t you {\kf53}say
-Dialogue: 0,0:01:45.63,0:01:46.74,ts,,0,0,0,,让他们听见你说的话
-Dialogue: 0,0:01:46.43,0:01:48.09,orig,,0,0,0,,{\kf31}So {\kf16}kee{\kf6}p {\kf8}it {\kf15}to{\kf18}ge{\kf10}ther {\kf16}till {\kf46}dawn
-Dialogue: 0,0:01:46.43,0:01:48.09,ts,,0,0,0,,所以要坚持到天亮
-Dialogue: 0,0:01:48.09,0:01:49.41,orig,,0,0,0,,{\kf16}Choi{\kf15}ces {\kf9}to {\kf20}ma{\kf3}ke {\kf10}what {\kf9}we {\kf50}say
-Dialogue: 0,0:01:48.09,0:01:49.41,ts,,0,0,0,,做出我们所说的选择
-Dialogue: 0,0:01:49.41,0:01:50.72,orig,,0,0,0,,{\kf17}Li{\kf16}ving {\kf14}a {\kf13}li{\kf6}fe {\kf7}e{\kf17}very {\kf41}day
-Dialogue: 0,0:01:49.41,0:01:50.72,ts,,0,0,0,,享受现在
-Dialogue: 0,0:01:50.72,0:01:51.50,orig,,0,0,0,,{\kf21}Why {\kf10}won{\kf4}’t {\kf9}you {\kf34}seek{\kf0}?
-Dialogue: 0,0:01:50.72,0:01:51.50,ts,,0,0,0,,为什么你不寻找
-Dialogue: 0,0:01:51.70,0:01:52.42,orig,,0,0,0,,{\kf13}Why {\kf13}don{\kf6}’t {\kf5}you {\kf35}see{\kf0}?
-Dialogue: 0,0:01:51.70,0:01:52.42,ts,,0,0,0,,为什么你不明白
-Dialogue: 0,0:01:52.59,0:01:55.66,orig,,0,0,0,,{\kf10}My {\kf13}on{\kf20}ly {\kf31}rea{\kf36}son {\kf20}to {\kf36}kee{\kf6}p {\kf26}on {\kf13}the {\kf17}sh{\kf79}ow
-Dialogue: 0,0:01:52.59,0:01:55.66,ts,,0,0,0,,我继续表演的唯一理由
-Dialogue: 0,0:01:55.25,0:01:56.65,orig,,0,0,0,,{\kf23}Off {\kf22}with {\kf13}the {\kf25}hook {\kf57}now
-Dialogue: 0,0:01:55.25,0:01:56.65,ts,,0,0,0,,别再被引诱
-Dialogue: 0,0:01:56.65,0:01:58.18,orig,,0,0,0,,{\kf15}Di{\kf20}-lat{\kf34}-tat{\kf0}, {\kf11}Di{\kf24}-lat{\kf49}-tat
-Dialogue: 0,0:01:56.65,0:01:58.18,ts,,0,0,0,,逐渐膨胀，不断放大
-Dialogue: 0,0:01:58.66,0:02:00.66,orig,,0,0,0,,{\kf30}On{\kf8}ce {\kf9}in {\kf15}a {\kf36}blue {\kf30}moon {\kf22}to{\kf50}night
-Dialogue: 0,0:01:58.66,0:02:00.66,ts,,0,0,0,,这千载难逢的夜晚
-Dialogue: 0,0:02:00.17,0:02:01.65,orig,,0,0,0,,{\kf19}Di{\kf31}-lat{\kf19}-tat{\kf0}, {\kf19}Di{\kf23}-lat{\kf37}-tat
-Dialogue: 0,0:02:00.17,0:02:01.65,ts,,0,0,0,,逐渐膨胀，不断放大
-Dialogue: 0,0:02:01.97,0:02:03.74,orig,,0,0,0,,{\kf23}Give {\kf21}me {\kf22}that{\kf0}, {\kf21}give {\kf25}me {\kf22}that {\kf28}ba{\kf15}ss
-Dialogue: 0,0:02:01.97,0:02:03.74,ts,,0,0,0,,给我，给我那低吟
-Dialogue: 0,0:02:03.74,0:02:05.60,orig,,0,0,0,,{\kf24}Give {\kf23}me {\kf21}that{\kf0}, {\kf23}give {\kf21}me {\kf24}that {\kf31}a{\kf19}ce
-Dialogue: 0,0:02:03.74,0:02:05.60,ts,,0,0,0,,给我，给我那招数
-Dialogue: 0,0:02:05.44,0:02:08.17,orig,,0,0,0,,{\kf28}My {\kf53}sweet {\kf11}e{\kf8}s{\kf30}cape {\kf38}with {\kf105}you
-Dialogue: 0,0:02:05.44,0:02:08.17,ts,,0,0,0,,亲爱的，我们一起逃离
-Dialogue: 0,0:02:08.17,0:02:09.32,orig,,0,0,0,,{\kf24}Let{\kf27}’s {\kf64}go
-Dialogue: 0,0:02:08.17,0:02:09.32,ts,,0,0,0,,来吧
-Dialogue: 0,0:02:09.82,0:02:12.80,orig,,0,0,0,,{\kf20}I{\kf36}ma{\kf25}gine{\kf0}, {\kf28}what {\kf30}word{\kf7}s {\kf26}woul{\kf8}d {\kf13}you {\kf105}say{\kf0}?
-Dialogue: 0,0:02:09.82,0:02:12.80,ts,,0,0,0,,想想，你会说什么
-Dialogue: 0,0:02:13.41,0:02:15.89,orig,,0,0,0,,{\kf6}I{\kf10}f {\kf37}ma{\kf25}gi{\kf10}c {\kf15}wa{\kf9}s {\kf24}real {\kf12}f{\kf25}or {\kf27}to{\kf48}day
-Dialogue: 0,0:02:13.41,0:02:15.89,ts,,0,0,0,,如过今日的魔法成为现实
-Dialogue: 0,0:02:15.63,0:02:17.81,orig,,0,0,0,,{\kf8}I {\kf38}see {\kf14}that {\kf8}you {\kf29}came {\kf38}for {\kf14}the {\kf69}glow
-Dialogue: 0,0:02:15.63,0:02:17.81,ts,,0,0,0,,我看见你变得潮红的脸
-Dialogue: 0,0:02:18.08,0:02:19.36,orig,,0,0,0,,{\kf33}Wan{\kf11}t {\kf25}you {\kf24}to {\kf35}know
-Dialogue: 0,0:02:18.08,0:02:19.36,ts,,0,0,0,,想让你知晓
-Dialogue: 0,0:02:19.36,0:02:22.35,orig,,0,0,0,,{\kf32}Tha{\kf3}t {\kf17}I’m {\kf36}be{\kf33}tter {\kf19}and {\kf37}bri{\kf33}ghter {\kf27}with {\kf62}you
-Dialogue: 0,0:02:19.36,0:02:22.35,ts,,0,0,0,,我与你一起更灿烂
-Dialogue: 0,0:02:22.35,0:02:23.55,orig,,0,0,0,,{\kf30}Wo{\kf14}ah{\kf19}-oh{\kf57}-oh
-Dialogue: 0,0:02:22.35,0:02:23.55,ts,,0,0,0,,喔哦 哦 哦
-Dialogue: 0,0:02:23.82,0:02:27.16,orig,,0,0,0,,{\kf43}Come {\kf26}jo{\kf32}in {\kf10}the {\kf46}mo{\kf31}men{\kf19}ts {\kf22}with {\kf21}per{\kf19}fect {\kf65}view
-Dialogue: 0,0:02:23.82,0:02:27.16,ts,,0,0,0,,来加入这瞬的美景
-Dialogue: 0,0:02:27.44,0:02:30.58,orig,,0,0,0,,{\kf36}Come {\kf61}find {\kf16}the {\kf43}mo{\kf28}men{\kf18}ts {\kf16}ju{\kf12}st {\kf15}meant {\kf23}for {\kf46}you
-Dialogue: 0,0:02:27.44,0:02:30.58,ts,,0,0,0,,来寻找属于你的时刻
-Dialogue: 0,0:02:30.84,0:02:32.60,orig,,0,0,0,,{\kf15}Don’t {\kf28}stop {\kf20}me {\kf30}a{\kf45}ny{\kf38}more
-Dialogue: 0,0:02:30.84,0:02:32.60,ts,,0,0,0,,不要再阻扰我
-Dialogue: 0,0:02:32.60,0:02:34.28,orig,,0,0,0,,{\kf16}So {\kf36}smooth {\kf20}and {\kf33}on {\kf35}a {\kf28}roll
-Dialogue: 0,0:02:32.60,0:02:34.28,ts,,0,0,0,,我正在兴头上
-Dialogue: 0,0:02:34.38,0:02:38.17,orig,,0,0,0,,{\kf55}Woah{\kf28}-oh{\kf13}, {\kf45}oh{\kf0}, {\kf44}wo{\kf41}-wo{\kf50}-wo{\kf48}-woah{\kf55}-oh
-Dialogue: 0,0:02:34.38,0:02:38.17,ts,,0,0,0,,喔哦，哦，喔 喔 喔 喔哦
-Dialogue: 0,0:02:38.26,0:02:39.73,orig,,0,0,0,,{\kf35}Ah{\kf3}, {\kf30}Play {\kf18}back, {\kf27}play {\kf34}back{\kf0}...
-Dialogue: 0,0:02:38.26,0:02:39.73,ts,,0,0,0,,哈，重播，回放
-Dialogue: 0,0:02:39.76,0:02:41.73,orig,,0,0,0,,{\kf18}I{\kf6}’ve {\kf27}got {\kf21}a {\kf25}be{\kf11}tter {\kf36}fee{\kf53}ling
-Dialogue: 0,0:02:39.76,0:02:41.73,ts,,0,0,0,,我有更美妙的感受
-Dialogue: 0,0:02:41.79,0:02:43.79,orig,,0,0,0,,{\kf40}Ah{\kf0}, {\kf32}Play {\kf19}back, {\kf27}play {\kf82}back{\kf0}...
-Dialogue: 0,0:02:41.79,0:02:43.79,ts,,0,0,0,,哈，重播，回放
-Dialogue: 0,0:02:43.28,0:02:45.44,orig,,0,0,0,,{\kf29}So {\kf22}take {\kf30}my {\kf21}han{\kf8}d{\kf0}, {\kf10}it’s {\kf36}for {\kf60}you
-Dialogue: 0,0:02:43.28,0:02:45.44,ts,,0,0,0,,抓住我的手，它是你的
-Dialogue: 0,0:02:45.65,0:02:47.16,orig,,0,0,0,,{\kf5}We {\kf9}could {\kf30}fly {\kf11}and {\kf31}find {\kf6}a {\kf59}way
-Dialogue: 0,0:02:45.65,0:02:47.16,ts,,0,0,0,,我们快点想办法
-Dialogue: 0,0:02:47.41,0:02:50.08,orig,,0,0,0,,{\kf12}Keep {\kf8}the {\kf35}musi{\kf35}c on {\kf47}bea{\kf40}ting{\kf3}, {\kf46}bea{\kf41}ting
-Dialogue: 0,0:02:47.41,0:02:50.08,ts,,0,0,0,,让音乐继续律动，律动
-Dialogue: 0,0:02:50.08,0:02:52.11,orig,,0,0,0,,{\kf68}Wo{\kf47}-wo{\kf44}-wo{\kf44}-woah
-Dialogue: 0,0:02:50.08,0:02:52.11,ts,,0,0,0,,喔 喔 喔 喔
-Dialogue: 0,0:02:50.53,0:02:52.11,orig,,0,0,0,,{\kf58}Stay{\kf0}, {\kf47}stay{\kf0}, {\kf53}stay
-Dialogue: 0,0:02:50.53,0:02:52.11,ts,,0,0,0,,继续，逗留，坚持
-Dialogue: 0,0:02:52.11,0:02:54.77,orig,,0,0,0,,{\kf26}Wa{\kf16}ke {\kf20}u{\kf4}p {\kf17}and {\kf44}find {\kf24}me {\kf18}you’ll {\kf35}see {\kf62}it
-Dialogue: 0,0:02:52.11,0:02:54.77,ts,,0,0,0,,醒来后寻找我，你会明白的
-Dialogue: 0,0:02:55.04,0:02:58.51,orig,,0,0,0,,{\kf17}And {\kf26}I’m {\kf21}just {\kf29}ti{\kf42}re{\kf10}d of {\kf35}fin{\kf35}ding {\kf33}all {\kf33}mea{\kf43}ning{\kf23}s
-Dialogue: 0,0:02:55.04,0:02:58.51,ts,,0,0,0,,我疲于寻找所有的意义
-Dialogue: 0,0:02:58.51,0:03:01.94,orig,,0,0,0,,{\kf28}So {\kf25}I’ll {\kf22}just {\kf35}ta{\kf21}ke {\kf14}us{\kf0}, {\kf16}you {\kf30}won’t {\kf43}nee{\kf17}d a {\kf30}rea{\kf62}son
-Dialogue: 0,0:02:58.51,0:03:01.94,ts,,0,0,0,,就让我引导我们，你不需要任何理由
-Dialogue: 0,0:03:02.19,0:03:04.27,orig,,0,0,0,,{\kf18}Come {\kf20}ta{\kf8}ste {\kf10}the {\kf44}fla{\kf24}vor{\kf0}, {\kf41}fla{\kf43}vor
-Dialogue: 0,0:03:02.19,0:03:04.27,ts,,0,0,0,,品尝这鲜美，滋味
-Dialogue: 0,0:03:04.61,0:03:06.28,orig,,0,0,0,,{\kf38}Play {\kf31}back{\kf0}, {\kf35}play {\kf40}ba{\kf23}ck
-Dialogue: 0,0:03:04.61,0:03:06.28,ts,,0,0,0,,重播，回放
+Dialogue: 0,0:00:02.84,0:00:06.12,orig,L__1,0,0,0,,{\kf27}Tell {\kf15}me {\kf22}wha{\kf16}t {\kf17}you {\kf39}need {\kf26}ba{\kf50}by {\kf116}yeah
+Dialogue: 0,0:00:02.84,0:00:06.12,ts,____ ,0,0,0,,告诉我你想要什么，宝贝
+Dialogue: 0,0:00:09.96,0:00:13.03,orig,L__2,0,0,0,,{\kf30}Tell {\kf24}me {\kf7}wha{\kf22}t {\kf13}you {\kf45}need {\kf23}ba{\kf38}by{\kf16} {\kf89}yeah
+Dialogue: 0,0:00:09.96,0:00:13.03,ts,____ ,0,0,0,,告诉我你想要什么，宝贝
+Dialogue: 0,0:00:13.90,0:00:17.25,orig,L__3,0,0,0,,{\kf42}Sa{\kf15}tis{\kf32}fa{\kf44}ction{\kf14}’s {\kf27}what {\kf21}I {\kf24}get {\kf20}ad{\kf43}dic{\kf53}ted
+Dialogue: 0,0:00:13.90,0:00:17.25,ts,____ ,0,0,0,,满足感使我上瘾
+Dialogue: 0,0:00:17.53,0:00:18.85,orig,L__4,0,0,0,,{\kf31}So {\kf11}a{\kf48}ffec{\kf36}te{\kf6}d
+Dialogue: 0,0:00:17.53,0:00:18.85,ts,____ ,0,0,0,,深受影响
+Dialogue: 0,0:00:18.85,0:00:20.83,orig,L__5,0,0,0,,{\kf34}And {\kf44}go {\kf43}round {\kf49}round {\kf28}round{\kf0}...
+Dialogue: 0,0:00:18.85,0:00:20.83,ts,____ ,0,0,0,,因此旋转，缠绕，涌动
+Dialogue: 0,0:00:21.00,0:00:24.29,orig,L__6,0,0,0,,{\kf22}As {\kf24}days {\kf20}go {\kf27}on{\kf0}, {\kf18}I {\kf24}thought {\kf21}that {\kf44}I {\kf39}won’t {\kf30}ri{\kf21}s{\kf13}k {\kf26}it
+Dialogue: 0,0:00:21.00,0:00:24.29,ts,____ ,0,0,0,,日渐星移，我以为我不愿再冒险
+Dialogue: 0,0:00:24.52,0:00:28.72,orig,L__7,0,0,0,,{\kf34}But {\kf18}I’m {\kf39}rea{\kf17}dy {\kf16}so {\kf16}s{\kf45}tea{\kf27}dy{\kf19}, {\kf40}now {\kf47}now {\kf45}now {\kf57}now
+Dialogue: 0,0:00:24.52,0:00:28.72,ts,____ ,0,0,0,,但我已做好准备，此时此刻
+Dialogue: 0,0:00:29.24,0:00:31.99,orig,L__8,0,0,0,,{\kf50}Ho{\kf6}p {\kf16}out {\kf11}to {\kf34}set {\kf17}us {\kf29}free {\kf34}from {\kf38}tra{\kf40}ps
+Dialogue: 0,0:00:29.24,0:00:31.99,ts,____ ,0,0,0,,跳跃起来，让我们摆脱陷阱
+Dialogue: 0,0:00:31.77,0:00:32.36,orig,____ x-bg,0,0,0,,{\kf59}Yeah
+Dialogue: 0,0:00:31.77,0:00:32.36,ts,____ ,0,0,0,,是的
+Dialogue: 0,0:00:32.83,0:00:36.09,orig,L__9,0,0,0,,{\kf43}Come {\kf30}feel {\kf24}it{\kf0}, {\kf16}ma{\kf9}ke {\kf9}it {\kf34}real {\kf32}and {\kf49}true {\kf80}oh
+Dialogue: 0,0:00:32.83,0:00:36.09,ts,____ ,0,0,0,,来感受，更真实的感受
+Dialogue: 0,0:00:35.29,0:00:36.09,orig,____ x-bg,0,0,0,,{\kf80}Ooh
+Dialogue: 0,0:00:35.29,0:00:36.09,ts,____ ,0,0,0,,哦
+Dialogue: 0,0:00:36.47,0:00:38.87,orig,L_10,0,0,0,,{\kf40}I {\kf30}know {\kf14}you{\kf8}’re {\kf13}u{\kf4}p {\kf7}to {\kf41}some{\kf46}thing {\kf37}new
+Dialogue: 0,0:00:36.47,0:00:38.87,ts,____ ,0,0,0,,我知道，你正在感受新奇
+Dialogue: 0,0:00:39.11,0:00:41.06,orig,L_11,0,0,0,,{\kf25}Let {\kf10}me {\kf41}show {\kf26}you{\kf0}, {\kf29}so {\kf41}hol{\kf6}d {\kf17}on
+Dialogue: 0,0:00:39.11,0:00:41.06,ts,____ ,0,0,0,,让我袒露给你，所以，坚持住
+Dialogue: 0,0:00:41.06,0:00:43.16,orig,L_12,0,0,0,,{\kf21}I{\kf8}’ve {\kf27}got {\kf27}thi{\kf18}s {\kf27}right {\kf82}now
+Dialogue: 0,0:00:41.06,0:00:43.16,ts,____ ,0,0,0,,我现在就要得到
+Dialogue: 0,0:00:43.64,0:00:45.01,orig,L_13,0,0,0,,{\kf14}Off {\kf13}with {\kf12}the {\kf39}chain{\kf10}s {\kf49}now
+Dialogue: 0,0:00:43.64,0:00:45.01,ts,____ ,0,0,0,,现在解开束缚
+Dialogue: 0,0:00:45.01,0:00:46.56,orig,____ x-bg,0,0,0,,{\kf18}Di{\kf16}-lat{\kf28}-tat{\kf0}, {\kf16}Di{\kf26}-lat{\kf34}-ta{\kf17}t
+Dialogue: 0,0:00:45.01,0:00:46.56,ts,____ ,0,0,0,,逐渐膨胀，不断放大
+Dialogue: 0,0:00:47.13,0:00:49.01,orig,L_14,0,0,0,,{\kf34}Change {\kf9}of {\kf6}a {\kf34}heart {\kf30}for {\kf14}to{\kf61}night
+Dialogue: 0,0:00:47.13,0:00:49.01,ts,____ ,0,0,0,,今晚改变心意
+Dialogue: 0,0:00:48.57,0:00:50.00,orig,____ x-bg,0,0,0,,{\kf15}Di{\kf24}-lat{\kf26}-tat{\kf0}, {\kf11}Di{\kf31}-lat{\kf36}-tat
+Dialogue: 0,0:00:48.57,0:00:50.00,ts,____ ,0,0,0,,逐渐膨胀，不断放大
+Dialogue: 0,0:00:50.23,0:00:52.12,orig,L_15,0,0,0,,{\kf25}Gi{\kf8}ve {\kf22}me {\kf20}that{\kf0}, {\kf22}give {\kf25}me {\kf22}that {\kf39}ba{\kf6}ss
+Dialogue: 0,0:00:50.23,0:00:52.12,ts,____ ,0,0,0,,给我，给我那低吟
+Dialogue: 0,0:00:52.12,0:00:53.88,orig,L_16,0,0,0,,{\kf21}Give {\kf24}me {\kf21}that{\kf0}, {\kf22}give {\kf23}me {\kf23}that {\kf42}ace
+Dialogue: 0,0:00:52.12,0:00:53.88,ts,____ ,0,0,0,,给我，给我那招数
+Dialogue: 0,0:00:53.88,0:00:56.54,orig,L_17,0,0,0,,{\kf22}My {\kf51}sweet {\kf12}e{\kf37}scape {\kf38}with {\kf106}you
+Dialogue: 0,0:00:53.88,0:00:56.54,ts,____ ,0,0,0,,亲爱的，我们一起逃离
+Dialogue: 0,0:00:56.54,0:00:57.56,orig,L_18,0,0,0,,{\kf25}Let{\kf25}’s {\kf52}go
+Dialogue: 0,0:00:56.54,0:00:57.56,ts,____ ,0,0,0,,来吧
+Dialogue: 0,0:00:57.95,0:00:59.26,orig,L_19,0,0,0,,{\kf31}Ah{\kf4}, {\kf31}Play {\kf23}back{\kf0}, {\kf22}play {\kf20}back{\kf0}...
+Dialogue: 0,0:00:57.95,0:00:59.26,ts,____ ,0,0,0,,啊，重播，回放
+Dialogue: 0,0:00:59.44,0:01:01.52,orig,L_20,0,0,0,,{\kf22}I{\kf6}’ve {\kf26}got {\kf19}a {\kf24}be{\kf11}tter {\kf38}fee{\kf62}ling
+Dialogue: 0,0:00:59.44,0:01:01.52,ts,____ ,0,0,0,,我有更美妙的感受
+Dialogue: 0,0:01:01.52,0:01:02.86,orig,L_21,0,0,0,,{\kf37}Ah{\kf0}, {\kf32}Play {\kf23}back{\kf0}, {\kf22}play {\kf20}back{\kf0}...
+Dialogue: 0,0:01:01.52,0:01:02.86,ts,____ ,0,0,0,,啊，重播，回放
+Dialogue: 0,0:01:02.99,0:01:05.14,orig,L_22,0,0,0,,{\kf28}So {\kf23}take {\kf32}my {\kf18}han{\kf11}d, i{\kf15}t’s {\kf27}for {\kf61}you
+Dialogue: 0,0:01:02.99,0:01:05.14,ts,____ ,0,0,0,,抓住我的手，它是你的
+Dialogue: 0,0:01:05.35,0:01:06.77,orig,L_23,0,0,0,,{\kf13}We {\kf7}could {\kf29}fly {\kf8}and {\kf21}run{\kf9}a{\kf55}way
+Dialogue: 0,0:01:05.35,0:01:06.77,ts,____ ,0,0,0,,我们可以飞奔着逃脱
+Dialogue: 0,0:01:07.01,0:01:09.66,orig,L_24,0,0,0,,{\kf24}Tell {\kf7}my {\kf20}heart {\kf5}to {\kf44}stay {\kf91}beating{\kf0}, {\kf74}beating
+Dialogue: 0,0:01:07.01,0:01:09.66,ts,____ ,0,0,0,,让我的心继续跳动，跳动
+Dialogue: 0,0:01:09.69,0:01:11.81,orig,L_25,0,0,0,,{\kf80}Wo{\kf47}-wo{\kf45}-wo{\kf43}-woah
+Dialogue: 0,0:01:09.69,0:01:11.81,ts,____ ,0,0,0,,喔 喔 喔 喔
+Dialogue: 0,0:01:10.28,0:01:11.62,orig,____ x-bg,0,0,0,,{\kf53}Stay{\kf0}, {\kf43}stay{\kf0}, {\kf38}stay
+Dialogue: 0,0:01:10.28,0:01:11.62,ts,____ ,0,0,0,,继续，逗留，坚持
+Dialogue: 0,0:01:11.81,0:01:14.48,orig,L_26,0,0,0,,{\kf33}Wa{\kf10}ke {\kf19}u{\kf10}p {\kf13}and {\kf41}find {\kf21}me {\kf22}you{\kf4}’ll {\kf32}see {\kf62}it
+Dialogue: 0,0:01:11.81,0:01:14.48,ts,____ ,0,0,0,,醒来后寻找我，你会明白的
+Dialogue: 0,0:01:14.75,0:01:18.21,orig,L_27,0,0,0,,{\kf23}And {\kf14}I{\kf8}’m {\kf20}just {\kf70}tired {\kf9}of {\kf35}fin{\kf37}ding {\kf27}all {\kf37}mea{\kf66}nings
+Dialogue: 0,0:01:14.75,0:01:18.21,ts,____ ,0,0,0,,我疲于寻找所有的意义
+Dialogue: 0,0:01:18.21,0:01:21.56,orig,L_28,0,0,0,,{\kf28}So {\kf25}I’ll {\kf22}just {\kf35}ta{\kf23}ke {\kf12}us{\kf0}, {\kf16}you {\kf30}won’t {\kf43}nee{\kf5}d {\kf16}a {\kf27}rea{\kf53}son
+Dialogue: 0,0:01:18.21,0:01:21.56,ts,____ ,0,0,0,,就让我引导我们，你不需要任何理由
+Dialogue: 0,0:01:21.89,0:01:24.01,orig,L_29,0,0,0,,{\kf18}Come {\kf29}taste {\kf11}the {\kf44}fla{\kf24}vor{\kf0}, {\kf42}fla{\kf44}vor
+Dialogue: 0,0:01:21.89,0:01:24.01,ts,____ ,0,0,0,,品尝这鲜美，滋味
+Dialogue: 0,0:01:24.31,0:01:25.71,orig,L_30,0,0,0,,{\kf39}Play {\kf30}back{\kf0}, {\kf35}play {\kf36}back
+Dialogue: 0,0:01:24.31,0:01:25.71,ts,____ ,0,0,0,,重播，回放
+Dialogue: 0,0:01:25.71,0:01:29.01,orig,L_31,0,0,0,,{\kf48}Better {\kf41}late {\kf47}than {\kf19}ne{\kf26}ver{\kf0}, {\kf43}now {\kf35}brea{\kf13}the {\kf58}in
+Dialogue: 0,0:01:25.71,0:01:29.01,ts,____ ,0,0,0,,迟到总比没有更好，现在深呼吸
+Dialogue: 0,0:01:29.26,0:01:30.35,orig,L_32,0,0,0,,{\kf26}Hear {\kf16}the {\kf47}time {\kf16}ti{\kf4}ck
+Dialogue: 0,0:01:29.26,0:01:30.35,ts,____ ,0,0,0,,听时间滴答作响
+Dialogue: 0,0:01:30.35,0:01:33.14,orig,L_33,0,0,0,,{\kf42}Ring{\kf47}ing {\kf46}loud{\kf0}, {\kf48}loud{\kf0}, {\kf96}loud
+Dialogue: 0,0:01:30.35,0:01:33.14,ts,____ ,0,0,0,,铃声作响，作响，作响
+Dialogue: 0,0:01:32.66,0:01:36.00,orig,L_34,0,0,0,,{\kf23}And {\kf43}my {\kf34}hand{\kf15}s {\kf33}are {\kf33}filled {\kf21}up {\kf19}with {\kf6}de{\kf22}s{\kf34}i{\kf51}re
+Dialogue: 0,0:01:32.66,0:01:36.00,ts,____ ,0,0,0,,我的双手溢满欲望
+Dialogue: 0,0:01:36.20,0:01:37.91,orig,L_35,0,0,0,,{\kf23}See {\kf13}it {\kf39}fall{\kf18}, {\kf20}ma{\kf8}ke {\kf6}a {\kf44}vow
+Dialogue: 0,0:01:36.20,0:01:37.91,ts,____ ,0,0,0,,看它坠落，许下誓言
+Dialogue: 0,0:01:37.91,0:01:40.49,orig,L_36,0,0,0,,{\kf34}So {\kf16}we {\kf47}drown, {\kf45}drown, {\kf58}drown, {\kf58}drown{\kf0}...
+Dialogue: 0,0:01:37.91,0:01:40.49,ts,____ ,0,0,0,,让我们沉溺，沉溺，沉溺，沉溺
+Dialogue: 0,0:01:39.92,0:01:41.41,orig,L_37,0,0,0,,{\kf30}Rea{\kf12}son {\kf8}to {\kf31}walk {\kf6}on {\kf15}my {\kf47}way
+Dialogue: 0,0:01:39.92,0:01:41.41,ts,____ ,0,0,0,,前行的原因
+Dialogue: 0,0:01:41.57,0:01:43.16,orig,L_38,0,0,0,,{\kf25}Gotta {\kf29}keep {\kf6}it {\kf35}sound {\kf9}cause {\kf6}I’ll {\kf49}stay
+Dialogue: 0,0:01:41.57,0:01:43.16,ts,____ ,0,0,0,,记得保持理智，因为我会继续
+Dialogue: 0,0:01:43.38,0:01:44.30,orig,L_39,0,0,0,,{\kf10}Let {\kf13}it {\kf18}go {\kf12}with {\kf8}the {\kf10}f{\kf21}low{\kf0}?
+Dialogue: 0,0:01:43.38,0:01:44.30,ts,____ ,0,0,0,,顺其自然吗
+Dialogue: 0,0:01:44.30,0:01:45.63,orig,L_40,0,0,0,,{\kf20}Listen {\kf23}up, {\kf15}get {\kf7}a {\kf26}will{\kf0}, {\kf10}o{\kf11}pen {\kf21}up
+Dialogue: 0,0:01:44.30,0:01:45.63,ts,____ ,0,0,0,,听话，遵从意愿，打开
+Dialogue: 0,0:01:45.63,0:01:46.74,orig,L_41,0,0,0,,{\kf14}Let {\kf10}them {\kf16}hear {\kf9}wha{\kf9}t you {\kf53}say
+Dialogue: 0,0:01:45.63,0:01:46.74,ts,____ ,0,0,0,,让他们听见你说的话
+Dialogue: 0,0:01:46.43,0:01:48.09,orig,L_42,0,0,0,,{\kf31}So {\kf16}kee{\kf6}p {\kf8}it {\kf15}to{\kf18}ge{\kf10}ther {\kf16}till {\kf46}dawn
+Dialogue: 0,0:01:46.43,0:01:48.09,ts,____ ,0,0,0,,所以要坚持到天亮
+Dialogue: 0,0:01:48.09,0:01:49.41,orig,L_43,0,0,0,,{\kf16}Choi{\kf15}ces {\kf9}to {\kf20}ma{\kf3}ke {\kf10}what {\kf9}we {\kf50}say
+Dialogue: 0,0:01:48.09,0:01:49.41,ts,____ ,0,0,0,,做出我们所说的选择
+Dialogue: 0,0:01:49.41,0:01:50.72,orig,L_44,0,0,0,,{\kf17}Li{\kf16}ving {\kf14}a {\kf13}li{\kf6}fe {\kf7}e{\kf17}very {\kf41}day
+Dialogue: 0,0:01:49.41,0:01:50.72,ts,____ ,0,0,0,,享受现在
+Dialogue: 0,0:01:50.72,0:01:51.50,orig,L_45,0,0,0,,{\kf21}Why {\kf10}won{\kf4}’t {\kf9}you {\kf34}seek{\kf0}?
+Dialogue: 0,0:01:50.72,0:01:51.50,ts,____ ,0,0,0,,为什么你不寻找
+Dialogue: 0,0:01:51.70,0:01:52.42,orig,L_46,0,0,0,,{\kf13}Why {\kf13}don{\kf6}’t {\kf5}you {\kf35}see{\kf0}?
+Dialogue: 0,0:01:51.70,0:01:52.42,ts,____ ,0,0,0,,为什么你不明白
+Dialogue: 0,0:01:52.59,0:01:55.66,orig,L_47,0,0,0,,{\kf10}My {\kf13}on{\kf20}ly {\kf31}rea{\kf36}son {\kf20}to {\kf36}kee{\kf6}p {\kf26}on {\kf13}the {\kf17}sh{\kf79}ow
+Dialogue: 0,0:01:52.59,0:01:55.66,ts,____ ,0,0,0,,我继续表演的唯一理由
+Dialogue: 0,0:01:55.25,0:01:56.65,orig,L_48,0,0,0,,{\kf23}Off {\kf22}with {\kf13}the {\kf25}hook {\kf57}now
+Dialogue: 0,0:01:55.25,0:01:56.65,ts,____ ,0,0,0,,别再被引诱
+Dialogue: 0,0:01:56.65,0:01:58.18,orig,____ x-bg,0,0,0,,{\kf15}Di{\kf20}-lat{\kf34}-tat{\kf0}, {\kf11}Di{\kf24}-lat{\kf49}-tat
+Dialogue: 0,0:01:56.65,0:01:58.18,ts,____ ,0,0,0,,逐渐膨胀，不断放大
+Dialogue: 0,0:01:58.66,0:02:00.66,orig,L_49,0,0,0,,{\kf30}On{\kf8}ce {\kf9}in {\kf15}a {\kf36}blue {\kf30}moon {\kf22}to{\kf50}night
+Dialogue: 0,0:01:58.66,0:02:00.66,ts,____ ,0,0,0,,这千载难逢的夜晚
+Dialogue: 0,0:02:00.17,0:02:01.65,orig,____ x-bg,0,0,0,,{\kf19}Di{\kf31}-lat{\kf19}-tat{\kf0}, {\kf19}Di{\kf23}-lat{\kf37}-tat
+Dialogue: 0,0:02:00.17,0:02:01.65,ts,____ ,0,0,0,,逐渐膨胀，不断放大
+Dialogue: 0,0:02:01.97,0:02:03.74,orig,L_50,0,0,0,,{\kf23}Give {\kf21}me {\kf22}that{\kf0}, {\kf21}give {\kf25}me {\kf22}that {\kf28}ba{\kf15}ss
+Dialogue: 0,0:02:01.97,0:02:03.74,ts,____ ,0,0,0,,给我，给我那低吟
+Dialogue: 0,0:02:03.74,0:02:05.60,orig,L_51,0,0,0,,{\kf24}Give {\kf23}me {\kf21}that{\kf0}, {\kf23}give {\kf21}me {\kf24}that {\kf31}a{\kf19}ce
+Dialogue: 0,0:02:03.74,0:02:05.60,ts,____ ,0,0,0,,给我，给我那招数
+Dialogue: 0,0:02:05.44,0:02:08.17,orig,L_52,0,0,0,,{\kf28}My {\kf53}sweet {\kf11}e{\kf8}s{\kf30}cape {\kf38}with {\kf105}you
+Dialogue: 0,0:02:05.44,0:02:08.17,ts,____ ,0,0,0,,亲爱的，我们一起逃离
+Dialogue: 0,0:02:08.17,0:02:09.32,orig,L_53,0,0,0,,{\kf24}Let{\kf27}’s {\kf64}go
+Dialogue: 0,0:02:08.17,0:02:09.32,ts,____ ,0,0,0,,来吧
+Dialogue: 0,0:02:09.82,0:02:12.80,orig,L_54,0,0,0,,{\kf20}I{\kf36}ma{\kf25}gine{\kf0}, {\kf28}what {\kf30}word{\kf7}s {\kf26}woul{\kf8}d {\kf13}you {\kf105}say{\kf0}?
+Dialogue: 0,0:02:09.82,0:02:12.80,ts,____ ,0,0,0,,想想，你会说什么
+Dialogue: 0,0:02:13.41,0:02:15.89,orig,L_55,0,0,0,,{\kf6}I{\kf10}f {\kf37}ma{\kf25}gi{\kf10}c {\kf15}wa{\kf9}s {\kf24}real {\kf12}f{\kf25}or {\kf27}to{\kf48}day
+Dialogue: 0,0:02:13.41,0:02:15.89,ts,____ ,0,0,0,,如过今日的魔法成为现实
+Dialogue: 0,0:02:15.63,0:02:17.81,orig,L_56,0,0,0,,{\kf8}I {\kf38}see {\kf14}that {\kf8}you {\kf29}came {\kf38}for {\kf14}the {\kf69}glow
+Dialogue: 0,0:02:15.63,0:02:17.81,ts,____ ,0,0,0,,我看见你变得潮红的脸
+Dialogue: 0,0:02:18.08,0:02:19.36,orig,L_57,0,0,0,,{\kf33}Wan{\kf11}t {\kf25}you {\kf24}to {\kf35}know
+Dialogue: 0,0:02:18.08,0:02:19.36,ts,____ ,0,0,0,,想让你知晓
+Dialogue: 0,0:02:19.36,0:02:22.35,orig,L_58,0,0,0,,{\kf32}Tha{\kf3}t {\kf17}I’m {\kf36}be{\kf33}tter {\kf19}and {\kf37}bri{\kf33}ghter {\kf27}with {\kf62}you
+Dialogue: 0,0:02:19.36,0:02:22.35,ts,____ ,0,0,0,,我与你一起更灿烂
+Dialogue: 0,0:02:22.35,0:02:23.55,orig,L_59,0,0,0,,{\kf30}Wo{\kf14}ah{\kf19}-oh{\kf57}-oh
+Dialogue: 0,0:02:22.35,0:02:23.55,ts,____ ,0,0,0,,喔哦 哦 哦
+Dialogue: 0,0:02:23.82,0:02:27.16,orig,L_60,0,0,0,,{\kf43}Come {\kf26}jo{\kf32}in {\kf10}the {\kf46}mo{\kf31}men{\kf19}ts {\kf22}with {\kf21}per{\kf19}fect {\kf65}view
+Dialogue: 0,0:02:23.82,0:02:27.16,ts,____ ,0,0,0,,来加入这瞬的美景
+Dialogue: 0,0:02:27.44,0:02:30.58,orig,L_61,0,0,0,,{\kf36}Come {\kf61}find {\kf16}the {\kf43}mo{\kf28}men{\kf18}ts {\kf16}ju{\kf12}st {\kf15}meant {\kf23}for {\kf46}you
+Dialogue: 0,0:02:27.44,0:02:30.58,ts,____ ,0,0,0,,来寻找属于你的时刻
+Dialogue: 0,0:02:30.84,0:02:32.60,orig,L_62,0,0,0,,{\kf15}Don’t {\kf28}stop {\kf20}me {\kf30}a{\kf45}ny{\kf38}more
+Dialogue: 0,0:02:30.84,0:02:32.60,ts,____ ,0,0,0,,不要再阻扰我
+Dialogue: 0,0:02:32.60,0:02:34.28,orig,L_63,0,0,0,,{\kf16}So {\kf36}smooth {\kf20}and {\kf33}on {\kf35}a {\kf28}roll
+Dialogue: 0,0:02:32.60,0:02:34.28,ts,____ ,0,0,0,,我正在兴头上
+Dialogue: 0,0:02:34.38,0:02:38.17,orig,L_64,0,0,0,,{\kf55}Woah{\kf28}-oh{\kf13}, {\kf45}oh{\kf0}, {\kf44}wo{\kf41}-wo{\kf50}-wo{\kf48}-woah{\kf55}-oh
+Dialogue: 0,0:02:34.38,0:02:38.17,ts,____ ,0,0,0,,喔哦，哦，喔 喔 喔 喔哦
+Dialogue: 0,0:02:38.26,0:02:39.73,orig,L_65,0,0,0,,{\kf35}Ah{\kf3}, {\kf30}Play {\kf18}back, {\kf27}play {\kf34}back{\kf0}...
+Dialogue: 0,0:02:38.26,0:02:39.73,ts,____ ,0,0,0,,哈，重播，回放
+Dialogue: 0,0:02:39.76,0:02:41.73,orig,L_66,0,0,0,,{\kf18}I{\kf6}’ve {\kf27}got {\kf21}a {\kf25}be{\kf11}tter {\kf36}fee{\kf53}ling
+Dialogue: 0,0:02:39.76,0:02:41.73,ts,____ ,0,0,0,,我有更美妙的感受
+Dialogue: 0,0:02:41.79,0:02:43.79,orig,L_67,0,0,0,,{\kf40}Ah{\kf0}, {\kf32}Play {\kf19}back, {\kf27}play {\kf82}back{\kf0}...
+Dialogue: 0,0:02:41.79,0:02:43.79,ts,____ ,0,0,0,,哈，重播，回放
+Dialogue: 0,0:02:43.28,0:02:45.44,orig,L_68,0,0,0,,{\kf29}So {\kf22}take {\kf30}my {\kf21}han{\kf8}d{\kf0}, {\kf10}it’s {\kf36}for {\kf60}you
+Dialogue: 0,0:02:43.28,0:02:45.44,ts,____ ,0,0,0,,抓住我的手，它是你的
+Dialogue: 0,0:02:45.65,0:02:47.16,orig,L_69,0,0,0,,{\kf5}We {\kf9}could {\kf30}fly {\kf11}and {\kf31}find {\kf6}a {\kf59}way
+Dialogue: 0,0:02:45.65,0:02:47.16,ts,____ ,0,0,0,,我们快点想办法
+Dialogue: 0,0:02:47.41,0:02:50.08,orig,L_70,0,0,0,,{\kf12}Keep {\kf8}the {\kf35}musi{\kf35}c on {\kf47}bea{\kf40}ting{\kf3}, {\kf46}bea{\kf41}ting
+Dialogue: 0,0:02:47.41,0:02:50.08,ts,____ ,0,0,0,,让音乐继续律动，律动
+Dialogue: 0,0:02:50.08,0:02:52.11,orig,L_71,0,0,0,,{\kf68}Wo{\kf47}-wo{\kf44}-wo{\kf44}-woah
+Dialogue: 0,0:02:50.08,0:02:52.11,ts,____ ,0,0,0,,喔 喔 喔 喔
+Dialogue: 0,0:02:50.53,0:02:52.11,orig,____ x-bg,0,0,0,,{\kf58}Stay{\kf0}, {\kf47}stay{\kf0}, {\kf53}stay
+Dialogue: 0,0:02:50.53,0:02:52.11,ts,____ ,0,0,0,,继续，逗留，坚持
+Dialogue: 0,0:02:52.11,0:02:54.77,orig,L_72,0,0,0,,{\kf26}Wa{\kf16}ke {\kf20}u{\kf4}p {\kf17}and {\kf44}find {\kf24}me {\kf18}you’ll {\kf35}see {\kf62}it
+Dialogue: 0,0:02:52.11,0:02:54.77,ts,____ ,0,0,0,,醒来后寻找我，你会明白的
+Dialogue: 0,0:02:55.04,0:02:58.51,orig,L_73,0,0,0,,{\kf17}And {\kf26}I’m {\kf21}just {\kf29}ti{\kf42}re{\kf10}d of {\kf35}fin{\kf35}ding {\kf33}all {\kf33}mea{\kf43}ning{\kf23}s
+Dialogue: 0,0:02:55.04,0:02:58.51,ts,____ ,0,0,0,,我疲于寻找所有的意义
+Dialogue: 0,0:02:58.51,0:03:01.94,orig,L_74,0,0,0,,{\kf28}So {\kf25}I’ll {\kf22}just {\kf35}ta{\kf21}ke {\kf14}us{\kf0}, {\kf16}you {\kf30}won’t {\kf43}nee{\kf17}d a {\kf30}rea{\kf62}son
+Dialogue: 0,0:02:58.51,0:03:01.94,ts,____ ,0,0,0,,就让我引导我们，你不需要任何理由
+Dialogue: 0,0:03:02.19,0:03:04.27,orig,L_75,0,0,0,,{\kf18}Come {\kf20}ta{\kf8}ste {\kf10}the {\kf44}fla{\kf24}vor{\kf0}, {\kf41}fla{\kf43}vor
+Dialogue: 0,0:03:02.19,0:03:04.27,ts,____ ,0,0,0,,品尝这鲜美，滋味
+Dialogue: 0,0:03:04.61,0:03:06.28,orig,L_76,0,0,0,,{\kf38}Play {\kf31}back{\kf0}, {\kf35}play {\kf40}ba{\kf23}ck
+Dialogue: 0,0:03:04.61,0:03:06.28,ts,____ ,0,0,0,,重播，回放
