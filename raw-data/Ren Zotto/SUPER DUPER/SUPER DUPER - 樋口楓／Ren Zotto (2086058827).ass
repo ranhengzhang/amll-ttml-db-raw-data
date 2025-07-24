@@ -28,25 +28,25 @@ Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line"
 Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
 Comment: 0,0:00:05.14,0:00:09.67,orig,L__1,0,0,0,karaoke,{\ko59}描|<え{\ko36}#|が{\ko14}い{\ko38}てい{\ko30}く {\ko53}My {\ko211}Worl{\ko12}d
-Comment: 0,0:00:05.14,0:00:09.67,roma,____ ,0,0,0,karaoke,e ga i te i ku my world
-Comment: 0,0:00:05.14,0:00:09.67,ts,____ ,0,0,0,karaoke,描绘属于我的世界
-Comment: 0,0:00:05.14,0:00:09.67,tuck,____ ,0,0,0,,描いていく My World
+Comment: 0,0:00:05.14,0:00:09.67,roma,____,0,0,0,karaoke,e ga i te i ku my world
+Comment: 0,0:00:05.14,0:00:09.67,ts,____,0,0,0,karaoke,描绘属于我的世界
+Comment: 0,0:00:05.14,0:00:09.67,tuck,____,0,0,0,,描いていく My World
 Comment: 0,0:00:19.85,0:00:23.20,orig,L__2,0,0,0,karaoke,{\ko47}い{\ko13}つ{\ko42}だ{\ko10}っ{\ko34}て{\ko13}憧|<あ{\ko22}#|こ{\ko17}#|が{\ko30}れ{\ko24}は{\ko47}衝|<しょう{\ko44}動|どう
-Comment: 0,0:00:19.85,0:00:23.20,roma,____ ,0,0,0,karaoke,i tsu da tte a ko ga re wa shō dō
-Comment: 0,0:00:19.85,0:00:23.20,ts,____ ,0,0,0,karaoke,憧憬始终是种冲动
-Comment: 0,0:00:19.85,0:00:23.20,tuck,____ ,0,0,0,,いつだって憧れは衝動
+Comment: 0,0:00:19.85,0:00:23.20,roma,____,0,0,0,karaoke,i tsu da tte a ko ga re wa shō dō
+Comment: 0,0:00:19.85,0:00:23.20,ts,____,0,0,0,karaoke,憧憬始终是种冲动
+Comment: 0,0:00:19.85,0:00:23.20,tuck,____,0,0,0,,いつだって憧れは衝動
 Comment: 0,0:00:23.33,0:00:25.19,orig,L__3,0,0,0,karaoke,{\ko8}走|<は{\ko22}#|し{\ko17}り{\ko22}出|<だ{\ko11}す{\ko17}鼓|<こ{\ko34}動|どう{\ko12}の {\ko43}Heat
-Comment: 0,0:00:23.33,0:00:25.19,roma,____ ,0,0,0,karaoke,ha shi ri da su ko dō no heat
-Comment: 0,0:00:23.33,0:00:25.19,ts,____ ,0,0,0,karaoke,奔涌而出的心跳灼热
-Comment: 0,0:00:23.33,0:00:25.19,tuck,____ ,0,0,0,,走り出す鼓動のHeat
+Comment: 0,0:00:23.33,0:00:25.19,roma,____,0,0,0,karaoke,ha shi ri da su ko dō no heat
+Comment: 0,0:00:23.33,0:00:25.19,ts,____,0,0,0,karaoke,奔涌而出的心跳灼热
+Comment: 0,0:00:23.33,0:00:25.19,tuck,____,0,0,0,,走り出す鼓動のHeat
 Comment: 0,0:00:25.49,0:00:28.42,orig,L__4,0,0,0,karaoke,{\ko26}飛|<と{\ko9}ん{\ko35}で{\ko13}っ{\ko30}た{\ko13}一|<ひ{\ko7}#|{\ko11}#|と{\ko22}際|<き{\ko36}#|わ{\ko22}の{\ko45}閃|<せん{\ko24}光|こう
-Comment: 0,0:00:25.49,0:00:28.42,roma,____ ,0,0,0,karaoke,ton de tta hi to ki wa no sen kō
-Comment: 0,0:00:25.49,0:00:28.42,ts,____ ,0,0,0,karaoke,疾驰而过的耀眼闪光
-Comment: 0,0:00:25.49,0:00:28.42,tuck,____ ,0,0,0,,飛んでった一際の閃光
+Comment: 0,0:00:25.49,0:00:28.42,roma,____,0,0,0,karaoke,ton de tta hi to ki wa no sen kō
+Comment: 0,0:00:25.49,0:00:28.42,ts,____,0,0,0,karaoke,疾驰而过的耀眼闪光
+Comment: 0,0:00:25.49,0:00:28.42,tuck,____,0,0,0,,飛んでった一際の閃光
 Comment: 0,0:00:28.66,0:00:30.84,orig,L__5,0,0,0,karaoke,{\ko21}追|<お{\ko13}い{\ko10}か{\ko8}{\ko30}け{\ko9}て {\ko7}S{\ko36}tar{\ko16}ting {\ko68}now
-Comment: 0,0:00:28.66,0:00:30.84,roma,____ ,0,0,0,karaoke,o i ka ke te starting now
-Comment: 0,0:00:28.66,0:00:30.84,ts,____ ,0,0,0,karaoke,即刻启程追逐
-Comment: 0,0:00:28.66,0:00:30.84,tuck,____ ,0,0,0,,追いかけてStarting now
+Comment: 0,0:00:28.66,0:00:30.84,roma,____,0,0,0,karaoke,o i ka ke te starting now
+Comment: 0,0:00:28.66,0:00:30.84,ts,____,0,0,0,karaoke,即刻启程追逐
+Comment: 0,0:00:28.66,0:00:30.84,tuck,____,0,0,0,,追いかけてStarting now
 Comment: 0,0:00:31.17,0:00:32.92,orig,L__6 x-anti,0,0,0,karaoke,{\ko20}I {\ko21}don't {\ko35}care! {\ko22}So, {\ko19}I {\ko22}don't {\ko36}care!
 Comment: 0,0:00:31.17,0:00:32.92,ts,____ x-anti,0,0,0,karaoke,我不在乎！毫不在乎！
 Comment: 0,0:00:32.97,0:00:36.10,orig,L__7 x-anti,0,0,0,karaoke,{\ko18}関|<かん{\ko27}係|けい{\ko25}ない{\ko15}な {\ko17}Wa{\ko9}tch {\ko19}me!{\ko9} {\ko31}罵|<ば{\ko23}詈|り{\ko42}雑|<ぞう{\ko78}言|ごん
@@ -62,15 +62,15 @@ Comment: 0,0:00:38.30,0:00:39.09,tuck,____ x-anti,0,0,0,,止まんないな
 Comment: 0,0:00:39.09,0:00:41.51,orig,L_10 x-anti,0,0,0,karaoke,{\ko29}Step{\ko10} {\ko19}to {\ko24}what{\ko10} {\ko18}my {\ko43}soul {\ko89}dreamt
 Comment: 0,0:00:39.09,0:00:41.51,ts,____ x-anti,0,0,0,karaoke,迈向魂牵梦萦之处
 Comment: 0,0:00:41.56,0:00:43.95,orig,L_11,0,0,0,karaoke,{\ko23}無|<む{\ko54}限|げん{\ko22}大|<だ{\ko7}い{\ko22}の{\ko14}夢|<ゆ{\ko33}#|め{\ko64}を
-Comment: 0,0:00:41.56,0:00:43.95,roma,____ ,0,0,0,karaoke,mu gen da i no yu me o
-Comment: 0,0:00:41.56,0:00:43.95,ts,____ ,0,0,0,karaoke,将无限大的梦想
-Comment: 0,0:00:41.56,0:00:43.95,tuck,____ ,0,0,0,,無限大の夢を
+Comment: 0,0:00:41.56,0:00:43.95,roma,____,0,0,0,karaoke,mu gen da i no yu me o
+Comment: 0,0:00:41.56,0:00:43.95,ts,____,0,0,0,karaoke,将无限大的梦想
+Comment: 0,0:00:41.56,0:00:43.95,tuck,____,0,0,0,,無限大の夢を
 Comment: 0,0:00:44.44,0:00:46.88,orig,L_12 x-anti,0,0,0,karaoke,{\ko51}Ne{\ko39}ver-{\ko30}en{\ko32}ding {\ko92}hope
 Comment: 0,0:00:44.44,0:00:46.88,ts,____ x-anti,0,0,0,karaoke,与永不终结的希望
 Comment: 0,0:00:46.80,0:00:49.20,orig,L_13,0,0,0,karaoke,{\ko17}輝|<か{\ko20}#|が{\ko35}#|や{\ko12}い{\ko23}た{\ko45}瞬|<しゅん{\ko33}間|かん{\ko55}を
-Comment: 0,0:00:46.80,0:00:49.20,roma,____ ,0,0,0,karaoke,ka ga ya i ta shun kan o
-Comment: 0,0:00:46.80,0:00:49.20,ts,____ ,0,0,0,karaoke,连同闪耀的瞬间
-Comment: 0,0:00:46.80,0:00:49.20,tuck,____ ,0,0,0,,輝いた瞬間を
+Comment: 0,0:00:46.80,0:00:49.20,roma,____,0,0,0,karaoke,ka ga ya i ta shun kan o
+Comment: 0,0:00:46.80,0:00:49.20,ts,____,0,0,0,karaoke,连同闪耀的瞬间
+Comment: 0,0:00:46.80,0:00:49.20,tuck,____,0,0,0,,輝いた瞬間を
 Comment: 0,0:00:49.51,0:00:52.19,orig,L_14 x-anti,0,0,0,karaoke,{\ko17}E{\ko16}x{\ko44}ten{\ko34}ding {\ko41}fa{\ko28}te un{\ko67}fold{\ko21}s
 Comment: 0,0:00:49.51,0:00:52.19,ts,____ x-anti,0,0,0,karaoke,延伸的命运就此展开
 Comment: 0,0:00:52.47,0:00:56.53,orig,L_15 x-anti,0,0,0,karaoke,{\ko64}I {\ko67}am {\ko70}rea{\ko31}dy {\ko51}to {\ko18}s{\ko105}tart{\ko0}!!
@@ -114,25 +114,25 @@ Comment: 0,0:01:35.17,0:01:37.92,ts,____ x-anti,0,0,0,karaoke,意外良机已然
 Comment: 0,0:01:38.20,0:01:40.25,orig,L_29 x-anti,0,0,0,karaoke,{\ko23}Ge{\ko10}t {\ko17}rea{\ko20}dy {\ko14}to {\ko30}sei{\ko19}ze i{\ko72}t on
 Comment: 0,0:01:38.20,0:01:40.25,ts,____ x-anti,0,0,0,karaoke,准备好把握此刻
 Comment: 0,0:01:40.30,0:01:45.32,orig,L_30,0,0,0,karaoke,{\ko15}期|<き{\ko35}待|たい{\ko16}以|<い{\ko29}上|じょ{\ko25}そ{\ko22}の {\ko25}Vi{\ko25}sion {\ko28}1000|<せん{\ko16}%|パー{\ko25}#|セン{\ko7}#|{\ko19}#|ト{\ko18}の{\ko23}ポ{\ko11}ジ{\ko20}ティ{\ko13}ブ{\ko27}で {\ko36}Ri{\ko67}de on!
-Comment: 0,0:01:40.30,0:01:45.32,roma,____ ,0,0,0,karaoke,ki ta i i jō so no vision sen percent no positive de ride on
-Comment: 0,0:01:40.30,0:01:45.32,ts,____ ,0,0,0,karaoke,超越期待 以1000%的积极态度 全速前进！
-Comment: 0,0:01:40.30,0:01:45.32,tuck,____ ,0,0,0,,期待以上 そのVision 1000%のポジティブで Ride on!
+Comment: 0,0:01:40.30,0:01:45.32,roma,____,0,0,0,karaoke,ki ta i i jō so no vision sen percent no positive de ride on
+Comment: 0,0:01:40.30,0:01:45.32,ts,____,0,0,0,karaoke,超越期待 以1000%的积极态度 全速前进！
+Comment: 0,0:01:40.30,0:01:45.32,tuck,____,0,0,0,,期待以上 そのVision 1000%のポジティブで Ride on!
 Comment: 0,0:01:45.67,0:01:50.84,orig,L_31,0,0,0,karaoke,{\ko17}今|<い{\ko16}#|ま{\ko32}きっ{\ko29}と {\ko15}光|<ひ{\ko7}#|{\ko22}#|か{\ko29}#|り{\ko24}を{\ko24}狙|<ね{\ko22}#|ら{\ko12}い{\ko13}{\-M}撃|<う{\ko16}ち {\ko22}DA{\ko13}SH{\ko0}{\-Z}!!{\ko20} {\ko8}個|<こ{\ko27}性|せ{\ko6}#|い{\ko23}の{\ko35}解|<かい{\ko85}放|ほう
-Comment: 0,0:01:45.67,0:01:50.84,roma,____ ,0,0,0,karaoke,i ma ki tto hi ka ri o ne ra i u chi dash ko se i no ka i hō
-Comment: 0,0:01:45.67,0:01:50.84,ts,____ ,0,0,0,karaoke,此刻定将瞄准光芒精准射击 全力冲刺！！解放个性
-Comment: 0,0:01:45.67,0:01:50.84,tuck,____ ,0,0,0,,今きっと 光を狙い撃ち DASH!! 個性の解放
+Comment: 0,0:01:45.67,0:01:50.84,roma,____,0,0,0,karaoke,i ma ki tto hi ka ri o ne ra i u chi dash ko se i no ka i hō
+Comment: 0,0:01:45.67,0:01:50.84,ts,____,0,0,0,karaoke,此刻定将瞄准光芒精准射击 全力冲刺！！解放个性
+Comment: 0,0:01:45.67,0:01:50.84,tuck,____,0,0,0,,今きっと 光を狙い撃ち DASH!! 個性の解放
 Comment: 0,0:01:51.15,0:01:53.66,orig,L_32 x-anti,0,0,0,karaoke,{\ko40}Bra{\ko18}ve{\ko19}ne{\ko14}ss {\ko29}in {\ko24}the {\ko107}soul
 Comment: 0,0:01:51.15,0:01:53.66,ts,____ x-anti,0,0,0,karaoke,灵魂中的勇气
 Comment: 0,0:01:53.67,0:01:56.12,orig,L_33,0,0,0,karaoke,{\ko15}可|<か{\ko34}能|のう{\ko33}性|<せ{\ko18}#|い{\ko28}を {\ko25}Lo{\ko8}{\ko84}ck on
-Comment: 0,0:01:53.67,0:01:56.12,roma,____ ,0,0,0,karaoke,ka nō se i o lock on
-Comment: 0,0:01:53.67,0:01:56.12,ts,____ ,0,0,0,karaoke,锁定无限可能
-Comment: 0,0:01:53.67,0:01:56.12,tuck,____ ,0,0,0,,可能性をLock on
+Comment: 0,0:01:53.67,0:01:56.12,roma,____,0,0,0,karaoke,ka nō se i o lock on
+Comment: 0,0:01:53.67,0:01:56.12,ts,____,0,0,0,karaoke,锁定无限可能
+Comment: 0,0:01:53.67,0:01:56.12,tuck,____,0,0,0,,可能性をLock on
 Comment: 0,0:01:56.18,0:01:59.62,orig,L_34 x-anti,0,0,0,karaoke,{\ko16}A{\ko6}d{\ko46}van{\ko45}cing {\ko28}toward{\ko13}s {\ko30}my {\ko160}goal
 Comment: 0,0:01:56.18,0:01:59.62,ts,____ x-anti,0,0,0,karaoke,朝着目标迈进
 Comment: 0,0:01:58.73,0:02:01.22,orig,L_35,0,0,0,karaoke,{\k12}揺|<ゆ{\k31}らい{\k30}で{\k20}た{\k15}ま{\k9}る{\k8}{\k23}か{\k11}{\k30}根|<こん{\k60}性|じょう
-Comment: 0,0:01:58.73,0:02:01.22,roma,____ ,0,0,0,karaoke,yu ra i de ta ma ru ka kon jō
-Comment: 0,0:01:58.73,0:02:01.22,ts,____ ,0,0,0,karaoke,岂容动摇的毅力
-Comment: 0,0:01:58.73,0:02:01.22,tuck,____ ,0,0,0,,揺らいでたまるか根性
+Comment: 0,0:01:58.73,0:02:01.22,roma,____,0,0,0,karaoke,yu ra i de ta ma ru ka kon jō
+Comment: 0,0:01:58.73,0:02:01.22,ts,____,0,0,0,karaoke,岂容动摇的毅力
+Comment: 0,0:01:58.73,0:02:01.22,tuck,____,0,0,0,,揺らいでたまるか根性
 Comment: 0,0:02:01.68,0:02:05.71,orig,L_36 x-anti,0,0,0,karaoke,{\ko27}最|<さ{\ko48}#|い{\ko59}高|こう{\ko62}速|<そ{\ko15}#|く{\ko30}で{\ko55}突|<と{\ko17}#|っ{\ko90}破|ぱ{\k0}!!
 Comment: 0,0:02:01.68,0:02:05.71,roma,____ x-anti,0,0,0,karaoke,sa i kō so ku de to ppa
 Comment: 0,0:02:01.68,0:02:05.71,ts,____ x-anti,0,0,0,karaoke,以最高速突破！！
@@ -161,10 +161,10 @@ Comment: 0,0:02:25.52,0:02:28.94,orig,L_44 x-anti,0,0,0,karaoke,{\ko48}新|<し{
 Comment: 0,0:02:25.52,0:02:28.94,roma,____ x-anti,0,0,0,karaoke,shin ji da i o ka ke me gu re so dive in
 Comment: 0,0:02:25.52,0:02:28.94,ts,____ x-anti,0,0,0,karaoke,纵横驰骋新时代 所以，投身其中！
 Comment: 0,0:02:25.52,0:02:28.94,tuck,____ x-anti,0,0,0,,新時代を駆け巡れ So, Dive in!
-Comment: 0,0:02:49.67,0:02:51.89,orig,L_45,0,0,0,karaoke,{\ko12}終|<お{\ko39}わ{\ko17}り{\ko27}の{\ko29}ない{\ko10}希|<き{\ko34}望|ぼ{\ko54}う{\ko0}を
-Comment: 0,0:02:49.67,0:02:51.89,roma,____ ,0,0,0,karaoke,o wa ri no na i ki bō o
-Comment: 0,0:02:49.67,0:02:51.89,ts,____ ,0,0,0,karaoke,将永无止境的希望
-Comment: 0,0:02:49.67,0:02:51.89,tuck,____ ,0,0,0,,終わりのない希望を
+Comment: 0,0:02:49.67,0:02:51.89,orig,L_45,0,0,0,karaoke,{\ko12}終|<お{\ko39}わ{\ko17}り{\ko27}の{\ko29}ない{\ko10}希|<き{\ko34}望|ぼう{\ko54}を
+Comment: 0,0:02:49.67,0:02:51.89,roma,____,0,0,0,karaoke,o wa ri no na i ki bō o
+Comment: 0,0:02:49.67,0:02:51.89,ts,____,0,0,0,karaoke,将永无止境的希望
+Comment: 0,0:02:49.67,0:02:51.89,tuck,____,0,0,0,,終わりのない希望を
 Comment: 0,0:02:52.45,0:02:54.85,orig,L_46 x-anti,0,0,0,karaoke,{\ko45}Un{\ko12}s{\ko35}taine{\ko30}d e{\ko28}mo{\ko67}tion{\ko23}s
 Comment: 0,0:02:52.45,0:02:54.85,ts,____ x-anti,0,0,0,karaoke,与纯净无瑕的情感
 Comment: 0,0:02:55.07,0:02:59.20,orig,L_47 x-anti,0,0,0,karaoke,{\ko75}煌|<き{\ko65}#|ら{\ko65}めい{\ko31}た {\ko65}Drea{\ko86}m u{\ko26}p
