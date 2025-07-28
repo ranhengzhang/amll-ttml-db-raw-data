@@ -2,13 +2,15 @@
 
 为[amll-ttml-db](https://github.com/Steve-xmh/amll-ttml-db)提交AMLL歌词使用的存储库。
 
-## ass2ttml.lua <img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/> <img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/> <img src="https://img.shields.io/badge/Lua-000080"/> <img src="https://img.shields.io/badge/TTML-1ba784"/>
+## ass2ttml.lua
+
+<a href="https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/ass2ttml-3.2.lua"><img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/></a> <a href="https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/ass2ttml-3.4.lua"><img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/></a> <a href="https://aegi.vmoe.info/docs/3.2/Automation/Lua/"><img src="https://img.shields.io/badge/Lua-000080"/></a> <a href="https://help.apple.com/itc/videoaudioassetguide/#/itc0f14fecdd"><img src="https://img.shields.io/badge/TTML-1ba784"/></a>
 
 > [!NOTE]
 >
 > 用于在 Aegisub 应用内将 ass 字幕文件直接导出可用 ttml 文件的自动化脚本。
 >
-> *ttml 转 ass 戳这里 => https://github.com/ranhengzhang/ttml-translater*
+> *ttml 转 ass 或其它格式戳这里 => [ranhengzhang/ttml-translater](https://github.com/ranhengzhang/ttml-translater)*
 
 ### 如何安装
 
@@ -42,10 +44,47 @@
 
 - `x-bg`：背景声行
 - `x-duet` 或 `x-anti`：对唱行
+- `x-chor`：合唱行
 - `x-mark*`：用于特定标记，但不输出到 ttml 文件中
 - `x-lang:*`：用于在 ts 行中标记翻译对应的语言。**(默认为 `zh-CN`)**
+- `x-part:*`：用于标记新的部分的开始
 
 ![image-20250405153536928](./img/README/image-20250405153536928.png)
+
+> **合唱行的处理**
+>
+> 当上下两行时间轴相同但是 role 不同时，使用合唱行进行标记。输出时会自动输出两行。
+>
+> 以下是使用 x-chor 进行标记的例子：
+>
+> ![image-20250728202430532](./img/README/image-20250728202430532.png)
+>
+> 使用脚本导出为 ttml 后，被标记为合唱的部分格式化之后为：
+>
+> ```xml
+> <p begin="01:22.780" end="01:30.600" ttm:agent="v1" itunes:key="L10">
+>     <span begin="01:22.780" end="01:23.860">让</span>
+>     <span begin="01:23.860" end="01:24.710">我</span>
+>     <span begin="01:24.710" end="01:25.010">最</span>
+>     <span begin="01:25.010" end="01:25.540">后</span>
+>     <span begin="01:25.540" end="01:25.920">一</span>
+>     <span begin="01:25.920" end="01:26.240">次</span>
+>     <span begin="01:26.240" end="01:27.760">想</span>
+>     <span begin="01:27.760" end="01:30.600">你</span>
+> </p>
+> <p begin="01:22.780" end="01:30.600" ttm:agent="v2" itunes:key="L11">
+>     <span begin="01:22.780" end="01:23.860">让</span>
+>     <span begin="01:23.860" end="01:24.710">我</span>
+>     <span begin="01:24.710" end="01:25.010">最</span>
+>     <span begin="01:25.010" end="01:25.540">后</span>
+>     <span begin="01:25.540" end="01:25.920">一</span>
+>     <span begin="01:25.920" end="01:26.240">次</span>
+>     <span begin="01:26.240" end="01:27.760">想</span>
+>     <span begin="01:27.760" end="01:30.600">你</span>
+> </p>
+> ```
+>
+> 
 
 > **关于多语言翻译**
 >
@@ -72,11 +111,72 @@
 >
 > `x-mark` 标记会根据后缀不同进行分组，譬如其中一些行标记了 `x-mark-a`，另一些标记了 `x-mark-b`，那么在最终统计中会分别进行输出。
 
+> **关于 songPart**
+>
+> 建议依照 Apple Music 的建议进行标记：
+>
+> - Verse（主歌）
+> - Chorus（副歌）
+> - PreChorus（预副歌）
+> - Bridge（桥段）
+> - Intro（前奏）
+> - Outro（尾奏）
+> - Refrain（叠句）
+> - Instrumental（器乐）
+>
+> 可以使用 [set-part.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/set-part.lua) 脚本快速设置。
+
+#### 标记音节类型
+
+ass2ttml 脚本使用内联标记（[inline-fx](https://aegi.vmoe.info/docs/3.2/Karaoke_inline-fx/)）进行单音节的特殊处理，目前支持以下标记：
+
+- 合并标记：`{\-M}` 或 `{\-merge}`，表示与前一个**有内容的**音节合并（会将夹在中间的空格也合并）。常用于在日语中，前一个汉字只发一个音，并且和后面一个字/假名连读
+
+  > **样例**
+  >
+  > ```ass
+  > {\ko19}何|<な{\ko8}#|ん{\ko22}度|<ど{\ko24}で{\ko44}も{\ko27}{\ko12}生|<う{\ko13}ま{\ko22}れ{\ko22}変|<か{\ko23}わ{\ko38}っ{\ko12}{\ko35}て{\ko12} {\ko7}あ{\ko8}の{\ko32}日|<ひ{\ko26}の{\ko18}{\ko16}君|<き{\ko36}#|み{\ko23}に{\ko21}{\ko24}逢|<あ{\ko46}い{\ko18}に{\ko23}{\-M}行|<い{\ko47}く{\ko252}よ
+  > ```
+  >
+  > `{\ko18}に{\ko23}行|<い` 部分变为长音，但是如果标记为 `{\ko41}に行|<い` 则会在应用模板后导致 furi 行错位（「に<ruby>行<rt>い</rt></ruby>」变为「<ruby>に行<rt>い</rt></ruby>」），因此使用合并标记 `{\ko18}に{\ko23\-M}行|<い`，使用脚本导出后的结果为：
+  >
+  > ```xml
+  > <span begin="03:49.320" end="03:49.730">に行</span>
+  > ```
+
+- 纯文本节点标记：`{\-T}` 或 `{\-text}`，表示导出为纯文本节点
+
+  > **样例**
+  >
+  > ```ass
+  > {\ko21}僕|<ぼ{\ko50}#|く{\ko22}ら{\ko27}か{\ko46}ら{\ko25}{\ko27}プ{\ko43}レ{\ko33}ゼ{\ko18}ン{\ko92}ト {\ko197}フォー{\ko0}・{\ko75}ユー{\ko0}{\T}💀
+  > ```
+  >
+  > 专辑歌词本中，此行歌词的末尾附上了一个 Emoji，但是这个 Emoji 并不占用任何行时间，并且不好应用逐字渐变，则使用纯文本标记使其常亮，该行导出结果为：
+  >
+  > ```xml
+  > <p begin="03:47.480" end="03:54.240" ttm:agent="v1" itunes:key="L50"><span begin="03:47.480" end="03:48.190">僕</span><span begin="03:48.190" end="03:48.410">ら</span><span begin="03:48.410" end="03:48.680">か</span><span begin="03:48.680" end="03:49.140">ら</span><span begin="03:49.390" end="03:49.660">プ</span><span begin="03:49.660" end="03:50.090">レ</span><span begin="03:50.090" end="03:50.420">ゼ</span><span begin="03:50.420" end="03:50.600">ン</span><span begin="03:50.600" end="03:51.520">ト</span><span begin="03:51.520" end="03:51.520"> </span><span begin="03:51.520" end="03:53.490">フォー・</span><span begin="03:53.490" end="03:54.240">ユー</span>💀<span ttm:role="x-roman">bo ku ra ka ra present for you</span><span ttm:role="x-translation" xml:lang="zh-CN">我们献上这份赠礼 专属于你</span></p>
+  > ```
+
+- 零时间节点标记：`{\-Z}` 或 `{\-zero}`，表示目标在导出时持续时间应为 0（*为了保持兼容性，插件在导出时会将所有持续时间为 0 并且不会合并的非文本节点持续时间设置为 5 ms*）
+
+  > **样例**
+  >
+  > ```ass
+  > {\kf0}“{\kf20}睡{\kf6}不{\kf21}着{\kf22}吗{\kf141\-Z}？{\kf10}没{\kf17}关{\kf29}系{\kf99}{\-Z}，{\kf11}因{\kf42}为{\kf0}”
+  > ```
+  >
+  > 这里的「？」和「，」如果原样导出的话会触发高亮，因此使用零时间标记，导出结果如下：
+  >
+  > ```xml
+  > <p begin="01:43.080" end="01:47.260" ttm:agent="v1" itunes:key="L29"><span begin="01:43.080" end="01:43.280">“睡</span><span begin="01:43.280" end="01:43.340">不</span><span begin="01:43.340" end="01:43.550">着</span><span begin="01:43.550" end="01:43.770">吗</span><span begin="01:43.770" end="01:43.775">？</span><span begin="01:45.180" end="01:45.280">没</span><span begin="01:45.280" end="01:45.450">关</span><span begin="01:45.450" end="01:45.740">系</span><span begin="01:45.740" end="01:45.745">，</span><span begin="01:46.730" end="01:46.840">因</span><span begin="01:46.840" end="01:47.260">为”</span></p>
+  > ```
+
 #### 输出为 TTML
 
 ##### 输出之前
 
-在输出之前，需要将行进行一次排序，才能进行正常的输出，可以使用 Aegisub 自带的行排序进行操作。具体为 ①样式名称 ②说话人 ③开始时间。
+在输出之前，需要将行进行一次排序，才能进行正常的输出，可以使用 Aegisub 自带的行排序进行操作。具体为 ①样式名称 ②说话人 ③开始时间。（有时可能还需要选中特殊的部分按结束时间排序）
 
 ![image-20250405154346351](./img/README/image-20250405154346351.png)
 
@@ -113,6 +213,18 @@
 > 如果不想每次导出时都填写，可以打开「脚本配置」，将「更新摘要」设定为 `+123ms`，**该 ass 字幕**每次导出时都将自动设置 offset
 >
 > ![image-20250405160430068](./img/README/image-20250405160430068.png)
+
+##### 选择优化
+
+![image-20250728224744588](./img/README/image-20250728224744588.png)
+
+其中
+
+- 「空格处理」有「不处理」、「合并」、「拆分」三种选项，「合并」选项会将空格合并到前一个音节的末尾，「拆分」选项则会将音节内部首/尾的空格放在音节前/后。
+- 「合并单个标点」打开时会将单个标点符号合并到前一个音节中。（*如果是成对符号的前个则会向后合并*）
+- 「优化 TTML 结构」打开时会将以下两种音节转换为纯文本节点：
+  - 纯空格组成的音节
+  - 持续时间为 0 的音节
 
 ##### 转换完成
 
