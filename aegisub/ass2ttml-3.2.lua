@@ -8,8 +8,8 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.8"
-script_modified = "2025-07-13"
+script_version = "1.0"
+script_modified = "2025-07-28"
 
 include("karaskel.lua")
 
@@ -36,6 +36,7 @@ end
 
 local title = "";
 local script_offset = 0;
+local part_split = false;
 
 function pre_process(subtitles)
     local is_bg = false
@@ -67,9 +68,15 @@ function pre_process(subtitles)
                             add_mark(line.actor, #subs + 1, false)
                         end
                     end
+                    local part = line.actor:find("x-part")
+                    if part ~= nil then part_split = true end
                 end
                 if is_bg then
                     local parent_line = table.copy(subs[#subs])
+                    parent_line.start_time =
+                        math.min(parent_line.start_time, line.start_time)
+                    parent_line.end_time =
+                        math.max(parent_line.end_time, line.end_time)
                     if line.style == "orig" then
                         line.ts_line = {n = 0}
                         parent_line.bg_line = line
@@ -106,6 +113,16 @@ function pre_process(subtitles)
         end
     end
 
+    if part_split then
+        local first_part = re.find(subs[1].actor, "(?<=x-part:)[A-z]+")
+        if first_part ~= nil then
+            part_split = first_part[1].str
+            subs[1].actor, _ = re.sub(subs[1].actor, "x-part:[A-z]+", "")
+        else
+            part_split = "Verse"
+        end
+    end
+
     return subs
 end
 
@@ -130,12 +147,26 @@ function generate_kara(line)
         local syl = util.copy(line.kara[i])
         syl.text_stripped = xml_symbol(syl.text_stripped)
 
-        if syl.inline_fx == "text" or syl.inline_fx == "T" then
+        if syl.inline_fx == "merge" or syl.inline_fx == "M" and ttml.n > 0 then
+            local stext = syl.text_stripped
+            local last = ttml[ttml.n - 1]
+
+            while last.stext:trim() == "" and ttml.n > 0 do
+                stext = last.stext .. stext
+                ttml.n = ttml.n - 1
+                last = ttml[ttml.n - 1]
+            end
+            last.stext = last.stext .. stext
+            last.send = time_to_string(syl.end_time + line.start_time)
+            ttml[ttml.n - 1] = last
+        elseif syl.inline_fx == "text" or syl.inline_fx == "T" then
             local hole_time = time_to_string(syl.start_time + line.start_time)
-            table.insert(ttml, string.format('<span begin="%s" end="%s">',
-                                             hole_time, hole_time))
-            table.insert(ttml, syl.text_stripped)
-            table.insert(ttml, '</span>')
+            ttml[ttml.n] = {
+                sbegin = hole_time,
+                send = hole_time,
+                stext = syl.text_stripped
+            }
+            ttml.n = ttml.n + 1
         elseif syl.inline_fx == "zero" or syl.inline_fx == "Z" then
             local space = nil
             if split_space then
@@ -146,7 +177,7 @@ function generate_kara(line)
 
             local start_time = time_to_string(syl.start_time + line.start_time)
             local end_time =
-                time_to_string(syl.start_time + line.start_time + 3)
+                time_to_string(syl.start_time + line.start_time + 5)
             ttml[ttml.n] = {
                 sbegin = start_time,
                 send = end_time,
@@ -168,8 +199,8 @@ function generate_kara(line)
                 space = re.find(syl.text_stripped, "^(\\ |\\　)(?=.)")
 
                 if space then
-                    syl.text_stripped = re.sub(syl.text_stripped,
-                                               "^(\\ |\\　)", "")
+                    syl.text_stripped, _ =
+                        re.sub(syl.text_stripped, "^(\\ |\\　)", "")
                     local hole_time = time_to_string(syl.start_time +
                                                          line.start_time)
                     ttml[ttml.n] = {
@@ -187,7 +218,7 @@ function generate_kara(line)
                 end
             end
             if syl.duration == 0 then
-                if i < #line.kara and line.kara[i + 1].duration == 0 then -- 合并连续无时长音节
+                if i < #line.kara and line.kara[i + 1].duration == 0 and (syl.inline_fx ~= "zero" and syl.inline_fx ~= "Z") then -- 向后合并连续无时长音节
                     local next_syl = line.kara[i + 1]
                     next_syl.text_stripped =
                         syl.text_stripped .. line.kara[i + 1].text_stripped
@@ -228,7 +259,7 @@ function generate_kara(line)
                     local start_time = time_to_string(syl.start_time +
                                                           line.start_time)
                     local end_time = time_to_string(syl.end_time +
-                                                        line.start_time)
+                                                        line.start_time + 5)
                     ttml[ttml.n] = {
                         sbegin = start_time,
                         send = end_time,
@@ -236,11 +267,9 @@ function generate_kara(line)
                     }
                     ttml.n = ttml.n + 1
                     if split_space and space then
-                        local hole_time =
-                            time_to_string(syl.end_time + line.start_time)
                         ttml[ttml.n] = {
-                            sbegin = hole_time,
-                            send = hole_time,
+                            sbegin = end_time,
+                            send = end_time,
                             stext = space[1].str
                         }
                         ttml.n = ttml.n + 1
@@ -248,7 +277,7 @@ function generate_kara(line)
                 end
             elseif syl.text_stripped ~= '' then
                 if syl.duration == 0 and not (syl.text_stripped == ' ') then
-                    syl.end_time = syl.end_time + 3
+                    syl.end_time = syl.end_time + 5
                 end
                 if line.actor:find('x-bg') ~= nil and i == 1 then
                     syl.text_stripped = '(' .. syl.text_stripped
@@ -300,10 +329,10 @@ end
 function generate_line(line, n)
     local ttml = ""
     local is_bg = line.actor:find('x-bg') ~= nil
+    local is_other = line.actor:find('x-anti') ~= nil or
+                         line.actor:find('x-duet') ~= nil
 
-    if line.actor:find('x-anti') ~= nil or line.actor:find('x-duet') ~= nil then
-        anti = true
-    end
+    if is_other then anti = true end
 
     if is_bg then
         ttml = ttml .. '<span ttm:role="x-bg"'
@@ -316,10 +345,9 @@ function generate_line(line, n)
     ttml = ttml .. string.format(' begin="%s" end="%s"', start_time, end_time)
 
     if not is_bg then
-        ttml = ttml .. string.format(' ttm:agent="%s" itunes:key="L%d"',
-                                     (line.actor:find('x-anti') == nil and
-                                         line.actor:find('x-duet') == nil) and
-                                         'v1' or 'v2', n)
+        ttml = ttml ..
+                   string.format(' ttm:agent="%s" itunes:key="L%d"',
+                                 is_other and 'v2' or 'v1', n)
     end
 
     ttml = ttml .. '>'
@@ -356,18 +384,44 @@ function generate_line(line, n)
 end
 
 function generate_body(subtitles)
-    body = ""
+    body = string.format('<body dur="%s">',
+                         time_to_string(subtitles[#subtitles].end_time))
 
-    body = body ..
-               string.format('<body dur="%s">',
-                             time_to_string(subtitles[#subtitles].end_time))
-    body = body .. string.format('<div begin="%s" end="%s">',
-                                 time_to_string(subtitles[1].start_time),
-                                 time_to_string(subtitles[#subtitles].end_time))
-
+    local n = 1
     local lines = {}
+    table.insert(lines, string.format('<div begin="%s" end="',
+                                      time_to_string(subtitles[1].start_time)))
+    table.insert(lines, "00:00.000")
+    table.insert(lines, string.format('"%s>',
+                                      (part_split ~= nil) and
+                                          string.format(' itunes:songPart="%s"',
+                                                        part_split) or ''))
     for i = 1, #subtitles do
-        table.insert(lines, generate_line(subtitles[i], i))
+        local line = subtitles[i]
+        if line.actor:find('x-part') then
+            local part = re.find(line.actor, "(?<=x-part:)[A-z]+")[1].str
+            lines[2] = time_to_string(subtitles[i - 1].end_time)
+            body = body .. table.concat(lines)
+            lines = {}
+            table.insert(lines, string.format('</div><div begin="%s" end="',
+                                              time_to_string(line.start_time)))
+            table.insert(lines, "00:00.000")
+            table.insert(lines, string.format('"%s>', string.format(
+                                                  ' itunes:songPart="%s"', part)))
+        end
+        table.insert(lines, generate_line(line, n))
+        n = n + 1
+        if line.actor:find('x-chor') ~= nil then
+            if line.actor:find('x-anti') ~= nil or line.actor:find('x-duet') ~=
+                nil then
+                line.actor = line.actor:gsub('x%-anti', '')
+                line.actor = line.actor:gsub('x%-duet', '')
+            else
+                line.actor = 'x-anti ' .. line.actor
+            end
+            table.insert(lines, generate_line(line, n))
+            n = n + 1
+        end
     end
 
     return body .. table.concat(lines) .. '</div></body>'
@@ -504,7 +558,15 @@ function script_main(subtitles)
             x = 18,
             y = 2,
             width = 1
-        }, {class = "edit", name = "musicNames", x = 19, y = 2, width = 16}, {
+        },
+        {
+            class = "edit",
+            name = "musicNames",
+            x = 19,
+            y = 2,
+            width = 16,
+            value = title
+        }, {
             class = "label",
             label = "歌词作者 Github ID",
             name = "tag_ttmlAuthorGithub",
