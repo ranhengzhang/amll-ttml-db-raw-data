@@ -250,7 +250,7 @@ ass2ttml 脚本使用内联标记（[inline-fx](https://aegi.vmoe.info/docs/3.2/
 
 ![image-20250405160904390](./img/README/image-20250405160904390.png)
 
-### 附：关于 furi 及 karaoke templater
+### 附Ⅰ 关于 furi 及 karaoke templater
 
 在对日语歌打轴时需要进行假名标记，并且会用到 karaoke 模板处理进行预览
 
@@ -300,3 +300,15 @@ Dialogue: 0,0:00:32.92,0:00:37.03,ts,____,0,0,0,fx,{\fad(200,200)}桃夭灼灼�
 ```
 
 由于「特效」列为 `fx`，因此不必担心影响导出内容
+
+### 附Ⅱ 其它 Aegisub 插件和模板
+
+- [![check.ass](https://img.shields.io/badge/template-check.ass-c21f30)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/check.ass)：时间轴核查模板
+- [![add-num.lua](https://img.shields.io/badge/automation-add_num.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/add-num.lua)：标记行号脚本
+- [![add-trans.lua](https://img.shields.io/badge/automation-add_trans.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/add-trans.lua)：快速添加翻译脚本
+- [![fix-furi.lua](https://img.shields.io/badge/automation-fix_furi.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/fix-furi.lua)：修复断开标注脚本
+- [![original-copy.lua](https://img.shields.io/badge/automation-original_copy.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/original-copy.lua)：复制原文脚本
+- [![pure-amll.lua](https://img.shields.io/badge/automation-pure_amll.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/pure-amll.lua)：ttml 原样导出脚本
+- [![replace-rows.lua](https://img.shields.io/badge/automation-replace_rows.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/replace-rows.lua)：替换行内容脚本
+- [![reset-line.lua](https://img.shields.io/badge/automation-reset_line.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/reset-line.lua)：清除 fx 行并取消注释脚本
+- [![set-part.lua](https://img.shields.io/badge/automation-set_part.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/set-part.lua)：预设 songPart 设置脚本
