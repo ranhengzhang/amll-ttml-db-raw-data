@@ -113,7 +113,7 @@
 
 > **关于 songPart**
 >
-> 建议依照 Apple Music 的建议进行标记：
+> 建议依照 [Apple Music 的建议](https://help.apple.com/itc/videoaudioassetguide/#/itcd7579a252:~:text=%E7%A0%81%E7%9A%84%E8%AF%B4%E6%98%8E%E3%80%82-,%E6%AD%8C%E8%AF%8D%E7%9A%84%20Apple%20%E6%89%A9%E5%B1%95,-%E6%AD%8C%E6%9B%B2%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86)进行标记：
 >
 > - Verse（主歌）
 > - Chorus（副歌）
