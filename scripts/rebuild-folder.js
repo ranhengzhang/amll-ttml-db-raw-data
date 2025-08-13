@@ -48,19 +48,7 @@ async function main() {
     if (!(await isGitWorktreeClean())) {
         console.log("工作树已变更，正在提交更改");
         await addFileToGit("..");
-        await commit(`于 ${new Date().toLocaleString('zh-CN', {
-          weekday: 'long',    // 显示星期几
-          
-          year: 'numeric',    // 显示年份
-          month: 'long',      // 显示月份（全称）
-          day: 'numeric',     // 显示日期
-          
-          hour: '2-digit',    // 显示小时（两位数）
-          minute: '2-digit',  // 显示分钟（两位数）
-          second: '2-digit',  // 显示秒数（两位数）
-          
-          timeZoneName: 'longOffset' // 显示时区（短格式）
-        })} 重新构建更新`);
+        await commit(`于 ${new Date().toISOString()} 重新构建更新`);
         await push("main");
         console.log("更改提交完成！");
     }

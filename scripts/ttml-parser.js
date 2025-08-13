@@ -50,6 +50,7 @@ function parseLyricInner(ttmlDoc) {
 			const id = agent.getAttribute("xml:id");
 			if (id) {
 				mainAgentId = id;
+        break;
 			}
 		}
 	}
@@ -90,6 +91,7 @@ function parseLyricInner(ttmlDoc) {
 					word: word,
 					startTime: word.trim().length > 0 ? line.startTime : 0,
 					endTime: word.trim().length > 0 ? line.endTime : 0,
+					isFromSpan: false,
 				});
 			} else if (wordNode.nodeType === ttmlDoc.ELEMENT_NODE) {
 				const wordEl = wordNode;
@@ -100,15 +102,16 @@ function parseLyricInner(ttmlDoc) {
 						parseParseLine(wordEl, true);
 						haveBg = true;
 					} else if (role === "x-translation") {
-						line.translatedLyric = wordEl.innerHTML;
+						line.translatedLyric = wordEl.textContent ?? "";
 					} else if (role === "x-roman") {
-						line.romanLyric = wordEl.innerHTML;
+						line.romanLyric = wordEl.textContent ?? "";
 					}
 				} else if (wordEl.hasAttribute("begin") && wordEl.hasAttribute("end")) {
 					const word = {
 						word: wordNode.textContent ?? "",
 						startTime: parseTimespan(wordEl.getAttribute("begin") ?? ""),
 						endTime: parseTimespan(wordEl.getAttribute("end") ?? ""),
+						isFromSpan: true,
 					};
 					const emptyBeat = wordEl.getAttribute("amll:empty-beat");
 					if (emptyBeat) {
