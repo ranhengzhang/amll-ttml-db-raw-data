@@ -2,36 +2,50 @@
     <head>
         <metadata>
             <ttm:agent type="person" xml:id="v1" />
+            <amll:meta key="album" value="Désir" />
+            <amll:meta key="album" value="Desir" />
+            <amll:meta key="album" value="Desir - EP" />
+            <amll:meta key="album" value="Désir (通常盤)" />
+            <amll:meta key="artists" value="GARNiDELiA" />
+            <amll:meta key="artists" value="ガルニデリア" />
+            <amll:meta key="artists" value="加尼德里亚" />
+            <amll:meta key="artists" value="メイリア" />
+            <amll:meta key="artists" value="MARiA" />
+            <amll:meta key="artists" value="水桥舞" />
+            <amll:meta key="artists" value="美依礼芽" />
+            <amll:meta key="artists" value="とくP" />
+            <amll:meta key="artists" value="阿部尚徳" />
+            <amll:meta key="artists" value="TOKU" />
+            <amll:meta key="artists" value="toku" />
             <amll:meta key="musicName" value="Désir" />
             <amll:meta key="musicName" value="Desir" />
-            <amll:meta key="musicName" value="TV动画《Fate/Apocrypha》片尾曲 / TVアニメ「Fate/Apocrypha」EDテーマ" />
-            <amll:meta key="musicName" value="《Fate/Apocrypha》TV动画第2-12、25集片尾曲" />
             <amll:meta key="musicName" value="TV动画《Fate/Apocrypha》片尾曲" />
-            <amll:meta key="artists" value="GARNiDELiA" />
-            <amll:meta key="artists" value="MARiA" />
-            <amll:meta key="artists" value="メイリア" />
-            <amll:meta key="artists" value="とくP" />
-            <amll:meta key="artists" value="toku" />
-            <amll:meta key="artists" value="TOKU" />
-            <amll:meta key="artists" value="加尼德里亚" />
-            <amll:meta key="artists" value="美依礼芽" />
-            <amll:meta key="artists" value="ガルニデリア" />
-            <amll:meta key="artists" value="水桥舞" />
-            <amll:meta key="artists" value="阿部尚徳" />
-            <amll:meta key="album" value="Désir (通常盤)" />
-            <amll:meta key="album" value="Desir - EP" />
-            <amll:meta key="album" value="Desir" />
+            <amll:meta key="musicName" value="《Fate/Apocrypha》TV动画第2-12、25集片尾曲" />
+            <amll:meta key="musicName" value="TV动画《Fate/Apocrypha》片尾曲 / TVアニメ「Fate/Apocrypha」EDテーマ" />
             <amll:meta key="ncmMusicId" value="500684165" />
             <amll:meta key="qqMusicId" value="001PiISw1K8gc7" />
             <amll:meta key="spotifyId" value="3QdrNpQhc5NRNJipK0VzE2" />
             <amll:meta key="appleMusicId" value="1537899426" />
             <amll:meta key="isrc" value="JPU901702388" />
+            <amll:meta key="Arrangement" value="GARNiDELiA" />
+            <amll:meta key="Bass" value="櫻井陸来" />
+            <amll:meta key="Drums" value="みっちゃん" />
+            <amll:meta key="Guitar" value="junchi" />
+            <amll:meta key="Keyboards" value="toku" />
+            <amll:meta key="Lyrics" value="メイリア" />
+            <amll:meta key="Mix Engineer" value="細井智史" />
+            <amll:meta key="Music" value="toku" />
+            <amll:meta key="Programming" value="toku" />
+            <amll:meta key="Recording Engineer" value="中瀬公大" />
+            <amll:meta key="Violin" value="日俣綾子" />
+            <amll:meta key="Violin" value="土屋玲子" />
+            <amll:meta key="Vocal" value="メイリア" />
             <amll:meta key="ttmlAuthorGithub" value="68000793" />
             <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
         </metadata>
     </head>
     <body dur="04:15.718">
-        <div begin="00:16.488" end="04:15.718">
+        <div begin="00:16.488" end="00:29.898" itunes:songPart="Verse">
             <p begin="00:16.488" end="00:19.358" ttm:agent="v1" itunes:key="L1">
                 <span begin="00:16.488" end="00:16.738">ど</span>
                 <span begin="00:16.738" end="00:17.018">ん</span>
@@ -81,6 +95,8 @@
                 <span ttm:role="x-roman">so re de mo a ru ki tsu zu ke ta</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">仍继续迈步向前</span>
             </p>
+        </div>
+        <div begin="00:30.488" end="00:52.278" itunes:songPart="PreChorus">
             <p begin="00:30.488" end="00:33.788" ttm:agent="v1" itunes:key="L5">
                 <span begin="00:30.488" end="00:30.868">幾</span>
                 <span begin="00:30.868" end="00:31.168">つ</span>
@@ -130,6 +146,8 @@
                 <span ttm:role="x-roman">fu ri ka e ru mi chi ni wa mō mo do re na ku te mo</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">即便无法折返来时的道路</span>
             </p>
+        </div>
+        <div begin="00:53.068" end="01:30.678" itunes:songPart="Chorus">
             <p begin="00:53.068" end="00:55.238" ttm:agent="v1" itunes:key="L9">
                 <span begin="00:53.068" end="00:53.288">世</span>
                 <span begin="00:53.368" end="00:53.748">界</span>
@@ -246,6 +264,8 @@
                 <span ttm:role="x-roman">o mo i o ni gi ri shi me te</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">将这份执念紧握掌心</span>
             </p>
+        </div>
+        <div begin="01:46.278" end="01:59.598" itunes:songPart="Verse">
             <p begin="01:46.278" end="01:49.168" ttm:agent="v1" itunes:key="L19">
                 <span begin="01:46.278" end="01:46.548">ど</span>
                 <span begin="01:46.548" end="01:46.808">ん</span>
@@ -296,6 +316,8 @@
                 <span ttm:role="x-roman">so re de mo ha na se na ka tta</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">却始终不愿放手</span>
             </p>
+        </div>
+        <div begin="02:00.208" end="02:22.188" itunes:songPart="PreChorus">
             <p begin="02:00.208" end="02:03.598" ttm:agent="v1" itunes:key="L23">
                 <span begin="02:00.208" end="02:00.718">何</span>
                 <span begin="02:00.718" end="02:00.868">度</span>
@@ -348,6 +370,8 @@
                 <span ttm:role="x-roman">yu ru sa re na ku te mo</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">不被世人所接纳</span>
             </p>
+        </div>
+        <div begin="02:22.838" end="02:53.288" itunes:songPart="Chorus">
             <p begin="02:22.838" end="02:24.968" ttm:agent="v1" itunes:key="L28">
                 <span begin="02:22.838" end="02:23.048">世</span>
                 <span begin="02:23.138" end="02:23.508">界</span>
@@ -435,6 +459,8 @@
                 <span ttm:role="x-roman">chi ka i o mu ne ni da i te</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">将这份誓言铭刻心田</span>
             </p>
+        </div>
+        <div begin="03:08.258" end="03:37.118" itunes:songPart="Bridge">
             <p begin="03:08.258" end="03:09.848" ttm:agent="v1" itunes:key="L36">
                 <span begin="03:08.258" end="03:08.578">運</span>
                 <span begin="03:08.578" end="03:08.828">命</span>
@@ -570,6 +596,8 @@
                 <span begin="03:35.308" end="03:37.118">fate</span>
                 <span ttm:role="x-translation" xml:lang="zh-CN">哦 我能击溃命运</span>
             </p>
+        </div>
+        <div begin="03:37.928" end="00:00.000" itunes:songPart="Refrain">
             <p begin="03:37.928" end="03:40.108" ttm:agent="v1" itunes:key="L48">
                 <span begin="03:37.928" end="03:38.158">世</span>
                 <span begin="03:38.248" end="03:38.638">界</span>
