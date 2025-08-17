@@ -184,6 +184,7 @@ async function main() {
 					url.search = params.toString();
 					const lyric = minify(await fetch(url.toString()).then((v) => {
 						if (v.ok) {
+							console.log("压缩后的 TTML 歌词文件", v.text);
 							return v.text();
 						} else {
 							throw new Error(v.statusText);
