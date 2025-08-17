@@ -45,7 +45,7 @@
         </metadata>
     </head>
     <body dur="04:15.718">
-        <div begin="00:16.488" end="00:29.898" itunes:songPart="Verse">
+        <div begin="00:16.488" end="00:29.898" itunes:song-part="Verse">
             <p begin="00:16.488" end="00:19.358" ttm:agent="v1" itunes:key="L1">
                 <span begin="00:16.488" end="00:16.738">ど</span>
                 <span begin="00:16.738" end="00:17.018">ん</span>
@@ -96,7 +96,7 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">仍继续迈步向前</span>
             </p>
         </div>
-        <div begin="00:30.488" end="00:52.278" itunes:songPart="PreChorus">
+        <div begin="00:30.488" end="00:52.278" itunes:song-part="PreChorus">
             <p begin="00:30.488" end="00:33.788" ttm:agent="v1" itunes:key="L5">
                 <span begin="00:30.488" end="00:30.868">幾</span>
                 <span begin="00:30.868" end="00:31.168">つ</span>
@@ -147,7 +147,7 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">即便无法折返来时的道路</span>
             </p>
         </div>
-        <div begin="00:53.068" end="01:30.678" itunes:songPart="Chorus">
+        <div begin="00:53.068" end="01:30.678" itunes:song-part="Chorus">
             <p begin="00:53.068" end="00:55.238" ttm:agent="v1" itunes:key="L9">
                 <span begin="00:53.068" end="00:53.288">世</span>
                 <span begin="00:53.368" end="00:53.748">界</span>
@@ -265,7 +265,7 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">将这份执念紧握掌心</span>
             </p>
         </div>
-        <div begin="01:46.278" end="01:59.598" itunes:songPart="Verse">
+        <div begin="01:46.278" end="01:59.598" itunes:song-part="Verse">
             <p begin="01:46.278" end="01:49.168" ttm:agent="v1" itunes:key="L19">
                 <span begin="01:46.278" end="01:46.548">ど</span>
                 <span begin="01:46.548" end="01:46.808">ん</span>
@@ -317,7 +317,7 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">却始终不愿放手</span>
             </p>
         </div>
-        <div begin="02:00.208" end="02:22.188" itunes:songPart="PreChorus">
+        <div begin="02:00.208" end="02:22.188" itunes:song-part="PreChorus">
             <p begin="02:00.208" end="02:03.598" ttm:agent="v1" itunes:key="L23">
                 <span begin="02:00.208" end="02:00.718">何</span>
                 <span begin="02:00.718" end="02:00.868">度</span>
@@ -371,7 +371,7 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">不被世人所接纳</span>
             </p>
         </div>
-        <div begin="02:22.838" end="02:53.288" itunes:songPart="Chorus">
+        <div begin="02:22.838" end="02:53.288" itunes:song-part="Chorus">
             <p begin="02:22.838" end="02:24.968" ttm:agent="v1" itunes:key="L28">
                 <span begin="02:22.838" end="02:23.048">世</span>
                 <span begin="02:23.138" end="02:23.508">界</span>
@@ -460,7 +460,7 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">将这份誓言铭刻心田</span>
             </p>
         </div>
-        <div begin="03:08.258" end="03:37.118" itunes:songPart="Bridge">
+        <div begin="03:08.258" end="03:37.118" itunes:song-part="Bridge">
             <p begin="03:08.258" end="03:09.848" ttm:agent="v1" itunes:key="L36">
                 <span begin="03:08.258" end="03:08.578">運</span>
                 <span begin="03:08.578" end="03:08.828">命</span>
@@ -597,7 +597,7 @@
                 <span ttm:role="x-translation" xml:lang="zh-CN">哦 我能击溃命运</span>
             </p>
         </div>
-        <div begin="03:37.928" end="00:00.000" itunes:songPart="Refrain">
+        <div begin="03:37.928" end="00:00.000" itunes:song-part="Refrain">
             <p begin="03:37.928" end="03:40.108" ttm:agent="v1" itunes:key="L48">
                 <span begin="03:37.928" end="03:38.158">世</span>
                 <span begin="03:38.248" end="03:38.638">界</span>
