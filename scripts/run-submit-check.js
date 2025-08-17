@@ -199,7 +199,7 @@ async function main() {
                         // 遍历所有歌词行进行规范化
                         for (let i = 0; i < normalizedLyric.lyricLines.length; i++) {
                             const line = normalizedLyric.lyricLines[i];
-                            
+
                             // 规范化主歌词文本
                             const mainLineResult = normalizeLyricLine(line, i, normalizationLogs);
                             if (mainLineResult.changed) {

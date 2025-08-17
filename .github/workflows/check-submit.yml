@@ -1,5 +1,6 @@
 name: 检查歌词提交正确性
 on:
+  workflow_dispatch:
   issues:
     types: [labeled]
 concurrency:

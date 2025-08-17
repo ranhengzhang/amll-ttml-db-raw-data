@@ -145,7 +145,7 @@ export function commit(message) {
                 reject(new Error(`Git commit 进程退出, 代码: ${code}`));
             }
         });
-        
+
         // 监听执行错误事件
         gitCommit.on('error', (err) => {
             reject(err);
@@ -273,13 +273,13 @@ export function normalizeLyricLine(line, lineIndex, logs) {
         }
 
         // 遇到了一个包含实际文本的音节
-        
+
         // 前导空格
         if (leadingSpace) {
             pendingSpaces++;
             logChange(`提取了音节 \`${wordObj.word}\` 的前导空格。`);
         }
-        
+
         // 更新所有在这之前的空格（上个词的尾随空格和这个词的前导空格）
         processPendingSpaces();
 
