@@ -610,7 +610,7 @@
           <span ttm:role="x-translation" xml:lang="zh-CN">永恒屹立</span>
         </span>
       </p>
-      <p begin="02:15.097" end="02:18.897" ttm:agent="v1" itunes:key="L31">
+      <p begin="02:15.097" end="02:19.967" ttm:agent="v1" itunes:key="L31">
         <span begin="02:15.097" end="02:15.297">To</span>
         <span begin="02:15.297" end="02:15.587">ge</span>
         <span begin="02:15.587" end="02:15.867">ther</span>
@@ -633,15 +633,15 @@
         <span begin="02:18.217" end="02:18.897">trong</span>
         <span begin="02:18.897" end="02:18.902">,</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">同心而立 无畏刚强</span>
+        <span ttm:role="x-bg" begin="02:19.017" end="02:19.967">
+          <span begin="02:19.017" end="02:19.137">(We&apos;re</span>
+          <span begin="02:19.137" end="02:19.137"> </span>
+          <span begin="02:19.137" end="02:19.297">s</span>
+          <span begin="02:19.297" end="02:19.967">trong)</span>
+          <span ttm:role="x-translation" xml:lang="zh-CN">刚强</span>
+        </span>
       </p>
-      <p begin="02:19.017" end="02:19.967" ttm:agent="v1" itunes:key="L32">
-        <span begin="02:19.017" end="02:19.137">We&apos;re</span>
-        <span begin="02:19.137" end="02:19.137"> </span>
-        <span begin="02:19.137" end="02:19.297">s</span>
-        <span begin="02:19.297" end="02:19.967">trong</span>
-        <span ttm:role="x-translation" xml:lang="zh-CN">刚强</span>
-      </p>
-      <p begin="02:19.537" end="02:30.427" ttm:agent="v1" itunes:key="L33">
+      <p begin="02:19.537" end="02:30.427" ttm:agent="v1" itunes:key="L32">
         <span begin="02:19.537" end="02:19.827">Fans</span>
         <span begin="02:19.827" end="02:19.827"> </span>
         <span begin="02:19.827" end="02:20.147">and</span>
@@ -675,7 +675,7 @@
       </p>
     </div>
     <div begin="02:30.447" end="02:42.437" itunes:song-part="Chorus">
-      <p begin="02:30.447" end="02:33.527" ttm:agent="v1" itunes:key="L34">
+      <p begin="02:30.447" end="02:33.527" ttm:agent="v1" itunes:key="L33">
         <span begin="02:30.447" end="02:30.727">We</span>
         <span begin="02:30.727" end="02:30.727"> </span>
         <span begin="02:30.727" end="02:30.997">are</span>
@@ -694,7 +694,7 @@
         <span begin="02:33.527" end="02:33.532">,</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">吾等天选君王</span>
       </p>
-      <p begin="02:34.907" end="02:37.927" ttm:agent="v1" itunes:key="L35">
+      <p begin="02:34.907" end="02:37.927" ttm:agent="v1" itunes:key="L34">
         <span begin="02:34.907" end="02:35.227">Crown</span>
         <span begin="02:35.227" end="02:35.477">ed in</span>
         <span begin="02:35.477" end="02:35.477"> </span>
@@ -711,7 +711,7 @@
         <span begin="02:37.927" end="02:37.932">.</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">圣光加冕 永承天恩</span>
       </p>
-      <p begin="02:38.937" end="02:42.437" ttm:agent="v1" itunes:key="L36">
+      <p begin="02:38.937" end="02:42.437" ttm:agent="v1" itunes:key="L35">
         <span begin="02:38.937" end="02:39.207">A</span>
         <span begin="02:39.207" end="02:39.447">bove</span>
         <span begin="02:39.447" end="02:39.447"> </span>
@@ -734,7 +734,7 @@
       </p>
     </div>
     <div begin="02:42.887" end="02:47.467" itunes:song-part="Hook">
-      <p begin="02:42.887" end="02:47.467" ttm:agent="v1" itunes:key="L37">
+      <p begin="02:42.887" end="02:47.467" ttm:agent="v1" itunes:key="L36">
         <span begin="02:42.887" end="02:43.167">An</span>
         <span begin="02:43.167" end="02:43.447">gel</span>
         <span begin="02:43.447" end="02:43.587">s o</span>
@@ -754,7 +754,7 @@
       </p>
     </div>
     <div begin="02:47.467" end="02:59.837" itunes:song-part="Chorus">
-      <p begin="02:47.467" end="02:51.487" ttm:agent="v1" itunes:key="L38">
+      <p begin="02:47.467" end="02:51.487" ttm:agent="v1" itunes:key="L37">
         <span begin="02:47.467" end="02:47.667">We</span>
         <span begin="02:47.667" end="02:47.667"> </span>
         <span begin="02:47.667" end="02:47.907">are</span>
@@ -791,7 +791,7 @@
           <span ttm:role="x-translation" xml:lang="zh-CN">吾等至强 天选而降</span>
         </span>
       </p>
-      <p begin="02:51.887" end="02:55.647" ttm:agent="v1" itunes:key="L39">
+      <p begin="02:51.887" end="02:55.647" ttm:agent="v1" itunes:key="L38">
         <span begin="02:51.887" end="02:52.227">Crown</span>
         <span begin="02:52.227" end="02:52.437">ed in</span>
         <span begin="02:52.437" end="02:52.437"> </span>
@@ -817,7 +817,7 @@
           <span ttm:role="x-translation" xml:lang="zh-CN">永承天恩</span>
         </span>
       </p>
-      <p begin="02:55.937" end="02:59.837" ttm:agent="v1" itunes:key="L40">
+      <p begin="02:55.937" end="02:59.837" ttm:agent="v1" itunes:key="L39">
         <span begin="02:55.937" end="02:56.207">A</span>
         <span begin="02:56.207" end="02:56.457">bove</span>
         <span begin="02:56.457" end="02:56.457"> </span>
@@ -847,7 +847,7 @@
       </p>
     </div>
     <div begin="02:59.877" end="00:00.000" itunes:song-part="Hook">
-      <p begin="02:59.877" end="03:05.857" ttm:agent="v1" itunes:key="L41">
+      <p begin="02:59.877" end="03:05.857" ttm:agent="v1" itunes:key="L40">
         <span begin="02:59.877" end="03:00.157">An</span>
         <span begin="03:00.157" end="03:00.437">gel</span>
         <span begin="03:00.437" end="03:00.607">s o</span>

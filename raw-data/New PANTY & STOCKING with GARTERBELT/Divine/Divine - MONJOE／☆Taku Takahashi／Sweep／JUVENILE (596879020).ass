@@ -27,100 +27,100 @@ Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template pre-line orig noblank,!ret
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template line orig,{\kf!($skdur)!}
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
 Dialogue: 0,0:00:01.21,0:00:03.14,orig,L__1 x-anti x-part:Intro,0,0,0,karaoke,{\k29}We {\k29}are {\k27}the {\k80}be{\k14}s{\k14}t
-Dialogue: 0,0:00:01.21,0:00:03.14,ts,____,0,0,0,karaoke,天选至强
+Dialogue: 0,0:00:01.21,0:00:03.14,ts,____ ,0,0,0,karaoke,天选至强
 Dialogue: 0,0:00:07.61,0:00:09.66,orig,L__2 x-part:Refrain,0,0,0,karaoke,{\ko26}An{\ko30}gel{\ko12}s o{\ko11}f {\ko49}fi{\ko77}re
-Dialogue: 0,0:00:07.61,0:00:09.66,ts,____,0,0,0,karaoke,烈焰天使
+Dialogue: 0,0:00:07.61,0:00:09.66,ts,____ ,0,0,0,karaoke,烈焰天使
 Dialogue: 0,0:00:10.27,0:00:13.48,orig,L__3,0,0,0,karaoke,{\ko25}Di{\ko33}vi{\ko47}ne {\ko21}di{\ko38}vi{\ko49}ne {\ko19}di{\ko32}vi{\ko57}ne
-Dialogue: 0,0:00:10.27,0:00:13.48,ts,____,0,0,0,karaoke,神圣无上
+Dialogue: 0,0:00:10.27,0:00:13.48,ts,____ ,0,0,0,karaoke,神圣无上
 Dialogue: 0,0:00:14.52,0:00:17.73,orig,L__4,0,0,0,karaoke,{\ko22}Di{\ko34}vi{\ko49}ne {\ko25}di{\ko34}vi{\ko49}ne {\ko17}di{\ko36}vi{\ko55}ne
-Dialogue: 0,0:00:14.52,0:00:17.73,ts,____,0,0,0,karaoke,神圣无上
+Dialogue: 0,0:00:14.52,0:00:17.73,ts,____ ,0,0,0,karaoke,神圣无上
 Dialogue: 0,0:00:18.77,0:00:21.98,orig,L__5,0,0,0,karaoke,{\ko22}Di{\ko34}vi{\ko49}ne {\ko23}di{\ko36}vi{\ko49}ne {\ko22}di{\ko31}vi{\ko55}ne
-Dialogue: 0,0:00:18.77,0:00:21.98,ts,____,0,0,0,karaoke,神圣无上
+Dialogue: 0,0:00:18.77,0:00:21.98,ts,____ ,0,0,0,karaoke,神圣无上
 Dialogue: 0,0:00:25.37,0:00:29.17,orig,L__6 x-part:Verse,0,0,0,karaoke,{\ko19}We {\ko42}fell {\ko50}from {\ko11}the {\ko15}s{\ko30}ky{\ko47} {\ko20}wi{\ko14}th {\ko35}ha{\ko34}lo{\ko22}s o{\ko10}f {\ko31}gold
-Dialogue: 0,0:00:25.37,0:00:29.17,ts,____,0,0,0,karaoke,携金色光环自苍穹降临
+Dialogue: 0,0:00:25.37,0:00:29.17,ts,____ ,0,0,0,karaoke,携金色光环自苍穹降临
 Dialogue: 0,0:00:29.86,0:00:33.60,orig,L__7,0,0,0,karaoke,{\ko42}Wing{\ko46}s of {\ko22}the {\ko17}li{\ko12}{\ko18}ght{\ko32} {\ko25}we {\ko31}ri{\ko11}se {\ko25}ne{\ko14}ver {\ko29}grow {\ko35}ol{\ko15}d
-Dialogue: 0,0:00:29.86,0:00:33.60,ts,____,0,0,0,karaoke,展光之羽翼永葆青春
+Dialogue: 0,0:00:29.86,0:00:33.60,ts,____ ,0,0,0,karaoke,展光之羽翼永葆青春
 Dialogue: 0,0:00:34.03,0:00:37.78,orig,L__8,0,0,0,karaoke,{\ko57}Shi{\ko27}ning {\ko39}so {\ko28}brigh{\ko16}t{\ko30} {\ko18}we{\ko12}'re {\ko34}more {\ko45}than {\ko19}a {\ko36}drea{\ko14}m
-Dialogue: 0,0:00:34.03,0:00:37.78,ts,____,0,0,0,karaoke,璀璨辉光超越梦境
+Dialogue: 0,0:00:34.03,0:00:37.78,ts,____ ,0,0,0,karaoke,璀璨辉光超越梦境
 Dialogue: 0,0:00:38.11,0:00:42.15,orig,L__9,0,0,0,karaoke,{\ko28}The {\ko40}world {\ko43}can{\ko29}'t hol{\ko16}d u{\ko22}s{\ko36} {\ko21}we{\ko10}'re {\ko36}hea{\ko29}ven{\ko17}'s s{\ko20}u{\ko38}pre{\ko19}me
-Dialogue: 0,0:00:38.11,0:00:42.15,ts,____,0,0,0,karaoke,天地难拘我辈天界至尊
+Dialogue: 0,0:00:38.11,0:00:42.15,ts,____ ,0,0,0,karaoke,天地难拘我辈天界至尊
 Dialogue: 0,0:00:42.38,0:00:45.80,orig,L_10 x-part:PreChorus,0,0,0,karaoke,{\ko22}We {\ko170}guide {\ko21}the {\ko129}way
-Dialogue: 0,0:00:42.38,0:00:45.80,ts,____,0,0,0,karaoke,指引前路
+Dialogue: 0,0:00:42.38,0:00:45.80,ts,____ ,0,0,0,karaoke,指引前路
 Dialogue: 0,0:00:46.64,0:00:50.37,orig,L_11,0,0,0,karaoke,{\ko21}Through {\ko136}dar{\ko38}ke{\ko15}st {\ko163}night
-Dialogue: 0,0:00:46.64,0:00:50.37,ts,____,0,0,0,karaoke,穿越至暗之夜
+Dialogue: 0,0:00:46.64,0:00:50.37,ts,____ ,0,0,0,karaoke,穿越至暗之夜
 Dialogue: 0,0:00:49.02,0:00:50.31,orig,____ x-bg,0,0,0,karaoke,{\ko33}Through{\ko22} {\ko27}dar{\ko13}ke{\ko12}st {\ko22}night
-Dialogue: 0,0:00:49.02,0:00:50.31,ts,____,0,0,0,karaoke,穿越至暗之夜
+Dialogue: 0,0:00:49.02,0:00:50.31,ts,____ ,0,0,0,karaoke,穿越至暗之夜
 Dialogue: 0,0:00:50.38,0:00:53.49,orig,L_12 x-part:Chorus,0,0,0,karaoke,{\ko29}We {\ko24}are {\ko21}the {\ko25}be{\ko13}s{\ko15}t {\ko45}from {\ko40}hea{\ko38}ven {\ko51}sen{\ko10}t
-Dialogue: 0,0:00:50.38,0:00:53.49,ts,____,0,0,0,karaoke,吾等天选至强
+Dialogue: 0,0:00:50.38,0:00:53.49,ts,____ ,0,0,0,karaoke,吾等天选至强
 Dialogue: 0,0:00:54.80,0:00:57.84,orig,L_13,0,0,0,karaoke,{\ko36}Crown{\ko24}ed in {\ko33}light{\ko0\-Z},{\ko17} {\ko53}for{\ko31}e{\ko50}ver {\ko37}ble{\ko13}ss{\ko10}ed{\ko0\-Z}.
-Dialogue: 0,0:00:54.80,0:00:57.84,ts,____,0,0,0,karaoke,圣光加冕 永承天恩
+Dialogue: 0,0:00:54.80,0:00:57.84,ts,____ ,0,0,0,karaoke,圣光加冕 永承天恩
 Dialogue: 0,0:00:58.85,0:01:02.36,orig,L_14,0,0,0,karaoke,{\ko27}A{\ko27}bove {\ko23}the {\ko23}re{\ko14}st{\ko0\-Z},{\ko18} {\ko34}we {\ko52}soar {\ko32}and {\ko68}shi{\ko33}ne{\ko0\-Z},
-Dialogue: 0,0:00:58.85,0:01:02.36,ts,____,0,0,0,karaoke,凌驾众生 翱翔闪耀
+Dialogue: 0,0:00:58.85,0:01:02.36,ts,____ ,0,0,0,karaoke,凌驾众生 翱翔闪耀
 Dialogue: 0,0:01:02.79,0:01:08.72,orig,L_15 x-part:Refrain,0,0,0,karaoke,{\ko29}An{\ko28}gel{\ko14}s o{\ko63}f fi{\ko81}re{\ko0\-Z},{\ko55} {\ko25}di{\ko33}vi{\ko50}ne{\ko0\-Z}, {\ko25}di{\ko27}vi{\ko51}ne {\ko29}di{\ko29}vi{\ko54}ne
-Dialogue: 0,0:01:02.79,0:01:08.72,ts,____,0,0,0,karaoke,烈焰天使 神圣无上
+Dialogue: 0,0:01:02.79,0:01:08.72,ts,____ ,0,0,0,karaoke,烈焰天使 神圣无上
 Dialogue: 0,0:01:09.74,0:01:12.97,orig,L_16,0,0,0,karaoke,{\ko22}Di{\ko37}vi{\ko46}ne {\ko24}di{\ko29}vi{\ko52}ne {\ko24}di{\ko34}vi{\ko55}ne
-Dialogue: 0,0:01:09.74,0:01:12.97,ts,____,0,0,0,karaoke,神圣无上
+Dialogue: 0,0:01:09.74,0:01:12.97,ts,____ ,0,0,0,karaoke,神圣无上
 Dialogue: 0,0:01:13.98,0:01:16.09,orig,L_17,0,0,0,karaoke,{\ko20}Di{\ko39}vi{\ko47}ne {\ko23}di{\ko31}vi{\ko51}ne
-Dialogue: 0,0:01:13.98,0:01:16.09,ts,____,0,0,0,karaoke,神圣无上
+Dialogue: 0,0:01:13.98,0:01:16.09,ts,____ ,0,0,0,karaoke,神圣无上
 Dialogue: 0,0:01:16.36,0:01:20.22,orig,L_18 x-part:Verse,0,0,0,karaoke,{\ko31}We {\ko30}ri{\ko12}se {\ko33}like {\ko18}the{\ko9} {\ko44}dawn{\ko0\-Z},{\ko34} {\ko15}wi{\ko11}th s{\ko36}treng{\ko14}th {\ko35}in {\ko12}our {\ko52}soul{\ko0\-Z},
-Dialogue: 0,0:01:16.36,0:01:20.22,ts,____,0,0,0,karaoke,如破晓腾跃 魂蕴伟力
+Dialogue: 0,0:01:16.36,0:01:20.22,ts,____ ,0,0,0,karaoke,如破晓腾跃 魂蕴伟力
 Dialogue: 0,0:01:20.75,0:01:24.33,orig,L_19,0,0,0,karaoke,{\ko59}Fear{\ko13}le{\ko26}ss {\ko15}and {\ko37}free{\ko0\-Z},{\ko47} {\ko23}we're {\ko38}rea{\ko44}ching {\ko28}our {\ko28}goal{\ko0\-Z}.
-Dialogue: 0,0:01:20.75,0:01:24.33,ts,____,0,0,0,karaoke,无畏无拘 直抵宏图
+Dialogue: 0,0:01:20.75,0:01:24.33,ts,____ ,0,0,0,karaoke,无畏无拘 直抵宏图
 Dialogue: 0,0:01:25.13,0:01:28.81,orig,L_20,0,0,0,karaoke,{\ko44}Glo{\ko30}wing {\ko19}wi{\ko14}th {\ko39}po{\ko36}wer{\ko0\-Z}, {\ko32}we'll {\ko35}ne{\ko32}ver{\ko13} {\ko17}back{\ko9} {\ko48}down{\ko0\-Z},
-Dialogue: 0,0:01:25.13,0:01:28.81,ts,____,0,0,0,karaoke,神力辉耀 永不退缩
+Dialogue: 0,0:01:25.13,0:01:28.81,ts,____ ,0,0,0,karaoke,神力辉耀 永不退缩
 Dialogue: 0,0:01:29.38,0:01:33.07,orig,L_21,0,0,0,karaoke,{\ko37}King{\ko34}s o{\ko10}f {\ko12}the {\ko14}s{\ko47}kie{\ko22}s{\ko0\-Z}, {\ko9}we {\ko79}wear {\ko15}the{\ko10} {\ko80}crown{\ko0\-Z}.
-Dialogue: 0,0:01:29.38,0:01:33.07,ts,____,0,0,0,karaoke,苍穹之王 冠冕在握
+Dialogue: 0,0:01:29.38,0:01:33.07,ts,____ ,0,0,0,karaoke,苍穹之王 冠冕在握
 Dialogue: 0,0:01:33.35,0:01:36.98,orig,L_22 x-part:PreChorus,0,0,0,karaoke,{\ko25}We {\ko133}guide {\ko53}the {\ko152}way{\ko0\-Z},
-Dialogue: 0,0:01:33.35,0:01:36.98,ts,____,0,0,0,karaoke,指引前路
+Dialogue: 0,0:01:33.35,0:01:36.98,ts,____ ,0,0,0,karaoke,指引前路
 Dialogue: 0,0:01:37.33,0:01:41.08,orig,L_23,0,0,0,karaoke,{\ko29}Through {\ko155}dar{\ko39}ke{\ko15}st {\ko137}night{\ko0\-Z}.
-Dialogue: 0,0:01:37.33,0:01:41.08,ts,____,0,0,0,karaoke,穿越至暗之夜
+Dialogue: 0,0:01:37.33,0:01:41.08,ts,____ ,0,0,0,karaoke,穿越至暗之夜
 Dialogue: 0,0:01:39.94,0:01:41.13,orig,____ x-bg,0,0,0,karaoke,{\ko40}Through{\ko25} {\ko16}dar{\ko19}ke{\ko12}st {\ko7}night{\ko0\-Z}.
-Dialogue: 0,0:01:39.94,0:01:41.13,ts,____,0,0,0,karaoke,穿越至暗之夜
+Dialogue: 0,0:01:39.94,0:01:41.13,ts,____ ,0,0,0,karaoke,穿越至暗之夜
 Dialogue: 0,0:01:41.34,0:01:44.46,orig,L_24 x-part:Chorus,0,0,0,karaoke,{\ko31}We {\ko24}are {\ko17}the{\ko12} {\ko18}be{\ko8}st{\ko0\-Z},{\ko21} {\ko48}from {\ko36}hea{\ko37}ven {\ko47}sen{\ko13}t{\ko0\-Z},
-Dialogue: 0,0:01:41.34,0:01:44.46,ts,____,0,0,0,karaoke,吾等天选至强
+Dialogue: 0,0:01:41.34,0:01:44.46,ts,____ ,0,0,0,karaoke,吾等天选至强
 Dialogue: 0,0:01:45.77,0:01:48.81,orig,L_25,0,0,0,karaoke,{\ko36}Crown{\ko24}ed in {\ko33}light{\ko0\-Z},{\ko18} {\ko49}for{\ko34}e{\ko50}ver {\ko38}ble{\ko12}ss{\ko10}ed{\ko0\-Z}.
-Dialogue: 0,0:01:45.77,0:01:48.81,ts,____,0,0,0,karaoke,圣光加冕 永承天恩
+Dialogue: 0,0:01:45.77,0:01:48.81,ts,____ ,0,0,0,karaoke,圣光加冕 永承天恩
 Dialogue: 0,0:01:49.84,0:01:53.32,orig,L_26,0,0,0,karaoke,{\ko27}A{\ko26}bove {\ko23}the {\ko22}re{\ko12}st{\ko0\-Z},{\ko20} {\ko36}we {\ko50}soar {\ko32}and {\ko67}shi{\ko33}ne{\ko0\-Z},
-Dialogue: 0,0:01:49.84,0:01:53.32,ts,____,0,0,0,karaoke,凌驾众生 翱翔闪耀
+Dialogue: 0,0:01:49.84,0:01:53.32,ts,____ ,0,0,0,karaoke,凌驾众生 翱翔闪耀
 Dialogue: 0,0:01:53.77,0:01:59.70,orig,L_27 x-part:Refrain,0,0,0,karaoke,{\ko31}An{\ko26}gel{\ko14}s o{\ko65}f fi{\ko74}re{\ko0\-Z},{\ko54} {\ko25}di{\ko39}vi{\ko47}ne{\ko0\-Z}, {\ko23}di{\ko35}vi{\ko48}ne {\ko21}di{\ko33}vi{\ko58}ne
-Dialogue: 0,0:01:53.77,0:01:59.70,ts,____,0,0,0,karaoke,烈焰天使 神圣 神圣无上
+Dialogue: 0,0:01:53.77,0:01:59.70,ts,____ ,0,0,0,karaoke,烈焰天使 神圣 神圣无上
 Dialogue: 0,0:02:00.66,0:02:03.95,orig,L_28,0,0,0,karaoke,{\ko25}Di{\ko32}vi{\ko51}ne {\ko26}di{\ko35}vi{\ko47}ne {\ko22}di{\ko32}vi{\ko59}ne
-Dialogue: 0,0:02:00.66,0:02:03.95,ts,____,0,0,0,karaoke,神圣无上
+Dialogue: 0,0:02:00.66,0:02:03.95,ts,____ ,0,0,0,karaoke,神圣无上
 Dialogue: 0,0:02:06.28,0:02:10.22,orig,L_29 x-part:Bridge,0,0,0,karaoke,{\ko19}Wi{\ko7}th {\ko43}heart{\ko47}s o{\ko55}f fi{\ko18}re{\ko0\-Z},{\ko26} {\ko23}we {\ko39}light{\ko15} {\ko28}the {\ko74}way{\ko0\-Z},
-Dialogue: 0,0:02:06.28,0:02:10.22,ts,____,0,0,0,karaoke,炽心燃焰 照彻征途
+Dialogue: 0,0:02:06.28,0:02:10.22,ts,____ ,0,0,0,karaoke,炽心燃焰 照彻征途
 Dialogue: 0,0:02:10.29,0:02:11.35,orig,____ x-bg,0,0,0,karaoke,{\ko23}The {\ko83}way
-Dialogue: 0,0:02:10.29,0:02:11.35,ts,____,0,0,0,karaoke,征途
+Dialogue: 0,0:02:10.29,0:02:11.35,ts,____ ,0,0,0,karaoke,征途
 Dialogue: 0,0:02:10.72,0:02:14.57,orig,L_30,0,0,0,karaoke,{\ko36}No{\ko28}bo{\ko11}dy {\ko15}s{\ko41}top{\ko28}s u{\ko12}s{\ko0\-Z},{\ko24} {\ko18}we're {\ko64}here {\ko10}to {\ko16}s{\ko82}tay{\ko0\-Z}.
-Dialogue: 0,0:02:10.72,0:02:14.57,ts,____,0,0,0,karaoke,无人可阻 永恒屹立
+Dialogue: 0,0:02:10.72,0:02:14.57,ts,____ ,0,0,0,karaoke,无人可阻 永恒屹立
 Dialogue: 0,0:02:14.02,0:02:15.53,orig,____ x-bg,0,0,0,karaoke,{\ko55}Here {\ko12}to {\ko11}s{\ko73}tay
-Dialogue: 0,0:02:14.02,0:02:15.53,ts,____,0,0,0,karaoke,永恒屹立
+Dialogue: 0,0:02:14.02,0:02:15.53,ts,____ ,0,0,0,karaoke,永恒屹立
 Dialogue: 0,0:02:14.84,0:02:18.64,orig,L_31,0,0,0,karaoke,{\ko20}To{\ko29}ge{\ko28}ther {\ko32}we {\ko22}s{\ko38}tan{\ko10}d{\ko0\-Z},{\ko21} {\ko28}we're {\ko57}bold{\ko0\-Z}, {\ko15}we're {\ko12}s{\ko68}trong{\ko0\-Z},
-Dialogue: 0,0:02:14.84,0:02:18.64,ts,____,0,0,0,karaoke,同心而立 无畏刚强
-Dialogue: 0,0:02:18.76,0:02:19.71,orig,L_32,0,0,0,karaoke,{\ko12}We're {\ko16}s{\ko67}trong
-Dialogue: 0,0:02:18.76,0:02:19.71,ts,____,0,0,0,karaoke,刚强
-Dialogue: 0,0:02:19.28,0:02:29.98,orig,L_33,0,0,0,karaoke,{\ko29}Fans {\ko32}and {\ko23}the {\ko47}an{\ko67}gel{\ko14}s{\ko0\-Z},{\ko30} {\ko27}where {\ko28}we {\ko27}be{\ko746}long{\ko0\-Z}.
-Dialogue: 0,0:02:19.28,0:02:29.98,ts,____,0,0,0,karaoke,粉丝与天使 归心之所
+Dialogue: 0,0:02:14.84,0:02:18.64,ts,____ ,0,0,0,karaoke,同心而立 无畏刚强
+Dialogue: 0,0:02:18.76,0:02:19.71,orig,____ x-bg,0,0,0,karaoke,{\ko12}We're {\ko16}s{\ko67}trong
+Dialogue: 0,0:02:18.76,0:02:19.71,ts,____ ,0,0,0,karaoke,刚强
+Dialogue: 0,0:02:19.28,0:02:29.98,orig,L_32,0,0,0,karaoke,{\ko29}Fans {\ko32}and {\ko23}the {\ko47}an{\ko67}gel{\ko14}s{\ko0\-Z},{\ko30} {\ko27}where {\ko28}we {\ko27}be{\ko746}long{\ko0\-Z}.
+Dialogue: 0,0:02:19.28,0:02:29.98,ts,____ ,0,0,0,karaoke,粉丝与天使 归心之所
 Dialogue: 0,0:02:28.89,0:02:30.17,orig,____ x-bg,0,0,0,karaoke,{\ko37}Through{\ko15} {\ko24}dar{\ko14}ke{\ko10}st {\ko28}night{\ko0\-Z}.
-Dialogue: 0,0:02:28.89,0:02:30.17,ts,____,0,0,0,karaoke,穿越至暗之夜
-Dialogue: 0,0:02:30.19,0:02:33.27,orig,L_34 x-part:Chorus,0,0,0,karaoke,{\ko28}We {\ko27}are {\ko20}the {\ko47}kings{\ko0\-Z},{\ko49} from{\ko14} {\ko26}hea{\ko43}ven {\ko54}sent{\ko0\-Z},
-Dialogue: 0,0:02:30.19,0:02:33.27,ts,____,0,0,0,karaoke,吾等天选君王
-Dialogue: 0,0:02:34.65,0:02:37.67,orig,L_35,0,0,0,karaoke,{\ko32}Crown{\ko25}ed in {\ko32}light{\ko0\-Z},{\ko19} {\ko49}for{\ko34}e{\ko50}ver {\ko39}ble{\ko10}ss{\ko12}ed{\ko0\-Z}.
-Dialogue: 0,0:02:34.65,0:02:37.67,ts,____,0,0,0,karaoke,圣光加冕 永承天恩
-Dialogue: 0,0:02:38.68,0:02:42.18,orig,L_36,0,0,0,karaoke,{\ko27}A{\ko24}bove {\ko25}the {\ko18}re{\ko7}st{\ko0}{\-Z},{\ko32} {\ko36}we {\ko45}soar {\ko35}and {\ko66}shi{\ko35}ne{\ko0}{\-Z},
-Dialogue: 0,0:02:38.68,0:02:42.18,ts,____,0,0,0,karaoke,凌驾众生 翱翔闪耀
-Dialogue: 0,0:02:42.63,0:02:47.21,orig,L_37 x-part:Hook,0,0,0,karaoke,{\ko28}An{\ko28}gel{\ko14}s o{\ko61}f fi{\ko79}re{\ko0\-Z},{\ko54} {\ko24}di{\ko32}vi{\ko54}ne{\ko0\-Z}, {\ko17}di{\ko41}vi{\ko26}ne
-Dialogue: 0,0:02:42.63,0:02:47.21,ts,____,0,0,0,karaoke,烈焰天使 神圣 神圣
-Dialogue: 0,0:02:47.29,0:02:50.15,orig,L_38 x-part:Chorus,0,0,0,karaoke,{\ko20}We {\ko24}are {\ko25}the {\ko21}be{\ko12}s{\ko16}t{\ko0\-Z}, {\ko51}from {\ko35}hea{\ko37}ven {\ko45}sent
-Dialogue: 0,0:02:47.29,0:02:50.15,ts,____,0,0,0,karaoke,吾等天选至强
+Dialogue: 0,0:02:28.89,0:02:30.17,ts,____ ,0,0,0,karaoke,穿越至暗之夜
+Dialogue: 0,0:02:30.19,0:02:33.27,orig,L_33 x-part:Chorus,0,0,0,karaoke,{\ko28}We {\ko27}are {\ko20}the {\ko47}kings{\ko0\-Z},{\ko49} from{\ko14} {\ko26}hea{\ko43}ven {\ko54}sent{\ko0\-Z},
+Dialogue: 0,0:02:30.19,0:02:33.27,ts,____ ,0,0,0,karaoke,吾等天选君王
+Dialogue: 0,0:02:34.65,0:02:37.67,orig,L_34,0,0,0,karaoke,{\ko32}Crown{\ko25}ed in {\ko32}light{\ko0\-Z},{\ko19} {\ko49}for{\ko34}e{\ko50}ver {\ko39}ble{\ko10}ss{\ko12}ed{\ko0\-Z}.
+Dialogue: 0,0:02:34.65,0:02:37.67,ts,____ ,0,0,0,karaoke,圣光加冕 永承天恩
+Dialogue: 0,0:02:38.68,0:02:42.18,orig,L_35,0,0,0,karaoke,{\ko27}A{\ko24}bove {\ko25}the {\ko18}re{\ko7}st{\ko0}{\-Z},{\ko32} {\ko36}we {\ko45}soar {\ko35}and {\ko66}shi{\ko35}ne{\ko0}{\-Z},
+Dialogue: 0,0:02:38.68,0:02:42.18,ts,____ ,0,0,0,karaoke,凌驾众生 翱翔闪耀
+Dialogue: 0,0:02:42.63,0:02:47.21,orig,L_36 x-part:Hook,0,0,0,karaoke,{\ko28}An{\ko28}gel{\ko14}s o{\ko61}f fi{\ko79}re{\ko0\-Z},{\ko54} {\ko24}di{\ko32}vi{\ko54}ne{\ko0\-Z}, {\ko17}di{\ko41}vi{\ko26}ne
+Dialogue: 0,0:02:42.63,0:02:47.21,ts,____ ,0,0,0,karaoke,烈焰天使 神圣 神圣
+Dialogue: 0,0:02:47.29,0:02:50.15,orig,L_37 x-part:Chorus,0,0,0,karaoke,{\ko20}We {\ko24}are {\ko25}the {\ko21}be{\ko12}s{\ko16}t{\ko0\-Z}, {\ko51}from {\ko35}hea{\ko37}ven {\ko45}sent
+Dialogue: 0,0:02:47.29,0:02:50.15,ts,____ ,0,0,0,karaoke,吾等天选至强
 Dialogue: 0,0:02:47.21,0:02:51.23,orig,____ x-bg,0,0,0,karaoke,{\ko24}We {\ko29}are {\ko16}the {\ko44}bes{\ko13}t{\ko0\-Z}.{\ko42} {\ko71}Hea{\ko16}ven {\ko147}sent
-Dialogue: 0,0:02:47.21,0:02:51.23,ts,____,0,0,0,karaoke,吾等至强 天选而降
-Dialogue: 0,0:02:51.63,0:02:54.53,orig,L_39,0,0,0,karaoke,{\ko34}Crown{\ko21}ed in {\ko35}light{\ko0\-Z},{\ko17} {\ko55}for{\ko30}e{\ko50}ver {\ko34}ble{\ko14}ssed{\ko0\-Z}.
-Dialogue: 0,0:02:51.63,0:02:54.53,ts,____,0,0,0,karaoke,圣光加冕 永承天恩
+Dialogue: 0,0:02:47.21,0:02:51.23,ts,____ ,0,0,0,karaoke,吾等至强 天选而降
+Dialogue: 0,0:02:51.63,0:02:54.53,orig,L_38,0,0,0,karaoke,{\ko34}Crown{\ko21}ed in {\ko35}light{\ko0\-Z},{\ko17} {\ko55}for{\ko30}e{\ko50}ver {\ko34}ble{\ko14}ssed{\ko0\-Z}.
+Dialogue: 0,0:02:51.63,0:02:54.53,ts,____ ,0,0,0,karaoke,圣光加冕 永承天恩
 Dialogue: 0,0:02:54.06,0:02:55.39,orig,____ x-bg,0,0,0,karaoke,{\ko30}For{\ko26}e{\ko10}ver {\ko49}ble{\ko18}ssed{\ko0\-Z}.
-Dialogue: 0,0:02:54.06,0:02:55.39,ts,____,0,0,0,karaoke,永承天恩
-Dialogue: 0,0:02:55.68,0:02:59.23,orig,L_40,0,0,0,karaoke,{\ko27}A{\ko25}bove {\ko22}the {\ko25}re{\ko12}st{\ko0\-Z},{\ko19} {\ko38}we {\ko45}soar {\ko35}and {\ko67}shi{\ko40}ne
-Dialogue: 0,0:02:55.68,0:02:59.23,ts,____,0,0,0,karaoke,凌驾众生 翱翔闪耀
+Dialogue: 0,0:02:54.06,0:02:55.39,ts,____ ,0,0,0,karaoke,永承天恩
+Dialogue: 0,0:02:55.68,0:02:59.23,orig,L_39,0,0,0,karaoke,{\ko27}A{\ko25}bove {\ko22}the {\ko25}re{\ko12}st{\ko0\-Z},{\ko19} {\ko38}we {\ko45}soar {\ko35}and {\ko67}shi{\ko40}ne
+Dialogue: 0,0:02:55.68,0:02:59.23,ts,____ ,0,0,0,karaoke,凌驾众生 翱翔闪耀
 Dialogue: 0,0:02:58.58,0:02:59.58,orig,____ x-bg,0,0,0,karaoke,{\ko58}Soar {\ko10}and {\ko32}shine
-Dialogue: 0,0:02:58.58,0:02:59.58,ts,____,0,0,0,karaoke,翱翔闪耀
-Dialogue: 0,0:02:59.62,0:03:05.60,orig,x-chor x-bg x-part:Hook,0,0,0,karaoke,{\ko28}An{\ko28}gel{\ko17}s o{\ko59}f fi{\ko77}re{\ko0\-Z},{\ko60} {\ko15}di{\ko42}vi{\ko49}ne{\ko0\-Z}, {\ko17}di{\ko30}vi{\ko59}ne {\ko19}di{\ko34}vi{\ko64}ne
-Dialogue: 0,0:02:59.62,0:03:05.60,ts,____,0,0,0,karaoke,烈焰天使 神圣无上
+Dialogue: 0,0:02:58.58,0:02:59.58,ts,____ ,0,0,0,karaoke,翱翔闪耀
+Dialogue: 0,0:02:59.62,0:03:05.60,orig,____ x-chor x-bg x-part:Hook,0,0,0,karaoke,{\ko28}An{\ko28}gel{\ko17}s o{\ko59}f fi{\ko77}re{\ko0\-Z},{\ko60} {\ko15}di{\ko42}vi{\ko49}ne{\ko0\-Z}, {\ko17}di{\ko30}vi{\ko59}ne {\ko19}di{\ko34}vi{\ko64}ne
+Dialogue: 0,0:02:59.62,0:03:05.60,ts,____ ,0,0,0,karaoke,烈焰天使 神圣无上
