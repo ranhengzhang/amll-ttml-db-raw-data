@@ -341,183 +341,23 @@ async fn handle_scheduled_run(
 }
 
 pub fn compress_ttml(ttml: &str) -> String {
-    let mut buffer = String::with_capacity(ttml.len());
-    let mut tags: Vec<String> = Vec::new();
-    let mut text: Option<String> = None;
-    let mut chars = ttml.chars().peekable();
+    let replace_reg = Regex::new(r"[\n\r]+\s*").unwrap();
+    let index_reg = Regex::new(r#"<span[^>]+ttm:role="x-bg""#).unwrap();
 
-    // 初始化字符指针
-    let mut current_char = chars.next();
+    // 首先进行替换操作
+    let mut buffer = replace_reg.replace_all(ttml, "").to_string();
 
-    while let Some(c) = current_char {
-        // 移动到下一个字符（模拟伪代码中的 next char）
-        current_char = chars.next();
+    // 收集所有匹配的位置（字节索引）
+    let positions: Vec<usize> = index_reg
+        .find_iter(&buffer)
+        .map(|mat| mat.start())
+        .collect();
 
-        // 处理结束标签（当遇到 '/' 时）
-        if c == '/' {
-            // 处理文本内容
-            if let Some(content) = text.take() {
-                if content.trim().is_empty() {
-                    buffer.push(' '); // 保留纯空白节点
-                } else {
-                    buffer.push_str(content.trim()); // 压缩文本内容
-                }
-            }
-
-            // 跳过直到 '>'（忽略标签名）
-            while let Some(ch) = current_char {
-                if ch == '>' {
-                    current_char = chars.next(); // 跳过 '>'
-                    break;
-                }
-                current_char = chars.next();
-            }
-
-            // 生成结束标签
-            if let Some(tag) = tags.pop() {
-                buffer.push_str("</");
-                buffer.push_str(&tag);
-                buffer.push('>');
-            }
-
-            // 跳过结束标签后的空白
-            while let Some(ch) = current_char {
-                if ch != ' ' && ch != '\n' {
-                    break;
-                }
-                current_char = chars.next();
-            }
-            continue;
-        }
-
-        // 处理开始标签（当字符是 '<' 时）
-        if c == '<' {
-            // 获取下一个字符（标签开始后的第一个字符）
-            // current_char = chars.next();
-            if let Some(mut cur) = current_char {
-                // 处理结束标签（如果遇到 '/'）
-                if cur == '/' {
-                    // 处理文本内容
-                    if let Some(content) = text.take() {
-                        if content.trim().is_empty() {
-                            buffer.push(' '); // 保留纯空白节点
-                        } else {
-                            buffer.push_str(content.trim()); // 压缩文本内容
-                        }
-                    }
-
-                    // 读取标签名
-                    let mut tag_name = String::new();
-                    cur = chars.next().expect("Expected tag name after </");
-                    while cur != ' ' && cur != '/' && cur != '>' {
-                        tag_name.push(cur);
-                        cur = chars.next().expect("Expected closing '>'");
-                    }
-
-                    // 生成结束标签
-                    buffer.push_str("</");
-                    buffer.push_str(&tag_name);
-                    buffer.push('>');
-
-                    // 弹出栈顶标签
-                    if let Some(last_tag) = tags.pop() {
-                        if last_tag != tag_name {
-                            panic!("Mismatched tags: expected </{}> but found </{}>", last_tag, tag_name);
-                        }
-                    }
-
-                    // 跳过结束标签后的空白
-                    current_char = Some(cur);
-                    while let Some(ch) = current_char {
-                        if ch != ' ' && ch != '\n' {
-                            break;
-                        }
-                        current_char = chars.next();
-                    }
-                    continue;
-                }
-
-                // 处理开始标签
-                // 读取标签名
-                let mut tag_name = String::new();
-                while cur != ' ' && cur != '/' && cur != '>' {
-                    tag_name.push(cur);
-                    if let Some(next_char) = chars.next() {
-                        cur = next_char;
-                    } else {
-                        break;
-                    }
-                }
-
-                // 压入标签栈并写入开始标签
-                tags.push(tag_name.clone());
-                buffer.push('<');
-                buffer.push_str(&tag_name);
-
-                // 读取属性
-                let mut props = String::new();
-                let mut last_char = cur;
-                let mut is_self_closing = false;
-
-                // 读取直到 '>'
-                while cur != '>' {
-                    props.push(cur);
-                    last_char = cur;
-                    if let Some(next_char) = chars.next() {
-                        cur = next_char;
-                    } else {
-                        break;
-                    }
-                }
-
-                // 检查是否自闭合
-                if last_char == '/' {
-                    is_self_closing = true;
-                    // props.pop(); // 移除末尾的 '/'
-                }
-
-                // 写入属性和结束符
-                buffer.push_str(&props);
-                buffer.push('>');
-
-                // 处理自闭合标签
-                if is_self_closing {
-                    tags.pop(); // 弹出标签栈
-
-                    // 跳过自闭合标签后的空白
-                    current_char = chars.next();
-                    while let Some(ch) = current_char {
-                        if ch != ' ' && ch != '\n' {
-                            break;
-                        }
-                        current_char = chars.next();
-                    }
-                    continue;
-                }
-
-                // 移动到内容开始位置
-                current_char = chars.next();
-
-                // 跳过开始标签后的前导空白
-                while let Some(ch) = current_char {
-                    if ch != ' ' && ch != '\n' {
-                        break;
-                    }
-                    current_char = chars.next();
-                }
-
-                // 读取文本内容直到下一个 '<'
-                let mut content = String::new();
-                while let Some(ch) = current_char {
-                    if ch == '<' {
-                        // 保留 '<' 用于下一次迭代
-                        break;
-                    }
-                    content.push(ch);
-                    current_char = chars.next();
-                }
-                text = Some(content);
-            }
+    // 倒序遍历位置并插入空格，但检查前一个字节
+    for &pos in positions.iter().rev() {
+        // 检查前一个字节是否为空格（如果存在）
+        if pos == 0 || buffer.as_bytes()[pos - 1] != b' ' {
+            buffer.insert(pos, ' ');
         }
     }
 
