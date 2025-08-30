@@ -19,6 +19,8 @@ use ttml_processor::{generate_ttml, parse_ttml};
 
 use crate::github_api::{PrContext, PrUpdateContext};
 
+use regex::Regex;
+
 struct TtmlProcessingOutput {
     compact_ttml: String,
     formatted_ttml: String,
