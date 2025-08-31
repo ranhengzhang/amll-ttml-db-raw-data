@@ -27,7 +27,7 @@ function set_part(subs, sel)
 
     local ui_config = {
         {class = "label", name = "part_name_tag", label = "分段名称", x = 0, y = 0},
-        {class = "dropdown", items = {"Verse（主歌）", "Chorus（副歌）", "PreChorus（预副歌）", "Bridge（桥段）", "Intro（前奏）", "Outro（尾奏）", "Refrain（叠句）", "Instrumental（器乐）"}, name = "part_name", value = "Verse（主歌）", x = 1, y = 0}
+        {class = "dropdown", items = {"Verse（主歌）", "Chorus（副歌）", "PreChorus（预副歌）", "Bridge（桥段）", "Intro（前奏）", "Outro（尾奏）", "Refrain（叠句）", "Instrumental（器乐）", "Hook（钩子）"}, name = "part_name", value = "Verse（主歌）", x = 1, y = 0}
     }
 
     local btn, result = aegisub.dialog.display(ui_config, {"Set", "Cancel"})
