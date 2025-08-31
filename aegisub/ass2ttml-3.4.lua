@@ -423,6 +423,7 @@ function generate_body(subtitles)
             n = n + 1
         end
     end
+    lines[2] = time_to_string(subtitles[#subtitles].end_time)
 
     return body .. table.concat(lines) .. '</div></body>'
 end
