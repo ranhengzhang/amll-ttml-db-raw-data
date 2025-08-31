@@ -8,7 +8,7 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.1"
+script_version = "1.2"
 script_modified = "2025-07-28"
 
 include("karaskel.lua")
@@ -361,7 +361,7 @@ function generate_line(line, n)
 
     if line['roma_line'] ~= nil then
         ttml = ttml .. '<span ttm:role="x-roman">' ..
-                   xml_symbol(line['roma_line'].text:trim()) .. '</span>'
+                   xml_symbol(line['roma_line'].text_stripped:trim()) .. '</span>'
     end
     if line['ts_line'].n ~= 0 then
         for i = 1, line['ts_line'].n do
@@ -372,7 +372,7 @@ function generate_line(line, n)
             end
             ttml =
                 ttml .. '<span ttm:role="x-translation" xml:lang="' .. lang ..
-                    '">' .. xml_symbol(ts_line.text:trim()) .. '</span>'
+                    '">' .. xml_symbol(ts_line.text_stripped:trim()) .. '</span>'
         end
     end
     if line['bg_line'] ~= nil then
