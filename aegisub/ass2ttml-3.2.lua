@@ -8,7 +8,7 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.0"
+script_version = "1.1"
 script_modified = "2025-07-28"
 
 include("karaskel.lua")
@@ -60,7 +60,8 @@ function pre_process(subtitles)
                                       "\\1\\\\-X")
                 karaskel.preproc_line_text(meta, styles, line)
                 if line.style == "orig" then
-                    is_bg = line.actor:find("x-bg")
+                    is_bg = line.actor:find("x-bg") and
+                                line.actor:find("x-chor") == nil
                     if line.actor:find("x-mark") ~= nil then -- 处理标记
                         if is_bg then
                             add_mark(line.actor, #subs, true)
@@ -130,8 +131,17 @@ local offset
 
 function time_to_string(time)
     time = time + offset
-    return string.format("%02d:%02d.%03d", math.floor(time / 60000),
-                         math.floor(time / 1000) % 60, time % 1000)
+    local res = string.format("%02d.%03d", math.floor(time / 1000) % 60,
+                              time % 1000)
+    time = math.floor(time / 60000)
+    local hour = ""
+    if time >= 60 then
+        hour = string.format("%d:", math.floor(time / 60))
+        time = time % 60
+    end
+    local minute = string.format("%02d:", time)
+
+    return hour .. minute .. res
 end
 
 local optimize = false
@@ -160,12 +170,7 @@ function generate_kara(line)
             last.send = time_to_string(syl.end_time + line.start_time)
             ttml[ttml.n - 1] = last
         elseif syl.inline_fx == "text" or syl.inline_fx == "T" then
-            local hole_time = time_to_string(syl.start_time + line.start_time)
-            ttml[ttml.n] = {
-                sbegin = hole_time,
-                send = hole_time,
-                stext = syl.text_stripped
-            }
+            ttml[ttml.n] = {stext = syl.text_stripped, sfx = "text"}
             ttml.n = ttml.n + 1
         elseif syl.inline_fx == "zero" or syl.inline_fx == "Z" then
             local space = nil
@@ -218,7 +223,8 @@ function generate_kara(line)
                 end
             end
             if syl.duration == 0 then
-                if i < #line.kara and line.kara[i + 1].duration == 0 and (syl.inline_fx ~= "zero" and syl.inline_fx ~= "Z") then -- 向后合并连续无时长音节
+                if i < #line.kara and line.kara[i + 1].duration == 0 and
+                    (syl.inline_fx ~= "zero" and syl.inline_fx ~= "Z") then -- 向后合并连续无时长音节
                     local next_syl = line.kara[i + 1]
                     next_syl.text_stripped =
                         syl.text_stripped .. line.kara[i + 1].text_stripped
@@ -279,12 +285,6 @@ function generate_kara(line)
                 if syl.duration == 0 and not (syl.text_stripped == ' ') then
                     syl.end_time = syl.end_time + 5
                 end
-                if line.actor:find('x-bg') ~= nil and i == 1 then
-                    syl.text_stripped = '(' .. syl.text_stripped
-                end
-                if line.actor:find('x-bg') ~= nil and i == #line.kara then
-                    syl.text_stripped = syl.text_stripped .. ')'
-                end
 
                 local start_time = time_to_string(syl.start_time +
                                                       line.start_time)
@@ -314,7 +314,13 @@ function generate_kara(line)
 
     for i = 0, ttml.n - 1 do
         local syl = ttml[i]
-        if optimize and (syl.sbegin == syl.send or syl.stext:trim() == "") then
+        if line.is_bg and i == 0 then syl.stext = '(' .. syl.stext end
+        if line.is_bg and i == ttml.n - 1 then
+            syl.stext = syl.stext .. ')'
+        end
+        if syl.sfx == "text" then
+            table.insert(text, syl.stext)
+        elseif optimize and (syl.sbegin == syl.send or syl.stext:trim() == "") then
             table.insert(text, syl.stext)
         else
             table.insert(text,
@@ -328,13 +334,13 @@ end
 
 function generate_line(line, n)
     local ttml = ""
-    local is_bg = line.actor:find('x-bg') ~= nil
     local is_other = line.actor:find('x-anti') ~= nil or
                          line.actor:find('x-duet') ~= nil
 
+    line.is_bg = line.actor:find('x-bg') ~= nil
     if is_other then anti = true end
 
-    if is_bg then
+    if line.is_bg then
         ttml = ttml .. '<span ttm:role="x-bg"'
     else
         ttml = ttml .. '<p'
@@ -344,7 +350,7 @@ function generate_line(line, n)
     local end_time = time_to_string(line.end_time)
     ttml = ttml .. string.format(' begin="%s" end="%s"', start_time, end_time)
 
-    if not is_bg then
+    if not line.is_bg then
         ttml = ttml ..
                    string.format(' ttm:agent="%s" itunes:key="L%d"',
                                  is_other and 'v2' or 'v1', n)
@@ -374,7 +380,7 @@ function generate_line(line, n)
         ttml = ttml .. generate_line(line.bg_line, -1)
     end
 
-    if is_bg then
+    if line.is_bg then
         ttml = ttml .. '</span>'
     else
         ttml = ttml .. '</p>'
@@ -394,8 +400,9 @@ function generate_body(subtitles)
     table.insert(lines, "00:00.000")
     table.insert(lines, string.format('"%s>',
                                       (part_split ~= nil) and
-                                          string.format(' itunes:songPart="%s"',
-                                                        part_split) or ''))
+                                          string.format(
+                                              ' itunes:song-part="%s"',
+                                              part_split) or ''))
     for i = 1, #subtitles do
         local line = subtitles[i]
         if line.actor:find('x-part') then
@@ -404,14 +411,20 @@ function generate_body(subtitles)
             body = body .. table.concat(lines)
             lines = {}
             table.insert(lines, string.format('</div><div begin="%s" end="',
-                                              time_to_string(line.start_time)))
+            time_to_string(line.start_time)))
             table.insert(lines, "00:00.000")
             table.insert(lines, string.format('"%s>', string.format(
-                                                  ' itunes:songPart="%s"', part)))
+                                                  ' itunes:song-part="%s"', part)))
         end
-        table.insert(lines, generate_line(line, n))
-        n = n + 1
         if line.actor:find('x-chor') ~= nil then
+            if line.actor:find('x-bg') ~= nil then
+                local bg_line = table.copy(line)
+                line.bg_line = bg_line
+                line.actor = line.actor:gsub('x%-bg', '')
+                goto generate
+            end
+            table.insert(lines, generate_line(line, n))
+            n = n + 1
             if line.actor:find('x-anti') ~= nil or line.actor:find('x-duet') ~=
                 nil then
                 line.actor = line.actor:gsub('x%-anti', '')
@@ -419,9 +432,10 @@ function generate_body(subtitles)
             else
                 line.actor = 'x-anti ' .. line.actor
             end
-            table.insert(lines, generate_line(line, n))
-            n = n + 1
         end
+        ::generate::
+        table.insert(lines, generate_line(line, n))
+        n = n + 1
     end
     lines[2] = time_to_string(subtitles[#subtitles].end_time)
 
