@@ -2,7 +2,353 @@
 
 为[amll-ttml-db](https://github.com/Steve-xmh/amll-ttml-db)提交AMLL歌词使用的存储库。
 
-## ass2ttml.lua
+## ass2ttml.v2.lua
+
+<a href="https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/ass2ttml.v2.lua"><img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/></a> <a href="https://aegi.vmoe.info/docs/3.2/Automation/Lua/"><img src="https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua"/></a> <a href="https://help.apple.com/itc/videoaudioassetguide/#/itc0f14fecdd"><img src="https://img.shields.io/badge/Apple_Music-TTML_v2-1ba784?logo=applemusic"/></a>
+
+> [!NOTE]
+>
+> 用于在 Aegisub 应用内将 ass 字幕文件直接导出可用 ttml 文件的自动化脚本，并且支持逐字音译/翻译。
+>
+> 只需要制作旧版 TTML 的话请使用 [ass2ttml.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data#ass2ttmllua)。
+>
+> *v2 版本的转换器正在制作中 （＾ω＾）*
+
+> [!CAUTION]
+>
+> ***V2 脚本暂时只支持 Aegisub 3.2 版本***
+
+### 如何安装
+
+1. 下载好 lua 脚本后，打开自动化页面
+   ![image-20250405150127083](./img/README/image-20250405150127083.png)
+2. 随便选择一个脚本，点击「显示信息」
+   ![image-20250405150322099](./img/README/image-20250405150322099.png)
+3. 在文件资源管理器中打开显示的完整路径（**只需要打开到「autoload」目录**）
+   ![image-20250405150402724](./img/README/image-20250405150402724.png)
+4. 将 lua 脚本放入「autoload」目录中，重新打开 Aegisub 即可在自动化列表中看见
+   ![image-20250405150733629](./img/README/image-20250405150733629.png)
+   ![image-20250405150800825](./img/README/image-20250405150800825.png)
+
+### 如何使用
+
+该自动化脚本需要按照特定格式和标记导出正确 ttml 内容
+
+> **写在前面**
+>
+> 新版的 TTML 中多处需要显性声明语言类型，遵循 IETF 的 BCP-47 标准，以下是一些常用的语言代码：
+>
+> - `zh-Hans` - 简体中文
+> - `zh-Hant` - 繁体中文 (粤语同样使用)
+> - `zh-Latn-pinyin` - 中文拼音 (不分繁简)
+> - `zh-Latn-jyutping` - 粤语注音
+> - `en` - 英文
+> - `ja` - 日语
+> - `ja-Latn` - 日语罗马音
+> - `ko` - 韩语
+> - `ko-Latn` - 韩语罗马音
+
+#### 标记行类型
+
+该脚本不会区分 Dialog 行和 Comment 行，并且只会处理「样式」为 `orig` `ts` `roma` 同时「特效」为**空**或「**karaoke**」的部分
+
+![image-20250405151712938](./img/README/image-20250405151712938.png)
+
+其中，`orig` 表示原文行，`ts` 表示翻译行，`roma` 表示音译行（逐字翻译请放在音译行）。根据这个特性，在打轴时，对于一些不希望写入 ttml 中但是又想保留的行（例如歌曲信息），可以使用不会处理的标签进行标记
+
+![image-20250405152851380](./img/README/image-20250405152851380.png)
+
+#### 标记行角色
+
+在 ttml 中可以将行标记为**对唱**、**背景声**与**翻译语言**，在 ass 字幕中可以在说话人一栏填写相应标记进行设置，具体如下：
+
+- `x-bg`：背景声行
+- `x-duet` 或 `x-anti`：对唱行
+- `x-chor`：合唱行
+- `x-replace`：逐字翻译行
+- `x-mark*`：用于特定标记，但不输出到 ttml 文件中
+- `x-lang:*`：用于在 ts/roma 行中标记翻译对应的语言，遵循 IETF 的 BCP-47 标准。**(ts 行默认为 `zh-Hans`，roma 行默认为 `ja-Latn`)**
+- `x-part:*`：用于标记新的部分的开始
+
+![image-20250405153536928](./img/README/image-20250405153536928.png)
+
+##### 合唱行的处理
+
+当上下两行时间轴相同但是 role 不同时，使用合唱行进行标记。输出时会自动输出两行。
+
+以下是使用 `x-chor` 进行标记的例子：
+
+![image-20250728202430532](./img/README/image-20250728202430532.png)
+
+使用脚本导出为 ttml 后，被标记为合唱的部分格式化之后为：
+
+```xml
+<p begin="01:22.780" end="01:30.600" ttm:agent="v1" itunes:key="L10">
+<span begin="01:22.780" end="01:23.860">让</span>
+<span begin="01:23.860" end="01:24.710">我</span>
+<span begin="01:24.710" end="01:25.010">最</span>
+<span begin="01:25.010" end="01:25.540">后</span>
+<span begin="01:25.540" end="01:25.920">一</span>
+<span begin="01:25.920" end="01:26.240">次</span>
+<span begin="01:26.240" end="01:27.760">想</span>
+<span begin="01:27.760" end="01:30.600">你</span>
+</p>
+<p begin="01:22.780" end="01:30.600" ttm:agent="v2" itunes:key="L11">
+<span begin="01:22.780" end="01:23.860">让</span>
+<span begin="01:23.860" end="01:24.710">我</span>
+<span begin="01:24.710" end="01:25.010">最</span>
+<span begin="01:25.010" end="01:25.540">后</span>
+<span begin="01:25.540" end="01:25.920">一</span>
+<span begin="01:25.920" end="01:26.240">次</span>
+<span begin="01:26.240" end="01:27.760">想</span>
+<span begin="01:27.760" end="01:30.600">你</span>
+</p>
+```
+
+如果标记了 `x-chor` 的同时标记了 `x-anti/x-duet`，那么输出时第一行为 `v2`，第二行为 `v1`。
+
+可以配合 `x-bg` 使用，此时输出的不再是对唱的两行，而是时间轴完全相同的主行和背景行：
+
+![image-20250831200852922](./img/README/image-20250831200852922.png)
+
+```xml
+<div begin="02:59.877" end="00:00.000" itunes:song-part="Hook">
+<p begin="02:59.877" end="03:05.857" ttm:agent="v1" itunes:key="L40">
+<span begin="02:59.877" end="03:00.157">An</span>
+<span begin="03:00.157" end="03:00.437">gel</span>
+<span begin="03:00.437" end="03:00.607">s o</span>
+<span begin="03:00.607" end="03:01.197">f fi</span>
+<span begin="03:01.197" end="03:01.967">re</span>
+<span begin="03:01.967" end="03:01.972">,</span>
+<span begin="03:01.967" end="03:02.567"> </span>
+<span begin="03:02.567" end="03:02.717">di</span>
+<span begin="03:02.717" end="03:03.137">vi</span>
+<span begin="03:03.137" end="03:03.627">ne</span>
+<span begin="03:03.627" end="03:03.632">,</span>
+<span begin="03:03.627" end="03:03.627"> </span>
+<span begin="03:03.627" end="03:03.797">di</span>
+<span begin="03:03.797" end="03:04.097">vi</span>
+<span begin="03:04.097" end="03:04.687">ne</span>
+<span begin="03:04.687" end="03:04.687"> </span>
+<span begin="03:04.687" end="03:04.877">di</span>
+<span begin="03:04.877" end="03:05.217">vi</span>
+<span begin="03:05.217" end="03:05.857">ne</span>
+<span ttm:role="x-translation" xml:lang="zh-CN">烈焰天使 神圣无上</span>
+<span ttm:role="x-bg" begin="02:59.877" end="03:05.857">
+<span begin="02:59.877" end="03:00.157">(An</span>
+<span begin="03:00.157" end="03:00.437">gel</span>
+<span begin="03:00.437" end="03:00.607">s o</span>
+<span begin="03:00.607" end="03:01.197">f fi</span>
+<span begin="03:01.197" end="03:01.967">re</span>
+<span begin="03:01.967" end="03:01.972">,</span>
+<span begin="03:01.967" end="03:02.567"> </span>
+<span begin="03:02.567" end="03:02.717">di</span>
+<span begin="03:02.717" end="03:03.137">vi</span>
+<span begin="03:03.137" end="03:03.627">ne</span>
+<span begin="03:03.627" end="03:03.632">,</span>
+<span begin="03:03.627" end="03:03.627"> </span>
+<span begin="03:03.627" end="03:03.797">di</span>
+<span begin="03:03.797" end="03:04.097">vi</span>
+<span begin="03:04.097" end="03:04.687">ne</span>
+<span begin="03:04.687" end="03:04.687"> </span>
+<span begin="03:04.687" end="03:04.877">di</span>
+<span begin="03:04.877" end="03:05.217">vi</span>
+<span begin="03:05.217" end="03:05.857">ne)</span>
+<span ttm:role="x-translation" xml:lang="zh-CN">烈焰天使 神圣无上</span>
+</span>
+</p>
+</div>
+```
+
+##### 使用 songPart 分段
+
+建议依照 [Apple Music 的建议](https://help.apple.com/itc/videoaudioassetguide/#/itcd7579a252:~:text=%E7%A0%81%E7%9A%84%E8%AF%B4%E6%98%8E%E3%80%82-,%E6%AD%8C%E8%AF%8D%E7%9A%84%20Apple%20%E6%89%A9%E5%B1%95,-%E6%AD%8C%E6%9B%B2%E7%BB%84%E6%88%90%E9%83%A8%E5%88%86)进行标记：
+
+- Verse（主歌）
+- Chorus（副歌）
+- PreChorus（预副歌）
+- Bridge（桥段）
+- Intro（前奏）
+- Outro（尾奏）
+- Refrain（叠句）
+- Instrumental（器乐）
+- Hook（钩子）
+
+可以使用 [set-part.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/set-part.lua) 脚本快速设置。
+
+##### 使用 `x-mark` 标记
+
+这个标记一般用于统计一些特殊情况，譬如在 ttml 输出完成后，我需要检查一些行的输出情况，则可以为这些行打上 `x-mark` 标记。
+
+以下是使用 `x-mark` 标记**使用了需要声明翻译来源**的行的例子：
+
+![image-20250405153840066](./img/README/image-20250405153840066.png)
+
+![image-20250405153859390](./img/README/image-20250405153859390.png)
+
+`x-mark` 标记会根据后缀不同进行分组，譬如其中一些行标记了 `x-mark-a`，另一些标记了 `x-mark-b`，那么在最终统计中会分别进行输出。
+
+> **关于多语言翻译**
+>
+> 以 MARiA 的《智子》为例，这首**中文**歌在官方 MV 中给出了**英文和日文**的翻译，因此在 ass 文件中，需要标记两个 ts 行。而为了区分这两种语言，就需要使用 `x-lang` 标记指明翻译语言。
+>
+> 格式为 `x-lang:<languagecode>`，遵循 IETF 的 BCP-47 标准。
+>
+> 以下是使用 `x-lang` 标记两种不同语言翻译的例子（**样例中的语言代码已经过时，请替换为 `en` 和 `ja`**）：
+> 
+>![image-20250423194046711](./img/README/image-20250423194046711.png)
+
+#### 逐字音译/翻译
+
+制作逐字音译和翻译只需要进行分词，不需要调整设置时间轴(这并不意味着使用其它工具可以不设置)
+
+分词应当和 `orig` 行的分词保持一致，不用刻意分出空格。
+
+对于使用了振假名注音的日语歌词，则需要与**假名**对应，例如：
+
+<pre lang="ass">
+Comment: 0,0:00:20.00,0:00:24.26,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko24}あ{\ko44}ま{\ko47}{\ko30}り{\ko40}に{\ko83}<b>{\ko14}突|<と{\ko10}#|つ{\ko16}然|ぜ{\ko14}#|ん</b>{\ko31}す{\ko29}ぎ{\ko44}て
+Dialogue: 0,0:00:20.00,0:00:24.26,roma,____,0,0,0,,{\k27}a {\k41}ma {\k41}ri {\k41}ni <b>{\k41}to {\k55}tsu {\k42}ze{\k28}n </b>{\k41}su {\k41}gi {\k28}te
+Dialogue: 0,0:00:20.00,0:00:24.26,ts,____,0,0,0,,太过突然
+</pre>
+
+逐字翻译一般用于繁简中文之间的替换，并且导出后在翻译行，所以需要添加 `x-replace` 标记：
+
+<pre lang="ass">
+Dialogue: 0,0:00:16.22,0:00:21.62,orig,L__1 x-part:Verse,0,0,0,,{\ko22}圆{\ko34}是{\ko37}美{\ko56}满{\ko42} {\ko24}圆{\ko38}是{\ko34}那{\ko35}个{\ko32}令{\ko33}人{\ko35}甜{\ko15}蜜{\ko54}笑{\ko49}脸
+Dialogue: 0,0:00:16.22,0:00:21.62,roma,____ x-lang:zh-Latn-jyutping,0,0,0,,{\k47}jyun4 {\k31}si6 {\k39}mei5 {\k39}mun5 {\k47}jyun4 {\k31}si6 {\k39}naa5 {\k31}go3 {\k47}ling6 {\k39}jan4 {\k39}tim4 {\k40}mat6 {\k39}siu3 {\k32}lim6
+Dialogue: 0,0:00:16.22,0:00:21.62,roma,x-lang:zh-Hant <b>x-replace</b>,0,0,0,,{\k38}圓{\k38}是{\k38}美{\k38}滿 {\k38}圓{\k38}是{\k38}那{\k38}個{\k38}令{\k38}人{\k38}甜{\k38}蜜{\k38}笑{\k38}臉
+</pre>
+
+#### 标记音节类型
+
+ass2ttml 脚本使用内联标记（[inline-fx](https://aegi.vmoe.info/docs/3.2/Karaoke_inline-fx/)）进行单音节的特殊处理，目前支持以下标记：
+
+- 合并标记：`{\-M}` 或 `{\-merge}`，表示与前一个**有内容的**音节合并（会将夹在中间的空格也合并）。常用于在日语中，前一个汉字只发一个音，并且和后面一个字/假名连读
+
+  > **样例**
+  >
+  > <pre lang="ass">
+  > {\ko19}何|<な{\ko8}#|ん{\ko22}度|<ど{\ko24}で{\ko44}も{\ko27}{\ko12}生|<う{\ko13}ま{\ko22}れ{\ko22}変|<か{\ko23}わ{\ko38}っ{\ko12}{\ko35}て{\ko12} {\ko7}あ{\ko8}の{\ko32}日|<ひ{\ko26}の{\ko18}{\ko16}君|<き{\ko36}#|み{\ko23}に{\ko21}{\ko24}逢|<あ{\ko46}い{\ko18}に{\ko23}<b>{\-M}</b>行|<い{\ko47}く{\ko252}よ
+  > </pre>
+  >
+  > `{\ko18}に{\ko23}行|<い` 部分变为长音，但是如果标记为 `{\ko41}に行|<い` 则会在应用模板后导致 furi 行错位（「に行い<ruby>行<rt>い</rt></ruby>」变为「に行い<ruby>に行<rt>い</rt></ruby>」），因此使用合并标记 `{\ko18}に{\ko23\-M}行|<い`，使用脚本导出后的结果为：
+  >
+  > ```xml
+  > <span begin="03:49.320" end="03:49.730">に行</span>
+  > ```
+
+- 纯文本节点标记：`{\-T}` 或 `{\-text}`，表示导出为纯文本节点
+
+  > **样例**
+  >
+  > <pre lang="ass">
+  > {\ko21}僕|<ぼ{\ko50}#|く{\ko22}ら{\ko27}か{\ko46}ら{\ko25}{\ko27}プ{\ko43}レ{\ko33}ゼ{\ko18}ン{\ko92}ト {\ko197}フォー{\ko0}・{\ko75}ユー{\ko0}<b>{\T}</b>💀
+  > </pre>
+  >
+  > 专辑歌词本中，此行歌词的末尾附上了一个 Emoji，但是这个 Emoji 并不占用任何行时间，并且不好应用逐字渐变，则使用纯文本标记使其常亮，该行导出结果为：
+  >
+  > ```xml
+  > <p begin="03:47.480" end="03:54.240" ttm:agent="v1" itunes:key="L50"><span begin="03:47.480" end="03:48.190">僕</span><span begin="03:48.190" end="03:48.410">ら</span><span begin="03:48.410" end="03:48.680">か</span><span begin="03:48.680" end="03:49.140">ら</span><span begin="03:49.390" end="03:49.660">プ</span><span begin="03:49.660" end="03:50.090">レ</span><span begin="03:50.090" end="03:50.420">ゼ</span><span begin="03:50.420" end="03:50.600">ン</span><span begin="03:50.600" end="03:51.520">ト</span><span begin="03:51.520" end="03:51.520"> </span><span begin="03:51.520" end="03:53.490">フォー・</span><span begin="03:53.490" end="03:54.240">ユー</span>💀<span ttm:role="x-roman">bo ku ra ka ra present for you</span><span ttm:role="x-translation" xml:lang="zh-CN">我们献上这份赠礼 专属于你</span></p>
+  > ```
+
+- 零时间节点标记：`{\-Z}` 或 `{\-zero}`，表示目标在导出时持续时间应为 0（*为了保持兼容性，插件在导出时会将所有持续时间为 0 并且不会合并的非文本节点持续时间设置为 5 ms*）
+
+  > **样例**
+  >
+  > <pre lang="ass">
+  > {\kf0}“{\kf20}睡{\kf6}不{\kf21}着{\kf22}吗{\kf141<b>\-Z</b>}？{\kf10}没{\kf17}关{\kf29}系{\kf99}<b>{\-Z}</b>，{\kf11}因{\kf42}为{\kf0}”
+  > </pre>
+  >
+  > 这里的「？」和「，」如果原样导出的话会触发高亮，因此使用零时间标记，导出结果如下：
+  >
+  > ```xml
+  > <p begin="01:43.080" end="01:47.260" ttm:agent="v1" itunes:key="L29"><span begin="01:43.080" end="01:43.280">“睡</span><span begin="01:43.280" end="01:43.340">不</span><span begin="01:43.340" end="01:43.550">着</span><span begin="01:43.550" end="01:43.770">吗</span><span begin="01:43.770" end="01:43.775">？</span><span begin="01:45.180" end="01:45.280">没</span><span begin="01:45.280" end="01:45.450">关</span><span begin="01:45.450" end="01:45.740">系</span><span begin="01:45.740" end="01:45.745">，</span><span begin="01:46.730" end="01:46.840">因</span><span begin="01:46.840" end="01:47.260">为”</span></p>
+  > ```
+
+#### 输出为 TTML
+
+##### 输出之前
+
+在输出之前，需要将行进行一次排序，才能进行正常的输出，可以使用 Aegisub 自带的行排序进行操作。具体为 ①样式名称 ②说话人 ③开始时间。（有时可能还需要选中特殊的部分按结束时间排序）
+
+![image-20250405154346351](./img/README/image-20250405154346351.png)
+
+对于日语来说，最好用 [fix-furi.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/fix-furi.lua) 脚本处理一次，将注音断掉的部分衔接。并且使用 [check.ass](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/check.ass) 中的模板行进行一次核验。
+
+> **处理前**
+>
+> <pre lang="ass">
+> {\ko13}僕|<ぼ<b>{\ko8}</b>{\ko24}#|く{\ko15}ら{\ko26}は{\ko7}{\ko19}こん{\ko29}な{\ko11}こ{\ko23}と{\ko12}し{\ko11}た{\ko26}か{\ko12}っ{\ko22}た{\ko17}の{\ko30}か{\ko67}な
+> </pre>
+>
+> **处理后**
+>
+> <pre lang="ass">
+> {\ko13}僕|<ぼ<b>{\ko8}#|</b>{\ko24}#|く{\ko15}ら{\ko26}は{\ko7}{\ko19}こん{\ko29}な{\ko11}こ{\ko23}と{\ko12}し{\ko11}た{\ko26}か{\ko12}っ{\ko22}た{\ko17}の{\ko30}か{\ko67}な
+> </pre>
+
+##### 填写标签
+
+点击自动化脚本进入导出页面
+
+![image-20250405154456199](./img/README/image-20250405154456199.png)
+
+在导出页面中，填写各个标签，一个标签中的不同条目可以使用英文字符中的 `,/&` 三种字符进行分割
+
+![image-20250831202247289](./img/README/image-20250831202247289.png)
+
+> **关于 Github ID 和 Github 用户名**
+>
+> 如果不想每次都输入一次这两个条目，打开 lua 脚本，搜索 `name = "ttmlAuthorGithubs"`，在该对象的最后添加一行 `value='id'`，`name = "ttmlAuthorGithubLogins"` 搜索后同理
+>
+> ![image-20250405155148483](./img/README/image-20250405155148483.png)
+
+> **关于 `offset`**
+>
+> 如果你在使用 CD 提取的音频进行打轴，那么需要提前与平台音源比对进行一次偏移校准
+>
+> ![image-20250405155825075](./img/README/image-20250405155825075.png)
+>
+> ![image-20250405160201781](./img/README/image-20250405160201781.png)
+>
+> ![image-20250405160236100](./img/README/image-20250405160236100.png)
+>
+> 上面的例子中，我们得知平台音源相比于 CD 音源前面多了 123 ms 的空白音频，因此 offset 为 +123 ms
+>
+> ![image-20250405160333347](./img/README/image-20250405160333347.png)
+>
+> 如果不想每次导出时都填写，可以打开「脚本配置」，将「更新摘要」设定为 `+123ms`，**该 ass 字幕**每次导出时都将自动设置 offset
+>
+> ![image-20250405160430068](./img/README/image-20250405160430068.png)
+
+> **关于歌词语言**
+>
+> v2 版本的 TTML 文件**强制要求**声明歌词正文的语言，并遵循 IETF 的 BCP-47 标准，如果不想每次都填写，可打开脚本设置，填写在「脚本原作」一栏，每次导出时将自动读取。
+
+##### 选择优化
+
+![image-20250728224744588](./img/README/image-20250728224744588.png)
+
+其中：
+
+- 「空格处理」有「不处理」、「合并」、「拆分」三种选项，「合并」选项会将空格合并到前一个音节的末尾，「拆分」选项则会将音节内部首/尾的空格放在音节前/后。
+- 「合并单个标点」打开时会将单个标点符号合并到前一个音节中。（*如果是成对符号的前个则会向后合并*）
+- 「优化 TTML 结构」打开时会将以下两种音节转换为纯文本节点：
+  - 纯空格组成的音节
+  - 持续时间为 0 的音节
+
+##### 转换完成
+
+转换完成后，将显示如下界面
+
+![image-20250405160614239](./img/README/image-20250405160614239.png)
+
+<kbd>Copy</kbd> 按钮将直接复制 ttml 文件内容到剪贴板，其中 <kbd>Save</kbd> 按钮会将 ttml 内容保存为一个 .ttml 文件。如果希望预设一个文件名，可以在「脚本配置」中设置标题，标题将作为导出文件时的默认文件名。
+
+![image-20250405160904390](./img/README/image-20250405160904390.png)
+
+## ass2ttml.lua (旧版丨不支持逐字翻/音译)
 
 <a href="https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/ass2ttml-3.2.lua"><img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/></a> <a href="https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/ass2ttml-3.4.lua"><img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/></a> <a href="https://aegi.vmoe.info/docs/3.2/Automation/Lua/"><img src="https://img.shields.io/badge/Lua-5.1-000080"/></a> <a href="https://help.apple.com/itc/videoaudioassetguide/#/itc0f14fecdd"><img src="https://img.shields.io/badge/Apple_Music-TTML-1ba784"/></a>
 
@@ -55,7 +401,7 @@
 >
 > 当上下两行时间轴相同但是 role 不同时，使用合唱行进行标记。输出时会自动输出两行。
 >
-> 以下是使用 x-chor 进行标记的例子：
+> 以下是使用 `x-chor` 进行标记的例子：
 >
 > ![image-20250728202430532](./img/README/image-20250728202430532.png)
 >
@@ -63,28 +409,79 @@
 >
 > ```xml
 > <p begin="01:22.780" end="01:30.600" ttm:agent="v1" itunes:key="L10">
->     <span begin="01:22.780" end="01:23.860">让</span>
->     <span begin="01:23.860" end="01:24.710">我</span>
->     <span begin="01:24.710" end="01:25.010">最</span>
->     <span begin="01:25.010" end="01:25.540">后</span>
->     <span begin="01:25.540" end="01:25.920">一</span>
->     <span begin="01:25.920" end="01:26.240">次</span>
->     <span begin="01:26.240" end="01:27.760">想</span>
->     <span begin="01:27.760" end="01:30.600">你</span>
+>  <span begin="01:22.780" end="01:23.860">让</span>
+>  <span begin="01:23.860" end="01:24.710">我</span>
+>  <span begin="01:24.710" end="01:25.010">最</span>
+>  <span begin="01:25.010" end="01:25.540">后</span>
+>  <span begin="01:25.540" end="01:25.920">一</span>
+>  <span begin="01:25.920" end="01:26.240">次</span>
+>  <span begin="01:26.240" end="01:27.760">想</span>
+>  <span begin="01:27.760" end="01:30.600">你</span>
 > </p>
 > <p begin="01:22.780" end="01:30.600" ttm:agent="v2" itunes:key="L11">
->     <span begin="01:22.780" end="01:23.860">让</span>
->     <span begin="01:23.860" end="01:24.710">我</span>
->     <span begin="01:24.710" end="01:25.010">最</span>
->     <span begin="01:25.010" end="01:25.540">后</span>
->     <span begin="01:25.540" end="01:25.920">一</span>
->     <span begin="01:25.920" end="01:26.240">次</span>
->     <span begin="01:26.240" end="01:27.760">想</span>
->     <span begin="01:27.760" end="01:30.600">你</span>
+>  <span begin="01:22.780" end="01:23.860">让</span>
+>  <span begin="01:23.860" end="01:24.710">我</span>
+>  <span begin="01:24.710" end="01:25.010">最</span>
+>  <span begin="01:25.010" end="01:25.540">后</span>
+>  <span begin="01:25.540" end="01:25.920">一</span>
+>  <span begin="01:25.920" end="01:26.240">次</span>
+>  <span begin="01:26.240" end="01:27.760">想</span>
+>  <span begin="01:27.760" end="01:30.600">你</span>
 > </p>
 > ```
 >
-> 
+> 可以配合 `x-bg` 使用，此时输出的不再是对唱的两行，而是时间轴完全相同的主行和背景行
+>
+> ![image-20250831200852922](./img/README/image-20250831200852922.png)
+>
+> ```xml
+> <div begin="02:59.877" end="00:00.000" itunes:song-part="Hook">
+>  <p begin="02:59.877" end="03:05.857" ttm:agent="v1" itunes:key="L40">
+>   <span begin="02:59.877" end="03:00.157">An</span>
+>   <span begin="03:00.157" end="03:00.437">gel</span>
+>   <span begin="03:00.437" end="03:00.607">s o</span>
+>   <span begin="03:00.607" end="03:01.197">f fi</span>
+>   <span begin="03:01.197" end="03:01.967">re</span>
+>   <span begin="03:01.967" end="03:01.972">,</span>
+>   <span begin="03:01.967" end="03:02.567"> </span>
+>   <span begin="03:02.567" end="03:02.717">di</span>
+>   <span begin="03:02.717" end="03:03.137">vi</span>
+>   <span begin="03:03.137" end="03:03.627">ne</span>
+>   <span begin="03:03.627" end="03:03.632">,</span>
+>   <span begin="03:03.627" end="03:03.627"> </span>
+>   <span begin="03:03.627" end="03:03.797">di</span>
+>   <span begin="03:03.797" end="03:04.097">vi</span>
+>   <span begin="03:04.097" end="03:04.687">ne</span>
+>   <span begin="03:04.687" end="03:04.687"> </span>
+>   <span begin="03:04.687" end="03:04.877">di</span>
+>   <span begin="03:04.877" end="03:05.217">vi</span>
+>   <span begin="03:05.217" end="03:05.857">ne</span>
+>   <span ttm:role="x-translation" xml:lang="zh-CN">烈焰天使 神圣无上</span>
+>   <span ttm:role="x-bg" begin="02:59.877" end="03:05.857">
+>    <span begin="02:59.877" end="03:00.157">(An</span>
+>    <span begin="03:00.157" end="03:00.437">gel</span>
+>    <span begin="03:00.437" end="03:00.607">s o</span>
+>    <span begin="03:00.607" end="03:01.197">f fi</span>
+>    <span begin="03:01.197" end="03:01.967">re</span>
+>    <span begin="03:01.967" end="03:01.972">,</span>
+>    <span begin="03:01.967" end="03:02.567"> </span>
+>    <span begin="03:02.567" end="03:02.717">di</span>
+>    <span begin="03:02.717" end="03:03.137">vi</span>
+>    <span begin="03:03.137" end="03:03.627">ne</span>
+>    <span begin="03:03.627" end="03:03.632">,</span>
+>    <span begin="03:03.627" end="03:03.627"> </span>
+>    <span begin="03:03.627" end="03:03.797">di</span>
+>    <span begin="03:03.797" end="03:04.097">vi</span>
+>    <span begin="03:04.097" end="03:04.687">ne</span>
+>    <span begin="03:04.687" end="03:04.687"> </span>
+>    <span begin="03:04.687" end="03:04.877">di</span>
+>    <span begin="03:04.877" end="03:05.217">vi</span>
+>    <span begin="03:05.217" end="03:05.857">ne)</span>
+>    <span ttm:role="x-translation" xml:lang="zh-CN">烈焰天使 神圣无上</span>
+>   </span>
+>  </p>
+> </div>
+> ```
 
 > **关于多语言翻译**
 >
@@ -123,6 +520,7 @@
 > - Outro（尾奏）
 > - Refrain（叠句）
 > - Instrumental（器乐）
+> - Hook（钩子）
 >
 > 可以使用 [set-part.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/set-part.lua) 脚本快速设置。
 
