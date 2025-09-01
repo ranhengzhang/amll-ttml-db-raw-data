@@ -769,7 +769,7 @@ end
 
 local function print_ttml()
     local text = {}
-    if options.lang ~= nil then options.lang = "zh-Hans" end
+    if options.lang == nil then options.lang = "zh-Hans" end
     table.insert(text, string.format(
                      [[<tt xmlns="http://www.w3.org/ns/ttml" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="%s">]],
                      options.lang))
