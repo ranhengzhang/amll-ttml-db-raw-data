@@ -258,7 +258,7 @@ local function generate_body()
     table.insert(lines, string.format('<div begin="%s" end="',
                                       time_to_string(origs[1].start_time)))
     table.insert(lines, "00:00.000")
-    table.insert(lines, string.format('"%s>', (config.part_split ~= nil) and
+    table.insert(lines, string.format('"%s>', config.part_split and
                                           string.format(
                                               ' itunes:song-part="%s"',
                                               config.part_split) or ''))

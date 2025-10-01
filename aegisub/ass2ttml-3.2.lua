@@ -362,7 +362,8 @@ function generate_line(line, n)
 
     if line['roma_line'] ~= nil then
         ttml = ttml .. '<span ttm:role="x-roman">' ..
-                   xml_symbol(line['roma_line'].text_stripped:trim()) .. '</span>'
+                   xml_symbol(line['roma_line'].text_stripped:trim()) ..
+                   '</span>'
     end
     if line['ts_line'].n ~= 0 then
         for i = 1, line['ts_line'].n do
@@ -373,7 +374,8 @@ function generate_line(line, n)
             end
             ttml =
                 ttml .. '<span ttm:role="x-translation" xml:lang="' .. lang ..
-                    '">' .. xml_symbol(ts_line.text_stripped:trim()) .. '</span>'
+                    '">' .. xml_symbol(ts_line.text_stripped:trim()) ..
+                    '</span>'
         end
     end
     if line['bg_line'] ~= nil then
@@ -398,8 +400,7 @@ function generate_body(subtitles)
     table.insert(lines, string.format('<div begin="%s" end="',
                                       time_to_string(subtitles[1].start_time)))
     table.insert(lines, "00:00.000")
-    table.insert(lines, string.format('"%s>',
-                                      (part_split ~= nil) and
+    table.insert(lines, string.format('"%s>', part_split and
                                           string.format(
                                               ' itunes:song-part="%s"',
                                               part_split) or ''))
@@ -411,7 +412,7 @@ function generate_body(subtitles)
             body = body .. table.concat(lines)
             lines = {}
             table.insert(lines, string.format('</div><div begin="%s" end="',
-            time_to_string(line.start_time)))
+                                              time_to_string(line.start_time)))
             table.insert(lines, "00:00.000")
             table.insert(lines, string.format('"%s>', string.format(
                                                   ' itunes:song-part="%s"', part)))

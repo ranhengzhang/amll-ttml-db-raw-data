@@ -398,7 +398,7 @@ function generate_body(subtitles)
                                       time_to_string(subtitles[1].start_time)))
     table.insert(lines, "00:00.000")
     table.insert(lines, string.format('"%s>',
-                                      (part_split ~= nil) and
+                                      part_split and
                                           string.format(
                                               ' itunes:song-part="%s"',
                                               part_split) or ''))
