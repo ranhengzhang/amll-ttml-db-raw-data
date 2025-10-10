@@ -10,7 +10,7 @@
 >
 > 用于在 Aegisub 应用内将 ass 字幕文件直接导出可用 ttml 文件的自动化脚本，并且支持逐字音译/翻译。
 >
-> 只需要制作旧版 TTML 的话请使用 [ass2ttml.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data#ass2ttmllua)。
+> 只需要制作旧版 TTML 的话请使用 [ass2ttml.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data?tab=readme-ov-file#ass2ttmllua-旧版丨不支持逐字翻音译)。
 >
 > *v2 版本的转换器正在制作中 （＾ω＾）*
 
