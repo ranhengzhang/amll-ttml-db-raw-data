@@ -8,7 +8,7 @@
 
 > [!NOTE]
 >
-> 用于在 Aegisub 应用内将 ass 字幕文件直接导出可用 ttml 文件的自动化脚本，并且支持逐字音译/翻译。
+> 用于在 Aegisub 应用内将 ass 字幕文件直接导出可用 ttml 文件的自动化脚本，并且支持逐字音译/翻译。并且 v2 版本脚本还是 Beta 版，可能有未发现的 Bug。
 >
 > 只需要制作旧版 TTML 的话请使用 [ass2ttml.lua](https://github.com/ranhengzhang/amll-ttml-db-raw-data?tab=readme-ov-file#ass2ttmllua-旧版丨不支持逐字翻音译)。
 >
@@ -87,7 +87,7 @@ v2 版本的 TTML 文件**强制要求**声明歌词正文的语言，并遵循 
 在 ttml 中可以将行标记为**对唱**、**背景声**与**翻译语言**，在 ass 字幕中可以在说话人一栏填写相应标记进行设置，具体如下：
 
 - `x-bg`：背景声行
-- `x-duet` 或 `x-anti`：对唱行
+- `x-duet`、`x-solo` 和 `x-anti`：都是对唱行，**只有语义上的不同，实际效果都为分配到右边对唱**
 - `x-chor`：合唱行
 - `x-replace`：逐字翻译行
 - `x-mark*`：用于特定标记，但不输出到 ttml 文件中
@@ -397,7 +397,7 @@ ass2ttml 脚本使用内联标记（[inline-fx](https://aegi.vmoe.info/docs/3.2/
 在 ttml 中可以将行标记为**对唱**、**背景声**与**翻译语言**，在 ass 字幕中可以在说话人一栏填写相应标记进行设置，具体如下：
 
 - `x-bg`：背景声行
-- `x-duet` 或 `x-anti`：对唱行
+- `x-duet`、`x-solo` 或 `x-anti`：对唱行
 - `x-chor`：合唱行
 - `x-mark*`：用于特定标记，但不输出到 ttml 文件中
 - `x-lang:*`：用于在 ts 行中标记翻译对应的语言。**(默认为 `zh-CN`)**
