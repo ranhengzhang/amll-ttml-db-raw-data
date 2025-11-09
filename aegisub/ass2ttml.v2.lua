@@ -6,7 +6,7 @@ local re = require 'aegisub.re'
 script_name = "ASS2TTML V2 - AMLL歌词格式转换 V2"
 script_description = "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.1"
+script_version = "0.2-Beta Komano Manato"
 script_modified = "2025-08-26"
 
 include("karaskel.lua")
@@ -51,7 +51,7 @@ local function pre_process(subtitles)
                 config.title = subtitles[i].value
             elseif subtitles[i].key == "Update Details" then
                 local res = subtitles[i].value:match("[+-]%d+")
-                options.offset = tonumber(res or "0")
+                config.offset = tonumber(res or "0")
             elseif subtitles[i].key == "Original Script" then
                 options.lang = subtitles[i].value
             end
@@ -125,7 +125,8 @@ local function pre_process(subtitles)
                             else
                                 local anotehr = table.copy(line)
                                 if line.actor:find("x-anti") ~= nil and
-                                    line.actor:find("x-duet") ~= nil then
+                                    line.actor:find("x-duet") ~= nil and
+                                    line.actor:find("x-solo") ~= nil then
                                     anotehr.actor = 'x-anti ' .. anotehr.actor
                                 else
                                     anotehr.actor = anotehr.actor:gsub(
@@ -218,8 +219,6 @@ local function generate_line(line)
     end
 
     local text = {}
-
-    if line.is_other then options.anti = true end
 
     table.insert(text, [[<p]])
 
@@ -630,7 +629,7 @@ local function collect_roma(main_syls, roma_line)
         for i = 1, #main_syls do
             local main_syl = main_syls[i]
             if main_syl.furi ~= nil and main_syl.furi ~= 0 and
-                main_syl.stext:trim() ~= '' then
+                re.find(main_syl.stext, "^\\s*$") == nil then
                 if main_syl.send - main_syl.sbegin > 5 then
                     primary = i
                     break
@@ -668,7 +667,7 @@ local function collect_roma(main_syls, roma_line)
             send = main_syl.send,
             stext = (main_syl.roma and main_syl.roma:upper():trim() ~=
                 main_syl.stext:upper():trim()) and main_syl.roma or
-                main_syl.stext
+                "" -- 原为 main_syl.stext
         })
         main_syls[i].furi = packup[i]
         main_syls[i].roma = nil
@@ -687,25 +686,26 @@ local function collect_roma(main_syls, roma_line)
 end
 
 local function process_ttml()
-    local n = 1
+    local index = 1
     for i = 1, #subs do
         local line = table.copy(subs[i])
 
         -- 处理主行正文
         local orig = {
             is_other = line.actor:find('x-anti') ~= nil or
-                line.actor:find('x-duet') ~= nil,
+                line.actor:find('x-duet') ~= nil or line.actor:find('x-solo'),
             syls = collect_syls(line),
-            L = n,
+            L = index,
             start_time = line.start_time,
             end_time = line.end_time,
             part = line.part
         }
+        if orig.is_other then options.anti = true end
 
         -- 处理主行翻译
         if line.ts_line ~= nil then
             for lang, ts_line in pairs(line.ts_line) do
-                table.insert(trans[lang], {L = n, text = ts_line.text:trim()})
+                table.insert(trans[lang], {L = index, text = ts_line.text:trim()})
             end
         end
 
@@ -713,7 +713,7 @@ local function process_ttml()
         if line.roma_line ~= nil then
             for lang, roma_line in pairs(line.roma_line) do
                 table.insert(roman[lang].lines, {
-                    L = n,
+                    L = index,
                     syls = collect_roma(orig.syls, roma_line),
                     start_time = roma_line.start_time,
                     end_time = roma_line.end_time
@@ -738,8 +738,8 @@ local function process_ttml()
             -- 处理和声行翻译
             if bg_line.ts_line ~= nil then
                 for lang, ts_line in pairs(bg_line['ts_line']) do
-                    if #trans[lang] == 0 or trans[lang][#trans[lang]].L ~= n then
-                        table.insert(trans[lang], {L = n, text = ""})
+                    if #trans[lang] == 0 or trans[lang][#trans[lang]].L ~= index then
+                        table.insert(trans[lang], {L = index, text = ""})
                     end
                     trans[lang][#trans[lang]].bg_line = ts_line.text:trim()
                 end
@@ -749,9 +749,9 @@ local function process_ttml()
             if bg_line.roma_line ~= nil then
                 for lang, roma_line in pairs(bg_line['roma_line']) do
                     if #roman[lang].lines == 0 or
-                        roman[lang].lines[#roman[lang].lines].L ~= n then
+                        roman[lang].lines[#roman[lang].lines].L ~= index then
                         table.insert(roman[lang].lines, {
-                            L = n,
+                            L = index,
                             syls = {},
                             start_time = bg_line.roma_line.start_time,
                             end_time = bg_line.roma_line.end_time
@@ -763,7 +763,7 @@ local function process_ttml()
             end
         end
         table.insert(origs, orig)
-        n = n + 1
+        index = index + 1
     end
 end
 
