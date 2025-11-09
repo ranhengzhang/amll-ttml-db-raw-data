@@ -8,7 +8,7 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.2"
+script_version = "1.3 Flins"
 script_modified = "2025-07-28"
 
 include("karaskel.lua")
@@ -83,7 +83,7 @@ function pre_process(subtitles)
                         parent_line.bg_line = line
                         parent_line.end_time =
                             math.max(parent_line.end_time, line.end_time)
-                    elseif line.style == "roma" then
+                    elseif line.style == "roma" and line.actor:find("x-replace") == nil then
                         parent_line.bg_line["roma_line"] = line
                     elseif line.style == "ts" then
                         local bg_line = parent_line.bg_line
@@ -98,7 +98,7 @@ function pre_process(subtitles)
                     if line.style == "orig" then
                         line.ts_line = {n = 0}
                         subs[#subs + 1] = line
-                    elseif line.style == "roma" then
+                    elseif line.style == "roma" and line.actor:find("x-replace") == nil then
                         orig_line = table.copy(subs[#subs])
                         orig_line["roma_line"] = line
                         subs[#subs] = orig_line
@@ -231,14 +231,15 @@ function generate_kara(line)
                     line.kara[i + 1] = next_syl
                     goto continue
                 end
-                if unicode.len(syl.text_stripped:trim()) == 0 and merge_space then -- 合并时长为 0 的空格
+                local trimed = syl.text_stripped:trim()
+                if unicode.len(trimed) == 0 and merge_space then -- 合并时长为 0 的空格
                     if i == 1 and #line.kara > 2 then
                         goto continue
                     else
                         ttml[ttml.n - 1].stext =
                             ttml[ttml.n - 1].stext .. syl.text_stripped
                     end
-                elseif unicode.len(syl.text_stripped:trim()) == 1 and
+                elseif unicode.len(trimed) == 1 and
                     merge_symbol then -- 合并时长为 0 的单个非空字符
                     if i == 1 and #line.kara > 2 then -- 首字符向后合并
                         line.kara[2].text_stripped =
@@ -335,7 +336,8 @@ end
 function generate_line(line, n)
     local ttml = ""
     local is_other = line.actor:find('x-anti') ~= nil or
-                         line.actor:find('x-duet') ~= nil
+                         line.actor:find('x-duet') ~= nil or
+                         line.actor:find('x-solo') ~= nil
 
     if is_other then anti = true end
 
@@ -425,7 +427,7 @@ function generate_body(subtitles)
             table.insert(lines, generate_line(line, n))
             n = n + 1
             if line.actor:find('x-anti') ~= nil or line.actor:find('x-duet') ~=
-                nil then
+                nil or line.actor:find('x-solo') then
                 line.actor = line.actor:gsub('x%-anti', '')
                 line.actor = line.actor:gsub('x%-duet', '')
             else

@@ -8,7 +8,7 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.2"
+script_version = "1.3 Flins"
 script_modified = "2025-07-28"
 
 include("karaskel.lua")
@@ -83,7 +83,7 @@ function pre_process(subtitles)
                         parent_line.bg_line = line
                         parent_line.end_time =
                             math.max(parent_line.end_time, line.end_time)
-                    elseif line.style == "roma" then
+                    elseif line.style == "roma" and line.actor:find("x-replace") == nil then
                         parent_line.bg_line["roma_line"] = line
                     elseif line.style == "ts" then
                         local bg_line = parent_line.bg_line
@@ -98,7 +98,7 @@ function pre_process(subtitles)
                     if line.style == "orig" then
                         line.ts_line = {n = 0}
                         subs[#subs + 1] = line
-                    elseif line.style == "roma" then
+                    elseif line.style == "roma" and line.actor:find("x-replace") == nil then
                         orig_line = table.copy(subs[#subs])
                         orig_line["roma_line"] = line
                         subs[#subs] = orig_line
@@ -335,7 +335,8 @@ end
 function generate_line(line, n)
     local ttml = ""
     local is_other = line.actor:find('x-anti') ~= nil or
-                         line.actor:find('x-duet') ~= nil
+                         line.actor:find('x-duet') ~= nil or
+                         line.actor:find('x-solo') ~= nil
 
     line.is_bg = line.actor:find('x-bg') ~= nil
     if is_other then anti = true end
@@ -427,7 +428,7 @@ function generate_body(subtitles)
             table.insert(lines, generate_line(line, n))
             n = n + 1
             if line.actor:find('x-anti') ~= nil or line.actor:find('x-duet') ~=
-                nil then
+                nil or line.actor:find('x-solo') then
                 line.actor = line.actor:gsub('x%-anti', '')
                 line.actor = line.actor:gsub('x%-duet', '')
             else
