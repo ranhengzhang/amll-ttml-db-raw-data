@@ -6,7 +6,7 @@ local re = require 'aegisub.re'
 script_name = "ASS2TTML V2 - AMLL歌词格式转换 V2"
 script_description = "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.3-Beta Seth Lowell"
+script_version = "0.4-Beta Billy Kid"
 script_modified = "2025-08-26"
 
 include("karaskel.lua")
@@ -791,7 +791,7 @@ function script_main(subtitles)
         local text = {}
         if options.lang == nil then options.lang = "zh-Hans" end
         table.insert(text, string.format(
-                         [[<tt xmlns="http://www.w3.org/ns/ttml" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="%s">]],
+                         [[<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="%s">]],
                          options.lang))
         table.insert(text, generate_head())
         table.insert(text, generate_body())
