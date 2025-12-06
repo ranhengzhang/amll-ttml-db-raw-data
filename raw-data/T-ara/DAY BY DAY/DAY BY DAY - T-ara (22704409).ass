@@ -8,6 +8,7 @@ PlayResX: 2560
 PlayResY: 1440
 WrapStyle: 0
 ScaledBorderAndShadow: no
+Original Script: ko
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
@@ -29,217 +30,217 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:16.69,0:00:18.47,orig,L__1 x-anti,0,0,0,karaoke,{\ko19}내{\ko10}{\ko10}품{\ko13}은 {\ko26}너{\ko13}에{\ko10}게{\ko10} {\ko13}피{\ko22}난{\ko32}처
-Comment: 0,0:00:16.69,0:00:18.47,roma,____ x-anti,0,0,0,karaoke,nae pu meun neo e ge pi nan cheo
-Comment: 0,0:00:16.69,0:00:18.47,ts,____ x-anti,0,0,0,karaoke,我的怀抱是你的避难所
-Comment: 0,0:00:18.54,0:00:20.40,orig,L__2 x-anti,0,0,0,karaoke,{\ko24}다{\ko18}른 {\ko20}사{\ko14}람{\ko18}에 {\ko17}나{\ko16}는 {\ko16}버{\ko17}려{\ko26}져
-Comment: 0,0:00:18.54,0:00:20.40,roma,____ x-anti,0,0,0,karaoke,da reun sa ra me na neun beo ryeo zyeo
-Comment: 0,0:00:18.54,0:00:20.40,ts,____ x-anti,0,0,0,karaoke,其他的我都遗弃
-Comment: 0,0:00:20.57,0:00:22.36,orig,L__3 x-anti,0,0,0,karaoke,{\ko26}사{\ko26}랑 {\ko19}그 {\ko11}끝{\ko17}은 {\ko10}까{\ko17}만 {\ko14}터{\ko15}널{\ko24}속
-Comment: 0,0:00:20.57,0:00:22.36,roma,____ x-anti,0,0,0,karaoke,sa rang geu ggeu teun gga man teo neol sok
-Comment: 0,0:00:20.57,0:00:22.36,ts,____ x-anti,0,0,0,karaoke,在爱情尽头的遥远隧道中
-Comment: 0,0:00:22.61,0:00:23.61,orig,L__4 x-anti,0,0,0,karaoke,{\ko10}보{\ko12}이{\ko18}지 {\ko16}않{\ko16}는 {\ko15}길{\ko13}이
-Comment: 0,0:00:22.61,0:00:23.61,roma,____ x-anti,0,0,0,karaoke,bo i ji an neun gi ri
-Comment: 0,0:00:22.61,0:00:23.61,ts,____ x-anti,0,0,0,karaoke,看不见道路的我
-Comment: 0,0:00:23.61,0:00:24.70,orig,L__5 x-anti,0,0,0,karaoke,{\ko10}나{\ko17}는 {\ko10}너{\ko13}무 {\ko12}두{\ko19}려{\ko28}워
-Comment: 0,0:00:23.61,0:00:24.70,roma,____ x-anti,0,0,0,karaoke,na neun neo mu du ryeo wo
-Comment: 0,0:00:23.61,0:00:24.70,ts,____ x-anti,0,0,0,karaoke,感到很害怕
-Comment: 0,0:00:24.78,0:00:25.65,orig,L__6 x-anti,0,0,0,karaoke,{\ko13}태{\ko15}양{\ko11}이 {\ko11}내{\ko11}리{\ko12}쬐{\ko14}는
-Comment: 0,0:00:24.78,0:00:25.65,roma,____ x-anti,0,0,0,karaoke,tae yang i nae ri jjoe neun
-Comment: 0,0:00:24.78,0:00:25.65,ts,____ x-anti,0,0,0,karaoke,就像顶着烈日的
-Comment: 0,0:00:25.65,0:00:26.74,orig,L__7 x-anti,0,0,0,karaoke,{\ko13}붉{\ko7}은 {\ko25}사{\ko19}막{\ko10}{\ko16}처{\ko19}럼
-Comment: 0,0:00:25.65,0:00:26.74,roma,____ x-anti,0,0,0,karaoke,bul geun sa mak cheo reom
-Comment: 0,0:00:25.65,0:00:26.74,ts,____ x-anti,0,0,0,karaoke,赤红沙漠里
-Comment: 0,0:00:26.93,0:00:27.88,orig,L__8 x-anti,0,0,0,karaoke,{\k21}목{\k15}말{\k12}라 {\k14}울{\k11}고 {\k9}있{\k13}는
-Comment: 0,0:00:26.93,0:00:27.88,roma,____ x-anti,0,0,0,karaoke,mong mal ra ul go in neun
-Comment: 0,0:00:26.93,0:00:27.88,ts,____ x-anti,0,0,0,karaoke,渴求哭的
-Comment: 0,0:00:27.88,0:00:28.77,orig,L__9 x-anti,0,0,0,karaoke,{\ko25}사{\ko26}람{\ko19}처{\ko19}럼
-Comment: 0,0:00:27.88,0:00:28.77,roma,____ x-anti,0,0,0,karaoke,sa ram cheo reom
-Comment: 0,0:00:27.88,0:00:28.77,ts,____ x-anti,0,0,0,karaoke,人一样
-Comment: 0,0:00:28.94,0:00:29.97,orig,L_10 x-anti,0,0,0,karaoke,{\ko9}Ki{\ko14}ss {\ko11}me {\ko18}ma {\ko27}ba{\ko24}by
-Comment: 0,0:00:28.94,0:00:29.97,ts,____ x-anti,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:00:29.98,0:00:31.17,orig,L_11 x-anti,0,0,0,karaoke,{\ko11}이 {\ko11}밤{\ko15}이 {\ko14}가{\ko18}기{\ko28}전{\ko22}에
-Comment: 0,0:00:29.98,0:00:31.17,roma,____ x-anti,0,0,0,karaoke,i ba mi ga gi zeo ne
-Comment: 0,0:00:29.98,0:00:31.17,ts,____ x-anti,0,0,0,karaoke,在今夜结束之前
-Comment: 0,0:00:31.23,0:00:31.93,orig,L_12 x-anti,0,0,0,karaoke,{\ko13}내{\ko11}게 {\ko10}어{\ko14}서{\ko11}빨{\ko11}리
-Comment: 0,0:00:31.23,0:00:31.93,roma,____ x-anti,0,0,0,karaoke,nae ge eo seo bbal ri
-Comment: 0,0:00:31.23,0:00:31.93,ts,____ x-anti,0,0,0,karaoke,快回到我身边
-Comment: 0,0:00:32.00,0:00:32.91,orig,L_13 x-anti,0,0,0,karaoke,{\ko26}Day {\ko24}By{\ko7} {\ko34}Day
-Comment: 0,0:00:32.00,0:00:32.91,ts,____ x-anti,0,0,0,karaoke,日复一日
-Comment: 0,0:00:33.39,0:00:36.70,orig,L_14,0,0,0,karaoke,{\ko53}니{\ko10} {\ko48}품{\ko44}이{\ko9} {\ko29}그{\ko24}리{\ko9}워{\ko10}{\ko95}져
-Comment: 0,0:00:33.39,0:00:36.70,roma,____,0,0,0,karaoke,ni pu mi geu ri wo zyeo
-Comment: 0,0:00:33.39,0:00:36.70,ts,____,0,0,0,karaoke,好怀念你的怀抱
-Comment: 0,0:00:37.46,0:00:40.52,orig,L_15,0,0,0,karaoke,{\ko61}너{\ko32}무 {\ko48}사{\ko19}랑 {\ko36}했{\ko30}나{\ko18}{\ko62}봐
-Comment: 0,0:00:37.46,0:00:40.52,roma,____,0,0,0,karaoke,neo mu sa rang haen na bwa
-Comment: 0,0:00:37.46,0:00:40.52,ts,____,0,0,0,karaoke,我想我太爱你了
-Comment: 0,0:00:41.53,0:00:44.93,orig,L_16,0,0,0,karaoke,{\ko51}이{\ko11} {\ko50}밤{\ko43}이 {\ko34}지{\ko26}나{\ko27}가{\ko98}면
-Comment: 0,0:00:41.53,0:00:44.93,roma,____,0,0,0,karaoke,i ba mi ji na ga myeon
-Comment: 0,0:00:41.53,0:00:44.93,ts,____,0,0,0,karaoke,这个夜晚过去
-Comment: 0,0:00:45.65,0:00:49.04,orig,L_17,0,0,0,karaoke,{\ko54}눈{\ko47}물{\ko32}되{\ko19}어{\ko6} {\ko41}톡{\ko10} {\ko41}톡{\ko12} {\ko77}톡
-Comment: 0,0:00:45.65,0:00:49.04,roma,____,0,0,0,karaoke,nun mul doe eo tok tok tok
-Comment: 0,0:00:45.65,0:00:49.04,ts,____,0,0,0,karaoke,成为眼泪 啪嗒 啪嗒 啪嗒
-Comment: 0,0:00:49.48,0:00:51.17,orig,L_18,0,0,0,karaoke,{\ko20}저{\ko11} {\ko24}은{\ko15}빛{\ko14} {\ko25}달{\ko21}이 {\ko25}지{\ko14}면
-Comment: 0,0:00:49.48,0:00:51.17,roma,____,0,0,0,karaoke,zeo eun bit da ri ji myeon
-Comment: 0,0:00:49.48,0:00:51.17,ts,____,0,0,0,karaoke,散发出银色月光
-Comment: 0,0:00:51.18,0:00:52.62,orig,L_19,0,0,0,karaoke,{\ko43}사{\ko21}라{\ko17}질{\ko11}{\ko52}까
-Comment: 0,0:00:51.18,0:00:52.62,roma,____,0,0,0,karaoke,sa ra jil gga
-Comment: 0,0:00:51.18,0:00:52.62,ts,____,0,0,0,karaoke,会消逝到地面下吗
-Comment: 0,0:00:53.59,0:00:56.96,orig,L_20,0,0,0,karaoke,{\ko24}아{\ko26}직 {\ko25}남{\ko44}아{\ko9}{\ko27}있{\ko21}는 {\ko21}니 {\ko59}향{\ko81}기
-Comment: 0,0:00:53.59,0:00:56.96,roma,____,0,0,0,karaoke,a jik na ma in neun ni hyang gi
-Comment: 0,0:00:53.59,0:00:56.96,ts,____,0,0,0,karaoke,如今还残留着你的香气
-Comment: 0,0:00:57.68,0:00:59.41,orig,L_21,0,0,0,karaoke,{\ko23}꿈{\ko12}같{\ko17}{\ko18}던 {\ko28}추{\ko13}억{\ko17}{\ko26}들{\ko19}도
-Comment: 0,0:00:57.68,0:00:59.41,roma,____,0,0,0,karaoke,ggum gat ddeon chu eok ddeul do
-Comment: 0,0:00:57.68,0:00:59.41,ts,____,0,0,0,karaoke,梦境般的回忆
-Comment: 0,0:00:59.41,0:01:00.90,orig,L_22,0,0,0,karaoke,{\ko14}흩{\ko17}{\ko22}어{\ko14}질{\ko14}{\ko68}까
-Comment: 0,0:00:59.41,0:01:00.90,roma,____,0,0,0,karaoke,heu teo jil gga
-Comment: 0,0:00:59.41,0:01:00.90,ts,____,0,0,0,karaoke,也将烟消云散吗
-Comment: 0,0:01:01.69,0:01:05.27,orig,L_23,0,0,0,karaoke,{\ko27}빗{\ko22}물{\ko33}처{\ko43}럼 {\ko27}멀{\ko19}리{\ko9} {\ko40}톡{\ko13} {\ko35}톡{\ko14} {\ko76}톡
-Comment: 0,0:01:01.69,0:01:05.27,roma,____,0,0,0,karaoke,bin mul cheo reom meol ri tok tok tok
-Comment: 0,0:01:01.69,0:01:05.27,ts,____,0,0,0,karaoke,雨水般遥远 滴答 滴答 滴答
-Comment: 0,0:01:05.51,0:01:06.49,orig,L_24,0,0,0,karaoke,{\ko15}Ki{\ko14}ss {\ko26}me {\ko25}ba{\ko18}by
-Comment: 0,0:01:05.51,0:01:06.49,ts,____,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:01:06.57,0:01:08.10,orig,L_25,0,0,0,karaoke,{\ko47}I'll {\ko29}must {\ko15}be {\ko34}stay {\ko28}here
-Comment: 0,0:01:06.57,0:01:08.10,ts,____,0,0,0,karaoke,我会一直在这里
-Comment: 0,0:01:08.10,0:01:09.38,orig,L_26,0,0,0,karaoke,{\ko27}Day {\ko24}By {\ko77}Day
-Comment: 0,0:01:08.10,0:01:09.38,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:01:09.52,0:01:13.56,orig,L_27,0,0,0,karaoke,{\ko38}사{\ko14}랑{\ko35}한{\ko24}다{\ko22}고 {\ko18}속{\ko38}삭{\ko41}여{\ko174}줘
-Comment: 0,0:01:09.52,0:01:13.56,roma,____,0,0,0,karaoke,sa ra an da go sok ssa gyeo zwo
-Comment: 0,0:01:09.52,0:01:13.56,ts,____,0,0,0,karaoke,悄悄地说爱我吧
-Comment: 0,0:01:13.63,0:01:14.66,orig,L_28,0,0,0,karaoke,{\ko17}Ki{\ko17}ss {\ko19}me {\ko28}ba{\ko22}by
-Comment: 0,0:01:13.63,0:01:14.66,ts,____,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:01:14.66,0:01:16.19,orig,L_29,0,0,0,karaoke,{\ko40}Ju{\ko19}st {\ko17}you {\ko26}can {\ko28}take {\ko23}me
-Comment: 0,0:01:14.66,0:01:16.19,ts,____,0,0,0,karaoke,你可以带走我的心
-Comment: 0,0:01:16.24,0:01:17.49,orig,L_30,0,0,0,karaoke,{\ko24}Day {\ko27}By {\ko74}Day
-Comment: 0,0:01:16.24,0:01:17.49,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:01:17.63,0:01:21.39,orig,L_31,0,0,0,karaoke,{\ko33}내 {\ko27}눈{\ko29}물{\ko21}이 {\ko31}마{\ko21}르{\ko20}기 {\ko61}전{\ko133}에
-Comment: 0,0:01:17.63,0:01:21.39,roma,____,0,0,0,karaoke,nae nun mu ri ma reu gi zeo ne
-Comment: 0,0:01:17.63,0:01:21.39,ts,____,0,0,0,karaoke,在我眼泪干涸之前
-Comment: 0,0:01:21.80,0:01:25.57,orig,L_32,0,0,0,karaoke,{\ko30}뚜{\ko29}루{\ko18}루{\ko31}루{\ko49}루{\ko22}루{\ko28}루 {\ko31}뚜{\ko24}루{\ko19}{\ko96}두
-Comment: 0,0:01:21.80,0:01:25.57,roma,____,0,0,0,karaoke,ddu ru ru ru ru ru ru ddu ru du
-Comment: 0,0:01:21.80,0:01:25.57,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
-Comment: 0,0:01:26.14,0:01:26.85,orig,L_33,0,0,0,karaoke,{\ko9}바{\ko13}람 {\ko30}처{\ko19}럼
-Comment: 0,0:01:26.14,0:01:26.85,roma,____,0,0,0,karaoke,ba ram cheo reom
-Comment: 0,0:01:26.14,0:01:26.85,ts,____,0,0,0,karaoke,像风一样消失的
-Comment: 0,0:01:26.85,0:01:29.56,orig,L_34,0,0,0,karaoke,{\ko30}모{\ko9}두 {\ko45}사{\ko18}라{\ko32}져 {\ko24}버{\ko27}린 {\ko86}너
-Comment: 0,0:01:26.85,0:01:29.56,roma,____,0,0,0,karaoke,mo du sa ra zyeo beo rin neo
-Comment: 0,0:01:26.85,0:01:29.56,ts,____,0,0,0,karaoke,恶劣的你
-Comment: 0,0:01:29.92,0:01:33.80,orig,L_35,0,0,0,karaoke,{\ko32}뚜{\ko27}루{\ko22}루{\ko30}루{\ko49}루{\ko24}루{\ko23}루 {\ko30}뚜{\ko30}루{\ko16}{\ko105}두
-Comment: 0,0:01:29.92,0:01:33.80,roma,____,0,0,0,karaoke,ddu ru ru ru ru ru ru ddu ru du
-Comment: 0,0:01:29.92,0:01:33.80,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
-Comment: 0,0:01:34.26,0:01:36.00,orig,L_36,0,0,0,karaoke,{\ko14}하{\ko7}루{\ko34}하{\ko21}루 {\ko26}널 {\ko27}그{\ko22}리{\ko23}며
-Comment: 0,0:01:34.26,0:01:36.00,roma,____,0,0,0,karaoke,ha ru ha ru neol geu ri myeo
-Comment: 0,0:01:34.26,0:01:36.00,ts,____,0,0,0,karaoke,日复一日地想念你
-Comment: 0,0:01:36.06,0:01:37.58,orig,L_37,0,0,0,karaoke,{\ko24}Day {\ko51}By {\ko77}Day
-Comment: 0,0:01:36.06,0:01:37.58,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:01:38.22,0:01:41.58,orig,L_38,0,0,0,karaoke,{\ko28}스{\ko40}치{\ko14}는 {\ko34}추{\ko13}억{\ko13}{\ko25}들{\ko15}이{\ko10} {\ko29}그{\ko24}리{\ko24}운 {\ko67}밤
-Comment: 0,0:01:38.22,0:01:41.58,roma,____,0,0,0,karaoke,seu qi neun chu eok ddeu ri geu ri un bam
-Comment: 0,0:01:38.22,0:01:41.58,ts,____,0,0,0,karaoke,在回忆掠过思念的夜晚
-Comment: 0,0:01:42.40,0:01:45.84,orig,L_39,0,0,0,karaoke,{\ko25}들{\ko17}려{\ko12}{\ko27}오{\ko46}는 {\ko29}너{\ko20}의 {\ko16}목{\ko65}소{\ko87}리
-Comment: 0,0:01:42.40,0:01:45.84,roma,____,0,0,0,karaoke,deul ryeo o neun neo ui mok sso ri
-Comment: 0,0:01:42.40,0:01:45.84,ts,____,0,0,0,karaoke,听到了你的声音
-Comment: 0,0:01:46.42,0:01:49.70,orig,L_40,0,0,0,karaoke,{\ko23}영{\ko37}원{\ko21}을 {\ko16}약{\ko23}속{\ko14}{\ko13}했{\ko13}{\ko15}던 {\ko31}수{\ko29}많{\ko26}은 {\ko67}밤
-Comment: 0,0:01:46.42,0:01:49.70,roma,____,0,0,0,karaoke,yeong wo neul yak sso kaet ddeon su ma neun bam
-Comment: 0,0:01:46.42,0:01:49.70,ts,____,0,0,0,karaoke,永恒的约定 无数个夜晚
-Comment: 0,0:01:49.51,0:01:50.33,orig,x-bg,0,0,0,karaoke,{\ko27}영{\ko55}원
-Comment: 0,0:01:49.51,0:01:50.33,roma,x-bg,0,0,0,karaoke,yeong wo
-Comment: 0,0:01:49.51,0:01:50.33,ts,x-bg,0,0,0,karaoke,永恒
-Comment: 0,0:01:50.69,0:01:54.06,orig,L_41,0,0,0,karaoke,{\ko57}눈{\ko55}물{\ko26}되{\ko22}어 {\ko45}톡{\ko9} {\ko41}톡{\ko9} {\ko73}톡
-Comment: 0,0:01:50.69,0:01:54.06,roma,____,0,0,0,karaoke,nun mul doe eo tok tok tok
-Comment: 0,0:01:50.69,0:01:54.06,ts,____,0,0,0,karaoke,成为眼泪 啪嗒 啪嗒 啪嗒
-Comment: 0,0:01:54.34,0:01:55.31,orig,L_42,0,0,0,karaoke,{\ko13}Ki{\ko14}ss {\ko25}me {\ko26}ba{\ko19}by
-Comment: 0,0:01:54.34,0:01:55.31,ts,____,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:01:55.38,0:01:56.90,orig,L_43,0,0,0,karaoke,{\ko49}I'll {\ko28}must {\ko15}be {\ko35}stay {\ko25}here
-Comment: 0,0:01:55.38,0:01:56.90,ts,____,0,0,0,karaoke,我会一直在这里
-Comment: 0,0:01:56.93,0:01:57.96,orig,L_44,0,0,0,karaoke,{\ko22}Day {\ko27}By {\ko54}Day
-Comment: 0,0:01:56.93,0:01:57.96,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:01:58.33,0:02:02.39,orig,L_45,0,0,0,karaoke,{\ko38}사{\ko15}랑{\ko35}한{\ko25}다{\ko20}고 {\ko19}속{\ko29}삭{\ko9}{\ko41}여{\ko175}줘
-Comment: 0,0:01:58.33,0:02:02.39,roma,____,0,0,0,karaoke,sa ra an da go sok ssa gyeo zwo
-Comment: 0,0:01:58.33,0:02:02.39,ts,____,0,0,0,karaoke,悄悄地说爱我吧
-Comment: 0,0:02:02.49,0:02:03.46,orig,L_46,0,0,0,karaoke,{\ko11}Ki{\ko15}ss {\ko26}me {\ko26}ba{\ko19}by
-Comment: 0,0:02:02.49,0:02:03.46,ts,____,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:02:03.48,0:02:05.01,orig,L_47,0,0,0,karaoke,{\ko39}Ju{\ko18}st {\ko20}you {\ko24}can {\ko32}take {\ko20}me
-Comment: 0,0:02:03.48,0:02:05.01,ts,____,0,0,0,karaoke,你可以带走我的心
-Comment: 0,0:02:05.05,0:02:06.13,orig,L_48,0,0,0,karaoke,{\ko24}Day {\ko28}By {\ko56}Day
-Comment: 0,0:02:05.05,0:02:06.13,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:02:06.45,0:02:10.41,orig,L_49,0,0,0,karaoke,{\ko34}내 {\ko29}눈{\ko26}물{\ko27}이 {\ko24}마{\ko21}르{\ko21}기 {\ko58}전{\ko156}에
-Comment: 0,0:02:06.45,0:02:10.41,roma,____,0,0,0,karaoke,nae nun mu ri ma reu gi zeo ne
-Comment: 0,0:02:06.45,0:02:10.41,ts,____,0,0,0,karaoke,在我眼泪干涸之前
-Comment: 0,0:02:10.62,0:02:14.36,orig,L_50,0,0,0,karaoke,{\ko30}뚜{\ko27}루{\ko19}루{\ko31}루{\ko49}루{\ko27}루{\ko23}루 {\ko30}뚜{\ko29}루{\ko16}{\ko93}두
-Comment: 0,0:02:10.62,0:02:14.36,roma,____,0,0,0,karaoke,ddu ru ru ru ru ru ru ddu ru du
-Comment: 0,0:02:10.62,0:02:14.36,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
-Comment: 0,0:02:14.96,0:02:15.67,orig,L_51,0,0,0,karaoke,{\ko10}바{\ko11}람 {\ko32}처{\ko18}럼
-Comment: 0,0:02:14.96,0:02:15.67,roma,____,0,0,0,karaoke,ba ram cheo reom
-Comment: 0,0:02:14.96,0:02:15.67,ts,____,0,0,0,karaoke,像风一样消失的
-Comment: 0,0:02:15.67,0:02:18.30,orig,L_52,0,0,0,karaoke,{\ko29}모{\ko12}두 {\ko42}사{\ko20}라{\ko31}져 {\ko24}버{\ko22}린 {\ko83}너
-Comment: 0,0:02:15.67,0:02:18.30,roma,____,0,0,0,karaoke,mo du sa ra zyeo beo rin neo
-Comment: 0,0:02:15.67,0:02:18.30,ts,____,0,0,0,karaoke,恶劣的你
-Comment: 0,0:02:18.73,0:02:22.51,orig,L_53,0,0,0,karaoke,{\ko33}뚜{\ko27}루{\ko21}루{\ko30}루{\ko49}루{\ko25}루{\ko24}루 {\ko26}뚜{\ko33}루{\ko16}{\ko94}두
-Comment: 0,0:02:18.73,0:02:22.51,roma,____,0,0,0,karaoke,ddu ru ru ru ru ru ru ddu ru du
-Comment: 0,0:02:18.73,0:02:22.51,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
-Comment: 0,0:02:23.08,0:02:24.81,orig,L_54,0,0,0,karaoke,{\ko13}하{\ko8}루{\ko33}하{\ko20}루 {\ko30}널 {\ko26}그{\ko23}리{\ko20}며
-Comment: 0,0:02:23.08,0:02:24.81,roma,____,0,0,0,karaoke,ha ru ha ru neol geu ri myeo
-Comment: 0,0:02:23.08,0:02:24.81,ts,____,0,0,0,karaoke,日复一日地想念你
-Comment: 0,0:02:24.83,0:02:26.22,orig,L_55,0,0,0,karaoke,{\ko31}Day {\ko42}By{\ko9} {\ko57}Day
-Comment: 0,0:02:24.83,0:02:26.22,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:02:27.43,0:02:30.19,orig,L_56,0,0,0,karaoke,{\ko48}떠{\ko39}나{\ko12}{\ko27}가{\ko23}는 {\ko41}니 {\ko34}모{\ko52}습
-Comment: 0,0:02:27.43,0:02:30.19,roma,____,0,0,0,karaoke,ddeo na ga neun ni mo seup
-Comment: 0,0:02:27.43,0:02:30.19,ts,____,0,0,0,karaoke,离开时你的模样
-Comment: 0,0:02:30.72,0:02:35.35,orig,L_57,0,0,0,karaoke,{\ko19}니 {\ko58}생{\ko28}각{\ko35}에{\ko15} {\ko46}또 {\ko73}눈{\ko33}물{\ko34}이{\ko13} {\ko50}흘{\ko59}러
-Comment: 0,0:02:30.72,0:02:35.35,roma,____,0,0,0,karaoke,ni saeng ga ge ddo nun mu ri heul reo
-Comment: 0,0:02:30.72,0:02:35.35,ts,____,0,0,0,karaoke,只要一想起 眼泪就潸然而下
-Comment: 0,0:02:35.84,0:02:38.34,orig,L_58,0,0,0,karaoke,{\ko29}돌{\ko24}아{\ko21}온{\ko25}다{\ko29}고 {\ko37}말{\ko37}해{\ko48}줘
-Comment: 0,0:02:35.84,0:02:38.34,roma,____,0,0,0,karaoke,do ra on da go ma rae zwo
-Comment: 0,0:02:35.84,0:02:38.34,ts,____,0,0,0,karaoke,回到我的身边
-Comment: 0,0:02:38.54,0:02:44.48,orig,L_59,0,0,0,karaoke,{\ko37}우{\ko28}리{\ko47}사{\ko24}랑 {\ko26}영{\ko25}원{\ko27}하{\ko27}도{\ko353}록
-Comment: 0,0:02:38.54,0:02:44.48,roma,____,0,0,0,karaoke,u ri sa rang yeong wo na do rok
-Comment: 0,0:02:38.54,0:02:44.48,ts,____,0,0,0,karaoke,我们的爱就能永恒
-Comment: 0,0:02:45.19,0:02:46.51,orig,L_60 x-anti,0,0,0,karaoke,{\ko23}넌 {\ko17}나{\ko12}를 {\ko22}두{\ko22}고{\ko7} {\ko15}가{\ko14}라
-Comment: 0,0:02:45.19,0:02:46.51,roma,____ x-anti,0,0,0,karaoke,neon na reul du go ga ra
-Comment: 0,0:02:45.19,0:02:46.51,ts,____ x-anti,0,0,0,karaoke,你弃我不顾 远走高飞
-Comment: 0,0:02:46.55,0:02:48.20,orig,L_61 x-anti,0,0,0,karaoke,{\ko41}저 {\ko27}멀{\ko23}리 {\ko16}멀{\ko12}리 {\ko25}길 {\ko14}따{\ko7}라
-Comment: 0,0:02:46.55,0:02:48.20,roma,____ x-anti,0,0,0,karaoke,zeo meol ri meol ri gil dda ra
-Comment: 0,0:02:46.55,0:02:48.20,ts,____ x-anti,0,0,0,karaoke,在遥远的路上
-Comment: 0,0:02:48.20,0:02:48.88,orig,L_62 x-anti,0,0,0,karaoke,{\ko23}사{\ko15}라{\ko30}져
-Comment: 0,0:02:48.20,0:02:48.88,roma,____ x-anti,0,0,0,karaoke,sa ra zyeo
-Comment: 0,0:02:48.20,0:02:48.88,ts,____ x-anti,0,0,0,karaoke,消失无踪
-Comment: 0,0:02:49.03,0:02:51.01,orig,L_63 x-anti,0,0,0,karaoke,{\ko22}미{\ko23}친 {\ko19}사{\ko13}랑{\ko12}끝 {\ko11}아{\ko14}슬{\ko15}한 {\ko24}낭{\ko12}떠{\ko12}러{\ko21}지
-Comment: 0,0:02:49.03,0:02:51.01,roma,____ x-anti,0,0,0,karaoke,mi qin sa rang ggeut a seu ran nang ddeo reo ji
-Comment: 0,0:02:49.03,0:02:51.01,ts,____ x-anti,0,0,0,karaoke,疯狂的爱情了解后被人所遗忘
-Comment: 0,0:02:51.01,0:02:53.07,orig,L_64 x-anti,0,0,0,karaoke,{\ko32}질{\ko17}긴 {\ko20}사{\ko10}랑{\ko13}에 {\ko12}감{\ko18}염{\ko8}돼 {\ko9}계{\ko15}속{\ko6}{\ko11}떨{\ko10}었{\ko25}지
-Comment: 0,0:02:51.01,0:02:53.07,roma,____ x-anti,0,0,0,karaoke,jil gin sa rang e ga myeom dwae gye sok ddeo reot jji
-Comment: 0,0:02:51.01,0:02:53.07,ts,____ x-anti,0,0,0,karaoke,坚韧的爱情将继续感染我飞
-Comment: 0,0:02:53.07,0:02:55.10,orig,L_65 x-anti,0,0,0,karaoke,{\ko24}슬{\ko7}{\ko18}픈 {\ko18}시{\ko12}를 {\ko17}읊{\ko12}어{\ko12}대{\ko12}는 {\ko14}내{\ko10} {\ko10}입{\ko8}{\ko18}술{\ko11}이
-Comment: 0,0:02:53.07,0:02:55.10,roma,____ x-anti,0,0,0,karaoke,seul peun xi reul eul peo dae neun nae ip ssu ri
-Comment: 0,0:02:53.07,0:02:55.10,ts,____ x-anti,0,0,0,karaoke,嘴里念着悲伤的诗
-Comment: 0,0:02:55.10,0:02:57.35,orig,L_66 x-anti,0,0,0,karaoke,{\ko27}너의 {\ko20}까{\ko8}{\ko13}만 {\ko23}눈{\ko15}동{\ko24}자에 {\ko21}기{\ko18}억{\ko14}{\ko13}되{\ko29}리
-Comment: 0,0:02:55.10,0:02:57.35,roma,____ x-anti,0,0,0,karaoke,neo ui gga man nun dong za e gi eok ddoe ri
-Comment: 0,0:02:55.10,0:02:57.35,ts,____ x-anti,0,0,0,karaoke,记得的却是你那乌黑的双眼
-Comment: 0,0:02:57.40,0:02:58.46,orig,L_67 x-anti,0,0,0,karaoke,{\ko9}Ki{\ko11}ss {\ko18}me {\ko11}ma{\ko8} {\ko27}ba{\ko22}by
-Comment: 0,0:02:57.40,0:02:58.46,ts,____ x-anti,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:02:58.46,0:03:00.44,orig,L_68 x-anti,0,0,0,karaoke,{\ko11}이 {\ko11}밤{\ko14}이 {\ko12}가{\ko18}기{\ko26}전{\ko28}에 {\ko17}내{\ko12}게 {\ko7}어{\ko17}서{\ko14}빨{\ko11}리
-Comment: 0,0:02:58.46,0:03:00.44,roma,____ x-anti,0,0,0,karaoke,i ba mi ga gi zeo ne nae ge eo seo bbal ri
-Comment: 0,0:02:58.46,0:03:00.44,ts,____ x-anti,0,0,0,karaoke,在今夜结束之前 快回到我身边
-Comment: 0,0:03:00.48,0:03:01.37,orig,L_69 x-anti,0,0,0,karaoke,{\ko25}Day {\ko23}By{\ko8} {\ko33}Day
-Comment: 0,0:03:00.48,0:03:01.37,ts,____ x-anti,0,0,0,karaoke,日复一日
-Comment: 0,0:03:01.46,0:03:02.43,orig,L_70,0,0,0,karaoke,{\ko13}Ki{\ko14}ss {\ko26}me {\ko26}ba{\ko18}by
-Comment: 0,0:03:01.46,0:03:02.43,ts,____,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:03:02.50,0:03:04.03,orig,L_71,0,0,0,karaoke,{\ko49}I'll {\ko28}must {\ko15}be {\ko36}stay {\ko25}here
-Comment: 0,0:03:02.50,0:03:04.03,ts,____,0,0,0,karaoke,我会一直在这里
-Comment: 0,0:03:04.06,0:03:05.14,orig,L_72,0,0,0,karaoke,{\ko25}Day {\ko23}By {\ko60}Day
-Comment: 0,0:03:04.06,0:03:05.14,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:03:05.45,0:03:09.54,orig,L_73,0,0,0,karaoke,{\ko33}슬{\ko20}프{\ko32}지{\ko30}만 {\ko23}너{\ko18}를 {\ko34}지{\ko47}울{\ko172}래
-Comment: 0,0:03:05.45,0:03:09.54,roma,____,0,0,0,karaoke,seul peu ji man neo reul ji ul rae
-Comment: 0,0:03:05.45,0:03:09.54,ts,____,0,0,0,karaoke,再悲伤也要忘记你
-Comment: 0,0:03:09.60,0:03:10.58,orig,L_74,0,0,0,karaoke,{\ko13}Ki{\ko13}ss {\ko28}me {\ko25}ba{\ko19}by
-Comment: 0,0:03:09.60,0:03:10.58,ts,____,0,0,0,karaoke,吻我吧 宝贝
-Comment: 0,0:03:10.61,0:03:12.13,orig,L_75,0,0,0,karaoke,{\ko38}Ju{\ko12}st {\ko25}you {\ko25}can {\ko31}take {\ko21}me
-Comment: 0,0:03:10.61,0:03:12.13,ts,____,0,0,0,karaoke,你可以带走我的心
-Comment: 0,0:03:12.17,0:03:13.25,orig,L_76,0,0,0,karaoke,{\ko24}Day {\ko28}By {\ko56}Day
-Comment: 0,0:03:12.17,0:03:13.25,ts,____,0,0,0,karaoke,日复一日
-Comment: 0,0:03:13.55,0:03:17.36,orig,L_77,0,0,0,karaoke,{\ko36}내 {\ko26}눈{\ko29}물{\ko27}이 {\ko25}마{\ko21}르{\ko18}기 {\ko60}전{\ko139}에
-Comment: 0,0:03:13.55,0:03:17.36,roma,____,0,0,0,karaoke,nae nun mu ri ma reu gi zeo ne
-Comment: 0,0:03:13.55,0:03:17.36,ts,____,0,0,0,karaoke,在我眼泪干涸之前
-Comment: 0,0:03:21.81,0:03:23.42,orig,L_78,0,0,0,karaoke,{\ko16}Ki{\ko18}ss {\ko18}me{\ko8} {\ko25}ba{\ko18}by{\ko9} {\ko27}take {\ko22}me
-Comment: 0,0:03:21.81,0:03:23.42,ts,____,0,0,0,karaoke,吻我吧 宝贝 带走我的心
-Comment: 0,0:03:23.52,0:03:25.93,orig,L_79,0,0,0,karaoke,{\ko23}Day{\ko13} {\ko59}By{\ko7} {\ko139}Day
-Comment: 0,0:03:23.52,0:03:25.93,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:00:16.69,0:00:18.47,orig,L__1 x-anti x-part:Intro,0,0,0,karaoke,{\ko19}내{\ko10}{\ko10}품{\ko13}은 {\ko26}너{\ko13}에{\ko10}게{\ko10} {\ko13}피{\ko22}난{\ko32}처
+Dialogue: 0,0:00:16.69,0:00:18.47,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k19}nae {\k10}{\k10}pu {\k13}meun {\k26}neo {\k13}e {\k10}ge {\k10}{\k13}pi {\k22}nan {\k32}cheo
+Dialogue: 0,0:00:16.69,0:00:18.47,ts,____ x-anti,0,0,0,karaoke,我的怀抱是你的避难所
+Dialogue: 0,0:00:18.54,0:00:20.40,orig,L__2 x-anti,0,0,0,karaoke,{\ko24}다{\ko18}른 {\ko20}사{\ko14}람{\ko18}에 {\ko17}나{\ko16}는 {\ko16}버{\ko17}려{\ko26}져
+Dialogue: 0,0:00:18.54,0:00:20.40,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k24}da {\k18}reun {\k20}sa {\k14}ra {\k18}me {\k17}na {\k16}neun {\k16}beo {\k17}ryeo {\k26}zyeo
+Dialogue: 0,0:00:18.54,0:00:20.40,ts,____ x-anti,0,0,0,karaoke,其他的我都遗弃
+Dialogue: 0,0:00:20.57,0:00:22.36,orig,L__3 x-anti,0,0,0,karaoke,{\ko26}사{\ko26}랑 {\ko19}그 {\ko11}끝{\ko17}은 {\ko10}까{\ko17}만 {\ko14}터{\ko15}널{\ko24}속
+Dialogue: 0,0:00:20.57,0:00:22.36,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k26}sa {\k26}rang {\k19}geu {\k11}ggeu {\k17}teun {\k10}gga {\k17}man {\k14}teo {\k15}neol {\k24}sok
+Dialogue: 0,0:00:20.57,0:00:22.36,ts,____ x-anti,0,0,0,karaoke,在爱情尽头的遥远隧道中
+Dialogue: 0,0:00:22.61,0:00:23.61,orig,L__4 x-anti,0,0,0,karaoke,{\ko10}보{\ko12}이{\ko18}지 {\ko16}않{\ko16}는 {\ko15}길{\ko13}이
+Dialogue: 0,0:00:22.61,0:00:23.61,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k10}bo {\k12}i {\k18}ji {\k16}an {\k16}neun {\k15}gi {\k13}ri
+Dialogue: 0,0:00:22.61,0:00:23.61,ts,____ x-anti,0,0,0,karaoke,看不见道路的我
+Dialogue: 0,0:00:23.61,0:00:24.70,orig,L__5 x-anti,0,0,0,karaoke,{\ko10}나{\ko17}는 {\ko10}너{\ko13}무 {\ko12}두{\ko19}려{\ko28}워
+Dialogue: 0,0:00:23.61,0:00:24.70,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k10}na {\k17}neun {\k10}neo {\k13}mu {\k12}du {\k19}ryeo {\k28}wo
+Dialogue: 0,0:00:23.61,0:00:24.70,ts,____ x-anti,0,0,0,karaoke,感到很害怕
+Dialogue: 0,0:00:24.78,0:00:25.65,orig,L__6 x-anti,0,0,0,karaoke,{\ko13}태{\ko15}양{\ko11}이 {\ko11}내{\ko11}리{\ko12}쬐{\ko14}는
+Dialogue: 0,0:00:24.78,0:00:25.65,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k13}tae {\k15}yang {\k11}i {\k11}nae {\k11}ri {\k12}jjoe {\k14}neun
+Dialogue: 0,0:00:24.78,0:00:25.65,ts,____ x-anti,0,0,0,karaoke,就像顶着烈日的
+Dialogue: 0,0:00:25.65,0:00:26.74,orig,L__7 x-anti,0,0,0,karaoke,{\ko13}붉{\ko7}은 {\ko25}사{\ko19}막{\ko10}{\ko16}처{\ko19}럼
+Dialogue: 0,0:00:25.65,0:00:26.74,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k13}bul {\k7}geun {\k25}sa {\k19}mak {\k10}{\k16}cheo {\k19}reom
+Dialogue: 0,0:00:25.65,0:00:26.74,ts,____ x-anti,0,0,0,karaoke,赤红沙漠里
+Dialogue: 0,0:00:26.93,0:00:27.88,orig,L__8 x-anti,0,0,0,karaoke,{\k21}목{\k15}말{\k12}라 {\k14}울{\k11}고 {\k9}있{\k13}는
+Dialogue: 0,0:00:26.93,0:00:27.88,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k21}mong {\k15}mal {\k12}ra {\k14}ul {\k11}go {\k9}in {\k13}neun
+Dialogue: 0,0:00:26.93,0:00:27.88,ts,____ x-anti,0,0,0,karaoke,渴求哭的
+Dialogue: 0,0:00:27.88,0:00:28.77,orig,L__9 x-anti,0,0,0,karaoke,{\ko25}사{\ko26}람{\ko19}처{\ko19}럼
+Dialogue: 0,0:00:27.88,0:00:28.77,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k25}sa {\k26}ram {\k19}cheo {\k19}reom
+Dialogue: 0,0:00:27.88,0:00:28.77,ts,____ x-anti,0,0,0,karaoke,人一样
+Dialogue: 0,0:00:28.94,0:00:29.97,orig,L_10 x-anti,0,0,0,karaoke,{\ko9}Ki{\ko14}ss {\ko11}me {\ko18}ma {\ko27}ba{\ko24}by
+Dialogue: 0,0:00:28.94,0:00:29.97,ts,____ x-anti,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:00:29.98,0:00:31.17,orig,L_11 x-anti,0,0,0,karaoke,{\ko11}이 {\ko11}밤{\ko15}이 {\ko14}가{\ko18}기{\ko28}전{\ko22}에
+Dialogue: 0,0:00:29.98,0:00:31.17,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k11}i {\k11}ba {\k15}mi {\k14}ga {\k18}gi {\k28}zeo {\k22}ne
+Dialogue: 0,0:00:29.98,0:00:31.17,ts,____ x-anti,0,0,0,karaoke,在今夜结束之前
+Dialogue: 0,0:00:31.23,0:00:31.93,orig,L_12 x-anti,0,0,0,karaoke,{\ko13}내{\ko11}게 {\ko10}어{\ko14}서{\ko11}빨{\ko11}리
+Dialogue: 0,0:00:31.23,0:00:31.93,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k13}nae {\k11}ge {\k10}eo {\k14}seo {\k11}bbal {\k11}ri
+Dialogue: 0,0:00:31.23,0:00:31.93,ts,____ x-anti,0,0,0,karaoke,快回到我身边
+Dialogue: 0,0:00:32.00,0:00:32.91,orig,L_13 x-anti,0,0,0,karaoke,{\ko26}Day {\ko24}By{\ko7} {\ko34}Day
+Dialogue: 0,0:00:32.00,0:00:32.91,ts,____ x-anti,0,0,0,karaoke,日复一日
+Dialogue: 0,0:00:33.39,0:00:36.70,orig,L_14 x-part:Verse,0,0,0,karaoke,{\ko53}니{\ko10} {\ko48}품{\ko44}이{\ko9} {\ko29}그{\ko24}리{\ko9}워{\ko10}{\ko95}져
+Dialogue: 0,0:00:33.39,0:00:36.70,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k53}ni {\k10}{\k48}pu {\k44}mi {\k9}{\k29}geu {\k24}ri {\k9}wo {\k10}{\k95}zyeo
+Dialogue: 0,0:00:33.39,0:00:36.70,ts,____,0,0,0,karaoke,好怀念你的怀抱
+Dialogue: 0,0:00:37.46,0:00:40.52,orig,L_15,0,0,0,karaoke,{\ko61}너{\ko32}무 {\ko48}사{\ko19}랑 {\ko36}했{\ko30}나{\ko18}{\ko62}봐
+Dialogue: 0,0:00:37.46,0:00:40.52,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k61}neo {\k32}mu {\k48}sa {\k19}rang {\k36}haen {\k30}na {\k18}{\k62}bwa
+Dialogue: 0,0:00:37.46,0:00:40.52,ts,____,0,0,0,karaoke,我想我太爱你了
+Dialogue: 0,0:00:41.53,0:00:44.93,orig,L_16,0,0,0,karaoke,{\ko51}이{\ko11} {\ko50}밤{\ko43}이 {\ko34}지{\ko26}나{\ko27}가{\ko98}면
+Dialogue: 0,0:00:41.53,0:00:44.93,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k51}i {\k11}{\k50}ba {\k43}mi {\k34}ji {\k26}na {\k27}ga {\k98}myeon
+Dialogue: 0,0:00:41.53,0:00:44.93,ts,____,0,0,0,karaoke,这个夜晚过去
+Dialogue: 0,0:00:45.65,0:00:49.04,orig,L_17,0,0,0,karaoke,{\ko54}눈{\ko47}물{\ko32}되{\ko19}어{\ko6} {\ko41}톡{\ko10} {\ko41}톡{\ko12} {\ko77}톡
+Dialogue: 0,0:00:45.65,0:00:49.04,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k54}nun {\k47}mul {\k32}doe {\k19}eo {\k6}{\k41}tok {\k10}{\k41}tok {\k12}{\k77}tok
+Dialogue: 0,0:00:45.65,0:00:49.04,ts,____,0,0,0,karaoke,成为眼泪 啪嗒 啪嗒 啪嗒
+Dialogue: 0,0:00:49.48,0:00:51.17,orig,L_18,0,0,0,karaoke,{\ko20}저{\ko11} {\ko24}은{\ko15}빛{\ko14} {\ko25}달{\ko21}이 {\ko25}지{\ko14}면
+Dialogue: 0,0:00:49.48,0:00:51.17,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k20}zeo {\k11}{\k24}eun {\k15}bit {\k14}{\k25}da {\k21}ri {\k25}ji {\k14}myeon
+Dialogue: 0,0:00:49.48,0:00:51.17,ts,____,0,0,0,karaoke,散发出银色月光
+Dialogue: 0,0:00:51.18,0:00:52.62,orig,L_19,0,0,0,karaoke,{\ko43}사{\ko21}라{\ko17}질{\ko11}{\ko52}까
+Dialogue: 0,0:00:51.18,0:00:52.62,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k43}sa {\k21}ra {\k17}jil {\k11}{\k52}gga
+Dialogue: 0,0:00:51.18,0:00:52.62,ts,____,0,0,0,karaoke,会消逝到地面下吗
+Dialogue: 0,0:00:53.59,0:00:56.96,orig,L_20,0,0,0,karaoke,{\ko24}아{\ko26}직 {\ko25}남{\ko44}아{\ko9}{\ko27}있{\ko21}는 {\ko21}니 {\ko59}향{\ko81}기
+Dialogue: 0,0:00:53.59,0:00:56.96,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k24}a {\k26}jik {\k25}na {\k44}ma {\k9}{\k27}in {\k21}neun {\k21}ni {\k59}hyang {\k81}gi
+Dialogue: 0,0:00:53.59,0:00:56.96,ts,____,0,0,0,karaoke,如今还残留着你的香气
+Dialogue: 0,0:00:57.68,0:00:59.41,orig,L_21,0,0,0,karaoke,{\ko23}꿈{\ko12}같{\ko17}{\ko18}던 {\ko28}추{\ko13}억{\ko17}{\ko26}들{\ko19}도
+Dialogue: 0,0:00:57.68,0:00:59.41,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k23}ggum {\k12}gat {\k17}{\k18}ddeon {\k28}chu {\k13}eok {\k17}{\k26}ddeul {\k19}do
+Dialogue: 0,0:00:57.68,0:00:59.41,ts,____,0,0,0,karaoke,梦境般的回忆
+Dialogue: 0,0:00:59.41,0:01:00.90,orig,L_22,0,0,0,karaoke,{\ko14}흩{\ko17}{\ko22}어{\ko14}질{\ko14}{\ko68}까
+Dialogue: 0,0:00:59.41,0:01:00.90,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k14}heu {\k17}{\k22}teo {\k14}jil {\k14}{\k68}gga
+Dialogue: 0,0:00:59.41,0:01:00.90,ts,____,0,0,0,karaoke,也将烟消云散吗
+Dialogue: 0,0:01:01.69,0:01:05.27,orig,L_23,0,0,0,karaoke,{\ko27}빗{\ko22}물{\ko33}처{\ko43}럼 {\ko27}멀{\ko19}리{\ko9} {\ko40}톡{\ko13} {\ko35}톡{\ko14} {\ko76}톡
+Dialogue: 0,0:01:01.69,0:01:05.27,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k27}bin {\k22}mul {\k33}cheo {\k43}reom {\k27}meol {\k19}ri {\k9}{\k40}tok {\k13}{\k35}tok {\k14}{\k76}tok
+Dialogue: 0,0:01:01.69,0:01:05.27,ts,____,0,0,0,karaoke,雨水般遥远 滴答 滴答 滴答
+Dialogue: 0,0:01:05.51,0:01:06.49,orig,L_24 x-part:Chorus,0,0,0,karaoke,{\ko15}Ki{\ko14}ss {\ko26}me {\ko25}ba{\ko18}by
+Dialogue: 0,0:01:05.51,0:01:06.49,ts,____,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:01:06.57,0:01:08.10,orig,L_25,0,0,0,karaoke,{\ko47}I'll {\ko29}must {\ko15}be {\ko34}stay {\ko28}here
+Dialogue: 0,0:01:06.57,0:01:08.10,ts,____,0,0,0,karaoke,我会一直在这里
+Dialogue: 0,0:01:08.10,0:01:09.38,orig,L_26,0,0,0,karaoke,{\ko27}Day {\ko24}By {\ko77}Day
+Dialogue: 0,0:01:08.10,0:01:09.38,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:01:09.52,0:01:13.56,orig,L_27,0,0,0,karaoke,{\ko38}사{\ko14}랑{\ko35}한{\ko24}다{\ko22}고 {\ko18}속{\ko38}삭{\ko41}여{\ko174}줘
+Dialogue: 0,0:01:09.52,0:01:13.56,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k38}sa {\k14}ra {\k35}an {\k24}da {\k22}go {\k18}sok {\k38}ssa {\k41}gyeo {\k174}zwo
+Dialogue: 0,0:01:09.52,0:01:13.56,ts,____,0,0,0,karaoke,悄悄地说爱我吧
+Dialogue: 0,0:01:13.63,0:01:14.66,orig,L_28,0,0,0,karaoke,{\ko17}Ki{\ko17}ss {\ko19}me {\ko28}ba{\ko22}by
+Dialogue: 0,0:01:13.63,0:01:14.66,ts,____,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:01:14.66,0:01:16.19,orig,L_29,0,0,0,karaoke,{\ko40}Ju{\ko19}st {\ko17}you {\ko26}can {\ko28}take {\ko23}me
+Dialogue: 0,0:01:14.66,0:01:16.19,ts,____,0,0,0,karaoke,你可以带走我的心
+Dialogue: 0,0:01:16.24,0:01:17.49,orig,L_30,0,0,0,karaoke,{\ko24}Day {\ko27}By {\ko74}Day
+Dialogue: 0,0:01:16.24,0:01:17.49,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:01:17.63,0:01:21.39,orig,L_31,0,0,0,karaoke,{\ko33}내 {\ko27}눈{\ko29}물{\ko21}이 {\ko31}마{\ko21}르{\ko20}기 {\ko61}전{\ko133}에
+Dialogue: 0,0:01:17.63,0:01:21.39,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k33}nae {\k27}nun {\k29}mu {\k21}ri {\k31}ma {\k21}reu {\k20}gi {\k61}zeo {\k133}ne
+Dialogue: 0,0:01:17.63,0:01:21.39,ts,____,0,0,0,karaoke,在我眼泪干涸之前
+Dialogue: 0,0:01:21.80,0:01:25.57,orig,L_32,0,0,0,karaoke,{\ko30}뚜{\ko29}루{\ko18}루{\ko31}루{\ko49}루{\ko22}루{\ko28}루 {\ko31}뚜{\ko24}루{\ko19}{\ko96}두
+Dialogue: 0,0:01:21.80,0:01:25.57,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k30}ddu {\k29}ru {\k18}ru {\k31}ru {\k49}ru {\k22}ru {\k28}ru {\k31}ddu {\k24}ru {\k19}{\k96}du
+Dialogue: 0,0:01:21.80,0:01:25.57,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
+Dialogue: 0,0:01:26.14,0:01:26.85,orig,L_33,0,0,0,karaoke,{\ko9}바{\ko13}람 {\ko30}처{\ko19}럼
+Dialogue: 0,0:01:26.14,0:01:26.85,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k9}ba {\k13}ram {\k30}cheo {\k19}reom
+Dialogue: 0,0:01:26.14,0:01:26.85,ts,____,0,0,0,karaoke,像风一样消失的
+Dialogue: 0,0:01:26.85,0:01:29.56,orig,L_34,0,0,0,karaoke,{\ko30}모{\ko9}두 {\ko45}사{\ko18}라{\ko32}져 {\ko24}버{\ko27}린 {\ko86}너
+Dialogue: 0,0:01:26.85,0:01:29.56,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k30}mo {\k9}du {\k45}sa {\k18}ra {\k32}zyeo {\k24}beo {\k27}rin {\k86}neo
+Dialogue: 0,0:01:26.85,0:01:29.56,ts,____,0,0,0,karaoke,恶劣的你
+Dialogue: 0,0:01:29.92,0:01:33.80,orig,L_35,0,0,0,karaoke,{\ko32}뚜{\ko27}루{\ko22}루{\ko30}루{\ko49}루{\ko24}루{\ko23}루 {\ko30}뚜{\ko30}루{\ko16}{\ko105}두
+Dialogue: 0,0:01:29.92,0:01:33.80,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k32}ddu {\k27}ru {\k22}ru {\k30}ru {\k49}ru {\k24}ru {\k23}ru {\k30}ddu {\k30}ru {\k16}{\k105}du
+Dialogue: 0,0:01:29.92,0:01:33.80,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
+Dialogue: 0,0:01:34.26,0:01:36.00,orig,L_36,0,0,0,karaoke,{\ko14}하{\ko7}루{\ko34}하{\ko21}루 {\ko26}널 {\ko27}그{\ko22}리{\ko23}며
+Dialogue: 0,0:01:34.26,0:01:36.00,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k14}ha {\k7}ru {\k34}ha {\k21}ru {\k26}neol {\k27}geu {\k22}ri {\k23}myeo
+Dialogue: 0,0:01:34.26,0:01:36.00,ts,____,0,0,0,karaoke,日复一日地想念你
+Dialogue: 0,0:01:36.06,0:01:37.58,orig,L_37,0,0,0,karaoke,{\ko24}Day {\ko51}By {\ko77}Day
+Dialogue: 0,0:01:36.06,0:01:37.58,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:01:38.22,0:01:41.58,orig,L_38 x-part:Verse,0,0,0,karaoke,{\ko28}스{\ko40}치{\ko14}는 {\ko34}추{\ko13}억{\ko13}{\ko25}들{\ko15}이{\ko10} {\ko29}그{\ko24}리{\ko24}운 {\ko67}밤
+Dialogue: 0,0:01:38.22,0:01:41.58,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k28}seu {\k40}qi {\k14}neun {\k34}chu {\k13}eok {\k13}{\k25}ddeu {\k15}ri {\k10}{\k29}geu {\k24}ri {\k24}un {\k67}bam
+Dialogue: 0,0:01:38.22,0:01:41.58,ts,____,0,0,0,karaoke,在回忆掠过思念的夜晚
+Dialogue: 0,0:01:42.40,0:01:45.84,orig,L_39,0,0,0,karaoke,{\ko25}들{\ko17}려{\ko12}{\ko27}오{\ko46}는 {\ko29}너{\ko20}의 {\ko16}목{\ko65}소{\ko87}리
+Dialogue: 0,0:01:42.40,0:01:45.84,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k25}deul {\k17}ryeo {\k12}{\k27}o {\k46}neun {\k29}neo {\k20}ui {\k16}mok {\k65}sso {\k87}ri
+Dialogue: 0,0:01:42.40,0:01:45.84,ts,____,0,0,0,karaoke,听到了你的声音
+Dialogue: 0,0:01:46.42,0:01:49.70,orig,L_40,0,0,0,karaoke,{\ko23}영{\ko37}원{\ko21}을 {\ko16}약{\ko23}속{\ko14}{\ko13}했{\ko13}{\ko15}던 {\ko31}수{\ko29}많{\ko26}은 {\ko67}밤
+Dialogue: 0,0:01:46.42,0:01:49.70,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k23}yeong {\k37}wo {\k21}neul {\k16}yak {\k23}sso {\k14}{\k13}kaet {\k13}{\k15}ddeon {\k31}su {\k29}ma {\k26}neun {\k67}bam
+Dialogue: 0,0:01:46.42,0:01:49.70,ts,____,0,0,0,karaoke,永恒的约定 无数个夜晚
+Dialogue: 0,0:01:49.51,0:01:50.33,orig,x-bg,0,0,0,karaoke,{\ko27}영{\ko55}원
+Dialogue: 0,0:01:49.51,0:01:50.33,roma,x-bg x-lang:ko-Latn,0,0,0,karaoke,{\k27}yeong {\k55}wo
+Dialogue: 0,0:01:49.51,0:01:50.33,ts,x-bg,0,0,0,karaoke,永恒
+Dialogue: 0,0:01:50.69,0:01:54.06,orig,L_41,0,0,0,karaoke,{\ko57}눈{\ko55}물{\ko26}되{\ko22}어 {\ko45}톡{\ko9} {\ko41}톡{\ko9} {\ko73}톡
+Dialogue: 0,0:01:50.69,0:01:54.06,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k57}nun {\k55}mul {\k26}doe {\k22}eo {\k45}tok {\k9}{\k41}tok {\k9}{\k73}tok
+Dialogue: 0,0:01:50.69,0:01:54.06,ts,____,0,0,0,karaoke,成为眼泪 啪嗒 啪嗒 啪嗒
+Dialogue: 0,0:01:54.34,0:01:55.31,orig,L_42 x-part:Chorus,0,0,0,karaoke,{\ko13}Ki{\ko14}ss {\ko25}me {\ko26}ba{\ko19}by
+Dialogue: 0,0:01:54.34,0:01:55.31,ts,____,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:01:55.38,0:01:56.90,orig,L_43,0,0,0,karaoke,{\ko49}I'll {\ko28}must {\ko15}be {\ko35}stay {\ko25}here
+Dialogue: 0,0:01:55.38,0:01:56.90,ts,____,0,0,0,karaoke,我会一直在这里
+Dialogue: 0,0:01:56.93,0:01:57.96,orig,L_44,0,0,0,karaoke,{\ko22}Day {\ko27}By {\ko54}Day
+Dialogue: 0,0:01:56.93,0:01:57.96,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:01:58.33,0:02:02.39,orig,L_45,0,0,0,karaoke,{\ko38}사{\ko15}랑{\ko35}한{\ko25}다{\ko20}고 {\ko19}속{\ko29}삭{\ko9}{\ko41}여{\ko175}줘
+Dialogue: 0,0:01:58.33,0:02:02.39,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k38}sa {\k15}ra {\k35}an {\k25}da {\k20}go {\k19}sok {\k29}ssa {\k9}{\k41}gyeo {\k175}zwo
+Dialogue: 0,0:01:58.33,0:02:02.39,ts,____,0,0,0,karaoke,悄悄地说爱我吧
+Dialogue: 0,0:02:02.49,0:02:03.46,orig,L_46,0,0,0,karaoke,{\ko11}Ki{\ko15}ss {\ko26}me {\ko26}ba{\ko19}by
+Dialogue: 0,0:02:02.49,0:02:03.46,ts,____,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:02:03.48,0:02:05.01,orig,L_47,0,0,0,karaoke,{\ko39}Ju{\ko18}st {\ko20}you {\ko24}can {\ko32}take {\ko20}me
+Dialogue: 0,0:02:03.48,0:02:05.01,ts,____,0,0,0,karaoke,你可以带走我的心
+Dialogue: 0,0:02:05.05,0:02:06.13,orig,L_48,0,0,0,karaoke,{\ko24}Day {\ko28}By {\ko56}Day
+Dialogue: 0,0:02:05.05,0:02:06.13,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:02:06.45,0:02:10.41,orig,L_49,0,0,0,karaoke,{\ko34}내 {\ko29}눈{\ko26}물{\ko27}이 {\ko24}마{\ko21}르{\ko21}기 {\ko58}전{\ko156}에
+Dialogue: 0,0:02:06.45,0:02:10.41,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k34}nae {\k29}nun {\k26}mu {\k27}ri {\k24}ma {\k21}reu {\k21}gi {\k58}zeo {\k156}ne
+Dialogue: 0,0:02:06.45,0:02:10.41,ts,____,0,0,0,karaoke,在我眼泪干涸之前
+Dialogue: 0,0:02:10.62,0:02:14.36,orig,L_50,0,0,0,karaoke,{\ko30}뚜{\ko27}루{\ko19}루{\ko31}루{\ko49}루{\ko27}루{\ko23}루 {\ko30}뚜{\ko29}루{\ko16}{\ko93}두
+Dialogue: 0,0:02:10.62,0:02:14.36,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k30}ddu {\k27}ru {\k19}ru {\k31}ru {\k49}ru {\k27}ru {\k23}ru {\k30}ddu {\k29}ru {\k16}{\k93}du
+Dialogue: 0,0:02:10.62,0:02:14.36,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
+Dialogue: 0,0:02:14.96,0:02:15.67,orig,L_51,0,0,0,karaoke,{\ko10}바{\ko11}람 {\ko32}처{\ko18}럼
+Dialogue: 0,0:02:14.96,0:02:15.67,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k10}ba {\k11}ram {\k32}cheo {\k18}reom
+Dialogue: 0,0:02:14.96,0:02:15.67,ts,____,0,0,0,karaoke,像风一样消失的
+Dialogue: 0,0:02:15.67,0:02:18.30,orig,L_52,0,0,0,karaoke,{\ko29}모{\ko12}두 {\ko42}사{\ko20}라{\ko31}져 {\ko24}버{\ko22}린 {\ko83}너
+Dialogue: 0,0:02:15.67,0:02:18.30,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k29}mo {\k12}du {\k42}sa {\k20}ra {\k31}zyeo {\k24}beo {\k22}rin {\k83}neo
+Dialogue: 0,0:02:15.67,0:02:18.30,ts,____,0,0,0,karaoke,恶劣的你
+Dialogue: 0,0:02:18.73,0:02:22.51,orig,L_53,0,0,0,karaoke,{\ko33}뚜{\ko27}루{\ko21}루{\ko30}루{\ko49}루{\ko25}루{\ko24}루 {\ko26}뚜{\ko33}루{\ko16}{\ko94}두
+Dialogue: 0,0:02:18.73,0:02:22.51,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k33}ddu {\k27}ru {\k21}ru {\k30}ru {\k49}ru {\k25}ru {\k24}ru {\k26}ddu {\k33}ru {\k16}{\k94}du
+Dialogue: 0,0:02:18.73,0:02:22.51,ts,____,0,0,0,karaoke,嘟噜噜噜噜噜噜 嘟噜嘟
+Dialogue: 0,0:02:23.08,0:02:24.81,orig,L_54,0,0,0,karaoke,{\ko13}하{\ko8}루{\ko33}하{\ko20}루 {\ko30}널 {\ko26}그{\ko23}리{\ko20}며
+Dialogue: 0,0:02:23.08,0:02:24.81,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k13}ha {\k8}ru {\k33}ha {\k20}ru {\k30}neol {\k26}geu {\k23}ri {\k20}myeo
+Dialogue: 0,0:02:23.08,0:02:24.81,ts,____,0,0,0,karaoke,日复一日地想念你
+Dialogue: 0,0:02:24.83,0:02:26.22,orig,L_55,0,0,0,karaoke,{\ko31}Day {\ko42}By{\ko9} {\ko57}Day
+Dialogue: 0,0:02:24.83,0:02:26.22,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:02:27.43,0:02:30.19,orig,L_56 x-part:Bridge,0,0,0,karaoke,{\ko48}떠{\ko39}나{\ko12}{\ko27}가{\ko23}는 {\ko41}니 {\ko34}모{\ko52}습
+Dialogue: 0,0:02:27.43,0:02:30.19,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k48}ddeo {\k39}na {\k12}{\k27}ga {\k23}neun {\k41}ni {\k34}mo {\k52}seup
+Dialogue: 0,0:02:27.43,0:02:30.19,ts,____,0,0,0,karaoke,离开时你的模样
+Dialogue: 0,0:02:30.72,0:02:35.35,orig,L_57,0,0,0,karaoke,{\ko19}니 {\ko58}생{\ko28}각{\ko35}에{\ko15} {\ko46}또 {\ko73}눈{\ko33}물{\ko34}이{\ko13} {\ko50}흘{\ko59}러
+Dialogue: 0,0:02:30.72,0:02:35.35,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k19}ni {\k58}saeng {\k28}ga {\k35}ge {\k15}{\k46}ddo {\k73}nun {\k33}mu {\k34}ri {\k13}{\k50}heul {\k59}reo
+Dialogue: 0,0:02:30.72,0:02:35.35,ts,____,0,0,0,karaoke,只要一想起 眼泪就潸然而下
+Dialogue: 0,0:02:35.84,0:02:38.34,orig,L_58,0,0,0,karaoke,{\ko29}돌{\ko24}아{\ko21}온{\ko25}다{\ko29}고 {\ko37}말{\ko37}해{\ko48}줘
+Dialogue: 0,0:02:35.84,0:02:38.34,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k29}do {\k24}ra {\k21}on {\k25}da {\k29}go {\k37}ma {\k37}rae {\k48}zwo
+Dialogue: 0,0:02:35.84,0:02:38.34,ts,____,0,0,0,karaoke,回到我的身边
+Dialogue: 0,0:02:38.54,0:02:44.48,orig,L_59,0,0,0,karaoke,{\ko37}우{\ko28}리{\ko47}사{\ko24}랑 {\ko26}영{\ko25}원{\ko27}하{\ko27}도{\ko353}록
+Dialogue: 0,0:02:38.54,0:02:44.48,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k37}u {\k28}ri {\k47}sa {\k24}rang {\k26}yeong {\k25}wo {\k27}na {\k27}do {\k353}rok
+Dialogue: 0,0:02:38.54,0:02:44.48,ts,____,0,0,0,karaoke,我们的爱就能永恒
+Dialogue: 0,0:02:45.19,0:02:46.51,orig,L_60 x-anti x-part:PreChorus,0,0,0,karaoke,{\ko23}넌 {\ko17}나{\ko12}를 {\ko22}두{\ko22}고{\ko7} {\ko15}가{\ko14}라
+Dialogue: 0,0:02:45.19,0:02:46.51,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k23}neon {\k17}na {\k12}reul {\k22}du {\k22}go {\k7}{\k15}ga {\k14}ra
+Dialogue: 0,0:02:45.19,0:02:46.51,ts,____ x-anti,0,0,0,karaoke,你弃我不顾 远走高飞
+Dialogue: 0,0:02:46.55,0:02:48.20,orig,L_61 x-anti,0,0,0,karaoke,{\ko41}저 {\ko27}멀{\ko23}리 {\ko16}멀{\ko12}리 {\ko25}길 {\ko14}따{\ko7}라
+Dialogue: 0,0:02:46.55,0:02:48.20,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k41}zeo {\k27}meol {\k23}ri {\k16}meol {\k12}ri {\k25}gil {\k14}dda {\k7}ra
+Dialogue: 0,0:02:46.55,0:02:48.20,ts,____ x-anti,0,0,0,karaoke,在遥远的路上
+Dialogue: 0,0:02:48.20,0:02:48.88,orig,L_62 x-anti,0,0,0,karaoke,{\ko23}사{\ko15}라{\ko30}져
+Dialogue: 0,0:02:48.20,0:02:48.88,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k23}sa {\k15}ra {\k30}zyeo
+Dialogue: 0,0:02:48.20,0:02:48.88,ts,____ x-anti,0,0,0,karaoke,消失无踪
+Dialogue: 0,0:02:49.03,0:02:51.01,orig,L_63 x-anti,0,0,0,karaoke,{\ko22}미{\ko23}친 {\ko19}사{\ko13}랑{\ko12}끝 {\ko11}아{\ko14}슬{\ko15}한 {\ko24}낭{\ko12}떠{\ko12}러{\ko21}지
+Dialogue: 0,0:02:49.03,0:02:51.01,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k22}mi {\k23}qin {\k19}sa {\k13}rang {\k12}ggeut {\k11}a {\k14}seu {\k15}ran {\k24}nang {\k12}ddeo {\k12}reo {\k21}ji
+Dialogue: 0,0:02:49.03,0:02:51.01,ts,____ x-anti,0,0,0,karaoke,疯狂的爱情了解后被人所遗忘
+Dialogue: 0,0:02:51.01,0:02:53.07,orig,L_64 x-anti,0,0,0,karaoke,{\ko32}질{\ko17}긴 {\ko20}사{\ko10}랑{\ko13}에 {\ko12}감{\ko18}염{\ko8}돼 {\ko9}계{\ko15}속{\ko6}{\ko11}떨{\ko10}었{\ko25}지
+Dialogue: 0,0:02:51.01,0:02:53.07,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k32}jil {\k17}gin {\k20}sa {\k10}rang {\k13}e {\k12}ga {\k18}myeom {\k8}dwae {\k9}gye {\k15}sok {\k6}{\k11}ddeo {\k10}reot {\k25}jji
+Dialogue: 0,0:02:51.01,0:02:53.07,ts,____ x-anti,0,0,0,karaoke,坚韧的爱情将继续感染我飞
+Dialogue: 0,0:02:53.07,0:02:55.10,orig,L_65 x-anti,0,0,0,karaoke,{\ko24}슬{\ko7}{\ko18}픈 {\ko18}시{\ko12}를 {\ko17}읊{\ko12}어{\ko12}대{\ko12}는 {\ko14}내{\ko10} {\ko10}입{\ko8}{\ko18}술{\ko11}이
+Dialogue: 0,0:02:53.07,0:02:55.10,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k24}seul {\k7}{\k18}peun {\k18}xi {\k12}reul {\k17}eul {\k12}peo {\k12}dae {\k12}neun {\k14}nae {\k10}{\k10}ip {\k8}{\k18}ssu {\k11}ri
+Dialogue: 0,0:02:53.07,0:02:55.10,ts,____ x-anti,0,0,0,karaoke,嘴里念着悲伤的诗
+Dialogue: 0,0:02:55.10,0:02:57.35,orig,L_66 x-anti,0,0,0,karaoke,{\ko27}너의 {\ko20}까{\ko8}{\ko13}만 {\ko23}눈{\ko15}동{\ko24}자에 {\ko21}기{\ko18}억{\ko14}{\ko13}되{\ko29}리
+Dialogue: 0,0:02:55.10,0:02:57.35,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k27}neo ui {\k20}gga {\k8}{\k13}man {\k23}nun {\k15}dong {\k24}za e {\k21}gi {\k18}eok {\k14}{\k13}ddoe {\k29}ri
+Dialogue: 0,0:02:55.10,0:02:57.35,ts,____ x-anti,0,0,0,karaoke,记得的却是你那乌黑的双眼
+Dialogue: 0,0:02:57.40,0:02:58.46,orig,L_67 x-anti,0,0,0,karaoke,{\ko9}Ki{\ko11}ss {\ko18}me {\ko11}ma{\ko8} {\ko27}ba{\ko22}by
+Dialogue: 0,0:02:57.40,0:02:58.46,ts,____ x-anti,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:02:58.46,0:03:00.44,orig,L_68 x-anti,0,0,0,karaoke,{\ko11}이 {\ko11}밤{\ko14}이 {\ko12}가{\ko18}기{\ko26}전{\ko28}에 {\ko17}내{\ko12}게 {\ko7}어{\ko17}서{\ko14}빨{\ko11}리
+Dialogue: 0,0:02:58.46,0:03:00.44,roma,____ x-anti x-lang:ko-Latn,0,0,0,karaoke,{\k11}i {\k11}ba {\k14}mi {\k12}ga {\k18}gi {\k26}zeo {\k28}ne {\k17}nae {\k12}ge {\k7}eo {\k17}seo {\k14}bbal {\k11}ri
+Dialogue: 0,0:02:58.46,0:03:00.44,ts,____ x-anti,0,0,0,karaoke,在今夜结束之前 快回到我身边
+Dialogue: 0,0:03:00.48,0:03:01.37,orig,L_69 x-anti,0,0,0,karaoke,{\ko25}Day {\ko23}By{\ko8} {\ko33}Day
+Dialogue: 0,0:03:00.48,0:03:01.37,ts,____ x-anti,0,0,0,karaoke,日复一日
+Dialogue: 0,0:03:01.46,0:03:02.43,orig,L_70 x-part:Chorus,0,0,0,karaoke,{\ko13}Ki{\ko14}ss {\ko26}me {\ko26}ba{\ko18}by
+Dialogue: 0,0:03:01.46,0:03:02.43,ts,____,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:03:02.50,0:03:04.03,orig,L_71,0,0,0,karaoke,{\ko49}I'll {\ko28}must {\ko15}be {\ko36}stay {\ko25}here
+Dialogue: 0,0:03:02.50,0:03:04.03,ts,____,0,0,0,karaoke,我会一直在这里
+Dialogue: 0,0:03:04.06,0:03:05.14,orig,L_72,0,0,0,karaoke,{\ko25}Day {\ko23}By {\ko60}Day
+Dialogue: 0,0:03:04.06,0:03:05.14,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:03:05.45,0:03:09.54,orig,L_73,0,0,0,karaoke,{\ko33}슬{\ko20}프{\ko32}지{\ko30}만 {\ko23}너{\ko18}를 {\ko34}지{\ko47}울{\ko172}래
+Dialogue: 0,0:03:05.45,0:03:09.54,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k33}seul {\k20}peu {\k32}ji {\k30}man {\k23}neo {\k18}reul {\k34}ji {\k47}ul {\k172}rae
+Dialogue: 0,0:03:05.45,0:03:09.54,ts,____,0,0,0,karaoke,再悲伤也要忘记你
+Dialogue: 0,0:03:09.60,0:03:10.58,orig,L_74,0,0,0,karaoke,{\ko13}Ki{\ko13}ss {\ko28}me {\ko25}ba{\ko19}by
+Dialogue: 0,0:03:09.60,0:03:10.58,ts,____,0,0,0,karaoke,吻我吧 宝贝
+Dialogue: 0,0:03:10.61,0:03:12.13,orig,L_75,0,0,0,karaoke,{\ko38}Ju{\ko12}st {\ko25}you {\ko25}can {\ko31}take {\ko21}me
+Dialogue: 0,0:03:10.61,0:03:12.13,ts,____,0,0,0,karaoke,你可以带走我的心
+Dialogue: 0,0:03:12.17,0:03:13.25,orig,L_76,0,0,0,karaoke,{\ko24}Day {\ko28}By {\ko56}Day
+Dialogue: 0,0:03:12.17,0:03:13.25,ts,____,0,0,0,karaoke,日复一日
+Dialogue: 0,0:03:13.55,0:03:17.36,orig,L_77,0,0,0,karaoke,{\ko36}내 {\ko26}눈{\ko29}물{\ko27}이 {\ko25}마{\ko21}르{\ko18}기 {\ko60}전{\ko139}에
+Dialogue: 0,0:03:13.55,0:03:17.36,roma,____ x-lang:ko-Latn,0,0,0,karaoke,{\k36}nae {\k26}nun {\k29}mu {\k27}ri {\k25}ma {\k21}reu {\k18}gi {\k60}zeo {\k139}ne
+Dialogue: 0,0:03:13.55,0:03:17.36,ts,____,0,0,0,karaoke,在我眼泪干涸之前
+Dialogue: 0,0:03:21.81,0:03:23.42,orig,L_78 x-part:Outro,0,0,0,karaoke,{\ko16}Ki{\ko18}ss {\ko18}me{\ko8} {\ko25}ba{\ko18}by{\ko9} {\ko27}take {\ko22}me
+Dialogue: 0,0:03:21.81,0:03:23.42,ts,____,0,0,0,karaoke,吻我吧 宝贝 带走我的心
+Dialogue: 0,0:03:23.52,0:03:25.93,orig,L_79,0,0,0,karaoke,{\ko23}Day{\ko13} {\ko59}By{\ko7} {\ko139}Day
+Dialogue: 0,0:03:23.52,0:03:25.93,ts,____,0,0,0,karaoke,日复一日
