@@ -1,4 +1,4 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="jp">
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="ja">
   <head>
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
@@ -68,7 +68,7 @@
           </translation>
         </translations>
         <transliterations>
-          <transliteration xml:lang="jp-Latn">
+          <transliteration xml:lang="ja-Latn">
             <text for="L1">
               <span begin="00:08.456" end="00:09.116" xmlns="http://www.w3.org/ns/ttml">ah</span>
               <span begin="00:09.116" end="00:09.206" xmlns="http://www.w3.org/ns/ttml"> </span>
