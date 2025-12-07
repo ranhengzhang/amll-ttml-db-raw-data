@@ -3,26 +3,55 @@
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
       <amll:meta key="musicName" value="富士山下" />
-      <amll:meta key="artists" value="陳奕迅" />
-      <amll:meta key="artists" value="陈奕迅" />
+      <amll:meta key="musicName" value="《爱情呼叫转移》电影主题曲" />
       <amll:meta key="artists" value="Eason Chan" />
+      <amll:meta key="artists" value="陈奕迅" />
+      <amll:meta key="artists" value="陳奕迅" />
+      <amll:meta key="album" value="What's Going On...? (Remastered 2019)" />
+      <amll:meta key="album" value="What's Going On...? (2nd Edition)" />
+      <amll:meta key="album" value="Solidays (2 CD)" />
       <amll:meta key="album" value="What's Going On…?" />
       <amll:meta key="ncmMusicId" value="65766" />
+      <amll:meta key="qqMusicId" value="003dtkNk26WhJD" />
+      <amll:meta key="qqMusicId" value="004RqD2d10eSlu" />
       <amll:meta key="qqMusicId" value="260678" />
+      <amll:meta key="qqMusicId" value="1249550" />
+      <amll:meta key="qqMusicId" value="1234503" />
+      <amll:meta key="qqMusicId" value="003XWY492TSVbG" />
+      <amll:meta key="qqMusicId" value="100899467" />
+      <amll:meta key="qqMusicId" value="003aAPj81VWrbL" />
+      <amll:meta key="spotifyId" value="7HQT2O80CCKp21UWD56xzh" />
       <amll:meta key="spotifyId" value="3cthRwQ2X0SNTaauD7tjn5" />
+      <amll:meta key="spotifyId" value="2XStXlkm8fiCJ3T0TNfeQn" />
+      <amll:meta key="spotifyId" value="5SO5ul25pTNNdwBqdHK2nt" />
+      <amll:meta key="appleMusicId" value="1442944228" />
+      <amll:meta key="appleMusicId" value="1490822088" />
+      <amll:meta key="appleMusicId" value="1720091290" />
       <amll:meta key="appleMusicId" value="1443346107" />
       <amll:meta key="isrc" value="HKUM70600363" />
-      <amll:meta key="作曲" value="泽日生" />
+      <amll:meta key="伴唱" value="雷有晖" />
       <amll:meta key="作词" value="林夕" />
       <amll:meta key="制作人" value="梁荣骏" />
+      <amll:meta key="吉他" value="邓建明" />
       <amll:meta key="声乐录制工程师" value="Anthony Leung" />
       <amll:meta key="弦乐编曲" value="陈珀" />
-      <amll:meta key="录音工程师" value="C.Y. Kong" />
       <amll:meta key="录音工程师" value="Rob Porter" />
+      <amll:meta key="录音工程师" value="C.Y. Kong" />
       <amll:meta key="录音工程师" value="陈匡荣" />
+      <amll:meta key="打击乐" value="陈匡荣" />
+      <amll:meta key="打击乐" value="KB" />
+      <amll:meta key="指挥" value="陈珀" />
       <amll:meta key="混音工程师" value="洪天佑" />
+      <amll:meta key="混音工程师" value="Simon Li" />
+      <amll:meta key="男低音" value="细威" />
+      <amll:meta key="男低音" value="梁俊威" />
       <amll:meta key="编曲" value="C.Y. Kong" />
       <amll:meta key="编曲" value="陈珀" />
+      <amll:meta key="编程" value="C.Y. Kong" />
+      <amll:meta key="编程" value="陈珀" />
+      <amll:meta key="键盘" value="C.Y. Kong" />
+      <amll:meta key="键盘" value="陈珀" />
+      <amll:meta key="领唱" value="陈奕迅" />
       <amll:meta key="ttmlAuthorGithub" value="68000793" />
       <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
     </metadata>
