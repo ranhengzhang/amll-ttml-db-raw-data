@@ -18,6 +18,7 @@
       <amll:meta key="album" value="Violet Cry" />
       <amll:meta key="ncmMusicId" value="446874477" />
       <amll:meta key="qqMusicId" value="109493975" />
+      <amll:meta key="qqMusicId" value="004Y4HRI0QxAub" />
       <amll:meta key="spotifyId" value="5isyYCnY0BNFkjsomfy8hS" />
       <amll:meta key="appleMusicId" value="1538259285" />
       <amll:meta key="isrc" value="JPU901603671" />
@@ -123,7 +124,7 @@
         <span begin="00:38.826" end="00:39.516">れ</span>
         <span begin="00:39.606" end="00:39.796">て</span>
         <span begin="00:39.796" end="00:40.086">も</span>
-        <span ttm:role="x-roman">yō sha na i gen ji tsu ni fu mi ni ji ra re te mo</span>
+        <span ttm:role="x-roman">yo u sha na i gen ji tsu ni fu mi ni ji ra re te mo</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">即便被残酷现实无情践踏</span>
       </p>
       <p begin="00:40.286" end="00:44.426" ttm:agent="v1" itunes:key="L6">
@@ -161,7 +162,7 @@
         <span begin="00:51.036" end="00:51.406">いう</span>
         <span begin="00:51.406" end="00:51.766">な</span>
         <span begin="00:51.766" end="00:52.846">ら</span>
-        <span ttm:role="x-roman">na mi da na ga shi ta ki nō no bun da ke tsu yo ku na re ru to i u na ra</span>
+        <span ttm:role="x-roman">na mi da na ga shi ta ki no u no bun da ke tsu yo ku na re ru to i u na ra</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">若每滴泪都能铸就明日坚强</span>
       </p>
       <p begin="00:53.566" end="01:00.036" ttm:agent="v1" itunes:key="L8">
@@ -183,7 +184,7 @@
         <span begin="00:59.286" end="00:59.316">く</span>
         <span begin="00:59.316" end="00:59.776">ら</span>
         <span begin="00:59.776" end="01:00.036">い</span>
-        <span ttm:role="x-roman">se ka i jū no da re ni da tte a ta shi ma ke na i ku ra i</span>
+        <span ttm:role="x-roman">se ka i ju u no da re ni da tte a ta shi ma ke na i ku ra i</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">我必将超越世间所有人</span>
       </p>
       <p begin="01:00.216" end="01:03.876" ttm:agent="v1" itunes:key="L9">
@@ -227,8 +228,8 @@
         <span begin="01:10.806" end="01:11.486">せ</span>
         <span begin="01:11.486" end="01:11.796">る</span>
         <span begin="01:11.796" end="01:11.936"> </span>
-        <span begin="01:11.936" end="01:12.206">It</span>
-        <span begin="01:12.206" end="01:12.336">&apos;s</span>
+        <span begin="01:11.936" end="01:12.206">I</span>
+        <span begin="01:12.206" end="01:12.336">t&apos;s</span>
         <span begin="01:12.336" end="01:12.336"> </span>
         <span begin="01:12.336" end="01:12.586">my</span>
         <span begin="01:12.586" end="01:12.586"> </span>
@@ -251,7 +252,7 @@
         <span begin="01:37.736" end="01:38.386">願</span>
         <span begin="01:38.386" end="01:38.656">う</span>
         <span begin="01:38.656" end="01:39.786">者</span>
-        <span ttm:role="x-roman">te o a wa se te fu kō o ne ga u mo no</span>
+        <span ttm:role="x-roman">te o a wa se te fu ko u o ne ga u mo no</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">那些合掌祈求他人不幸之徒</span>
       </p>
       <p begin="01:40.046" end="01:46.316" ttm:agent="v1" itunes:key="L13">
@@ -334,7 +335,7 @@
         <span begin="02:06.036" end="02:06.376">いう</span>
         <span begin="02:06.376" end="02:06.746">か</span>
         <span begin="02:06.746" end="02:07.686">ら</span>
-        <span ttm:role="x-roman">na mi da na ga shi ta ki nō no bun da ke ya sa shi ku na re ru to i u ka ra</span>
+        <span ttm:role="x-roman">na mi da na ga shi ta ki no u no bun da ke ya sa shi ku na re ru to i u ka ra</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">因为每滴泪都让温柔愈发丰盈</span>
       </p>
       <p begin="02:08.616" end="02:15.046" ttm:agent="v1" itunes:key="L17">
@@ -374,7 +375,7 @@
         <span begin="02:18.256" end="02:18.456">だ</span>
         <span begin="02:18.456" end="02:18.596">と</span>
         <span begin="02:18.596" end="02:18.836">か</span>
-        <span ttm:role="x-roman">shi a wa se sō to ka ka wa i sō da to ka</span>
+        <span ttm:role="x-roman">shi a wa se so u to ka ka wa i so u da to ka</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">看似幸福或是可怜模样</span>
       </p>
       <p begin="02:18.966" end="02:23.326" ttm:agent="v1" itunes:key="L19">
@@ -388,7 +389,8 @@
         <span begin="02:21.426" end="02:21.756">も</span>
         <span begin="02:21.756" end="02:22.676">の</span>
         <span begin="02:22.676" end="02:22.756">で</span>
-        <span begin="02:22.756" end="02:23.326">しょ？</span>
+        <span begin="02:22.756" end="02:23.326">しょ</span>
+        <span begin="02:23.326" end="02:23.331">？</span>
         <span ttm:role="x-roman">hi to ni wa ha ka re na i mo no de sho</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">他人又怎能妄加丈量</span>
       </p>
@@ -404,8 +406,8 @@
         <span begin="02:26.006" end="02:26.466">ば</span>
         <span begin="02:26.466" end="02:26.786">いい</span>
         <span begin="02:26.786" end="02:26.906"> </span>
-        <span begin="02:26.906" end="02:27.216">It</span>
-        <span begin="02:27.216" end="02:27.346">&apos;s</span>
+        <span begin="02:26.906" end="02:27.216">I</span>
+        <span begin="02:27.216" end="02:27.346">t&apos;s</span>
         <span begin="02:27.346" end="02:27.346"> </span>
         <span begin="02:27.346" end="02:27.596">my</span>
         <span begin="02:27.596" end="02:27.596"> </span>
@@ -414,7 +416,7 @@
         <span ttm:role="x-translation" xml:lang="zh-CN">只需活出自我本色 这就是我的人生！</span>
       </p>
     </div>
-    <div begin="03:02.066" end="00:00.000" itunes:song-part="Refrain">
+    <div begin="03:02.066" end="03:40.456" itunes:song-part="Refrain">
       <p begin="03:02.066" end="03:09.486" ttm:agent="v1" itunes:key="L21">
         <span begin="03:02.066" end="03:02.996">涙</span>
         <span begin="03:02.996" end="03:03.466">流</span>
@@ -435,7 +437,7 @@
         <span begin="03:07.926" end="03:08.306">いう</span>
         <span begin="03:08.306" end="03:08.686">な</span>
         <span begin="03:08.686" end="03:09.486">ら</span>
-        <span ttm:role="x-roman">na mi da na ga shi ta ki nō no bun da ke tsu yo ku na re ru to i u na ra</span>
+        <span ttm:role="x-roman">na mi da na ga shi ta ki no u no bun da ke tsu yo ku na re ru to i u na ra</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">若每滴泪都能铸就明日坚强</span>
       </p>
       <p begin="03:10.496" end="03:16.876" ttm:agent="v1" itunes:key="L22">
@@ -458,7 +460,7 @@
         <span begin="03:16.126" end="03:16.196">く</span>
         <span begin="03:16.196" end="03:16.616">ら</span>
         <span begin="03:16.616" end="03:16.876">い</span>
-        <span ttm:role="x-roman">se ka i jū no da re ni da tte a ta shi ma ke na i ku ra i</span>
+        <span ttm:role="x-roman">se ka i ju u no da re ni da tte a ta shi ma ke na i ku ra i</span>
         <span ttm:role="x-translation" xml:lang="zh-CN">我必将超越世间所有人</span>
       </p>
       <p begin="03:17.096" end="03:20.766" ttm:agent="v1" itunes:key="L23">
@@ -502,8 +504,8 @@
         <span begin="03:27.706" end="03:28.356">せ</span>
         <span begin="03:28.356" end="03:28.646">る</span>
         <span begin="03:28.646" end="03:28.796"> </span>
-        <span begin="03:28.796" end="03:29.096">It</span>
-        <span begin="03:29.096" end="03:29.256">&apos;s</span>
+        <span begin="03:28.796" end="03:29.096">I</span>
+        <span begin="03:29.096" end="03:29.256">t&apos;s</span>
         <span begin="03:29.256" end="03:29.256"> </span>
         <span begin="03:29.256" end="03:29.456">my</span>
         <span begin="03:29.456" end="03:29.456"> </span>
@@ -523,8 +525,8 @@
         <span begin="03:35.216" end="03:35.726">せ</span>
         <span begin="03:35.866" end="03:36.306">る</span>
         <span begin="03:36.306" end="03:36.311"> </span>
-        <span begin="03:36.306" end="03:36.616">It</span>
-        <span begin="03:36.616" end="03:36.716">&apos;s</span>
+        <span begin="03:36.306" end="03:36.616">I</span>
+        <span begin="03:36.616" end="03:36.716">t&apos;s</span>
         <span begin="03:36.716" end="03:36.716"> </span>
         <span begin="03:36.716" end="03:36.966">my</span>
         <span begin="03:36.966" end="03:36.966"> </span>
