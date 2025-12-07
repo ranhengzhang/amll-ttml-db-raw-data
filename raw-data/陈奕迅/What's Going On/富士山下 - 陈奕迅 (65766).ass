@@ -6,97 +6,151 @@ ScriptType: v4.00+
 Timer: 100.0000
 PlayResX: 1920
 PlayResY: 1080
+Original Script: zh-Hans
+WrapStyle: 0
+ScaledBorderAndShadow: no
 
 [Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: ../../../Users/LEGION/Downloads/UVRS/2_陈奕迅-What's Going On…_-富士山下_(Vocals).wav
+Video File: ?dummy:60.000000:18000:1920:1080:128:128:128:c
+Video AR Value: 1.777778
+Video Zoom Percent: 0.375000
+Scroll Position: 12
+Active Line: 17
+Video Position: 2718
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
 Style: roma-furigana,Noto Sans SC ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
 Style: orig-furigana,更纱黑体 SC SemiBold,64,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,10,0,1,4,0,2,10,10,10,1
 Style: orig,更纱黑体 SC SemiBold,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,10,0,1,8,0,2,10,10,10,1
 Style: roma,Noto Sans SC ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
+Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:22.55,0:00:26.80,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko34}拦{\ko28}路{\ko25}雨{\ko28}偏{\ko24}似{\ko28}雪{\ko40}花{\ko26}{\ko52}饮{\ko19}泣{\ko14}{\ko17}的{\ko35}你{\ko29}冻{\ko26}吗
-Dialogue: 0,0:00:22.55,0:00:26.80,roma,____,0,0,0,karaoke,laan4 lou6 jyu5 pin1 ci5 syut3 faa1 jam2 jap1 dik1 nei5 dung3 maa1
-Dialogue: 0,0:00:27.09,0:00:31.20,orig,L__2,0,0,0,karaoke,{\ko50}这{\ko33}风{\ko30}褛{\ko29}我{\ko31}给{\ko46}你{\ko36}磨{\ko41}到{\ko35}有{\ko30}襟{\ko50}花
-Dialogue: 0,0:00:27.09,0:00:31.20,roma,____,0,0,0,karaoke,ze5 fung1 leoi5 ngo5 kap1 nei5 mo4 dou3 jau5 kam1 faa1
-Dialogue: 0,0:00:31.63,0:00:35.94,orig,L__3,0,0,0,karaoke,{\ko29}连{\ko25}调{\ko30}了{\ko15}职{\ko9}{\ko33}也{\ko13}不{\ko17}{\ko31}怕{\ko29}{\ko53}怎{\ko28}么{\ko30}始{\ko26}终{\ko35}牵{\ko28}挂
-Dialogue: 0,0:00:31.63,0:00:35.94,roma,____,0,0,0,karaoke,lin4 diu6 liu5 zik1 jaa5 bat1 paa3 zam2 mo1 ci2 zung1 hin1 gwaa3
-Dialogue: 0,0:00:36.20,0:00:40.40,orig,L__4,0,0,0,karaoke,{\ko54}苦{\ko29}心{\ko31}选{\ko31}中{\ko39}今{\ko34}天{\ko35}想{\ko45}车{\ko46}你{\ko30}回{\ko46}家
-Dialogue: 0,0:00:36.20,0:00:40.40,roma,____,0,0,0,karaoke,fu2 sam1 syun2 zung1 gam1 tin1 soeng2 ce1 nei5 wui4 gaa1
-Dialogue: 0,0:00:40.80,0:00:45.02,orig,L__5,0,0,0,karaoke,{\ko28}原{\ko34}谅{\ko25}我{\ko12}不{\ko9}{\ko27}再{\ko39}送{\ko44}花{\ko64}伤{\ko34}口{\ko29}应{\ko23}要{\ko17}结{\ko16}{\ko21}疤
-Dialogue: 0,0:00:40.80,0:00:45.02,roma,____,0,0,0,karaoke,jyun4 loeng6 ngo5 bat1 zoi3 sung3 faa1 soeng1 hau2 jing1 jiu3 git3 baa1
-Dialogue: 0,0:00:45.30,0:00:49.56,orig,L__6,0,0,0,karaoke,{\ko50}花{\ko40}瓣{\ko33}铺{\ko16}满{\ko47}心{\ko40}里{\ko32}坟{\ko42}场{\ko48}才{\ko32}害{\ko46}怕
-Dialogue: 0,0:00:45.30,0:00:49.56,roma,____,0,0,0,karaoke,faa1 faan2 pou1 mun5 sam1 lei5 fan4 coeng4 coi4 hoi6 paa3
-Dialogue: 0,0:00:49.96,0:00:54.26,orig,L__7,0,0,0,karaoke,{\ko26}如{\ko24}若{\ko29}你{\ko34}非{\ko30}我{\ko11}不{\ko16}{\ko27}嫁{\ko35}{\ko47}彼{\ko34}此{\ko30}终{\ko15}必{\ko41}火{\ko31}化
-Dialogue: 0,0:00:49.96,0:00:54.26,roma,____,0,0,0,karaoke,jyu4 joek6 nei5 fei1 ngo5 bat1 gaa3 bei2 ci2 zung1 bit1 fo2 faa3
-Dialogue: 0,0:00:54.51,0:00:58.74,orig,L__8,0,0,0,karaoke,{\k29}一{\k57}生{\k15}一{\k41}世{\k44}等{\k23}一{\k12}{\k24}天{\k58}需{\k38}要{\k30}代{\k52}价
-Dialogue: 0,0:00:54.51,0:00:58.74,roma,____,0,0,0,karaoke,jat1 sang1 jat1 sai3 dang2 jat1 tin1 seoi1 jiu3 doi6 gaai3
-Dialogue: 0,0:00:59.02,0:01:03.99,orig,L__9 x-part:Chorus,0,0,0,karaoke,{\ko36}谁{\ko26}都{\ko32}只{\ko21}得{\ko30}那{\ko46}双{\ko44}手{\ko29}靠{\ko31}拥{\ko24}抱{\ko20}亦{\ko39}难{\ko27}任{\ko34}你{\ko27}拥{\ko31}有
-Dialogue: 0,0:00:59.02,0:01:03.99,roma,____,0,0,0,karaoke,seoi4 dou1 zi2 dak1 naa5 soeng1 sau2 kaau3 jung2 pou5 jik6 naan4 jam6 nei5 jung2 jau5
+Dialogue: 0,0:00:22.55,0:00:26.80,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko34}拦{\ko28}路{\ko25}雨{\ko28}偏{\ko24}似{\ko28}雪{\ko40}花{\ko26} {\ko52}饮{\ko19}泣{\ko14}{\ko17}的{\ko35}你{\ko29}冻{\ko26}吗
+Dialogue: 0,0:00:22.55,0:00:26.80,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k34}laan4 {\k28}lou6 {\k25}jyu5 {\k28}pin1 {\k24}ci5 {\k28}syut3 {\k40}faa1 {\k26}{\k52}jam2 {\k19}jap1 {\k14}{\k17}dik1 {\k35}nei5 {\k29}dung3 {\k26}maa1
+Dialogue: 0,0:00:22.55,0:00:26.80,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k34}攔{\k28}路{\k25}雨{\k28}偏{\k24}似{\k28}雪{\k40}花 {\k26}{\k52}飲{\k19}泣{\k14}{\k17}的{\k35}你{\k29}凍{\k26}嗎
+Dialogue: 0,0:00:27.09,0:00:31.20,orig,L__2,0,0,0,karaoke,{\ko50}这{\ko39}风{\ko24}褛{\ko29}我{\ko31}给{\ko48}你 {\ko34}磨{\ko41}到{\ko35}有{\ko30}襟{\ko50}花
+Dialogue: 0,0:00:27.09,0:00:31.20,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k50}ze5 {\k39}fung1 {\k24}leoi5 {\k29}ngo5 {\k48}kap1 {\k34}nei5 {\k36}mo4 {\k41}dou3 {\k35}jau5 {\k30}kam1 {\k50}faa1
+Dialogue: 0,0:00:27.09,0:00:31.20,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k50}這{\k39}風{\k24}褸{\k29}我{\k31}給{\k48}你 {\k34}磨{\k41}到{\k35}有{\k30}襟{\k50}花
+Dialogue: 0,0:00:31.63,0:00:35.94,orig,L__3,0,0,0,karaoke,{\ko29}连{\ko25}调{\ko30}了{\ko15}职{\ko9}{\ko33}也{\ko13}不{\ko17}{\ko31}怕{\ko29} {\ko57}怎{\ko24}么{\ko30}始{\ko26}终{\ko35}牵{\ko28}挂
+Dialogue: 0,0:00:31.63,0:00:35.94,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k29}lin4 {\k25}diu6 {\k30}liu5 {\k15}zik1 {\k9}{\k33}jaa5 {\k13}bat1 {\k17}{\k31}paa3 {\k29}{\k58}zam2 {\k23}mo1 {\k30}ci2 {\k26}zung1 {\k35}hin1 {\k28}gwaa3
+Dialogue: 0,0:00:31.63,0:00:35.94,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k29}連{\k25}調{\k30}了{\k15}職{\k9}{\k33}也{\k13}不{\k17}{\k31}怕 {\k29}{\k57}怎{\k24}麼{\k30}始{\k26}終{\k35}牽{\k28}掛
+Dialogue: 0,0:00:36.20,0:00:40.40,orig,L__4,0,0,0,karaoke,{\ko54}苦{\ko29}心{\ko31}选{\ko31}中{\ko39}今{\ko34}天 {\ko35}想{\ko45}车{\ko46}你{\ko30}回{\ko46}家
+Dialogue: 0,0:00:36.20,0:00:40.40,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k54}fu2 {\k29}sam1 {\k31}syun2 {\k31}zung1 {\k39}gam1 {\k34}tin1 {\k35}soeng2 {\k45}ce1 {\k46}nei5 {\k30}wui4 {\k46}gaa1
+Dialogue: 0,0:00:36.20,0:00:40.40,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k54}苦{\k29}心{\k31}選{\k31}中{\k39}今{\k34}天 {\k35}想{\k45}車{\k46}你{\k30}回{\k46}家
+Dialogue: 0,0:00:40.80,0:00:45.02,orig,L__5,0,0,0,karaoke,{\ko28}原{\ko34}谅{\ko25}我{\ko12}不{\ko9}{\ko27}再{\ko39}送{\ko44}花 {\ko64}伤{\ko34}口{\ko29}应{\ko23}要{\ko17}结{\ko16}{\ko21}疤
+Dialogue: 0,0:00:40.80,0:00:45.02,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k28}jyun4 {\k34}loeng6 {\k25}ngo5 {\k12}bat1 {\k9}{\k27}zoi3 {\k39}sung3 {\k44}faa1 {\k64}soeng1 {\k34}hau2 {\k29}jing1 {\k23}jiu3 {\k17}git3 {\k16}{\k21}baa1
+Dialogue: 0,0:00:40.80,0:00:45.02,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k28}原{\k34}諒{\k25}我{\k12}不{\k9}{\k27}再{\k39}送{\k44}花 {\k64}傷{\k34}口{\k29}應{\k23}要{\k17}結{\k16}{\k21}疤
+Dialogue: 0,0:00:45.30,0:00:49.56,orig,L__6,0,0,0,karaoke,{\ko50}花{\ko40}瓣{\ko33}铺{\ko16}满{\ko52}心{\ko35}里{\ko32}坟{\ko42}场{\ko48}才{\ko32}害{\ko46}怕
+Dialogue: 0,0:00:45.30,0:00:49.56,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k50}faa1 {\k40}faan2 {\k33}pou1 {\k16}mun5 {\k52}sam1 {\k35}lei5 {\k32}fan4 {\k42}coeng4 {\k48}coi4 {\k32}hoi6 {\k46}paa3
+Dialogue: 0,0:00:45.30,0:00:49.56,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k50}花{\k40}瓣{\k33}鋪{\k16}滿{\k53}心{\k34}裏{\k32}墳{\k42}場{\k48}才{\k32}害{\k46}怕
+Dialogue: 0,0:00:49.96,0:00:54.26,orig,L__7,0,0,0,karaoke,{\ko26}如{\ko24}若{\ko29}你{\ko34}非{\ko30}我{\ko11}不{\ko16}{\ko27}嫁{\ko35} {\ko47}彼{\ko34}此{\ko30}终{\ko15}必{\ko41}火{\ko31}化
+Dialogue: 0,0:00:49.96,0:00:54.26,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k26}jyu4 {\k24}joek6 {\k29}nei5 {\k34}fei1 {\k30}ngo5 {\k11}bat1 {\k16}{\k27}gaa3 {\k35}{\k47}bei2 {\k34}ci2 {\k30}zung1 {\k15}bit1 {\k41}fo2 {\k31}faa3
+Dialogue: 0,0:00:49.96,0:00:54.26,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k26}如{\k24}若{\k29}你{\k34}非{\k30}我{\k11}不{\k16}{\k27}嫁 {\k35}{\k47}彼{\k34}此{\k30}終{\k15}必{\k41}火{\k31}化
+Dialogue: 0,0:00:54.51,0:00:58.74,orig,L__8,0,0,0,karaoke,{\k29}一{\k57}生{\k15}一{\k41}世 {\k44}等{\k23}一{\k12}{\k24}天{\k58}需{\k38}要{\k30}代{\k52}价
+Dialogue: 0,0:00:54.51,0:00:58.74,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k29}jat1 {\k57}sang1 {\k15}jat1 {\k41}sai3 {\k44}dang2 {\k23}jat1 {\k12}{\k24}tin1 {\k58}seoi1 {\k38}jiu3 {\k30}doi6 {\k52}gaai3
+Dialogue: 0,0:00:54.51,0:00:58.74,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k29}一{\k57}生{\k15}一{\k41}世 {\k44}等{\k23}一{\k12}{\k24}天{\k58}需{\k38}要{\k30}代{\k52}價
+Dialogue: 0,0:00:59.02,0:01:03.99,orig,L__9 x-part:Chorus,0,0,0,karaoke,{\ko36}谁{\ko26}都{\ko32}只{\ko21}得{\ko30}那{\ko46}双{\ko44}手 {\ko29}靠{\ko31}拥{\ko24}抱{\ko20}亦{\ko39}难{\ko27}任{\ko34}你{\ko27}拥{\ko31}有
+Dialogue: 0,0:00:59.02,0:01:03.99,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k36}seoi4 {\k26}dou1 {\k32}zi2 {\k21}dak1 {\k30}naa5 {\k46}soeng1 {\k44}sau2 {\k29}kaau3 {\k31}jung2 {\k24}pou5 {\k20}jik6 {\k39}naan4 {\k27}jam6 {\k34}nei5 {\k27}jung2 {\k31}jau5
+Dialogue: 0,0:00:59.02,0:01:03.99,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k36}誰{\k26}都{\k32}只{\k21}得{\k30}那{\k46}雙{\k44}手 {\k29}靠{\k31}擁{\k24}抱{\k20}亦{\k39}難{\k27}任{\k34}你{\k27}擁{\k31}有
 Dialogue: 0,0:01:04.28,0:01:08.38,orig,L_10,0,0,0,karaoke,{\ko26}要{\ko24}拥{\ko31}有{\ko22}必{\ko59}先{\ko26}懂{\ko35}失{\ko51}去{\ko36}怎{\ko22}接{\ko78}受
-Dialogue: 0,0:01:04.28,0:01:08.38,roma,____,0,0,0,karaoke,jiu3 jung2 jau5 bit1 sin1 dung2 sat1 heoi3 zam2 zip3 sau6
-Dialogue: 0,0:01:08.79,0:01:13.08,orig,L_11,0,0,0,karaoke,{\ko34}曾{\ko24}沿{\ko24}着{\ko30}雪{\ko37}路{\ko28}浪{\ko27}游{\ko29}{\ko27}为{\ko30}何{\ko25}为{\ko27}好{\ko32}事{\ko29}泪{\ko26}流
-Dialogue: 0,0:01:08.79,0:01:13.08,roma,____,0,0,0,karaoke,cang4 jyun4 zoek6 syut3 lou6 long6 jau4 wai4 ho4 wai4 hou2 si6 leoi6 lau4
-Dialogue: 0,0:01:13.33,0:01:17.72,orig,L_12,0,0,0,karaoke,{\ko30}谁{\ko28}能{\ko27}凭{\ko46}爱{\ko39}意{\ko25}要{\ko40}富{\ko40}士{\ko34}山{\ko97}私{\ko33}有
-Dialogue: 0,0:01:13.33,0:01:17.72,roma,____,0,0,0,karaoke,seoi4 nang4 pang4 oi3 ji3 jiu3 fu3 si6 saan1 si1 jau5
+Dialogue: 0,0:01:04.28,0:01:08.38,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k26}jiu3 {\k24}jung2 {\k31}jau5 {\k22}bit1 {\k59}sin1 {\k26}dung2 {\k35}sat1 {\k51}heoi3 {\k36}zam2 {\k22}zip3 {\k78}sau6
+Dialogue: 0,0:01:04.28,0:01:08.38,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k26}要{\k24}擁{\k31}有{\k22}必{\k59}先{\k26}懂{\k35}失{\k51}去{\k36}怎{\k22}接{\k78}受
+Dialogue: 0,0:01:08.79,0:01:13.08,orig,L_11,0,0,0,karaoke,{\ko34}曾{\ko24}沿{\ko24}着{\ko30}雪{\ko37}路{\ko28}浪{\ko27}游{\ko29} {\ko27}为{\ko30}何{\ko25}为{\ko27}好{\ko32}事{\ko29}泪{\ko26}流
+Dialogue: 0,0:01:08.79,0:01:13.08,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k34}cang4 {\k24}jyun4 {\k24}zoek6 {\k30}syut3 {\k37}lou6 {\k28}long6 {\k27}jau4 {\k29}{\k27}wai4 {\k30}ho4 {\k25}wai4 {\k27}hou2 {\k32}si6 {\k29}leoi6 {\k26}lau4
+Dialogue: 0,0:01:08.79,0:01:13.08,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k34}曾{\k24}沿{\k24}著{\k30}雪{\k37}路{\k28}浪{\k27}遊 {\k29}{\k27}為{\k30}何{\k25}為{\k27}好{\k32}事{\k29}淚{\k26}流
+Dialogue: 0,0:01:13.33,0:01:17.72,orig,L_12,0,0,0,karaoke,{\ko30}谁{\ko28}能{\ko27}凭{\ko46}爱{\ko39}意 {\ko25}要{\ko40}富{\ko40}士{\ko34}山{\ko97}私{\ko33}有
+Dialogue: 0,0:01:13.33,0:01:17.72,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k30}seoi4 {\k28}nang4 {\k27}pang4 {\k46}oi3 {\k39}ji3 {\k25}jiu3 {\k40}fu3 {\k40}si6 {\k34}saan1 {\k97}si1 {\k33}jau5
+Dialogue: 0,0:01:13.33,0:01:17.72,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k30}誰{\k28}能{\k27}憑{\k46}愛{\k39}意 {\k25}要{\k40}富{\k40}士{\k34}山{\k97}私{\k33}有
 Dialogue: 0,0:01:17.96,0:01:22.25,orig,L_13,0,0,0,karaoke,{\ko27}何{\ko19}不{\ko12}{\ko26}把{\ko26}悲{\ko29}哀{\ko33}感{\ko21}觉{\ko30}假{\ko20}设{\ko36}是{\ko29}来{\ko31}自{\ko29}你{\ko28}虚{\ko33}构
-Dialogue: 0,0:01:17.96,0:01:22.25,roma,____,0,0,0,karaoke,ho4 bat1 baa2 bei1 oi1 gam2 gok3 gaa2 cit3 si6 loi4 zi6 nei5 heoi1 kau3
+Dialogue: 0,0:01:17.96,0:01:22.25,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k27}ho4 {\k19}bat1 {\k12}{\k26}baa2 {\k26}bei1 {\k29}oi1 {\k33}gam2 {\k21}gok3 {\k30}gaa2 {\k20}cit3 {\k36}si6 {\k29}loi4 {\k31}zi6 {\k29}nei5 {\k28}heoi1 {\k33}kau3
+Dialogue: 0,0:01:17.96,0:01:22.25,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k27}何{\k19}不{\k12}{\k26}把{\k26}悲{\k29}哀{\k33}感{\k21}覺{\k30}假{\k20}設{\k36}是{\k29}來{\k31}自{\k29}你{\k28}虛{\k33}構
 Dialogue: 0,0:01:22.48,0:01:26.66,orig,L_14,0,0,0,karaoke,{\ko35}试{\ko21}管{\ko33}里{\ko45}找{\ko23}不{\ko15}{\ko27}到{\ko40}它{\ko48}染{\ko28}污{\ko32}眼{\ko71}眸
-Dialogue: 0,0:01:22.48,0:01:26.66,roma,____,0,0,0,karaoke,si3 gun2 lei5 zaau2 bat1 dou3 taa1 jim5 wu1 ngaan5 mau6
-Dialogue: 0,0:01:27.02,0:01:33.63,orig,L_15,0,0,0,karaoke,{\ko31}前{\ko27}尘{\ko27}硬{\ko32}化{\ko24}像{\ko26}石{\ko12}{\ko24}头{\ko31}{\ko31}随{\ko28}缘{\ko25}地{\ko31}抛{\ko28}下{\ko25}便{\ko31}逃{\ko228}走
-Dialogue: 0,0:01:27.02,0:01:33.63,roma,____,0,0,0,karaoke,cin4 can4 ngaang6 faa3 zoeng6 sek6 tau4 ceoi4 jyun4 dei6 paau1 haa6 bin6 tou4 zau2
-Dialogue: 0,0:01:34.67,0:01:41.99,orig,L_16,0,0,0,karaoke,{\ko29}我{\ko23}绝{\ko19}{\ko23}不{\ko50}罕{\ko32}有{\ko25}{\ko34}往{\ko31}街{\ko30}里{\ko24}绕{\ko9}{\ko29}过{\ko19}一{\ko11}{\ko34}周{\ko20}{\ko25}我{\ko12}{\ko27}便{\ko46}化{\ko29}乌{\ko151}有
-Dialogue: 0,0:01:34.67,0:01:41.99,roma,____,0,0,0,karaoke,ngo5 zyut6 bat1 hon2 jau5 wong5 gaai1 lei5 jiu2 gwo3 jat1 zau1 ngo5 bin6 faa3 wu1 jau5
-Dialogue: 0,0:01:43.20,0:01:47.65,orig,L_17 x-part:Verse,0,0,0,karaoke,{\ko35}情{\ko31}人{\ko23}节{\ko11}{\ko18}不{\ko9}{\ko16}要{\ko33}说{\ko7}{\ko52}穿{\ko40}只{\ko20}{\ko26}敢{\ko35}抚{\ko19}你{\ko29}发{\ko15}{\ko26}端
-Dialogue: 0,0:01:43.20,0:01:47.65,roma,____,0,0,0,karaoke,cing4 jan4 zit3 bat1 jiu3 syut3 cyun1 zi2 gam2 fu2 nei5 faat3 dyun1
+Dialogue: 0,0:01:22.48,0:01:26.66,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k35}si3 {\k21}gun2 {\k33}lei5 {\k45}zaau2 {\k23}bat1 {\k15}{\k27}dou3 {\k40}taa1 {\k48}jim5 {\k28}wu1 {\k32}ngaan5 {\k71}mau6
+Dialogue: 0,0:01:22.48,0:01:26.66,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k35}試{\k21}管{\k33}裏{\k45}找{\k23}不{\k15}{\k27}到{\k40}它{\k48}染{\k28}污{\k32}眼{\k71}眸
+Dialogue: 0,0:01:27.02,0:01:33.63,orig,L_15,0,0,0,karaoke,{\ko31}前{\ko27}尘{\ko27}硬{\ko32}化{\ko24}像{\ko26}石{\ko12}{\ko24}头{\ko31} {\ko31}随{\ko28}缘{\ko25}地{\ko31}抛{\ko28}下{\ko25}便{\ko31}逃{\ko228}走
+Dialogue: 0,0:01:27.02,0:01:33.63,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k31}cin4 {\k27}can4 {\k27}ngaang6 {\k32}faa3 {\k24}zoeng6 {\k26}sek6 {\k12}{\k24}tau4 {\k31}{\k31}ceoi4 {\k28}jyun4 {\k25}dei6 {\k31}paau1 {\k28}haa6 {\k25}bin6 {\k31}tou4 {\k228}zau2
+Dialogue: 0,0:01:27.02,0:01:33.63,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k31}前{\k27}塵{\k27}硬{\k32}化{\k24}像{\k26}石{\k12}{\k24}頭 {\k31}{\k31}隨{\k28}緣{\k25}地{\k31}拋{\k28}下{\k25}便{\k31}逃{\k228}走
+Dialogue: 0,0:01:34.67,0:01:41.99,orig,L_16,0,0,0,karaoke,{\ko29}我{\ko23}绝{\ko19}{\ko23}不{\ko50}罕{\ko32}有{\ko25} {\ko34}往{\ko31}街{\ko30}里{\ko24}绕{\ko9}{\ko29}过{\ko19}一{\ko11}{\ko34}周{\ko20} {\ko25}我{\ko12}{\ko27}便{\ko46}化{\ko29}乌{\ko151}有
+Dialogue: 0,0:01:34.67,0:01:41.99,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k29}ngo5 {\k23}zyut6 {\k19}{\k23}bat1 {\k50}hon2 {\k32}jau5 {\k25}{\k34}wong5 {\k31}gaai1 {\k30}lei5 {\k24}jiu2 {\k9}{\k29}gwo3 {\k19}jat1 {\k11}{\k34}zau1 {\k20}{\k25}ngo5 {\k12}{\k27}bin6 {\k46}faa3 {\k29}wu1 {\k151}jau5
+Dialogue: 0,0:01:34.67,0:01:41.99,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k29}我{\k23}絕{\k19}{\k23}不{\k50}罕{\k32}有 {\k25}{\k34}往{\k31}街{\k30}裏{\k24}繞{\k9}{\k29}過{\k19}一{\k11}{\k34}周 {\k20}{\k25}我{\k12}{\k27}便{\k46}化{\k29}烏{\k151}有
+Dialogue: 0,0:01:43.20,0:01:47.65,orig,L_17 x-part:Verse,0,0,0,karaoke,{\ko35}情{\ko31}人{\ko23}节{\ko11}{\ko18}不{\ko9}{\ko16}要{\ko33}说{\ko7}{\ko52}穿 {\ko40}只{\ko20}{\ko26}敢{\ko35}抚{\ko19}你{\ko29}发{\ko15}{\ko26}端
+Dialogue: 0,0:01:43.20,0:01:47.65,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k35}cing4 {\k31}jan4 {\k23}zit3 {\k11}{\k18}bat1 {\k9}{\k16}jiu3 {\k33}syut3 {\k7}{\k52}cyun1 {\k40}zi2 {\k20}{\k26}gam2 {\k35}fu2 {\k19}nei5 {\k29}faat3 {\k15}{\k26}dyun1
+Dialogue: 0,0:01:43.20,0:01:47.65,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k35}情{\k31}人{\k23}節{\k11}{\k18}不{\k9}{\k16}要{\k33}說{\k7}{\k52}穿 {\k40}只{\k20}{\k26}敢{\k35}撫{\k19}你{\k29}髮{\k15}{\k26}端
 Dialogue: 0,0:01:47.87,0:01:52.08,orig,L_18,0,0,0,karaoke,{\ko53}这{\ko30}种{\ko28}姿{\ko29}态{\ko46}可{\ko40}会{\ko34}令{\ko38}你{\ko32}更{\ko32}心{\ko59}酸
-Dialogue: 0,0:01:47.87,0:01:52.08,roma,____,0,0,0,karaoke,ze2 zung2 zi1 taai3 ho2 wui6 ling6 nei5 gang3 sam1 syun1
-Dialogue: 0,0:01:52.42,0:01:56.75,orig,L_19,0,0,0,karaoke,{\ko27}留{\ko32}在{\ko22}汽{\ko34}车{\ko25}里{\ko36}取{\ko26}暖{\ko28}{\ko58}应{\ko26}该{\ko32}怎{\ko25}么{\ko36}规{\ko26}劝
-Dialogue: 0,0:01:52.42,0:01:56.75,roma,____,0,0,0,karaoke,lau4 zoi6 hei3 ce1 lei5 ceoi2 nyun5 jing1 goi1 zam2 mo1 kwai1 hyun3
+Dialogue: 0,0:01:47.87,0:01:52.08,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k53}ze2 {\k30}zung2 {\k28}zi1 {\k29}taai3 {\k46}ho2 {\k40}wui6 {\k34}ling6 {\k38}nei5 {\k32}gang3 {\k32}sam1 {\k59}syun1
+Dialogue: 0,0:01:47.87,0:01:52.08,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k53}這{\k30}種{\k28}姿{\k29}態{\k46}可{\k40}會{\k34}令{\k38}你{\k32}更{\k32}心{\k59}酸
+Dialogue: 0,0:01:52.42,0:01:56.75,orig,L_19,0,0,0,karaoke,{\ko27}留{\ko32}在{\ko22}汽{\ko34}车{\ko25}里{\ko36}取{\ko26}暖{\ko28} {\ko58}应{\ko26}该{\ko32}怎{\ko25}么{\ko36}规{\ko26}劝
+Dialogue: 0,0:01:52.42,0:01:56.75,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k27}lau4 {\k32}zoi6 {\k22}hei3 {\k34}ce1 {\k25}lei5 {\k36}ceoi2 {\k26}nyun5 {\k28}{\k58}jing1 {\k26}goi1 {\k32}zam2 {\k25}mo1 {\k36}kwai1 {\k26}hyun3
+Dialogue: 0,0:01:52.42,0:01:56.75,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k27}留{\k32}在{\k22}汽{\k34}車{\k25}裏{\k36}取{\k26}暖 {\k28}{\k58}應{\k26}該{\k32}怎{\k25}麼{\k36}規{\k26}勸
 Dialogue: 0,0:01:57.01,0:02:01.24,orig,L_20,0,0,0,karaoke,{\ko54}怎{\ko27}么{\ko34}可{\ko23}以{\ko42}将{\ko47}手{\ko30}腕{\ko41}忍{\ko35}痛{\ko27}划{\ko63}损
-Dialogue: 0,0:01:57.01,0:02:01.24,roma,____,0,0,0,karaoke,zam2 mo1 ho2 ji5 zoeng1 sau2 wun2 jan2 tung3 waa1 syun2
-Dialogue: 0,0:02:01.56,0:02:06.15,orig,L_21,0,0,0,karaoke,{\ko31}人{\ko17}活{\ko14}{\ko26}到{\ko22}几{\ko27}岁{\ko45}算{\ko37}短{\ko42}失{\ko26}{\ko28}恋{\ko30}只{\ko32}有{\ko44}更{\ko38}短
-Dialogue: 0,0:02:01.56,0:02:06.15,roma,____,0,0,0,karaoke,jan4 wut6 dou3 gei1 seoi3 syun3 dyun2 sat1 lyun2 zi2 jau5 gang3 dyun2
+Dialogue: 0,0:01:57.01,0:02:01.24,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k54}zam2 {\k27}mo1 {\k34}ho2 {\k23}ji5 {\k42}zoeng1 {\k47}sau2 {\k30}wun2 {\k41}jan2 {\k35}tung3 {\k27}waa1 {\k63}syun2
+Dialogue: 0,0:01:57.01,0:02:01.24,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k54}怎{\k27}麼{\k34}可{\k23}以{\k42}將{\k47}手{\k30}腕{\k41}忍{\k35}痛{\k27}劃{\k63}損
+Dialogue: 0,0:02:01.56,0:02:06.15,orig,L_21,0,0,0,karaoke,{\ko31}人{\ko17}活{\ko14}{\ko26}到{\ko22}几{\ko27}岁{\ko45}算{\ko37}短 {\ko42}失{\ko26}{\ko28}恋{\ko30}只{\ko32}有{\ko44}更{\ko38}短
+Dialogue: 0,0:02:01.56,0:02:06.15,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k31}jan4 {\k17}wut6 {\k14}{\k26}dou3 {\k22}gei1 {\k27}seoi3 {\k45}syun3 {\k37}dyun2 {\k42}sat1 {\k26}{\k28}lyun2 {\k30}zi2 {\k32}jau5 {\k44}gang3 {\k38}dyun2
+Dialogue: 0,0:02:01.56,0:02:06.15,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k31}人{\k17}活{\k14}{\k26}到{\k22}幾{\k27}歲{\k45}算{\k37}短 {\k42}失{\k26}{\k28}戀{\k30}只{\k32}有{\k44}更{\k38}短
 Dialogue: 0,0:02:06.18,0:02:10.36,orig,L_22,0,0,0,karaoke,{\ko51}归{\ko20}家{\ko39}需{\ko30}要{\ko40}几{\ko42}里{\ko23}路{\ko52}谁{\ko38}能{\ko25}预{\ko58}算
-Dialogue: 0,0:02:06.18,0:02:10.36,roma,____,0,0,0,karaoke,gwai1 gaa1 seoi1 jiu3 gei1 lei5 lou6 seoi4 nang4 jyu6 syun3
-Dialogue: 0,0:02:10.70,0:02:15.06,orig,L_23,0,0,0,karaoke,{\ko33}忘{\ko26}掉{\ko29}我{\ko29}跟{\ko28}你{\ko28}恩{\ko27}怨{\ko30}{\ko52}樱{\ko31}花{\ko33}开{\ko29}了{\ko32}几{\ko29}转
-Dialogue: 0,0:02:10.70,0:02:15.06,roma,____,0,0,0,karaoke,mong4 diu6 ngo5 gan1 nei5 jan1 jyun3 jing1 faa1 hoi1 liu5 gei1 zyun2
-Dialogue: 0,0:02:15.34,0:02:19.50,orig,L_24,0,0,0,karaoke,{\ko52}东{\ko27}京{\ko31}之{\ko31}旅{\ko20}一{\ko15}{\ko49}早{\ko28}比{\ko24}一{\ko57}世{\ko33}遥{\ko49}远
-Dialogue: 0,0:02:15.34,0:02:19.50,roma,____,0,0,0,karaoke,dung1 ging1 zi1 leoi5 jat1 zou2 bei2 jat1 sai3 jiu4 jyun5
-Dialogue: 0,0:02:19.83,0:02:24.77,orig,L_25 x-part:Chorus,0,0,0,karaoke,{\ko34}谁{\ko27}都{\ko30}只{\ko21}得{\ko29}那{\ko43}双{\ko46}手{\ko28}靠{\ko34}拥{\ko29}抱{\ko14}亦{\ko12}{\ko26}难{\ko35}任{\ko24}你{\ko31}拥{\ko31}有
-Dialogue: 0,0:02:19.83,0:02:24.77,roma,____,0,0,0,karaoke,seoi4 dou1 zi2 dak1 naa5 soeng1 sau2 kaau3 jung2 pou5 jik6 naan4 jam6 nei5 jung2 jau5
+Dialogue: 0,0:02:06.18,0:02:10.36,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k51}gwai1 {\k20}gaa1 {\k39}seoi1 {\k30}jiu3 {\k40}gei1 {\k42}lei5 {\k23}lou6 {\k52}seoi4 {\k38}nang4 {\k25}jyu6 {\k58}syun3
+Dialogue: 0,0:02:06.18,0:02:10.36,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k51}歸{\k20}家{\k39}需{\k30}要{\k40}幾{\k42}里{\k23}路{\k52}誰{\k38}能{\k25}預{\k58}算
+Dialogue: 0,0:02:10.70,0:02:15.06,orig,L_23,0,0,0,karaoke,{\ko33}忘{\ko26}掉{\ko29}我{\ko29}跟{\ko28}你{\ko28}恩{\ko27}怨{\ko30} {\ko52}樱{\ko31}花{\ko33}开{\ko29}了{\ko32}几{\ko29}转
+Dialogue: 0,0:02:10.70,0:02:15.06,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k33}mong4 {\k26}diu6 {\k29}ngo5 {\k29}gan1 {\k28}nei5 {\k28}jan1 {\k27}jyun3 {\k30}{\k52}jing1 {\k31}faa1 {\k33}hoi1 {\k29}liu5 {\k32}gei1 {\k29}zyun2
+Dialogue: 0,0:02:10.70,0:02:15.06,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k33}忘{\k26}掉{\k29}我{\k29}跟{\k28}你{\k28}恩{\k27}怨 {\k30}{\k52}櫻{\k31}花{\k33}開{\k29}了{\k32}幾{\k29}轉
+Dialogue: 0,0:02:15.34,0:02:19.50,orig,L_24,0,0,0,karaoke,{\ko52}东{\ko27}京{\ko31}之{\ko31}旅 {\ko20}一{\ko15}{\ko49}早{\ko28}比{\ko24}一{\ko57}世{\ko33}遥{\ko49}远
+Dialogue: 0,0:02:15.34,0:02:19.50,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k52}dung1 {\k27}ging1 {\k31}zi1 {\k31}leoi5 {\k20}jat1 {\k15}{\k49}zou2 {\k28}bei2 {\k24}jat1 {\k57}sai3 {\k33}jiu4 {\k49}jyun5
+Dialogue: 0,0:02:15.34,0:02:19.50,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k52}東{\k27}京{\k31}之{\k31}旅 {\k20}一{\k15}{\k49}早{\k28}比{\k24}一{\k57}世{\k33}遙{\k49}遠
+Dialogue: 0,0:02:19.83,0:02:24.77,orig,L_25 x-part:Chorus,0,0,0,karaoke,{\ko34}谁{\ko27}都{\ko30}只{\ko21}得{\ko29}那{\ko43}双{\ko46}手 {\ko28}靠{\ko34}拥{\ko29}抱{\ko14}亦{\ko12}{\ko26}难{\ko35}任{\ko24}你{\ko31}拥{\ko31}有
+Dialogue: 0,0:02:19.83,0:02:24.77,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k34}seoi4 {\k27}dou1 {\k30}zi2 {\k21}dak1 {\k29}naa5 {\k43}soeng1 {\k46}sau2 {\k28}kaau3 {\k34}jung2 {\k29}pou5 {\k14}jik6 {\k12}{\k26}naan4 {\k35}jam6 {\k24}nei5 {\k31}jung2 {\k31}jau5
+Dialogue: 0,0:02:19.83,0:02:24.77,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k34}誰{\k27}都{\k30}只{\k21}得{\k29}那{\k43}雙{\k46}手 {\k28}靠{\k34}擁{\k29}抱{\k14}亦{\k12}{\k26}難{\k35}任{\k24}你{\k31}擁{\k31}有
 Dialogue: 0,0:02:25.06,0:02:29.18,orig,L_26,0,0,0,karaoke,{\ko25}要{\ko27}拥{\ko33}有{\ko24}必{\ko60}先{\ko23}懂{\ko45}失{\ko41}去{\ko33}怎{\ko21}接{\ko80}受
-Dialogue: 0,0:02:25.06,0:02:29.18,roma,____,0,0,0,karaoke,jiu3 jung2 jau5 bit1 sin1 dung2 sat1 heoi3 zam2 zip3 sau6
-Dialogue: 0,0:02:29.56,0:02:33.91,orig,L_27,0,0,0,karaoke,{\ko30}曾{\ko30}沿{\ko20}着{\ko35}雪{\ko29}路{\ko29}浪{\ko31}游{\ko30}{\ko28}为{\ko32}何{\ko22}为{\ko27}好{\ko32}事{\ko29}泪{\ko31}流
-Dialogue: 0,0:02:29.56,0:02:33.91,roma,____,0,0,0,karaoke,cang4 jyun4 zoek6 syut3 lou6 long6 jau4 wai4 ho4 wai4 hou2 si6 leoi6 lau4
-Dialogue: 0,0:02:34.13,0:02:38.55,orig,L_28,0,0,0,karaoke,{\ko34}谁{\ko24}能{\ko32}凭{\ko42}爱{\ko38}意{\ko25}要{\ko40}富{\ko41}士{\ko34}山{\ko92}私{\ko40}有
-Dialogue: 0,0:02:34.13,0:02:38.55,roma,____,0,0,0,karaoke,seoi4 nang4 pang4 oi3 ji3 jiu3 fu3 si6 saan1 si1 jau5
+Dialogue: 0,0:02:25.06,0:02:29.18,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k25}jiu3 {\k27}jung2 {\k33}jau5 {\k24}bit1 {\k60}sin1 {\k23}dung2 {\k45}sat1 {\k41}heoi3 {\k33}zam2 {\k21}zip3 {\k80}sau6
+Dialogue: 0,0:02:25.06,0:02:29.18,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k25}要{\k27}擁{\k33}有{\k24}必{\k60}先{\k23}懂{\k45}失{\k41}去{\k33}怎{\k21}接{\k80}受
+Dialogue: 0,0:02:29.56,0:02:33.91,orig,L_27,0,0,0,karaoke,{\ko30}曾{\ko30}沿{\ko20}着{\ko35}雪{\ko29}路{\ko29}浪{\ko31}游{\ko30} {\ko28}为{\ko32}何{\ko22}为{\ko27}好{\ko32}事{\ko29}泪{\ko31}流
+Dialogue: 0,0:02:29.56,0:02:33.91,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k30}cang4 {\k30}jyun4 {\k20}zoek6 {\k35}syut3 {\k29}lou6 {\k29}long6 {\k31}jau4 {\k30}{\k28}wai4 {\k32}ho4 {\k22}wai4 {\k27}hou2 {\k32}si6 {\k29}leoi6 {\k31}lau4
+Dialogue: 0,0:02:29.56,0:02:33.91,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k30}曾{\k30}沿{\k20}著{\k35}雪{\k29}路{\k29}浪{\k31}遊 {\k30}{\k28}為{\k32}何{\k22}為{\k27}好{\k32}事{\k29}淚{\k31}流
+Dialogue: 0,0:02:34.13,0:02:38.55,orig,L_28,0,0,0,karaoke,{\ko34}谁{\ko24}能{\ko32}凭{\ko42}爱{\ko38}意 {\ko25}要{\ko40}富{\ko41}士{\ko34}山{\ko92}私{\ko40}有
+Dialogue: 0,0:02:34.13,0:02:38.55,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k34}seoi4 {\k24}nang4 {\k32}pang4 {\k42}oi3 {\k38}ji3 {\k25}jiu3 {\k40}fu3 {\k41}si6 {\k34}saan1 {\k92}si1 {\k40}jau5
+Dialogue: 0,0:02:34.13,0:02:38.55,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k34}誰{\k24}能{\k32}憑{\k42}愛{\k38}意 {\k25}要{\k40}富{\k41}士{\k34}山{\k92}私{\k40}有
 Dialogue: 0,0:02:38.77,0:02:43.06,orig,L_29,0,0,0,karaoke,{\ko20}何{\ko8}{\ko18}不{\ko10}{\ko21}把{\ko9}{\ko25}悲{\ko28}哀{\ko30}感{\ko26}觉{\ko26}假{\ko21}设{\ko38}是{\ko28}来{\ko33}自{\ko29}你{\ko27}虚{\ko32}构
-Dialogue: 0,0:02:38.77,0:02:43.06,roma,____,0,0,0,karaoke,ho4 bat1 baa2 bei1 oi1 gam2 gok3 gaa2 cit3 si6 loi4 zi6 nei5 heoi1 kau3
+Dialogue: 0,0:02:38.77,0:02:43.06,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k20}ho4 {\k8}{\k18}bat1 {\k10}{\k21}baa2 {\k9}{\k25}bei1 {\k28}oi1 {\k30}gam2 {\k26}gok3 {\k26}gaa2 {\k21}cit3 {\k38}si6 {\k28}loi4 {\k33}zi6 {\k29}nei5 {\k27}heoi1 {\k32}kau3
+Dialogue: 0,0:02:38.77,0:02:43.06,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k20}何{\k8}{\k18}不{\k10}{\k21}把{\k9}{\k25}悲{\k28}哀{\k30}感{\k26}覺{\k26}假{\k21}設{\k38}是{\k28}來{\k33}自{\k29}你{\k27}虛{\k32}構
 Dialogue: 0,0:02:43.31,0:02:47.45,orig,L_30,0,0,0,karaoke,{\ko30}试{\ko28}管{\ko28}里{\ko47}找{\ko24}不{\ko14}{\ko28}到{\ko45}它{\ko39}染{\ko31}污{\ko40}眼{\ko60}眸
-Dialogue: 0,0:02:43.31,0:02:47.45,roma,____,0,0,0,karaoke,si3 gun2 lei5 zaau2 bat1 dou3 taa1 jim5 wu1 ngaan5 mau6
-Dialogue: 0,0:02:47.83,0:02:54.10,orig,L_31,0,0,0,karaoke,{\ko31}前{\ko30}尘{\ko25}硬{\ko33}化{\ko23}像{\ko24}石{\ko10}{\ko26}头{\ko29}{\ko33}随{\ko29}缘{\ko23}地{\ko32}抛{\ko29}下{\ko26}便{\ko28}逃{\ko196}走
-Dialogue: 0,0:02:47.83,0:02:54.10,roma,____,0,0,0,karaoke,cin4 can4 ngaang6 faa3 zoeng6 sek6 tau4 ceoi4 jyun4 dei6 paau1 haa6 bin6 tou4 zau2
-Dialogue: 0,0:02:54.85,0:03:02.37,orig,L_32,0,0,0,karaoke,{\ko29}我{\ko25}绝{\ko14}{\ko16}不{\ko10}{\ko52}罕{\ko39}有{\ko30}{\ko36}往{\ko29}街{\ko37}里{\ko28}绕{\ko11}{\ko33}过{\ko19}一{\ko14}{\ko38}周{\ko31}{\ko22}我{\ko10}{\ko27}便{\ko50}化{\ko27}乌{\ko125}有
-Dialogue: 0,0:02:54.85,0:03:02.37,roma,____,0,0,0,karaoke,ngo5 zyut6 bat1 hon2 jau5 wong5 gaai1 lei5 jiu2 gwo3 jat1 zau1 ngo5 bin6 faa3 wu1 jau5
-Dialogue: 0,0:03:03.84,0:03:09.06,orig,L_33 x-part:Refrain,0,0,0,karaoke,{\ko38}谁{\ko15}{\ko24}都{\ko35}只{\ko18}得{\ko10}{\ko19}那{\ko47}双{\ko48}手{\ko32}靠{\ko31}拥{\ko30}抱{\ko15}亦{\ko9}{\ko24}难{\ko40}任{\ko25}你{\ko31}拥{\ko31}有
-Dialogue: 0,0:03:03.84,0:03:09.06,roma,____,0,0,0,karaoke,seoi4 dou1 zi2 dak1 naa5 soeng1 sau2 kaau3 jung2 pou5 jik6 naan4 jam6 nei5 jung2 jau5
+Dialogue: 0,0:02:43.31,0:02:47.45,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k30}si3 {\k28}gun2 {\k28}lei5 {\k47}zaau2 {\k24}bat1 {\k14}{\k28}dou3 {\k45}taa1 {\k39}jim5 {\k31}wu1 {\k40}ngaan5 {\k60}mau6
+Dialogue: 0,0:02:43.31,0:02:47.45,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k30}試{\k28}管{\k28}裏{\k47}找{\k24}不{\k14}{\k28}到{\k45}它{\k39}染{\k31}污{\k40}眼{\k60}眸
+Dialogue: 0,0:02:47.83,0:02:54.10,orig,L_31,0,0,0,karaoke,{\ko31}前{\ko30}尘{\ko25}硬{\ko33}化{\ko23}像{\ko24}石{\ko10}{\ko26}头{\ko29} {\ko33}随{\ko29}缘{\ko23}地{\ko32}抛{\ko29}下{\ko26}便{\ko28}逃{\ko196}走
+Dialogue: 0,0:02:47.83,0:02:54.10,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k31}cin4 {\k30}can4 {\k25}ngaang6 {\k33}faa3 {\k23}zoeng6 {\k24}sek6 {\k10}{\k26}tau4 {\k29}{\k33}ceoi4 {\k29}jyun4 {\k23}dei6 {\k32}paau1 {\k29}haa6 {\k26}bin6 {\k28}tou4 {\k196}zau2
+Dialogue: 0,0:02:47.83,0:02:54.10,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k31}前{\k30}塵{\k25}硬{\k33}化{\k23}像{\k24}石{\k10}{\k26}頭 {\k29}{\k33}隨{\k29}緣{\k23}地{\k32}拋{\k29}下{\k26}便{\k28}逃{\k196}走
+Dialogue: 0,0:02:54.85,0:03:02.37,orig,L_32,0,0,0,karaoke,{\ko29}我{\ko25}绝{\ko14}{\ko16}不{\ko10}{\ko52}罕{\ko39}有{\ko30} {\ko36}往{\ko29}街{\ko37}里{\ko28}绕{\ko11}{\ko33}过{\ko19}一{\ko14}{\ko38}周{\ko31} {\ko22}我{\ko10}{\ko27}便{\ko50}化{\ko27}乌{\ko125}有
+Dialogue: 0,0:02:54.85,0:03:02.37,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k29}ngo5 {\k25}zyut6 {\k14}{\k16}bat1 {\k10}{\k52}hon2 {\k39}jau5 {\k30}{\k36}wong5 {\k29}gaai1 {\k37}lei5 {\k28}jiu2 {\k11}{\k33}gwo3 {\k19}jat1 {\k14}{\k38}zau1 {\k31}{\k22}ngo5 {\k10}{\k27}bin6 {\k50}faa3 {\k27}wu1 {\k125}jau5
+Dialogue: 0,0:02:54.85,0:03:02.37,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k29}我{\k25}絕{\k14}{\k16}不{\k10}{\k52}罕{\k39}有 {\k30}{\k36}往{\k29}街{\k37}裏{\k28}繞{\k11}{\k33}過{\k19}一{\k14}{\k38}周 {\k31}{\k22}我{\k10}{\k27}便{\k50}化{\k27}烏{\k125}有
+Dialogue: 0,0:03:03.84,0:03:09.06,orig,L_33 x-part:Refrain,0,0,0,karaoke,{\ko38}谁{\ko15}{\ko24}都{\ko35}只{\ko18}得{\ko10}{\ko19}那{\ko47}双{\ko48}手 {\ko32}靠{\ko31}拥{\ko30}抱{\ko15}亦{\ko9}{\ko24}难{\ko40}任{\ko25}你{\ko31}拥{\ko31}有
+Dialogue: 0,0:03:03.84,0:03:09.06,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k38}seoi4 {\k15}{\k24}dou1 {\k35}zi2 {\k18}dak1 {\k10}{\k19}naa5 {\k47}soeng1 {\k48}sau2 {\k32}kaau3 {\k31}jung2 {\k30}pou5 {\k15}jik6 {\k9}{\k24}naan4 {\k40}jam6 {\k25}nei5 {\k31}jung2 {\k31}jau5
+Dialogue: 0,0:03:03.84,0:03:09.06,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k38}誰{\k15}{\k24}都{\k35}只{\k18}得{\k10}{\k19}那{\k47}雙{\k48}手 {\k32}靠{\k31}擁{\k30}抱{\k15}亦{\k9}{\k24}難{\k40}任{\k25}你{\k31}擁{\k31}有
 Dialogue: 0,0:03:09.36,0:03:13.68,orig,L_34,0,0,0,karaoke,{\ko32}要{\ko25}拥{\ko37}有{\ko24}必{\ko57}先{\ko24}懂{\ko32}失{\ko10}{\ko50}去{\ko29}怎{\ko20}接{\ko92}受
-Dialogue: 0,0:03:09.36,0:03:13.68,roma,____,0,0,0,karaoke,jiu3 jung2 jau5 bit1 sin1 dung2 sat1 heoi3 zam2 zip3 sau6
-Dialogue: 0,0:03:14.04,0:03:18.48,orig,L_35,0,0,0,karaoke,{\ko37}曾{\ko21}沿{\ko20}着{\ko35}雪{\ko32}路{\ko34}浪{\ko31}游{\ko31}{\ko24}为{\ko33}何{\ko26}为{\ko27}好{\ko33}事{\ko32}泪{\ko28}流
-Dialogue: 0,0:03:14.04,0:03:18.48,roma,____,0,0,0,karaoke,cang4 jyun4 zoek6 syut3 lou6 long6 jau4 wai4 ho4 wai4 hou2 si6 leoi6 lau4
-Dialogue: 0,0:03:18.72,0:03:23.32,orig,L_36,0,0,0,karaoke,{\ko36}谁{\ko27}能{\ko25}凭{\ko45}爱{\ko30}意{\ko19}{\ko23}要{\ko37}富{\ko42}士{\ko35}山{\ko98}私{\ko43}有
-Dialogue: 0,0:03:18.72,0:03:23.32,roma,____,0,0,0,karaoke,seoi4 nang4 pang4 oi3 ji3 jiu3 fu3 si6 saan1 si1 jau5
+Dialogue: 0,0:03:09.36,0:03:13.68,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k32}jiu3 {\k25}jung2 {\k37}jau5 {\k24}bit1 {\k57}sin1 {\k24}dung2 {\k32}sat1 {\k10}{\k50}heoi3 {\k29}zam2 {\k20}zip3 {\k92}sau6
+Dialogue: 0,0:03:09.36,0:03:13.68,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k32}要{\k25}擁{\k37}有{\k24}必{\k57}先{\k24}懂{\k32}失{\k10}{\k50}去{\k29}怎{\k20}接{\k92}受
+Dialogue: 0,0:03:14.04,0:03:18.48,orig,L_35,0,0,0,karaoke,{\ko37}曾{\ko21}沿{\ko20}着{\ko35}雪{\ko32}路{\ko34}浪{\ko31}游{\ko31} {\ko24}为{\ko33}何{\ko26}为{\ko27}好{\ko33}事{\ko32}泪{\ko28}流
+Dialogue: 0,0:03:14.04,0:03:18.48,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k37}cang4 {\k21}jyun4 {\k20}zoek6 {\k35}syut3 {\k32}lou6 {\k34}long6 {\k31}jau4 {\k31}{\k24}wai4 {\k33}ho4 {\k26}wai4 {\k27}hou2 {\k33}si6 {\k32}leoi6 {\k28}lau4
+Dialogue: 0,0:03:14.04,0:03:18.48,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k37}曾{\k21}沿{\k20}著{\k35}雪{\k32}路{\k34}浪{\k31}遊 {\k31}{\k24}為{\k33}何{\k26}為{\k27}好{\k33}事{\k32}淚{\k28}流
+Dialogue: 0,0:03:18.72,0:03:23.32,orig,L_36,0,0,0,karaoke,{\ko36}谁{\ko27}能{\ko25}凭{\ko45}爱{\ko30}意{\ko19} {\ko23}要{\ko37}富{\ko42}士{\ko35}山{\ko98}私{\ko43}有
+Dialogue: 0,0:03:18.72,0:03:23.32,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k36}seoi4 {\k27}nang4 {\k25}pang4 {\k45}oi3 {\k30}ji3 {\k19}{\k23}jiu3 {\k37}fu3 {\k42}si6 {\k35}saan1 {\k98}si1 {\k43}jau5
+Dialogue: 0,0:03:18.72,0:03:23.32,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k36}誰{\k27}能{\k25}憑{\k45}愛{\k30}意 {\k19}{\k23}要{\k37}富{\k42}士{\k35}山{\k98}私{\k43}有
 Dialogue: 0,0:03:23.51,0:03:27.88,orig,L_37,0,0,0,karaoke,{\ko21}何{\ko9}{\ko18}不{\ko10}{\ko23}把{\ko9}{\ko26}悲{\ko28}哀{\ko31}感{\ko28}觉{\ko25}假{\ko20}设{\ko38}是{\ko30}来{\ko36}自{\ko25}你{\ko29}虚{\ko31}构
-Dialogue: 0,0:03:23.51,0:03:27.88,roma,____,0,0,0,karaoke,ho4 bat1 baa2 bei1 oi1 gam2 gok3 gaa2 cit3 si6 loi4 zi6 nei5 heoi1 kau3
+Dialogue: 0,0:03:23.51,0:03:27.88,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k21}ho4 {\k9}{\k18}bat1 {\k10}{\k23}baa2 {\k9}{\k26}bei1 {\k28}oi1 {\k31}gam2 {\k28}gok3 {\k25}gaa2 {\k20}cit3 {\k38}si6 {\k30}loi4 {\k36}zi6 {\k25}nei5 {\k29}heoi1 {\k31}kau3
+Dialogue: 0,0:03:23.51,0:03:27.88,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k21}何{\k9}{\k18}不{\k10}{\k23}把{\k9}{\k26}悲{\k28}哀{\k31}感{\k28}覺{\k25}假{\k20}設{\k38}是{\k30}來{\k36}自{\k25}你{\k29}虛{\k31}構
 Dialogue: 0,0:03:28.15,0:03:32.46,orig,L_38,0,0,0,karaoke,{\ko32}试{\ko28}管{\ko28}里{\ko50}找{\ko24}不{\ko16}{\ko30}到{\ko42}它{\ko40}染{\ko35}污{\ko33}眼{\ko73}眸
-Dialogue: 0,0:03:28.15,0:03:32.46,roma,____,0,0,0,karaoke,si3 gun2 lei5 zaau2 bat1 dou3 taa1 jim5 wu1 ngaan5 mau6
-Dialogue: 0,0:03:32.84,0:03:39.81,orig,L_39,0,0,0,karaoke,{\ko31}前{\ko28}尘{\ko28}硬{\ko32}化{\ko25}像{\ko23}石{\ko13}{\ko29}头{\ko29}{\ko36}随{\ko29}缘{\ko24}地{\ko34}抛{\ko29}下{\ko28}便{\ko30}逃{\ko249}走
-Dialogue: 0,0:03:32.84,0:03:39.81,roma,____,0,0,0,karaoke,cin4 can4 ngaang6 faa3 zoeng6 sek6 tau4 ceoi4 jyun4 dei6 paau1 haa6 bin6 tou4 zau2
-Dialogue: 0,0:03:41.89,0:03:50.62,orig,L_40,0,0,0,karaoke,{\ko27}我{\ko25}绝{\ko16}{\ko17}不{\ko19}{\ko38}罕{\ko43}有{\ko38}{\ko39}往{\ko35}街{\ko38}里{\ko40}绕{\ko38}过{\ko25}一{\ko17}{\ko51}周{\ko29}{\ko32}我{\ko12}{\ko45}便{\ko50}化{\ko45}乌{\ko154}有
-Dialogue: 0,0:03:41.89,0:03:50.62,roma,____,0,0,0,karaoke,ngo5 zyut6 bat1 hon2 jau5 wong5 gaai1 lei5 jiu2 gwo3 jat1 zau1 ngo5 bin6 faa3 wu1 jau5
-Dialogue: 0,0:03:52.64,0:04:00.97,orig,L_41 x-part:Outro,0,0,0,karaoke,{\ko26}你{\ko33}还{\ko35}嫌{\ko8}{\ko17}不{\ko17}{\ko28}够{\ko27}{\ko30}我{\ko8}{\ko28}把{\ko26}这{\ko43}陈{\ko31}年{\ko51}风{\ko44}褛{\ko22}{\ko40}送{\ko54}赠{\ko47}你{\ko20}{\ko40}解{\ko158}咒
-Dialogue: 0,0:03:52.64,0:04:00.97,roma,____,0,0,0,karaoke,nei5 waan4 jim4 bat1 gau3 ngo5 baa2 ze5 can4 nin4 fung1 leoi5 sung3 zang6 nei5 gaai2 zau3
+Dialogue: 0,0:03:28.15,0:03:32.46,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k32}si3 {\k28}gun2 {\k28}lei5 {\k50}zaau2 {\k24}bat1 {\k16}{\k30}dou3 {\k42}taa1 {\k40}jim5 {\k35}wu1 {\k33}ngaan5 {\k73}mau6
+Dialogue: 0,0:03:28.15,0:03:32.46,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k32}試{\k28}管{\k28}裏{\k50}找{\k24}不{\k16}{\k30}到{\k42}它{\k40}染{\k35}污{\k33}眼{\k73}眸
+Dialogue: 0,0:03:32.84,0:03:39.81,orig,L_39,0,0,0,karaoke,{\ko31}前{\ko28}尘{\ko28}硬{\ko32}化{\ko25}像{\ko23}石{\ko13}{\ko29}头{\ko29} {\ko36}随{\ko29}缘{\ko24}地{\ko34}抛{\ko29}下{\ko28}便{\ko30}逃{\ko249}走
+Dialogue: 0,0:03:32.84,0:03:39.81,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k31}cin4 {\k28}can4 {\k28}ngaang6 {\k32}faa3 {\k25}zoeng6 {\k23}sek6 {\k13}{\k29}tau4 {\k29}{\k36}ceoi4 {\k29}jyun4 {\k24}dei6 {\k34}paau1 {\k29}haa6 {\k28}bin6 {\k30}tou4 {\k249}zau2
+Dialogue: 0,0:03:32.84,0:03:39.81,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k31}前{\k28}塵{\k28}硬{\k32}化{\k25}像{\k23}石{\k13}{\k29}頭 {\k29}{\k36}隨{\k29}緣{\k24}地{\k34}拋{\k29}下{\k28}便{\k30}逃{\k249}走
+Dialogue: 0,0:03:41.89,0:03:50.62,orig,L_40,0,0,0,karaoke,{\ko27}我{\ko25}绝{\ko16}{\ko17}不{\ko19}{\ko38}罕{\ko43}有{\ko38} {\ko39}往{\ko35}街{\ko38}里{\ko40}绕{\ko38}过{\ko25}一{\ko17}{\ko51}周{\ko29} {\ko32}我{\ko12}{\ko45}便{\ko50}化{\ko45}乌{\ko154}有
+Dialogue: 0,0:03:41.89,0:03:50.62,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k27}ngo5 {\k25}zyut6 {\k16}{\k17}bat1 {\k19}{\k38}hon2 {\k43}jau5 {\k38}{\k39}wong5 {\k35}gaai1 {\k38}lei5 {\k40}jiu2 {\k38}gwo3 {\k25}jat1 {\k17}{\k51}zau1 {\k29}{\k32}ngo5 {\k12}{\k45}bin6 {\k50}faa3 {\k45}wu1 {\k154}jau5
+Dialogue: 0,0:03:41.89,0:03:50.62,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k27}我{\k25}絕{\k16}{\k17}不{\k19}{\k38}罕{\k43}有 {\k38}{\k39}往{\k35}街{\k38}裏{\k40}繞{\k38}過{\k25}一{\k17}{\k51}周 {\k29}{\k32}我{\k12}{\k45}便{\k50}化{\k45}烏{\k154}有
+Dialogue: 0,0:03:52.64,0:04:00.97,orig,L_41 x-part:Outro,0,0,0,karaoke,{\ko26}你{\ko33}还{\ko35}嫌{\ko8}{\ko17}不{\ko17}{\ko28}够{\ko27} {\ko30}我{\ko8}{\ko28}把{\ko26}这{\ko43}陈{\ko31}年{\ko51}风{\ko44}褛{\ko22} {\ko40}送{\ko54}赠{\ko47}你{\ko20}{\ko40}解{\ko158}咒
+Dialogue: 0,0:03:52.64,0:04:00.97,roma,____ x-lang:zh-Latn-jyutping,0,0,0,karaoke,{\k26}nei5 {\k33}waan4 {\k35}jim4 {\k8}{\k17}bat1 {\k17}{\k28}gau3 {\k27}{\k30}ngo5 {\k8}{\k28}baa2 {\k26}ze5 {\k43}can4 {\k31}nin4 {\k51}fung1 {\k44}leoi5 {\k22}{\k40}sung3 {\k54}zang6 {\k47}nei5 {\k20}{\k40}gaai2 {\k158}zau3
+Dialogue: 0,0:03:52.64,0:04:00.97,roma,____ x-replace x-lang:zh-Hant,0,0,0,karaoke,{\k26}你{\k33}還{\k35}嫌{\k8}{\k17}不{\k17}{\k28}夠 {\k27}{\k30}我{\k8}{\k28}把{\k26}這{\k43}陳{\k31}年{\k51}風{\k44}褸 {\k22}{\k40}送{\k54}贈{\k47}你{\k20}{\k40}解{\k158}咒
