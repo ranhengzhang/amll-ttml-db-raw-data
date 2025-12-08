@@ -1,36 +1,62 @@
+-- ======================================================================
+-- ASS2TTML V2 - AMLL歌词格式转换脚本
+-- 功能：将Aegisub ASS格式字幕文件转换为TTML (Timed Text Markup Language) 格式
+-- 作者：ranhengzhang@gmail.com
+-- 版本：0.1
+-- 创建日期：2025-08-26
+-- 修改记录：
+--   - 支持多语言翻译和音译
+--   - 添加和声处理功能
+--   - 优化TTML结构生成
+-- ======================================================================
+
+-- 导入Aegisub核心模块
 local clipboard = require 'aegisub.clipboard'
 local util = require 'aegisub.util'
 local re = require 'aegisub.re'
 
+-- 脚本元数据定义
 -- 函数调用时, 当函数为单个参数, 且值为字符串, 表时可以不加括号
 script_name = "ASS2TTML V2 - AMLL歌词格式转换 V2"
 script_description = "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "0.4-Beta Billy Kid"
-script_modified = "2025-08-26"
+script_version = "1.0-Release Banyue"
+script_modified = "2025-12-09"
 
+-- 导入卡拉OK处理库
 include("karaskel.lua")
 
--- ! @bref 插件主函数
+-- ! @bref 插件主函数 - 处理ASS到TTML的完整转换流程
 -- !
--- ! @param subtitles: Aegisub传入, userdata类型
+-- ! @param subtitles: Aegisub传入的字幕数据, userdata类型
 -- ! @param selected_lines: 选择的行数, Aegisub传入, table类型
 -- ! @param active_line: 当前选中的行, number类型
 function script_main(subtitles)
+    -- 配置参数初始化
     local config = {
-        title = nil,
-        offset = nil,
-        part_split = nil, -- 是否分段
-        lang = nil
+        title = nil,           -- 歌曲标题
+        offset = nil,          -- 时间偏移量
+        part_split = nil,      -- 是否分段处理
+        lang = nil             -- 语言设置
     }
-    local options = {}
-    local marked = {}
-    local subs = {}
-    local origs = {}
-    local trans = {}
-    local words = {}
-    local roman = {}
 
+    -- 数据处理容器
+    local options = {
+        lang = "zh-Hans"
+    }
+    local marked = {}          -- 标记信息存储
+    local subs = {}            -- 处理后的字幕行
+    local origs = {}           -- 原始字幕行
+    local trans = {}           -- 翻译数据
+    local words = {}           -- 单词数据
+    local roman = {}           -- 罗马音数据
+
+    -- ======================================================================
+    -- 辅助函数：添加标记信息
+    -- @param actor: 演员字段，包含标记信息
+    -- @param num: 行号
+    -- @param is_bg: 是否为背景行
+    -- ======================================================================
     local function add_mark(actor, num, is_bg)
         for mark in actor:gmatch('x%-mark[%w%-]*') do
             if marked[mark] == nil then marked[mark] = {} end
@@ -40,15 +66,26 @@ function script_main(subtitles)
         end
     end
 
+    -- ======================================================================
+    -- XML符号转义函数
+    -- 将特殊字符转换为XML实体以避免解析错误
+    -- @param value: 需要转义的字符串
+    -- @return: 转义后的字符串
+    -- ======================================================================
     local function xml_symbol(value)
         value = string.gsub(value, "&", "&amp;"); -- '&' -> "&amp;"
         value = string.gsub(value, "<", "&lt;"); -- '<' -> "&lt;"
         value = string.gsub(value, ">", "&gt;"); -- '>' -> "&gt;"
         value = string.gsub(value, "\"", "&quot;"); -- '"' -> "&quot;"
-        value = string.gsub(value, "\'", "&apos;"); -- '"' -> "&quot;"
+        value = string.gsub(value, "\'", "&apos;"); -- '\'' -> "&apos;"
         return value;
     end
 
+    -- ======================================================================
+    -- 预处理函数：解析和准备字幕数据
+    -- 提取脚本信息、处理标记、分离主行和背景行
+    -- @param subtitles: 原始字幕数据
+    -- ======================================================================
     local function pre_process(subtitles)
         local is_bg = false
         for i = 1, #subtitles do
@@ -64,8 +101,12 @@ function script_main(subtitles)
                 end
             else -- 读取字幕行
                 if line.effect == "" or line.effect == "karaoke" then
+                    if line.style == "ts" and line.actor and line.actor:find("x%-replace") then
+                        line.style = "roma"
+                    end
                     line.is_bg = is_bg
                     line.raw = line.raw:gsub('%s+', ' ')
+                    -- 处理卡拉OK音节标记
                     line.text, _ = re.sub(line.text,
                                           "(?<=\\\\-)([^\\}]+\\}[^\\}]+)(?=\\})",
                                           "\\1\\\\-X")
@@ -88,7 +129,7 @@ function script_main(subtitles)
                                 re.find(line.actor, "(?<=x-part:)[A-z]+")[1].str
                         end
                     end
-                    if line.is_bg then -- 背景行
+                    if line.is_bg then -- 背景行处理
                         local parent_line = table.copy(subs[#subs])
                         if line.style == "orig" then
                             line.ts_line = {}
@@ -100,7 +141,7 @@ function script_main(subtitles)
                         elseif line.style == "roma" then
                             local bg_line = parent_line.bg_line
                             local roma_line = bg_line["roma_line"]
-                            local lang = 'ja-Latn'
+                            local lang = options.lang .. '-Latn'
                             if line.actor:find('x-lang') ~= nil then
                                 lang = line.actor:match('x%-lang%:[%w%-]*'):sub(
                                            8)
@@ -123,7 +164,7 @@ function script_main(subtitles)
                             parent_line.bg_line = bg_line
                         end
                         subs[#subs] = parent_line
-                    else -- 主行
+                    else -- 主行处理
                         if line.style == "orig" then
                             line.ts_line = {}
                             line.roma_line = {}
@@ -153,7 +194,7 @@ function script_main(subtitles)
                         elseif line.style == "roma" then
                             local orig_line = table.copy(subs[#subs])
                             local roma_line = orig_line["roma_line"]
-                            local lang = 'ja-Latn'
+                            local lang = options.lang .. '-Latn'
                             if line.actor:find('x-lang') ~= nil then
                                 lang = line.actor:match('x%-lang%:[%w%-]*'):sub(
                                            8)
@@ -180,6 +221,7 @@ function script_main(subtitles)
             end
         end
 
+        -- 处理分段信息
         if config.part_split then
             local first_part = re.find(subs[1].actor, "(?<=x-part:)[A-z]+")
             if first_part ~= nil then
@@ -192,6 +234,12 @@ function script_main(subtitles)
         subs[1].part = nil
     end
 
+    -- ======================================================================
+    -- 时间格式化函数
+    -- 将毫秒时间转换为TTML标准时间格式 (HH:MM:SS.mmm)
+    -- @param time: 毫秒时间值
+    -- @return: 格式化后的时间字符串
+    -- ======================================================================
     local function time_to_string(time)
         time = time + options.offset
         local res = string.format("%02d.%03d", math.floor(time / 1000) % 60,
@@ -207,6 +255,24 @@ function script_main(subtitles)
         return hour .. minute .. res
     end
 
+    local function max_end_time(line)
+        return line['bg_line'] and
+                   math.max(line.end_time, line.bg_line.end_time) or
+                   line.end_time
+    end
+
+    local function min_start_time(line)
+        return line['bg_line'] and
+                   math.min(line.start_time, line.bg_line.start_time) or
+                   line.start_time
+    end
+
+    -- ======================================================================
+    -- 生成TTML行函数
+    -- 将单个字幕行转换为TTML格式的<p>标签
+    -- @param line: 字幕行数据
+    -- @return: TTML格式的字符串
+    -- ======================================================================
     local function generate_line(line)
         local function generate_kara(syls)
             local text = {}
@@ -235,14 +301,14 @@ function script_main(subtitles)
 
         table.insert(text, [[<p]])
 
+        -- 处理时间范围
         if line.bg_line then
             line.start_time = math.min(line.start_time, line.bg_line.start_time)
             line.end_time = math.max(line.end_time, line.bg_line.end_time)
         end
-        local start_time = time_to_string(line.start_time)
-        local end_time = time_to_string(line.end_time)
-        table.insert(text, string.format(' begin="%s" end="%s"', start_time,
-                                         end_time))
+
+        table.insert(text, string.format(' begin="%s" end="%s"', time_to_string(min_start_time(line)),
+                                         time_to_string(max_end_time(line))))
 
         table.insert(text, string.format(' ttm:agent="%s" itunes:key="L%d"',
                                          line.is_other and 'v2' or 'v1', line.L))
@@ -251,6 +317,7 @@ function script_main(subtitles)
 
         table.insert(text, generate_kara(line.syls))
 
+        -- 处理和声部分
         if line.bg_line then
             table.insert(text, [[ <span ttm:role="x-bg">]] ..
                              generate_kara(line.bg_line.syls) .. [[</span>]])
@@ -261,14 +328,19 @@ function script_main(subtitles)
         return table.concat(text)
     end
 
+    -- ======================================================================
+    -- 生成TTML主体函数
+    -- 构建完整的TTML <body> 部分，包含所有字幕行
+    -- @return: TTML body部分的字符串
+    -- ======================================================================
     local function generate_body()
         local text = {}
         table.insert(text, string.format('<body dur="%s">',
-                                         time_to_string(origs[#origs].end_time)))
+                                         time_to_string(max_end_time(origs[#origs]))))
 
         local lines = {}
         table.insert(lines, string.format('<div begin="%s" end="',
-                                          time_to_string(origs[1].start_time)))
+                                          time_to_string(min_start_time(origs[1]))))
         table.insert(lines, "00:00.000")
         table.insert(lines, string.format('"%s>', config.part_split and
                                               string.format(
@@ -277,11 +349,11 @@ function script_main(subtitles)
         for i = 1, #origs do
             local line = origs[i]
             if line.part then
-                lines[2] = time_to_string(origs[i - 1].end_time)
+                lines[2] = time_to_string(max_end_time(origs[i - 1]))
                 table.insert(text, table.concat(lines))
                 lines = {}
                 table.insert(lines, string.format('</div><div begin="%s" end="',
-                                                  time_to_string(line.start_time)))
+                                                  time_to_string(min_start_time(line))))
                 table.insert(lines, "00:00.000")
                 table.insert(lines, string.format('"%s>', string.format(
                                                       ' itunes:song-part="%s"',
@@ -289,19 +361,32 @@ function script_main(subtitles)
             end
             table.insert(lines, generate_line(line))
         end
-        lines[2] = time_to_string(origs[#origs].end_time)
+        lines[2] = time_to_string(max_end_time(origs[#origs]))
         table.insert(text, table.concat(lines))
         table.insert(text, string.format([[</div></body>]]))
 
         return table.concat(text)
     end
 
+    -- ======================================================================
+    -- 字符串分割函数
+    -- 按逗号、&、/等分隔符分割字符串
+    -- @param str: 输入字符串
+    -- @return: 分割后的字符串数组
+    -- ======================================================================
     local function split(str)
         local rst = {}
         str:gsub('[^,&/]+', function(w) rst[#rst + 1] = w:trim(); end)
         return rst
     end
 
+    -- ======================================================================
+    -- 生成元数据函数
+    -- 创建TTML格式的元数据标签
+    -- @param key: 元数据键
+    -- @param value: 元数据值
+    -- @return: 元数据XML字符串
+    -- ======================================================================
     local function generate_meta(key, value)
         local text = {}
         local values = split(value)
@@ -316,6 +401,11 @@ function script_main(subtitles)
         return table.concat(text)
     end
 
+    -- ======================================================================
+    -- 生成翻译部分函数
+    -- 构建TTML的翻译和替换部分
+    -- @return: 翻译部分的XML字符串
+    -- ======================================================================
     local function generate_translations()
         local text = {}
 
@@ -352,6 +442,11 @@ function script_main(subtitles)
         end
     end
 
+    -- ======================================================================
+    -- 生成音译部分函数
+    -- 构建TTML的音译部分，支持多语言罗马音
+    -- @return: 音译部分的XML字符串
+    -- ======================================================================
     local function generate_transliterations()
         local function generate_syls(syls, word)
             local text = {}
@@ -368,7 +463,7 @@ function script_main(subtitles)
                                      [[<span begin="%s" end="%s" xmlns="http://www.w3.org/ns/ttml">%s</span>]],
                                      time_to_string(syl.sbegin),
                                      time_to_string(syl.send),
-                                     word and syl.stext:trim() or syl.stext))
+                                     word and syl.stext or syl.stext))
                 end
             end
             return table.concat(text)
@@ -414,6 +509,11 @@ function script_main(subtitles)
         return table.concat(text)
     end
 
+    -- ======================================================================
+    -- 生成iTunes元数据函数
+    -- 构建iTunes专用的元数据部分
+    -- @return: iTunes元数据XML字符串
+    -- ======================================================================
     local function generate_iTunesMetadata()
         local transliterations = generate_transliterations()
         local translations = generate_translations()
@@ -426,6 +526,11 @@ function script_main(subtitles)
         end
     end
 
+    -- ======================================================================
+    -- 生成TTML头部函数
+    -- 构建TTML文档的<head>部分，包含所有元数据
+    -- @return: TTML head部分的字符串
+    -- ======================================================================
     local function generate_head()
         local ttml = {}
 
@@ -435,6 +540,7 @@ function script_main(subtitles)
             table.insert(ttml, '<ttm:agent type="other" xml:id="v2"/>')
         end
 
+        -- 生成音乐平台ID元数据
         local ids = {
             'ncmMusicId', 'qqMusicId', 'spotifyId', 'appleMusicId', 'isrc'
         }
@@ -444,6 +550,7 @@ function script_main(subtitles)
             end
         end
 
+        -- 生成基本信息元数据
         local keys = {
             'musicName', 'artists', 'album', 'ttmlAuthorGithub',
             'ttmlAuthorGithubLogin'
@@ -456,18 +563,32 @@ function script_main(subtitles)
                    generate_iTunesMetadata() .. '</metadata></head>'
     end
 
-    -- 获取路径
+    -- ======================================================================
+    -- 文件路径处理函数
+    -- 从完整路径中提取目录路径
+    -- @param filename: 完整文件名
+    -- @return: 目录路径
+    -- ======================================================================
     local function stripfilename(filename)
         -- return string.match(filename, "(.+)/[^/]*%.%w+$") --*nix system
         return string.match(filename, "(.+)\\[^\\]*%.%w+$") -- windows
     end
 
-    -- 获取文件名
+    -- ======================================================================
+    -- 文件名提取函数
+    -- 从完整路径中提取纯文件名
+    -- @param filename: 完整路径
+    -- @return: 文件名
+    -- ======================================================================
     local function strippath(filename)
         -- return string.match(filename, ".+/([^/]*%.%w+)$") -- *nix system
         return string.match(filename, ".+\\([^\\]*%.%w+)$") -- windows
     end
 
+    -- ======================================================================
+    -- 显示标记信息函数
+    -- 在日志中输出所有标记信息
+    -- ======================================================================
     local function show_marks()
         aegisub.log('\n\n')
         for mark, lines in pairs(marked) do
@@ -475,6 +596,12 @@ function script_main(subtitles)
         end
     end
 
+    -- ======================================================================
+    -- 收集音节数据函数
+    -- 处理卡拉OK音节，合并、拆分和优化音节数据
+    -- @param line: 字幕行数据
+    -- @return: 处理后的音节数组
+    -- ======================================================================
     local function collect_syls(line)
         local function count_furi(furis)
             local n = 0
@@ -491,9 +618,14 @@ function script_main(subtitles)
         for i = 1, #line.kara do
             local syl = util.copy(line.kara[i])
 
+            -- 合并音节处理
             if syl.inline_fx == "merge" or syl.inline_fx == "M" and #syls > 0 then
                 local stext = syl.text_stripped
                 local last = syls[#syls]
+
+                -- [修改开始] 计算当前正在被合并的音节原本包含的 furi 数量
+                local current_furi_count = ((syl.furi.n ~= 0) and count_furi(syl.furi) or 1)
+                -- [修改结束]
 
                 while last.stext:trim() == "" and #syls > 0 do
                     stext = last.stext .. stext
@@ -502,6 +634,11 @@ function script_main(subtitles)
                 end
                 last.stext = last.stext .. stext
                 last.send = syl.end_time + line.start_time
+
+                -- [修改开始] 将 furi 计数累加到前一个音节上
+                last.furi = (last.furi or 0) + current_furi_count
+                -- [修改结束]
+
                 syls[#syls] = last
             elseif syl.inline_fx == "text" or syl.inline_fx == "T" then
                 table.insert(syls, {stext = syl.text_stripped, sfx = "text"})
@@ -616,7 +753,7 @@ function script_main(subtitles)
                         sbegin = start_time,
                         send = end_time,
                         stext = syl.text_stripped,
-                        furi = syl.furi.n ~= 0 and count_furi(syl.furi) or 1
+                        furi = ((syl.furi.n ~= 0) and count_furi(syl.furi) or 1)
                     })
                     if options.split_space and space then
                         local hole_time = syl.end_time + line.start_time
@@ -631,6 +768,7 @@ function script_main(subtitles)
             ::continue::
         end
 
+        -- 处理和声行的括号
         if line.is_bg then
             syls[1].stext = '(' .. syls[1].stext
             syls[#syls].stext = syls[#syls].stext .. ')'
@@ -639,32 +777,46 @@ function script_main(subtitles)
         return syls
     end
 
-    local function collect_roma(main_syls, roma_line)
+    -- ======================================================================
+    -- 收集罗马音数据函数
+    -- 将罗马音数据与主音节对齐
+    -- @param main_syls: 主音节数据
+    -- @param roma_line: 罗马音行数据
+    -- @return: 对齐后的罗马音数据
+    -- ======================================================================
+        -- ======================================================================
+    -- 收集罗马音数据函数
+    -- 将罗马音数据与主音节对齐
+    -- @param main_syls: 主音节数据
+    -- @param roma_line: 罗马音行数据
+    -- @param line_num:  (新增) 当前行号，用于日志输出
+    -- @return: 对齐后的罗马音数据
+    -- ======================================================================
+    local function collect_roma(main_syls, roma_line, line_num)
+
+        -- [日志] 输出行号
+        if line_num then
+            aegisub.log(string.format("\nLine %d Start:\n", line_num))
+        end
+
         local function insert_roma(syl)
-            local primary = nil
-            local secondary = nil
+            local index = -1
 
             for i = 1, #main_syls do
                 local main_syl = main_syls[i]
-                if main_syl.furi ~= nil and main_syl.furi ~= 0 and
-                    re.find(main_syl.stext, "^\\s*$") == nil then
-                    if main_syl.send - main_syl.sbegin > 5 then
-                        primary = i
-                        break
-                    else
-                        secondary = i
-                    end
+                if type(main_syl.furi) == "number" and main_syl.furi > 0 and main_syl.stext:trim() ~= "" then
+                    index = i
+                    break
                 end
             end
 
-            if primary ~= nil then
-                main_syls[primary].roma =
-                    (main_syls[primary].roma or "") .. syl.text_stripped
-                main_syls[primary].furi = main_syls[primary].furi - 1
-            elseif secondary ~= nil then
-                main_syls[secondary].roma =
-                    (main_syls[secondary].roma or "") .. syl.text_stripped
-                main_syls[secondary].furi = main_syls[secondary].furi - 1
+            if index ~= -1 then
+                main_syls[index].roma = (main_syls[index].roma or "") .. syl.text_stripped
+                main_syls[index].furi = main_syls[index].furi - 1
+
+                -- [日志] 记录被吸收的 furi 片段到临时表 debug_parts 中
+                if main_syls[index].debug_parts == nil then main_syls[index].debug_parts = {} end
+                table.insert(main_syls[index].debug_parts, syl.text_stripped)
             end
         end
 
@@ -675,21 +827,44 @@ function script_main(subtitles)
 
         for i = 1, #roma_line.kara do
             local roma_syl = roma_line.kara[i]
-            insert_roma(roma_syl)
+            if roma_syl.text_stripped ~= "" then
+                insert_roma(roma_syl)
+            end
         end
 
         for i = 1, #main_syls do
             local main_syl = main_syls[i]
+
+            -- [日志] 输出当前音节及其对应的罗马音列表
+            if main_syl.stext:trim() ~= "" then
+                aegisub.log(string.format("syl: %s\n", main_syl.stext))
+                if main_syl.debug_parts then
+                    for index, furi in ipairs(main_syl.debug_parts) do
+                        aegisub.log(string.format("%s [%s]\n", (index == #main_syl.debug_parts-1) and "├─" or "└─", furi))
+                    end
+                end
+            end
+            -- [日志] 清理临时数据（可选）
+            main_syl.debug_parts = nil
+
             table.insert(roma_syls, {
                 sbegin = main_syl.sbegin,
                 send = main_syl.send,
-                stext = (main_syl.roma and main_syl.roma:upper():trim() ~=
-                    main_syl.stext:upper():trim()) and main_syl.roma or "" -- 原为 main_syl.stext
+                stext = ((main_syl.roma and main_syl.roma:upper():trim() ~=
+                    main_syl.stext:upper():trim()) or options.keep_roma) and main_syl.roma or ""
             })
             main_syls[i].furi = packup[i]
             main_syls[i].roma = nil
         end
 
+        for i = 1, #roma_syls do
+            if i > 1 and roma_syls[i].stext == "" and re.find(roma_syls[i-1].stext, ".(\\ |\\　)(?=$)") then
+                roma_syls[i].stext = re.find(roma_syls[i-1].stext, "(\\ |\\　)(?=$)")[1].str
+                roma_syls[i-1].stext = re.sub(roma_syls[i-1].stext, "(\\ |\\　)(?=$)", "")
+            end
+        end
+
+        -- 处理和声行的罗马音括号
         if roma_line.is_bg then
             if roma_syls[1].stext:find('^%(') == nil then
                 roma_syls[1].stext = '(' .. roma_syls[1].stext
@@ -702,6 +877,11 @@ function script_main(subtitles)
         return roma_syls
     end
 
+
+    -- ======================================================================
+    -- 处理TTML数据函数
+    -- 主数据处理流程，整合所有字幕行和辅助数据
+    -- ======================================================================
     local function process_ttml()
         local index = 1
         for i = 1, #subs do
@@ -733,7 +913,8 @@ function script_main(subtitles)
                 for lang, roma_line in pairs(line.roma_line) do
                     table.insert(roman[lang].lines, {
                         L = index,
-                        syls = collect_roma(orig.syls, roma_line),
+                        -- [修改] 传入 index 参数
+                        syls = collect_roma(orig.syls, roma_line, index),
                         start_time = roma_line.start_time,
                         end_time = roma_line.end_time
                     })
@@ -777,8 +958,9 @@ function script_main(subtitles)
                                 end_time = bg_line.roma_line.end_time
                             })
                         end
+                        -- [修改] 传入 index 参数
                         roman[lang].lines[#roman[lang].lines].bg_line =
-                            collect_roma(orig.bg_line.syls, roma_line)
+                            collect_roma(orig.bg_line.syls, roma_line, index)
                     end
                 end
             end
@@ -787,6 +969,11 @@ function script_main(subtitles)
         end
     end
 
+    -- ======================================================================
+    -- 生成完整TTML函数
+    -- 构建完整的TTML文档
+    -- @return: 完整的TTML XML字符串
+    -- ======================================================================
     local function print_ttml()
         local text = {}
         if options.lang == nil then options.lang = "zh-Hans" end
@@ -800,8 +987,14 @@ function script_main(subtitles)
         return table.concat(text)
     end
 
+    -- ======================================================================
+    -- 主执行流程
+    -- ======================================================================
+
+    -- 1. 预处理字幕数据
     pre_process(subtitles)
 
+    -- 2. 构建用户界面配置
     local ui_config = {
         {
             class = "label",
@@ -880,7 +1073,7 @@ function script_main(subtitles)
             x = 19,
             y = 3,
             width = 16,
-            value = "打开脚本修改这里"
+            value = "68000793"
         }, {
             class = "label",
             label = "歌曲作者 Github 用户名",
@@ -894,7 +1087,7 @@ function script_main(subtitles)
             x = 19,
             y = 4,
             width = 16,
-            value = "打开脚本修改这里"
+            value = "ranhengzhang"
         }, {
             class = "label",
             label = "时间偏移",
@@ -941,6 +1134,20 @@ function script_main(subtitles)
             width = 1,
             items = {"不处理", "合并", "拆分"},
             value = "拆分"
+        },{
+            class = "checkbox",
+            name = "keep_roma",
+            x = 27,
+            y = 5,
+            width = 1,
+            value = true
+        },{
+            class = "label",
+            label = "保留与原文相同的注音",
+            name = "tag_keep_roma",
+            x = 28,
+            y = 5,
+            width = 1
         }, {
             class = "checkbox",
             name = "merge_symbol",
@@ -972,20 +1179,26 @@ function script_main(subtitles)
         }
     }
 
+    -- 3. 显示用户对话框
     local btn, result = aegisub.dialog.display(ui_config, {"Start", "Cancel"})
 
     if btn == false or btn == "Cancel" then aegisub.cancel() end
+    aegisub.log("ASS2TTML")
 
+    -- 4. 处理用户输入
     options = util.deep_copy(result)
     options.split_space = options["space"] == "拆分"
     options.merge_space = options["space"] == "合并"
 
     if #subs == 0 then aegisub.cancel() end
 
+    -- 5. 处理TTML数据
     process_ttml()
 
+    -- 6. 生成TTML内容
     local ttml = print_ttml()
 
+    -- 7. 显示结果对话框
     btn, _ = aegisub.dialog.display({
         {
             class = "textbox",
@@ -998,6 +1211,7 @@ function script_main(subtitles)
         }
     }, {"Copy", "Save", "Close"})
 
+    -- 8. 处理用户操作
     if btn == "Copy" then
         local try_copy = clipboard.set(ttml)
         while (not try_copy) do
@@ -1027,7 +1241,7 @@ function script_main(subtitles)
         local ttml_file = aegisub.dialog.save('保存TTML文件',
                                               'D:/Users/LEGION/Desktop/amll-ttml-db-raw-data',
                                               (config.title or
-                                                  options.musicNames) .. '.ttml',
+                                                  options.musicNames) .. '.word.ttml',
                                               'TTML files (*.ttml)|*.ttml')
         if ttml_file ~= nil then
             local file = assert(io.open(ttml_file, "w"))
@@ -1036,7 +1250,12 @@ function script_main(subtitles)
         end
     end
 
+    -- 9. 显示标记信息
     show_marks();
 end
 
+-- ======================================================================
+-- 注册Aegisub宏
+-- 将脚本注册到Aegisub自动化菜单中
+-- ======================================================================
 aegisub.register_macro(script_name, script_description, script_main);
