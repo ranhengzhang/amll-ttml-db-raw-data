@@ -1,4 +1,4 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="zh-Hans">
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="ja">
   <head>
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
@@ -93,7 +93,7 @@
           </translation>
         </translations>
         <transliterations>
-          <transliteration xml:lang="zh-Hans-Latn">
+          <transliteration xml:lang="ja-Latn">
             <text for="L1">
               <span begin="00:18.810" end="00:19.010" xmlns="http://www.w3.org/ns/ttml">yo </span>
               <span begin="00:19.010" end="00:19.100" xmlns="http://www.w3.org/ns/ttml">ri </span>
@@ -547,7 +547,7 @@
     </metadata>
   </head>
   <body dur="03:39.950">
-    <div begin="00:18.810" end="03:39.950">
+    <div begin="00:18.810" end="00:38.360" itunes:song-part="Verse">
       <p begin="00:18.810" end="00:23.100" ttm:agent="v1" itunes:key="L1">
         <span begin="00:18.810" end="00:19.010">寄</span>
         <span begin="00:19.010" end="00:19.100">り</span>
@@ -604,6 +604,8 @@
         <span begin="00:37.360" end="00:37.610">め</span>
         <span begin="00:37.710" end="00:38.360">て</span>
       </p>
+    </div>
+    <div begin="00:38.790" end="01:00.290" itunes:song-part="PreChorus">
       <p begin="00:38.790" end="00:42.960" ttm:agent="v1" itunes:key="L5">
         <span begin="00:38.790" end="00:39.940">そ</span>
         <span begin="00:39.940" end="00:40.070">う</span>
@@ -666,6 +668,8 @@
         <span begin="00:58.060" end="00:58.440">し</span>
         <span begin="00:58.440" end="01:00.290">い</span>
       </p>
+    </div>
+    <div begin="01:00.680" end="01:27.030" itunes:song-part="Chorus">
       <p begin="01:00.680" end="01:06.860" ttm:agent="v1" itunes:key="L10">
         <span begin="01:00.680" end="01:01.240">か</span>
         <span begin="01:01.240" end="01:01.980">ら</span>
@@ -738,6 +742,8 @@
         <span begin="01:25.840" end="01:26.180">そ</span>
         <span begin="01:26.300" end="01:27.030">ば</span>
       </p>
+    </div>
+    <div begin="01:38.020" end="01:57.510" itunes:song-part="Verse">
       <p begin="01:38.020" end="01:42.180" ttm:agent="v1" itunes:key="L16">
         <span begin="01:38.020" end="01:38.170">い</span>
         <span begin="01:38.170" end="01:38.250">に</span>
@@ -791,6 +797,8 @@
         <span begin="01:56.840" end="01:57.510">か</span>
         <span begin="01:57.510" end="01:57.515">？</span>
       </p>
+    </div>
+    <div begin="01:58.120" end="02:19.370" itunes:song-part="PreChorus">
       <p begin="01:58.120" end="02:02.220" ttm:agent="v1" itunes:key="L20">
         <span begin="01:58.120" end="01:58.370">ね</span>
         <span begin="01:58.370" end="01:59.090">ぇ</span>
@@ -853,6 +861,8 @@
         <span begin="02:16.810" end="02:17.220">す</span>
         <span begin="02:17.290" end="02:19.370">の</span>
       </p>
+    </div>
+    <div begin="02:19.830" end="02:46.160" itunes:song-part="Chorus">
       <p begin="02:19.830" end="02:25.960" ttm:agent="v1" itunes:key="L25">
         <span begin="02:19.830" end="02:20.340">か</span>
         <span begin="02:20.480" end="02:21.020">ら</span>
@@ -925,6 +935,8 @@
         <span begin="02:45.100" end="02:45.370">て</span>
         <span begin="02:45.470" end="02:46.160">る</span>
       </p>
+    </div>
+    <div begin="02:47.220" end="03:07.780" itunes:song-part="Bridge">
       <p begin="02:47.220" end="02:51.110" ttm:agent="v1" itunes:key="L31">
         <span begin="02:47.220" end="02:47.830">君</span>
         <span begin="02:47.920" end="02:48.220">と</span>
@@ -974,6 +986,8 @@
         <span begin="03:04.220" end="03:04.470">か</span>
         <span begin="03:04.530" end="03:07.780">な</span>
       </p>
+    </div>
+    <div begin="03:08.320" end="03:34.900" itunes:song-part="Chorus">
       <p begin="03:08.320" end="03:14.430" ttm:agent="v1" itunes:key="L35">
         <span begin="03:08.320" end="03:08.860">か</span>
         <span begin="03:09.030" end="03:09.500">ら</span>
@@ -1047,6 +1061,8 @@
         <span begin="03:33.270" end="03:33.860">想</span>
         <span begin="03:33.950" end="03:34.900">ふ</span>
       </p>
+    </div>
+    <div begin="03:35.170" end="03:39.950" itunes:song-part="Refrain">
       <p begin="03:35.170" end="03:39.950" ttm:agent="v1" itunes:key="L41">
         <span begin="03:35.170" end="03:35.470">い</span>
         <span begin="03:35.470" end="03:35.800">つ</span>
