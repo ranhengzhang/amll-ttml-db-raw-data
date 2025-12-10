@@ -3,22 +3,25 @@
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
       <ttm:agent type="other" xml:id="v2" />
-      <amll:meta key="musicName" value="Poison Apple Juice" />
       <amll:meta key="musicName" value="ポイズン・アップル・ジュース" />
-      <amll:meta key="artists" value="流星P" />
-      <amll:meta key="artists" value="ViCTiM" />
+      <amll:meta key="musicName" value="Poison Apple Juice" />
       <amll:meta key="artists" value="バルシェ" />
-      <amll:meta key="artists" value="minato" />
-      <amll:meta key="artists" value="トゥライ" />
-      <amll:meta key="artists" value="ヴァルシェ" />
-      <amll:meta key="artists" value="湊貴大" />
       <amll:meta key="artists" value="巴鲁雪" />
+      <amll:meta key="artists" value="minato" />
+      <amll:meta key="artists" value="ViCTiM" />
+      <amll:meta key="artists" value="ヴァルシェ" />
+      <amll:meta key="artists" value="トゥライ" />
+      <amll:meta key="artists" value="流星P" />
       <amll:meta key="artists" value="VALSHE" />
-      <amll:meta key="album" value="零和博弈/非零和博弈" />
+      <amll:meta key="artists" value="湊貴大" />
+      <amll:meta key="album" value="ゼロサム-ゲーム-ノン-ゼロサム-ゲーム-single" />
       <amll:meta key="album" value="ゼロサム・ゲーム/ノン・ゼロサム・ゲーム" />
+      <amll:meta key="album" value="零和博弈/非零和博弈" />
       <amll:meta key="ncmMusicId" value="41672665" />
       <amll:meta key="qqMusicId" value="000UTkC41SjjNz" />
       <amll:meta key="qqMusicId" value="245588294" />
+      <amll:meta key="appleMusicId" value="1085065444" />
+      <amll:meta key="isrc" value="JPC401512005" />
       <amll:meta key="Arrangement" value="G&apos;n-" />
       <amll:meta key="Lyrics" value="minato" />
       <amll:meta key="Music" value="VALSHE" />
