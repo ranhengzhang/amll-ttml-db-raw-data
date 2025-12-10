@@ -13,6 +13,8 @@ Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
+Style: roma-furigana,Raleway-v4020 ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
 Style: orig,阿里巴巴普惠体 3.0 65 Medium,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,2,10,10,10,1
 Style: orig-furigana,M PLUS 2 Medium,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,128
 Style: roma,Raleway-v4020 ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
@@ -20,8 +22,8 @@ Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H0000000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.00,orig,,0,0,0,,{\kf100}作词 : Evra
-Dialogue: 0,0:00:01.00,0:00:23.67,orig,,0,0,0,,{\kf100}作曲 : Evra
+Dialogue: 0,0:00:00.00,0:00:01.00,orig,,0,0,0,meta,{\kf100}作词 : Evra
+Dialogue: 0,0:00:01.00,0:00:23.67,orig,,0,0,0,meta,{\kf100}作曲 : Evra
 Dialogue: 0,0:00:23.77,0:00:27.74,orig,,0,0,0,,{\kf26}白{\kf123}昼{\kf16}慢{\kf19}慢{\kf41}交{\kf27}替{\kf42}了{\kf78}夜{\kf25}空
 Dialogue: 0,0:00:28.28,0:00:30.90,orig,,0,0,0,,{\kf18}伴{\kf22}着{\kf32}海{\kf41}浪{\kf15}的{\kf95}翻{\kf39}涌
 Dialogue: 0,0:00:31.17,0:00:34.55,orig,,0,0,0,,{\kf27}时{\kf24}针{\kf36}不{\kf30}断{\kf43}转{\kf178}动
@@ -32,7 +34,7 @@ Dialogue: 0,0:00:48.12,0:00:50.54,orig,,0,0,0,,{\kf16}凌{\kf23}晨{\kf21}五{\k
 Dialogue: 0,0:00:50.79,0:00:53.53,orig,,0,0,0,,{\kf16}白{\kf16}天{\kf17}总{\kf12}是{\kf35}犯{\kf14}困{\kf20}夜{\kf14}里{\kf20}还{\kf24}是{\kf16}难{\kf10}以{\kf22}入{\kf38}睡
 Dialogue: 0,0:00:53.80,0:00:56.47,orig,,0,0,0,,{\kf14}好{\kf20}像{\kf21}杂{\kf21}音{\kf14}一{\kf14}直{\kf25}重{\kf13}复{\kf20}出{\kf22}现{\kf17}在{\kf19}我{\kf25}周{\kf22}围
 Dialogue: 0,0:00:56.80,0:00:59.48,orig,,0,0,0,,{\kf18}渴{\kf16}望{\kf23}来{\kf5}个{\kf24}神{\kf17}仙{\kf16}施{\kf23}展{\kf19}魔{\kf26}法{\kf16}把{\kf17}它{\kf22}击{\kf26}溃
-Dialogue: 0,0:00:59.80,0:01:02.82,orig,,0,0,0,,{\kf14}偶{\kf14}尔{\kf18}也{\kf18}会{\kf28}忏{\kf21}悔{\kf0}“{\kf37}唉{\kf19}又{\kf11}是{\kf22}没{\kf24}进{\kf18}步{\kf15}的{\kf20}一{\kf23}天{\kf0}”
+Dialogue: 0,0:00:59.80,0:01:02.82,orig,,0,0,0,,{\kf14}偶{\kf14}尔{\kf18}也{\kf18}会{\kf28}忏{\kf21}悔{\kf0\-Z}“{\kf37}唉{\kf19}又{\kf11}是{\kf22}没{\kf24}进{\kf18}步{\kf15}的{\kf20}一{\kf23}天{\kf0\-Z}”
 Dialogue: 0,0:01:03.04,0:01:05.72,orig,,0,0,0,,{\kf10}不{\kf17}管{\kf21}是{\kf18}感{\kf19}情{\kf18}金{\kf23}钱{\kf17}通{\kf19}通{\kf13}不{\kf26}在{\kf19}我{\kf8}的{\kf29}身{\kf11}边
 Dialogue: 0,0:01:05.72,0:01:08.81,orig,,0,0,0,,{\kf20}还{\kf16}是{\kf30}算{\kf18}了{\kf31}吧{\kf40}反{\kf18}正{\kf21}也{\kf10}并{\kf10}没{\kf17}有{\kf12}多{\kf12}大{\kf11}的{\kf21}改{\kf22}变
 Dialogue: 0,0:01:09.04,0:01:11.90,orig,,0,0,0,,{\kf5}问{\kf9}题{\kf19}不{\kf19}在{\kf18}表{\kf19}面{\kf11}而{\kf12}是{\kf29}需{\kf16}要{\kf18}付{\kf24}出{\kf22}一{\kf12}点{\kf27}时{\kf26}间
@@ -49,8 +51,8 @@ Dialogue: 0,0:01:27.19,0:01:28.65,orig,,0,0,0,,{\kf18}一{\kf15}个{\kf10}又{\k
 Dialogue: 0,0:01:28.65,0:01:30.16,orig,,0,0,0,,{\kf12}怎{\kf22}么{\kf22}会{\kf14}有{\kf22}风{\kf13}花{\kf26}雪{\kf20}月
 Dialogue: 0,0:01:30.38,0:01:32.97,orig,,0,0,0,,{\kf19}只{\kf15}能{\kf20}原{\kf15}地{\kf24}等{\kf36}待{\kf39}认{\kf16}真{\kf13}地{\kf29}闪{\kf33}烁
 Dialogue: 0,0:01:32.97,0:01:36.33,orig,,0,0,0,,{\kf13}感{\kf23}谢{\kf18}你{\kf18}能{\kf24}找{\kf16}到{\kf16}我{\kf43}在{\kf30}最{\kf26}深{\kf14}的{\kf34}角{\kf61}落
-Dialogue: 0,0:01:37.56,0:01:41.08,orig,,0,0,0,,{\kf0}“{\kf31}是{\kf23}吗{\kf130}，{\kf8}你{\kf9}也{\kf15}是{\kf10}在{\kf16}最{\kf9}底{\kf28}下{\kf11}看{\kf10}到{\kf11}我{\kf8}的{\kf33}啊{\kf0}”
-Dialogue: 0,0:01:43.08,0:01:47.26,orig,,0,0,0,,{\kf0}“{\kf20}睡{\kf6}不{\kf21}着{\kf22}吗{\kf141}？{\kf10}没{\kf17}关{\kf29}系{\kf99}，{\kf11}因{\kf42}为{\kf0}”
+Dialogue: 0,0:01:37.56,0:01:41.08,orig,,0,0,0,,{\kf0\-Z}“{\kf31}是{\kf23}吗{\k0\-Z}，{\kf130}{\kf8}你{\kf9}也{\kf15}是{\kf10}在{\kf16}最{\kf9}底{\kf28}下{\kf11}看{\kf10}到{\kf11}我{\kf8}的{\kf33}啊{\kf0\-Z}”
+Dialogue: 0,0:01:43.08,0:01:47.26,orig,,0,0,0,,{\kf0\-Z}“{\kf20}睡{\kf6}不{\kf21}着{\kf22}吗{\kf0\-Z}？{\kf141}{\kf10}没{\kf17}关{\kf29}系{\kf0\-Z}，{\kf99}{\kf11}因{\kf42}为{\kf0\-Z}”
 Dialogue: 0,0:01:47.80,0:01:51.85,orig,,0,0,0,,{\kf29}白{\kf117}昼{\kf14}慢{\kf23}慢{\kf37}交{\kf36}替{\kf40}了{\kf74}夜{\kf35}空
 Dialogue: 0,0:01:52.26,0:01:54.92,orig,,0,0,0,,{\kf16}伴{\kf10}着{\kf49}海{\kf43}浪{\kf16}的{\kf83}翻{\kf49}涌
 Dialogue: 0,0:01:55.20,0:01:58.50,orig,,0,0,0,,{\kf21}时{\kf25}针{\kf37}不{\kf31}断{\kf45}转{\kf171}动
