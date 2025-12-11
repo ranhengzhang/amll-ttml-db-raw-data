@@ -16,11 +16,14 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.4 Varka"
-script_modified = "2025-12-09"
+script_version = "1.5 Wriothesley"
+script_modified = "2025-12-11"
 
 -- 包含karaskel库，用于卡拉OK处理
 include("karaskel.lua")
+
+local last_dir = nil
+local last_file = nil
 
 --[[
 主函数：脚本入口点
@@ -63,7 +66,7 @@ function script_main(subtitles)
     end
 
     local title = ""; -- 歌曲标题
-    local script_offset = 0; -- 脚本时间偏移
+    local script_offset = {}; -- 脚本时间偏移
     local part_split = false; -- 是否分段
 
     --[[
@@ -84,8 +87,13 @@ function script_main(subtitles)
                 if subtitles[i].key == "Title" then
                     title = subtitles[i].value -- 获取标题
                 elseif subtitles[i].key == "Update Details" then
-                    local res = subtitles[i].value:match("[+-]%d+")
-                    script_offset = tonumber(res or "0") -- 获取时间偏移
+                    local value = subtitles[i].value
+                    -- 去掉字符串中的 `\[.*?\]`
+                    value, _ = re.sub(value, "\\[.*?\\]", "")
+                    value:gsub("([+-]%d+)", function(v)
+                        -- config.offset[#config.offset + 1] = tonumber(v)
+                        table.insert(script_offset, tonumber(v))
+                    end)
                 end
             else
                 if line.effect == "" or line.effect == "karaoke" then
@@ -95,16 +103,16 @@ function script_main(subtitles)
                                           "\\1\\\\-X") -- 处理特定模式
                     karaskel.preproc_line_text(meta, styles, line) -- 预处理行文本
                     if line.style == "orig" then
-                        is_bg = line.actor:find("x-bg") and
-                                    line.actor:find("x-chor") == nil -- 检查是否为背景行
-                        if line.actor:find("x-mark") ~= nil then -- 处理标记
+                        is_bg = line.actor:find("x%-bg") and
+                                    line.actor:find("x%-chor") == nil -- 检查是否为背景行
+                        if line.actor:find("x%-mark") ~= nil then -- 处理标记
                             if is_bg then
                                 add_mark(line.actor, #subs, true) -- 添加背景行标记
                             else
                                 add_mark(line.actor, #subs + 1, false) -- 添加普通行标记
                             end
                         end
-                        local part = line.actor:find("x-part") -- 检查分段
+                        local part = line.actor:find("x%-part") -- 检查分段
                         if part ~= nil then
                             part_split = true -- 设置分段标志
                         end
@@ -116,7 +124,7 @@ function script_main(subtitles)
                             line.ts_line = {n = 0} -- 初始化时间轴行
                             parent_line.bg_line = line -- 设置背景行
                         elseif line.style == "roma" and
-                            line.actor:find("x-replace") == nil then
+                            line.actor:find("x%-replace") == nil then
                             parent_line.bg_line["roma_line"] = line -- 设置罗马音行
                         elseif line.style == "ts" then
                             local bg_line = parent_line.bg_line
@@ -133,7 +141,7 @@ function script_main(subtitles)
                             line.ts_line = {n = 0} -- 初始化时间轴行
                             subs[#subs + 1] = line -- 添加行
                         elseif line.style == "roma" and
-                            line.actor:find("x-replace") == nil then
+                            line.actor:find("x%-replace") == nil then
                             orig_line = table.copy(subs[#subs])
                             orig_line["roma_line"] = line -- 设置罗马音行
                             subs[#subs] = orig_line
@@ -244,10 +252,20 @@ function script_main(subtitles)
                                                "(\\ |\\　)$", "") -- 移除尾部空格
                 end
 
-                local start_time = time_to_string(syl.start_time +
-                                                      line.start_time) -- 开始时间
-                local end_time = time_to_string(
-                                     syl.start_time + line.start_time + 5) -- 结束时间（增加5ms）
+                -- 处理零时音节的时间逻辑
+                local base_time = syl.start_time + line.start_time
+                local start_time, end_time
+
+                if i == 1 then
+                    -- 如果是第一个音节：时间设为 (n-5, n)
+                    start_time = base_time - 5
+                    end_time = base_time
+                else
+                    -- 如果不是第一个音节：时间设为 (n, n+5)
+                    start_time = base_time
+                    end_time = base_time + 5
+                end
+
                 ttml[ttml.n] = {
                     sbegin = start_time,
                     send = end_time,
@@ -299,15 +317,16 @@ function script_main(subtitles)
                         line.kara[i + 1] = next_syl
                         goto continue -- 跳过当前音节
                     end
-                    local trimed = syl.text_stripped:trim()
-                    if unicode.len(trimed) == 0 and merge_space then -- 合并时长为 0 的空格
+                    if unicode.len(syl.text_stripped:trim()) == 0 and
+                        merge_space then -- 合并时长为 0 的空格
                         if i == 1 and #line.kara > 2 then
                             goto continue -- 首字符跳过
                         else
                             ttml[ttml.n - 1].stext =
                                 ttml[ttml.n - 1].stext .. syl.text_stripped -- 合并到前一个音节
                         end
-                    elseif unicode.len(trimed) == 1 and merge_symbol then -- 合并时长为 0 的单个非空字符
+                    elseif unicode.len(syl.text_stripped:trim()) == 1 and
+                        merge_symbol then -- 合并时长为 0 的单个非空字符
                         if i == 1 and #line.kara > 2 then -- 首字符向后合并
                             line.kara[2].text_stripped =
                                 syl.text_stripped .. line.kara[2].text_stripped
@@ -417,11 +436,11 @@ function script_main(subtitles)
     ]]
     local function generate_line(line, n)
         local ttml = ""
-        local is_other = line.actor:find('x-anti') ~= nil or
-                             line.actor:find('x-duet') ~= nil or
-                             line.actor:find('x-solo') ~= nil -- 检查是否为其他角色
+        local is_other = line.actor:find('x%-anti') ~= nil or
+                             line.actor:find('x%-duet') ~= nil or
+                             line.actor:find('x%-solo') ~= nil -- 检查是否为其他角色
 
-        line.is_bg = line.actor:find('x-bg') ~= nil -- 设置是否为背景行
+        line.is_bg = line.actor:find('x%-bg') ~= nil -- 设置是否为背景行
         if is_other then anti = true end -- 标记有反色或独唱
 
         if line.is_bg then
@@ -454,7 +473,7 @@ function script_main(subtitles)
             for i = 1, line['ts_line'].n do
                 local ts_line = line['ts_line'][i]
                 local lang = 'zh-CN' -- 默认语言
-                if ts_line.actor:find('x-lang') ~= nil then
+                if ts_line.actor:find('x%-lang') ~= nil then
                     lang = ts_line.actor:match('x%-lang%:[%w%-]*'):sub(8) -- 提取语言
                 end
                 ttml = ttml .. '<span ttm:role="x-translation" xml:lang="' ..
@@ -498,7 +517,7 @@ function script_main(subtitles)
                                                   part_split) or ''))
         for i = 1, #subtitles do
             local line = subtitles[i]
-            if line.actor:find('x-part') then
+            if line.actor:find('x%-part') then
                 -- 处理分段
                 local part = re.find(line.actor, "(?<=x-part:)[A-z]+")[1].str
                 lines[2] = time_to_string(max_end_time(subtitles[i - 1])) -- 更新前一个div的结束时间
@@ -512,25 +531,25 @@ function script_main(subtitles)
                                                       ' itunes:song-part="%s"',
                                                       part)))
             end
-            if line.actor:find('x-chor') ~= nil then
+            if line.actor:find('x%-chor') ~= nil then
                 -- 处理和声行
-                if line.actor:find('x-bg') ~= nil then
+                if line.actor:find('x%-bg') ~= nil then
                     local bg_line = table.copy(line)
                     line.bg_line = bg_line -- 设置背景行
                     line.actor = line.actor:gsub('x%-bg', '') -- 移除背景标记
-                    goto generate -- 跳转到生成
-                end
-                table.insert(lines, generate_line(line, n)) -- 生成和声行
-                n = n + 1
-                if line.actor:find('x-anti') ~= nil or line.actor:find('x-duet') ~=
-                    nil or line.actor:find('x-solo') then
-                    line.actor = line.actor:gsub('x%-anti', '') -- 移除反色标记
-                    line.actor = line.actor:gsub('x%-duet', '') -- 移除二重唱标记
                 else
-                    line.actor = 'x-anti ' .. line.actor -- 添加反色标记
+                    table.insert(lines, generate_line(line, n)) -- 生成和声行
+                    n = n + 1
+                    if line.actor:find('x%-anti') ~= nil or
+                        line.actor:find('x%-duet') ~= nil or
+                        line.actor:find('x%-solo') then
+                        line.actor = line.actor:gsub('x%-anti', '') -- 移除反色标记
+                        line.actor = line.actor:gsub('x%-duet', '') -- 移除二重唱标记
+                    else
+                        line.actor = 'x-anti ' .. line.actor -- 添加反色标记
+                    end
                 end
             end
-            ::generate::
             table.insert(lines, generate_line(line, n)) -- 生成普通行
             n = n + 1
         end
@@ -659,6 +678,7 @@ function script_main(subtitles)
     local subs = deep_copy(subtitles) -- 深拷贝字幕数据
     subs = pre_process(subs) -- 预处理
 
+    if #script_offset == 0 then script_offset = {0} end
     -- 用户界面配置
     local ui_config = {
         {
@@ -762,12 +782,13 @@ function script_main(subtitles)
             y = 5,
             width = 1
         }, {
-            class = "intedit",
+            class = #script_offset > 1 and "dropdown" or "intedit",
             name = "offset",
             x = 1,
             y = 5,
             width = 1,
-            value = script_offset
+            items = #script_offset > 1 and script_offset or nil,
+            value = #script_offset > 1 and "" or script_offset[1]
         },
         {class = "label", label = "ms", name = "ms", x = 2, y = 5, width = 1},
         {
@@ -823,7 +844,7 @@ function script_main(subtitles)
     if btn == false or btn == "Cancel" then aegisub.cancel() end -- 用户取消
 
     local options = deep_copy(result) -- 复制选项
-    offset = options["offset"] -- 设置时间偏移
+    offset = tonumber(options["offset"]) or 0 -- 设置时间偏移
     split_space = options["space"] == "拆分" -- 设置空格处理方式
     merge_space = options["space"] == "合并"
     merge_symbol = options["symbol"] -- 设置符号合并
@@ -834,7 +855,7 @@ function script_main(subtitles)
     local body = generate_body(subs) -- 生成body
     local head = generate_head(options) -- 生成head
     local ttml = -- 组合完整TTML
-   
+
         '<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal">' ..
             head .. body .. '</tt>'
 
@@ -879,12 +900,15 @@ function script_main(subtitles)
         end
     elseif btn == "Save" then
         -- 保存到文件
-        local ttml_file = aegisub.dialog.save('保存TTML文件',
-                                              'D:/Users/LEGION/Desktop/amll-ttml-db-raw-data', -- 默认路径
-                                              (title or options.musicNames) ..
-                                                  '.ttml', -- 文件名
+        local ttml_file = aegisub.dialog.save('保存TTML文件', last_dir or
+                                                  'D:/Users/LEGION/Desktop/amll-ttml-db-raw-data', -- 默认路径
+                                              last_file or
+                                                  ((title or options.musicNames) ..
+                                                      '.ttml'), -- 文件名
         'TTML files (*.ttml)|*.ttml') -- 文件类型
         if ttml_file ~= nil then
+            last_dir = stripfilename(ttml_file) -- 更新最后路径
+            last_file = strippath(ttml_file) -- 更新最后文件名
             local file = assert(io.open(ttml_file, "w")) -- 打开文件
             file:write(ttml) -- 写入TTML
             file:close() -- 关闭文件
