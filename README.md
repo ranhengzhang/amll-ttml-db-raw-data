@@ -2,6 +2,10 @@
 
 为 [amll-ttml-db](https://github.com/Steve-xmh/amll-ttml-db) 提交 TTML 歌词使用的存储库。
 
+> [!TIP]
+>
+> Aegisub 建议打轴教程戳 👉 [aegisub.md](./aegisub.md)。
+
 ## ass2ttml.v2.lua
 
 <div align="center"><a href="https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/ass2ttml.v2.lua"><img src="https://img.shields.io/badge/Aegisub-3.2-c21f30"/></a><a href="https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/ass2ttml-3.4.lua"><img src="https://img.shields.io/badge/Aegisub-3.4-c21f30"/></a> <a href="https://aegi.vmoe.info/docs/3.2/Automation/Lua/"><img src="https://img.shields.io/badge/Lua-5.1-2C2D72?logo=lua"/></a> <a href="https://help.apple.com/itc/videoaudioassetguide/#/itc0f14fecdd"><img src="https://img.shields.io/badge/Apple_Music-TTML_v2-1ba784?logo=applemusic"/></a></div>
