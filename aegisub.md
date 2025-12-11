@@ -71,7 +71,7 @@
 
 ### 载入音频
 
-点击[菜单栏](#认识界面)的音频选项，点击 ![open_audio_menu_24](./../Aegisub/src/bitmaps/button/open_audio_menu_24.png) 打开音频文件。
+点击[菜单栏](#认识界面)的音频选项，点击 ![open_audio_menu_24](./img/aegisub/open_audio_menu_24.png) 打开音频文件。
 
 ![image-20251211212024983](./img/aegisub/image-20251211212024983.png)
 
