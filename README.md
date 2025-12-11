@@ -843,7 +843,7 @@ ass2ttml 脚本使用内联标记（[inline-fx](https://aegi.vmoe.info/docs/3.2/
 
 > [!TIP]
 >
-> 👉 [关于多个偏移值](https://github.com/ranhengzhang/amll-ttml-db-raw-data#:~:text=offset%20%E5%8F%AF%E4%BB%A5%E5%A1%AB%E5%86%99%E5%A4%9A%E4%B8%AA%E5%80%BC)
+> 👉 [关于多个偏移值](https://github.com/ranhengzhang/amll-ttml-db-raw-data#:~:text=%E8%87%AA%E5%8A%A8%E8%AE%BE%E7%BD%AE%20offset%E3%80%82-,offset%20%E5%8F%AF%E4%BB%A5%E5%A1%AB%E5%86%99%E5%A4%9A%E4%B8%AA%E5%80%BC,-%EF%BC%8C%E4%BD%86%E8%AF%B7%E6%B3%A8%E6%84%8F)
 
 ##### 选择优化
 
