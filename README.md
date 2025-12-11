@@ -4,7 +4,7 @@
 
 > [!TIP]
 >
-> Aegisub 建议打轴教程戳 👉 [aegisub.md](./aegisub.md)。
+> Aegisub 简易打轴教程戳 👉 [aegisub.md](./aegisub.md)。
 
 ## ass2ttml.v2.lua
 
