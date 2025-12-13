@@ -670,7 +670,8 @@
         <span begin="01:21.293" end="01:21.953">ま</span>
       </p>
       <p begin="01:21.523" end="01:23.233" ttm:agent="v2" itunes:key="L20">
-        <span begin="01:21.523" end="01:21.733">〜A</span>
+        <span begin="01:21.518" end="01:21.523">〜</span>
+        <span begin="01:21.523" end="01:21.733">A</span>
         <span begin="01:21.733" end="01:22.073">b</span>
         <span begin="01:22.073" end="01:22.223">ra</span>
         <span begin="01:22.223" end="01:22.503">ca</span>
@@ -965,13 +966,15 @@
         <span begin="02:51.253" end="02:52.043">く</span>
       </p>
       <p begin="02:51.613" end="02:53.183" ttm:agent="v2" itunes:key="L50">
-        <span begin="02:51.613" end="02:51.783">〜A</span>
+        <span begin="02:51.608" end="02:51.613">〜</span>
+        <span begin="02:51.613" end="02:51.783">A</span>
         <span begin="02:51.783" end="02:52.043">b</span>
         <span begin="02:52.043" end="02:52.203">ra</span>
         <span begin="02:52.203" end="02:52.493">ca</span>
         <span begin="02:52.493" end="02:52.703">da</span>
         <span begin="02:52.703" end="02:53.003">b</span>
-        <span begin="02:53.003" end="02:53.183">ra〜</span>
+        <span begin="02:53.003" end="02:53.183">ra</span>
+        <span begin="02:53.183" end="02:53.188">〜</span>
       </p>
       <p begin="02:53.393" end="02:55.653" ttm:agent="v1" itunes:key="L51">
         <span begin="02:53.393" end="02:53.683">二</span>
