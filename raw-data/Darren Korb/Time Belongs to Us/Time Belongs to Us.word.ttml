@@ -648,9 +648,9 @@
     </metadata>
   </head>
   <body dur="04:58.160">
-    <div begin="00:31.270" end="01:00.280" itunes:song-part="Verse">
-      <p begin="00:31.270" end="00:33.230" ttm:agent="v2" itunes:key="L1">
-        <span begin="00:31.270" end="00:31.510">Be</span>
+    <div begin="00:31.380" end="01:00.280" itunes:song-part="Verse">
+      <p begin="00:31.380" end="00:33.230" ttm:agent="v2" itunes:key="L1">
+        <span begin="00:31.380" end="00:31.510">Be</span>
         <span begin="00:31.510" end="00:31.980">fore</span>
         <span begin="00:31.980" end="00:31.980"> </span>
         <span begin="00:31.980" end="00:32.170">the</span>
@@ -981,9 +981,9 @@
         <span begin="03:08.820" end="03:09.020">d</span>
       </p>
     </div>
-    <div begin="03:20.700" end="03:42.620" itunes:song-part="Bridge">
-      <p begin="03:20.700" end="03:27.640" ttm:agent="v1" itunes:key="L29">
-        <span begin="03:20.700" end="03:22.580">Fa</span>
+    <div begin="03:20.800" end="03:42.620" itunes:song-part="Bridge">
+      <p begin="03:20.800" end="03:27.640" ttm:agent="v1" itunes:key="L29">
+        <span begin="03:20.800" end="03:22.580">Fa</span>
         <span begin="03:22.580" end="03:22.830">tes s</span>
         <span begin="03:22.830" end="03:24.550">till</span>
         <span begin="03:24.550" end="03:24.550"> </span>
@@ -1010,8 +1010,8 @@
         <span begin="03:38.280" end="03:38.570">lea</span>
         <span begin="03:38.570" end="03:38.970">ving</span>
       </p>
-      <p begin="03:38.970" end="03:42.620" ttm:agent="v1" itunes:key="L32">
-        <span begin="03:38.970" end="03:39.490">Wo</span>
+      <p begin="03:39.040" end="03:42.620" ttm:agent="v1" itunes:key="L32">
+        <span begin="03:39.040" end="03:39.490">Wo</span>
         <span begin="03:39.490" end="03:40.090">ven</span>
         <span begin="03:40.090" end="03:40.090"> </span>
         <span begin="03:40.090" end="03:40.390">all</span>
