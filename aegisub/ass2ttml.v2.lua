@@ -19,8 +19,8 @@ local re = require 'aegisub.re'
 script_name = "ASS2TTML V2 - AMLL歌词格式转换 V2"
 script_description = "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.1-Release Asaba Harumasa"
-script_modified = "2025-12-09"
+script_version = "1.2-Release Hugo Vlad"
+script_modified = "2025-12-22"
 
 -- 导入卡拉OK处理库
 include("karaskel.lua")
@@ -1236,6 +1236,87 @@ function script_main(subtitles)
     options.offset = tonumber(options.offset) or 0
 
     if #subs == 0 then aegisub.cancel() end
+
+    -- 语言代码有效性检查
+    local valid_langs = {
+        ["af"] = true,
+        ["ar"] = true,
+        ["be"] = true,
+        ["bg"] = true,
+        ["bn"] = true,
+        ["ca"] = true,
+        ["cs"] = true,
+        ["cy"] = true,
+        ["da"] = true,
+        ["de"] = true,
+        ["el"] = true,
+        ["en"] = true,
+        ["eo"] = true,
+        ["es"] = true,
+        ["es-419"] = true,
+        ["et"] = true,
+        ["fa"] = true,
+        ["fi"] = true,
+        ["fr"] = true,
+        ["fr-CA"] = true,
+        ["ga"] = true,
+        ["gl"] = true,
+        ["gu"] = true,
+        ["he"] = true,
+        ["hi"] = true,
+        ["hr"] = true,
+        ["ht"] = true,
+        ["hu"] = true,
+        ["id"] = true,
+        ["is"] = true,
+        ["it"] = true,
+        ["ja"] = true,
+        ["ka"] = true,
+        ["kn"] = true,
+        ["ko"] = true,
+        ["lt"] = true,
+        ["lv"] = true,
+        ["mk"] = true,
+        ["mr"] = true,
+        ["ms"] = true,
+        ["mt"] = true,
+        ["nl"] = true,
+        ["no"] = true,
+        ["pl"] = true,
+        ["pt"] = true,
+        ["pt-BR"] = true,
+        ["pt-PT"] = true,
+        ["ro"] = true,
+        ["ru"] = true,
+        ["sk"] = true,
+        ["sl"] = true,
+        ["sq"] = true,
+        ["sv"] = true,
+        ["sw"] = true,
+        ["ta"] = true,
+        ["te"] = true,
+        ["th"] = true,
+        ["tl"] = true,
+        ["tr"] = true,
+        ["uk"] = true,
+        ["ur"] = true,
+        ["vi"] = true,
+        ["zh"] = true,
+        ["zh-Hans"] = true,
+        ["zh-Hant"] = true
+    }
+    if options.lang ~= nil and options.lang:trim() ~= '' and not valid_langs[options.lang] then
+        local btn_lang, _ = aegisub.dialog.display({
+            {
+                class = 'label',
+                label = '警告：您输入的语言代码 [' .. options.lang ..
+                    '] 不在常用列表中，是否继续？',
+                x = 0,
+                y = 0
+            }
+        }, {"Yes", "No"})
+        if btn_lang ~= "Yes" then aegisub.cancel() end
+    end
 
     -- 5. 处理TTML数据
     process_ttml()
