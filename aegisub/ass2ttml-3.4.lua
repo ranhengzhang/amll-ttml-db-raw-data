@@ -16,8 +16,8 @@ local tr = aegisub.gettext
 script_name = tr "ASS2TTML - AMLL歌词格式转换"
 script_description = tr "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.5 Wriothesley"
-script_modified = "2025-12-11"
+script_version = "1.6 Neuvillette"
+script_modified = "2025-12-22"
 
 -- 包含karaskel库，用于卡拉OK处理
 include("karaskel.lua")
@@ -267,8 +267,8 @@ function script_main(subtitles)
                 end
 
                 ttml[ttml.n] = {
-                    sbegin = start_time,
-                    send = end_time,
+                    sbegin = time_to_string(start_time),
+                    send = time_to_string(end_time),
                     stext = syl.text_stripped
                 }
                 ttml.n = ttml.n + 1
