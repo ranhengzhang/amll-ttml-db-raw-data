@@ -4,11 +4,12 @@
 Title: Lamb.
 ScriptType: v4.00+
 Timer: 100.0000
-PlayResX: 1920
-PlayResY: 1080
+PlayResX: 3400
+PlayResY: 1440
 WrapStyle: 0
 ScaledBorderAndShadow: no
-Update Details: +48ms
+Update Details: +48ms[響喜乱舞]; +193ms[Linkage Ring/Lamb.]
+Original Script: ja
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
@@ -17,158 +18,164 @@ Last Style Storage: Default
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: roma-furigana,Raleway-v4020 ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
 Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
-Style: orig,Sarasa Gothic J SemiBold,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,7.5,0,1,6.5,0,2,10,10,10,1
-Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
+Style: orig,IPAexMincho,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,7.5,0,1,6.5,0,2,10,10,10,1
+Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
 Style: roma,Raleway-v4020 ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
-Style: orig-furigana,Dream Han Serif JP W27,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
+Style: orig-furigana,Dream Han Serif JP W27,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time=0; pre_pos=0;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,if (line.start_time)-200 < (pre_end_time)+800 then line.pos=1-pre_pos; else line.pos=0; end; pre_end_time=line.end_time; pre_pos=line.pos; if line.pos == 1 then line.top = line.top - line.height*1.65; line.bottom = line.bottom - line.height*1.65; end;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.top-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:22.44,0:00:26.01,orig,L__1,0,0,0,karaoke,{\ko0}『{\ko17}会|<あ{\ko47}い{\ko25}た{\ko14}い』{\ko35}に{\ko20}{\ko18}隠|<か{\ko28}#|く{\ko20}れ{\ko21}た{\ko22}本|<ほ{\ko11}#|ん{\ko43}性|しょ{\ko36}#|う
-Comment: 0,0:00:22.44,0:00:26.01,roma,____,0,0,0,karaoke,a i ta i ni ka ku re ta ho n shō
-Comment: 0,0:00:22.44,0:00:26.01,ts,____,0,0,0,karaoke,“好想见你”背后 隐藏的真实本性
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time={n=0}; line_pos=0; line_scale=2; ahead_time=0; main_bottom=0; zero_hint=true; text_hint=true; line_num=0;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,function mask_style(syl,line) if syl.furi.n==0 then return "\\t("..(syl.start_time+ahead_time)..","..(syl.end_time+ahead_time)..",\\iclip("..(line.left+syl.right)..","..(line.top)..","..(line.left+syl.right)..","..(line.bottom).."))"; end; local furis={n=0}; local count=0; for i=0, syl.furi.n do if syl.furi[i] then local furi={}; for i, v in _G.pairs(syl.furi[i]) do furi[i]=v; end; if furi["text_spacestripped"]~="" then furis[furis.n]=furi; furis.n=furis.n+1; count=count+_G.unicode.len(furi["text_spacestripped"]); end; end; end; if furis.n==0 then return "\\t("..(syl.start_time+ahead_time)..","..(syl.end_time+ahead_time)..",\\iclip("..(line.left+syl.right)..","..(line.top)..","..(line.left+syl.right)..","..(line.bottom).."))"; end; local animate=""; local recent=0; for i=0, #furis do local furi=furis[i]; recent=recent+_G.unicode.len(furi["text_spacestripped"]); animate=animate.."\\t("..(furi.start_time+ahead_time)..","..(furi.end_time+ahead_time)..",\\iclip("..(line.left+syl.left+syl.width/count*recent)..","..(line.top)..","..(line.left+syl.left+syl.right)..","..(line.bottom).."))"; end; return animate; end;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,function pos_index(line) line_pos=0; for i=0, pre_end_time.n do line_pos=i; if pre_end_time[i]==nil or (line.start_time-pre_end_time[i])>=1000 then break end; end; if line_pos>=pre_end_time.n then pre_end_time.n=pre_end_time.n+1; end; pre_end_time[line_pos]=line.end_time; end;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,pos_index(line); line.top=line.top-100; ahead_time=math.min(line.start_time, 800); line.bottom=line.bottom-100; line.top=line.top-line.height*line_scale*line_pos; line.bottom=line.bottom-line.height*line_scale*line_pos; main_bottom=line.bottom; if not line.actor:find("x%-bg") then line_num=line_num+1; end;
+Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{!((syl.text:find("\\%-Z") or syl.text:find("\\%-zero")) and zero_hint) and "\\u1" or ""!\an2!((syl.text:find("\\%-T") or syl.text:find("\\%-text")) and zero_hint) and "\\3a&HFF&" or ""!\pos(!line.left+syl.center!,!line.bottom!)\k!line.duration/10+ahead_time/10!\k0\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}
+Comment: 2,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{\an2\pos(!line.left+syl.center!,!line.bottom!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\3a&HFF&\iclip(!line.left+syl.left!,!line.top!,!line.left+syl.right!,!line.bottom!)!mask_style(syl,line)!}
+Comment: 3,0:00:00.00,0:00:00.00,orig,,0,0,0,template pre-line mark notext,!retime("line", -(ahead_time), 200)!{\an7\pos(25,!25+line.height*line_pos!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}!line.actor:find("x%-bg") and "("..line_num..")" or line_num!
+Comment: 3,0:00:00.00,0:00:00.00,orig,,0,0,0,template line mark notext,!""!
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -(ahead_time), 200)!{\an2\pos(!line.left+syl.center!,!line.top!)\k!($sstart/10)+ahead_time/10!\kf!($skdur)!\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{\an8\pos(!line.left+syl.center!,!main_bottom!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\k!line.raw:find("{\\k") and (($sstart/10)+ahead_time/10) or 0!\kf!($skdur)!}
+Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,code line,line.top=line.top+line.height*line_pos*1.15; line.bottom=line.bottom-line.height*line_pos*1.15;
+Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\an8\pos(!line.left+syl.center!,!line.top!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\k!line.raw:find("{\\k") and (($sstart/10)+ahead_time/10) or 0!\kf!($skdur)!}
+Dialogue: 0,0:00:22.44,0:00:26.01,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko0\-Z}『{\ko17}会|<あ{\ko47}い{\ko25}た{\ko14}い{\ko0\-Z}』{\ko35}に{\ko20}{\ko18}隠|<か{\ko28}#|く{\ko20}れ{\ko21}た{\ko22}本|<ほ{\ko11}#|ん{\ko43}性|しょ{\ko36}#|う
+Dialogue: 0,0:00:22.44,0:00:26.01,roma,____,0,0,0,karaoke,{\k0}{\k17}a {\k47}i {\k25}ta {\k14}i {\k0}{\k35}ni {\k20}{\k18}ka {\k28}ku {\k20}re {\k21}ta {\k22}ho{\k11}n {\k43}sho {\k36}u
+Dialogue: 0,0:00:22.44,0:00:26.01,ts,____,0,0,0,karaoke,“好想见你”背后 隐藏的真实本性
 Comment: 0,0:00:22.44,0:00:26.01,tuck,____,0,0,0,,{\kf2236}『{\kf20}会{\kf48}い{\kf28}た{\kf11}い{\kf0}』{\kf50}に{\kf51}隠{\kf20}れ{\kf21}た{\kf37}本{\kf80}性
-Comment: 0,0:00:29.75,0:00:33.18,orig,L__2,0,0,0,karaoke,{\ko19}気|<き{\ko48}づ{\ko27}か{\ko16}な{\ko27}い{\ko26}と{\ko23}{\ko10}思|<お{\ko19}#|も{\ko15}っ{\ko20}て{\ko24}い{\ko9}る{\ko60}の？
-Comment: 0,0:00:29.75,0:00:33.18,roma,____,0,0,0,karaoke,ki zu ka na i to o mo tte i ru no
-Comment: 0,0:00:29.75,0:00:33.18,ts,____,0,0,0,karaoke,你以为我还没发现吗
+Dialogue: 0,0:00:29.75,0:00:33.18,orig,L__2,0,0,0,karaoke,{\ko19}気|<き{\ko48}づ{\ko27}か{\ko16}な{\ko27}い{\ko26}と{\ko23}{\ko10}思|<お{\ko19}#|も{\ko15}っ{\ko20}て{\ko24}い{\ko9}る{\ko60}の{\ko0\-Z}？
+Dialogue: 0,0:00:29.75,0:00:33.18,roma,____,0,0,0,karaoke,{\k19}ki {\k48}zu {\k27}ka {\k16}na {\k27}i {\k26}to {\k23}{\k10}o {\k19}mo {\k15}t{\k20}te {\k24}i {\k9}ru {\k60}no{\k0}
+Dialogue: 0,0:00:29.75,0:00:33.18,ts,____,0,0,0,karaoke,你以为我还没发现吗
 Comment: 0,0:00:29.75,0:00:33.18,tuck,____,0,0,0,,{\kf28}気{\kf47}づ{\kf29}か{\kf13}な{\kf32}い{\kf34}と{\kf44}思{\kf12}っ{\kf23}て{\kf22}い{\kf12}る{\kf45}の{\kf392}？
-Comment: 0,0:00:37.04,0:00:40.56,orig,L__3,0,0,0,karaoke,{\ko24}左|<ひ{\ko50}#|だ{\ko20}#|り{\ko13}手|て{\ko35}に{\ko33}は{\ko13}{\ko24}リ{\ko20}ン{\ko20}グ{\ko28}の{\ko11}{\ko33}跡|<あ{\ko28}#|と
-Comment: 0,0:00:37.04,0:00:40.56,roma,____,0,0,0,karaoke,hi da ri te ni wa ri n gu no a to
-Comment: 0,0:00:37.04,0:00:40.56,ts,____,0,0,0,karaoke,左手无名指残留的戒指痕迹
+Dialogue: 0,0:00:37.04,0:00:40.56,orig,L__3,0,0,0,karaoke,{\ko24}左|<ひ{\ko50}#|だ{\ko20}#|り{\ko13}手|て{\ko35}に{\ko33}は{\ko13}{\ko24}リ|<ri{\ko20}ン|n{\ko20}グ|g{\ko28}の{\ko11}{\ko33}跡|<あ{\ko28}#|と
+Dialogue: 0,0:00:37.04,0:00:40.56,roma,____,0,0,0,karaoke,{\k24}hi {\k50}da {\k20}ri {\k13}te {\k35}ni {\k33}wa {\k13}{\k24}ri{\k20}n {\k20}gu {\k28}no {\k11}{\k33}a {\k28}to
+Dialogue: 0,0:00:37.04,0:00:40.56,ts,____,0,0,0,karaoke,左手无名指残留的戒指痕迹
 Comment: 0,0:00:37.04,0:00:40.56,tuck,____,0,0,0,,{\kf100}左{\kf10}手{\kf31}に{\kf46}は{\kf28}リ{\kf21}ン{\kf23}グ{\kf34}の{\kf78}跡
-Comment: 0,0:00:44.42,0:00:47.84,orig,L__4,0,0,0,karaoke,{\ko8}嘘|<う{\ko64}#|そ{\ko19}も{\ko12}ろ{\ko35}く{\ko27}に{\ko15}{\ko13}つ{\ko9}け{\ko24}な{\ko20}い{\ko26}な{\ko13}ん{\ko57}て
-Comment: 0,0:00:44.42,0:00:47.84,roma,____,0,0,0,karaoke,u so mo ro ku ni tsu ke na i na n te
-Comment: 0,0:00:44.42,0:00:47.84,ts,____,0,0,0,karaoke,连谎言都编织得如此拙劣
+Dialogue: 0,0:00:44.42,0:00:47.84,orig,L__4,0,0,0,karaoke,{\ko8}嘘|<う{\ko64}#|そ{\ko19}も{\ko12}ろ{\ko35}く{\ko27}に{\ko15}{\ko13}つ{\ko9}け{\ko24}な{\ko20}い{\ko26}な{\ko13}ん{\ko57}て
+Dialogue: 0,0:00:44.42,0:00:47.84,roma,____,0,0,0,karaoke,{\k8}u {\k64}so {\k19}mo {\k12}ro {\k35}ku {\k27}ni {\k15}{\k13}tsu {\k9}ke {\k24}na {\k20}i {\k26}na{\k13}n {\k57}te
+Dialogue: 0,0:00:44.42,0:00:47.84,ts,____,0,0,0,karaoke,连谎言都编织得如此拙劣
 Comment: 0,0:00:44.42,0:00:47.84,tuck,____,0,0,0,,{\kf65}嘘{\kf35}も{\kf11}ろ{\kf15}く{\kf62}に{\kf11}つ{\kf11}け{\kf19}な{\kf26}い{\kf26}な{\kf12}ん{\kf62}て
-Comment: 0,0:00:51.65,0:00:58.80,orig,L__5,0,0,0,karaoke,{\ko30}寂|<さ{\ko49}#|び{\ko13}{\ko34}し{\ko46}い{\ko23}{\ko19}だ{\ko59}け{\ko11}{\ko24}な{\ko43}ら{\ko27} {\ko17}他|<ほ{\ko55}#|か{\ko19}{\ko18}で{\ko45}も{\ko29}{\ko22}イ{\ko66}イ{\ko17}で{\ko49}しょ
-Comment: 0,0:00:51.65,0:00:58.80,roma,____,0,0,0,karaoke,sa bi shi i da ke na ra ho ka de mo i i de sho
-Comment: 0,0:00:51.65,0:00:58.80,ts,____,0,0,0,karaoke,若只是排遣寂寞 找谁都无所谓吧
+Dialogue: 0,0:00:51.65,0:00:58.80,orig,L__5 x-part:PreChorus,0,0,0,karaoke,{\ko30}寂|<さ{\ko49}#|び{\ko13}{\ko34}し{\ko46}い{\ko23}{\ko19}だ{\ko59}け{\ko11}{\ko24}な{\ko43}ら{\ko27} {\ko17}他|<ほ{\ko55}#|か{\ko19}{\ko18}で{\ko45}も{\ko29}{\ko22}イ{\ko66}イ{\ko17}で{\ko49}しょ
+Dialogue: 0,0:00:51.65,0:00:58.80,roma,____,0,0,0,karaoke,{\k30}sa {\k49}bi {\k13}{\k34}shi {\k46}i {\k23}{\k19}da {\k59}ke {\k11}{\k24}na {\k43}ra {\k27}{\k17}ho {\k55}ka {\k19}{\k18}de {\k45}mo {\k29}{\k22}i {\k66}i {\k17}de {\k49}sho
+Dialogue: 0,0:00:51.65,0:00:58.80,ts,____,0,0,0,karaoke,若只是排遣寂寞 找谁都无所谓吧
 Comment: 0,0:00:51.65,0:00:58.80,tuck,____,0,0,0,,{\kf87}寂{\kf37}し{\kf84}い{\kf18}だ{\kf71}け{\kf28}な{\kf47}ら {\kf98}他{\kf15}で{\kf58}も{\kf99}イ{\kf14}イ{\kf16}で{\kf13}し{\kf36}ょ
-Comment: 0,0:00:59.09,0:01:05.73,orig,L__6,0,0,0,karaoke,{\ko16}キ{\ko55}ミ{\ko18}{\ko22}み{\ko70}たい{\ko21}な{\ko64}ヤ{\ko30}ツ{\ko30}は{\ko20} {\ko42}も{\ko48}う{\ko43}見|<み{\ko44}飽|あ{\ko41}き{\ko11}{\ko30}た{\ko14}{\ko45}の
-Comment: 0,0:00:59.09,0:01:05.73,roma,____,0,0,0,karaoke,ki mi mi ta i na ya tsu wa mō mi a ki ta no
-Comment: 0,0:00:59.09,0:01:05.73,ts,____,0,0,0,karaoke,像你这样的家伙 早就看腻了
+Dialogue: 0,0:00:59.09,0:01:05.73,orig,L__6,0,0,0,karaoke,{\ko16}キ{\ko55}ミ{\ko18}{\ko22}み{\ko70}たい{\ko21}な{\ko64}ヤ{\ko30}ツ{\ko30}は{\ko20} {\ko42}も{\ko48}う{\ko43}見|<み{\ko44}飽|あ{\ko41}き{\ko11}{\ko30}た{\ko14}{\ko45}の
+Dialogue: 0,0:00:59.09,0:01:05.73,roma,____,0,0,0,karaoke,{\k16}ki {\k55}mi {\k18}{\k22}mi {\k70}ta i {\k21}na {\k64}ya {\k30}tsu {\k30}wa {\k20}{\k42}mo {\k48}u {\k43}mi {\k44}a {\k41}ki {\k11}{\k30}ta {\k14}{\k45}no
+Dialogue: 0,0:00:59.09,0:01:05.73,ts,____,0,0,0,karaoke,像你这样的家伙 早就看腻了
 Comment: 0,0:00:59.09,0:01:05.73,tuck,____,0,0,0,,{\kf27}キ{\kf70}ミ{\kf27}み{\kf48}た{\kf18}い{\kf15}な{\kf72}ヤ{\kf30}ツ{\kf431}は {\kf4}も{\kf4}う{\kf4}見{\kf4}飽{\kf4}き{\kf4}た{\kf4}の
-Comment: 0,0:01:06.18,0:01:09.60,orig,L__7,0,0,0,karaoke,{\ko23}こ{\ko25}ん{\ko42}なイ{\ko27}カ{\ko9}れ{\ko19}た{\ko57}世|<せ{\ko24}界|か{\ko25}#|い{\ko24}の{\ko22}中|<な{\ko11}#|か{\ko34}で
-Comment: 0,0:01:06.18,0:01:09.60,roma,____,0,0,0,karaoke,ko n na i ka re ta se ka i no na ka de
-Comment: 0,0:01:06.18,0:01:09.60,ts,____,0,0,0,karaoke,在这个支离破碎的世界里
+Dialogue: 0,0:01:06.18,0:01:09.60,orig,L__7 x-part:Chorus,0,0,0,karaoke,{\ko23}こ{\ko25}ん{\ko42}なイ{\ko27}カ{\ko9}れ{\ko19}た{\ko57}世|<せ{\ko24}界|か{\ko25}#|い{\ko24}の{\ko22}中|<な{\ko11}#|か{\ko34}で
+Dialogue: 0,0:01:06.18,0:01:09.60,roma,____,0,0,0,karaoke,{\k23}ko{\k25}n {\k42}na i {\k27}ka {\k9}re {\k19}ta {\k57}se {\k24}ka {\k25}i {\k24}no {\k22}na {\k11}ka {\k34}de
+Dialogue: 0,0:01:06.18,0:01:09.60,ts,____,0,0,0,karaoke,在这个支离破碎的世界里
 Comment: 0,0:01:06.18,0:01:09.60,tuck,____,0,0,0,,{\kf6}こ{\kf3}ん{\kf14}な{\kf17}イ{\kf26}カ{\kf11}れ{\kf20}た{\kf54}世{\kf49}界{\kf20}の{\kf37}中{\kf35}で
-Comment: 0,0:01:09.81,0:01:13.30,orig,L__8,0,0,0,karaoke,{\ko25}ホ{\ko20}ン{\ko30}ト{\ko16}の{\ko28}愛|<あ{\ko11}#|い{\ko33}を{\ko17} {\ko46}探|<さ{\ko44}#|が{\ko52}し{\ko27}て
-Comment: 0,0:01:09.81,0:01:13.30,roma,____,0,0,0,karaoke,ho n to no a i o sa ga shi te
-Comment: 0,0:01:09.81,0:01:13.30,ts,____,0,0,0,karaoke,寻找着 所谓的真爱
+Dialogue: 0,0:01:09.81,0:01:13.30,orig,L__8,0,0,0,karaoke,{\ko25}ホ{\ko20}ン{\ko30}ト{\ko16}の{\ko28}愛|<あ{\ko11}#|い{\ko33}を{\ko17} {\ko46}探|<さ{\ko44}#|が{\ko52}し{\ko27}て
+Dialogue: 0,0:01:09.81,0:01:13.30,roma,____,0,0,0,karaoke,{\k25}ho{\k20}n {\k30}to {\k16}no {\k28}a {\k11}i {\k33}o {\k17}{\k46}sa {\k44}ga {\k52}shi {\k27}te
+Dialogue: 0,0:01:09.81,0:01:13.30,ts,____,0,0,0,karaoke,寻找着 所谓的真爱
 Comment: 0,0:01:09.81,0:01:13.30,tuck,____,0,0,0,,{\kf38}ホ{\kf16}ン{\kf27}ト{\kf20}の{\kf35}愛{\kf47}を {\kf94}探{\kf54}し{\kf30}て
-Comment: 0,0:01:13.49,0:01:16.73,orig,L__9,0,0,0,karaoke,{\ko25}迷|<ま{\ko19}#|い{\ko25}子|ご{\ko18}に{\ko21}な{\ko9}っ{\ko10}た {\ko14}私|<わ{\ko8}#|た{\ko54}#|し{\ko20}の{\ko13}方|<ほ{\ko15}#|う{\ko10}が{\ko36}cra{\ko27}zy？
-Comment: 0,0:01:13.49,0:01:16.73,roma,____,0,0,0,karaoke,ma i go ni na tta wa ta shi no hō ga crazy
-Comment: 0,0:01:13.49,0:01:16.73,ts,____,0,0,0,karaoke,迷失方向的我才更加疯狂
+Dialogue: 0,0:01:13.49,0:01:16.73,orig,L__9,0,0,0,karaoke,{\ko25}迷|<ま{\ko19}#|い{\ko25}子|ご{\ko18}に{\ko21}な{\ko9}っ{\ko10}た {\ko14}私|<わ{\ko8}#|た{\ko54}#|し{\ko20}の{\ko13}方|<ほ{\ko15}#|う{\ko10}が{\ko36}cra{\ko27}zy{\ko0\-Z}？
+Dialogue: 0,0:01:13.49,0:01:16.73,roma,____,0,0,0,karaoke,{\k25}ma {\k19}i {\k25}go {\k18}ni {\k21}na {\k9}t{\k10}ta {\k14}wa {\k8}ta {\k54}shi {\k20}no {\k13}ho {\k15}u {\k10}ga {\k36}cra{\k27}zy{\k0}
+Dialogue: 0,0:01:13.49,0:01:16.73,ts,____,0,0,0,karaoke,迷失方向的我才更加疯狂
 Comment: 0,0:01:13.49,0:01:16.73,tuck,____,0,0,0,,{\kf45}迷{\kf27}子{\kf21}に{\kf21}な{\kf6}っ{\kf11}た {\kf76}私{\kf21}の{\kf24}方{\kf11}が{\kf81}crazy{\kf0}？
-Comment: 0,0:01:16.94,0:01:17.63,orig,L_10,0,0,0,karaoke,{\ko23}Tell {\ko46}me
-Comment: 0,0:01:16.94,0:01:17.63,ts,____,0,0,0,karaoke,告诉我
-Comment: 0,0:01:17.34,0:01:18.03,orig,____ x-bg,0,0,0,karaoke,{\ko32}Tell {\ko37}me
-Comment: 0,0:01:17.34,0:01:18.03,ts,____ x-bg,0,0,0,karaoke,告诉我
-Comment: 0,0:01:17.83,0:01:18.40,orig,L_11,0,0,0,karaoke,{\ko25}Show {\ko32}me
-Comment: 0,0:01:17.83,0:01:18.40,ts,____,0,0,0,karaoke,展示给我
-Comment: 0,0:01:18.20,0:01:18.92,orig,____ x-bg,0,0,0,karaoke,{\ko38}Show {\ko34}me
-Comment: 0,0:01:18.20,0:01:18.92,ts,____ x-bg,0,0,0,karaoke,展示给我
-Comment: 0,0:01:18.78,0:01:20.39,orig,L_12,0,0,0,karaoke,{\ko43}Give {\ko22}me {\ko24}lo{\ko20}ve & {\ko52}truth
-Comment: 0,0:01:18.78,0:01:20.39,ts,____,0,0,0,karaoke,赐予我爱和真实
-Comment: 0,0:01:35.72,0:01:39.33,orig,L_13,0,0,0,karaoke,{\ko0}『{\ko19}愛|<あ{\ko36}#|い{\ko34}し{\ko12}て{\ko28}る』{\ko26}{\ko25}な{\ko23}ん{\ko25}て{\ko24}笑|<わ{\ko23}#|ら{\ko12}え{\ko25}る{\ko49}ね
-Comment: 0,0:01:35.72,0:01:39.33,roma,____,0,0,0,karaoke,a i shi te ru na n te wa ra e ru ne
-Comment: 0,0:01:35.72,0:01:39.33,ts,____,0,0,0,karaoke,说着“我爱你”什么的 真是可笑呢
+Dialogue: 0,0:01:16.94,0:01:17.63,orig,L_10,0,0,0,karaoke,{\ko23}Tell {\ko46}me
+Dialogue: 0,0:01:16.94,0:01:17.63,ts,____,0,0,0,karaoke,告诉我
+Dialogue: 0,0:01:17.34,0:01:18.03,orig,____ x-bg,0,0,0,karaoke,{\ko32}Tell {\ko37}me
+Dialogue: 0,0:01:17.34,0:01:18.03,ts,____ x-bg,0,0,0,karaoke,告诉我
+Dialogue: 0,0:01:17.83,0:01:18.40,orig,L_11,0,0,0,karaoke,{\ko25}Show {\ko32}me
+Dialogue: 0,0:01:17.83,0:01:18.40,ts,____,0,0,0,karaoke,展示给我
+Dialogue: 0,0:01:18.20,0:01:18.92,orig,____ x-bg,0,0,0,karaoke,{\ko38}Show {\ko34}me
+Dialogue: 0,0:01:18.20,0:01:18.92,ts,____ x-bg,0,0,0,karaoke,展示给我
+Dialogue: 0,0:01:18.78,0:01:20.39,orig,L_12,0,0,0,karaoke,{\ko43}Give {\ko22}me {\ko24}lo{\ko20}ve & {\ko52}truth
+Dialogue: 0,0:01:18.78,0:01:20.39,ts,____,0,0,0,karaoke,赐予我爱和真实
+Dialogue: 0,0:01:35.72,0:01:39.33,orig,L_13 x-part:Verse,0,0,0,karaoke,{\ko0\-Z}『{\ko19}愛|<あ{\ko36}#|い{\ko34}し{\ko12}て{\ko28}る{\ko0\-Z}』{\ko26}{\ko25}な{\ko23}ん{\ko25}て{\ko24}笑|<わ{\ko23}#|ら{\ko12}え{\ko25}る{\ko49}ね
+Dialogue: 0,0:01:35.72,0:01:39.33,roma,____,0,0,0,karaoke,{\k0}{\k19}a {\k36}i {\k34}shi {\k12}te {\k28}ru {\k0}{\k26}{\k25}na{\k23}n {\k25}te {\k24}wa {\k23}ra {\k12}e {\k25}ru {\k49}ne
+Dialogue: 0,0:01:35.72,0:01:39.33,ts,____,0,0,0,karaoke,说着“我爱你”什么的 真是可笑呢
 Comment: 0,0:01:35.72,0:01:39.33,tuck,____,0,0,0,,{\kf1551}『{\kf62}愛{\kf32}し{\kf13}て{\kf28}る{\kf16}』{\kf40}な{\kf24}ん{\kf9}て{\kf55}笑{\kf14}え{\kf25}る{\kf58}ね
-Comment: 0,0:01:43.06,0:01:46.43,orig,L_14,0,0,0,karaoke,{\ko20}意|<い{\ko42}味|み{\ko26}も{\ko11}わ{\ko22}か{\ko15}っ{\ko27}て{\ko18}{\ko20}い{\ko27}な{\ko20}い{\ko18}く{\ko22}せ{\ko49}に
-Comment: 0,0:01:43.06,0:01:46.43,roma,____,0,0,0,karaoke,i mi mo wa ka tte i na i ku se ni
-Comment: 0,0:01:43.06,0:01:46.43,ts,____,0,0,0,karaoke,明明连这句话的含义都不明白
+Dialogue: 0,0:01:43.06,0:01:46.43,orig,L_14,0,0,0,karaoke,{\ko20}意|<い{\ko42}味|み{\ko26}も{\ko11}わ{\ko22}か{\ko15}っ{\ko27}て{\ko18}{\ko20}い{\ko27}な{\ko20}い{\ko18}く{\ko22}せ{\ko49}に
+Dialogue: 0,0:01:43.06,0:01:46.43,roma,____,0,0,0,karaoke,{\k20}i {\k42}mi {\k26}mo {\k11}wa {\k22}ka {\k15}t{\k27}te {\k18}{\k20}i {\k27}na {\k20}i {\k18}ku {\k22}se {\k49}ni
+Dialogue: 0,0:01:43.06,0:01:46.43,ts,____,0,0,0,karaoke,明明连这句话的含义都不明白
 Comment: 0,0:01:43.06,0:01:46.43,tuck,____,0,0,0,,{\kf32}意{\kf40}味{\kf35}も{\kf11}わ{\kf20}か{\kf14}っ{\kf36}て{\kf31}い{\kf26}な{\kf17}い{\kf23}く{\kf17}せ{\kf46}に
-Comment: 0,0:01:50.29,0:01:54.00,orig,L_15,0,0,0,karaoke,{\ko30}信|<し{\ko44}#|ん{\ko25}じ{\ko12}て{\ko33}も{\ko39}どう{\ko27}せ{\ko27}裏|<う{\ko19}#|ら{\ko26}切|ぎ{\ko13}る{\ko27}で{\ko49}しょ
-Comment: 0,0:01:50.29,0:01:54.00,roma,____,0,0,0,karaoke,shi n ji te mo dō se u ra gi ru de sho
-Comment: 0,0:01:50.29,0:01:54.00,ts,____,0,0,0,karaoke,就算相信了最终还是会背叛吧
+Dialogue: 0,0:01:50.29,0:01:54.00,orig,L_15,0,0,0,karaoke,{\ko30}信|<し{\ko44}#|ん{\ko25}じ{\ko12}て{\ko33}も{\ko39}どう{\ko27}せ{\ko27}裏|<う{\ko19}#|ら{\ko26}切|ぎ{\ko13}る{\ko27}で{\ko49}しょ
+Dialogue: 0,0:01:50.29,0:01:54.00,roma,____,0,0,0,karaoke,{\k30}shi{\k44}n {\k25}ji {\k12}te {\k33}mo {\k39}do u {\k27}se {\k27}u {\k19}ra {\k26}gi {\k13}ru {\k27}de {\k49}sho
+Dialogue: 0,0:01:50.29,0:01:54.00,ts,____,0,0,0,karaoke,就算相信了最终还是会背叛吧
 Comment: 0,0:01:50.29,0:01:54.00,tuck,____,0,0,0,,{\kf79}信{\kf27}じ{\kf9}て{\kf33}も{\kf10}ど{\kf32}う{\kf32}せ{\kf36}裏{\kf29}切{\kf13}る{\kf29}で{\kf13}し{\kf40}ょ
-Comment: 0,0:01:57.64,0:02:01.22,orig,L_16,0,0,0,karaoke,{\ko29}そ{\ko41}れ{\ko27}な{\ko7}ら{\ko34}最|<さ{\ko38}#|い{\ko30}初|しょ{\ko30}か{\ko9}ら{\ko37}shut{\ko22} {\ko54}out!!!
-Comment: 0,0:01:57.64,0:02:01.22,roma,____,0,0,0,karaoke,so re na ra sa i sho ka ra shut out
-Comment: 0,0:01:57.64,0:02:01.22,ts,____,0,0,0,karaoke,那还不如从一开始就拒之门外
+Dialogue: 0,0:01:57.64,0:02:01.22,orig,L_16,0,0,0,karaoke,{\ko29}そ{\ko41}れ{\ko27}な{\ko7}ら{\ko34}最|<さ{\ko38}#|い{\ko30}初|しょ{\ko30}か{\ko9}ら{\ko37}shut{\ko22} {\ko54}out{\ko0\-Z}!!!
+Dialogue: 0,0:01:57.64,0:02:01.22,roma,____,0,0,0,karaoke,{\k29}so {\k41}re {\k27}na {\k7}ra {\k34}sa {\k38}i {\k30}sho {\k30}ka {\k9}ra {\k37}shut {\k22}{\k54}out{\k0}
+Dialogue: 0,0:01:57.64,0:02:01.22,ts,____,0,0,0,karaoke,那还不如从一开始就拒之门外
 Comment: 0,0:01:57.64,0:02:01.22,tuck,____,0,0,0,,{\kf35}そ{\kf38}れ{\kf32}な{\kf6}ら{\kf74}最{\kf29}初{\kf28}か{\kf12}ら{\kf50}shut {\kf57}out{\kf3}!!!
-Comment: 0,0:02:04.99,0:02:12.07,orig,L_17,0,0,0,karaoke,{\ko23}傷|<き{\ko53}#|ず{\ko17}{\ko24}つ{\ko49}く{\ko22}{\ko20}こ{\ko71}と{\ko23}に{\ko43}は{\ko25} {\ko25}も{\ko51}う{\ko16}{\ko23}慣|<な{\ko43}れ{\ko26}{\ko26}て{\ko54}る{\ko10}{\ko24}け{\ko40}ど
-Comment: 0,0:02:04.99,0:02:12.07,roma,____,0,0,0,karaoke,ki zu tsu ku ko to ni wa mō na re te ru ke do
-Comment: 0,0:02:04.99,0:02:12.07,ts,____,0,0,0,karaoke,虽然早已习惯受到伤害
+Dialogue: 0,0:02:04.99,0:02:12.07,orig,L_17 x-part:PreChorus,0,0,0,karaoke,{\ko23}傷|<き{\ko53}#|ず{\ko17}{\ko24}つ{\ko49}く{\ko22}{\ko20}こ{\ko71}と{\ko23}に{\ko43}は{\ko25} {\ko25}も{\ko51}う{\ko16}{\ko23}慣|<な{\ko43}れ{\ko26}{\ko26}て{\ko54}る{\ko10}{\ko24}け{\ko40}ど
+Dialogue: 0,0:02:04.99,0:02:12.07,roma,____,0,0,0,karaoke,{\k23}ki {\k53}zu {\k17}{\k24}tsu {\k49}ku {\k22}{\k20}ko {\k71}to {\k23}ni {\k43}wa {\k25}{\k25}mo {\k51}u {\k16}{\k23}na {\k43}re {\k26}{\k26}te {\k54}ru {\k10}{\k24}ke {\k40}do
+Dialogue: 0,0:02:04.99,0:02:12.07,ts,____,0,0,0,karaoke,虽然早已习惯受到伤害
 Comment: 0,0:02:04.99,0:02:12.07,tuck,____,0,0,0,,{\kf101}傷{\kf28}つ{\kf68}く{\kf19}こ{\kf71}と{\kf19}に{\kf60}は {\kf79}も{\kf11}う{\kf29}慣{\kf67}れ{\kf28}て{\kf64}る{\kf26}け{\kf43}ど
-Comment: 0,0:02:12.37,0:02:19.02,orig,L_18,0,0,0,karaoke,{\ko22}愛|<あ{\ko46}#|い{\ko15}{\ko27}し{\ko50}方|<か{\ko24}#|{\ko11}#|た{\ko78}さ{\ko20}え{\ko39}も{\ko13} {\ko33}忘|<わ{\ko54}#|す{\ko45}れ{\ko36}て{\ko16}し{\ko43}ま{\ko45}う{\ko48}わ
-Comment: 0,0:02:12.37,0:02:19.02,roma,____,0,0,0,karaoke,a i shi ka ta sa e mo wa su re te shi ma u wa
-Comment: 0,0:02:12.37,0:02:19.02,ts,____,0,0,0,karaoke,却连如何去爱都已遗忘
+Dialogue: 0,0:02:12.37,0:02:19.02,orig,L_18,0,0,0,karaoke,{\ko22}愛|<あ{\ko46}#|い{\ko15}{\ko27}し{\ko50}方|<か{\ko24}#|{\ko11}#|た{\ko78}さ{\ko20}え{\ko39}も{\ko13} {\ko33}忘|<わ{\ko54}#|す{\ko45}れ{\ko36}て{\ko16}し{\ko43}ま{\ko45}う{\ko48}わ
+Dialogue: 0,0:02:12.37,0:02:19.02,roma,____,0,0,0,karaoke,{\k22}a {\k46}i {\k15}{\k27}shi {\k50}ka {\k24}{\k11}ta {\k78}sa {\k20}e {\k39}mo {\k13}{\k33}wa {\k54}su {\k45}re {\k36}te {\k16}shi {\k43}ma {\k45}u {\k48}wa
+Dialogue: 0,0:02:12.37,0:02:19.02,ts,____,0,0,0,karaoke,却连如何去爱都已遗忘
 Comment: 0,0:02:12.37,0:02:19.02,tuck,____,0,0,0,,{\kf90}愛{\kf28}し{\kf86}方{\kf70}さ{\kf19}え{\kf50}も {\kf58}忘{\kf80}れ{\kf34}て{\kf16}し{\kf63}ま{\kf3}う{\kf6}わ
-Comment: 0,0:02:19.46,0:02:22.87,orig,L_19,0,0,0,karaoke,{\ko21}こ{\ko25}ん{\ko12}な{\ko33}寂|<さ{\ko16}#|び{\ko18}し{\ko22}い{\ko32}世|<せ{\ko27}界|か{\ko19}#|い{\ko28}か{\ko19}ら{\ko23}い{\ko14}つ{\ko32}か
-Comment: 0,0:02:19.46,0:02:22.87,roma,____,0,0,0,karaoke,ko n na sa bi shi i se ka i ka ra i tsu ka
-Comment: 0,0:02:19.46,0:02:22.87,ts,____,0,0,0,karaoke,总有一天要从这荒芜世界
+Dialogue: 0,0:02:19.46,0:02:22.87,orig,L_19 x-part:Chorus,0,0,0,karaoke,{\ko21}こ{\ko25}ん{\ko12}な{\ko33}寂|<さ{\ko16}#|び{\ko18}し{\ko22}い{\ko32}世|<せ{\ko27}界|か{\ko19}#|い{\ko28}か{\ko19}ら{\ko23}い{\ko14}つ{\ko32}か
+Dialogue: 0,0:02:19.46,0:02:22.87,roma,____,0,0,0,karaoke,{\k21}ko{\k25}n {\k12}na {\k33}sa {\k16}bi {\k18}shi {\k22}i {\k32}se {\k27}ka {\k19}i {\k28}ka {\k19}ra {\k23}i {\k14}tsu {\k32}ka
+Dialogue: 0,0:02:19.46,0:02:22.87,ts,____,0,0,0,karaoke,总有一天要从这荒芜世界
 Comment: 0,0:02:19.46,0:02:22.87,tuck,____,0,0,0,,{\kf33}こ{\kf3}ん{\kf25}な{\kf49}寂{\kf26}し{\kf15}い{\kf31}世{\kf43}界{\kf28}か{\kf22}ら{\kf24}い{\kf10}つ{\kf34}か
-Comment: 0,0:02:23.11,0:02:26.69,orig,L_20,0,0,0,karaoke,{\ko21}き{\ko23}っ{\ko26}と{\ko19}私|<わ{\ko20}#|た{\ko17}#|し{\ko37}を{\ko22} {\ko41}見|<み{\ko48}つ{\ko47}け{\ko37}て
-Comment: 0,0:02:23.11,0:02:26.69,roma,____,0,0,0,karaoke,ki tto wa ta shi o mi tsu ke te
-Comment: 0,0:02:23.11,0:02:26.69,ts,____,0,0,0,karaoke,必定会将我找到
+Dialogue: 0,0:02:23.11,0:02:26.69,orig,L_20,0,0,0,karaoke,{\ko21}き{\ko23}っ{\ko26}と{\ko19}私|<わ{\ko20}#|た{\ko17}#|し{\ko37}を{\ko22} {\ko41}見|<み{\ko48}つ{\ko47}け{\ko37}て
+Dialogue: 0,0:02:23.11,0:02:26.69,roma,____,0,0,0,karaoke,{\k21}ki {\k23}t{\k26}to {\k19}wa {\k20}ta {\k17}shi {\k37}o {\k22}{\k41}mi {\k48}tsu {\k47}ke {\k37}te
+Dialogue: 0,0:02:23.11,0:02:26.69,ts,____,0,0,0,karaoke,必定会将我找到
 Comment: 0,0:02:23.11,0:02:26.69,tuck,____,0,0,0,,{\kf45}き{\kf7}っ{\kf22}と{\kf59}私{\kf48}を {\kf49}見{\kf25}つ{\kf71}け{\kf43}て
-Comment: 0,0:02:26.80,0:02:29.98,orig,L_21,0,0,0,karaoke,{\ko25}戸|<と{\ko17}惑|ま{\ko25}#|ど{\ko23}い{\ko22}{\ko8}消|<け{\ko28}し{\ko10}て {\ko47}連|<つ{\ko25}れ{\ko10}だ{\ko12}し{\ko9}て{\ko37}Ba{\ko20}by
-Comment: 0,0:02:26.80,0:02:29.98,roma,____,0,0,0,karaoke,to ma do i ke shi te tsu re da shi te baby
-Comment: 0,0:02:26.80,0:02:29.98,ts,____,0,0,0,karaoke,消除迷惘 带我离开吧 亲爱的
+Dialogue: 0,0:02:26.80,0:02:29.98,orig,L_21,0,0,0,karaoke,{\ko25}戸|<と{\ko17}惑|ま{\ko25}#|ど{\ko23}い{\ko22}{\ko8}消|<け{\ko28}し{\ko10}て {\ko47}連|<つ{\ko25}れ{\ko10}だ{\ko12}し{\ko9}て{\ko37}Ba{\ko20}by
+Dialogue: 0,0:02:26.80,0:02:29.98,roma,____,0,0,0,karaoke,{\k25}to {\k17}ma {\k25}do {\k23}i {\k22}{\k8}ke {\k28}shi {\k10}te {\k47}tsu {\k25}re {\k10}da {\k12}shi {\k9}te {\k37}ba{\k20}by
+Dialogue: 0,0:02:26.80,0:02:29.98,ts,____,0,0,0,karaoke,消除迷惘 带我离开吧 亲爱的
 Comment: 0,0:02:26.80,0:02:29.98,tuck,____,0,0,0,,{\kf19}戸{\kf54}惑{\kf39}い{\kf11}消{\kf27}し{\kf9}て {\kf41}連{\kf29}れ{\kf14}だ{\kf11}し{\kf8}て{\kf80}Baby
-Comment: 0,0:02:30.22,0:02:30.72,orig,L_22,0,0,0,karaoke,{\ko27}Tell {\ko23}me
-Comment: 0,0:02:30.22,0:02:30.72,ts,____,0,0,0,karaoke,告诉我
-Comment: 0,0:02:30.66,0:02:31.28,orig,____ x-bg,0,0,0,karaoke,{\ko28}Tell {\ko34}me
-Comment: 0,0:02:30.66,0:02:31.28,ts,____ x-bg,0,0,0,karaoke,告诉我
-Comment: 0,0:02:31.10,0:02:31.79,orig,L_23,0,0,0,karaoke,{\ko26}Show {\ko43}me
-Comment: 0,0:02:31.10,0:02:31.79,ts,____,0,0,0,karaoke,展示给我
-Comment: 0,0:02:31.53,0:02:32.20,orig,____ x-bg,0,0,0,karaoke,{\ko28}Show {\ko39}me
-Comment: 0,0:02:31.53,0:02:32.20,ts,____ x-bg,0,0,0,karaoke,展示给我
-Comment: 0,0:02:32.01,0:02:33.72,orig,L_24,0,0,0,karaoke,{\ko49}Give {\ko22}me {\ko24}lo{\ko17}ve & {\ko59}truth
-Comment: 0,0:02:32.01,0:02:33.72,ts,____,0,0,0,karaoke,赐予我爱和真实
-Comment: 0,0:03:03.41,0:03:06.83,orig,L_25,0,0,0,karaoke,{\ko23}こ{\ko26}ん{\ko10}な{\ko36}寂|<さ{\ko16}#|び{\ko36}しい{\ko32}世|<せ{\ko31}界|か{\ko17}#|い{\ko27}か{\ko18}ら{\ko24}い{\ko15}つ{\ko31}か
-Comment: 0,0:03:03.41,0:03:06.83,roma,____,0,0,0,karaoke,ko n na sa bi shi i se ka i ka ra i tsu ka
-Comment: 0,0:03:03.41,0:03:06.83,ts,____,0,0,0,karaoke,总有一天要从这荒芜世界
+Dialogue: 0,0:02:30.22,0:02:30.72,orig,L_22,0,0,0,karaoke,{\ko27}Tell {\ko23}me
+Dialogue: 0,0:02:30.22,0:02:30.72,ts,____,0,0,0,karaoke,告诉我
+Dialogue: 0,0:02:30.66,0:02:31.28,orig,____ x-bg,0,0,0,karaoke,{\ko28}Tell {\ko34}me
+Dialogue: 0,0:02:30.66,0:02:31.28,ts,____ x-bg,0,0,0,karaoke,告诉我
+Dialogue: 0,0:02:31.10,0:02:31.79,orig,L_23,0,0,0,karaoke,{\ko26}Show {\ko43}me
+Dialogue: 0,0:02:31.10,0:02:31.79,ts,____,0,0,0,karaoke,展示给我
+Dialogue: 0,0:02:31.53,0:02:32.20,orig,____ x-bg,0,0,0,karaoke,{\ko28}Show {\ko39}me
+Dialogue: 0,0:02:31.53,0:02:32.20,ts,____ x-bg,0,0,0,karaoke,展示给我
+Dialogue: 0,0:02:32.01,0:02:33.72,orig,L_24,0,0,0,karaoke,{\ko49}Give {\ko22}me {\ko24}lo{\ko17}ve & {\ko59}truth
+Dialogue: 0,0:02:32.01,0:02:33.72,ts,____,0,0,0,karaoke,赐予我爱和真实
+Dialogue: 0,0:03:03.41,0:03:06.83,orig,L_25 x-part:Bridge,0,0,0,karaoke,{\ko23}こ{\ko26}ん{\ko10}な{\ko36}寂|<さ{\ko16}#|び{\ko36}しい{\ko32}世|<せ{\ko31}界|か{\ko17}#|い{\ko27}か{\ko18}ら{\ko24}い{\ko15}つ{\ko31}か
+Dialogue: 0,0:03:03.41,0:03:06.83,roma,____,0,0,0,karaoke,{\k23}ko{\k26}n {\k10}na {\k36}sa {\k16}bi {\k36}shi i {\k32}se {\k31}ka {\k17}i {\k27}ka {\k18}ra {\k24}i {\k15}tsu {\k31}ka
+Dialogue: 0,0:03:03.41,0:03:06.83,ts,____,0,0,0,karaoke,总有一天要从这荒芜世界
 Comment: 0,0:03:03.41,0:03:06.83,tuck,____,0,0,0,,{\kf13}こ{\kf33}ん{\kf14}な{\kf50}寂{\kf11}し{\kf26}い{\kf25}世{\kf51}界{\kf29}か{\kf18}ら{\kf23}い{\kf16}つ{\kf33}か
-Comment: 0,0:03:07.08,0:03:10.58,orig,L_26,0,0,0,karaoke,{\ko20}き{\ko21}っ{\ko30}と{\ko17}私|<わ{\ko21}#|た{\ko20}#|し{\ko25}を{\ko28} {\ko38}見|<み{\ko56}つ{\ko46}け{\ko28}て
-Comment: 0,0:03:07.08,0:03:10.58,roma,____,0,0,0,karaoke,ki tto wa ta shi o mi tsu ke te
-Comment: 0,0:03:07.08,0:03:10.58,ts,____,0,0,0,karaoke,必定会将我 找到
+Dialogue: 0,0:03:07.08,0:03:10.58,orig,L_26,0,0,0,karaoke,{\ko20}き{\ko21}っ{\ko30}と{\ko17}私|<わ{\ko21}#|た{\ko20}#|し{\ko25}を{\ko28} {\ko38}見|<み{\ko56}つ{\ko46}け{\ko28}て
+Dialogue: 0,0:03:07.08,0:03:10.58,roma,____,0,0,0,karaoke,{\k20}ki {\k21}t{\k30}to {\k17}wa {\k21}ta {\k20}shi {\k25}o {\k28}{\k38}mi {\k56}tsu {\k46}ke {\k28}te
+Dialogue: 0,0:03:07.08,0:03:10.58,ts,____,0,0,0,karaoke,必定会将我 找到
 Comment: 0,0:03:07.08,0:03:10.58,tuck,____,0,0,0,,{\kf48}き{\kf10}っ{\kf24}と{\kf58}私{\kf46}を {\kf45}見{\kf52}つ{\kf53}け{\kf27}て
-Comment: 0,0:03:10.78,0:03:13.94,orig,L_27,0,0,0,karaoke,{\ko19}戸|<と{\ko26}惑|ま{\ko25}#|ど{\ko21}い{\ko19}も{\ko9}消|<け{\ko24}し{\ko11}て {\ko50}連|<つ{\ko21}れ{\ko12}だ{\ko9}し{\ko15}てよ{\ko38}Ba{\ko17}by
-Comment: 0,0:03:10.78,0:03:13.94,roma,____,0,0,0,karaoke,to ma do i mo ke shi te tsu re da shi te yo baby
-Comment: 0,0:03:10.78,0:03:13.94,ts,____,0,0,0,karaoke,消除所有困惑 带我离开吧 亲爱的
+Dialogue: 0,0:03:10.78,0:03:13.94,orig,L_27,0,0,0,karaoke,{\ko19}戸|<と{\ko26}惑|ま{\ko25}#|ど{\ko21}い{\ko19}も{\ko9}消|<け{\ko24}し{\ko11}て {\ko50}連|<つ{\ko21}れ{\ko12}だ{\ko9}し{\ko15}てよ{\ko38}Ba{\ko17}by
+Dialogue: 0,0:03:10.78,0:03:13.94,roma,____,0,0,0,karaoke,{\k19}to {\k26}ma {\k25}do {\k21}i {\k19}mo {\k9}ke {\k24}shi {\k11}te {\k50}tsu {\k21}re {\k12}da {\k9}shi {\k15}te yo {\k38}ba{\k17}by
+Dialogue: 0,0:03:10.78,0:03:13.94,ts,____,0,0,0,karaoke,消除所有困惑 带我离开吧 亲爱的
 Comment: 0,0:03:10.78,0:03:13.94,tuck,____,0,0,0,,{\kf26}戸{\kf50}惑{\kf16}い{\kf22}も{\kf12}消{\kf24}し{\kf9}て {\kf40}連{\kf28}れ{\kf17}だ{\kf11}し{\kf6}て{\kf6}よ{\kf57}Baby
-Comment: 0,0:03:14.19,0:03:14.83,orig,L_28,0,0,0,karaoke,{\ko28}Tell {\ko36}me
-Comment: 0,0:03:14.19,0:03:14.83,ts,____,0,0,0,karaoke,告诉我
-Comment: 0,0:03:15.06,0:03:15.77,orig,L_29,0,0,0,karaoke,{\ko32}Show {\ko39}me
-Comment: 0,0:03:15.06,0:03:15.77,ts,____,0,0,0,karaoke,展示给我
-Comment: 0,0:03:16.05,0:03:17.53,orig,L_30,0,0,0,karaoke,{\ko40}Give {\ko25}me {\ko23}lo{\ko20}ve & {\ko40}truth
-Comment: 0,0:03:16.05,0:03:17.53,ts,____,0,0,0,karaoke,赐予我爱和真实
-Comment: 0,0:03:18.09,0:03:21.51,orig,L_31,0,0,0,karaoke,{\ko22}こ{\ko27}ん{\ko39}なイ{\ko26}カ{\ko11}れ{\ko21}た{\ko59}世|<せ{\ko23}界|か{\ko22}#|い{\ko25}の{\ko20}中|<な{\ko13}#|か{\ko34}で
-Comment: 0,0:03:18.09,0:03:21.51,roma,____,0,0,0,karaoke,ko n na i ka re ta se ka i no na ka de
-Comment: 0,0:03:18.09,0:03:21.51,ts,____,0,0,0,karaoke,在这个支离破碎的世界里
+Dialogue: 0,0:03:14.19,0:03:14.83,orig,L_28,0,0,0,karaoke,{\ko28}Tell {\ko36}me
+Dialogue: 0,0:03:14.19,0:03:14.83,ts,____,0,0,0,karaoke,告诉我
+Dialogue: 0,0:03:15.06,0:03:15.77,orig,L_29,0,0,0,karaoke,{\ko32}Show {\ko39}me
+Dialogue: 0,0:03:15.06,0:03:15.77,ts,____,0,0,0,karaoke,展示给我
+Dialogue: 0,0:03:16.05,0:03:17.53,orig,L_30,0,0,0,karaoke,{\ko40}Give {\ko25}me {\ko23}lo{\ko20}ve & {\ko40}truth
+Dialogue: 0,0:03:16.05,0:03:17.53,ts,____,0,0,0,karaoke,赐予我爱和真实
+Dialogue: 0,0:03:18.09,0:03:21.51,orig,L_31 x-part:Chorus,0,0,0,karaoke,{\ko22}こ{\ko27}ん{\ko39}なイ{\ko26}カ{\ko11}れ{\ko21}た{\ko59}世|<せ{\ko23}界|か{\ko22}#|い{\ko25}の{\ko20}中|<な{\ko13}#|か{\ko34}で
+Dialogue: 0,0:03:18.09,0:03:21.51,roma,____,0,0,0,karaoke,{\k22}ko{\k27}n {\k39}na i {\k26}ka {\k11}re {\k21}ta {\k59}se {\k23}ka {\k22}i {\k25}no {\k20}na {\k13}ka {\k34}de
+Dialogue: 0,0:03:18.09,0:03:21.51,ts,____,0,0,0,karaoke,在这个支离破碎的世界里
 Comment: 0,0:03:18.09,0:03:21.51,tuck,____,0,0,0,,{\kf14}こ{\kf3}ん{\kf57}な{\kf17}イ{\kf28}カ{\kf10}れ{\kf22}た{\kf52}世{\kf48}界{\kf20}の{\kf38}中{\kf37}で
-Comment: 0,0:03:21.73,0:03:25.25,orig,L_32,0,0,0,karaoke,{\ko23}ホ{\ko21}ン{\ko28}ト{\ko20}の{\ko24}愛|<あ{\ko11}#|い{\ko33}を{\ko18} {\ko50}探|<さ{\ko41}#|が{\ko53}し{\ko30}て
-Comment: 0,0:03:21.73,0:03:25.25,roma,____,0,0,0,karaoke,ho n to no a i o sa ga shi te
-Comment: 0,0:03:21.73,0:03:25.25,ts,____,0,0,0,karaoke,寻找着 所谓的真爱
+Dialogue: 0,0:03:21.73,0:03:25.25,orig,L_32,0,0,0,karaoke,{\ko23}ホ{\ko21}ン{\ko28}ト{\ko20}の{\ko24}愛|<あ{\ko11}#|い{\ko33}を{\ko18} {\ko50}探|<さ{\ko41}#|が{\ko53}し{\ko30}て
+Dialogue: 0,0:03:21.73,0:03:25.25,roma,____,0,0,0,karaoke,{\k23}ho{\k21}n {\k28}to {\k20}no {\k24}a {\k11}i {\k33}o {\k18}{\k50}sa {\k41}ga {\k53}shi {\k30}te
+Dialogue: 0,0:03:21.73,0:03:25.25,ts,____,0,0,0,karaoke,寻找着 所谓的真爱
 Comment: 0,0:03:21.73,0:03:25.25,tuck,____,0,0,0,,{\kf38}ホ{\kf15}ン{\kf27}ト{\kf18}の{\kf38}愛{\kf42}を {\kf98}探{\kf56}し{\kf35}て
-Comment: 0,0:03:25.42,0:03:28.64,orig,L_33,0,0,0,karaoke,{\ko22}迷|<ま{\ko21}#|い{\ko25}子|ご{\ko17}に{\ko21}な{\ko7}っ{\ko11}た {\ko22}私|<わ{\ko6}#|た{\ko50}#|し{\ko22}の{\ko12}方|<ほ{\ko16}#|う{\ko9}が{\ko36}cra{\ko25}zy？
-Comment: 0,0:03:25.42,0:03:28.64,roma,____,0,0,0,karaoke,ma i go ni na tta wa ta shi no hō ga crazy
-Comment: 0,0:03:25.42,0:03:28.64,ts,____,0,0,0,karaoke,迷失方向的我才更加疯狂
+Dialogue: 0,0:03:25.42,0:03:28.64,orig,L_33,0,0,0,karaoke,{\ko22}迷|<ま{\ko21}#|い{\ko25}子|ご{\ko17}に{\ko21}な{\ko7}っ{\ko11}た {\ko22}私|<わ{\ko6}#|た{\ko50}#|し{\ko22}の{\ko12}方|<ほ{\ko16}#|う{\ko9}が{\ko36}cra{\ko25}zy{\ko0\-Z}？
+Dialogue: 0,0:03:25.42,0:03:28.64,roma,____,0,0,0,karaoke,{\k22}ma {\k21}i {\k25}go {\k17}ni {\k21}na {\k7}t{\k11}ta {\k22}wa {\k6}ta {\k50}shi {\k22}no {\k12}ho {\k16}u {\k9}ga {\k36}cra{\k25}zy{\k0}
+Dialogue: 0,0:03:25.42,0:03:28.64,ts,____,0,0,0,karaoke,迷失方向的我才更加疯狂
 Comment: 0,0:03:25.42,0:03:28.64,tuck,____,0,0,0,,{\kf47}迷{\kf28}子{\kf17}に{\kf21}な{\kf5}っ{\kf11}た {\kf78}私{\kf23}の{\kf28}方{\kf7}が{\kf65}crazy{\kf20}？
-Comment: 0,0:03:28.86,0:03:29.50,orig,L_34,0,0,0,karaoke,{\ko19}Tell {\ko45}me
-Comment: 0,0:03:28.86,0:03:29.50,ts,____,0,0,0,karaoke,告诉我
-Comment: 0,0:03:29.29,0:03:29.89,orig,____ x-bg,0,0,0,karaoke,{\ko28}Tell {\ko32}me
-Comment: 0,0:03:29.29,0:03:29.89,ts,____ x-bg,0,0,0,karaoke,告诉我
-Comment: 0,0:03:29.71,0:03:30.29,orig,L_35,0,0,0,karaoke,{\ko31}Show {\ko27}me
-Comment: 0,0:03:29.71,0:03:30.29,ts,____,0,0,0,karaoke,展示给我
-Comment: 0,0:03:30.15,0:03:30.80,orig,____ x-bg,0,0,0,karaoke,{\ko31}Show {\ko34}me
-Comment: 0,0:03:30.15,0:03:30.80,ts,____ x-bg,0,0,0,karaoke,展示给我
-Comment: 0,0:03:30.68,0:03:32.28,orig,L_36,0,0,0,karaoke,{\ko41}Give {\ko25}me {\ko25}lo{\ko18}ve & {\ko51}truth
-Comment: 0,0:03:30.68,0:03:32.28,ts,____,0,0,0,karaoke,赐予我爱和真实
-Comment: 0,0:03:32.53,0:03:33.14,orig,L_37,0,0,0,karaoke,{\ko24}Tell {\ko37}me
-Comment: 0,0:03:32.53,0:03:33.14,ts,____,0,0,0,karaoke,告诉我
-Comment: 0,0:03:32.98,0:03:33.55,orig,____ x-bg,0,0,0,karaoke,{\ko26}Tell {\ko31}me
-Comment: 0,0:03:32.98,0:03:33.55,ts,____ x-bg,0,0,0,karaoke,告诉我
-Comment: 0,0:03:33.39,0:03:34.08,orig,L_38,0,0,0,karaoke,{\ko25}Show {\ko44}me
-Comment: 0,0:03:33.39,0:03:34.08,ts,____,0,0,0,karaoke,展示给我
-Comment: 0,0:03:33.82,0:03:34.46,orig,____ x-bg,0,0,0,karaoke,{\ko33}Show {\ko31}me
-Comment: 0,0:03:33.82,0:03:34.46,ts,____ x-bg,0,0,0,karaoke,展示给我
-Comment: 0,0:03:34.43,0:03:36.04,orig,L_39,0,0,0,karaoke,{\ko37}Give {\ko20}me {\ko24}lo{\ko21}ve & {\ko59}truth
-Comment: 0,0:03:34.43,0:03:36.04,ts,____,0,0,0,karaoke,赐予我爱和真实
+Dialogue: 0,0:03:28.86,0:03:29.50,orig,L_34,0,0,0,karaoke,{\ko19}Tell {\ko45}me
+Dialogue: 0,0:03:28.86,0:03:29.50,ts,____,0,0,0,karaoke,告诉我
+Dialogue: 0,0:03:29.29,0:03:29.89,orig,____ x-bg,0,0,0,karaoke,{\ko28}Tell {\ko32}me
+Dialogue: 0,0:03:29.29,0:03:29.89,ts,____ x-bg,0,0,0,karaoke,告诉我
+Dialogue: 0,0:03:29.71,0:03:30.29,orig,L_35,0,0,0,karaoke,{\ko31}Show {\ko27}me
+Dialogue: 0,0:03:29.71,0:03:30.29,ts,____,0,0,0,karaoke,展示给我
+Dialogue: 0,0:03:30.15,0:03:30.80,orig,____ x-bg,0,0,0,karaoke,{\ko31}Show {\ko34}me
+Dialogue: 0,0:03:30.15,0:03:30.80,ts,____ x-bg,0,0,0,karaoke,展示给我
+Dialogue: 0,0:03:30.68,0:03:32.28,orig,L_36,0,0,0,karaoke,{\ko41}Give {\ko25}me {\ko25}lo{\ko18}ve & {\ko51}truth
+Dialogue: 0,0:03:30.68,0:03:32.28,ts,____,0,0,0,karaoke,赐予我爱和真实
+Dialogue: 0,0:03:32.53,0:03:33.14,orig,L_37 x-part:Hook,0,0,0,karaoke,{\ko24}Tell {\ko37}me
+Dialogue: 0,0:03:32.53,0:03:33.14,ts,____,0,0,0,karaoke,告诉我
+Dialogue: 0,0:03:32.98,0:03:33.55,orig,____ x-bg,0,0,0,karaoke,{\ko26}Tell {\ko31}me
+Dialogue: 0,0:03:32.98,0:03:33.55,ts,____ x-bg,0,0,0,karaoke,告诉我
+Dialogue: 0,0:03:33.39,0:03:34.08,orig,L_38,0,0,0,karaoke,{\ko25}Show {\ko44}me
+Dialogue: 0,0:03:33.39,0:03:34.08,ts,____,0,0,0,karaoke,展示给我
+Dialogue: 0,0:03:33.82,0:03:34.46,orig,____ x-bg,0,0,0,karaoke,{\ko33}Show {\ko31}me
+Dialogue: 0,0:03:33.82,0:03:34.46,ts,____ x-bg,0,0,0,karaoke,展示给我
+Dialogue: 0,0:03:34.43,0:03:36.04,orig,L_39,0,0,0,karaoke,{\ko37}Give {\ko20}me {\ko24}lo{\ko21}ve & {\ko59}truth
+Dialogue: 0,0:03:34.43,0:03:36.04,ts,____,0,0,0,karaoke,赐予我爱和真实
