@@ -1,7 +1,8 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="ja">
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="ja">
   <head>
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
+      <ttm:agent type="other" xml:id="v2" />
       <amll:meta key="musicName" value="After glow" />
       <amll:meta key="musicName" value="After Glow" />
       <amll:meta key="artists" value="GARNiDELiA" />
@@ -18,6 +19,7 @@
       <amll:meta key="album" value="G.R.N.D." />
       <amll:meta key="ncmMusicId" value="547976278" />
       <amll:meta key="qqMusicId" value="213290347" />
+      <amll:meta key="qqMusicId" value="001GmXbo2EAOuh" />
       <amll:meta key="spotifyId" value="04tADl3qlAzkFvjomv1S3e" />
       <amll:meta key="appleMusicId" value="1538285705" />
       <amll:meta key="isrc" value="JPU901800699" />
@@ -72,10 +74,6 @@
             <text for="L37">你的余晖</text>
           </translation>
         </translations>
-        <songwriters>
-          <songwriter>MARiA</songwriter>
-          <songwriter>toku</songwriter>
-        </songwriters>
         <transliterations>
           <transliteration xml:lang="ja-Latn">
             <text for="L1">
@@ -117,9 +115,9 @@
             <text for="L4">
               <span begin="00:38.550" end="00:39.130" xmlns="http://www.w3.org/ns/ttml">ki </span>
               <span begin="00:39.130" end="00:40.370" xmlns="http://www.w3.org/ns/ttml">re i </span>
-              <span begin="00:40.370" end="00:40.670" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:40.370" end="00:40.670" xmlns="http://www.w3.org/ns/ttml">na</span>
               <span begin="00:40.670" end="00:40.960" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="00:40.960" end="00:41.440" xmlns="http://www.w3.org/ns/ttml">A</span>
+              <span begin="00:40.960" end="00:41.440" xmlns="http://www.w3.org/ns/ttml">a</span>
               <span begin="00:41.440" end="00:41.820" xmlns="http://www.w3.org/ns/ttml">fter</span>
               <span begin="00:41.820" end="00:41.820" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="00:41.820" end="00:43.510" xmlns="http://www.w3.org/ns/ttml">glow</span>
@@ -142,9 +140,9 @@
             <text for="L6">
               <span begin="00:48.150" end="00:49.050" xmlns="http://www.w3.org/ns/ttml">ka na </span>
               <span begin="00:49.280" end="00:49.960" xmlns="http://www.w3.org/ns/ttml">shi </span>
-              <span begin="00:49.960" end="00:50.290" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:49.960" end="00:50.290" xmlns="http://www.w3.org/ns/ttml">i</span>
               <span begin="00:50.290" end="00:50.570" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="00:50.570" end="00:51.030" xmlns="http://www.w3.org/ns/ttml">A</span>
+              <span begin="00:50.570" end="00:51.030" xmlns="http://www.w3.org/ns/ttml">a</span>
               <span begin="00:51.030" end="00:51.420" xmlns="http://www.w3.org/ns/ttml">fter</span>
               <span begin="00:51.420" end="00:51.420" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="00:51.420" end="00:53.120" xmlns="http://www.w3.org/ns/ttml">glow</span>
@@ -159,7 +157,7 @@
               <span begin="00:55.240" end="00:55.350" xmlns="http://www.w3.org/ns/ttml">i </span>
               <span begin="00:55.350" end="00:55.740" xmlns="http://www.w3.org/ns/ttml">ta </span>
               <span begin="00:55.990" end="00:56.250" xmlns="http://www.w3.org/ns/ttml">u ta </span>
-              <span begin="00:56.250" end="00:56.620" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:56.250" end="00:56.620" xmlns="http://www.w3.org/ns/ttml">o</span>
               <span begin="00:56.620" end="00:56.860" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="00:56.860" end="00:57.060" xmlns="http://www.w3.org/ns/ttml">hi </span>
               <span begin="00:57.190" end="00:57.500" xmlns="http://www.w3.org/ns/ttml">to </span>
@@ -304,7 +302,7 @@
               <span begin="02:24.390" end="02:24.500" xmlns="http://www.w3.org/ns/ttml">de </span>
               <span begin="02:24.500" end="02:24.660" xmlns="http://www.w3.org/ns/ttml">mo </span>
               <span begin="02:24.660" end="02:24.780" xmlns="http://www.w3.org/ns/ttml">ne </span>
-              <span begin="02:24.780" end="02:25.000" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="02:24.780" end="02:25.000" xmlns="http://www.w3.org/ns/ttml">ko</span>
               <span begin="02:25.000" end="02:25.110" xmlns="http://www.w3.org/ns/ttml">n </span>
               <span begin="02:25.110" end="02:25.250" xmlns="http://www.w3.org/ns/ttml">na </span>
               <span begin="02:25.250" end="02:25.690" xmlns="http://www.w3.org/ns/ttml">u shi </span>
@@ -313,7 +311,7 @@
               <span begin="02:25.990" end="02:26.210" xmlns="http://www.w3.org/ns/ttml">ki </span>
               <span begin="02:26.210" end="02:26.400" xmlns="http://www.w3.org/ns/ttml">na </span>
               <span begin="02:26.400" end="02:26.570" xmlns="http://www.w3.org/ns/ttml">ji </span>
-              <span begin="02:26.570" end="02:26.800" xmlns="http://www.w3.org/ns/ttml">bu n </span>
+              <span begin="02:26.570" end="02:26.800" xmlns="http://www.w3.org/ns/ttml">bun </span>
               <span begin="02:26.800" end="02:26.990" xmlns="http://www.w3.org/ns/ttml">mo </span>
               <span begin="02:26.990" end="02:27.430" xmlns="http://www.w3.org/ns/ttml">ki ra </span>
               <span begin="02:27.430" end="02:27.580" xmlns="http://www.w3.org/ns/ttml">i </span>
@@ -337,23 +335,23 @@
             <text for="L24">
               <span begin="02:52.350" end="02:52.680" xmlns="http://www.w3.org/ns/ttml">ka o </span>
               <span begin="02:52.680" end="02:52.880" xmlns="http://www.w3.org/ns/ttml">a </span>
-              <span begin="02:52.880" end="02:53.010" xmlns="http://www.w3.org/ns/ttml">ge </span>
+              <span begin="02:52.880" end="02:53.010" xmlns="http://www.w3.org/ns/ttml">ge</span>
               <span begin="02:53.010" end="02:53.010" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="02:53.010" end="02:53.260" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="02:53.260" end="02:53.265" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="02:53.580" end="02:53.810" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="02:53.810" end="02:53.815" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="02:54.100" end="02:54.440" xmlns="http://www.w3.org/ns/ttml">three </span>
+              <span begin="02:53.010" end="02:53.260" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="02:53.260" end="02:53.265" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:53.580" end="02:53.810" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="02:53.810" end="02:53.815" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:54.100" end="02:54.440" xmlns="http://www.w3.org/ns/ttml">three</span>
               <span begin="02:54.440" end="02:54.650" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="02:54.650" end="02:54.980" xmlns="http://www.w3.org/ns/ttml">a ru </span>
               <span begin="02:54.980" end="02:55.080" xmlns="http://www.w3.org/ns/ttml">i </span>
               <span begin="02:55.080" end="02:55.270" xmlns="http://www.w3.org/ns/ttml">te </span>
-              <span begin="02:55.270" end="02:55.400" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="02:55.270" end="02:55.400" xmlns="http://www.w3.org/ns/ttml">ku</span>
               <span begin="02:55.400" end="02:55.400" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="02:55.400" end="02:55.610" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="02:55.610" end="02:55.615" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="02:55.970" end="02:56.220" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="02:56.220" end="02:56.225" xmlns="http://www.w3.org/ns/ttml">.</span>
+              <span begin="02:55.400" end="02:55.610" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="02:55.610" end="02:55.615" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:55.970" end="02:56.220" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="02:56.220" end="02:56.225" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="02:56.490" end="02:56.900" xmlns="http://www.w3.org/ns/ttml">three</span>
             </text>
             <text for="L25">
@@ -363,7 +361,7 @@
               <span begin="02:58.350" end="02:58.570" xmlns="http://www.w3.org/ns/ttml">ke </span>
               <span begin="02:58.700" end="02:59.110" xmlns="http://www.w3.org/ns/ttml">te </span>
               <span begin="02:59.110" end="02:59.290" xmlns="http://www.w3.org/ns/ttml">i </span>
-              <span begin="02:59.290" end="02:59.640" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="02:59.290" end="02:59.640" xmlns="http://www.w3.org/ns/ttml">ku</span>
               <span begin="02:59.640" end="02:59.870" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="02:59.870" end="03:00.210" xmlns="http://www.w3.org/ns/ttml">ki </span>
               <span begin="03:00.210" end="03:00.510" xmlns="http://www.w3.org/ns/ttml">mi </span>
@@ -377,23 +375,23 @@
             <text for="L26">
               <span begin="03:01.960" end="03:02.260" xmlns="http://www.w3.org/ns/ttml">ka o </span>
               <span begin="03:02.260" end="03:02.450" xmlns="http://www.w3.org/ns/ttml">a </span>
-              <span begin="03:02.450" end="03:02.560" xmlns="http://www.w3.org/ns/ttml">ge </span>
+              <span begin="03:02.450" end="03:02.560" xmlns="http://www.w3.org/ns/ttml">ge</span>
               <span begin="03:02.560" end="03:02.560" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="03:02.560" end="03:02.860" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="03:02.860" end="03:02.865" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:03.180" end="03:03.410" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="03:03.410" end="03:03.415" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:03.730" end="03:04.020" xmlns="http://www.w3.org/ns/ttml">three </span>
+              <span begin="03:02.560" end="03:02.860" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="03:02.860" end="03:02.865" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:03.180" end="03:03.410" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="03:03.410" end="03:03.415" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:03.730" end="03:04.020" xmlns="http://www.w3.org/ns/ttml">three</span>
               <span begin="03:04.020" end="03:04.260" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="03:04.260" end="03:04.560" xmlns="http://www.w3.org/ns/ttml">a ru </span>
               <span begin="03:04.560" end="03:04.690" xmlns="http://www.w3.org/ns/ttml">i </span>
               <span begin="03:04.690" end="03:04.870" xmlns="http://www.w3.org/ns/ttml">te </span>
-              <span begin="03:04.870" end="03:04.990" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="03:04.870" end="03:04.990" xmlns="http://www.w3.org/ns/ttml">ku</span>
               <span begin="03:04.990" end="03:04.990" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="03:04.990" end="03:05.290" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="03:05.290" end="03:05.295" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:05.570" end="03:05.830" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="03:05.830" end="03:05.835" xmlns="http://www.w3.org/ns/ttml">.</span>
+              <span begin="03:04.990" end="03:05.290" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="03:05.290" end="03:05.295" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:05.570" end="03:05.830" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="03:05.830" end="03:05.835" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="03:06.120" end="03:06.530" xmlns="http://www.w3.org/ns/ttml">three</span>
             </text>
             <text for="L27">
@@ -403,7 +401,7 @@
               <span begin="03:07.660" end="03:08.010" xmlns="http://www.w3.org/ns/ttml">ki </span>
               <span begin="03:08.010" end="03:08.210" xmlns="http://www.w3.org/ns/ttml">ru </span>
               <span begin="03:08.210" end="03:08.890" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
-              <span begin="03:08.890" end="03:09.280" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="03:08.890" end="03:09.280" xmlns="http://www.w3.org/ns/ttml">wa</span>
               <span begin="03:09.280" end="03:09.450" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="03:09.450" end="03:09.790" xmlns="http://www.w3.org/ns/ttml">ki </span>
               <span begin="03:09.790" end="03:10.110" xmlns="http://www.w3.org/ns/ttml">mi </span>
@@ -417,45 +415,45 @@
             <text for="L28">
               <span begin="03:11.330" end="03:11.870" xmlns="http://www.w3.org/ns/ttml">ka o </span>
               <span begin="03:11.870" end="03:12.080" xmlns="http://www.w3.org/ns/ttml">a </span>
-              <span begin="03:12.080" end="03:12.190" xmlns="http://www.w3.org/ns/ttml">ge </span>
+              <span begin="03:12.080" end="03:12.190" xmlns="http://www.w3.org/ns/ttml">ge</span>
               <span begin="03:12.190" end="03:12.190" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="03:12.190" end="03:12.480" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="03:12.480" end="03:12.485" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:12.760" end="03:13.120" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="03:13.120" end="03:13.125" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:13.430" end="03:13.620" xmlns="http://www.w3.org/ns/ttml">three </span>
+              <span begin="03:12.190" end="03:12.480" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="03:12.480" end="03:12.485" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:12.760" end="03:13.120" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="03:13.120" end="03:13.125" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:13.430" end="03:13.620" xmlns="http://www.w3.org/ns/ttml">three</span>
               <span begin="03:13.620" end="03:13.810" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="03:13.810" end="03:14.170" xmlns="http://www.w3.org/ns/ttml">a ru </span>
               <span begin="03:14.170" end="03:14.270" xmlns="http://www.w3.org/ns/ttml">i </span>
               <span begin="03:14.270" end="03:14.410" xmlns="http://www.w3.org/ns/ttml">te </span>
-              <span begin="03:14.410" end="03:14.610" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="03:14.410" end="03:14.610" xmlns="http://www.w3.org/ns/ttml">ku</span>
               <span begin="03:14.610" end="03:14.610" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="03:14.610" end="03:14.950" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="03:14.950" end="03:14.955" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:15.160" end="03:15.430" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="03:15.430" end="03:15.435" xmlns="http://www.w3.org/ns/ttml">.</span>
+              <span begin="03:14.610" end="03:14.950" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="03:14.950" end="03:14.955" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:15.160" end="03:15.430" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="03:15.430" end="03:15.435" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="03:15.710" end="03:16.100" xmlns="http://www.w3.org/ns/ttml">three</span>
             </text>
             <text for="L29">
               <span begin="03:21.220" end="03:21.530" xmlns="http://www.w3.org/ns/ttml">ka o </span>
               <span begin="03:21.530" end="03:21.690" xmlns="http://www.w3.org/ns/ttml">a </span>
-              <span begin="03:21.690" end="03:21.830" xmlns="http://www.w3.org/ns/ttml">ge </span>
+              <span begin="03:21.690" end="03:21.830" xmlns="http://www.w3.org/ns/ttml">ge</span>
               <span begin="03:21.830" end="03:21.830" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="03:21.830" end="03:22.130" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="03:22.130" end="03:22.135" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:22.330" end="03:22.610" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="03:22.610" end="03:22.615" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:22.950" end="03:23.230" xmlns="http://www.w3.org/ns/ttml">three </span>
+              <span begin="03:21.830" end="03:22.130" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="03:22.130" end="03:22.135" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:22.330" end="03:22.610" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="03:22.610" end="03:22.615" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:22.950" end="03:23.230" xmlns="http://www.w3.org/ns/ttml">three</span>
               <span begin="03:23.230" end="03:23.450" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="03:23.450" end="03:23.780" xmlns="http://www.w3.org/ns/ttml">a ru </span>
               <span begin="03:23.780" end="03:23.870" xmlns="http://www.w3.org/ns/ttml">i </span>
               <span begin="03:23.870" end="03:24.070" xmlns="http://www.w3.org/ns/ttml">te </span>
-              <span begin="03:24.070" end="03:24.170" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="03:24.070" end="03:24.170" xmlns="http://www.w3.org/ns/ttml">ku</span>
               <span begin="03:24.170" end="03:24.170" xmlns="http://www.w3.org/ns/ttml"> </span>
-              <span begin="03:24.170" end="03:24.420" xmlns="http://www.w3.org/ns/ttml">one </span>
-              <span begin="03:24.420" end="03:24.425" xmlns="http://www.w3.org/ns/ttml">.</span>
-              <span begin="03:24.770" end="03:25.080" xmlns="http://www.w3.org/ns/ttml">two </span>
-              <span begin="03:25.080" end="03:25.085" xmlns="http://www.w3.org/ns/ttml">.</span>
+              <span begin="03:24.170" end="03:24.420" xmlns="http://www.w3.org/ns/ttml">one</span>
+              <span begin="03:24.420" end="03:24.425" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:24.770" end="03:25.080" xmlns="http://www.w3.org/ns/ttml">two</span>
+              <span begin="03:25.080" end="03:25.085" xmlns="http://www.w3.org/ns/ttml"> </span>
               <span begin="03:25.330" end="03:25.740" xmlns="http://www.w3.org/ns/ttml">three</span>
             </text>
           </transliteration>
