@@ -94,7 +94,7 @@ Dialogue: 0,0:01:04.64,0:01:06.02,orig,L_32 x-part:Bridge x-anti,0,0,0,karaoke,{
 Dialogue: 0,0:01:04.64,0:01:06.02,ts,____,0,0,0,karaoke,在此，我的幻想乡
 Dialogue: 0,0:01:03.00,0:01:05.52,orig,____ x-bg,0,0,0,karaoke,{\ko29}Here {\ko31}in{\ko25} {\ko21}my {\ko53}make{\ko22}{\ko16}-be{\ko55}lieve
 Dialogue: 0,0:01:03.00,0:01:05.52,ts,____,0,0,0,karaoke,在此，我的幻想乡
-Dialogue: 0,0:01:06.02,0:01:11.48,orig,L_33 x-anti,0,0,0,karaoke,{\ko20}I{\ko18}'m the {\ko15}di{\ko28}vine {\ko14}de{\ko32}sig{\ko20}ner {\ko18}o{\ko23}f a {\ko20}new {\ko22}re{\ko20}a{\ko10}li{\ko34}ty {\ko13}you'{\ko9}ve {\ko15}yet {\ko10}to {\ko30}see{\ko0}{\-Z}, {\ko24}our {\ko15}de{\ko9}s{\ko21}ti{\ko16}na{\ko26}tion {\ko24}T{\ko19}B{\ko21}D
+Dialogue: 0,0:01:06.02,0:01:11.48,orig,L_33 x-anti,0,0,0,karaoke,{\ko20}I{\ko18}'m the {\ko15}di{\ko28}vine {\ko14}de{\ko32}sig{\ko20}ner {\ko18}o{\ko23}f a {\ko20}new {\ko22}re{\ko20}a{\ko10}li{\ko34}ty {\ko13}you{\ko9}'ve {\ko15}yet {\ko10}to {\ko30}see{\ko0}{\-Z}, {\ko24}our {\ko15}de{\ko9}s{\ko21}ti{\ko16}na{\ko26}tion {\ko24}T{\ko19}B{\ko21}D
 Dialogue: 0,0:01:06.02,0:01:11.48,ts,____,0,0,0,karaoke,我是新现实的神圣设计师，你尚未得见，我们的目的地待定未知
 Dialogue: 0,0:01:11.50,0:01:13.40,orig,L_34 x-anti,0,0,0,karaoke,{\ko15}I'm {\ko19}tem{\ko15}po{\ko36}ra{\ko14}ry{\ko0}{\-Z}, {\ko16}vi{\ko21}sio{\ko33}na{\ko21}ry
 Dialogue: 0,0:01:11.50,0:01:13.40,ts,____,0,0,0,karaoke,我短暂而充满远见
@@ -160,7 +160,7 @@ Dialogue: 0,0:02:03.85,0:02:06.28,orig,____ x-bg,0,0,0,karaoke,{\ko27}Here {\ko3
 Dialogue: 0,0:02:03.85,0:02:06.28,ts,____,0,0,0,karaoke,在此，我的幻想乡
 Dialogue: 0,0:02:19.24,0:02:25.99,orig,L_64 x-anti,0,0,0,karaoke,{\ko28}Let{\ko14}'s {\ko43}drown{\ko0}{\-Z}, {\ko30}deep{\ko13} {\ko38}down{\ko0}{\-Z}, {\ko29}floa{\ko20}ting {\ko25}in {\ko13}the {\ko34}dark {\ko47}found {\ko30}foo{\ko17}ta{\ko23}ge of {\ko21}my {\ko24}un{\ko7}re{\ko13}s{\ko20}tric{\ko13}ted{\ko0}{\-Z}, {\ko26}sel{\ko18}f-in{\ko27}flic{\ko19}ted {\ko43}hell {\ko40}bound
 Dialogue: 0,0:02:19.24,0:02:25.99,ts,____,0,0,0,karaoke,让我们沉溺，深深沉沦，漂浮在我无拘无束、自我招致的地狱边缘的黑暗影像中
-Dialogue: 0,0:02:26.05,0:02:30.88,orig,L_65 x-anti,0,0,0,karaoke,{\ko23}Let{\ko14}'s {\ko46}drown{\ko0}{\-Z}, {\ko27}deep{\ko13} {\ko39}down{\ko0}{\-Z}, {\ko30}floa{\ko20}ting {\ko20}in {\ko17}the {\ko33}dark{\ko12} {\ko35}foun{\ko29}d foo{\ko18}ta{\ko26}ge of {\ko18}my {\ko21}un{\ko11}re{\ko11}s{\ko20}tr...
+Dialogue: 0,0:02:26.05,0:02:30.88,orig,L_65 x-anti,0,0,0,karaoke,{\ko23}Let{\ko14}'s {\ko46}drown{\ko0}{\-Z}, {\ko27}deep{\ko13} {\ko39}down{\ko0}{\-Z}, {\ko30}floa{\ko20}ting {\ko20}in {\ko17}the {\ko33}dark{\ko12} {\ko35}found {\ko29}foo{\ko18}ta{\ko26}ge of {\ko18}my {\ko21}un{\ko11}re{\ko11}s{\ko20}tr...
 Dialogue: 0,0:02:26.05,0:02:30.88,ts,____,0,0,0,karaoke,让我们沉溺，深深沉沦，漂浮在我无拘无束的黑暗影像中...
 Dialogue: 0,0:02:31.49,0:02:32.79,orig,L_66 x-part:Bridge,0,0,0,karaoke,{\ko18}You {\ko21}can {\ko30}find {\ko20}me {\ko20}in {\ko21}the
 Dialogue: 0,0:02:31.49,0:02:32.79,ts,____,0,0,0,karaoke,你能找到我在

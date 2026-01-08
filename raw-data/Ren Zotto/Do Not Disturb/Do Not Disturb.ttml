@@ -462,8 +462,8 @@
         <span begin="01:08.499" end="01:08.599">li</span>
         <span begin="01:08.599" end="01:08.939">ty</span>
         <span begin="01:08.939" end="01:08.939"> </span>
-        <span begin="01:08.939" end="01:09.069">you&apos;</span>
-        <span begin="01:09.069" end="01:09.159">ve</span>
+        <span begin="01:08.939" end="01:09.069">you</span>
+        <span begin="01:09.069" end="01:09.159">&apos;ve</span>
         <span begin="01:09.159" end="01:09.159"> </span>
         <span begin="01:09.159" end="01:09.309">yet</span>
         <span begin="01:09.309" end="01:09.309"> </span>
@@ -953,8 +953,9 @@
         <span begin="02:28.519" end="02:28.519"> </span>
         <span begin="02:28.519" end="02:28.849">dark</span>
         <span begin="02:28.849" end="02:28.969"> </span>
-        <span begin="02:28.969" end="02:29.319">foun</span>
-        <span begin="02:29.319" end="02:29.609">d foo</span>
+        <span begin="02:28.969" end="02:29.319">found</span>
+        <span begin="02:29.319" end="02:29.319"> </span>
+        <span begin="02:29.319" end="02:29.609">foo</span>
         <span begin="02:29.609" end="02:29.789">ta</span>
         <span begin="02:29.789" end="02:30.049">ge of</span>
         <span begin="02:30.049" end="02:30.049"> </span>
