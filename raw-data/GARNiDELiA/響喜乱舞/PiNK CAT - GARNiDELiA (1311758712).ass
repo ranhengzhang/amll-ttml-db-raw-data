@@ -8,173 +8,187 @@ PlayResX: 2560
 PlayResY: 1440
 WrapStyle: 0
 ScaledBorderAndShadow: no
-Update Details: +48ms
+Update Details: +48ms,+162ms [MIRAI]
+Original Script: ja
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
+Audio File: ../../../Users/LEGION/Downloads/響喜乱舞/GARNiDELiA - PiNKCAT.wav
+Video File: ?dummy:60.000000:18000:2560:1440:128:128:128:c
+Video AR Value: 1.777778
+Video Zoom Percent: 0.250000
+Scroll Position: 107
+Active Line: 112
+Video Position: 9711
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
 Style: roma-furigana,Raleway-v4020 ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
-Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
-Style: orig,更纱黑体 SC SemiBold,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,7.5,0,1,6.5,0,2,10,10,10,1
-Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
+Style: orig-furigana,Dream Han Serif JP W27,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
+Style: orig,IPAexMincho,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,7.5,0,1,6.5,0,2,10,10,10,1
 Style: roma,Raleway-v4020 ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
-Style: orig-furigana,Dream Han Serif JP W27,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
+Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time=0; pre_pos=0;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,if (line.start_time)-200 < (pre_end_time)+800 then line.pos=1-pre_pos; else line.pos=0; end; pre_end_time=line.end_time; pre_pos=line.pos; if line.pos == 1 then line.top = line.top - line.height*1.65; line.bottom = line.bottom - line.height*1.65; end;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.top-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:22.63,0:00:25.90,orig,L__1,0,0,0,karaoke,{\ko25}昨|<き{\ko24}日|の{\ko41}#|う{\ko64}の{\ko30}{\ko16}Ki{\ko31}ss{\ko22}が{\ko25}ま{\ko49}だ
-Comment: 0,0:00:22.63,0:00:25.90,roma,____ ,0,0,0,karaoke,ki nō no kiss ga ma da
-Comment: 0,0:00:22.63,0:00:25.90,ts,____ ,0,0,0,karaoke,昨日的吻依然
-Comment: 0,0:00:22.63,0:00:25.90,tuck,____ ,0,0,0,,{\kf37}昨{\kf69}日{\kf83}の{\kf51}Kiss{\kf25}が{\kf19}ま{\kf92}だ
-Comment: 0,0:00:26.34,0:00:29.55,orig,L__2,0,0,0,karaoke,{\ko24}コ{\ko24}コ{\ko39}ロ{\ko60}を{\ko31}{\ko21}支|<し{\ko28}配|は{\ko17}#|い{\ko26}し{\ko51}て
-Comment: 0,0:00:26.34,0:00:29.55,roma,____ ,0,0,0,karaoke,ko ko ro o shi ha i shi te
-Comment: 0,0:00:26.34,0:00:29.55,ts,____ ,0,0,0,karaoke,仍支配着心灵
-Comment: 0,0:00:26.34,0:00:29.55,tuck,____ ,0,0,0,,{\kf26}コ{\kf11}コ{\kf49}ロ{\kf93}を{\kf29}支{\kf43}配{\kf27}し{\kf60}て
-Comment: 0,0:00:29.98,0:00:33.23,orig,L__3,0,0,0,karaoke,{\ko22}卑|<ひ{\ko22}怯|きょ{\ko48}#|う{\ko55}な{\ko33}{\ko29}や{\ko21}り{\ko20}方|<か{\ko23}#|た{\ko52}ね
-Comment: 0,0:00:29.98,0:00:33.23,roma,____ ,0,0,0,karaoke,hi kyō na ya ri ka ta ne
-Comment: 0,0:00:29.98,0:00:33.23,ts,____ ,0,0,0,karaoke,真是卑鄙的手段啊
-Comment: 0,0:00:29.98,0:00:33.23,tuck,____ ,0,0,0,,{\kf21}卑{\kf70}怯{\kf65}な{\kf58}や{\kf21}り{\kf40}方{\kf75}ね
-Comment: 0,0:00:33.58,0:00:36.32,orig,L__4,0,0,0,karaoke,{\ko27}そ{\ko20}っ{\ko42}ち{\ko10}{\ko37}が{\ko33}そ{\ko17}の{\ko29}気|<き{\ko21}な{\ko38}ら
-Comment: 0,0:00:33.58,0:00:36.32,roma,____ ,0,0,0,karaoke,so cchi ga so no ki na ra
-Comment: 0,0:00:33.58,0:00:36.32,ts,____ ,0,0,0,karaoke,若你已心有所向
-Comment: 0,0:00:33.58,0:00:36.32,tuck,____ ,0,0,0,,{\kf52}そ{\kf11}っ{\kf46}ち{\kf44}が{\kf31}そ{\kf16}の{\kf22}気{\kf30}な{\kf39}ら
-Comment: 0,0:00:37.24,0:00:40.17,orig,L__5 x-duet,0,0,0,karaoke,{\ko49}余|<よ{\ko25}裕|ゆ{\ko23}#|う{\ko18}な{\ko41}顔|<か{\ko14}#|お{\ko18}が {\ko45}Dis{\ko60}like
-Comment: 0,0:00:37.24,0:00:40.17,roma,____ x-duet,0,0,0,karaoke,yo yū na ka o ga dislike
-Comment: 0,0:00:37.24,0:00:40.17,ts,____ x-duet,0,0,0,karaoke,游刃有余的神情 真令人反感
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time={n=0}; line_pos=0; line_scale=2; ahead_time=0; main_bottom=0; zero_hint=true; text_hint=true; line_num=0;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,function mask_style(syl,line) if syl.furi.n==0 then return "\\t("..(syl.start_time+ahead_time)..","..(syl.end_time+ahead_time)..",\\iclip("..(line.left+syl.right)..","..(line.top)..","..(line.left+syl.right)..","..(line.bottom).."))"; end; local furis={n=0}; local count=0; for i=0, syl.furi.n do if syl.furi[i] then local furi={}; for i, v in _G.pairs(syl.furi[i]) do furi[i]=v; end; if furi["text_spacestripped"]~="" then furis[furis.n]=furi; furis.n=furis.n+1; count=count+_G.unicode.len(furi["text_spacestripped"]); end; end; end; if furis.n==0 then return "\\t("..(syl.start_time+ahead_time)..","..(syl.end_time+ahead_time)..",\\iclip("..(line.left+syl.right)..","..(line.top)..","..(line.left+syl.right)..","..(line.bottom).."))"; end; local animate=""; local recent=0; for i=0, #furis do local furi=furis[i]; recent=recent+_G.unicode.len(furi["text_spacestripped"]); animate=animate.."\\t("..(furi.start_time+ahead_time)..","..(furi.end_time+ahead_time)..",\\iclip("..(line.left+syl.left+syl.width/count*recent)..","..(line.top)..","..(line.left+syl.left+syl.right)..","..(line.bottom).."))"; end; return animate; end;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,function pos_index(line) line_pos=0; for i=0, pre_end_time.n do line_pos=i; if pre_end_time[i]==nil or (line.start_time-pre_end_time[i])>=1000 then break end; end; if line_pos>=pre_end_time.n then pre_end_time.n=pre_end_time.n+1; end; pre_end_time[line_pos]=line.end_time; end;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,pos_index(line); line.top=line.top-100; ahead_time=math.min(line.start_time, 800); line.bottom=line.bottom-100; line.top=line.top-line.height*line_scale*line_pos; line.bottom=line.bottom-line.height*line_scale*line_pos; main_bottom=line.bottom; if not line.actor:find("x%-bg") then line_num=line_num+1; end;
+Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{!((syl.text:find("\\%-Z") or syl.text:find("\\%-zero")) and zero_hint) and "\\u1" or ""!\an2!((syl.text:find("\\%-T") or syl.text:find("\\%-text")) and zero_hint) and "\\3a&HFF&" or ""!\pos(!line.left+syl.center!,!line.bottom!)\k!line.duration/10+ahead_time/10!\k0\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}
+Comment: 2,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{\an2\pos(!line.left+syl.center!,!line.bottom!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\3a&HFF&\iclip(!line.left+syl.left!,!line.top!,!line.left+syl.right!,!line.bottom!)!mask_style(syl,line)!}
+Comment: 3,0:00:00.00,0:00:00.00,orig,,0,0,0,template pre-line mark notext,!retime("line", -(ahead_time), 200)!{\an7\pos(25,!25+line.height*line_pos!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}!line.actor:find("x%-bg") and "("..line_num..")" or line_num!
+Comment: 3,0:00:00.00,0:00:00.00,orig,,0,0,0,template line mark notext,!""!
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -(ahead_time), 200)!{\an2\pos(!line.left+syl.center!,!line.top!)\k!($sstart/10)+ahead_time/10!\kf!($skdur)!\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{\an8\pos(!line.left+syl.center!,!main_bottom!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\k!line.raw:find("{\\k") and (($sstart/10)+ahead_time/10) or 0!\kf!($skdur)!}
+Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,code line,line.top=line.top+line.height*line_pos*1.15; line.bottom=line.bottom-line.height*line_pos*1.15;
+Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\an8\pos(!line.left+syl.center!,!line.top!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\k!line.raw:find("{\\k") and (($sstart/10)+ahead_time/10) or 0!\kf!($skdur)!}
+Dialogue: 0,0:00:22.63,0:00:25.90,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko25}昨|<き{\ko24}日|の{\ko41}#|う{\ko64}の{\ko30}{\ko16}Ki{\ko31}ss{\ko22}が{\ko25}ま{\ko49}だ
+Dialogue: 0,0:00:22.63,0:00:25.90,roma,____,0,0,0,karaoke,{\k25}ki {\k24}no {\k41}u {\k64}no {\k30}{\k16}ki{\k31}ss {\k22}ga {\k25}ma {\k49}da
+Dialogue: 0,0:00:22.63,0:00:25.90,ts,____,0,0,0,karaoke,昨日的吻依然
+Comment: 0,0:00:22.63,0:00:25.90,tuck,____,0,0,0,,{\kf37}昨{\kf69}日{\kf83}の{\kf51}Kiss{\kf25}が{\kf19}ま{\kf92}だ
+Dialogue: 0,0:00:26.34,0:00:29.55,orig,L__2,0,0,0,karaoke,{\ko24}コ{\ko24}コ{\ko39}ロ{\ko60}を{\ko31}{\ko21}支|<し{\ko28}配|は{\ko17}#|い{\ko26}し{\ko51}て
+Dialogue: 0,0:00:26.34,0:00:29.55,roma,____,0,0,0,karaoke,{\k24}ko {\k24}ko {\k39}ro {\k60}o {\k31}{\k21}shi {\k28}ha {\k17}i {\k26}shi {\k51}te
+Dialogue: 0,0:00:26.34,0:00:29.55,ts,____,0,0,0,karaoke,仍支配着心灵
+Comment: 0,0:00:26.34,0:00:29.55,tuck,____,0,0,0,,{\kf26}コ{\kf11}コ{\kf49}ロ{\kf93}を{\kf29}支{\kf43}配{\kf27}し{\kf60}て
+Dialogue: 0,0:00:29.98,0:00:33.23,orig,L__3,0,0,0,karaoke,{\ko22}卑|<ひ{\ko22}怯|きょ{\ko48}#|う{\ko55}な{\ko33}{\ko29}や{\ko21}り{\ko20}方|<か{\ko23}#|た{\ko52}ね
+Dialogue: 0,0:00:29.98,0:00:33.23,roma,____,0,0,0,karaoke,{\k22}hi {\k22}kyo {\k48}u {\k55}na {\k33}{\k29}ya {\k21}ri {\k20}ka {\k23}ta {\k52}ne
+Dialogue: 0,0:00:29.98,0:00:33.23,ts,____,0,0,0,karaoke,真是卑鄙的手段啊
+Comment: 0,0:00:29.98,0:00:33.23,tuck,____,0,0,0,,{\kf21}卑{\kf70}怯{\kf65}な{\kf58}や{\kf21}り{\kf40}方{\kf75}ね
+Dialogue: 0,0:00:33.58,0:00:36.32,orig,L__4,0,0,0,karaoke,{\ko27}そ{\ko20}っ{\ko42}ち{\ko10}{\ko37}が{\ko33}そ{\ko17}の{\ko29}気|<き{\ko21}な{\ko38}ら
+Dialogue: 0,0:00:33.58,0:00:36.32,roma,____,0,0,0,karaoke,{\k27}so {\k20}c{\k42}chi {\k10}{\k37}ga {\k33}so {\k17}no {\k29}ki {\k21}na {\k38}ra
+Dialogue: 0,0:00:33.58,0:00:36.32,ts,____,0,0,0,karaoke,若你已心有所向
+Comment: 0,0:00:33.58,0:00:36.32,tuck,____,0,0,0,,{\kf52}そ{\kf11}っ{\kf46}ち{\kf44}が{\kf31}そ{\kf16}の{\kf22}気{\kf30}な{\kf39}ら
+Dialogue: 0,0:00:37.24,0:00:40.17,orig,L__5 x-duet x-part:PreChorus,0,0,0,karaoke,{\ko49}余|<よ{\ko25}裕|ゆ{\ko23}#|う{\ko18}な{\ko41}顔|<か{\ko14}#|お{\ko18}が {\ko45}Dis{\ko60}like
+Dialogue: 0,0:00:37.24,0:00:40.17,roma,____ x-duet,0,0,0,karaoke,{\k49}yo {\k25}yu {\k23}u {\k18}na {\k41}ka {\k14}o {\k18}ga {\k45}dis{\k60}like
+Dialogue: 0,0:00:37.24,0:00:40.17,ts,____ x-duet,0,0,0,karaoke,游刃有余的神情 真令人反感
 Comment: 0,0:00:37.24,0:00:40.17,tuck,____ x-duet,0,0,0,,{\kf45}余{\kf53}裕{\kf15}な{\kf57}顔{\kf11}が {\kf178}Dislike
-Comment: 0,0:00:40.93,0:00:43.81,orig,L__6 x-duet,0,0,0,karaoke,{\ko24}絶|<ぜ{\ko24}#|っ{\ko42}対|た{\ko9}#|い{\ko22}に{\ko46}許|<ゆ{\ko12}#|る{\ko32}さ{\ko22}な{\ko55}い
-Comment: 0,0:00:40.93,0:00:43.81,roma,____ x-duet,0,0,0,karaoke,ze tta i ni yu ru sa na i
-Comment: 0,0:00:40.93,0:00:43.81,ts,____ x-duet,0,0,0,karaoke,我绝不原谅
+Dialogue: 0,0:00:40.93,0:00:43.81,orig,L__6 x-duet,0,0,0,karaoke,{\ko24}絶|<ぜ{\ko24}#|っ{\ko42}対|た{\ko9}#|い{\ko22}に{\ko46}許|<ゆ{\ko12}#|る{\ko32}さ{\ko22}な{\ko55}い
+Dialogue: 0,0:00:40.93,0:00:43.81,roma,____ x-duet,0,0,0,karaoke,{\k24}ze {\k24}t{\k42}ta {\k9}i {\k22}ni {\k46}yu {\k12}ru {\k32}sa {\k22}na {\k55}i
+Dialogue: 0,0:00:40.93,0:00:43.81,ts,____ x-duet,0,0,0,karaoke,我绝不原谅
 Comment: 0,0:00:40.93,0:00:43.81,tuck,____ x-duet,0,0,0,,{\kf58}絶{\kf51}対{\kf57}に{\kf27}許{\kf27}さ{\kf24}な{\kf62}い
-Comment: 0,0:00:44.17,0:00:47.30,orig,L__7 x-duet,0,0,0,karaoke,{\ko43}夢|<む{\ko52}中|ちゅ{\ko42}#|う{\ko13}に{\ko48}さ{\ko28}せ{\ko47}る{\ko40}わ
-Comment: 0,0:00:44.17,0:00:47.30,roma,____ x-duet,0,0,0,karaoke,mu chū ni sa se ru wa
-Comment: 0,0:00:44.17,0:00:47.30,ts,____ x-duet,0,0,0,karaoke,会让你沉迷其中
+Dialogue: 0,0:00:44.17,0:00:47.30,orig,L__7 x-duet,0,0,0,karaoke,{\ko43}夢|<む{\ko52}中|ちゅ{\ko42}#|う{\ko13}に{\ko48}さ{\ko28}せ{\ko47}る{\ko40}わ
+Dialogue: 0,0:00:44.17,0:00:47.30,roma,____ x-duet,0,0,0,karaoke,{\k43}mu {\k52}chu {\k42}u {\k13}ni {\k48}sa {\k28}se {\k47}ru {\k40}wa
+Dialogue: 0,0:00:44.17,0:00:47.30,ts,____ x-duet,0,0,0,karaoke,会让你沉迷其中
 Comment: 0,0:00:44.17,0:00:47.30,tuck,____ x-duet,0,0,0,,{\kf55}夢{\kf95}中{\kf17}に{\kf46}さ{\kf24}せ{\kf171}る{\kf6}わ
-Comment: 0,0:00:47.82,0:00:50.86,orig,L__8 x-duet,0,0,0,karaoke,{\ko46}掴|<つ{\ko47}#|か{\ko46}ん{\ko19}で{\ko52}離|<は{\ko13}#|な{\ko29}さ{\ko18}な{\ko34}い
-Comment: 0,0:00:47.82,0:00:50.86,roma,____ x-duet,0,0,0,karaoke,tsu ka n de ha na sa na i
-Comment: 0,0:00:47.82,0:00:50.86,ts,____ x-duet,0,0,0,karaoke,抓紧便不再放手
+Dialogue: 0,0:00:47.82,0:00:50.86,orig,L__8 x-duet,0,0,0,karaoke,{\ko46}掴|<つ{\ko47}#|か{\ko46}ん{\ko19}で{\ko52}離|<は{\ko13}#|な{\ko29}さ{\ko18}な{\ko34}い
+Dialogue: 0,0:00:47.82,0:00:50.86,roma,____ x-duet,0,0,0,karaoke,{\k46}tsu {\k47}ka{\k46}n {\k19}de {\k52}ha {\k13}na {\k29}sa {\k18}na {\k34}i
+Dialogue: 0,0:00:47.82,0:00:50.86,ts,____ x-duet,0,0,0,karaoke,抓紧便不再放手
 Comment: 0,0:00:47.82,0:00:50.86,tuck,____ x-duet,0,0,0,,{\kf39}掴{\kf71}ん{\kf21}で{\kf59}離{\kf27}さ{\kf24}な{\kf22}い
-Comment: 0,0:00:51.05,0:00:52.62,orig,L__9,0,0,0,karaoke,{\ko39}Ga{\ko32}me{\ko16}の{\ko29}日|<ひ{\ko10}に{\ko31}は
-Comment: 0,0:00:51.05,0:00:52.62,roma,____ ,0,0,0,karaoke,game no hi ni wa
-Comment: 0,0:00:51.05,0:00:52.62,ts,____ ,0,0,0,karaoke,在这场游戏的日夜
-Comment: 0,0:00:51.05,0:00:52.62,tuck,____ ,0,0,0,,{\kf74}Game{\kf8}の{\kf35}日{\kf11}に{\kf55}は
-Comment: 0,0:00:52.90,0:00:55.19,orig,L_10,0,0,0,karaoke,{\ko20}お{\ko50}気|<き{\ko18}に{\ko24}入|<い{\ko13}り{\ko35}Pink{\ko18} {\ko51}Lip
-Comment: 0,0:00:52.90,0:00:55.19,roma,____ ,0,0,0,karaoke,o ki ni i ri pink lip
-Comment: 0,0:00:52.90,0:00:55.19,ts,____ ,0,0,0,karaoke,最爱的粉红唇瓣
-Comment: 0,0:00:52.90,0:00:55.19,tuck,____ ,0,0,0,,{\kf23}お{\kf50}気{\kf23}に{\kf20}入{\kf13}り{\kf50}Pink {\kf245}Lip
-Comment: 0,0:00:57.22,0:00:58.76,orig,L_11,0,0,0,karaoke,{\ko25}牙|<き{\ko24}#|ば{\ko17}を{\ko31}隠|<か{\ko7}#|く{\ko37}し{\ko13}て
-Comment: 0,0:00:57.22,0:00:58.76,roma,____ ,0,0,0,karaoke,ki ba o ka ku shi te
-Comment: 0,0:00:57.22,0:00:58.76,ts,____ ,0,0,0,karaoke,藏起獠牙
-Comment: 0,0:00:57.22,0:00:58.76,tuck,____ ,0,0,0,,{\kf54}牙{\kf20}を{\kf42}隠{\kf32}し{\kf17}て
-Comment: 0,0:00:58.82,0:01:02.79,orig,L_12,0,0,0,karaoke,{\ko27}従|<じゅ{\ko17}#|う{\ko25}順|じゅ{\ko16}#|ん{\ko48}な{\ko32}フ{\ko25}リ{\ko20} {\ko21}甘|<あ{\ko24}#|ま{\ko11}く{\ko29}鳴|<な{\ko24}い{\ko28}た{\ko50}ら
-Comment: 0,0:00:58.82,0:01:02.79,roma,____ ,0,0,0,karaoke,jū ju n na fu ri a ma ku na i ta ra
-Comment: 0,0:00:58.82,0:01:02.79,ts,____ ,0,0,0,karaoke,假装顺从 发出甜美声音
-Comment: 0,0:00:58.82,0:01:02.79,tuck,____ ,0,0,0,,{\kf45}従{\kf40}順{\kf55}な{\kf22}フ{\kf44}リ {\kf51}甘{\kf9}く{\kf29}鳴{\kf27}い{\kf22}た{\kf113}ら
-Comment: 0,0:01:04.58,0:01:06.49,orig,L_13,0,0,0,karaoke,{\ko23}た{\ko21}ま{\ko17}ら{\ko28}な{\ko14}い{\ko11}{\ko11}で{\ko66}しょ？
-Comment: 0,0:01:04.58,0:01:06.49,roma,____ ,0,0,0,karaoke,ta ma ra na i de sho
-Comment: 0,0:01:04.58,0:01:06.49,ts,____ ,0,0,0,karaoke,你定会难以自持
-Comment: 0,0:01:04.58,0:01:06.49,tuck,____ ,0,0,0,,{\kf19}た{\kf30}ま{\kf19}ら{\kf25}な{\kf17}い{\kf20}で{\kf16}し{\kf36}ょ{\kf1485}？
-Comment: 0,0:01:21.30,0:01:24.64,orig,L_14,0,0,0,karaoke,{\ko14}焦|<あ{\ko34}#|せ{\ko42}り{\ko62}は{\ko30}{\ko23}禁|<き{\ko25}#|ん{\ko19}物|も{\ko24}#|つ{\ko61}よ
-Comment: 0,0:01:21.30,0:01:24.64,roma,____ ,0,0,0,karaoke,a se ri wa ki mmo tsu yo
-Comment: 0,0:01:21.30,0:01:24.64,ts,____ ,0,0,0,karaoke,切忌焦躁不安
-Comment: 0,0:01:21.30,0:01:24.64,tuck,____ ,0,0,0,,{\kf49}焦{\kf36}り{\kf98}は{\kf55}禁{\kf44}物{\kf86}よ
-Comment: 0,0:01:24.96,0:01:28.19,orig,L_15,0,0,0,karaoke,{\ko47}Coo{\ko43}l{\ko57}に{\ko30}{\ko26}い{\ko24}き{\ko16}ま{\ko32}しょ{\ko48}う
-Comment: 0,0:01:24.96,0:01:28.19,roma,____ ,0,0,0,karaoke,cool ni i ki ma sho u
-Comment: 0,0:01:24.96,0:01:28.19,ts,____ ,0,0,0,karaoke,保持冷静从容
-Comment: 0,0:01:24.96,0:01:28.19,tuck,____ ,0,0,0,,{\kf85}Cool{\kf35}に{\kf81}い{\kf26}き{\kf25}ま{\kf22}し{\kf22}ょ{\kf24}う
-Comment: 0,0:01:28.63,0:01:31.87,orig,L_16,0,0,0,karaoke,{\ko23}手|<て{\ko22}強|ご{\ko42}#|わ{\ko55}い{\ko36}{\ko29}相|<あ{\ko17}#|い{\ko23}手|て{\ko23}な{\ko54}ら
-Comment: 0,0:01:28.63,0:01:31.87,roma,____ ,0,0,0,karaoke,te go wa i a i te na ra
-Comment: 0,0:01:28.63,0:01:31.87,ts,____ ,0,0,0,karaoke,若是对手棘手
-Comment: 0,0:01:28.63,0:01:31.87,tuck,____ ,0,0,0,,{\kf25}手{\kf35}強{\kf116}い{\kf54}相{\kf17}手{\kf28}な{\kf111}ら
-Comment: 0,0:01:32.25,0:01:34.84,orig,L_17,0,0,0,karaoke,{\ko27}尚|<な{\ko12}#|お{\ko51}更|さ{\ko45}#|ら{\ko18}欲|<ほ{\ko30}し{\ko24}く{\ko25}な{\ko27}る
-Comment: 0,0:01:32.25,0:01:34.84,roma,____ ,0,0,0,karaoke,na o sa ra ho shi ku na ru
-Comment: 0,0:01:32.25,0:01:34.84,ts,____ ,0,0,0,karaoke,反而更渴望征服
-Comment: 0,0:01:32.25,0:01:34.84,tuck,____ ,0,0,0,,{\kf19}尚{\kf93}更{\kf22}欲{\kf26}し{\kf27}く{\kf25}な{\kf31}る
-Comment: 0,0:01:35.72,0:01:38.84,orig,L_18 x-duet,0,0,0,karaoke,{\ko16}他|<ほ{\ko50}#|か{\ko42}の{\ko34}子|<こ{\ko40}に{\ko18}は {\ko46}Don't {\ko44}tou{\ko22}ch
-Comment: 0,0:01:35.72,0:01:38.84,roma,____ x-duet,0,0,0,karaoke,ho ka no ko ni wa don't touch
-Comment: 0,0:01:35.72,0:01:38.84,ts,____ x-duet,0,0,0,karaoke,其他女孩 不许触碰
+Dialogue: 0,0:00:51.05,0:00:52.62,orig,L__9 x-part:Chorus,0,0,0,karaoke,{\ko39}Ga{\ko32}me{\ko16}の{\ko29}日|<ひ{\ko10}に{\ko31}は
+Dialogue: 0,0:00:51.05,0:00:52.62,roma,____,0,0,0,karaoke,{\k39}ga{\k32}me {\k16}no {\k29}hi {\k10}ni {\k31}wa
+Dialogue: 0,0:00:51.05,0:00:52.62,ts,____,0,0,0,karaoke,在这场游戏的日夜
+Comment: 0,0:00:51.05,0:00:52.62,tuck,____,0,0,0,,{\kf74}Game{\kf8}の{\kf35}日{\kf11}に{\kf55}は
+Dialogue: 0,0:00:52.90,0:00:55.19,orig,L_10,0,0,0,karaoke,{\ko20}お{\ko50}気|<き{\ko18}に{\ko24}入|<い{\ko13}り{\ko35}Pink{\ko18} {\ko51}Lip
+Dialogue: 0,0:00:52.90,0:00:55.19,roma,____,0,0,0,karaoke,{\k20}o {\k50}ki {\k18}ni {\k24}i {\k13}ri {\k35}pink {\k18}{\k51}lip
+Dialogue: 0,0:00:52.90,0:00:55.19,ts,____,0,0,0,karaoke,最爱的粉红唇瓣
+Comment: 0,0:00:52.90,0:00:55.19,tuck,____,0,0,0,,{\kf23}お{\kf50}気{\kf23}に{\kf20}入{\kf13}り{\kf50}Pink {\kf245}Lip
+Dialogue: 0,0:00:57.22,0:00:58.76,orig,L_11,0,0,0,karaoke,{\ko25}牙|<き{\ko24}#|ば{\ko17}を{\ko31}隠|<か{\ko7}#|く{\ko37}し{\ko13}て
+Dialogue: 0,0:00:57.22,0:00:58.76,roma,____,0,0,0,karaoke,{\k25}ki {\k24}ba {\k17}o {\k31}ka {\k7}ku {\k37}shi {\k13}te
+Dialogue: 0,0:00:57.22,0:00:58.76,ts,____,0,0,0,karaoke,藏起獠牙
+Comment: 0,0:00:57.22,0:00:58.76,tuck,____,0,0,0,,{\kf54}牙{\kf20}を{\kf42}隠{\kf32}し{\kf17}て
+Dialogue: 0,0:00:58.82,0:01:02.79,orig,L_12,0,0,0,karaoke,{\ko27}従|<じゅ{\ko17}#|う{\ko25}順|じゅ{\ko16}#|ん{\ko48}な{\ko32}フ{\ko25}リ{\ko20} {\ko21}甘|<あ{\ko24}#|ま{\ko11}く{\ko29}鳴|<な{\ko24}い{\ko28}た{\ko50}ら
+Dialogue: 0,0:00:58.82,0:01:02.79,roma,____,0,0,0,karaoke,{\k27}ju {\k17}u {\k25}ju{\k16}n {\k48}na {\k32}fu {\k25}ri {\k20}{\k21}a {\k24}ma {\k11}ku {\k29}na {\k24}i {\k28}ta {\k50}ra
+Dialogue: 0,0:00:58.82,0:01:02.79,ts,____,0,0,0,karaoke,假装顺从 发出甜美声音
+Comment: 0,0:00:58.82,0:01:02.79,tuck,____,0,0,0,,{\kf45}従{\kf40}順{\kf55}な{\kf22}フ{\kf44}リ {\kf51}甘{\kf9}く{\kf29}鳴{\kf27}い{\kf22}た{\kf113}ら
+Dialogue: 0,0:01:04.58,0:01:06.49,orig,L_13,0,0,0,karaoke,{\ko23}た{\ko21}ま{\ko17}ら{\ko28}な{\ko14}い{\ko11}{\ko11}で{\ko66}しょ{\ko0}{\-Z}？
+Dialogue: 0,0:01:04.58,0:01:06.49,roma,____,0,0,0,karaoke,{\k23}ta {\k21}ma {\k17}ra {\k28}na {\k14}i {\k11}{\k11}de {\k66}sho{\k0}
+Dialogue: 0,0:01:04.58,0:01:06.49,ts,____,0,0,0,karaoke,你定会难以自持
+Comment: 0,0:01:04.58,0:01:06.49,tuck,____,0,0,0,,{\kf19}た{\kf30}ま{\kf19}ら{\kf25}な{\kf17}い{\kf20}で{\kf16}し{\kf36}ょ{\kf1485}？
+Dialogue: 0,0:01:21.30,0:01:24.64,orig,L_14 x-part:Verse,0,0,0,karaoke,{\ko14}焦|<あ{\ko34}#|せ{\ko42}り{\ko62}は{\ko30}{\ko23}禁|<き{\ko25}#|ん{\ko19}物|も{\ko24}#|つ{\ko61}よ
+Dialogue: 0,0:01:21.30,0:01:24.64,roma,____,0,0,0,karaoke,{\k14}a {\k34}se {\k42}ri {\k62}wa {\k30}{\k23}ki{\k25}m {\k19}mo {\k24}tsu {\k61}yo
+Dialogue: 0,0:01:21.30,0:01:24.64,ts,____,0,0,0,karaoke,切忌焦躁不安
+Comment: 0,0:01:21.30,0:01:24.64,tuck,____,0,0,0,,{\kf49}焦{\kf36}り{\kf98}は{\kf55}禁{\kf44}物{\kf86}よ
+Dialogue: 0,0:01:24.96,0:01:28.19,orig,L_15,0,0,0,karaoke,{\ko47}Coo{\ko43}l{\ko57}に{\ko30}{\ko26}い{\ko24}き{\ko16}ま{\ko32}しょ{\ko48}う
+Dialogue: 0,0:01:24.96,0:01:28.19,roma,____,0,0,0,karaoke,{\k47}coo{\k43}l {\k57}ni {\k30}{\k26}i {\k24}ki {\k16}ma {\k32}sho {\k48}u
+Dialogue: 0,0:01:24.96,0:01:28.19,ts,____,0,0,0,karaoke,保持冷静从容
+Comment: 0,0:01:24.96,0:01:28.19,tuck,____,0,0,0,,{\kf85}Cool{\kf35}に{\kf81}い{\kf26}き{\kf25}ま{\kf22}し{\kf22}ょ{\kf24}う
+Dialogue: 0,0:01:28.63,0:01:31.87,orig,L_16,0,0,0,karaoke,{\ko23}手|<て{\ko22}強|ご{\ko42}#|わ{\ko55}い{\ko36}{\ko29}相|<あ{\ko17}#|い{\ko23}手|て{\ko23}な{\ko54}ら
+Dialogue: 0,0:01:28.63,0:01:31.87,roma,____,0,0,0,karaoke,{\k23}te {\k22}go {\k42}wa {\k55}i {\k36}{\k29}a {\k17}i {\k23}te {\k23}na {\k54}ra
+Dialogue: 0,0:01:28.63,0:01:31.87,ts,____,0,0,0,karaoke,若是对手棘手
+Comment: 0,0:01:28.63,0:01:31.87,tuck,____,0,0,0,,{\kf25}手{\kf35}強{\kf116}い{\kf54}相{\kf17}手{\kf28}な{\kf111}ら
+Dialogue: 0,0:01:32.25,0:01:34.84,orig,L_17,0,0,0,karaoke,{\ko27}尚|<な{\ko12}#|お{\ko51}更|さ{\ko45}#|ら{\ko18}欲|<ほ{\ko30}し{\ko24}く{\ko25}な{\ko27}る
+Dialogue: 0,0:01:32.25,0:01:34.84,roma,____,0,0,0,karaoke,{\k27}na {\k12}o {\k51}sa {\k45}ra {\k18}ho {\k30}shi {\k24}ku {\k25}na {\k27}ru
+Dialogue: 0,0:01:32.25,0:01:34.84,ts,____,0,0,0,karaoke,反而更渴望征服
+Comment: 0,0:01:32.25,0:01:34.84,tuck,____,0,0,0,,{\kf19}尚{\kf93}更{\kf22}欲{\kf26}し{\kf27}く{\kf25}な{\kf31}る
+Dialogue: 0,0:01:35.72,0:01:38.84,orig,L_18 x-duet x-part:PreChorus,0,0,0,karaoke,{\ko16}他|<ほ{\ko50}#|か{\ko42}の{\ko34}子|<こ{\ko40}に{\ko18}は {\ko46}Don't {\ko44}tou{\ko22}ch
+Dialogue: 0,0:01:35.72,0:01:38.84,roma,____ x-duet,0,0,0,karaoke,{\k16}ho {\k50}ka {\k42}no {\k34}ko {\k40}ni {\k18}wa {\k46}don't {\k44}tou{\k22}ch
+Dialogue: 0,0:01:35.72,0:01:38.84,ts,____ x-duet,0,0,0,karaoke,其他女孩 不许触碰
 Comment: 0,0:01:35.72,0:01:38.84,tuck,____ x-duet,0,0,0,,{\kf10}他{\kf9}の{\kf37}子{\kf9}に{\kf205}は {\kf43}Don't {\kf114}touch
-Comment: 0,0:01:39.39,0:01:42.14,orig,L_19 x-duet,0,0,0,karaoke,{\ko10}よ{\ko54}そ{\ko52}み{\ko15}は {\ko52}許|<ゆ{\ko11}#|る{\ko34}さ{\ko21}な{\ko26}い
-Comment: 0,0:01:39.39,0:01:42.14,roma,____ x-duet,0,0,0,karaoke,yo so mi wa yu ru sa na i
-Comment: 0,0:01:39.39,0:01:42.14,ts,____ x-duet,0,0,0,karaoke,分心绝不容忍
+Dialogue: 0,0:01:39.39,0:01:42.14,orig,L_19 x-duet,0,0,0,karaoke,{\ko10}よ{\ko54}そ{\ko52}み{\ko15}は {\ko52}許|<ゆ{\ko11}#|る{\ko34}さ{\ko21}な{\ko26}い
+Dialogue: 0,0:01:39.39,0:01:42.14,roma,____ x-duet,0,0,0,karaoke,{\k10}yo {\k54}so {\k52}mi {\k15}wa {\k52}yu {\k11}ru {\k34}sa {\k21}na {\k26}i
+Dialogue: 0,0:01:39.39,0:01:42.14,ts,____ x-duet,0,0,0,karaoke,分心绝不容忍
 Comment: 0,0:01:39.39,0:01:42.14,tuck,____ x-duet,0,0,0,,{\kf21}よ{\kf48}そ{\kf47}み{\kf73}は {\kf20}許{\kf28}さ{\kf21}な{\kf47}い
-Comment: 0,0:01:42.74,0:01:46.07,orig,L_20 x-duet,0,0,0,karaoke,{\ko48}夢|<む{\ko50}中|ちゅ{\ko44}#|う{\ko27}に{\ko46}な{\ko16}る{\ko51}なん{\ko51}て
-Comment: 0,0:01:42.74,0:01:46.07,roma,____ x-duet,0,0,0,karaoke,mu chū ni na ru na n te
-Comment: 0,0:01:42.74,0:01:46.07,ts,____ x-duet,0,0,0,karaoke,沉迷其中这种事
+Dialogue: 0,0:01:42.74,0:01:46.07,orig,L_20 x-duet,0,0,0,karaoke,{\ko48}夢|<む{\ko50}中|ちゅ{\ko44}#|う{\ko27}に{\ko46}な{\ko16}る{\ko51}なん{\ko51}て
+Dialogue: 0,0:01:42.74,0:01:46.07,roma,____ x-duet,0,0,0,karaoke,{\k48}mu {\k50}chu {\k44}u {\k27}ni {\k46}na {\k16}ru {\k51}nan {\k51}te
+Dialogue: 0,0:01:42.74,0:01:46.07,ts,____ x-duet,0,0,0,karaoke,沉迷其中这种事
 Comment: 0,0:01:42.74,0:01:46.07,tuck,____ x-duet,0,0,0,,{\kf38}夢{\kf95}中{\kf26}に{\kf10}な{\kf24}る{\kf61}な{\kf71}ん{\kf71}て
-Comment: 0,0:01:46.44,0:01:49.55,orig,L_21 x-duet,0,0,0,karaoke,{\ko48}私|<わ{\ko37}#|た{\ko56}#|し{\ko12}ら{\ko60}し{\ko18}く{\ko21}な{\ko27}い{\ko32}わ
-Comment: 0,0:01:46.44,0:01:49.55,roma,____ x-duet,0,0,0,karaoke,wa ta shi ra shi ku na i wa
-Comment: 0,0:01:46.44,0:01:49.55,ts,____ x-duet,0,0,0,karaoke,可不像我的作风
+Dialogue: 0,0:01:46.44,0:01:49.55,orig,L_21 x-duet,0,0,0,karaoke,{\ko48}私|<わ{\ko37}#|た{\ko56}#|し{\ko12}ら{\ko60}し{\ko18}く{\ko21}な{\ko27}い{\ko32}わ
+Dialogue: 0,0:01:46.44,0:01:49.55,roma,____ x-duet,0,0,0,karaoke,{\k48}wa {\k37}ta {\k56}shi {\k12}ra {\k60}shi {\k18}ku {\k21}na {\k27}i {\k32}wa
+Dialogue: 0,0:01:46.44,0:01:49.55,ts,____ x-duet,0,0,0,karaoke,可不像我的作风
 Comment: 0,0:01:46.44,0:01:49.55,tuck,____ x-duet,0,0,0,,{\kf107}私{\kf11}ら{\kf14}し{\kf6}く{\kf10}な{\kf34}い{\kf93}わ
-Comment: 0,0:01:49.62,0:01:54.05,orig,L_22,0,0,0,karaoke,{\ko27}澄|<す{\ko15}ま{\ko35}し{\ko20}た{\ko21}顔|<か{\ko13}#|お{\ko31}で{\ko24}{\ko28}な{\ko44}び{\ko11}か{\ko35}せ{\ko12}て {\ko36}Pin{\ko17}k {\ko74}hair
-Comment: 0,0:01:49.62,0:01:54.05,roma,____ ,0,0,0,karaoke,su ma shi ta ka o de na bi ka se te pink hair
-Comment: 0,0:01:49.62,0:01:54.05,ts,____ ,0,0,0,karaoke,以清冷面容摇曳粉色发丝
-Comment: 0,0:01:49.62,0:01:54.05,tuck,____ ,0,0,0,,{\kf30}澄{\kf22}ま{\kf31}し{\kf15}た{\kf40}顔{\kf51}で{\kf31}な{\kf45}び{\kf13}か{\kf32}せ{\kf9}て {\kf48}Pink {\kf245}hair
-Comment: 0,0:01:55.82,0:01:57.39,orig,L_23,0,0,0,karaoke,{\ko28}爪|<つ{\ko24}#|め{\ko21}を{\ko46}た{\ko24}て{\ko14}て
-Comment: 0,0:01:55.82,0:01:57.39,roma,____ ,0,0,0,karaoke,tsu me o ta te te
-Comment: 0,0:01:55.82,0:01:57.39,ts,____ ,0,0,0,karaoke,伸出利爪
-Comment: 0,0:01:55.82,0:01:57.39,tuck,____ ,0,0,0,,{\kf60}爪{\kf20}を{\kf44}た{\kf24}て{\kf23}て
-Comment: 0,0:01:57.47,0:02:01.32,orig,L_24,0,0,0,karaoke,{\ko24}時|<と{\ko22}#|き{\ko21}に{\ko9}は{\ko38}噛|<か{\ko19}み{\ko30}付|<つ{\ko32}い{\ko13}{\ko21}て {\ko23}私|<わ{\ko5}#|た{\ko43}#|し{\ko18}の{\ko28}こ{\ko39}と
-Comment: 0,0:01:57.47,0:02:01.32,roma,____ ,0,0,0,karaoke,to ki ni wa ka mi tsu i te wa ta shi no ko to
-Comment: 0,0:01:57.47,0:02:01.32,ts,____ ,0,0,0,karaoke,时而撕咬 将我的一切
-Comment: 0,0:01:57.47,0:02:01.32,tuck,____ ,0,0,0,,{\kf43}時{\kf27}に{\kf12}は{\kf32}噛{\kf23}み{\kf29}付{\kf43}い{\kf16}て {\kf78}私{\kf18}の{\kf27}こ{\kf220}と
-Comment: 0,0:02:03.19,0:02:05.50,orig,L_25,0,0,0,karaoke,{\ko20}刻|<き{\ko27}#|ざ{\ko17}み{\ko29}つ{\ko22}け{\ko40}る{\ko76}の
-Comment: 0,0:02:03.19,0:02:05.50,roma,____ ,0,0,0,karaoke,ki za mi tsu ke ru no
-Comment: 0,0:02:03.19,0:02:05.50,ts,____ ,0,0,0,karaoke,深深铭刻于心
-Comment: 0,0:02:03.19,0:02:05.50,tuck,____ ,0,0,0,,{\kf55}刻{\kf17}み{\kf25}つ{\kf28}け{\kf35}る{\kf71}の
-Comment: 0,0:02:41.85,0:02:44.89,orig,L_26 x-duet,0,0,0,karaoke,{\ko47}余|<よ{\ko26}裕|ゆ{\ko22}#|う{\ko18}な{\ko39}顔|<か{\ko8}#|お{\ko22}が {\ko46}Dis{\ko54}li{\ko22}ke
-Comment: 0,0:02:41.85,0:02:44.89,roma,____ x-duet,0,0,0,karaoke,yo yū na ka o ga Di sli ke
-Comment: 0,0:02:41.85,0:02:44.89,ts,____ x-duet,0,0,0,karaoke,游刃有余的神情 真令人反感
+Dialogue: 0,0:01:49.62,0:01:54.05,orig,L_22 x-part:Chorus,0,0,0,karaoke,{\ko27}澄|<す{\ko15}ま{\ko35}し{\ko20}た{\ko21}顔|<か{\ko13}#|お{\ko31}で{\ko24}{\ko28}な{\ko44}び{\ko11}か{\ko35}せ{\ko12}て {\ko36}Pin{\ko17}k {\ko74}hair
+Dialogue: 0,0:01:49.62,0:01:54.05,roma,____,0,0,0,karaoke,{\k27}su {\k15}ma {\k35}shi {\k20}ta {\k21}ka {\k13}o {\k31}de {\k24}{\k28}na {\k44}bi {\k11}ka {\k35}se {\k12}te {\k36}pin{\k17}k {\k74}hair
+Dialogue: 0,0:01:49.62,0:01:54.05,ts,____,0,0,0,karaoke,以清冷面容摇曳粉色发丝
+Comment: 0,0:01:49.62,0:01:54.05,tuck,____,0,0,0,,{\kf30}澄{\kf22}ま{\kf31}し{\kf15}た{\kf40}顔{\kf51}で{\kf31}な{\kf45}び{\kf13}か{\kf32}せ{\kf9}て {\kf48}Pink {\kf245}hair
+Dialogue: 0,0:01:55.82,0:01:57.39,orig,L_23,0,0,0,karaoke,{\ko28}爪|<つ{\ko24}#|め{\ko21}を{\ko46}た{\ko24}て{\ko14}て
+Dialogue: 0,0:01:55.82,0:01:57.39,roma,____,0,0,0,karaoke,{\k28}tsu {\k24}me {\k21}o {\k46}ta {\k24}te {\k14}te
+Dialogue: 0,0:01:55.82,0:01:57.39,ts,____,0,0,0,karaoke,伸出利爪
+Comment: 0,0:01:55.82,0:01:57.39,tuck,____,0,0,0,,{\kf60}爪{\kf20}を{\kf44}た{\kf24}て{\kf23}て
+Dialogue: 0,0:01:57.47,0:02:01.32,orig,L_24,0,0,0,karaoke,{\ko24}時|<と{\ko22}#|き{\ko21}に{\ko9}は{\ko38}噛|<か{\ko19}み{\ko30}付|<つ{\ko32}い{\ko13}{\ko21}て {\ko23}私|<わ{\ko5}#|た{\ko43}#|し{\ko18}の{\ko28}こ{\ko39}と
+Dialogue: 0,0:01:57.47,0:02:01.32,roma,____,0,0,0,karaoke,{\k24}to {\k22}ki {\k21}ni {\k9}wa {\k38}ka {\k19}mi {\k30}tsu {\k32}i {\k13}{\k21}te {\k23}wa {\k5}ta {\k43}shi {\k18}no {\k28}ko {\k39}to
+Dialogue: 0,0:01:57.47,0:02:01.32,ts,____,0,0,0,karaoke,时而撕咬 将我的一切
+Comment: 0,0:01:57.47,0:02:01.32,tuck,____,0,0,0,,{\kf43}時{\kf27}に{\kf12}は{\kf32}噛{\kf23}み{\kf29}付{\kf43}い{\kf16}て {\kf78}私{\kf18}の{\kf27}こ{\kf220}と
+Dialogue: 0,0:02:03.19,0:02:05.50,orig,L_25,0,0,0,karaoke,{\ko20}刻|<き{\ko27}#|ざ{\ko17}み{\ko29}つ{\ko22}け{\ko40}る{\ko76}の
+Dialogue: 0,0:02:03.19,0:02:05.50,roma,____,0,0,0,karaoke,{\k20}ki {\k27}za {\k17}mi {\k29}tsu {\k22}ke {\k40}ru {\k76}no
+Dialogue: 0,0:02:03.19,0:02:05.50,ts,____,0,0,0,karaoke,深深铭刻于心
+Comment: 0,0:02:03.19,0:02:05.50,tuck,____,0,0,0,,{\kf55}刻{\kf17}み{\kf25}つ{\kf28}け{\kf35}る{\kf71}の
+Dialogue: 0,0:02:41.85,0:02:44.89,orig,L_26 x-duet x-part:Reprise,0,0,0,karaoke,{\ko47}余|<よ{\ko26}裕|ゆ{\ko22}#|う{\ko18}な{\ko39}顔|<か{\ko8}#|お{\ko22}が {\ko46}Dis{\ko54}li{\ko22}ke
+Dialogue: 0,0:02:41.85,0:02:44.89,roma,____ x-duet,0,0,0,karaoke,{\k47}yo {\k26}yu {\k22}u {\k18}na {\k39}ka {\k8}o {\k22}ga {\k46}dis{\k54}li{\k22}ke
+Dialogue: 0,0:02:41.85,0:02:44.89,ts,____ x-duet,0,0,0,karaoke,游刃有余的神情 真令人反感
 Comment: 0,0:02:41.85,0:02:44.89,tuck,____ x-duet,0,0,0,,{\kf17}余{\kf6}裕{\kf117}な{\kf13}顔{\kf10}が {\kf69}Dislike
-Comment: 0,0:02:45.52,0:02:48.45,orig,L_27 x-duet,0,0,0,karaoke,{\ko40}絶|<ぜ{\ko12}#|っ{\ko35}対|た{\ko9}#|い{\ko22}に{\ko49}許|<ゆ{\ko10}#|る{\ko35}さ{\ko21}な{\ko60}い
-Comment: 0,0:02:45.52,0:02:48.45,roma,____ x-duet,0,0,0,karaoke,ze tta i ni yu ru sa na i
-Comment: 0,0:02:45.52,0:02:48.45,ts,____ x-duet,0,0,0,karaoke,我绝不原谅
+Dialogue: 0,0:02:45.52,0:02:48.45,orig,L_27 x-duet,0,0,0,karaoke,{\ko40}絶|<ぜ{\ko12}#|っ{\ko35}対|た{\ko9}#|い{\ko22}に{\ko49}許|<ゆ{\ko10}#|る{\ko35}さ{\ko21}な{\ko60}い
+Dialogue: 0,0:02:45.52,0:02:48.45,roma,____ x-duet,0,0,0,karaoke,{\k40}ze {\k12}t{\k35}ta {\k9}i {\k22}ni {\k49}yu {\k10}ru {\k35}sa {\k21}na {\k60}i
+Dialogue: 0,0:02:45.52,0:02:48.45,ts,____ x-duet,0,0,0,karaoke,我绝不原谅
 Comment: 0,0:02:45.52,0:02:48.45,tuck,____ x-duet,0,0,0,,{\kf55}絶{\kf74}対{\kf17}に{\kf24}許{\kf70}さ{\kf6}な{\kf43}い
-Comment: 0,0:02:48.74,0:02:52.06,orig,L_28 x-duet,0,0,0,karaoke,{\ko44}夢|<む{\ko51}中|ちゅ{\ko42}#|う{\ko14}に{\ko46}さ{\ko34}せ{\ko43}る{\ko58}わ
-Comment: 0,0:02:48.74,0:02:52.06,roma,____ x-duet,0,0,0,karaoke,mu chū ni sa se ru wa
-Comment: 0,0:02:48.74,0:02:52.06,ts,____ x-duet,0,0,0,karaoke,会让你沉迷其中
+Dialogue: 0,0:02:48.74,0:02:52.06,orig,L_28 x-duet,0,0,0,karaoke,{\ko44}夢|<む{\ko51}中|ちゅ{\ko42}#|う{\ko14}に{\ko46}さ{\ko34}せ{\ko43}る{\ko58}わ
+Dialogue: 0,0:02:48.74,0:02:52.06,roma,____ x-duet,0,0,0,karaoke,{\k44}mu {\k51}chu {\k42}u {\k14}ni {\k46}sa {\k34}se {\k43}ru {\k58}wa
+Dialogue: 0,0:02:48.74,0:02:52.06,ts,____ x-duet,0,0,0,karaoke,会让你沉迷其中
 Comment: 0,0:02:48.74,0:02:52.06,tuck,____ x-duet,0,0,0,,{\kf42}夢{\kf42}中{\kf42}に{\kf42}さ{\kf42}せ{\kf42}る{\kf42}わ
-Comment: 0,0:02:52.39,0:02:55.44,orig,L_29 x-duet,0,0,0,karaoke,{\ko44}掴|<つ{\ko51}#|か{\ko46}ん{\ko19}で{\ko53}離|<は{\ko10}#|な{\ko34}さ{\ko21}な{\ko27}い
-Comment: 0,0:02:52.39,0:02:55.44,roma,____ x-duet,0,0,0,karaoke,tsu ka n de ha na sa na i
-Comment: 0,0:02:52.39,0:02:55.44,ts,____ x-duet,0,0,0,karaoke,抓紧便不再放手
+Dialogue: 0,0:02:52.39,0:02:55.44,orig,L_29 x-duet,0,0,0,karaoke,{\ko44}掴|<つ{\ko51}#|か{\ko46}ん{\ko19}で{\ko53}離|<は{\ko10}#|な{\ko34}さ{\ko21}な{\ko27}い
+Dialogue: 0,0:02:52.39,0:02:55.44,roma,____ x-duet,0,0,0,karaoke,{\k44}tsu {\k51}ka{\k46}n {\k19}de {\k53}ha {\k10}na {\k34}sa {\k21}na {\k27}i
+Dialogue: 0,0:02:52.39,0:02:55.44,ts,____ x-duet,0,0,0,karaoke,抓紧便不再放手
 Comment: 0,0:02:52.39,0:02:55.44,tuck,____ x-duet,0,0,0,,{\kf42}掴{\kf42}ん{\kf42}で{\kf42}離{\kf42}さ{\kf42}な{\kf42}い
-Comment: 0,0:02:55.63,0:02:59.92,orig,L_30,0,0,0,karaoke,{\ko23}恋|<こ{\ko27}#|い{\ko18}の{\ko22}駆|<か{\ko24}け{\ko12}引|<ひ{\ko36}き{\ko21} {\ko27}気|<き{\ko25}分|ぶ{\ko20}#|ん{\ko10}は{\ko32}そ{\ko11}う{\ko50}Pink{\ko9} {\ko62}Cat
-Comment: 0,0:02:55.63,0:02:59.92,roma,____ ,0,0,0,karaoke,ko i no ka ke hi ki ki bu n wa sō pink cat
-Comment: 0,0:02:55.63,0:02:59.92,ts,____ ,0,0,0,karaoke,恋爱的博弈 此刻心情如粉红猫般雀跃
-Comment: 0,0:02:55.63,0:02:59.92,tuck,____ ,0,0,0,,{\kf180}恋{\kf180}の{\kf180}駆{\kf180}け{\kf180}引{\kf180}き {\kf180}気{\kf180}分{\kf180}は{\kf180}そ{\kf180}う{\kf180}Pink {\kf180}Cat
-Comment: 0,0:03:01.81,0:03:03.35,orig,L_31,0,0,0,karaoke,{\ko23}牙|<き{\ko27}#|ば{\ko17}を{\ko30}隠|<か{\ko6}#|く{\ko35}し{\ko16}て
-Comment: 0,0:03:01.81,0:03:03.35,roma,____ ,0,0,0,karaoke,ki ba o ka ku shi te
-Comment: 0,0:03:01.81,0:03:03.35,ts,____ ,0,0,0,karaoke,藏起獠牙
-Comment: 0,0:03:01.81,0:03:03.35,tuck,____ ,0,0,0,,{\kf57}牙{\kf18}を{\kf43}隠{\kf32}し{\kf16}て
-Comment: 0,0:03:03.40,0:03:07.38,orig,L_32,0,0,0,karaoke,{\ko30}従|<じゅ{\ko14}#|う{\ko30}順|じゅ{\ko11}#|ん{\ko50}な{\ko30}フ{\ko25}リ{\ko19} {\ko21}甘|<あ{\ko24}#|ま{\ko12}く{\ko34}鳴|<な{\ko22}い{\ko28}た{\ko48}ら
-Comment: 0,0:03:03.40,0:03:07.38,roma,____ ,0,0,0,karaoke,jū ju n na fu ri a ma ku na i ta ra
-Comment: 0,0:03:03.40,0:03:07.38,ts,____ ,0,0,0,karaoke,假装顺从 发出甜美声音
-Comment: 0,0:03:03.40,0:03:07.38,tuck,____ ,0,0,0,,{\kf44}従{\kf40}順{\kf51}な{\kf27}フ{\kf44}リ {\kf47}甘{\kf10}く{\kf43}鳴{\kf15}い{\kf28}た{\kf107}ら
-Comment: 0,0:03:09.17,0:03:10.22,orig,L_33,0,0,0,karaoke,{\ko22}止|<と{\ko26}ま{\ko18}ら{\ko23}な{\ko16}い
-Comment: 0,0:03:09.17,0:03:10.22,roma,____ ,0,0,0,karaoke,to ma ra na i
-Comment: 0,0:03:09.17,0:03:10.22,ts,____ ,0,0,0,karaoke,无法停歇
-Comment: 0,0:03:09.17,0:03:10.22,tuck,____ ,0,0,0,,{\kf14}止{\kf34}ま{\kf17}ら{\kf24}な{\kf13}い
-Comment: 0,0:03:10.24,0:03:14.72,orig,L_34,0,0,0,karaoke,{\ko32}澄|<す{\ko10}ま{\ko37}し{\ko18}た{\ko25}顔|<か{\ko12}#|お{\ko28}で{\ko23}{\ko29}な{\ko45}び{\ko9}か{\ko33}せ{\ko15}て{\ko35}Pin{\ko19}k {\ko78}hair
-Comment: 0,0:03:10.24,0:03:14.72,roma,____ ,0,0,0,karaoke,su ma shi ta ka o de na bi ka se te pink hair
-Comment: 0,0:03:10.24,0:03:14.72,ts,____ ,0,0,0,karaoke,以清冷面容摇曳粉色发丝
-Comment: 0,0:03:10.24,0:03:14.72,tuck,____ ,0,0,0,,{\kf18}澄{\kf21}ま{\kf34}し{\kf12}た{\kf43}顔{\kf49}で{\kf30}な{\kf45}び{\kf14}か{\kf31}せ{\kf8}て{\kf52}Pink {\kf248}hair
-Comment: 0,0:03:16.46,0:03:18.02,orig,L_35,0,0,0,karaoke,{\ko29}爪|<つ{\ko22}#|め{\ko16}を{\ko52}た{\ko23}て{\ko14}て
-Comment: 0,0:03:16.46,0:03:18.02,roma,____ ,0,0,0,karaoke,tsu me o ta te te
-Comment: 0,0:03:16.46,0:03:18.02,ts,____ ,0,0,0,karaoke,伸出利爪
-Comment: 0,0:03:16.46,0:03:18.02,tuck,____ ,0,0,0,,{\kf57}爪{\kf20}を{\kf45}た{\kf23}て{\kf22}て
-Comment: 0,0:03:18.09,0:03:21.98,orig,L_36,0,0,0,karaoke,{\ko23}時|<と{\ko22}#|き{\ko22}に{\ko10}は{\ko38}噛|<か{\ko19}み{\ko27}付|<つ{\ko31}い{\ko16}{\ko18}て {\ko20}私|<わ{\ko9}#|た{\ko42}#|し{\ko23}の{\ko25}こ{\ko44}と
-Comment: 0,0:03:18.09,0:03:21.98,roma,____ ,0,0,0,karaoke,to ki ni wa ka mi tsu i te wa ta shi no ko to
-Comment: 0,0:03:18.09,0:03:21.98,ts,____ ,0,0,0,karaoke,时而撕咬 将我的一切
-Comment: 0,0:03:18.09,0:03:21.98,tuck,____ ,0,0,0,,{\kf41}時{\kf32}に{\kf9}は{\kf31}噛{\kf25}み{\kf29}付{\kf39}い{\kf17}て {\kf79}私{\kf19}の{\kf25}こ{\kf213}と
-Comment: 0,0:03:23.81,0:03:28.52,orig,L_37,0,0,0,karaoke,{\ko20}刻|<き{\ko26}#|ざ{\ko19}み{\ko28}つ{\ko23}け{\ko21}る{\ko26}の{\ko20} {\ko19}覚|<か{\ko26}#|く{\ko13}悟|ご{\ko36}し{\ko22}て{\ko44}よ{\ko128}ね
-Comment: 0,0:03:23.81,0:03:28.52,roma,____ ,0,0,0,karaoke,ki za mi tsu ke ru no ka ku go shi te yo ne
-Comment: 0,0:03:23.81,0:03:28.52,ts,____ ,0,0,0,karaoke,深深铭刻于心 做好觉悟吧
-Comment: 0,0:03:23.81,0:03:28.52,tuck,____ ,0,0,0,,{\kf54}刻{\kf22}み{\kf21}つ{\kf28}け{\kf21}る{\kf40}の {\kf50}覚{\kf15}悟{\kf34}し{\kf16}て{\kf41}よ{\kf182}ね
+Dialogue: 0,0:02:55.63,0:02:59.92,orig,L_30 x-part:Chorus,0,0,0,karaoke,{\ko23}恋|<こ{\ko27}#|い{\ko18}の{\ko22}駆|<か{\ko24}け{\ko12}引|<ひ{\ko36}き{\ko21} {\ko27}気|<き{\ko25}分|ぶ{\ko20}#|ん{\ko10}は{\ko32}そ{\ko11}う{\ko50}Pink{\ko9} {\ko62}Cat
+Dialogue: 0,0:02:55.63,0:02:59.92,roma,____,0,0,0,karaoke,{\k23}ko {\k27}i {\k18}no {\k22}ka {\k24}ke {\k12}hi {\k36}ki {\k21}{\k27}ki {\k25}bu{\k20}n {\k10}wa {\k32}so {\k11}u {\k50}pink {\k9}{\k62}cat
+Dialogue: 0,0:02:55.63,0:02:59.92,ts,____,0,0,0,karaoke,恋爱的博弈 此刻心情如粉红猫般雀跃
+Comment: 0,0:02:55.63,0:02:59.92,tuck,____,0,0,0,,{\kf180}恋{\kf180}の{\kf180}駆{\kf180}け{\kf180}引{\kf180}き {\kf180}気{\kf180}分{\kf180}は{\kf180}そ{\kf180}う{\kf180}Pink {\kf180}Cat
+Dialogue: 0,0:03:01.81,0:03:03.35,orig,L_31,0,0,0,karaoke,{\ko23}牙|<き{\ko27}#|ば{\ko17}を{\ko30}隠|<か{\ko6}#|く{\ko35}し{\ko16}て
+Dialogue: 0,0:03:01.81,0:03:03.35,roma,____,0,0,0,karaoke,{\k23}ki {\k27}ba {\k17}o {\k30}ka {\k6}ku {\k35}shi {\k16}te
+Dialogue: 0,0:03:01.81,0:03:03.35,ts,____,0,0,0,karaoke,藏起獠牙
+Comment: 0,0:03:01.81,0:03:03.35,tuck,____,0,0,0,,{\kf57}牙{\kf18}を{\kf43}隠{\kf32}し{\kf16}て
+Dialogue: 0,0:03:03.40,0:03:07.38,orig,L_32,0,0,0,karaoke,{\ko30}従|<じゅ{\ko14}#|う{\ko30}順|じゅ{\ko11}#|ん{\ko50}な{\ko30}フ{\ko25}リ{\ko19} {\ko21}甘|<あ{\ko24}#|ま{\ko12}く{\ko34}鳴|<な{\ko22}い{\ko28}た{\ko48}ら
+Dialogue: 0,0:03:03.40,0:03:07.38,roma,____,0,0,0,karaoke,{\k30}ju {\k14}u {\k30}ju{\k11}n {\k50}na {\k30}fu {\k25}ri {\k19}{\k21}a {\k24}ma {\k12}ku {\k34}na {\k22}i {\k28}ta {\k48}ra
+Dialogue: 0,0:03:03.40,0:03:07.38,ts,____,0,0,0,karaoke,假装顺从 发出甜美声音
+Comment: 0,0:03:03.40,0:03:07.38,tuck,____,0,0,0,,{\kf44}従{\kf40}順{\kf51}な{\kf27}フ{\kf44}リ {\kf47}甘{\kf10}く{\kf43}鳴{\kf15}い{\kf28}た{\kf107}ら
+Dialogue: 0,0:03:09.17,0:03:10.22,orig,L_33,0,0,0,karaoke,{\ko22}止|<と{\ko26}ま{\ko18}ら{\ko23}な{\ko16}い
+Dialogue: 0,0:03:09.17,0:03:10.22,roma,____,0,0,0,karaoke,{\k22}to {\k26}ma {\k18}ra {\k23}na {\k16}i
+Dialogue: 0,0:03:09.17,0:03:10.22,ts,____,0,0,0,karaoke,无法停歇
+Comment: 0,0:03:09.17,0:03:10.22,tuck,____,0,0,0,,{\kf14}止{\kf34}ま{\kf17}ら{\kf24}な{\kf13}い
+Dialogue: 0,0:03:10.24,0:03:14.72,orig,L_34 x-part:Outro,0,0,0,karaoke,{\ko32}澄|<す{\ko10}ま{\ko37}し{\ko18}た{\ko25}顔|<か{\ko12}#|お{\ko28}で{\ko23}{\ko29}な{\ko45}び{\ko9}か{\ko33}せ{\ko15}て{\ko35}Pin{\ko19}k {\ko78}hair
+Dialogue: 0,0:03:10.24,0:03:14.72,roma,____,0,0,0,karaoke,{\k32}su {\k10}ma {\k37}shi {\k18}ta {\k25}ka {\k12}o {\k28}de {\k23}{\k29}na {\k45}bi {\k9}ka {\k33}se {\k15}te {\k35}pin{\k19}k {\k78}hair
+Dialogue: 0,0:03:10.24,0:03:14.72,ts,____,0,0,0,karaoke,以清冷面容摇曳粉色发丝
+Comment: 0,0:03:10.24,0:03:14.72,tuck,____,0,0,0,,{\kf18}澄{\kf21}ま{\kf34}し{\kf12}た{\kf43}顔{\kf49}で{\kf30}な{\kf45}び{\kf14}か{\kf31}せ{\kf8}て{\kf52}Pink {\kf248}hair
+Dialogue: 0,0:03:16.46,0:03:18.02,orig,L_35,0,0,0,karaoke,{\ko29}爪|<つ{\ko22}#|め{\ko16}を{\ko52}た{\ko23}て{\ko14}て
+Dialogue: 0,0:03:16.46,0:03:18.02,roma,____,0,0,0,karaoke,{\k29}tsu {\k22}me {\k16}o {\k52}ta {\k23}te {\k14}te
+Dialogue: 0,0:03:16.46,0:03:18.02,ts,____,0,0,0,karaoke,伸出利爪
+Comment: 0,0:03:16.46,0:03:18.02,tuck,____,0,0,0,,{\kf57}爪{\kf20}を{\kf45}た{\kf23}て{\kf22}て
+Dialogue: 0,0:03:18.09,0:03:21.98,orig,L_36,0,0,0,karaoke,{\ko23}時|<と{\ko22}#|き{\ko22}に{\ko10}は{\ko38}噛|<か{\ko19}み{\ko27}付|<つ{\ko31}い{\ko16}{\ko18}て {\ko20}私|<わ{\ko9}#|た{\ko42}#|し{\ko23}の{\ko25}こ{\ko44}と
+Dialogue: 0,0:03:18.09,0:03:21.98,roma,____,0,0,0,karaoke,{\k23}to {\k22}ki {\k22}ni {\k10}wa {\k38}ka {\k19}mi {\k27}tsu {\k31}i {\k16}{\k18}te {\k20}wa {\k9}ta {\k42}shi {\k23}no {\k25}ko {\k44}to
+Dialogue: 0,0:03:18.09,0:03:21.98,ts,____,0,0,0,karaoke,时而撕咬 将我的一切
+Comment: 0,0:03:18.09,0:03:21.98,tuck,____,0,0,0,,{\kf41}時{\kf32}に{\kf9}は{\kf31}噛{\kf25}み{\kf29}付{\kf39}い{\kf17}て {\kf79}私{\kf19}の{\kf25}こ{\kf213}と
+Dialogue: 0,0:03:23.81,0:03:28.52,orig,L_37,0,0,0,karaoke,{\ko20}刻|<き{\ko26}#|ざ{\ko19}み{\ko28}つ{\ko23}け{\ko21}る{\ko26}の{\ko20} {\ko19}覚|<か{\ko26}#|く{\ko13}悟|ご{\ko36}し{\ko22}て{\ko44}よ{\ko128}ね
+Dialogue: 0,0:03:23.81,0:03:28.52,roma,____,0,0,0,karaoke,{\k20}ki {\k26}za {\k19}mi {\k28}tsu {\k23}ke {\k21}ru {\k26}no {\k20}{\k19}ka {\k26}ku {\k13}go {\k36}shi {\k22}te {\k44}yo {\k128}ne
+Dialogue: 0,0:03:23.81,0:03:28.52,ts,____,0,0,0,karaoke,深深铭刻于心 做好觉悟吧
+Comment: 0,0:03:23.81,0:03:28.52,tuck,____,0,0,0,,{\kf54}刻{\kf22}み{\kf21}つ{\kf28}け{\kf21}る{\kf40}の {\kf50}覚{\kf15}悟{\kf34}し{\kf16}て{\kf41}よ{\kf182}ね
