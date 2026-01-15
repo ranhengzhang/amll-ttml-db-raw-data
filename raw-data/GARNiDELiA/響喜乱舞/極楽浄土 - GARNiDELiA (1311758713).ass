@@ -4,157 +4,163 @@
 Title: 極楽浄土
 ScriptType: v4.00+
 Timer: 100.0000
-Update Details: +132ms
+Update Details: +132ms [響喜乱舞 & Violet Cry]; +181ms [GARNiDELiA BEST]; +96ms[約束 -Promise code-]
 PlayResX: 3400
 PlayResY: 1440
 WrapStyle: 0
 ScaledBorderAndShadow: no
+Original Script: ja
 
 [Aegisub Project Garbage]
-Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
-Style: roma-furigana,Noto Sans SC ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
-Style: orig-furigana,Dream Han Serif JP W27,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
-Style: orig,更纱黑体 SC SemiBold,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,7.5,0,1,6.5,0,2,10,10,10,1
-Style: roma,Noto Sans SC ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
-Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
+Style: ts-furigana,HarmonyOS Sans SC Medium,47,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,3.25,0,8,10,10,10,1
+Style: roma-furigana,Source Serif 4 Semibold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
+Style: orig-furigana,Dream Han Serif JP W27,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,6,0,1,5,0,2,10,10,10,128
+Style: orig,IPAexMincho,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,7.5,0,1,6.5,0,2,10,10,10,1
+Style: roma,阿里巴巴普惠体 3.0 95 ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
+Style: ts,HarmonyOS Sans SC Medium,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time=0; pre_pos=0;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,if (line.start_time)-200 < (pre_end_time)+800 then line.pos=1-pre_pos; else line.pos=0; end; pre_end_time=line.end_time; pre_pos=line.pos; if line.pos == 1 then line.top = line.top - line.height*1.65; line.bottom = line.bottom - line.height*1.65; end;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.top-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:32.07,0:00:34.87,orig,L__1,0,0,0,karaoke,{\ko24}月|<つ{\ko27}#|き{\ko11}明|あ{\ko37}か{\ko21}り{\ko22}昇|<の{\ko25}#|ぼ{\ko21}る{\ko13}刻|<こ{\ko79}#|く
-Comment: 0,0:00:32.07,0:00:34.87,roma,____ ,0,0,0,karaoke,tsu ki a ka ri no bo ru ko ku
-Comment: 0,0:00:32.07,0:00:34.87,ts,____ ,0,0,0,karaoke,于月色升起之际
-Comment: 0,0:00:32.07,0:00:34.87,tuck,____ ,0,0,0,,{\kf63}月{\kf10}明{\kf29}か{\kf27}り{\kf42}昇{\kf24}る{\kf73}刻
-Comment: 0,0:00:35.80,0:00:38.78,orig,L__2,0,0,0,karaoke,{\ko25}灯|<と{\ko21}#|も{\ko20}る{\ko21}赤|<あ{\ko23}#|か{\ko29}提|<ちょ{\ko19}#|{\ko31}#|う{\ko8}|{\ko57}灯|ち{\ko44}#|ん
-Comment: 0,0:00:35.80,0:00:38.78,roma,____ ,0,0,0,karaoke,to mo ru a ka chō chi n
-Comment: 0,0:00:35.80,0:00:38.78,ts,____ ,0,0,0,karaoke,点燃的红色灯笼
-Comment: 0,0:00:35.80,0:00:38.78,tuck,____ ,0,0,0,,{\kf47}灯{\kf27}る{\kf41}赤{\kf83}提{\kf139}灯
-Comment: 0,0:00:39.44,0:00:41.93,orig,L__3,0,0,0,karaoke,{\ko17}祭|<ま{\ko33}#|つ{\ko21}#|り{\ko18}囃|<ば{\ko8}#|や{\ko36}子|し{\ko26}の{\ko23}合|<あ{\ko12}図|い{\ko55}#|ず
-Comment: 0,0:00:39.44,0:00:41.93,roma,____ ,0,0,0,karaoke,ma tsu ri ba ya shi no a i zu
-Comment: 0,0:00:39.44,0:00:41.93,ts,____ ,0,0,0,karaoke,祭典配乐是暗号
-Comment: 0,0:00:39.44,0:00:41.93,tuck,____ ,0,0,0,,{\kf80}祭{\kf32}囃{\kf33}子{\kf28}の{\kf34}合{\kf40}図
-Comment: 0,0:00:42.17,0:00:45.64,orig,L__4,0,0,0,karaoke,{\ko24}ふ{\ko25}わ{\ko25}り{\ko15} {\ko32}蝶|<ちょ{\ko17}#|う{\ko29}が{\ko17} {\ko11}誘|<さ{\ko17}#|そ{\ko30}い{\ko14}{\ko27}出|<だ{\ko64}す
-Comment: 0,0:00:42.17,0:00:45.64,roma,____ ,0,0,0,karaoke,fu wa ri chō ga sa so i da su
-Comment: 0,0:00:42.17,0:00:45.64,ts,____ ,0,0,0,karaoke,诱惑夜蝶翩翩飞出
-Comment: 0,0:00:42.17,0:00:45.64,tuck,____ ,0,0,0,,{\kf58}ふ{\kf28}わ{\kf40}り {\kf49}蝶{\kf38}が {\kf39}誘{\kf37}い{\kf33}出{\kf82}す
-Comment: 0,0:00:45.36,0:00:49.43,orig,L__5 x-duet,0,0,0,karaoke,{\ko27}ちょ{\ko23}い{\ko25}と{\ko17}覗|<の{\ko32}#|ぞ{\ko16}{\ko27}い{\ko41}て{\ko22} {\ko48}見|<み{\ko32}て{\ko14}{\ko25}ご{\ko58}らん
-Comment: 0,0:00:45.36,0:00:49.43,roma,____ x-duet,0,0,0,karaoke,cho i to no zo i te mi te go ra n
-Comment: 0,0:00:45.36,0:00:49.43,ts,____ ,0,0,0,karaoke,若有似无地睥睨窥觎
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time={n=0}; line_pos=0; line_scale=2; ahead_time=0; main_bottom=0; zero_hint=true; text_hint=true; line_num=0;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,function mask_style(syl,line) if syl.furi.n==0 then return "\\t("..(syl.start_time+ahead_time)..","..(syl.end_time+ahead_time)..",\\iclip("..(line.left+syl.right)..","..(line.top)..","..(line.left+syl.right)..","..(line.bottom).."))"; end; local furis={n=0}; local count=0; for i=0, syl.furi.n do if syl.furi[i] then local furi={}; for i, v in _G.pairs(syl.furi[i]) do furi[i]=v; end; if furi["text_spacestripped"]~="" then furis[furis.n]=furi; furis.n=furis.n+1; count=count+_G.unicode.len(furi["text_spacestripped"]); end; end; end; if furis.n==0 then return "\\t("..(syl.start_time+ahead_time)..","..(syl.end_time+ahead_time)..",\\iclip("..(line.left+syl.right)..","..(line.top)..","..(line.left+syl.right)..","..(line.bottom).."))"; end; local animate=""; local recent=0; for i=0, #furis do local furi=furis[i]; recent=recent+_G.unicode.len(furi["text_spacestripped"]); animate=animate.."\\t("..(furi.start_time+ahead_time)..","..(furi.end_time+ahead_time)..",\\iclip("..(line.left+syl.left+syl.width/count*recent)..","..(line.top)..","..(line.left+syl.left+syl.right)..","..(line.bottom).."))"; end; return animate; end;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,function pos_index(line) line_pos=0; for i=0, pre_end_time.n do line_pos=i; if pre_end_time[i]==nil or (line.start_time-pre_end_time[i])>=1000 then break end; end; if line_pos>=pre_end_time.n then pre_end_time.n=pre_end_time.n+1; end; pre_end_time[line_pos]=line.end_time; end;
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,pos_index(line); line.top=line.top-100; ahead_time=math.min(line.start_time, 800); line.bottom=line.bottom-100; line.top=line.top-line.height*line_scale*line_pos; line.bottom=line.bottom-line.height*line_scale*line_pos; main_bottom=line.bottom; if not line.actor:find("x%-bg") then line_num=line_num+1; end;
+Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{!((syl.text:find("\\%-Z") or syl.text:find("\\%-zero")) and zero_hint) and "\\u1" or ""!\an2!((syl.text:find("\\%-T") or syl.text:find("\\%-text")) and zero_hint) and "\\3a&HFF&" or ""!\pos(!line.left+syl.center!,!line.bottom!)\k!line.duration/10+ahead_time/10!\k0\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}
+Comment: 2,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{\an2\pos(!line.left+syl.center!,!line.bottom!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\3a&HFF&\iclip(!line.left+syl.left!,!line.top!,!line.left+syl.right!,!line.bottom!)!mask_style(syl,line)!}
+Comment: 3,0:00:00.00,0:00:00.00,orig,,0,0,0,template pre-line mark notext,!retime("line", -(ahead_time), 200)!{\an7\pos(25,!25+line.height*line_pos!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}!line.actor:find("x%-bg") and "("..line_num..")" or line_num!
+Comment: 3,0:00:00.00,0:00:00.00,orig,,0,0,0,template line mark notext,!""!
+Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -(ahead_time), 200)!{\an2\pos(!line.left+syl.center!,!line.top!)\k!($sstart/10)+ahead_time/10!\kf!($skdur)!\fad(!math.min(math.max(ahead_time-600,0),200)!,200)}
+Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template syl noblank,!retime("line", -(ahead_time), 200)!{\an8\pos(!line.left+syl.center!,!main_bottom!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\k!line.raw:find("{\\k") and (($sstart/10)+ahead_time/10) or 0!\kf!($skdur)!}
+Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,code line,line.top=line.top+line.height*line_pos*1.15; line.bottom=line.bottom-line.height*line_pos*1.15;
+Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\an8\pos(!line.left+syl.center!,!line.top!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\k!line.raw:find("{\\k") and (($sstart/10)+ahead_time/10) or 0!\kf!($skdur)!}
+Dialogue: 0,0:00:32.07,0:00:34.87,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko24}月|<つ{\ko27}#|き{\ko11}明|あ{\ko37}か{\ko21}り{\ko22}昇|<の{\ko25}#|ぼ{\ko21}る{\ko13}刻|<こ{\ko79}#|く
+Dialogue: 0,0:00:32.07,0:00:34.87,roma,____,0,0,0,karaoke,{\k24}tsu {\k27}ki {\k11}a {\k37}ka {\k21}ri {\k22}no {\k25}bo {\k21}ru {\k13}ko {\k79}ku
+Dialogue: 0,0:00:32.07,0:00:34.87,ts,____,0,0,0,karaoke,于月色升起之际
+Comment: 0,0:00:32.07,0:00:34.87,tuck,____,0,0,0,,{\kf63}月{\kf10}明{\kf29}か{\kf27}り{\kf42}昇{\kf24}る{\kf73}刻
+Dialogue: 0,0:00:35.80,0:00:38.78,orig,L__2,0,0,0,karaoke,{\ko25}灯|<と{\ko21}#|も{\ko20}る{\ko21}赤|<あ{\ko23}#|か{\ko29}提|<ちょ{\ko19}#|{\ko31}#|う{\ko8}|{\ko57}灯|ち{\ko44}#|ん
+Dialogue: 0,0:00:35.80,0:00:38.78,roma,____,0,0,0,karaoke,{\k25}to {\k21}mo {\k20}ru {\k21}a {\k23}ka {\k29}cho {\k19}{\k31}u {\k8}{\k57}chi{\k44}n
+Dialogue: 0,0:00:35.80,0:00:38.78,ts,____,0,0,0,karaoke,点燃的红色灯笼
+Comment: 0,0:00:35.80,0:00:38.78,tuck,____,0,0,0,,{\kf47}灯{\kf27}る{\kf41}赤{\kf83}提{\kf139}灯
+Dialogue: 0,0:00:39.44,0:00:41.93,orig,L__3,0,0,0,karaoke,{\ko17}祭|<ま{\ko33}#|つ{\ko21}#|り{\ko18}囃|<ば{\ko8}#|や{\ko36}子|し{\ko26}の{\ko23}合|<あ{\ko12}図|い{\ko55}#|ず
+Dialogue: 0,0:00:39.44,0:00:41.93,roma,____,0,0,0,karaoke,{\k17}ma {\k33}tsu {\k21}ri {\k18}ba {\k8}ya {\k36}shi {\k26}no {\k23}a {\k12}i {\k55}zu
+Dialogue: 0,0:00:39.44,0:00:41.93,ts,____,0,0,0,karaoke,祭典配乐是暗号
+Comment: 0,0:00:39.44,0:00:41.93,tuck,____,0,0,0,,{\kf80}祭{\kf32}囃{\kf33}子{\kf28}の{\kf34}合{\kf40}図
+Dialogue: 0,0:00:42.17,0:00:45.64,orig,L__4,0,0,0,karaoke,{\ko24}ふ{\ko25}わ{\ko25}り{\ko15} {\ko32}蝶|<ちょ{\ko17}#|う{\ko29}が{\ko17} {\ko11}誘|<さ{\ko17}#|そ{\ko30}い{\ko14}{\ko27}出|<だ{\ko64}す
+Dialogue: 0,0:00:42.17,0:00:45.64,roma,____,0,0,0,karaoke,{\k24}fu {\k25}wa {\k25}ri {\k15}{\k32}cho {\k17}u {\k29}ga {\k17}{\k11}sa {\k17}so {\k30}i {\k14}{\k27}da {\k64}su
+Dialogue: 0,0:00:42.17,0:00:45.64,ts,____,0,0,0,karaoke,诱惑夜蝶翩翩飞出
+Comment: 0,0:00:42.17,0:00:45.64,tuck,____,0,0,0,,{\kf58}ふ{\kf28}わ{\kf40}り {\kf49}蝶{\kf38}が {\kf39}誘{\kf37}い{\kf33}出{\kf82}す
+Dialogue: 0,0:00:45.36,0:00:49.43,orig,L__5 x-duet x-part:PreChorus,0,0,0,karaoke,{\ko27}ちょ{\ko23}い{\ko25}と{\ko17}覗|<の{\ko32}#|ぞ{\ko16}{\ko27}い{\ko41}て{\ko22} {\ko48}見|<み{\ko32}て{\ko14}{\ko25}ご{\ko58}らん
+Dialogue: 0,0:00:45.36,0:00:49.43,roma,____ x-duet,0,0,0,karaoke,{\k27}cho {\k23}i {\k25}to {\k17}no {\k32}zo {\k16}{\k27}i {\k41}te {\k22}{\k48}mi {\k32}te {\k14}{\k25}go {\k58}ran
+Dialogue: 0,0:00:45.36,0:00:49.43,ts,____,0,0,0,karaoke,若有似无地睥睨窥觎
 Comment: 0,0:00:45.81,0:00:49.86,tuck,____ x-duet,0,0,0,,{\kf28}ち{\kf28}ょ{\kf28}い{\kf28}と{\kf28}覗{\kf28}い{\kf28}て {\kf28}見{\kf28}て{\kf31}ご{\kf31}ら{\kf33}ん
-Comment: 0,0:00:49.97,0:00:53.00,orig,L__6,0,0,0,karaoke,{\ko27}迷|<ま{\ko24}#|よ{\ko17}い{\ko23}込|<こ{\ko14}め{\ko32}ば {\ko40}抜|<ぬ{\ko29}け{\ko12}出|<だ{\ko32}せ{\ko53}ない
-Comment: 0,0:00:49.97,0:00:53.00,roma,____ ,0,0,0,karaoke,ma yo i ko me ba nu ke da se na i
-Comment: 0,0:00:49.97,0:00:53.00,ts,____ ,0,0,0,karaoke,一旦深陷其中便难以脱身
-Comment: 0,0:00:49.97,0:00:53.00,tuck,____ ,0,0,0,,{\kf59}迷{\kf19}い{\kf21}込{\kf14}め{\kf23}ば {\kf51}抜{\kf28}け{\kf14}出{\kf28}せ{\kf44}な{\kf81}い
-Comment: 0,0:00:52.76,0:00:56.65,orig,L__7 x-duet,0,0,0,karaoke,{\ko22}楽|<た{\ko10}#|の{\ko27}し{\ko28}い{\ko29}こ{\ko18}{\ko24}と{\ko41}が{\ko21}{\ko33}し{\ko20}{\ko22}た{\ko22}い{\ko27}な{\ko45}ら
-Comment: 0,0:00:52.76,0:00:56.65,roma,____ x-duet,0,0,0,karaoke,ta no shi i ko to ga shi ta i na ra
-Comment: 0,0:00:52.76,0:00:56.65,ts,____ ,0,0,0,karaoke,既然想要寻欢作乐
+Dialogue: 0,0:00:49.97,0:00:53.00,orig,L__6,0,0,0,karaoke,{\ko27}迷|<ま{\ko24}#|よ{\ko17}い{\ko23}込|<こ{\ko14}め{\ko32}ば {\ko40}抜|<ぬ{\ko29}け{\ko12}出|<だ{\ko32}せ{\ko53}ない
+Dialogue: 0,0:00:49.97,0:00:53.00,roma,____,0,0,0,karaoke,{\k27}ma {\k24}yo {\k17}i {\k23}ko {\k14}me {\k32}ba {\k40}nu {\k29}ke {\k12}da {\k32}se {\k53}na i
+Dialogue: 0,0:00:49.97,0:00:53.00,ts,____,0,0,0,karaoke,一旦深陷其中便难以脱身
+Comment: 0,0:00:49.97,0:00:53.00,tuck,____,0,0,0,,{\kf59}迷{\kf19}い{\kf21}込{\kf14}め{\kf23}ば {\kf51}抜{\kf28}け{\kf14}出{\kf28}せ{\kf44}な{\kf81}い
+Dialogue: 0,0:00:52.76,0:00:56.65,orig,L__7 x-duet,0,0,0,karaoke,{\ko22}楽|<た{\ko10}#|の{\ko27}し{\ko28}い{\ko29}こ{\ko18}{\ko24}と{\ko41}が{\ko21}{\ko33}し{\ko20}{\ko22}た{\ko22}い{\ko27}な{\ko45}ら
+Dialogue: 0,0:00:52.76,0:00:56.65,roma,____ x-duet,0,0,0,karaoke,{\k22}ta {\k10}no {\k27}shi {\k28}i {\k29}ko {\k18}{\k24}to {\k41}ga {\k21}{\k33}shi {\k20}{\k22}ta {\k22}i {\k27}na {\k45}ra
+Dialogue: 0,0:00:52.76,0:00:56.65,ts,____,0,0,0,karaoke,既然想要寻欢作乐
 Comment: 0,0:00:52.76,0:00:56.65,tuck,____ x-duet,0,0,0,,{\kf27}楽{\kf27}し{\kf27}い{\kf27}こ{\kf27}と{\kf27}が{\kf27}し{\kf27}た{\kf27}い{\kf30}な{\kf30}ら
-Comment: 0,0:00:57.30,0:01:00.29,orig,L__8,0,0,0,karaoke,{\ko27}お{\ko22}い{\ko21}で{\ko18}ま{\ko15}せ {\ko25}極|<ご{\ko10}#|く{\ko43}楽|ら{\ko19}#|く{\ko32}浄|じょ{\ko22}#|う{\ko45}土|ど
-Comment: 0,0:00:57.30,0:01:00.29,roma,____ ,0,0,0,karaoke,o i de ma se go ku ra ku jō do
-Comment: 0,0:00:57.30,0:01:00.29,ts,____ ,0,0,0,karaoke,欢迎来到极乐净土
-Comment: 0,0:00:57.30,0:01:00.29,tuck,____ ,0,0,0,,{\kf28}お{\kf21}い{\kf14}で{\kf28}ま{\kf13}せ {\kf34}極{\kf63}楽{\kf48}浄{\kf46}土
-Comment: 0,0:01:00.54,0:01:03.95,orig,L__9,0,0,0,karaoke,{\ko10}歌|<う{\ko15}#|た{\ko22}え{\ko18}や{\ko24}歌|<う{\ko22}#|た{\ko47}え{\ko26} {\ko9}心|<こ{\ko13}#|こ{\ko22}#|ろ{\ko11}の{\ko28}ま{\ko32}ま{\ko42}に
-Comment: 0,0:01:00.54,0:01:03.95,roma,____ ,0,0,0,karaoke,u ta e ya u ta e ko ko ro no ma ma ni
-Comment: 0,0:01:00.54,0:01:03.95,ts,____ ,0,0,0,karaoke,且歌且唱遵循本心
-Comment: 0,0:01:00.54,0:01:03.95,tuck,____ ,0,0,0,,{\kf36}歌{\kf16}え{\kf30}や{\kf46}歌{\kf64}え {\kf47}心{\kf12}の{\kf32}ま{\kf26}ま{\kf49}に
-Comment: 0,0:01:04.19,0:01:07.54,orig,L_10,0,0,0,karaoke,{\ko8}ア{\ko14}ナ{\ko43}タ{\ko35}の{\ko17}声|<こ{\ko21}#|え{\ko13}を{\ko52}さぁ{\ko35}聞|<き{\ko28}か{\ko34}せ{\ko35}て
-Comment: 0,0:01:04.19,0:01:07.54,roma,____ ,0,0,0,karaoke,a na ta no ko e o sā ki ka se te
-Comment: 0,0:01:04.19,0:01:07.54,ts,____ ,0,0,0,karaoke,让我听一听你的歌声
-Comment: 0,0:01:04.19,0:01:07.54,tuck,____ ,0,0,0,,{\kf17}ア{\kf13}ナ{\kf43}タ{\kf36}の{\kf35}声{\kf19}を{\kf42}さ{\kf3}ぁ{\kf39}聞{\kf30}か{\kf28}せ{\kf52}て
-Comment: 0,0:01:08.11,0:01:11.19,orig,L_11,0,0,0,karaoke,{\ko22}踊|<お{\ko11}#|ど{\ko33}れ{\ko10}や{\ko14}踊|<お{\ko22}#|ど{\ko29}れ{\ko17} {\ko21}時|<と{\ko23}#|き{\ko14}を{\ko21}忘|<わ{\ko38}#|す{\ko33}れ
-Comment: 0,0:01:08.11,0:01:11.19,roma,____ ,0,0,0,karaoke,o do re ya o do re to ki o wa su re
-Comment: 0,0:01:08.11,0:01:11.19,ts,____ ,0,0,0,karaoke,手舞足蹈忘却时间
-Comment: 0,0:01:08.11,0:01:11.19,tuck,____ ,0,0,0,,{\kf41}踊{\kf32}れ{\kf17}や{\kf29}踊{\kf43}れ {\kf53}時{\kf10}を{\kf48}忘{\kf47}れ
-Comment: 0,0:01:11.50,0:01:15.21,orig,L_12,0,0,0,karaoke,{\ko23}今|<こ{\ko25}宵|よ{\ko26}#|い{\ko21}{\ko24}共|<と{\ko21}#|も{\ko32}に{\ko13} {\ko26}あゝ{\ko18}狂|<く{\ko16}#|る{\ko26}い{\ko25}咲|<ざ{\ko75}き
-Comment: 0,0:01:11.50,0:01:15.21,roma,____ ,0,0,0,karaoke,ko yo i to mo ni ā ku ru i za ki
-Comment: 0,0:01:11.50,0:01:15.21,ts,____ ,0,0,0,karaoke,今夜一起狂乱绽放
-Comment: 0,0:01:11.50,0:01:15.21,tuck,____ ,0,0,0,,{\kf32}今{\kf62}宵 {\kf51}共{\kf40}に {\kf26}あ{\kf3}ゝ{\kf41}狂{\kf24}い{\kf20}咲{\kf80}き
-Comment: 0,0:01:30.75,0:01:33.59,orig,L_13,0,0,0,karaoke,{\ko18}美|<う{\ko26}#|つ{\ko6}#|く{\ko37}し{\ko22}く{\ko30}咲|<さ{\ko17}く{\ko27}花|<は{\ko11}#|な{\ko90}も
-Comment: 0,0:01:30.75,0:01:33.59,roma,____ ,0,0,0,karaoke,u tsu ku shi ku sa ku ha na mo
-Comment: 0,0:01:30.75,0:01:33.59,ts,____ ,0,0,0,karaoke,纵然是娇娆盛开的花儿
-Comment: 0,0:01:30.75,0:01:33.59,tuck,____ ,0,0,0,,{\kf61}美{\kf30}し{\kf28}く{\kf24}咲{\kf18}く{\kf42}花{\kf82}も
-Comment: 0,0:01:34.40,0:01:37.43,orig,L_14,0,0,0,karaoke,{\ko19}い{\ko29}つ{\ko19}か{\ko28}散|<ち{\ko24}り{\ko28}ゆ{\ko15}{\ko37}く{\ko56}も{\ko48}の
-Comment: 0,0:01:34.40,0:01:37.43,roma,____ ,0,0,0,karaoke,i tsu ka chi ri yu ku mo no
-Comment: 0,0:01:34.40,0:01:37.43,ts,____ ,0,0,0,karaoke,终有一日亦将凋零衰谢
-Comment: 0,0:01:34.40,0:01:37.43,tuck,____ ,0,0,0,,{\kf28}い{\kf30}つ{\kf18}か{\kf27}散{\kf24}り{\kf36}ゆ{\kf49}く{\kf52}も{\kf44}の
-Comment: 0,0:01:37.99,0:01:40.62,orig,L_15,0,0,0,karaoke,{\ko31}そ{\ko23}れ{\ko13}な{\ko32}ら{\ko24}こ{\ko25}の{\ko18}一|<い{\ko26}#|ち{\ko12}夜|や{\ko59}を
-Comment: 0,0:01:37.99,0:01:40.62,roma,____ ,0,0,0,karaoke,so re na ra ko no i chi ya o
-Comment: 0,0:01:37.99,0:01:40.62,ts,____ ,0,0,0,karaoke,不如把握这一个夜晚
-Comment: 0,0:01:37.99,0:01:40.62,tuck,____ ,0,0,0,,{\kf35}そ{\kf24}れ{\kf11}な{\kf32}ら{\kf20}こ{\kf30}の{\kf46}一{\kf12}夜{\kf58}を
-Comment: 0,0:01:40.82,0:01:44.19,orig,L_16,0,0,0,karaoke,{\ko23}も{\ko24}っ{\ko30}と{\ko15}{\ko17}熱|<あ{\ko29}#|つ{\ko29}く{\ko17}{\ko13}愛|<あ{\ko7}#|い{\ko40}し{\ko9}{\ko36}た{\ko9}{\ko39}い
-Comment: 0,0:01:40.82,0:01:44.19,roma,____ ,0,0,0,karaoke,mo tto a tsu ku a i shi ta i
-Comment: 0,0:01:40.82,0:01:44.19,ts,____ ,0,0,0,karaoke,更加火热地献出爱意
-Comment: 0,0:01:40.82,0:01:44.19,tuck,____ ,0,0,0,,{\kf49}も{\kf6}っ{\kf37}と{\kf46}熱{\kf46}く{\kf30}愛{\kf44}し{\kf27}た{\kf165}い
-Comment: 0,0:01:43.96,0:01:48.00,orig,L_17 x-duet,0,0,0,karaoke,{\ko26}ちょ{\ko26}い{\ko18}と{\ko30}「い{\ko25}い{\ko14}{\ko28}こ{\ko49}と」{\ko18}{\ko28}い{\ko20}{\ko12}た{\ko34}し{\ko14}ま{\ko62}しょう
-Comment: 0,0:01:43.96,0:01:48.00,roma,____ x-duet,0,0,0,karaoke,cho i to i i ko to i ta shi ma sho u
-Comment: 0,0:01:43.96,0:01:48.00,ts,____ ,0,0,0,karaoke,稍微做一些“美妙的事”吧
+Dialogue: 0,0:00:57.30,0:01:00.29,orig,L__8,0,0,0,karaoke,{\ko27}お{\ko22}い{\ko21}で{\ko18}ま{\ko15}せ {\ko25}極|<ご{\ko10}#|く{\ko43}楽|ら{\ko19}#|く{\ko32}浄|じょ{\ko22}#|う{\ko45}土|ど
+Dialogue: 0,0:00:57.30,0:01:00.29,roma,____,0,0,0,karaoke,{\k27}o {\k22}i {\k21}de {\k18}ma {\k15}se {\k25}go {\k10}ku {\k43}ra {\k19}ku {\k32}jo {\k22}u {\k45}do
+Dialogue: 0,0:00:57.30,0:01:00.29,ts,____,0,0,0,karaoke,欢迎来到极乐净土
+Comment: 0,0:00:57.30,0:01:00.29,tuck,____,0,0,0,,{\kf28}お{\kf21}い{\kf14}で{\kf28}ま{\kf13}せ {\kf34}極{\kf63}楽{\kf48}浄{\kf46}土
+Dialogue: 0,0:01:00.54,0:01:03.95,orig,L__9 x-part:Chorus,0,0,0,karaoke,{\ko10}歌|<う{\ko15}#|た{\ko22}え{\ko18}や{\ko24}歌|<う{\ko22}#|た{\ko47}え{\ko26} {\ko9}心|<こ{\ko13}#|こ{\ko22}#|ろ{\ko11}の{\ko28}ま{\ko32}ま{\ko42}に
+Dialogue: 0,0:01:00.54,0:01:03.95,roma,____,0,0,0,karaoke,{\k10}u {\k15}ta {\k22}e {\k18}ya {\k24}u {\k22}ta {\k47}e {\k26}{\k9}ko {\k13}ko {\k22}ro {\k11}no {\k28}ma {\k32}ma {\k42}ni
+Dialogue: 0,0:01:00.54,0:01:03.95,ts,____,0,0,0,karaoke,且歌且唱遵循本心
+Comment: 0,0:01:00.54,0:01:03.95,tuck,____,0,0,0,,{\kf36}歌{\kf16}え{\kf30}や{\kf46}歌{\kf64}え {\kf47}心{\kf12}の{\kf32}ま{\kf26}ま{\kf49}に
+Dialogue: 0,0:01:04.19,0:01:07.54,orig,L_10,0,0,0,karaoke,{\ko8}ア{\ko14}ナ{\ko43}タ{\ko35}の{\ko17}声|<こ{\ko21}#|え{\ko13}を{\ko31}さ{\ko21}ぁ{\ko35}聞|<き{\ko28}か{\ko34}せ{\ko35}て
+Dialogue: 0,0:01:04.19,0:01:07.54,roma,____,0,0,0,karaoke,{\k8}a {\k14}na {\k43}ta {\k35}no {\k17}ko {\k21}e {\k13}o {\k31}sa {\k21}a {\k35}ki {\k28}ka {\k34}se {\k35}te
+Dialogue: 0,0:01:04.19,0:01:07.54,ts,____,0,0,0,karaoke,让我听一听你的歌声
+Comment: 0,0:01:04.19,0:01:07.54,tuck,____,0,0,0,,{\kf17}ア{\kf13}ナ{\kf43}タ{\kf36}の{\kf35}声{\kf19}を{\kf42}さ{\kf3}ぁ{\kf39}聞{\kf30}か{\kf28}せ{\kf52}て
+Dialogue: 0,0:01:08.11,0:01:11.19,orig,L_11,0,0,0,karaoke,{\ko22}踊|<お{\ko11}#|ど{\ko33}れ{\ko10}や{\ko14}踊|<お{\ko22}#|ど{\ko29}れ{\ko17} {\ko21}時|<と{\ko23}#|き{\ko14}を{\ko21}忘|<わ{\ko38}#|す{\ko33}れ
+Dialogue: 0,0:01:08.11,0:01:11.19,roma,____,0,0,0,karaoke,{\k22}o {\k11}do {\k33}re {\k10}ya {\k14}o {\k22}do {\k29}re {\k17}{\k21}to {\k23}ki {\k14}o {\k21}wa {\k38}su {\k33}re
+Dialogue: 0,0:01:08.11,0:01:11.19,ts,____,0,0,0,karaoke,手舞足蹈忘却时间
+Comment: 0,0:01:08.11,0:01:11.19,tuck,____,0,0,0,,{\kf41}踊{\kf32}れ{\kf17}や{\kf29}踊{\kf43}れ {\kf53}時{\kf10}を{\kf48}忘{\kf47}れ
+Dialogue: 0,0:01:11.50,0:01:15.21,orig,L_12,0,0,0,karaoke,{\ko23}今|<こ{\ko25}宵|よ{\ko26}#|い{\ko21} {\ko24}共|<と{\ko21}#|も{\ko32}に{\ko13} {\ko26}あゝ{\ko18}狂|<く{\ko16}#|る{\ko26}い{\ko25}咲|<ざ{\ko75}き
+Dialogue: 0,0:01:11.50,0:01:15.21,roma,____,0,0,0,karaoke,{\k23}ko {\k25}yo {\k26}i {\k21}{\k24}to {\k21}mo {\k32}ni {\k13}{\k26}a a {\k18}ku {\k16}ru {\k26}i {\k25}za {\k75}ki
+Dialogue: 0,0:01:11.50,0:01:15.21,ts,____,0,0,0,karaoke,今夜一起狂乱绽放
+Comment: 0,0:01:11.50,0:01:15.21,tuck,____,0,0,0,,{\kf32}今{\kf62}宵 {\kf51}共{\kf40}に {\kf26}あ{\kf3}ゝ{\kf41}狂{\kf24}い{\kf20}咲{\kf80}き
+Dialogue: 0,0:01:30.75,0:01:33.59,orig,L_13 x-part:Verse,0,0,0,karaoke,{\ko18}美|<う{\ko26}#|つ{\ko6}#|く{\ko37}し{\ko22}く{\ko30}咲|<さ{\ko17}く{\ko27}花|<は{\ko11}#|な{\ko90}も
+Dialogue: 0,0:01:30.75,0:01:33.59,roma,____,0,0,0,karaoke,{\k18}u {\k26}tsu {\k6}ku {\k37}shi {\k22}ku {\k30}sa {\k17}ku {\k27}ha {\k11}na {\k90}mo
+Dialogue: 0,0:01:30.75,0:01:33.59,ts,____,0,0,0,karaoke,纵然是娇娆盛开的花儿
+Comment: 0,0:01:30.75,0:01:33.59,tuck,____,0,0,0,,{\kf61}美{\kf30}し{\kf28}く{\kf24}咲{\kf18}く{\kf42}花{\kf82}も
+Dialogue: 0,0:01:34.40,0:01:37.43,orig,L_14,0,0,0,karaoke,{\ko19}い{\ko29}つ{\ko19}か{\ko28}散|<ち{\ko24}り{\ko28}ゆ{\ko15}{\ko37}く{\ko56}も{\ko48}の
+Dialogue: 0,0:01:34.40,0:01:37.43,roma,____,0,0,0,karaoke,{\k19}i {\k29}tsu {\k19}ka {\k28}chi {\k24}ri {\k28}yu {\k15}{\k37}ku {\k56}mo {\k48}no
+Dialogue: 0,0:01:34.40,0:01:37.43,ts,____,0,0,0,karaoke,终有一日亦将凋零衰谢
+Comment: 0,0:01:34.40,0:01:37.43,tuck,____,0,0,0,,{\kf28}い{\kf30}つ{\kf18}か{\kf27}散{\kf24}り{\kf36}ゆ{\kf49}く{\kf52}も{\kf44}の
+Dialogue: 0,0:01:37.99,0:01:40.62,orig,L_15,0,0,0,karaoke,{\ko31}そ{\ko23}れ{\ko13}な{\ko32}ら{\ko24}こ{\ko25}の{\ko18}一|<い{\ko26}#|ち{\ko12}夜|や{\ko59}を
+Dialogue: 0,0:01:37.99,0:01:40.62,roma,____,0,0,0,karaoke,{\k31}so {\k23}re {\k13}na {\k32}ra {\k24}ko {\k25}no {\k18}i {\k26}chi {\k12}ya {\k59}o
+Dialogue: 0,0:01:37.99,0:01:40.62,ts,____,0,0,0,karaoke,不如把握这一个夜晚
+Comment: 0,0:01:37.99,0:01:40.62,tuck,____,0,0,0,,{\kf35}そ{\kf24}れ{\kf11}な{\kf32}ら{\kf20}こ{\kf30}の{\kf46}一{\kf12}夜{\kf58}を
+Dialogue: 0,0:01:40.82,0:01:44.19,orig,L_16,0,0,0,karaoke,{\ko23}も{\ko24}っ{\ko30}と{\ko15}{\ko17}熱|<あ{\ko29}#|つ{\ko29}く{\ko17}{\ko13}愛|<あ{\ko7}#|い{\ko40}し{\ko9}{\ko36}た{\ko9}{\ko39}い
+Dialogue: 0,0:01:40.82,0:01:44.19,roma,____,0,0,0,karaoke,{\k23}mo {\k24}t{\k30}to {\k15}{\k17}a {\k29}tsu {\k29}ku {\k17}{\k13}a {\k7}i {\k40}shi {\k9}{\k36}ta {\k9}{\k39}i
+Dialogue: 0,0:01:40.82,0:01:44.19,ts,____,0,0,0,karaoke,更加火热地献出爱意
+Comment: 0,0:01:40.82,0:01:44.19,tuck,____,0,0,0,,{\kf49}も{\kf6}っ{\kf37}と{\kf46}熱{\kf46}く{\kf30}愛{\kf44}し{\kf27}た{\kf165}い
+Dialogue: 0,0:01:43.96,0:01:48.00,orig,L_17 x-duet x-part:PreChorus,0,0,0,karaoke,{\ko26}ちょ{\ko26}い{\ko18}と{\ko0}{\-Z}「{\ko30}い{\ko25}い{\ko14}{\ko28}こ{\ko49}と{\ko0}{\-Z}」{\ko18}{\ko28}い{\ko20}{\ko12}た{\ko34}し{\ko14}ま{\ko62}しょう
+Dialogue: 0,0:01:43.96,0:01:48.00,roma,____ x-duet,0,0,0,karaoke,{\k26}cho {\k26}i {\k18}to {\k0}{\k30}i {\k25}i {\k14}{\k28}ko {\k49}to {\k0}{\k18}{\k28}i {\k20}{\k12}ta {\k34}shi {\k14}ma {\k62}sho u
+Dialogue: 0,0:01:43.96,0:01:48.00,ts,____,0,0,0,karaoke,稍微做一些“美妙的事”吧
 Comment: 0,0:01:43.96,0:01:48.00,tuck,____ x-duet,0,0,0,,{\kf17}ち{\kf17}ょ{\kf17}い{\kf17}と{\kf17}「{\kf17}い{\kf17}い{\kf17}こ{\kf17}と{\kf17}」{\kf17}い{\kf17}た{\kf17}し{\kf17}ま{\kf19}し{\kf19}ょ{\kf21}う
-Comment: 0,0:01:48.61,0:01:51.80,orig,L_18,0,0,0,karaoke,{\ko27}こ{\ko20}れ{\ko18}は{\ko26}夢|<ゆ{\ko12}#|め{\ko34}か{\ko46}幻|<ま{\ko26}#|ぼ{\ko10}#|ろ{\ko28}#|し{\ko72}か
-Comment: 0,0:01:48.61,0:01:51.80,roma,____ ,0,0,0,karaoke,ko re wa yu me ka ma bo ro shi ka
-Comment: 0,0:01:48.61,0:01:51.80,ts,____ ,0,0,0,karaoke,如梦似幻已然分辨不清
-Comment: 0,0:01:48.61,0:01:51.80,tuck,____ ,0,0,0,,{\kf28}こ{\kf21}れ{\kf18}は{\kf40}夢{\kf25}か{\kf119}幻{\kf150}か
-Comment: 0,0:01:51.31,0:01:55.41,orig,L_19 x-duet,0,0,0,karaoke,{\ko17}嘘|<う{\ko31}#|そ{\ko26}も{\ko21}真|<ま{\ko29}#|こ{\ko16}#|{\ko23}#|ど{\ko45}も{\ko23}{\ko34}無|<な{\ko12}{\ko33}い{\ko36}世|<せ{\ko49}界|か{\ko15}#|い
-Comment: 0,0:01:51.31,0:01:55.41,roma,____ x-duet,0,0,0,karaoke,u so mo ma ko to mo na i se ka i
-Comment: 0,0:01:51.31,0:01:55.41,ts,____ x-duet,0,0,0,karaoke,不存在虚实的世界
+Dialogue: 0,0:01:48.61,0:01:51.80,orig,L_18,0,0,0,karaoke,{\ko27}こ{\ko20}れ{\ko18}は{\ko26}夢|<ゆ{\ko12}#|め{\ko34}か{\ko46}幻|<ま{\ko26}#|ぼ{\ko10}#|ろ{\ko28}#|し{\ko72}か
+Dialogue: 0,0:01:48.61,0:01:51.80,roma,____,0,0,0,karaoke,{\k27}ko {\k20}re {\k18}wa {\k26}yu {\k12}me {\k34}ka {\k46}ma {\k26}bo {\k10}ro {\k28}shi {\k72}ka
+Dialogue: 0,0:01:48.61,0:01:51.80,ts,____,0,0,0,karaoke,如梦似幻已然分辨不清
+Comment: 0,0:01:48.61,0:01:51.80,tuck,____,0,0,0,,{\kf28}こ{\kf21}れ{\kf18}は{\kf40}夢{\kf25}か{\kf119}幻{\kf150}か
+Dialogue: 0,0:01:51.31,0:01:55.41,orig,L_19 x-duet,0,0,0,karaoke,{\ko17}嘘|<う{\ko31}#|そ{\ko26}も{\ko21}真|<ま{\ko29}#|こ{\ko16}#|{\ko23}#|ど{\ko45}も{\ko23}{\ko34}無|<な{\ko12}{\ko33}い{\ko36}世|<せ{\ko49}界|か{\ko15}#|い
+Dialogue: 0,0:01:51.31,0:01:55.41,roma,____ x-duet,0,0,0,karaoke,{\k17}u {\k31}so {\k26}mo {\k21}ma {\k29}ko {\k16}{\k23}to {\k45}mo {\k23}{\k34}na {\k12}{\k33}i {\k36}se {\k49}ka {\k15}i
+Dialogue: 0,0:01:51.31,0:01:55.41,ts,____ x-duet,0,0,0,karaoke,不存在虚实的世界
 Comment: 0,0:01:51.31,0:01:55.41,tuck,____ x-duet,0,0,0,,{\kf31}嘘{\kf31}も{\kf31}真{\kf31}も{\kf31}無{\kf31}い{\kf33}世{\kf34}界
-Comment: 0,0:01:55.89,0:01:58.90,orig,L_20,0,0,0,karaoke,{\ko27}ゆ{\ko22}き{\ko15}ま{\ko42}しょう {\ko29}極|<ご{\ko11}#|く{\ko37}楽|ら{\ko23}#|く{\ko32}浄|じょ{\ko18}#|う{\ko45}土|ど
-Comment: 0,0:01:55.89,0:01:58.90,roma,____ ,0,0,0,karaoke,yu ki ma sho u go ku ra ku jō do
-Comment: 0,0:01:55.89,0:01:58.90,ts,____ ,0,0,0,karaoke,一同前往极乐净土
-Comment: 0,0:01:55.89,0:01:58.90,tuck,____ ,0,0,0,,{\kf38}ゆ{\kf24}き{\kf18}ま{\kf12}し{\kf17}ょ{\kf15}う {\kf33}極{\kf62}楽{\kf46}浄{\kf46}土
-Comment: 0,0:01:59.15,0:02:02.60,orig,L_21,0,0,0,karaoke,{\ko11}歌|<う{\ko15}#|た{\ko20}え{\ko18}や{\ko24}歌|<う{\ko30}#|た{\ko65}え {\ko11}心|<こ{\ko12}#|こ{\ko23}#|ろ{\ko12}の{\ko33}ま{\ko27}ま{\ko44}に
-Comment: 0,0:01:59.15,0:02:02.60,roma,____ ,0,0,0,karaoke,u ta e ya u ta e ko ko ro no ma ma ni
-Comment: 0,0:01:59.15,0:02:02.60,ts,____ ,0,0,0,karaoke,且歌且唱遵循本心
-Comment: 0,0:01:59.15,0:02:02.60,tuck,____ ,0,0,0,,{\kf33}歌{\kf25}え{\kf29}や{\kf45}歌{\kf60}え {\kf51}心{\kf10}の{\kf33}ま{\kf27}ま{\kf50}に
-Comment: 0,0:02:02.81,0:02:06.17,orig,L_22,0,0,0,karaoke,{\ko9}乱|<み{\ko12}#|だ{\ko48}れ{\ko33}る{\ko13}髪|<か{\ko21}#|み{\ko19}息|<い{\ko29}#|き{\ko18}も{\ko39}気|<き{\ko21}に{\ko32}せ{\ko42}ず
-Comment: 0,0:02:02.81,0:02:06.17,roma,____ ,0,0,0,karaoke,mi da re ru ka mi i ki mo ki ni se zu
-Comment: 0,0:02:02.81,0:02:06.17,ts,____ ,0,0,0,karaoke,无需挂心那凌乱的发丝和喘息
-Comment: 0,0:02:02.81,0:02:06.17,tuck,____ ,0,0,0,,{\kf30}乱{\kf42}れ{\kf38}る{\kf39}髪{\kf0} {\kf42}息{\kf16}も{\kf42}気{\kf27}に{\kf26}せ{\kf42}ず
-Comment: 0,0:02:06.71,0:02:09.83,orig,L_23,0,0,0,karaoke,{\ko23}踊|<お{\ko10}#|ど{\ko31}れ{\ko16}や{\ko12}踊|<お{\ko23}#|ど{\ko26}れ{\ko16} {\ko23}時|<と{\ko25}#|き{\ko13}を{\ko23}忘|<わ{\ko37}#|す{\ko34}れ
-Comment: 0,0:02:06.71,0:02:09.83,roma,____ ,0,0,0,karaoke,o do re ya o do re to ki o wa su re
-Comment: 0,0:02:06.71,0:02:09.83,ts,____ ,0,0,0,karaoke,手舞足蹈忘却时间
-Comment: 0,0:02:06.71,0:02:09.83,tuck,____ ,0,0,0,,{\kf36}踊{\kf33}れ{\kf19}や{\kf29}踊{\kf42}れ {\kf51}時{\kf12}を{\kf45}忘{\kf49}れ
-Comment: 0,0:02:10.14,0:02:13.80,orig,L_24,0,0,0,karaoke,{\ko21}今|<こ{\ko26}宵|よ{\ko25}#|い{\ko21}{\ko18}共|<と{\ko28}#|も{\ko26}に{\ko18} {\ko26}あゝ{\ko19}狂|<く{\ko18}#|る{\ko24}い{\ko28}咲|<ざ{\ko68}き
-Comment: 0,0:02:10.14,0:02:13.80,roma,____ ,0,0,0,karaoke,ko yo i to mo ni ā ku ru i za ki
-Comment: 0,0:02:10.14,0:02:13.80,ts,____ ,0,0,0,karaoke,今夜一起狂乱绽放
-Comment: 0,0:02:10.14,0:02:13.80,tuck,____ ,0,0,0,,{\kf29}今{\kf63}宵 {\kf50}共{\kf39}に {\kf28}あ{\kf3}ゝ{\kf43}狂{\kf22}い{\kf21}咲{\kf83}き
-Comment: 0,0:02:44.43,0:02:48.42,orig,L_25 x-duet,0,0,0,karaoke,{\ko25}ちょ{\ko23}い{\ko22}と{\ko29}「い{\ko25}い{\ko11}{\ko32}こ{\ko39}と」{\ko27}{\ko27}い{\ko14}{\ko16}た{\ko30}し{\ko20}ま{\ko59}しょう
-Comment: 0,0:02:44.43,0:02:48.42,roma,____ x-duet,0,0,0,karaoke,cho i to i i ko to i ta shi ma sho u
-Comment: 0,0:02:44.43,0:02:48.42,ts,____ ,0,0,0,karaoke,稍微做一些“美妙的事”吧
+Dialogue: 0,0:01:55.89,0:01:58.90,orig,L_20,0,0,0,karaoke,{\ko27}ゆ{\ko22}き{\ko15}ま{\ko42}しょう {\ko29}極|<ご{\ko11}#|く{\ko37}楽|ら{\ko23}#|く{\ko32}浄|じょ{\ko18}#|う{\ko45}土|ど
+Dialogue: 0,0:01:55.89,0:01:58.90,roma,____,0,0,0,karaoke,{\k27}yu {\k22}ki {\k15}ma {\k42}sho u {\k29}go {\k11}ku {\k37}ra {\k23}ku {\k32}jo {\k18}u {\k45}do
+Dialogue: 0,0:01:55.89,0:01:58.90,ts,____,0,0,0,karaoke,一同前往极乐净土
+Comment: 0,0:01:55.89,0:01:58.90,tuck,____,0,0,0,,{\kf38}ゆ{\kf24}き{\kf18}ま{\kf12}し{\kf17}ょ{\kf15}う {\kf33}極{\kf62}楽{\kf46}浄{\kf46}土
+Dialogue: 0,0:01:59.15,0:02:02.60,orig,L_21 x-part:Chorus,0,0,0,karaoke,{\ko11}歌|<う{\ko15}#|た{\ko20}え{\ko18}や{\ko24}歌|<う{\ko30}#|た{\ko65}え {\ko11}心|<こ{\ko12}#|こ{\ko23}#|ろ{\ko12}の{\ko33}ま{\ko27}ま{\ko44}に
+Dialogue: 0,0:01:59.15,0:02:02.60,roma,____,0,0,0,karaoke,{\k11}u {\k15}ta {\k20}e {\k18}ya {\k24}u {\k30}ta {\k65}e {\k11}ko {\k12}ko {\k23}ro {\k12}no {\k33}ma {\k27}ma {\k44}ni
+Dialogue: 0,0:01:59.15,0:02:02.60,ts,____,0,0,0,karaoke,且歌且唱遵循本心
+Comment: 0,0:01:59.15,0:02:02.60,tuck,____,0,0,0,,{\kf33}歌{\kf25}え{\kf29}や{\kf45}歌{\kf60}え {\kf51}心{\kf10}の{\kf33}ま{\kf27}ま{\kf50}に
+Dialogue: 0,0:02:02.81,0:02:06.17,orig,L_22,0,0,0,karaoke,{\ko9}乱|<み{\ko12}#|だ{\ko48}れ{\ko33}る{\ko13}髪|<か{\ko21}#|み{\ko0} {\ko19}息|<い{\ko29}#|き{\ko18}も{\ko39}気|<き{\ko21}に{\ko32}せ{\ko42}ず
+Dialogue: 0,0:02:02.81,0:02:06.17,roma,____,0,0,0,karaoke,{\k9}mi {\k12}da {\k48}re {\k33}ru {\k13}ka {\k21}mi {\k0}{\k19}i {\k29}ki {\k18}mo {\k39}ki {\k21}ni {\k32}se {\k42}zu
+Dialogue: 0,0:02:02.81,0:02:06.17,ts,____,0,0,0,karaoke,无需挂心那凌乱的发丝和喘息
+Comment: 0,0:02:02.81,0:02:06.17,tuck,____,0,0,0,,{\kf30}乱{\kf42}れ{\kf38}る{\kf39}髪{\kf0} {\kf42}息{\kf16}も{\kf42}気{\kf27}に{\kf26}せ{\kf42}ず
+Dialogue: 0,0:02:06.71,0:02:09.83,orig,L_23,0,0,0,karaoke,{\ko23}踊|<お{\ko10}#|ど{\ko31}れ{\ko16}や{\ko12}踊|<お{\ko23}#|ど{\ko26}れ{\ko16} {\ko23}時|<と{\ko25}#|き{\ko13}を{\ko23}忘|<わ{\ko37}#|す{\ko34}れ
+Dialogue: 0,0:02:06.71,0:02:09.83,roma,____,0,0,0,karaoke,{\k23}o {\k10}do {\k31}re {\k16}ya {\k12}o {\k23}do {\k26}re {\k16}{\k23}to {\k25}ki {\k13}o {\k23}wa {\k37}su {\k34}re
+Dialogue: 0,0:02:06.71,0:02:09.83,ts,____,0,0,0,karaoke,手舞足蹈忘却时间
+Comment: 0,0:02:06.71,0:02:09.83,tuck,____,0,0,0,,{\kf36}踊{\kf33}れ{\kf19}や{\kf29}踊{\kf42}れ {\kf51}時{\kf12}を{\kf45}忘{\kf49}れ
+Dialogue: 0,0:02:10.14,0:02:13.80,orig,L_24,0,0,0,karaoke,{\ko21}今|<こ{\ko26}宵|よ{\ko25}#|い{\ko21} {\ko18}共|<と{\ko28}#|も{\ko26}に{\ko18} {\ko26}あゝ{\ko19}狂|<く{\ko18}#|る{\ko24}い{\ko28}咲|<ざ{\ko68}き
+Dialogue: 0,0:02:10.14,0:02:13.80,roma,____,0,0,0,karaoke,{\k21}ko {\k26}yo {\k25}i {\k21}{\k18}to {\k28}mo {\k26}ni {\k18}{\k26}a a {\k19}ku {\k18}ru {\k24}i {\k28}za {\k68}ki
+Dialogue: 0,0:02:10.14,0:02:13.80,ts,____,0,0,0,karaoke,今夜一起狂乱绽放
+Comment: 0,0:02:10.14,0:02:13.80,tuck,____,0,0,0,,{\kf29}今{\kf63}宵 {\kf50}共{\kf39}に {\kf28}あ{\kf3}ゝ{\kf43}狂{\kf22}い{\kf21}咲{\kf83}き
+Dialogue: 0,0:02:44.43,0:02:48.42,orig,L_25 x-duet x-part:Reprise,0,0,0,karaoke,{\ko25}ちょ{\ko23}い{\ko22}と{\ko0}{\-Z}「{\ko29}い{\ko25}い{\ko11}{\ko32}こ{\ko39}と{\ko0}{\-Z}」{\ko27}{\ko27}い{\ko14}{\ko16}た{\ko30}し{\ko20}ま{\ko59}しょう
+Dialogue: 0,0:02:44.43,0:02:48.42,roma,____ x-duet,0,0,0,karaoke,{\k25}cho {\k23}i {\k22}to {\k0}{\k29}i {\k25}i {\k11}{\k32}ko {\k39}to {\k0}{\k27}{\k27}i {\k14}{\k16}ta {\k30}shi {\k20}ma {\k59}sho u
+Dialogue: 0,0:02:44.43,0:02:48.42,ts,____,0,0,0,karaoke,稍微做一些“美妙的事”吧
 Comment: 0,0:02:44.43,0:02:48.42,tuck,____ x-duet,0,0,0,,{\kf108}ち{\kf108}ょ{\kf108}い{\kf108}と{\kf108}「{\kf108}い{\kf108}い{\kf108}こ{\kf108}と{\kf108}」{\kf108}い{\kf108}た{\kf108}し{\kf108}ま{\kf109}し{\kf109}ょ{\kf109}う
-Comment: 0,0:02:51.78,0:02:55.93,orig,L_26 x-duet,0,0,0,karaoke,{\ko15}嘘|<う{\ko35}#|そ{\ko20}も{\ko20}真|<ま{\ko31}#|こ{\ko18}#|{\ko23}#|と{\ko31}も{\ko36}{\ko34}無|<な{\ko16}{\ko29}い{\ko33}世|<せ{\ko55}界|か{\ko19}#|い
-Comment: 0,0:02:51.78,0:02:55.93,roma,____ x-duet,0,0,0,karaoke,u so mo ma ko to mo na i se ka i
-Comment: 0,0:02:51.78,0:02:55.93,ts,____ ,0,0,0,karaoke,不存在虚实的世界
+Dialogue: 0,0:02:51.78,0:02:55.93,orig,L_26 x-duet,0,0,0,karaoke,{\ko15}嘘|<う{\ko35}#|そ{\ko20}も{\ko20}真|<ま{\ko31}#|こ{\ko18}#|{\ko23}#|と{\ko31}も{\ko36}{\ko34}無|<な{\ko16}{\ko29}い{\ko33}世|<せ{\ko55}界|か{\ko19}#|い
+Dialogue: 0,0:02:51.78,0:02:55.93,roma,____ x-duet,0,0,0,karaoke,{\k15}u {\k35}so {\k20}mo {\k20}ma {\k31}ko {\k18}{\k23}to {\k31}mo {\k36}{\k34}na {\k16}{\k29}i {\k33}se {\k55}ka {\k19}i
+Dialogue: 0,0:02:51.78,0:02:55.93,ts,____,0,0,0,karaoke,不存在虚实的世界
 Comment: 0,0:02:51.78,0:02:55.93,tuck,____ x-duet,0,0,0,,{\kf108}嘘{\kf108}も{\kf108}真{\kf108}も{\kf108}無{\kf108}い{\kf108}世{\kf109}界
-Comment: 0,0:02:56.39,0:02:59.37,orig,L_27,0,0,0,karaoke,{\ko23}ゆ{\ko26}き{\ko12}ま{\ko47}しょう {\ko21}極|<ご{\ko10}#|く{\ko34}楽|ら{\ko26}#|く{\ko32}浄|じょ{\ko19}#|う{\ko48}土|ど
-Comment: 0,0:02:56.39,0:02:59.37,roma,____ ,0,0,0,karaoke,yu ki ma sho u go ku ra ku jō do
-Comment: 0,0:02:56.39,0:02:59.37,ts,____ ,0,0,0,karaoke,一同前往极乐净土
-Comment: 0,0:02:56.39,0:02:59.37,tuck,____ ,0,0,0,,{\kf7}ゆ{\kf188}き{\kf13}ま{\kf16}し{\kf465}ょ{\kf550}う {\kf12}極{\kf59}楽{\kf95}浄{\kf9}土
-Comment: 0,0:02:59.61,0:03:03.04,orig,L_28,0,0,0,karaoke,{\ko9}歌|<う{\ko19}#|た{\ko15}え{\ko21}や{\ko23}歌|<う{\ko26}#|た{\ko44}え{\ko27} {\ko10}心|<こ{\ko12}#|こ{\ko22}#|ろ{\ko11}の{\ko27}ま{\ko32}ま{\ko45}に
-Comment: 0,0:02:59.61,0:03:03.04,roma,____ ,0,0,0,karaoke,u ta e ya u ta e ko ko ro no ma ma ni
-Comment: 0,0:02:59.61,0:03:03.04,ts,____ ,0,0,0,karaoke,且歌且唱遵循本心
-Comment: 0,0:02:59.61,0:03:03.04,tuck,____ ,0,0,0,,{\kf29}歌{\kf12}え{\kf32}や{\kf43}歌{\kf60}え {\kf50}心{\kf11}の{\kf33}ま{\kf25}ま{\kf52}に
-Comment: 0,0:03:03.28,0:03:06.64,orig,L_29,0,0,0,karaoke,{\ko10}ア{\ko12}ナ{\ko44}タ{\ko34}の{\ko17}声|<こ{\ko20}#|え{\ko13}を{\ko53}さぁ{\ko35}聞|<き{\ko27}か{\ko26}せ{\ko9}{\ko36}て
-Comment: 0,0:03:03.28,0:03:06.64,roma,____ ,0,0,0,karaoke,a na ta no ko e o sā ki ka se te
-Comment: 0,0:03:03.28,0:03:06.64,ts,____ ,0,0,0,karaoke,让我听一听你的歌声
-Comment: 0,0:03:03.28,0:03:06.64,tuck,____ ,0,0,0,,{\kf14}ア{\kf11}ナ{\kf41}タ{\kf39}の{\kf35}声{\kf18}を{\kf40}さ{\kf5}ぁ{\kf39}聞{\kf30}か{\kf27}せ{\kf91}て
-Comment: 0,0:03:07.20,0:03:10.29,orig,L_30,0,0,0,karaoke,{\ko21}踊|<お{\ko11}#|ど{\ko29}れ{\ko14}や{\ko14}踊|<お{\ko22}#|ど{\ko26}れ{\ko20} {\ko21}時|<と{\ko21}#|き{\ko18}を{\ko21}忘|<わ{\ko36}#|す{\ko35}れ
-Comment: 0,0:03:07.20,0:03:10.29,roma,____ ,0,0,0,karaoke,o do re ya o do re to ki o wa su re
-Comment: 0,0:03:07.20,0:03:10.29,ts,____ ,0,0,0,karaoke,手舞足蹈忘却时间
-Comment: 0,0:03:07.20,0:03:10.29,tuck,____ ,0,0,0,,{\kf32}踊{\kf33}れ{\kf18}や{\kf29}踊{\kf42}れ {\kf51}時{\kf13}を{\kf39}忘{\kf53}れ
-Comment: 0,0:03:10.60,0:03:14.06,orig,L_31,0,0,0,karaoke,{\ko27}今|<こ{\ko24}宵|よ{\ko21}#|い{\ko21}{\ko16}共|<と{\ko30}#|も{\ko24}に{\ko20} {\ko23}あゝ{\ko22}狂|<く{\ko15}#|る{\ko26}い{\ko27}咲|<ざ{\ko50}き
-Comment: 0,0:03:10.60,0:03:14.06,roma,____ ,0,0,0,karaoke,ko yo i to mo ni ā ku ru i za ki
-Comment: 0,0:03:10.60,0:03:14.06,ts,____ ,0,0,0,karaoke,今夜一起狂乱绽放
-Comment: 0,0:03:10.60,0:03:14.06,tuck,____ ,0,0,0,,{\kf30}今{\kf59}宵 {\kf52}共{\kf39}に {\kf28}あ{\kf3}ゝ{\kf40}狂{\kf23}い{\kf19}咲{\kf69}き
-Comment: 0,0:03:14.26,0:03:20.63,orig,L_32,0,0,0,karaoke,{\ko22}今|<こ{\ko27}宵|よ{\ko25}#|い{\ko19}{\ko17}ア{\ko27}ナ{\ko45}タ{\ko26}と{\ko25}狂|<く{\ko12}#|る{\ko31}い{\ko25}咲|<ざ{\ko336}き
-Comment: 0,0:03:14.26,0:03:20.63,roma,____ ,0,0,0,karaoke,ko yo i a na ta to ku ru i za ki
-Comment: 0,0:03:14.26,0:03:20.63,ts,____ ,0,0,0,karaoke,今夜和你一起狂乱绽放
-Comment: 0,0:03:14.26,0:03:20.63,tuck,____ ,0,0,0,,{\kf27}今{\kf65}宵 {\kf19}ア{\kf30}ナ{\kf47}タ{\kf20}と{\kf43}狂{\kf28}い{\kf25}咲{\kf10}き
+Dialogue: 0,0:02:56.39,0:02:59.37,orig,L_27,0,0,0,karaoke,{\ko23}ゆ{\ko26}き{\ko12}ま{\ko47}しょう {\ko21}極|<ご{\ko10}#|く{\ko34}楽|ら{\ko26}#|く{\ko32}浄|じょ{\ko19}#|う{\ko48}土|ど
+Dialogue: 0,0:02:56.39,0:02:59.37,roma,____,0,0,0,karaoke,{\k23}yu {\k26}ki {\k12}ma {\k47}sho u {\k21}go {\k10}ku {\k34}ra {\k26}ku {\k32}jo {\k19}u {\k48}do
+Dialogue: 0,0:02:56.39,0:02:59.37,ts,____,0,0,0,karaoke,一同前往极乐净土
+Comment: 0,0:02:56.39,0:02:59.37,tuck,____,0,0,0,,{\kf7}ゆ{\kf188}き{\kf13}ま{\kf16}し{\kf465}ょ{\kf550}う {\kf12}極{\kf59}楽{\kf95}浄{\kf9}土
+Dialogue: 0,0:02:59.61,0:03:03.04,orig,L_28 x-part:Chorus,0,0,0,karaoke,{\ko9}歌|<う{\ko19}#|た{\ko15}え{\ko21}や{\ko23}歌|<う{\ko26}#|た{\ko44}え{\ko27} {\ko10}心|<こ{\ko12}#|こ{\ko22}#|ろ{\ko11}の{\ko27}ま{\ko32}ま{\ko45}に
+Dialogue: 0,0:02:59.61,0:03:03.04,roma,____,0,0,0,karaoke,{\k9}u {\k19}ta {\k15}e {\k21}ya {\k23}u {\k26}ta {\k44}e {\k27}{\k10}ko {\k12}ko {\k22}ro {\k11}no {\k27}ma {\k32}ma {\k45}ni
+Dialogue: 0,0:02:59.61,0:03:03.04,ts,____,0,0,0,karaoke,且歌且唱遵循本心
+Comment: 0,0:02:59.61,0:03:03.04,tuck,____,0,0,0,,{\kf29}歌{\kf12}え{\kf32}や{\kf43}歌{\kf60}え {\kf50}心{\kf11}の{\kf33}ま{\kf25}ま{\kf52}に
+Dialogue: 0,0:03:03.28,0:03:06.64,orig,L_29,0,0,0,karaoke,{\ko10}ア{\ko12}ナ{\ko44}タ{\ko34}の{\ko17}声|<こ{\ko20}#|え{\ko13}を{\ko30}さ{\ko23}ぁ{\ko35}聞|<き{\ko27}か{\ko26}せ{\ko9}{\ko36}て
+Dialogue: 0,0:03:03.28,0:03:06.64,roma,____,0,0,0,karaoke,{\k10}a {\k12}na {\k44}ta {\k34}no {\k17}ko {\k20}e {\k13}o {\k30}sa {\k23}a {\k35}ki {\k27}ka {\k26}se {\k9}{\k36}te
+Dialogue: 0,0:03:03.28,0:03:06.64,ts,____,0,0,0,karaoke,让我听一听你的歌声
+Comment: 0,0:03:03.28,0:03:06.64,tuck,____,0,0,0,,{\kf14}ア{\kf11}ナ{\kf41}タ{\kf39}の{\kf35}声{\kf18}を{\kf40}さ{\kf5}ぁ{\kf39}聞{\kf30}か{\kf27}せ{\kf91}て
+Dialogue: 0,0:03:07.20,0:03:10.29,orig,L_30,0,0,0,karaoke,{\ko21}踊|<お{\ko11}#|ど{\ko29}れ{\ko14}や{\ko14}踊|<お{\ko22}#|ど{\ko26}れ{\ko20} {\ko21}時|<と{\ko21}#|き{\ko18}を{\ko21}忘|<わ{\ko36}#|す{\ko35}れ
+Dialogue: 0,0:03:07.20,0:03:10.29,roma,____,0,0,0,karaoke,{\k21}o {\k11}do {\k29}re {\k14}ya {\k14}o {\k22}do {\k26}re {\k20}{\k21}to {\k21}ki {\k18}o {\k21}wa {\k36}su {\k35}re
+Dialogue: 0,0:03:07.20,0:03:10.29,ts,____,0,0,0,karaoke,手舞足蹈忘却时间
+Comment: 0,0:03:07.20,0:03:10.29,tuck,____,0,0,0,,{\kf32}踊{\kf33}れ{\kf18}や{\kf29}踊{\kf42}れ {\kf51}時{\kf13}を{\kf39}忘{\kf53}れ
+Dialogue: 0,0:03:10.60,0:03:14.06,orig,L_31,0,0,0,karaoke,{\ko27}今|<こ{\ko24}宵|よ{\ko21}#|い{\ko21} {\ko16}共|<と{\ko30}#|も{\ko24}に{\ko20} {\ko23}あゝ{\ko22}狂|<く{\ko15}#|る{\ko26}い{\ko27}咲|<ざ{\ko50}き
+Dialogue: 0,0:03:10.60,0:03:14.06,roma,____,0,0,0,karaoke,{\k27}ko {\k24}yo {\k21}i {\k21}{\k16}to {\k30}mo {\k24}ni {\k20}{\k23}a a {\k22}ku {\k15}ru {\k26}i {\k27}za {\k50}ki
+Dialogue: 0,0:03:10.60,0:03:14.06,ts,____,0,0,0,karaoke,今夜一起狂乱绽放
+Comment: 0,0:03:10.60,0:03:14.06,tuck,____,0,0,0,,{\kf30}今{\kf59}宵 {\kf52}共{\kf39}に {\kf28}あ{\kf3}ゝ{\kf40}狂{\kf23}い{\kf19}咲{\kf69}き
+Dialogue: 0,0:03:14.26,0:03:20.63,orig,L_32,0,0,0,karaoke,{\ko22}今|<こ{\ko27}宵|よ{\ko25}#|い{\ko19} {\ko17}ア{\ko27}ナ{\ko45}タ{\ko26}と{\ko25}狂|<く{\ko12}#|る{\ko31}い{\ko25}咲|<ざ{\ko336}き
+Dialogue: 0,0:03:14.26,0:03:20.63,roma,____,0,0,0,karaoke,{\k22}ko {\k27}yo {\k25}i {\k19}{\k17}a {\k27}na {\k45}ta {\k26}to {\k25}ku {\k12}ru {\k31}i {\k25}za {\k336}ki
+Dialogue: 0,0:03:14.26,0:03:20.63,ts,____,0,0,0,karaoke,今夜和你一起狂乱绽放
+Comment: 0,0:03:14.26,0:03:20.63,tuck,____,0,0,0,,{\kf27}今{\kf65}宵 {\kf19}ア{\kf30}ナ{\kf47}タ{\kf20}と{\kf43}狂{\kf28}い{\kf25}咲{\kf10}き
