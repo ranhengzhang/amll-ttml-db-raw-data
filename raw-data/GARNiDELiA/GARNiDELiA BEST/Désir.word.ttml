@@ -1,0 +1,1191 @@
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="ja">
+  <head>
+    <metadata>
+      <ttm:agent type="person" xml:id="v1" />
+      <amll:meta key="musicName" value="Désir" />
+      <amll:meta key="musicName" value="Desir" />
+      <amll:meta key="musicName" value="TV动画《Fate/Apocrypha》片尾曲" />
+      <amll:meta key="musicName" value="《Fate/Apocrypha》TV动画第2-12、25集片尾曲" />
+      <amll:meta key="musicName" value="TV动画《Fate/Apocrypha》片尾曲 / TVアニメ「Fate/Apocrypha」EDテーマ" />
+      <amll:meta key="artists" value="GARNiDELiA" />
+      <amll:meta key="artists" value="ガルニデリア" />
+      <amll:meta key="artists" value="加尼德里亚" />
+      <amll:meta key="artists" value="MARiA" />
+      <amll:meta key="artists" value="メイリア" />
+      <amll:meta key="artists" value="水桥舞" />
+      <amll:meta key="artists" value="美依礼芽" />
+      <amll:meta key="artists" value="TOKU" />
+      <amll:meta key="artists" value="toku" />
+      <amll:meta key="artists" value="とくP" />
+      <amll:meta key="artists" value="阿部尚徳" />
+      <amll:meta key="artists" value="Toku-P" />
+      <amll:meta key="album" value="GARNiDELiA BEST" />
+      <amll:meta key="ncmMusicId" value="1407263624" />
+      <amll:meta key="qqMusicId" value="002Hf2tf1cl5fY" />
+      <amll:meta key="qqMusicId" value="246294034" />
+      <amll:meta key="spotifyId" value="6lZzwJyzNqynk2domvJocl" />
+      <amll:meta key="appleMusicId" value="1537904727" />
+      <amll:meta key="isrc" value="JPU901702388" />
+      <amll:meta key="Arrangement" value="GARNiDELiA" />
+      <amll:meta key="Bass" value="櫻井陸来" />
+      <amll:meta key="Drums" value="みっちゃん" />
+      <amll:meta key="Guitar" value="junchi" />
+      <amll:meta key="Keyboards" value="toku" />
+      <amll:meta key="Lyrics" value="メイリア" />
+      <amll:meta key="Mix Engineer" value="細井智史" />
+      <amll:meta key="Music" value="toku" />
+      <amll:meta key="Programming" value="toku" />
+      <amll:meta key="Recording Engineer" value="中瀬公大" />
+      <amll:meta key="Violin" value="日俣綾子" />
+      <amll:meta key="Violin" value="土屋玲子" />
+      <amll:meta key="Vocal" value="メイリア" />
+      <amll:meta key="ttmlAuthorGithub" value="68000793" />
+      <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
+      <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal">
+        <translations>
+          <translation type="subtitle" xml:lang="zh-Hans">
+            <text for="L1">无论怎样渴望追求</text>
+            <text for="L2">世间总有无法实现的幻想</text>
+            <text for="L3">阖上双眼</text>
+            <text for="L4">仍继续迈步向前</text>
+            <text for="L5">纵使历经无数长夜</text>
+            <text for="L6">那抹光芒始终不灭</text>
+            <text for="L7">仍追寻着它的踪迹</text>
+            <text for="L8">即便无法折返来时的道路</text>
+            <text for="L9">世界依旧流转如初</text>
+            <text for="L10">在祈求奇迹的刹那</text>
+            <text for="L11">其余万物皆可抛下</text>
+            <text for="L12">此刻紧握手中的</text>
+            <text for="L13">是“未来”与“希望”</text>
+            <text for="L14">誓要将其传达</text>
+            <text for="L15">即使受伤 即使伤害他人</text>
+            <text for="L16">纵使失去所有一切</text>
+            <text for="L17">无法实现 却偏要实现的</text>
+            <text for="L18">将这份执念紧握掌心</text>
+            <text for="L19">无论怎样呐喊嘶吼</text>
+            <text for="L20">总有些现实无法撼动</text>
+            <text for="L21">转身背对洪流</text>
+            <text for="L22">却始终不愿放手</text>
+            <text for="L23">多少次向星辰悲叹</text>
+            <text for="L24">距离太过遥远</text>
+            <text for="L25">祈祷也无法抵达彼岸</text>
+            <text for="L26">即便选择的答案</text>
+            <text for="L27">不被世人所接纳</text>
+            <text for="L28">世界仍将蜕变</text>
+            <text for="L29">在驱散迷茫的瞬间</text>
+            <text for="L30">其余万物皆可抛下</text>
+            <text for="L31">唯独这唯一的</text>
+            <text for="L32">“自由”与“梦想”</text>
+            <text for="L33">誓要将其握在掌间</text>
+            <text for="L34">无法实现 却偏要实现的</text>
+            <text for="L35">将这份誓言铭刻心田</text>
+            <text for="L36">与其诅咒命运无常</text>
+            <text for="L37">不如锻造抗争的力量</text>
+            <text for="L38">半吊子的觉悟</text>
+            <text for="L39">无法直面风浪</text>
+            <text for="L40">在绝望的彼端</text>
+            <text for="L41">高唱起始之歌</text>
+            <text for="L42">征程才刚刚启航</text>
+            <text for="L43">将一切吞噬净光</text>
+            <text for="L44">若想将事情做到完美</text>
+            <text for="L45">你必须亲手去实现</text>
+            <text for="L46">人生由自己主宰</text>
+            <text for="L47">哦 我能击溃命运</text>
+            <text for="L48">世界依旧流转如初</text>
+            <text for="L49">在祈求奇迹的刹那</text>
+            <text for="L50">其余万物皆可抛下</text>
+            <text for="L51">此刻紧握手中的</text>
+            <text for="L52">是“未来”与“希望”</text>
+            <text for="L53">誓要将其传达</text>
+            <text for="L54">即使受伤 即使伤害他人</text>
+            <text for="L55">纵使失去所有一切</text>
+            <text for="L56">无法实现 却偏要实现的</text>
+            <text for="L57">将这份执念紧握掌心</text>
+          </translation>
+        </translations>
+        <transliterations>
+          <transliteration xml:lang="ja-Latn">
+            <text for="L1">
+              <span begin="00:15.871" end="00:16.121" xmlns="http://www.w3.org/ns/ttml">do</span>
+              <span begin="00:16.121" end="00:16.401" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="00:16.401" end="00:16.771" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:16.771" end="00:17.431" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="00:17.721" end="00:18.181" xmlns="http://www.w3.org/ns/ttml">no zo</span>
+              <span begin="00:18.181" end="00:18.391" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="00:18.391" end="00:18.591" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="00:18.591" end="00:18.741" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L2">
+              <span begin="00:18.841" end="00:19.511" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="00:19.511" end="00:20.201" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="00:20.201" end="00:20.441" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:20.441" end="00:21.091" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:21.391" end="00:21.861" xmlns="http://www.w3.org/ns/ttml">a shi </span>
+              <span begin="00:21.971" end="00:22.291" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:22.291" end="00:22.521" xmlns="http://www.w3.org/ns/ttml">ga </span>
+              <span begin="00:22.521" end="00:22.641" xmlns="http://www.w3.org/ns/ttml">a </span>
+              <span begin="00:22.641" end="00:22.761" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="00:22.761" end="00:23.291" xmlns="http://www.w3.org/ns/ttml">to</span>
+            </text>
+            <text for="L3">
+              <span begin="00:23.681" end="00:23.911" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="00:23.911" end="00:24.131" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:24.131" end="00:24.581" xmlns="http://www.w3.org/ns/ttml">to </span>
+              <span begin="00:24.581" end="00:24.751" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="00:24.831" end="00:25.281" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L4">
+              <span begin="00:25.441" end="00:25.751" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="00:25.751" end="00:25.941" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="00:25.941" end="00:26.421" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="00:26.421" end="00:26.681" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="00:26.901" end="00:27.341" xmlns="http://www.w3.org/ns/ttml">a ru </span>
+              <span begin="00:27.341" end="00:27.471" xmlns="http://www.w3.org/ns/ttml">ki </span>
+              <span begin="00:27.471" end="00:27.741" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="00:27.741" end="00:28.221" xmlns="http://www.w3.org/ns/ttml">zu </span>
+              <span begin="00:28.221" end="00:28.391" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="00:28.491" end="00:29.281" xmlns="http://www.w3.org/ns/ttml">ta</span>
+            </text>
+            <text for="L5">
+              <span begin="00:29.871" end="00:30.251" xmlns="http://www.w3.org/ns/ttml">i ku </span>
+              <span begin="00:30.251" end="00:30.551" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="00:30.551" end="00:31.011" xmlns="http://www.w3.org/ns/ttml">yo ru </span>
+              <span begin="00:31.011" end="00:31.441" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:31.441" end="00:32.151" xmlns="http://www.w3.org/ns/ttml">ka sa </span>
+              <span begin="00:32.151" end="00:32.351" xmlns="http://www.w3.org/ns/ttml">ne </span>
+              <span begin="00:32.351" end="00:32.831" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:32.831" end="00:33.171" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L6">
+              <span begin="00:33.501" end="00:34.271" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="00:34.271" end="00:35.301" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="00:35.301" end="00:36.211" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:36.211" end="00:36.971" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="00:36.971" end="00:38.021" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L7">
+              <span begin="00:38.771" end="00:39.461" xmlns="http://www.w3.org/ns/ttml">hi ka ri </span>
+              <span begin="00:39.461" end="00:39.651" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:39.651" end="00:40.601" xmlns="http://www.w3.org/ns/ttml">mo to </span>
+              <span begin="00:40.601" end="00:41.051" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="00:41.051" end="00:41.311" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:41.311" end="00:42.241" xmlns="http://www.w3.org/ns/ttml">ru</span>
+            </text>
+            <text for="L8">
+              <span begin="00:44.031" end="00:44.511" xmlns="http://www.w3.org/ns/ttml">fu </span>
+              <span begin="00:44.511" end="00:44.931" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="00:44.931" end="00:45.471" xmlns="http://www.w3.org/ns/ttml">ka e </span>
+              <span begin="00:45.471" end="00:45.621" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="00:45.621" end="00:46.571" xmlns="http://www.w3.org/ns/ttml">mi chi </span>
+              <span begin="00:46.571" end="00:46.811" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="00:46.811" end="00:47.341" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="00:47.711" end="00:48.211" xmlns="http://www.w3.org/ns/ttml">mo u </span>
+              <span begin="00:48.211" end="00:48.881" xmlns="http://www.w3.org/ns/ttml">mo do </span>
+              <span begin="00:48.881" end="00:49.231" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="00:49.231" end="00:49.721" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:49.721" end="00:50.681" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="00:50.681" end="00:50.891" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:50.891" end="00:51.661" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L9">
+              <span begin="00:52.451" end="00:52.671" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="00:52.751" end="00:53.131" xmlns="http://www.w3.org/ns/ttml">ka i </span>
+              <span begin="00:53.131" end="00:53.461" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="00:53.461" end="00:54.151" xmlns="http://www.w3.org/ns/ttml">ma wa </span>
+              <span begin="00:54.151" end="00:54.621" xmlns="http://www.w3.org/ns/ttml">ru</span>
+            </text>
+            <text for="L10">
+              <span begin="00:55.011" end="00:55.161" xmlns="http://www.w3.org/ns/ttml">ki </span>
+              <span begin="00:55.161" end="00:56.201" xmlns="http://www.w3.org/ns/ttml">se ki </span>
+              <span begin="00:56.201" end="00:56.631" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:56.631" end="00:57.691" xmlns="http://www.w3.org/ns/ttml">i no </span>
+              <span begin="00:57.691" end="00:57.801" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="00:57.801" end="00:57.891" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:57.891" end="00:58.881" xmlns="http://www.w3.org/ns/ttml">shun </span>
+              <span begin="00:58.961" end="00:59.411" xmlns="http://www.w3.org/ns/ttml">kan </span>
+              <span begin="00:59.411" end="00:59.661" xmlns="http://www.w3.org/ns/ttml">ni</span>
+            </text>
+            <text for="L11">
+              <span begin="00:59.861" end="01:00.341" xmlns="http://www.w3.org/ns/ttml">ho ka </span>
+              <span begin="01:00.341" end="01:00.461" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="01:00.461" end="01:00.711" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:00.711" end="01:01.441" xmlns="http://www.w3.org/ns/ttml">na ni </span>
+              <span begin="01:01.441" end="01:01.921" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:02.371" end="01:02.561" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:02.561" end="01:03.281" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="01:03.281" end="01:03.501" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:03.501" end="01:03.851" xmlns="http://www.w3.org/ns/ttml">i</span>
+            </text>
+            <text for="L12">
+              <span begin="01:03.971" end="01:04.311" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="01:04.441" end="01:05.151" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="01:05.151" end="01:05.291" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="01:05.291" end="01:05.611" xmlns="http://www.w3.org/ns/ttml">a </span>
+              <span begin="01:05.611" end="01:05.801" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="01:05.801" end="01:06.301" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:06.301" end="01:06.951" xmlns="http://www.w3.org/ns/ttml">wa</span>
+            </text>
+            <text for="L13">
+              <span begin="01:07.356" end="01:07.361" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="01:07.361" end="01:07.861" xmlns="http://www.w3.org/ns/ttml">ne </span>
+              <span begin="01:07.861" end="01:08.781" xmlns="http://www.w3.org/ns/ttml">ga i</span>
+              <span begin="01:08.781" end="01:08.786" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:09.251" end="01:09.256" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="01:09.251" end="01:09.701" xmlns="http://www.w3.org/ns/ttml">ne </span>
+              <span begin="01:09.701" end="01:10.601" xmlns="http://www.w3.org/ns/ttml">ga i</span>
+              <span begin="01:10.601" end="01:10.606" xmlns="http://www.w3.org/ns/ttml"></span>
+            </text>
+            <text for="L14">
+              <span begin="01:11.071" end="01:12.451" xmlns="http://www.w3.org/ns/ttml">to do </span>
+              <span begin="01:12.451" end="01:12.661" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="01:12.661" end="01:13.161" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:13.161" end="01:13.631" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:13.631" end="01:14.281" xmlns="http://www.w3.org/ns/ttml">yo</span>
+            </text>
+            <text for="L15">
+              <span begin="01:14.481" end="01:14.901" xmlns="http://www.w3.org/ns/ttml">ki zu </span>
+              <span begin="01:14.901" end="01:15.201" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="01:15.201" end="01:15.401" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:15.401" end="01:16.001" xmlns="http://www.w3.org/ns/ttml">te</span>
+              <span begin="01:16.001" end="01:16.291" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:16.291" end="01:16.781" xmlns="http://www.w3.org/ns/ttml">ki zu </span>
+              <span begin="01:16.781" end="01:17.011" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="01:17.011" end="01:17.251" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="01:17.251" end="01:17.901" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L16">
+              <span begin="01:18.131" end="01:18.591" xmlns="http://www.w3.org/ns/ttml">su be </span>
+              <span begin="01:18.591" end="01:18.851" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:18.851" end="01:19.101" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:19.101" end="01:19.281" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:19.281" end="01:19.661" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="01:19.661" end="01:19.781" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="01:19.781" end="01:19.951" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:20.021" end="01:20.571" xmlns="http://www.w3.org/ns/ttml">to </span>
+              <span begin="01:20.571" end="01:20.711" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="01:20.711" end="01:20.931" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:20.931" end="01:21.521" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L17">
+              <span begin="01:21.821" end="01:22.291" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="01:22.291" end="01:22.491" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:22.491" end="01:22.781" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:22.781" end="01:23.401" xmlns="http://www.w3.org/ns/ttml">i</span>
+              <span begin="01:23.401" end="01:23.681" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:23.681" end="01:24.111" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="01:24.111" end="01:24.331" xmlns="http://www.w3.org/ns/ttml">e </span>
+              <span begin="01:24.331" end="01:24.711" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:24.711" end="01:25.241" xmlns="http://www.w3.org/ns/ttml">i</span>
+            </text>
+            <text for="L18">
+              <span begin="01:25.511" end="01:25.971" xmlns="http://www.w3.org/ns/ttml">o mo </span>
+              <span begin="01:25.971" end="01:26.191" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:26.191" end="01:26.421" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:26.421" end="01:27.121" xmlns="http://www.w3.org/ns/ttml">ni gi </span>
+              <span begin="01:27.121" end="01:27.271" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="01:27.271" end="01:28.031" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="01:28.031" end="01:28.161" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="01:28.251" end="01:30.061" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L19">
+              <span begin="01:45.661" end="01:45.931" xmlns="http://www.w3.org/ns/ttml">do</span>
+              <span begin="01:45.931" end="01:46.191" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="01:46.191" end="01:46.591" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:46.591" end="01:47.171" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="01:47.371" end="01:47.981" xmlns="http://www.w3.org/ns/ttml">sa ke</span>
+              <span begin="01:47.981" end="01:48.171" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="01:48.171" end="01:48.371" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="01:48.371" end="01:48.551" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L20">
+              <span begin="01:48.611" end="01:49.091" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="01:49.091" end="01:49.341" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:49.341" end="01:49.991" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="01:49.991" end="01:50.251" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:50.251" end="01:50.881" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:51.131" end="01:51.631" xmlns="http://www.w3.org/ns/ttml">a shi </span>
+              <span begin="01:51.721" end="01:52.071" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:52.071" end="01:52.301" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:52.301" end="01:52.451" xmlns="http://www.w3.org/ns/ttml">a </span>
+              <span begin="01:52.451" end="01:52.551" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="01:52.551" end="01:53.061" xmlns="http://www.w3.org/ns/ttml">to</span>
+            </text>
+            <text for="L21">
+              <span begin="01:53.351" end="01:53.701" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="01:53.701" end="01:53.871" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:53.871" end="01:54.351" xmlns="http://www.w3.org/ns/ttml">mu </span>
+              <span begin="01:54.351" end="01:54.501" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="01:54.601" end="01:55.061" xmlns="http://www.w3.org/ns/ttml">ta</span>
+            </text>
+            <text for="L22">
+              <span begin="01:55.221" end="01:55.531" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="01:55.531" end="01:55.751" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="01:55.751" end="01:56.201" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="01:56.201" end="01:56.431" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:56.621" end="01:56.991" xmlns="http://www.w3.org/ns/ttml">ha na </span>
+              <span begin="01:56.991" end="01:57.311" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="01:57.311" end="01:57.461" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:57.561" end="01:58.011" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="01:58.011" end="01:58.141" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="01:58.251" end="01:58.981" xmlns="http://www.w3.org/ns/ttml">ta</span>
+            </text>
+            <text for="L23">
+              <span begin="01:59.591" end="02:00.101" xmlns="http://www.w3.org/ns/ttml">nan </span>
+              <span begin="02:00.101" end="02:00.251" xmlns="http://www.w3.org/ns/ttml">do </span>
+              <span begin="02:00.341" end="02:00.811" xmlns="http://www.w3.org/ns/ttml">ho shi </span>
+              <span begin="02:00.811" end="02:01.211" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="02:01.211" end="02:01.911" xmlns="http://www.w3.org/ns/ttml">na ge </span>
+              <span begin="02:01.911" end="02:02.131" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:02.131" end="02:02.611" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:02.611" end="02:02.981" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L24">
+              <span begin="02:03.281" end="02:04.991" xmlns="http://www.w3.org/ns/ttml">to o </span>
+              <span begin="02:04.991" end="02:05.991" xmlns="http://www.w3.org/ns/ttml">su </span>
+              <span begin="02:05.991" end="02:06.691" xmlns="http://www.w3.org/ns/ttml">gi </span>
+              <span begin="02:06.691" end="02:07.661" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L25">
+              <span begin="02:08.561" end="02:09.051" xmlns="http://www.w3.org/ns/ttml">i no </span>
+              <span begin="02:09.051" end="02:09.231" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="02:09.231" end="02:09.451" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:09.451" end="02:10.371" xmlns="http://www.w3.org/ns/ttml">to do </span>
+              <span begin="02:10.371" end="02:10.851" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:10.851" end="02:11.081" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:11.081" end="02:12.261" xmlns="http://www.w3.org/ns/ttml">i</span>
+            </text>
+            <text for="L26">
+              <span begin="02:13.841" end="02:14.771" xmlns="http://www.w3.org/ns/ttml">e ra</span>
+              <span begin="02:14.771" end="02:14.991" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="02:14.991" end="02:15.391" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="02:15.391" end="02:16.351" xmlns="http://www.w3.org/ns/ttml">ko ta </span>
+              <span begin="02:16.351" end="02:16.581" xmlns="http://www.w3.org/ns/ttml">e </span>
+              <span begin="02:16.581" end="02:17.181" xmlns="http://www.w3.org/ns/ttml">ga</span>
+            </text>
+            <text for="L27">
+              <span begin="02:17.491" end="02:18.301" xmlns="http://www.w3.org/ns/ttml">yu ru </span>
+              <span begin="02:18.301" end="02:18.661" xmlns="http://www.w3.org/ns/ttml">sa </span>
+              <span begin="02:18.661" end="02:19.051" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="02:19.051" end="02:19.501" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:19.571" end="02:20.411" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="02:20.501" end="02:20.701" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:20.701" end="02:21.571" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L28">
+              <span begin="02:22.221" end="02:22.431" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="02:22.521" end="02:22.891" xmlns="http://www.w3.org/ns/ttml">ka i </span>
+              <span begin="02:22.891" end="02:23.091" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:23.211" end="02:23.681" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:23.681" end="02:23.911" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:23.911" end="02:24.351" xmlns="http://www.w3.org/ns/ttml">ru</span>
+            </text>
+            <text for="L29">
+              <span begin="02:24.781" end="02:25.691" xmlns="http://www.w3.org/ns/ttml">ma yo </span>
+              <span begin="02:25.691" end="02:25.961" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:25.961" end="02:26.361" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="02:26.361" end="02:26.671" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="02:26.671" end="02:27.491" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="02:27.581" end="02:27.681" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:27.681" end="02:28.701" xmlns="http://www.w3.org/ns/ttml">shun </span>
+              <span begin="02:28.701" end="02:29.161" xmlns="http://www.w3.org/ns/ttml">kan </span>
+              <span begin="02:29.161" end="02:29.431" xmlns="http://www.w3.org/ns/ttml">ni</span>
+            </text>
+            <text for="L30">
+              <span begin="02:29.601" end="02:30.091" xmlns="http://www.w3.org/ns/ttml">ho ka </span>
+              <span begin="02:30.091" end="02:30.191" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="02:30.191" end="02:30.491" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:30.491" end="02:31.181" xmlns="http://www.w3.org/ns/ttml">na ni </span>
+              <span begin="02:31.181" end="02:31.711" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:32.151" end="02:32.371" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:32.371" end="02:33.061" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="02:33.061" end="02:33.271" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:33.271" end="02:33.681" xmlns="http://www.w3.org/ns/ttml">i</span>
+            </text>
+            <text for="L31">
+              <span begin="02:33.761" end="02:34.061" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:34.061" end="02:34.211" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="02:34.211" end="02:34.821" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:34.821" end="02:35.511" xmlns="http://www.w3.org/ns/ttml">hi to </span>
+              <span begin="02:35.511" end="02:36.081" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="02:36.081" end="02:36.761" xmlns="http://www.w3.org/ns/ttml">no</span>
+            </text>
+            <text for="L32">
+              <span begin="02:37.146" end="02:37.151" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="02:37.151" end="02:37.631" xmlns="http://www.w3.org/ns/ttml">ne </span>
+              <span begin="02:37.631" end="02:38.541" xmlns="http://www.w3.org/ns/ttml">ga i</span>
+              <span begin="02:38.541" end="02:38.546" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:38.991" end="02:38.996" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="02:38.991" end="02:40.291" xmlns="http://www.w3.org/ns/ttml">ne ga i</span>
+              <span begin="02:40.291" end="02:40.296" xmlns="http://www.w3.org/ns/ttml"></span>
+            </text>
+            <text for="L33">
+              <span begin="02:40.781" end="02:42.131" xmlns="http://www.w3.org/ns/ttml">tsu ka </span>
+              <span begin="02:42.131" end="02:42.381" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="02:42.381" end="02:42.931" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:42.931" end="02:43.381" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:43.381" end="02:44.061" xmlns="http://www.w3.org/ns/ttml">yo</span>
+            </text>
+            <text for="L34">
+              <span begin="02:44.271" end="02:44.731" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="02:44.731" end="02:44.921" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:44.921" end="02:45.221" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:45.221" end="02:45.811" xmlns="http://www.w3.org/ns/ttml">i</span>
+              <span begin="02:45.811" end="02:46.111" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:46.111" end="02:46.541" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="02:46.541" end="02:46.741" xmlns="http://www.w3.org/ns/ttml">e </span>
+              <span begin="02:46.821" end="02:47.111" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:47.111" end="02:47.671" xmlns="http://www.w3.org/ns/ttml">i</span>
+            </text>
+            <text for="L35">
+              <span begin="02:47.901" end="02:48.451" xmlns="http://www.w3.org/ns/ttml">chi ka </span>
+              <span begin="02:48.451" end="02:48.661" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:48.661" end="02:48.871" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="02:48.871" end="02:49.551" xmlns="http://www.w3.org/ns/ttml">mu ne </span>
+              <span begin="02:49.551" end="02:49.781" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="02:49.781" end="02:50.491" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="02:50.491" end="02:50.681" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:50.681" end="02:52.671" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L36">
+              <span begin="03:07.641" end="03:07.961" xmlns="http://www.w3.org/ns/ttml">um </span>
+              <span begin="03:07.961" end="03:08.211" xmlns="http://www.w3.org/ns/ttml">me i </span>
+              <span begin="03:08.211" end="03:08.551" xmlns="http://www.w3.org/ns/ttml">no ro </span>
+              <span begin="03:08.551" end="03:08.761" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="03:08.761" end="03:09.011" xmlns="http://www.w3.org/ns/ttml">yo </span>
+              <span begin="03:09.011" end="03:09.231" xmlns="http://www.w3.org/ns/ttml">ri</span>
+            </text>
+            <text for="L37">
+              <span begin="03:09.471" end="03:10.011" xmlns="http://www.w3.org/ns/ttml">a ra ga </span>
+              <span begin="03:10.011" end="03:10.131" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="03:10.131" end="03:10.501" xmlns="http://www.w3.org/ns/ttml">tsu yo </span>
+              <span begin="03:10.501" end="03:10.861" xmlns="http://www.w3.org/ns/ttml">sa </span>
+              <span begin="03:10.861" end="03:11.111" xmlns="http://www.w3.org/ns/ttml">o</span>
+            </text>
+            <text for="L38">
+              <span begin="03:11.301" end="03:11.641" xmlns="http://www.w3.org/ns/ttml">ham </span>
+              <span begin="03:11.641" end="03:11.861" xmlns="http://www.w3.org/ns/ttml">pa </span>
+              <span begin="03:11.861" end="03:11.941" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="03:11.941" end="03:12.371" xmlns="http://www.w3.org/ns/ttml">ka ku </span>
+              <span begin="03:12.441" end="03:12.651" xmlns="http://www.w3.org/ns/ttml">go </span>
+              <span begin="03:12.651" end="03:12.951" xmlns="http://www.w3.org/ns/ttml">ja</span>
+            </text>
+            <text for="L39">
+              <span begin="03:13.151" end="03:14.031" xmlns="http://www.w3.org/ns/ttml">i do </span>
+              <span begin="03:14.031" end="03:14.241" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="03:14.241" end="03:14.771" xmlns="http://www.w3.org/ns/ttml">na i</span>
+            </text>
+            <text for="L40">
+              <span begin="03:15.001" end="03:15.321" xmlns="http://www.w3.org/ns/ttml">ze tsu </span>
+              <span begin="03:15.321" end="03:15.541" xmlns="http://www.w3.org/ns/ttml">bo u </span>
+              <span begin="03:15.541" end="03:15.651" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="03:15.651" end="03:16.031" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="03:16.121" end="03:16.341" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="03:16.341" end="03:16.521" xmlns="http://www.w3.org/ns/ttml">de</span>
+            </text>
+            <text for="L41">
+              <span begin="03:16.811" end="03:17.001" xmlns="http://www.w3.org/ns/ttml">ha </span>
+              <span begin="03:17.001" end="03:17.151" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="03:17.151" end="03:17.381" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="03:17.381" end="03:17.491" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="03:17.491" end="03:17.721" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="03:17.721" end="03:18.211" xmlns="http://www.w3.org/ns/ttml">u ta </span>
+              <span begin="03:18.211" end="03:18.451" xmlns="http://www.w3.org/ns/ttml">o u</span>
+            </text>
+            <text for="L42">
+              <span begin="03:18.651" end="03:18.801" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="03:18.881" end="03:18.991" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="03:18.991" end="03:19.211" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="03:19.211" end="03:19.321" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="03:19.321" end="03:19.571" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="03:19.571" end="03:19.761" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="03:19.761" end="03:20.051" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="03:20.051" end="03:20.411" xmlns="http://www.w3.org/ns/ttml">ra</span>
+            </text>
+            <text for="L43">
+              <span begin="03:20.431" end="03:20.671" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="03:20.671" end="03:21.091" xmlns="http://www.w3.org/ns/ttml">ra i </span>
+              <span begin="03:21.091" end="03:21.251" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="03:21.421" end="03:21.521" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="03:21.521" end="03:21.831" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="03:21.831" end="03:22.601" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L48">
+              <span begin="03:37.311" end="03:37.541" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="03:37.631" end="03:38.021" xmlns="http://www.w3.org/ns/ttml">ka i </span>
+              <span begin="03:38.021" end="03:38.241" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="03:38.361" end="03:39.041" xmlns="http://www.w3.org/ns/ttml">ma wa </span>
+              <span begin="03:39.041" end="03:39.491" xmlns="http://www.w3.org/ns/ttml">ru</span>
+            </text>
+            <text for="L49">
+              <span begin="03:39.911" end="03:40.821" xmlns="http://www.w3.org/ns/ttml">ki se </span>
+              <span begin="03:40.821" end="03:41.081" xmlns="http://www.w3.org/ns/ttml">ki </span>
+              <span begin="03:41.081" end="03:41.551" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="03:41.551" end="03:42.591" xmlns="http://www.w3.org/ns/ttml">i no </span>
+              <span begin="03:42.591" end="03:42.691" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="03:42.691" end="03:42.771" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="03:42.771" end="03:43.791" xmlns="http://www.w3.org/ns/ttml">shun </span>
+              <span begin="03:43.791" end="03:44.301" xmlns="http://www.w3.org/ns/ttml">kan </span>
+              <span begin="03:44.301" end="03:44.531" xmlns="http://www.w3.org/ns/ttml">ni</span>
+            </text>
+            <text for="L50">
+              <span begin="03:44.751" end="03:45.231" xmlns="http://www.w3.org/ns/ttml">ho ka </span>
+              <span begin="03:45.231" end="03:45.331" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="03:45.331" end="03:45.561" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="03:45.561" end="03:46.341" xmlns="http://www.w3.org/ns/ttml">na ni </span>
+              <span begin="03:46.341" end="03:46.861" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="03:47.261" end="03:47.461" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="03:47.461" end="03:48.181" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="03:48.181" end="03:48.411" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="03:48.411" end="03:48.761" xmlns="http://www.w3.org/ns/ttml">i</span>
+            </text>
+            <text for="L51">
+              <span begin="03:48.881" end="03:49.201" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="03:49.351" end="03:50.001" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="03:50.001" end="03:50.251" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="03:50.251" end="03:50.501" xmlns="http://www.w3.org/ns/ttml">a </span>
+              <span begin="03:50.501" end="03:50.651" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="03:50.651" end="03:51.171" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="03:51.171" end="03:51.871" xmlns="http://www.w3.org/ns/ttml">wa</span>
+            </text>
+            <text for="L52">
+              <span begin="03:52.246" end="03:52.251" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="03:52.251" end="03:52.681" xmlns="http://www.w3.org/ns/ttml">ne </span>
+              <span begin="03:52.741" end="03:53.581" xmlns="http://www.w3.org/ns/ttml">ga i</span>
+              <span begin="03:53.581" end="03:53.586" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="03:54.111" end="03:54.116" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="03:54.111" end="03:54.531" xmlns="http://www.w3.org/ns/ttml">ne </span>
+              <span begin="03:54.611" end="03:55.521" xmlns="http://www.w3.org/ns/ttml">ga i</span>
+              <span begin="03:55.521" end="03:55.526" xmlns="http://www.w3.org/ns/ttml"></span>
+            </text>
+            <text for="L53">
+              <span begin="03:55.951" end="03:57.301" xmlns="http://www.w3.org/ns/ttml">to do </span>
+              <span begin="03:57.301" end="03:57.531" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="03:57.531" end="03:58.041" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="03:58.041" end="03:58.481" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="03:58.481" end="03:59.171" xmlns="http://www.w3.org/ns/ttml">yo</span>
+            </text>
+            <text for="L54">
+              <span begin="03:59.371" end="03:59.791" xmlns="http://www.w3.org/ns/ttml">ki zu </span>
+              <span begin="03:59.791" end="04:00.091" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="04:00.091" end="04:00.261" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="04:00.341" end="04:00.901" xmlns="http://www.w3.org/ns/ttml">te</span>
+              <span begin="04:00.901" end="04:01.181" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="04:01.181" end="04:01.671" xmlns="http://www.w3.org/ns/ttml">ki zu </span>
+              <span begin="04:01.671" end="04:01.861" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="04:01.861" end="04:02.161" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="04:02.241" end="04:02.811" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L55">
+              <span begin="04:03.011" end="04:03.451" xmlns="http://www.w3.org/ns/ttml">su be </span>
+              <span begin="04:03.531" end="04:03.761" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="04:03.761" end="04:04.001" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="04:04.001" end="04:04.191" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="04:04.191" end="04:04.571" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="04:04.571" end="04:04.661" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="04:04.661" end="04:04.841" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="04:04.941" end="04:05.441" xmlns="http://www.w3.org/ns/ttml">to </span>
+              <span begin="04:05.441" end="04:05.581" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="04:05.581" end="04:05.781" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="04:05.781" end="04:06.471" xmlns="http://www.w3.org/ns/ttml">mo</span>
+            </text>
+            <text for="L56">
+              <span begin="04:06.711" end="04:07.151" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="04:07.151" end="04:07.321" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="04:07.321" end="04:07.651" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="04:07.651" end="04:08.251" xmlns="http://www.w3.org/ns/ttml">i</span>
+              <span begin="04:08.251" end="04:08.561" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="04:08.561" end="04:08.991" xmlns="http://www.w3.org/ns/ttml">ka na </span>
+              <span begin="04:08.991" end="04:09.181" xmlns="http://www.w3.org/ns/ttml">e </span>
+              <span begin="04:09.261" end="04:09.561" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="04:09.561" end="04:10.131" xmlns="http://www.w3.org/ns/ttml">i</span>
+            </text>
+            <text for="L57">
+              <span begin="04:10.401" end="04:10.871" xmlns="http://www.w3.org/ns/ttml">o mo </span>
+              <span begin="04:10.871" end="04:11.071" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="04:11.071" end="04:11.311" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="04:11.311" end="04:12.011" xmlns="http://www.w3.org/ns/ttml">ni gi </span>
+              <span begin="04:12.011" end="04:12.161" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="04:12.161" end="04:12.931" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="04:12.931" end="04:13.061" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="04:13.171" end="04:15.101" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+          </transliteration>
+        </transliterations>
+      </iTunesMetadata>
+    </metadata>
+  </head>
+  <body dur="04:15.101">
+    <div begin="00:15.871" end="00:29.281" itunes:song-part="Verse">
+      <p begin="00:15.871" end="00:18.741" ttm:agent="v1" itunes:key="L1">
+        <span begin="00:15.871" end="00:16.121">ど</span>
+        <span begin="00:16.121" end="00:16.401">ん</span>
+        <span begin="00:16.401" end="00:16.771">な</span>
+        <span begin="00:16.771" end="00:17.431">に</span>
+        <span begin="00:17.721" end="00:18.181">望</span>
+        <span begin="00:18.181" end="00:18.391">ん</span>
+        <span begin="00:18.391" end="00:18.591">で</span>
+        <span begin="00:18.591" end="00:18.741">も</span>
+      </p>
+      <p begin="00:18.841" end="00:23.291" ttm:agent="v1" itunes:key="L2">
+        <span begin="00:18.841" end="00:19.511">叶</span>
+        <span begin="00:19.511" end="00:20.201">わ</span>
+        <span begin="00:20.201" end="00:20.441">な</span>
+        <span begin="00:20.441" end="00:21.091">い</span>
+        <span begin="00:21.391" end="00:21.861">幻</span>
+        <span begin="00:21.971" end="00:22.291">想</span>
+        <span begin="00:22.291" end="00:22.521">が</span>
+        <span begin="00:22.521" end="00:22.641">あ</span>
+        <span begin="00:22.641" end="00:22.761">る</span>
+        <span begin="00:22.761" end="00:23.291">と</span>
+      </p>
+      <p begin="00:23.681" end="00:25.281" ttm:agent="v1" itunes:key="L3">
+        <span begin="00:23.681" end="00:23.911">目</span>
+        <span begin="00:23.911" end="00:24.131">を</span>
+        <span begin="00:24.131" end="00:24.581">閉</span>
+        <span begin="00:24.581" end="00:24.751">じ</span>
+        <span begin="00:24.831" end="00:25.281">て</span>
+      </p>
+      <p begin="00:25.441" end="00:29.281" ttm:agent="v1" itunes:key="L4">
+        <span begin="00:25.441" end="00:25.751">そ</span>
+        <span begin="00:25.751" end="00:25.941">れ</span>
+        <span begin="00:25.941" end="00:26.421">で</span>
+        <span begin="00:26.421" end="00:26.681">も</span>
+        <span begin="00:26.901" end="00:27.341">歩</span>
+        <span begin="00:27.341" end="00:27.471">き</span>
+        <span begin="00:27.471" end="00:27.741">つ</span>
+        <span begin="00:27.741" end="00:28.221">づ</span>
+        <span begin="00:28.221" end="00:28.391">け</span>
+        <span begin="00:28.491" end="00:29.281">た</span>
+      </p>
+    </div>
+    <div begin="00:29.871" end="00:51.661" itunes:song-part="PreChorus">
+      <p begin="00:29.871" end="00:33.171" ttm:agent="v1" itunes:key="L5">
+        <span begin="00:29.871" end="00:30.251">幾</span>
+        <span begin="00:30.251" end="00:30.551">つ</span>
+        <span begin="00:30.551" end="00:31.011">夜</span>
+        <span begin="00:31.011" end="00:31.441">を</span>
+        <span begin="00:31.441" end="00:32.151">重</span>
+        <span begin="00:32.151" end="00:32.351">ね</span>
+        <span begin="00:32.351" end="00:32.831">て</span>
+        <span begin="00:32.831" end="00:33.171">も</span>
+      </p>
+      <p begin="00:33.501" end="00:38.021" ttm:agent="v1" itunes:key="L6">
+        <span begin="00:33.501" end="00:34.271">消</span>
+        <span begin="00:34.271" end="00:35.301">せ</span>
+        <span begin="00:35.301" end="00:36.211">な</span>
+        <span begin="00:36.211" end="00:36.971">く</span>
+        <span begin="00:36.971" end="00:38.021">て</span>
+      </p>
+      <p begin="00:38.771" end="00:42.241" ttm:agent="v1" itunes:key="L7">
+        <span begin="00:38.771" end="00:39.461">光</span>
+        <span begin="00:39.461" end="00:39.651">を</span>
+        <span begin="00:39.651" end="00:40.601">求</span>
+        <span begin="00:40.601" end="00:41.051">め</span>
+        <span begin="00:41.051" end="00:41.311">て</span>
+        <span begin="00:41.311" end="00:42.241">る</span>
+      </p>
+      <p begin="00:44.031" end="00:51.661" ttm:agent="v1" itunes:key="L8">
+        <span begin="00:44.031" end="00:44.511">振</span>
+        <span begin="00:44.511" end="00:44.931">り</span>
+        <span begin="00:44.931" end="00:45.471">返</span>
+        <span begin="00:45.471" end="00:45.621">る</span>
+        <span begin="00:45.621" end="00:46.571">道</span>
+        <span begin="00:46.571" end="00:46.811">に</span>
+        <span begin="00:46.811" end="00:47.341">は</span>
+        <span begin="00:47.711" end="00:48.211">もう</span>
+        <span begin="00:48.211" end="00:48.881">戻</span>
+        <span begin="00:48.881" end="00:49.231">れ</span>
+        <span begin="00:49.231" end="00:49.721">な</span>
+        <span begin="00:49.721" end="00:50.681">く</span>
+        <span begin="00:50.681" end="00:50.891">て</span>
+        <span begin="00:50.891" end="00:51.661">も</span>
+      </p>
+    </div>
+    <div begin="00:52.451" end="01:30.061" itunes:song-part="Chorus">
+      <p begin="00:52.451" end="00:54.621" ttm:agent="v1" itunes:key="L9">
+        <span begin="00:52.451" end="00:52.671">世</span>
+        <span begin="00:52.751" end="00:53.131">界</span>
+        <span begin="00:53.131" end="00:53.461">は</span>
+        <span begin="00:53.461" end="00:54.151">回</span>
+        <span begin="00:54.151" end="00:54.621">る</span>
+      </p>
+      <p begin="00:55.011" end="00:59.661" ttm:agent="v1" itunes:key="L10">
+        <span begin="00:55.011" end="00:55.161">奇</span>
+        <span begin="00:55.161" end="00:56.201">跡</span>
+        <span begin="00:56.201" end="00:56.631">を</span>
+        <span begin="00:56.631" end="00:57.691">祈</span>
+        <span begin="00:57.691" end="00:57.801">っ</span>
+        <span begin="00:57.801" end="00:57.891">た</span>
+        <span begin="00:57.891" end="00:58.881">瞬</span>
+        <span begin="00:58.961" end="00:59.411">間</span>
+        <span begin="00:59.411" end="00:59.661">に</span>
+      </p>
+      <p begin="00:59.861" end="01:03.851" ttm:agent="v1" itunes:key="L11">
+        <span begin="00:59.861" end="01:00.341">他</span>
+        <span begin="01:00.341" end="01:00.461">に</span>
+        <span begin="01:00.461" end="01:00.711">は</span>
+        <span begin="01:00.711" end="01:01.441">何</span>
+        <span begin="01:01.441" end="01:01.921">も</span>
+        <span begin="01:02.371" end="01:02.561">い</span>
+        <span begin="01:02.561" end="01:03.281">ら</span>
+        <span begin="01:03.281" end="01:03.501">な</span>
+        <span begin="01:03.501" end="01:03.851">い</span>
+      </p>
+      <p begin="01:03.971" end="01:06.951" ttm:agent="v1" itunes:key="L12">
+        <span begin="01:03.971" end="01:04.311">こ</span>
+        <span begin="01:04.441" end="01:05.151">こ</span>
+        <span begin="01:05.151" end="01:05.291">に</span>
+        <span begin="01:05.291" end="01:05.611">あ</span>
+        <span begin="01:05.611" end="01:05.801">る</span>
+        <span begin="01:05.801" end="01:06.301">の</span>
+        <span begin="01:06.301" end="01:06.951">は</span>
+      </p>
+      <p begin="01:07.361" end="01:10.601" ttm:agent="v1" itunes:key="L13">
+        <span begin="01:07.356" end="01:07.361">「</span>
+        <span begin="01:07.361" end="01:07.861">未</span>
+        <span begin="01:07.861" end="01:08.781">来</span>
+        <span begin="01:08.781" end="01:08.786">」</span>
+        <span begin="01:09.251" end="01:09.256">「</span>
+        <span begin="01:09.251" end="01:09.701">希</span>
+        <span begin="01:09.701" end="01:10.601">望</span>
+        <span begin="01:10.601" end="01:10.606">」</span>
+      </p>
+      <p begin="01:11.071" end="01:14.281" ttm:agent="v1" itunes:key="L14">
+        <span begin="01:11.071" end="01:12.451">届</span>
+        <span begin="01:12.451" end="01:12.661">け</span>
+        <span begin="01:12.661" end="01:13.161">た</span>
+        <span begin="01:13.161" end="01:13.631">い</span>
+        <span begin="01:13.631" end="01:14.281">よ</span>
+      </p>
+      <p begin="01:14.481" end="01:17.901" ttm:agent="v1" itunes:key="L15">
+        <span begin="01:14.481" end="01:14.901">傷</span>
+        <span begin="01:14.901" end="01:15.201">つ</span>
+        <span begin="01:15.201" end="01:15.401">い</span>
+        <span begin="01:15.401" end="01:16.001">て</span>
+        <span begin="01:16.001" end="01:16.291"> </span>
+        <span begin="01:16.291" end="01:16.781">傷</span>
+        <span begin="01:16.781" end="01:17.011">つ</span>
+        <span begin="01:17.011" end="01:17.251">け</span>
+        <span begin="01:17.251" end="01:17.901">て</span>
+      </p>
+      <p begin="01:18.131" end="01:21.521" ttm:agent="v1" itunes:key="L16">
+        <span begin="01:18.131" end="01:18.591">全</span>
+        <span begin="01:18.591" end="01:18.851">て</span>
+        <span begin="01:18.851" end="01:19.101">を</span>
+        <span begin="01:19.101" end="01:19.281">失</span>
+        <span begin="01:19.281" end="01:19.661">く</span>
+        <span begin="01:19.661" end="01:19.781">し</span>
+        <span begin="01:19.781" end="01:19.951">た</span>
+        <span begin="01:20.021" end="01:20.571">と</span>
+        <span begin="01:20.571" end="01:20.711">し</span>
+        <span begin="01:20.711" end="01:20.931">て</span>
+        <span begin="01:20.931" end="01:21.521">も</span>
+      </p>
+      <p begin="01:21.821" end="01:25.241" ttm:agent="v1" itunes:key="L17">
+        <span begin="01:21.821" end="01:22.291">叶</span>
+        <span begin="01:22.291" end="01:22.491">わ</span>
+        <span begin="01:22.491" end="01:22.781">な</span>
+        <span begin="01:22.781" end="01:23.401">い</span>
+        <span begin="01:23.401" end="01:23.681"> </span>
+        <span begin="01:23.681" end="01:24.111">叶</span>
+        <span begin="01:24.111" end="01:24.331">え</span>
+        <span begin="01:24.331" end="01:24.711">た</span>
+        <span begin="01:24.711" end="01:25.241">い</span>
+      </p>
+      <p begin="01:25.511" end="01:30.061" ttm:agent="v1" itunes:key="L18">
+        <span begin="01:25.511" end="01:25.971">想</span>
+        <span begin="01:25.971" end="01:26.191">い</span>
+        <span begin="01:26.191" end="01:26.421">を</span>
+        <span begin="01:26.421" end="01:27.121">握</span>
+        <span begin="01:27.121" end="01:27.271">り</span>
+        <span begin="01:27.271" end="01:28.031">し</span>
+        <span begin="01:28.031" end="01:28.161">め</span>
+        <span begin="01:28.251" end="01:30.061">て</span>
+      </p>
+    </div>
+    <div begin="01:45.661" end="01:58.981" itunes:song-part="Verse">
+      <p begin="01:45.661" end="01:48.551" ttm:agent="v1" itunes:key="L19">
+        <span begin="01:45.661" end="01:45.931">ど</span>
+        <span begin="01:45.931" end="01:46.191">ん</span>
+        <span begin="01:46.191" end="01:46.591">な</span>
+        <span begin="01:46.591" end="01:47.171">に</span>
+        <span begin="01:47.371" end="01:47.981">叫</span>
+        <span begin="01:47.981" end="01:48.171">ん</span>
+        <span begin="01:48.171" end="01:48.371">で</span>
+        <span begin="01:48.371" end="01:48.551">も</span>
+      </p>
+      <p begin="01:48.611" end="01:53.061" ttm:agent="v1" itunes:key="L20">
+        <span begin="01:48.611" end="01:49.091">変</span>
+        <span begin="01:49.091" end="01:49.341">わ</span>
+        <span begin="01:49.341" end="01:49.991">ら</span>
+        <span begin="01:49.991" end="01:50.251">な</span>
+        <span begin="01:50.251" end="01:50.881">い</span>
+        <span begin="01:51.131" end="01:51.631">現</span>
+        <span begin="01:51.721" end="01:52.071">実</span>
+        <span begin="01:52.071" end="01:52.301">も</span>
+        <span begin="01:52.301" end="01:52.451">あ</span>
+        <span begin="01:52.451" end="01:52.551">る</span>
+        <span begin="01:52.551" end="01:53.061">と</span>
+      </p>
+      <p begin="01:53.351" end="01:55.061" ttm:agent="v1" itunes:key="L21">
+        <span begin="01:53.351" end="01:53.701">背</span>
+        <span begin="01:53.701" end="01:53.871">を</span>
+        <span begin="01:53.871" end="01:54.351">向</span>
+        <span begin="01:54.351" end="01:54.501">け</span>
+        <span begin="01:54.601" end="01:55.061">た</span>
+      </p>
+      <p begin="01:55.221" end="01:58.981" ttm:agent="v1" itunes:key="L22">
+        <span begin="01:55.221" end="01:55.531">そ</span>
+        <span begin="01:55.531" end="01:55.751">れ</span>
+        <span begin="01:55.751" end="01:56.201">で</span>
+        <span begin="01:56.201" end="01:56.431">も</span>
+        <span begin="01:56.621" end="01:56.991">離</span>
+        <span begin="01:56.991" end="01:57.311">せ</span>
+        <span begin="01:57.311" end="01:57.461">な</span>
+        <span begin="01:57.561" end="01:58.011">か</span>
+        <span begin="01:58.011" end="01:58.141">っ</span>
+        <span begin="01:58.251" end="01:58.981">た</span>
+      </p>
+    </div>
+    <div begin="01:59.591" end="02:21.571" itunes:song-part="PreChorus">
+      <p begin="01:59.591" end="02:02.981" ttm:agent="v1" itunes:key="L23">
+        <span begin="01:59.591" end="02:00.101">何</span>
+        <span begin="02:00.101" end="02:00.251">度</span>
+        <span begin="02:00.341" end="02:00.811">星</span>
+        <span begin="02:00.811" end="02:01.211">に</span>
+        <span begin="02:01.211" end="02:01.911">嘆</span>
+        <span begin="02:01.911" end="02:02.131">い</span>
+        <span begin="02:02.131" end="02:02.611">て</span>
+        <span begin="02:02.611" end="02:02.981">も</span>
+      </p>
+      <p begin="02:03.281" end="02:07.661" ttm:agent="v1" itunes:key="L24">
+        <span begin="02:03.281" end="02:04.991">遠</span>
+        <span begin="02:04.991" end="02:05.991">す</span>
+        <span begin="02:05.991" end="02:06.691">ぎ</span>
+        <span begin="02:06.691" end="02:07.661">て</span>
+      </p>
+      <p begin="02:08.561" end="02:12.261" ttm:agent="v1" itunes:key="L25">
+        <span begin="02:08.561" end="02:09.051">祈</span>
+        <span begin="02:09.051" end="02:09.231">り</span>
+        <span begin="02:09.231" end="02:09.451">も</span>
+        <span begin="02:09.451" end="02:10.371">届</span>
+        <span begin="02:10.371" end="02:10.851">か</span>
+        <span begin="02:10.851" end="02:11.081">な</span>
+        <span begin="02:11.081" end="02:12.261">い</span>
+      </p>
+      <p begin="02:13.841" end="02:17.181" ttm:agent="v1" itunes:key="L26">
+        <span begin="02:13.841" end="02:14.771">選</span>
+        <span begin="02:14.771" end="02:14.991">ん</span>
+        <span begin="02:14.991" end="02:15.391">だ</span>
+        <span begin="02:15.391" end="02:16.351">答</span>
+        <span begin="02:16.351" end="02:16.581">え</span>
+        <span begin="02:16.581" end="02:17.181">が</span>
+      </p>
+      <p begin="02:17.491" end="02:21.571" ttm:agent="v1" itunes:key="L27">
+        <span begin="02:17.491" end="02:18.301">許</span>
+        <span begin="02:18.301" end="02:18.661">さ</span>
+        <span begin="02:18.661" end="02:19.051">れ</span>
+        <span begin="02:19.051" end="02:19.501">な</span>
+        <span begin="02:19.571" end="02:20.411">く</span>
+        <span begin="02:20.501" end="02:20.701">て</span>
+        <span begin="02:20.701" end="02:21.571">も</span>
+      </p>
+    </div>
+    <div begin="02:22.221" end="02:52.671" itunes:song-part="Chorus">
+      <p begin="02:22.221" end="02:24.351" ttm:agent="v1" itunes:key="L28">
+        <span begin="02:22.221" end="02:22.431">世</span>
+        <span begin="02:22.521" end="02:22.891">界</span>
+        <span begin="02:22.891" end="02:23.091">は</span>
+        <span begin="02:23.211" end="02:23.681">変</span>
+        <span begin="02:23.681" end="02:23.911">わ</span>
+        <span begin="02:23.911" end="02:24.351">る</span>
+      </p>
+      <p begin="02:24.781" end="02:29.431" ttm:agent="v1" itunes:key="L29">
+        <span begin="02:24.781" end="02:25.691">迷</span>
+        <span begin="02:25.691" end="02:25.961">い</span>
+        <span begin="02:25.961" end="02:26.361">を</span>
+        <span begin="02:26.361" end="02:26.671">消</span>
+        <span begin="02:26.671" end="02:27.491">し</span>
+        <span begin="02:27.581" end="02:27.681">た</span>
+        <span begin="02:27.681" end="02:28.701">瞬</span>
+        <span begin="02:28.701" end="02:29.161">間</span>
+        <span begin="02:29.161" end="02:29.431">に</span>
+      </p>
+      <p begin="02:29.601" end="02:33.681" ttm:agent="v1" itunes:key="L30">
+        <span begin="02:29.601" end="02:30.091">他</span>
+        <span begin="02:30.091" end="02:30.191">に</span>
+        <span begin="02:30.191" end="02:30.491">は</span>
+        <span begin="02:30.491" end="02:31.181">何</span>
+        <span begin="02:31.181" end="02:31.711">も</span>
+        <span begin="02:32.151" end="02:32.371">い</span>
+        <span begin="02:32.371" end="02:33.061">ら</span>
+        <span begin="02:33.061" end="02:33.271">な</span>
+        <span begin="02:33.271" end="02:33.681">い</span>
+      </p>
+      <p begin="02:33.761" end="02:36.761" ttm:agent="v1" itunes:key="L31">
+        <span begin="02:33.761" end="02:34.061">た</span>
+        <span begin="02:34.061" end="02:34.211">っ</span>
+        <span begin="02:34.211" end="02:34.821">た</span>
+        <span begin="02:34.821" end="02:35.511">１</span>
+        <span begin="02:35.511" end="02:36.081">つ</span>
+        <span begin="02:36.081" end="02:36.761">の</span>
+      </p>
+      <p begin="02:37.151" end="02:40.291" ttm:agent="v1" itunes:key="L32">
+        <span begin="02:37.146" end="02:37.151">「</span>
+        <span begin="02:37.151" end="02:37.631">自</span>
+        <span begin="02:37.631" end="02:38.541">由</span>
+        <span begin="02:38.541" end="02:38.546">」</span>
+        <span begin="02:38.991" end="02:38.996">「</span>
+        <span begin="02:38.991" end="02:40.291">夢</span>
+        <span begin="02:40.291" end="02:40.296">」</span>
+      </p>
+      <p begin="02:40.781" end="02:44.061" ttm:agent="v1" itunes:key="L33">
+        <span begin="02:40.781" end="02:42.131">掴</span>
+        <span begin="02:42.131" end="02:42.381">み</span>
+        <span begin="02:42.381" end="02:42.931">た</span>
+        <span begin="02:42.931" end="02:43.381">い</span>
+        <span begin="02:43.381" end="02:44.061">よ</span>
+      </p>
+      <p begin="02:44.271" end="02:47.671" ttm:agent="v1" itunes:key="L34">
+        <span begin="02:44.271" end="02:44.731">叶</span>
+        <span begin="02:44.731" end="02:44.921">わ</span>
+        <span begin="02:44.921" end="02:45.221">な</span>
+        <span begin="02:45.221" end="02:45.811">い</span>
+        <span begin="02:45.811" end="02:46.111"> </span>
+        <span begin="02:46.111" end="02:46.541">叶</span>
+        <span begin="02:46.541" end="02:46.741">え</span>
+        <span begin="02:46.821" end="02:47.111">た</span>
+        <span begin="02:47.111" end="02:47.671">い</span>
+      </p>
+      <p begin="02:47.901" end="02:52.671" ttm:agent="v1" itunes:key="L35">
+        <span begin="02:47.901" end="02:48.451">誓</span>
+        <span begin="02:48.451" end="02:48.661">い</span>
+        <span begin="02:48.661" end="02:48.871">を</span>
+        <span begin="02:48.871" end="02:49.551">胸</span>
+        <span begin="02:49.551" end="02:49.781">に</span>
+        <span begin="02:49.781" end="02:50.491">抱</span>
+        <span begin="02:50.491" end="02:50.681">い</span>
+        <span begin="02:50.681" end="02:52.671">て</span>
+      </p>
+    </div>
+    <div begin="03:07.641" end="03:36.501" itunes:song-part="Bridge">
+      <p begin="03:07.641" end="03:09.231" ttm:agent="v1" itunes:key="L36">
+        <span begin="03:07.641" end="03:07.961">運</span>
+        <span begin="03:07.961" end="03:08.211">命</span>
+        <span begin="03:08.211" end="03:08.551">呪</span>
+        <span begin="03:08.551" end="03:08.761">う</span>
+        <span begin="03:08.761" end="03:09.011">よ</span>
+        <span begin="03:09.011" end="03:09.231">り</span>
+      </p>
+      <p begin="03:09.471" end="03:11.111" ttm:agent="v1" itunes:key="L37">
+        <span begin="03:09.471" end="03:10.011">抗</span>
+        <span begin="03:10.011" end="03:10.131">う</span>
+        <span begin="03:10.131" end="03:10.501">強</span>
+        <span begin="03:10.501" end="03:10.861">さ</span>
+        <span begin="03:10.861" end="03:11.111">を</span>
+      </p>
+      <p begin="03:11.301" end="03:12.951" ttm:agent="v1" itunes:key="L38">
+        <span begin="03:11.301" end="03:11.641">半</span>
+        <span begin="03:11.641" end="03:11.861">端</span>
+        <span begin="03:11.861" end="03:11.941">な</span>
+        <span begin="03:11.941" end="03:12.371">覚</span>
+        <span begin="03:12.441" end="03:12.651">悟</span>
+        <span begin="03:12.651" end="03:12.951">じゃ</span>
+      </p>
+      <p begin="03:13.151" end="03:14.771" ttm:agent="v1" itunes:key="L39">
+        <span begin="03:13.151" end="03:14.031">挑</span>
+        <span begin="03:14.031" end="03:14.241">め</span>
+        <span begin="03:14.241" end="03:14.771">ない</span>
+      </p>
+      <p begin="03:15.001" end="03:16.521" ttm:agent="v1" itunes:key="L40">
+        <span begin="03:15.001" end="03:15.321">絶</span>
+        <span begin="03:15.321" end="03:15.541">望</span>
+        <span begin="03:15.541" end="03:15.651">の</span>
+        <span begin="03:15.651" end="03:16.031">彼</span>
+        <span begin="03:16.121" end="03:16.341">方</span>
+        <span begin="03:16.341" end="03:16.521">で</span>
+      </p>
+      <p begin="03:16.811" end="03:18.451" ttm:agent="v1" itunes:key="L41">
+        <span begin="03:16.811" end="03:17.001">ハ</span>
+        <span begin="03:17.001" end="03:17.151">ジ</span>
+        <span begin="03:17.151" end="03:17.381">マ</span>
+        <span begin="03:17.381" end="03:17.491">リ</span>
+        <span begin="03:17.491" end="03:17.721">を</span>
+        <span begin="03:17.721" end="03:18.211">唄</span>
+        <span begin="03:18.211" end="03:18.451">おう</span>
+      </p>
+      <p begin="03:18.651" end="03:20.411" ttm:agent="v1" itunes:key="L42">
+        <span begin="03:18.651" end="03:18.801">ま</span>
+        <span begin="03:18.881" end="03:18.991">だ</span>
+        <span begin="03:18.991" end="03:19.211">ま</span>
+        <span begin="03:19.211" end="03:19.321">だ</span>
+        <span begin="03:19.321" end="03:19.571">こ</span>
+        <span begin="03:19.571" end="03:19.761">れ</span>
+        <span begin="03:19.761" end="03:20.051">か</span>
+        <span begin="03:20.051" end="03:20.411">ら</span>
+      </p>
+      <p begin="03:20.431" end="03:22.601" ttm:agent="v1" itunes:key="L43">
+        <span begin="03:20.431" end="03:20.671">喰</span>
+        <span begin="03:20.671" end="03:21.091">らい</span>
+        <span begin="03:21.091" end="03:21.251">尽</span>
+        <span begin="03:21.421" end="03:21.521">く</span>
+        <span begin="03:21.521" end="03:21.831">し</span>
+        <span begin="03:21.831" end="03:22.601">て</span>
+      </p>
+      <p begin="03:23.441" end="03:26.091" ttm:agent="v1" itunes:key="L44">
+        <span begin="03:23.441" end="03:23.651">I</span>
+        <span begin="03:23.651" end="03:24.111">f you</span>
+        <span begin="03:24.111" end="03:24.111"> </span>
+        <span begin="03:24.111" end="03:24.471">want</span>
+        <span begin="03:24.471" end="03:24.471"> </span>
+        <span begin="03:24.471" end="03:24.991">some</span>
+        <span begin="03:24.991" end="03:25.301">thing</span>
+        <span begin="03:25.301" end="03:25.301"> </span>
+        <span begin="03:25.301" end="03:25.521">done</span>
+        <span begin="03:25.521" end="03:25.521"> </span>
+        <span begin="03:25.521" end="03:25.871">righ</span>
+        <span begin="03:25.871" end="03:26.091">t</span>
+      </p>
+      <p begin="03:27.021" end="03:29.621" ttm:agent="v1" itunes:key="L45">
+        <span begin="03:27.021" end="03:27.271">You</span>
+        <span begin="03:27.271" end="03:27.271"> </span>
+        <span begin="03:27.271" end="03:27.591">ha</span>
+        <span begin="03:27.591" end="03:27.691">ve</span>
+        <span begin="03:27.691" end="03:27.811"> </span>
+        <span begin="03:27.811" end="03:28.251">to</span>
+        <span begin="03:28.251" end="03:28.251"> </span>
+        <span begin="03:28.251" end="03:28.721">do</span>
+        <span begin="03:28.721" end="03:28.721"> </span>
+        <span begin="03:28.721" end="03:28.931">i</span>
+        <span begin="03:28.931" end="03:29.121">t your</span>
+        <span begin="03:29.121" end="03:29.621">self</span>
+      </p>
+      <p begin="03:30.691" end="03:33.161" ttm:agent="v1" itunes:key="L46">
+        <span begin="03:30.691" end="03:30.951">Li</span>
+        <span begin="03:30.951" end="03:31.311">fe i</span>
+        <span begin="03:31.311" end="03:31.461">s</span>
+        <span begin="03:31.461" end="03:31.461"> </span>
+        <span begin="03:31.461" end="03:31.761">what</span>
+        <span begin="03:31.761" end="03:31.911"> </span>
+        <span begin="03:31.911" end="03:32.381">you</span>
+        <span begin="03:32.381" end="03:32.381"> </span>
+        <span begin="03:32.381" end="03:32.821">ma</span>
+        <span begin="03:32.821" end="03:32.971">ke i</span>
+        <span begin="03:33.071" end="03:33.161">t</span>
+      </p>
+      <p begin="03:33.161" end="03:36.501" ttm:agent="v1" itunes:key="L47">
+        <span begin="03:33.161" end="03:33.531">Oh</span>
+        <span begin="03:33.531" end="03:33.531"> </span>
+        <span begin="03:33.531" end="03:33.761">I</span>
+        <span begin="03:33.761" end="03:33.761"> </span>
+        <span begin="03:33.761" end="03:34.191">can</span>
+        <span begin="03:34.191" end="03:34.251"> </span>
+        <span begin="03:34.251" end="03:34.571">beat</span>
+        <span begin="03:34.571" end="03:34.691"> </span>
+        <span begin="03:34.691" end="03:36.501">fate</span>
+      </p>
+    </div>
+    <div begin="03:37.311" end="04:15.101" itunes:song-part="Refrain">
+      <p begin="03:37.311" end="03:39.491" ttm:agent="v1" itunes:key="L48">
+        <span begin="03:37.311" end="03:37.541">世</span>
+        <span begin="03:37.631" end="03:38.021">界</span>
+        <span begin="03:38.021" end="03:38.241">は</span>
+        <span begin="03:38.361" end="03:39.041">回</span>
+        <span begin="03:39.041" end="03:39.491">る</span>
+      </p>
+      <p begin="03:39.911" end="03:44.531" ttm:agent="v1" itunes:key="L49">
+        <span begin="03:39.911" end="03:40.821">奇</span>
+        <span begin="03:40.821" end="03:41.081">跡</span>
+        <span begin="03:41.081" end="03:41.551">を</span>
+        <span begin="03:41.551" end="03:42.591">祈</span>
+        <span begin="03:42.591" end="03:42.691">っ</span>
+        <span begin="03:42.691" end="03:42.771">た</span>
+        <span begin="03:42.771" end="03:43.791">瞬</span>
+        <span begin="03:43.791" end="03:44.301">間</span>
+        <span begin="03:44.301" end="03:44.531">に</span>
+      </p>
+      <p begin="03:44.751" end="03:48.761" ttm:agent="v1" itunes:key="L50">
+        <span begin="03:44.751" end="03:45.231">他</span>
+        <span begin="03:45.231" end="03:45.331">に</span>
+        <span begin="03:45.331" end="03:45.561">は</span>
+        <span begin="03:45.561" end="03:46.341">何</span>
+        <span begin="03:46.341" end="03:46.861">も</span>
+        <span begin="03:47.261" end="03:47.461">い</span>
+        <span begin="03:47.461" end="03:48.181">ら</span>
+        <span begin="03:48.181" end="03:48.411">な</span>
+        <span begin="03:48.411" end="03:48.761">い</span>
+      </p>
+      <p begin="03:48.881" end="03:51.871" ttm:agent="v1" itunes:key="L51">
+        <span begin="03:48.881" end="03:49.201">こ</span>
+        <span begin="03:49.351" end="03:50.001">こ</span>
+        <span begin="03:50.001" end="03:50.251">に</span>
+        <span begin="03:50.251" end="03:50.501">あ</span>
+        <span begin="03:50.501" end="03:50.651">る</span>
+        <span begin="03:50.651" end="03:51.171">の</span>
+        <span begin="03:51.171" end="03:51.871">は</span>
+      </p>
+      <p begin="03:52.251" end="03:55.521" ttm:agent="v1" itunes:key="L52">
+        <span begin="03:52.246" end="03:52.251">「</span>
+        <span begin="03:52.251" end="03:52.681">未</span>
+        <span begin="03:52.741" end="03:53.581">来</span>
+        <span begin="03:53.581" end="03:53.586">」</span>
+        <span begin="03:54.111" end="03:54.116">「</span>
+        <span begin="03:54.111" end="03:54.531">希</span>
+        <span begin="03:54.611" end="03:55.521">望</span>
+        <span begin="03:55.521" end="03:55.526">」</span>
+      </p>
+      <p begin="03:55.951" end="03:59.171" ttm:agent="v1" itunes:key="L53">
+        <span begin="03:55.951" end="03:57.301">届</span>
+        <span begin="03:57.301" end="03:57.531">け</span>
+        <span begin="03:57.531" end="03:58.041">た</span>
+        <span begin="03:58.041" end="03:58.481">い</span>
+        <span begin="03:58.481" end="03:59.171">よ</span>
+      </p>
+      <p begin="03:59.371" end="04:02.811" ttm:agent="v1" itunes:key="L54">
+        <span begin="03:59.371" end="03:59.791">傷</span>
+        <span begin="03:59.791" end="04:00.091">つ</span>
+        <span begin="04:00.091" end="04:00.261">い</span>
+        <span begin="04:00.341" end="04:00.901">て</span>
+        <span begin="04:00.901" end="04:01.181"> </span>
+        <span begin="04:01.181" end="04:01.671">傷</span>
+        <span begin="04:01.671" end="04:01.861">つ</span>
+        <span begin="04:01.861" end="04:02.161">け</span>
+        <span begin="04:02.241" end="04:02.811">て</span>
+      </p>
+      <p begin="04:03.011" end="04:06.471" ttm:agent="v1" itunes:key="L55">
+        <span begin="04:03.011" end="04:03.451">全</span>
+        <span begin="04:03.531" end="04:03.761">て</span>
+        <span begin="04:03.761" end="04:04.001">を</span>
+        <span begin="04:04.001" end="04:04.191">失</span>
+        <span begin="04:04.191" end="04:04.571">く</span>
+        <span begin="04:04.571" end="04:04.661">し</span>
+        <span begin="04:04.661" end="04:04.841">た</span>
+        <span begin="04:04.941" end="04:05.441">と</span>
+        <span begin="04:05.441" end="04:05.581">し</span>
+        <span begin="04:05.581" end="04:05.781">て</span>
+        <span begin="04:05.781" end="04:06.471">も</span>
+      </p>
+      <p begin="04:06.711" end="04:10.131" ttm:agent="v1" itunes:key="L56">
+        <span begin="04:06.711" end="04:07.151">叶</span>
+        <span begin="04:07.151" end="04:07.321">わ</span>
+        <span begin="04:07.321" end="04:07.651">な</span>
+        <span begin="04:07.651" end="04:08.251">い</span>
+        <span begin="04:08.251" end="04:08.561"> </span>
+        <span begin="04:08.561" end="04:08.991">叶</span>
+        <span begin="04:08.991" end="04:09.181">え</span>
+        <span begin="04:09.261" end="04:09.561">た</span>
+        <span begin="04:09.561" end="04:10.131">い</span>
+      </p>
+      <p begin="04:10.401" end="04:15.101" ttm:agent="v1" itunes:key="L57">
+        <span begin="04:10.401" end="04:10.871">想</span>
+        <span begin="04:10.871" end="04:11.071">い</span>
+        <span begin="04:11.071" end="04:11.311">を</span>
+        <span begin="04:11.311" end="04:12.011">握</span>
+        <span begin="04:12.011" end="04:12.161">り</span>
+        <span begin="04:12.161" end="04:12.931">し</span>
+        <span begin="04:12.931" end="04:13.061">め</span>
+        <span begin="04:13.171" end="04:15.101">て</span>
+      </p>
+    </div>
+  </body>
+</tt>
