@@ -9,9 +9,9 @@ PlayResY: 1080
 Update Details: -2ms
 WrapStyle: 0
 ScaledBorderAndShadow: no
+Original Script: ja
 
 [Aegisub Project Garbage]
-Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -24,192 +24,186 @@ Style: orig-furigana,M PLUS 2 ExtraBold,72,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time=0; pre_pos=0;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,if (((line.start_time)-200) < ((pre_end_time)+800)) then line.pos=1-pre_pos; else line.pos=0; end; pre_end_time=line.end_time; pre_pos=line.pos; if line.pos == 1 then line.top = line.top - line.height*1.65; line.bottom = line.bottom - line.height*1.65; end;
-Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.top-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:19.89,0:00:24.22,orig,L__1,0,0,0,karaoke,{\ko72}最|<さ{\ko55}#|い{\ko45}近|きん{\ko21}な{\ko28}ん{\ko13}だ{\ko32}か{\ko23}{\ko20}そ{\ko27}っ{\ko17}け{\ko20}な{\ko13}い{\ko47}ね
-Comment: 0,0:00:19.89,0:00:24.22,roma,____ ,0,0,0,karaoke,sa i kin nan da ka so kke na i ne
-Comment: 0,0:00:19.89,0:00:24.22,ts,____ ,0,0,0,karaoke,最近总觉得你有些冷淡呢
-Comment: 0,0:00:19.89,0:00:24.22,tuck,____ ,0,0,0,,最近なんだかそっけないね
-Comment: 0,0:00:24.79,0:00:28.27,orig,L__2,0,0,0,karaoke,{\ko58}同|<お{\ko57}#|な{\ko43}じ{\ko21}部|<へ{\ko33}屋|や{\ko15}にい{\ko27}る{\ko45}の{\ko49}に
-Comment: 0,0:00:24.79,0:00:28.27,roma,____ ,0,0,0,karaoke,o na ji he ya ni i ru no ni
-Comment: 0,0:00:24.79,0:00:28.27,ts,____ ,0,0,0,karaoke,明明身处同一屋檐下
-Comment: 0,0:00:24.79,0:00:28.27,tuck,____ ,0,0,0,,同じ部屋にいるのに
-Comment: 0,0:00:29.85,0:00:31.41,orig,L__3,0,0,0,karaoke,{\ko20}目|<め{\ko16}も{\ko24}合|<あ{\ko12}わ{\ko25}さ{\ko59}ない
-Comment: 0,0:00:29.85,0:00:31.41,roma,____ ,0,0,0,karaoke,me mo a wa sa na i
-Comment: 0,0:00:29.85,0:00:31.41,ts,____ ,0,0,0,karaoke,视线却不再交汇
-Comment: 0,0:00:29.85,0:00:31.41,tuck,____ ,0,0,0,,目も合わさない
-Comment: 0,0:00:32.28,0:00:34.66,orig,L__4,0,0,0,karaoke,{\ko16}触|<ふ{\ko16}れ{\ko23}合|<あ{\ko21}う{\ko11}こ{\ko9}{\ko32}と{\ko23}も{\ko87}ない
-Comment: 0,0:00:32.28,0:00:34.66,roma,____ ,0,0,0,karaoke,fu re a u ko to mo na i
-Comment: 0,0:00:32.28,0:00:34.66,ts,____ ,0,0,0,karaoke,也不再相互触碰
-Comment: 0,0:00:32.28,0:00:34.66,tuck,____ ,0,0,0,,触れ合うこともない
-Comment: 0,0:00:39.12,0:00:43.43,orig,L__5,0,0,0,karaoke,{\ko66}出|<で{\ko48}会|あ{\ko15}っ{\ko47}た{\ko13}ば{\ko31}か{\ko15}り{\ko36}の{\ko24}{\ko8}あ{\ko31}の{\ko17}頃|<こ{\ko30}#|ろ{\ko50}は
-Comment: 0,0:00:39.12,0:00:43.43,roma,____ ,0,0,0,karaoke,de a tta ba ka ri no a no ko ro wa
-Comment: 0,0:00:39.12,0:00:43.43,ts,____ ,0,0,0,karaoke,初遇时的那些日子
-Comment: 0,0:00:39.12,0:00:43.43,tuck,____ ,0,0,0,,出会ったばかりのあの頃は
-Comment: 0,0:00:43.96,0:00:47.57,orig,L__6,0,0,0,karaoke,{\ko54}た{\ko9}{\ko49}だ{\ko60}そ{\ko15}ば{\ko26}にい{\ko16}る{\ko19}だ{\ko8}{\ko45}け{\ko60}で
-Comment: 0,0:00:43.96,0:00:47.57,roma,____ ,0,0,0,karaoke,ta da so ba ni i ru da ke de
-Comment: 0,0:00:43.96,0:00:47.57,ts,____ ,0,0,0,karaoke,明明只要在你身边
-Comment: 0,0:00:43.96,0:00:47.57,tuck,____ ,0,0,0,,ただそばにいるだけで
-Comment: 0,0:00:49.08,0:00:50.65,orig,L__7,0,0,0,karaoke,{\ko13}何|<な{\ko14}#|に{\ko28}も{\ko19}い{\ko14}ら{\ko69}ない
-Comment: 0,0:00:49.08,0:00:50.65,roma,____ ,0,0,0,karaoke,na ni mo i ra na i
-Comment: 0,0:00:49.08,0:00:50.65,ts,____ ,0,0,0,karaoke,便已心满意足
-Comment: 0,0:00:49.08,0:00:50.65,tuck,____ ,0,0,0,,何もいらない
-Comment: 0,0:00:51.49,0:00:53.64,orig,L__8,0,0,0,karaoke,{\ko12}ず{\ko7}っ{\ko8}と{\ko27}触|<ふ{\ko19}れ{\ko11}て{\ko7}{\ko61}た{\ko63}い
-Comment: 0,0:00:51.49,0:00:53.64,roma,____ ,0,0,0,karaoke,zu tto fu re te ta i
-Comment: 0,0:00:51.49,0:00:53.64,ts,____ ,0,0,0,karaoke,渴望能一直依偎
-Comment: 0,0:00:51.49,0:00:53.64,tuck,____ ,0,0,0,,ずっと触れてたい
-Comment: 0,0:00:55.64,0:00:58.04,orig,L__9,0,0,0,karaoke,{\ko22}そ{\ko16}れ{\ko27}で{\ko24}よ{\ko7}{\ko19}か{\ko13}っ{\ko25}た{\ko36}の{\ko51}に
-Comment: 0,0:00:55.64,0:00:58.04,roma,____ ,0,0,0,karaoke,so re de yo ka tta no ni
-Comment: 0,0:00:55.64,0:00:58.04,ts,____ ,0,0,0,karaoke,那样便已足够幸福
-Comment: 0,0:00:55.64,0:00:58.04,tuck,____ ,0,0,0,,それでよかったのに
-Comment: 0,0:00:58.33,0:01:00.40,orig,L_10 x-anti,0,0,0,karaoke,{\ko63}Your {\ko47}gen{\ko9}tle {\ko10}s{\ko64}mile{\ko14}s
-Comment: 0,0:00:58.33,0:01:00.40,ts,____ x-anti,0,0,0,karaoke,你温柔的微笑
+Dialogue: 0,0:00:19.89,0:00:24.22,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko72}最|<さ{\ko55}#|い{\ko45}近|きん{\ko21}な{\ko28}ん{\ko13}だ{\ko32}か{\ko23}{\ko20}そ{\ko27}っ{\ko17}け{\ko20}な{\ko13}い{\ko47}ね
+Dialogue: 0,0:00:19.89,0:00:24.22,roma,____,0,0,0,karaoke,{\k72}sa {\k55}i {\k45}kin {\k21}na{\k28}n {\k13}da {\k32}ka {\k23}{\k20}so {\k27}k{\k17}ke {\k20}na {\k13}i {\k47}ne
+Dialogue: 0,0:00:19.89,0:00:24.22,ts,____,0,0,0,karaoke,最近总觉得你有些冷淡呢
+Comment: 0,0:00:19.89,0:00:24.22,tuck,____,0,0,0,,最近なんだかそっけないね
+Dialogue: 0,0:00:24.79,0:00:28.27,orig,L__2,0,0,0,karaoke,{\ko58}同|<お{\ko57}#|な{\ko43}じ{\ko21}部|<へ{\ko33}屋|や{\ko15}にい{\ko27}る{\ko45}の{\ko49}に
+Dialogue: 0,0:00:24.79,0:00:28.27,roma,____,0,0,0,karaoke,{\k58}o {\k57}na {\k43}ji {\k21}he {\k33}ya {\k15}ni i {\k27}ru {\k45}no {\k49}ni
+Dialogue: 0,0:00:24.79,0:00:28.27,ts,____,0,0,0,karaoke,明明身处同一屋檐下
+Comment: 0,0:00:24.79,0:00:28.27,tuck,____,0,0,0,,同じ部屋にいるのに
+Dialogue: 0,0:00:29.85,0:00:31.41,orig,L__3,0,0,0,karaoke,{\ko20}目|<め{\ko16}も{\ko24}合|<あ{\ko12}わ{\ko25}さ{\ko59}ない
+Dialogue: 0,0:00:29.85,0:00:31.41,roma,____,0,0,0,karaoke,{\k20}me {\k16}mo {\k24}a {\k12}wa {\k25}sa {\k59}na i
+Dialogue: 0,0:00:29.85,0:00:31.41,ts,____,0,0,0,karaoke,视线却不再交汇
+Comment: 0,0:00:29.85,0:00:31.41,tuck,____,0,0,0,,目も合わさない
+Dialogue: 0,0:00:32.28,0:00:34.66,orig,L__4,0,0,0,karaoke,{\ko16}触|<ふ{\ko16}れ{\ko23}合|<あ{\ko21}う{\ko11}こ{\ko9}{\ko32}と{\ko23}も{\ko87}ない
+Dialogue: 0,0:00:32.28,0:00:34.66,roma,____,0,0,0,karaoke,{\k16}fu {\k16}re {\k23}a {\k21}u {\k11}ko {\k9}{\k32}to {\k23}mo {\k87}na i
+Dialogue: 0,0:00:32.28,0:00:34.66,ts,____,0,0,0,karaoke,也不再相互触碰
+Comment: 0,0:00:32.28,0:00:34.66,tuck,____,0,0,0,,触れ合うこともない
+Dialogue: 0,0:00:39.12,0:00:43.43,orig,L__5 x-part:Verse,0,0,0,karaoke,{\ko66}出|<で{\ko48}会|あ{\ko15}っ{\ko47}た{\ko13}ば{\ko31}か{\ko15}り{\ko36}の{\ko24}{\ko8}あ{\ko31}の{\ko17}頃|<こ{\ko30}#|ろ{\ko50}は
+Dialogue: 0,0:00:39.12,0:00:43.43,roma,____,0,0,0,karaoke,{\k66}de {\k48}a {\k15}t{\k47}ta {\k13}ba {\k31}ka {\k15}ri {\k36}no {\k24}{\k8}a {\k31}no {\k17}ko {\k30}ro {\k50}wa
+Dialogue: 0,0:00:39.12,0:00:43.43,ts,____,0,0,0,karaoke,初遇时的那些日子
+Comment: 0,0:00:39.12,0:00:43.43,tuck,____,0,0,0,,出会ったばかりのあの頃は
+Dialogue: 0,0:00:43.96,0:00:47.57,orig,L__6,0,0,0,karaoke,{\ko54}た{\ko9}{\ko49}だ{\ko60}そ{\ko15}ば{\ko26}にい{\ko16}る{\ko19}だ{\ko8}{\ko45}け{\ko60}で
+Dialogue: 0,0:00:43.96,0:00:47.57,roma,____,0,0,0,karaoke,{\k54}ta {\k9}{\k49}da {\k60}so {\k15}ba {\k26}ni i {\k16}ru {\k19}da {\k8}{\k45}ke {\k60}de
+Dialogue: 0,0:00:43.96,0:00:47.57,ts,____,0,0,0,karaoke,明明只要在你身边
+Comment: 0,0:00:43.96,0:00:47.57,tuck,____,0,0,0,,ただそばにいるだけで
+Dialogue: 0,0:00:49.08,0:00:50.65,orig,L__7,0,0,0,karaoke,{\ko13}何|<な{\ko14}#|に{\ko28}も{\ko19}い{\ko14}ら{\ko69}ない
+Dialogue: 0,0:00:49.08,0:00:50.65,roma,____,0,0,0,karaoke,{\k13}na {\k14}ni {\k28}mo {\k19}i {\k14}ra {\k69}na i
+Dialogue: 0,0:00:49.08,0:00:50.65,ts,____,0,0,0,karaoke,便已心满意足
+Comment: 0,0:00:49.08,0:00:50.65,tuck,____,0,0,0,,何もいらない
+Dialogue: 0,0:00:51.49,0:00:53.64,orig,L__8,0,0,0,karaoke,{\ko12}ず{\ko7}っ{\ko8}と{\ko27}触|<ふ{\ko19}れ{\ko11}て{\ko7}{\ko61}た{\ko63}い
+Dialogue: 0,0:00:51.49,0:00:53.64,roma,____,0,0,0,karaoke,{\k12}zu {\k7}t{\k8}to {\k27}fu {\k19}re {\k11}te {\k7}{\k61}ta {\k63}i
+Dialogue: 0,0:00:51.49,0:00:53.64,ts,____,0,0,0,karaoke,渴望能一直依偎
+Comment: 0,0:00:51.49,0:00:53.64,tuck,____,0,0,0,,ずっと触れてたい
+Dialogue: 0,0:00:55.64,0:00:58.04,orig,L__9,0,0,0,karaoke,{\ko22}そ{\ko16}れ{\ko27}で{\ko24}よ{\ko7}{\ko19}か{\ko13}っ{\ko25}た{\ko36}の{\ko51}に
+Dialogue: 0,0:00:55.64,0:00:58.04,roma,____,0,0,0,karaoke,{\k22}so {\k16}re {\k27}de {\k24}yo {\k7}{\k19}ka {\k13}t{\k25}ta {\k36}no {\k51}ni
+Dialogue: 0,0:00:55.64,0:00:58.04,ts,____,0,0,0,karaoke,那样便已足够幸福
+Comment: 0,0:00:55.64,0:00:58.04,tuck,____,0,0,0,,それでよかったのに
+Dialogue: 0,0:00:58.33,0:01:00.40,orig,L_10 x-anti x-part:PreChorus,0,0,0,karaoke,{\ko63}Your {\ko47}gen{\ko9}tle {\ko10}s{\ko64}mile{\ko14}s
+Dialogue: 0,0:00:58.33,0:01:00.40,ts,____ x-anti,0,0,0,karaoke,你温柔的微笑
 Comment: 0,0:00:58.33,0:01:00.40,tuck,____ x-anti,0,0,0,,Your gentle smiles
-Comment: 0,0:01:00.75,0:01:02.76,orig,L_11 x-anti,0,0,0,karaoke,{\ko63}Your {\ko43}lon{\ko12}g {\ko37}la{\ko33}she{\ko13}s
-Comment: 0,0:01:00.75,0:01:02.76,ts,____ x-anti,0,0,0,karaoke,你纤长的睫毛
+Dialogue: 0,0:01:00.75,0:01:02.76,orig,L_11 x-anti,0,0,0,karaoke,{\ko63}Your {\ko43}lon{\ko12}g {\ko37}la{\ko33}she{\ko13}s
+Dialogue: 0,0:01:00.75,0:01:02.76,ts,____ x-anti,0,0,0,karaoke,你纤长的睫毛
 Comment: 0,0:01:00.75,0:01:02.76,tuck,____ x-anti,0,0,0,,Your long lashes
-Comment: 0,0:01:03.15,0:01:04.81,orig,L_12 x-anti,0,0,0,karaoke,{\ko57}Your {\ko43}so{\ko12}f{\ko14}t {\ko35}voi{\ko5}ces
-Comment: 0,0:01:03.15,0:01:04.81,ts,____ x-anti,0,0,0,karaoke,你轻柔的声线
+Dialogue: 0,0:01:03.15,0:01:04.81,orig,L_12 x-anti,0,0,0,karaoke,{\ko57}Your {\ko43}so{\ko12}f{\ko14}t {\ko35}voi{\ko5}ces
+Dialogue: 0,0:01:03.15,0:01:04.81,ts,____ x-anti,0,0,0,karaoke,你轻柔的声线
 Comment: 0,0:01:03.15,0:01:04.81,tuck,____ x-anti,0,0,0,,Your soft voices
-Comment: 0,0:01:04.81,0:01:07.03,orig,L_13 x-anti,0,0,0,karaoke,{\ko22}す{\ko85}べ{\ko30}て{\ko85}が
-Comment: 0,0:01:04.81,0:01:07.03,roma,____ x-anti,0,0,0,karaoke,su be te ga
-Comment: 0,0:01:04.81,0:01:07.03,ts,____ x-anti,0,0,0,karaoke,这一切曾将我的心
+Dialogue: 0,0:01:04.81,0:01:07.03,orig,L_13 x-anti,0,0,0,karaoke,{\ko22}す{\ko85}べ{\ko30}て{\ko85}が
+Dialogue: 0,0:01:04.81,0:01:07.03,roma,____ x-anti,0,0,0,karaoke,{\k22}su {\k85}be {\k30}te {\k85}ga
+Dialogue: 0,0:01:04.81,0:01:07.03,ts,____ x-anti,0,0,0,karaoke,这一切曾将我的心
 Comment: 0,0:01:04.81,0:01:07.03,tuck,____ x-anti,0,0,0,,すべてが
-Comment: 0,0:01:08.31,0:01:12.96,orig,L_14,0,0,0,karaoke,{\ko26}私|<わ{\ko20}#|た{\ko22}#|し{\ko21}の{\ko22}こ{\ko8}{\ko22}と{\ko49}を{\ko17}満|<み{\ko39}た{\ko22}し{\ko45}て{\ko19}く{\ko41}れ{\ko10}た{\ko82}の
-Comment: 0,0:01:08.31,0:01:12.96,roma,____ ,0,0,0,karaoke,wa ta shi no ko to o mi ta shi te ku re ta no
-Comment: 0,0:01:08.31,0:01:12.96,ts,____ ,0,0,0,karaoke,填得满满当当
-Comment: 0,0:01:08.31,0:01:12.96,tuck,____ ,0,0,0,,私のことを満たしてくれたの
-Comment: 0,0:01:15.32,0:01:17.00,orig,L_15,0,0,0,karaoke,{\ko23}そ{\ko12}ん{\ko13}な{\ko30}あ{\ko20}な{\ko8}{\ko29}た{\ko33}へ
-Comment: 0,0:01:15.32,0:01:17.00,roma,____ ,0,0,0,karaoke,son na a na ta e
-Comment: 0,0:01:15.32,0:01:17.00,ts,____ ,0,0,0,karaoke,致这样的你
-Comment: 0,0:01:15.32,0:01:17.00,tuck,____ ,0,0,0,,そんなあなたへ
-Comment: 0,0:01:16.98,0:01:19.31,orig,L_16 x-anti,0,0,0,karaoke,{\ko54}From {\ko47}me {\ko19}to you, {\ko13}la{\ko16}s{\ko16}t{\ko13} {\ko29}pre{\ko23}sen{\ko3}t.
-Comment: 0,0:01:16.98,0:01:19.31,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:01:08.31,0:01:12.96,orig,L_14,0,0,0,karaoke,{\ko26}私|<わ{\ko20}#|た{\ko22}#|し{\ko21}の{\ko22}こ{\ko8}{\ko22}と{\ko49}を{\ko17}満|<み{\ko39}た{\ko22}し{\ko45}て{\ko19}く{\ko41}れ{\ko10}た{\ko82}の
+Dialogue: 0,0:01:08.31,0:01:12.96,roma,____,0,0,0,karaoke,{\k26}wa {\k20}ta {\k22}shi {\k21}no {\k22}ko {\k8}{\k22}to {\k49}o {\k17}mi {\k39}ta {\k22}shi {\k45}te {\k19}ku {\k41}re {\k10}ta {\k82}no
+Dialogue: 0,0:01:08.31,0:01:12.96,ts,____,0,0,0,karaoke,填得满满当当
+Comment: 0,0:01:08.31,0:01:12.96,tuck,____,0,0,0,,私のことを満たしてくれたの
+Dialogue: 0,0:01:15.32,0:01:17.00,orig,L_15,0,0,0,karaoke,{\ko23}そ{\ko12}ん{\ko13}な{\ko30}あ{\ko20}な{\ko8}{\ko29}た{\ko33}へ
+Dialogue: 0,0:01:15.32,0:01:17.00,roma,____,0,0,0,karaoke,{\k23}so{\k12}n {\k13}na {\k30}a {\k20}na {\k8}{\k29}ta {\k33}e
+Dialogue: 0,0:01:15.32,0:01:17.00,ts,____,0,0,0,karaoke,致这样的你
+Comment: 0,0:01:15.32,0:01:17.00,tuck,____,0,0,0,,そんなあなたへ
+Dialogue: 0,0:01:16.98,0:01:19.31,orig,L_16 x-anti x-part:Chorus,0,0,0,karaoke,{\ko54}From {\ko47}me {\ko19}to you{\ko0}{\-Z}, {\ko13}la{\ko16}s{\ko16}t{\ko13} {\ko29}pre{\ko23}sen{\ko3}t.
+Dialogue: 0,0:01:16.98,0:01:19.31,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:01:16.98,0:01:19.31,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:01:19.31,0:01:21.76,orig,L_17 x-anti,0,0,0,karaoke,{\ko61}From {\ko50}me {\ko14}to you, {\ko15}la{\ko17}s{\ko16}t{\ko10} {\ko32}pre{\ko22}sen{\ko8}t.
-Comment: 0,0:01:19.31,0:01:21.76,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:01:19.31,0:01:21.76,orig,L_17 x-anti,0,0,0,karaoke,{\ko61}From {\ko50}me {\ko14}to you{\ko0}{\-Z}, {\ko15}la{\ko17}s{\ko16}t{\ko10} {\ko32}pre{\ko22}sen{\ko8}t.
+Dialogue: 0,0:01:19.31,0:01:21.76,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:01:19.31,0:01:21.76,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:01:21.76,0:01:24.17,orig,L_18 x-anti,0,0,0,karaoke,{\ko60}From {\ko45}me {\ko18}to you, {\ko15}la{\ko14}s{\ko16}t{\ko13} {\ko28}pre{\ko25}sen{\ko7}t.
-Comment: 0,0:01:21.76,0:01:24.17,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:01:21.76,0:01:24.17,orig,L_18 x-anti,0,0,0,karaoke,{\ko60}From {\ko45}me {\ko18}to you{\ko0}{\-Z}, {\ko15}la{\ko14}s{\ko16}t{\ko13} {\ko28}pre{\ko25}sen{\ko7}t.
+Dialogue: 0,0:01:21.76,0:01:24.17,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:01:21.76,0:01:24.17,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:01:24.18,0:01:26.69,orig,L_19 x-anti,0,0,0,karaoke,{\ko48}I {\ko70}say {\ko66}good {\ko67}bye.
-Comment: 0,0:01:24.18,0:01:26.69,ts,____ x-anti,0,0,0,karaoke,就此告别
+Dialogue: 0,0:01:24.18,0:01:26.69,orig,L_19 x-anti,0,0,0,karaoke,{\ko48}I {\ko70}say {\ko66}good {\ko67}bye.
+Dialogue: 0,0:01:24.18,0:01:26.69,ts,____ x-anti,0,0,0,karaoke,就此告别
 Comment: 0,0:01:24.18,0:01:26.69,tuck,____ x-anti,0,0,0,,I say good bye.
-Comment: 0,0:01:27.51,0:01:31.94,orig,L_20,0,0,0,karaoke,{\ko12}あ{\ko18}な{\ko22}た{\ko9}{\ko23}が{\ko7}{\ko28}今|<い{\ko15}#|ま{\ko10}一|<い{\ko64}#|ち{\ko45}番|ばん{\ko8}ほ{\ko64}しい{\ko31}も{\ko87}の
-Comment: 0,0:01:27.51,0:01:31.94,roma,____ ,0,0,0,karaoke,a na ta ga i ma i chi ban ho shi i mo no
-Comment: 0,0:01:27.51,0:01:31.94,ts,____ ,0,0,0,karaoke,你此刻最渴望之物
-Comment: 0,0:01:27.51,0:01:31.94,tuck,____ ,0,0,0,,あなたが今一番ほしいもの
-Comment: 0,0:01:36.79,0:01:41.09,orig,L_21,0,0,0,karaoke,{\ko57}あ{\ko54}な{\ko10}{\ko30}た{\ko9}に{\ko10}{\ko12}あ{\ko26}げ{\ko15}ら{\ko39}れる{\ko24}{\ko9}も{\ko27}の{\ko17}何|<な{\ko35}#|に{\ko56}も
-Comment: 0,0:01:36.79,0:01:41.09,roma,____ ,0,0,0,karaoke,a na ta ni a ge ra re ru mo no na ni mo
-Comment: 0,0:01:36.79,0:01:41.09,ts,____ ,0,0,0,karaoke,我一无所有
-Comment: 0,0:01:36.79,0:01:41.09,tuck,____ ,0,0,0,,あなたにあげられるもの何も
-Comment: 0,0:01:41.57,0:01:45.15,orig,L_22,0,0,0,karaoke,{\ko41}持|<も{\ko21}っ{\ko60}て{\ko42}い{\ko20}な{\ko30}い{\ko15}私|<わ{\ko14}#|た{\ko51}#|し{\ko64}に
-Comment: 0,0:01:41.57,0:01:45.15,roma,____ ,0,0,0,karaoke,mo tte i na i wa ta shi ni
-Comment: 0,0:01:41.57,0:01:45.15,ts,____ ,0,0,0,karaoke,无法给予你分毫
-Comment: 0,0:01:41.57,0:01:45.15,tuck,____ ,0,0,0,,持っていない私に
-Comment: 0,0:01:46.70,0:01:48.21,orig,L_23,0,0,0,karaoke,{\ko16}た{\ko14}っ{\ko16}た{\ko26}一|<ひ{\ko18}#|と{\ko61}つ
-Comment: 0,0:01:46.70,0:01:48.21,roma,____ ,0,0,0,karaoke,ta tta hi to tsu
-Comment: 0,0:01:46.70,0:01:48.21,ts,____ ,0,0,0,karaoke,唯独这件事
-Comment: 0,0:01:46.70,0:01:48.21,tuck,____ ,0,0,0,,たった一つ
-Comment: 0,0:01:49.07,0:01:51.83,orig,L_24,0,0,0,karaoke,{\ko19}で{\ko16}き{\ko18}る{\ko26}こ{\ko19}と{\ko37}だ{\ko17}か{\ko124}ら
-Comment: 0,0:01:49.07,0:01:51.83,roma,____ ,0,0,0,karaoke,de ki ru ko to da ka ra
-Comment: 0,0:01:49.07,0:01:51.83,ts,____ ,0,0,0,karaoke,是我仅能办到
-Comment: 0,0:01:49.07,0:01:51.83,tuck,____ ,0,0,0,,できることだから
-Comment: 0,0:02:15.15,0:02:17.20,orig,L_25 x-anti,0,0,0,karaoke,{\ko61}Your {\ko46}gen{\ko10}tle {\ko10}s{\ko64}mile{\ko14}s
-Comment: 0,0:02:15.15,0:02:17.20,ts,____ x-anti,0,0,0,karaoke,你温柔的微笑
+Dialogue: 0,0:01:27.51,0:01:31.94,orig,L_20,0,0,0,karaoke,{\ko12}あ{\ko18}な{\ko22}た{\ko9}{\ko23}が{\ko7}{\ko28}今|<い{\ko15}#|ま{\ko10}一|<い{\ko64}#|ち{\ko45}番|ばん{\ko8}ほ{\ko64}しい{\ko31}も{\ko87}の
+Dialogue: 0,0:01:27.51,0:01:31.94,roma,____,0,0,0,karaoke,{\k12}a {\k18}na {\k22}ta {\k9}{\k23}ga {\k7}{\k28}i {\k15}ma {\k10}i {\k64}chi {\k45}ban {\k8}ho {\k64}shi i {\k31}mo {\k87}no
+Dialogue: 0,0:01:27.51,0:01:31.94,ts,____,0,0,0,karaoke,你此刻最渴望之物
+Comment: 0,0:01:27.51,0:01:31.94,tuck,____,0,0,0,,あなたが今一番ほしいもの
+Dialogue: 0,0:01:36.79,0:01:41.09,orig,L_21 x-part:Verse,0,0,0,karaoke,{\ko57}あ{\ko54}な{\ko10}{\ko30}た{\ko9}に{\ko10}{\ko12}あ{\ko26}げ{\ko15}ら{\ko39}れる{\ko24}{\ko9}も{\ko27}の{\ko17}何|<な{\ko35}#|に{\ko56}も
+Dialogue: 0,0:01:36.79,0:01:41.09,roma,____,0,0,0,karaoke,{\k57}a {\k54}na {\k10}{\k30}ta {\k9}ni {\k10}{\k12}a {\k26}ge {\k15}ra {\k39}re ru {\k24}{\k9}mo {\k27}no {\k17}na {\k35}ni {\k56}mo
+Dialogue: 0,0:01:36.79,0:01:41.09,ts,____,0,0,0,karaoke,我一无所有
+Comment: 0,0:01:36.79,0:01:41.09,tuck,____,0,0,0,,あなたにあげられるもの何も
+Dialogue: 0,0:01:41.57,0:01:45.15,orig,L_22,0,0,0,karaoke,{\ko41}持|<も{\ko21}っ{\ko60}て{\ko42}い{\ko20}な{\ko30}い{\ko15}私|<わ{\ko14}#|た{\ko51}#|し{\ko64}に
+Dialogue: 0,0:01:41.57,0:01:45.15,roma,____,0,0,0,karaoke,{\k41}mo {\k21}t{\k60}te {\k42}i {\k20}na {\k30}i {\k15}wa {\k14}ta {\k51}shi {\k64}ni
+Dialogue: 0,0:01:41.57,0:01:45.15,ts,____,0,0,0,karaoke,无法给予你分毫
+Comment: 0,0:01:41.57,0:01:45.15,tuck,____,0,0,0,,持っていない私に
+Dialogue: 0,0:01:46.70,0:01:48.21,orig,L_23,0,0,0,karaoke,{\ko16}た{\ko14}っ{\ko16}た{\ko26}一|<ひ{\ko18}#|と{\ko61}つ
+Dialogue: 0,0:01:46.70,0:01:48.21,roma,____,0,0,0,karaoke,{\k16}ta {\k14}t{\k16}ta {\k26}hi {\k18}to {\k61}tsu
+Dialogue: 0,0:01:46.70,0:01:48.21,ts,____,0,0,0,karaoke,唯独这件事
+Comment: 0,0:01:46.70,0:01:48.21,tuck,____,0,0,0,,たった一つ
+Dialogue: 0,0:01:49.07,0:01:51.83,orig,L_24,0,0,0,karaoke,{\ko19}で{\ko16}き{\ko18}る{\ko26}こ{\ko19}と{\ko37}だ{\ko17}か{\ko124}ら
+Dialogue: 0,0:01:49.07,0:01:51.83,roma,____,0,0,0,karaoke,{\k19}de {\k16}ki {\k18}ru {\k26}ko {\k19}to {\k37}da {\k17}ka {\k124}ra
+Dialogue: 0,0:01:49.07,0:01:51.83,ts,____,0,0,0,karaoke,是我仅能办到
+Comment: 0,0:01:49.07,0:01:51.83,tuck,____,0,0,0,,できることだから
+Dialogue: 0,0:02:15.15,0:02:17.20,orig,L_25 x-anti x-part:Chorus,0,0,0,karaoke,{\ko61}Your {\ko46}gen{\ko10}tle {\ko10}s{\ko64}mile{\ko14}s
+Dialogue: 0,0:02:15.15,0:02:17.20,ts,____ x-anti,0,0,0,karaoke,你温柔的微笑
 Comment: 0,0:02:15.15,0:02:17.20,tuck,____ x-anti,0,0,0,,Your gentle smiles
-Comment: 0,0:02:17.55,0:02:19.56,orig,L_26 x-anti,0,0,0,karaoke,{\ko59}Your {\ko47}lon{\ko12}g {\ko37}la{\ko32}she{\ko14}s
-Comment: 0,0:02:17.55,0:02:19.56,ts,____ x-anti,0,0,0,karaoke,你纤长的睫毛
+Dialogue: 0,0:02:17.55,0:02:19.56,orig,L_26 x-anti,0,0,0,karaoke,{\ko59}Your {\ko47}lon{\ko12}g {\ko37}la{\ko32}she{\ko14}s
+Dialogue: 0,0:02:17.55,0:02:19.56,ts,____ x-anti,0,0,0,karaoke,你纤长的睫毛
 Comment: 0,0:02:17.55,0:02:19.56,tuck,____ x-anti,0,0,0,,Your long lashes
-Comment: 0,0:02:19.94,0:02:21.63,orig,L_27 x-anti,0,0,0,karaoke,{\ko58}Your {\ko43}so{\ko8}f{\ko19}t {\ko27}vo{\ko8}i{\ko6}ces
-Comment: 0,0:02:19.94,0:02:21.63,ts,____ x-anti,0,0,0,karaoke,你轻柔的声线
+Dialogue: 0,0:02:19.94,0:02:21.63,orig,L_27 x-anti,0,0,0,karaoke,{\ko58}Your {\ko43}so{\ko8}f{\ko19}t {\ko27}vo{\ko8}i{\ko6}ces
+Dialogue: 0,0:02:19.94,0:02:21.63,ts,____ x-anti,0,0,0,karaoke,你轻柔的声线
 Comment: 0,0:02:19.94,0:02:21.63,tuck,____ x-anti,0,0,0,,Your soft voices
-Comment: 0,0:02:21.63,0:02:23.85,orig,L_28 x-anti,0,0,0,karaoke,{\ko19}す{\ko85}べ{\ko31}て{\ko87}が
-Comment: 0,0:02:21.63,0:02:23.85,roma,____ x-anti,0,0,0,karaoke,su be te ga
-Comment: 0,0:02:21.63,0:02:23.85,ts,____ x-anti,0,0,0,karaoke,这一切如今
+Dialogue: 0,0:02:21.63,0:02:23.85,orig,L_28 x-anti,0,0,0,karaoke,{\ko19}す{\ko85}べ{\ko31}て{\ko87}が
+Dialogue: 0,0:02:21.63,0:02:23.85,roma,____ x-anti,0,0,0,karaoke,{\k19}su {\k85}be {\k31}te {\k87}ga
+Dialogue: 0,0:02:21.63,0:02:23.85,ts,____ x-anti,0,0,0,karaoke,这一切如今
 Comment: 0,0:02:21.63,0:02:23.85,tuck,____ x-anti,0,0,0,,すべてが
-Comment: 0,0:02:25.11,0:02:29.77,orig,L_29,0,0,0,karaoke,{\ko21}私|<わ{\ko9}#|{\ko16}#|た{\ko24}#|し{\ko18}の{\ko30}こ{\ko28}と{\ko62}悲|<か{\ko37}#|な{\ko23}し{\ko37}く{\ko18}さ{\ko48}せ{\ko17}る{\ko78}の
-Comment: 0,0:02:25.11,0:02:29.77,roma,____ ,0,0,0,karaoke,wa ta shi no ko to ka na shi ku sa se ru no
-Comment: 0,0:02:25.11,0:02:29.77,ts,____ ,0,0,0,karaoke,只让我满心悲伤
-Comment: 0,0:02:25.11,0:02:29.77,tuck,____ ,0,0,0,,私のこと悲しくさせるの
-Comment: 0,0:02:32.16,0:02:33.81,orig,L_30,0,0,0,karaoke,{\ko12}だ{\ko18}か{\ko16}ら{\ko29}あ{\ko19}な{\ko12}{\ko27}た{\ko32}へ
-Comment: 0,0:02:32.16,0:02:33.81,roma,____ ,0,0,0,karaoke,da ka ra a na ta e
-Comment: 0,0:02:32.16,0:02:33.81,ts,____ ,0,0,0,karaoke,因此赠予你
-Comment: 0,0:02:32.16,0:02:33.81,tuck,____ ,0,0,0,,だからあなたへ
-Comment: 0,0:02:33.77,0:02:36.11,orig,L_31 x-anti,0,0,0,karaoke,{\ko52}From {\ko50}me {\ko17}to you, {\ko15}la{\ko17}s{\ko15}t{\ko13} {\ko29}pre{\ko23}sen{\ko3}t.
-Comment: 0,0:02:33.77,0:02:36.11,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:02:25.11,0:02:29.77,orig,L_29,0,0,0,karaoke,{\ko21}私|<わ{\ko9}#|{\ko16}#|た{\ko24}#|し{\ko18}の{\ko30}こ{\ko28}と{\ko62}悲|<か{\ko37}#|な{\ko23}し{\ko37}く{\ko18}さ{\ko48}せ{\ko17}る{\ko78}の
+Dialogue: 0,0:02:25.11,0:02:29.77,roma,____,0,0,0,karaoke,{\k21}wa {\k9}{\k16}ta {\k24}shi {\k18}no {\k30}ko {\k28}to {\k62}ka {\k37}na {\k23}shi {\k37}ku {\k18}sa {\k48}se {\k17}ru {\k78}no
+Dialogue: 0,0:02:25.11,0:02:29.77,ts,____,0,0,0,karaoke,只让我满心悲伤
+Comment: 0,0:02:25.11,0:02:29.77,tuck,____,0,0,0,,私のこと悲しくさせるの
+Dialogue: 0,0:02:32.16,0:02:33.81,orig,L_30,0,0,0,karaoke,{\ko12}だ{\ko18}か{\ko16}ら{\ko29}あ{\ko19}な{\ko12}{\ko27}た{\ko32}へ
+Dialogue: 0,0:02:32.16,0:02:33.81,roma,____,0,0,0,karaoke,{\k12}da {\k18}ka {\k16}ra {\k29}a {\k19}na {\k12}{\k27}ta {\k32}e
+Dialogue: 0,0:02:32.16,0:02:33.81,ts,____,0,0,0,karaoke,因此赠予你
+Comment: 0,0:02:32.16,0:02:33.81,tuck,____,0,0,0,,だからあなたへ
+Dialogue: 0,0:02:33.77,0:02:36.11,orig,L_31 x-anti x-part:Chorus,0,0,0,karaoke,{\ko52}From {\ko50}me {\ko17}to you{\ko0}{\-Z}, {\ko15}la{\ko17}s{\ko15}t{\ko13} {\ko29}pre{\ko23}sen{\ko3}t.
+Dialogue: 0,0:02:33.77,0:02:36.11,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:02:33.77,0:02:36.11,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:02:36.11,0:02:38.56,orig,L_32 x-anti,0,0,0,karaoke,{\ko64}From {\ko46}me {\ko19}to you, {\ko11}la{\ko16}s{\ko18}t{\ko9} {\ko31}pre{\ko23}sen{\ko8}t.
-Comment: 0,0:02:36.11,0:02:38.56,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:02:36.11,0:02:38.56,orig,L_32 x-anti,0,0,0,karaoke,{\ko64}From {\ko46}me {\ko19}to you{\ko0}{\-Z}, {\ko11}la{\ko16}s{\ko18}t{\ko9} {\ko31}pre{\ko23}sen{\ko8}t.
+Dialogue: 0,0:02:36.11,0:02:38.56,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:02:36.11,0:02:38.56,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:02:38.56,0:02:40.97,orig,L_33 x-anti,0,0,0,karaoke,{\ko57}From {\ko48}me {\ko18}to you, {\ko15}la{\ko14}s{\ko17}t{\ko11} {\ko29}pre{\ko26}sen{\ko6}t.
-Comment: 0,0:02:38.56,0:02:40.97,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:02:38.56,0:02:40.97,orig,L_33 x-anti,0,0,0,karaoke,{\ko57}From {\ko48}me {\ko18}to you{\ko0}{\-Z}, {\ko15}la{\ko14}s{\ko17}t{\ko11} {\ko29}pre{\ko26}sen{\ko6}t.
+Dialogue: 0,0:02:38.56,0:02:40.97,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:02:38.56,0:02:40.97,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:02:40.99,0:02:43.48,orig,L_34 x-anti,0,0,0,karaoke,{\ko47}I {\ko68}say {\ko68}good {\ko66}bye.
-Comment: 0,0:02:40.99,0:02:43.48,ts,____ x-anti,0,0,0,karaoke,就此告别
+Dialogue: 0,0:02:40.99,0:02:43.48,orig,L_34 x-anti,0,0,0,karaoke,{\ko47}I {\ko68}say {\ko68}good {\ko66}bye.
+Dialogue: 0,0:02:40.99,0:02:43.48,ts,____ x-anti,0,0,0,karaoke,就此告别
 Comment: 0,0:02:40.99,0:02:43.48,tuck,____ x-anti,0,0,0,,I say good bye.
-Comment: 0,0:02:44.31,0:02:48.67,orig,L_35,0,0,0,karaoke,{\ko12}あ{\ko17}な{\ko23}た{\ko9}{\ko21}が{\ko9}{\ko26}今|<い{\ko16}#|ま{\ko11}一|<い{\ko62}#|ち{\ko45}番|ばん{\ko8}ほ{\ko65}しい{\ko34}も{\ko78}の
-Comment: 0,0:02:44.31,0:02:48.67,roma,____ ,0,0,0,karaoke,a na ta ga i ma i chi ban ho shi i mo no
-Comment: 0,0:02:44.31,0:02:48.67,ts,____ ,0,0,0,karaoke,你此刻最渴望之物
-Comment: 0,0:02:44.31,0:02:48.67,tuck,____ ,0,0,0,,あなたが今一番ほしいもの
-Comment: 0,0:02:50.91,0:02:53.00,orig,____ x-bg,0,0,0,karaoke,{\ko14}We {\ko17}can't {\ko29}go {\ko27}back {\ko34}to {\ko17}that{\ko11} {\ko60}time.
-Comment: 0,0:02:50.91,0:02:53.00,ts,____ x-bg,0,0,0,karaoke,我们已回不去往昔
+Dialogue: 0,0:02:44.31,0:02:48.67,orig,L_35,0,0,0,karaoke,{\ko12}あ{\ko17}な{\ko23}た{\ko9}{\ko21}が{\ko9}{\ko26}今|<い{\ko16}#|ま{\ko11}一|<い{\ko62}#|ち{\ko45}番|ばん{\ko8}ほ{\ko65}しい{\ko34}も{\ko78}の
+Dialogue: 0,0:02:44.31,0:02:48.67,roma,____,0,0,0,karaoke,{\k12}a {\k17}na {\k23}ta {\k9}{\k21}ga {\k9}{\k26}i {\k16}ma {\k11}i {\k62}chi {\k45}ban {\k8}ho {\k65}shi i {\k34}mo {\k78}no
+Dialogue: 0,0:02:44.31,0:02:48.67,ts,____,0,0,0,karaoke,你此刻最渴望之物
+Comment: 0,0:02:44.31,0:02:48.67,tuck,____,0,0,0,,あなたが今一番ほしいもの
+Dialogue: 0,0:02:50.91,0:02:53.00,orig,____ x-bg,0,0,0,karaoke,{\ko14}We {\ko17}can't {\ko29}go {\ko27}back {\ko34}to {\ko17}that{\ko11} {\ko60}time.
+Dialogue: 0,0:02:50.91,0:02:53.00,ts,____ x-bg,0,0,0,karaoke,我们已回不去往昔
 Comment: 0,0:02:50.91,0:02:53.00,tuck,____ x-bg,0,0,0,,We can't go back to that time.
-Comment: 0,0:02:52.97,0:02:55.40,orig,L_36 x-anti,0,0,0,karaoke,{\ko55}From {\ko48}me {\ko17}to you, {\ko16}la{\ko14}s{\ko16}t{\ko12} {\ko31}pre{\ko24}sen{\ko10}t.
-Comment: 0,0:02:52.97,0:02:55.40,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:02:52.97,0:02:55.40,orig,L_36 x-anti x-part:Chorus,0,0,0,karaoke,{\ko55}From {\ko48}me {\ko17}to you{\ko0}{\-Z}, {\ko16}la{\ko14}s{\ko16}t{\ko12} {\ko31}pre{\ko24}sen{\ko10}t.
+Dialogue: 0,0:02:52.97,0:02:55.40,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:02:52.97,0:02:55.40,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:02:55.40,0:02:57.76,orig,L_37 x-anti,0,0,0,karaoke,{\ko53}From {\ko49}me {\ko18}to you, {\ko11}la{\ko15}s{\ko19}t{\ko9} {\ko31}pre{\ko23}sen{\ko8}t.
-Comment: 0,0:02:55.40,0:02:57.76,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:02:55.40,0:02:57.76,orig,L_37 x-anti,0,0,0,karaoke,{\ko53}From {\ko49}me {\ko18}to you{\ko0}{\-Z}, {\ko11}la{\ko15}s{\ko19}t{\ko9} {\ko31}pre{\ko23}sen{\ko8}t.
+Dialogue: 0,0:02:55.40,0:02:57.76,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:02:55.40,0:02:57.76,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:02:57.76,0:03:00.17,orig,L_38 x-anti,0,0,0,karaoke,{\k59}From {\k46}me {\k19}to you, {\k14}la{\k15}s{\k16}t{\k11} {\k30}pre{\k25}sen{\k6}t.
-Comment: 0,0:02:57.76,0:03:00.17,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:02:57.76,0:03:00.17,orig,L_38 x-anti,0,0,0,karaoke,{\k59}From {\k46}me {\k19}to you{\ko0}{\-Z}, {\k14}la{\k15}s{\k16}t{\k11} {\k30}pre{\k25}sen{\k6}t.
+Dialogue: 0,0:02:57.76,0:03:00.17,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:02:57.76,0:03:00.17,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:03:00.19,0:03:02.66,orig,L_39 x-anti,0,0,0,karaoke,{\ko47}I {\ko68}say {\ko68}good {\ko64}bye.
-Comment: 0,0:03:00.19,0:03:02.66,ts,____ x-anti,0,0,0,karaoke,就此告别
+Dialogue: 0,0:03:00.19,0:03:02.66,orig,L_39 x-anti,0,0,0,karaoke,{\ko47}I {\ko68}say {\ko68}good {\ko64}bye.
+Dialogue: 0,0:03:00.19,0:03:02.66,ts,____ x-anti,0,0,0,karaoke,就此告别
 Comment: 0,0:03:00.19,0:03:02.66,tuck,____ x-anti,0,0,0,,I say good bye.
-Comment: 0,0:03:03.52,0:03:07.92,orig,L_40,0,0,0,karaoke,{\k12}あ{\k16}な{\k23}た{\k9}{\k20}が{\k10}{\k27}今|<い{\k14}#|ま{\k13}一|<い{\k61}#|ち{\k46}番|ばん{\k8}ほ{\k68}しい{\k27}も{\k86}の
-Comment: 0,0:03:03.52,0:03:07.92,roma,____ ,0,0,0,karaoke,a na ta ga i ma i chi ba n ho shi i mo no
-Comment: 0,0:03:03.52,0:03:07.92,ts,____ ,0,0,0,karaoke,你此刻最渴望之物
-Comment: 0,0:03:03.52,0:03:07.92,tuck,____ ,0,0,0,,あなたが今一番ほしいもの
-Comment: 0,0:03:10.11,0:03:12.10,orig,____ x-bg,0,0,0,karaoke,{\ko12}I'{\ko27}m {\ko20}lea{\ko26}ving {\ko58}for {\ko56}good.
-Comment: 0,0:03:10.11,0:03:12.10,ts,____ x-bg,0,0,0,karaoke,我将永远离去
+Dialogue: 0,0:03:03.52,0:03:07.92,orig,L_40,0,0,0,karaoke,{\k12}あ{\k16}な{\k23}た{\k9}{\k20}が{\k10}{\k27}今|<い{\k14}#|ま{\k13}一|<い{\k61}#|ち{\k46}番|ばん{\k8}ほ{\k68}しい{\k27}も{\k86}の
+Dialogue: 0,0:03:03.52,0:03:07.92,roma,____,0,0,0,karaoke,{\k12}a {\k16}na {\k23}ta {\k9}{\k20}ga {\k10}{\k27}i {\k14}ma {\k13}i {\k61}chi {\k46}ban {\k8}ho {\k68}shi i {\k27}mo {\k86}no
+Dialogue: 0,0:03:03.52,0:03:07.92,ts,____,0,0,0,karaoke,你此刻最渴望之物
+Comment: 0,0:03:03.52,0:03:07.92,tuck,____,0,0,0,,あなたが今一番ほしいもの
+Dialogue: 0,0:03:10.11,0:03:12.10,orig,____ x-bg,0,0,0,karaoke,{\ko12}I'{\ko27}m {\ko20}lea{\ko26}ving {\ko58}for {\ko56}good.
+Dialogue: 0,0:03:10.11,0:03:12.10,ts,____ x-bg,0,0,0,karaoke,我将永远离去
 Comment: 0,0:03:10.11,0:03:12.10,tuck,____ x-bg,0,0,0,,I'm leaving for good.
-Comment: 0,0:03:12.16,0:03:14.52,orig,L_41 x-anti,0,0,0,karaoke,{\k53}From {\k51}me {\k20}to you, {\k12}la{\k14}s{\k17}t{\k14} {\k28}pre{\k27}sent.
-Comment: 0,0:03:12.16,0:03:14.52,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:03:12.16,0:03:14.52,orig,L_41 x-anti x-part:Chorus,0,0,0,karaoke,{\k53}From {\k51}me {\k20}to you{\ko0}{\-Z}, {\k12}la{\k14}s{\k17}t{\k14} {\k28}pre{\k27}sent.
+Dialogue: 0,0:03:12.16,0:03:14.52,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:03:12.16,0:03:14.52,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:03:14.56,0:03:16.97,orig,L_42 x-anti,0,0,0,karaoke,{\ko58}From {\ko48}me {\ko15}to you, {\ko14}la{\ko15}s{\ko19}t{\ko9} {\ko32}pre{\ko22}sen{\ko9}t.
-Comment: 0,0:03:14.56,0:03:16.97,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:03:14.56,0:03:16.97,orig,L_42 x-anti,0,0,0,karaoke,{\ko58}From {\ko48}me {\ko15}to you{\ko0}{\-Z}, {\ko14}la{\ko15}s{\ko19}t{\ko9} {\ko32}pre{\ko22}sen{\ko9}t.
+Dialogue: 0,0:03:14.56,0:03:16.97,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:03:14.56,0:03:16.97,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:03:16.97,0:03:19.37,orig,L_43 x-anti,0,0,0,karaoke,{\ko59}From {\ko43}me {\ko20}to you, {\ko15}la{\ko15}s{\ko25}t {\ko31}pre{\ko25}sen{\ko7}t.
-Comment: 0,0:03:16.97,0:03:19.37,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
+Dialogue: 0,0:03:16.97,0:03:19.37,orig,L_43 x-anti,0,0,0,karaoke,{\ko59}From {\ko43}me {\ko20}to you{\ko0}{\-Z}, {\ko15}la{\ko15}s{\ko25}t {\ko31}pre{\ko25}sen{\ko7}t.
+Dialogue: 0,0:03:16.97,0:03:19.37,ts,____ x-anti,0,0,0,karaoke,由我赠你，最后的礼物
 Comment: 0,0:03:16.97,0:03:19.37,tuck,____ x-anti,0,0,0,,From me to you, last present.
-Comment: 0,0:03:19.38,0:03:21.84,orig,L_44 x-anti,0,0,0,karaoke,{\ko48}I {\ko63}say {\ko74}good {\ko61}bye.
-Comment: 0,0:03:19.38,0:03:21.84,ts,____ x-anti,0,0,0,karaoke,就此告别
+Dialogue: 0,0:03:19.38,0:03:21.84,orig,L_44 x-anti,0,0,0,karaoke,{\ko48}I {\ko63}say {\ko74}good {\ko61}bye.
+Dialogue: 0,0:03:19.38,0:03:21.84,ts,____ x-anti,0,0,0,karaoke,就此告别
 Comment: 0,0:03:19.38,0:03:21.84,tuck,____ x-anti,0,0,0,,I say good bye.
-Comment: 0,0:03:22.71,0:03:27.17,orig,L_45,0,0,0,karaoke,{\ko13}あ{\ko15}な{\ko25}た{\ko8}{\ko27}が{\ko29}今|<い{\ko16}#|ま{\ko12}一|<い{\ko65}#|ち{\ko41}番|ばん{\ko10}ほ{\ko64}しい{\ko31}も{\ko90}の
-Comment: 0,0:03:22.71,0:03:27.17,roma,____ ,0,0,0,karaoke,a na ta ga i ma i chi ba n ho shi i mo no
-Comment: 0,0:03:22.71,0:03:27.17,ts,____ ,0,0,0,karaoke,你此刻最渴望之物
-Comment: 0,0:03:22.71,0:03:27.17,tuck,____ ,0,0,0,,あなたが今一番ほしいもの
-Comment: 0,0:03:28.52,0:03:30.67,orig,L_46,0,0,0,karaoke,{\ko44}Good {\ko171}bye.
-Comment: 0,0:03:28.52,0:03:30.67,ts,____ ,0,0,0,karaoke,再会
-Comment: 0,0:03:28.52,0:03:30.67,tuck,____ ,0,0,0,,Good bye.
-Comment: 0,0:03:32.01,0:03:36.29,orig,L_47,0,0,0,karaoke,{\ko53}あ{\ko56}な{\ko10}{\ko27}た{\ko7}に{\ko13}{\ko11}あ{\ko35}げ{\ko10}ら{\ko32}れ{\ko7}る{\ko24}{\ko9}も{\ko28}の{\ko18}何|<な{\ko30}#|に{\ko58}も
-Comment: 0,0:03:32.01,0:03:36.29,roma,____ ,0,0,0,karaoke,a na ta ni a ge ra re ru mo no na ni mo
-Comment: 0,0:03:32.01,0:03:36.29,ts,____ ,0,0,0,karaoke,我一无所有
-Comment: 0,0:03:32.01,0:03:36.29,tuck,____ ,0,0,0,,あなたにあげられるもの何も
-Comment: 0,0:03:36.75,0:03:40.40,orig,L_48,0,0,0,karaoke,{\ko44}持|<も{\ko19}っ{\ko59}て{\ko43}い{\ko22}な{\ko30}い{\ko13}私|<わ{\ko14}#|た{\ko14}#|し{\ko42}か{\ko65}ら
-Comment: 0,0:03:36.75,0:03:40.40,roma,____ ,0,0,0,karaoke,mo tte i na i wa ta shi ka ra
-Comment: 0,0:03:36.75,0:03:40.40,ts,____ ,0,0,0,karaoke,无法给予你分毫
-Comment: 0,0:03:36.75,0:03:40.40,tuck,____ ,0,0,0,,持っていない私から
-Comment: 0,0:03:41.91,0:03:43.41,orig,L_49,0,0,0,karaoke,{\ko15}た{\ko16}っ{\ko17}た{\ko22}一|<ひ{\ko17}#|と{\ko63}つ
-Comment: 0,0:03:41.91,0:03:43.41,roma,____ ,0,0,0,karaoke,ta tta hi to tsu
-Comment: 0,0:03:41.91,0:03:43.41,ts,____ ,0,0,0,karaoke,这唯一
-Comment: 0,0:03:41.91,0:03:43.41,tuck,____ ,0,0,0,,たった一つ
-Comment: 0,0:03:44.11,0:03:47.26,orig,L_50,0,0,0,karaoke,{\ko21}最|<さ{\ko15}#|い{\ko11}後|ご{\ko24}の{\ko21}プ{\ko15}レ{\ko44}ゼ{\ko20}ン{\ko144}ト
-Comment: 0,0:03:44.11,0:03:47.26,roma,____ ,0,0,0,karaoke,sa i go no present
-Comment: 0,0:03:44.11,0:03:47.26,ts,____ ,0,0,0,karaoke,最后的礼物
-Comment: 0,0:03:44.11,0:03:47.26,tuck,____ ,0,0,0,,最後のプレゼント
+Dialogue: 0,0:03:22.71,0:03:27.17,orig,L_45,0,0,0,karaoke,{\ko13}あ{\ko15}な{\ko25}た{\ko8}{\ko27}が{\ko29}今|<い{\ko16}#|ま{\ko12}一|<い{\ko65}#|ち{\ko41}番|ばん{\ko10}ほ{\ko64}しい{\ko31}も{\ko90}の
+Dialogue: 0,0:03:22.71,0:03:27.17,roma,____,0,0,0,karaoke,{\k13}a {\k15}na {\k25}ta {\k8}{\k27}ga {\k29}i {\k16}ma {\k12}i {\k65}chi {\k41}ban {\k10}ho {\k64}shi i {\k31}mo {\k90}no
+Dialogue: 0,0:03:22.71,0:03:27.17,ts,____,0,0,0,karaoke,你此刻最渴望之物
+Comment: 0,0:03:22.71,0:03:27.17,tuck,____,0,0,0,,あなたが今一番ほしいもの
+Dialogue: 0,0:03:28.52,0:03:30.67,orig,L_46,0,0,0,karaoke,{\ko44}Good {\ko171}bye.
+Dialogue: 0,0:03:28.52,0:03:30.67,ts,____,0,0,0,karaoke,再会
+Comment: 0,0:03:28.52,0:03:30.67,tuck,____,0,0,0,,Good bye.
+Dialogue: 0,0:03:32.01,0:03:36.29,orig,L_47 x-part:Outro,0,0,0,karaoke,{\ko53}あ{\ko56}な{\ko10}{\ko27}た{\ko7}に{\ko13}{\ko11}あ{\ko35}げ{\ko10}ら{\ko32}れ{\ko7}る{\ko24}{\ko9}も{\ko28}の{\ko18}何|<な{\ko30}#|に{\ko58}も
+Dialogue: 0,0:03:32.01,0:03:36.29,roma,____,0,0,0,karaoke,{\k53}a {\k56}na {\k10}{\k27}ta {\k7}ni {\k13}{\k11}a {\k35}ge {\k10}ra {\k32}re {\k7}ru {\k24}{\k9}mo {\k28}no {\k18}na {\k30}ni {\k58}mo
+Dialogue: 0,0:03:32.01,0:03:36.29,ts,____,0,0,0,karaoke,我一无所有
+Comment: 0,0:03:32.01,0:03:36.29,tuck,____,0,0,0,,あなたにあげられるもの何も
+Dialogue: 0,0:03:36.75,0:03:40.40,orig,L_48,0,0,0,karaoke,{\ko44}持|<も{\ko19}っ{\ko59}て{\ko43}い{\ko22}な{\ko30}い{\ko13}私|<わ{\ko14}#|た{\ko14}#|し{\ko42}か{\ko65}ら
+Dialogue: 0,0:03:36.75,0:03:40.40,roma,____,0,0,0,karaoke,{\k44}mo {\k19}t{\k59}te {\k43}i {\k22}na {\k30}i {\k13}wa {\k14}ta {\k14}shi {\k42}ka {\k65}ra
+Dialogue: 0,0:03:36.75,0:03:40.40,ts,____,0,0,0,karaoke,无法给予你分毫
+Comment: 0,0:03:36.75,0:03:40.40,tuck,____,0,0,0,,持っていない私から
+Dialogue: 0,0:03:41.91,0:03:43.41,orig,L_49,0,0,0,karaoke,{\ko15}た{\ko16}っ{\ko17}た{\ko22}一|<ひ{\ko17}#|と{\ko63}つ
+Dialogue: 0,0:03:41.91,0:03:43.41,roma,____,0,0,0,karaoke,{\k15}ta {\k16}t{\k17}ta {\k22}hi {\k17}to {\k63}tsu
+Dialogue: 0,0:03:41.91,0:03:43.41,ts,____,0,0,0,karaoke,这唯一
+Comment: 0,0:03:41.91,0:03:43.41,tuck,____,0,0,0,,たった一つ
+Dialogue: 0,0:03:44.11,0:03:47.26,orig,L_50,0,0,0,karaoke,{\ko21}最|<さ{\ko15}#|い{\ko11}後|ご{\ko24}の{\ko21}プ{\ko15}レ{\ko44}ゼ{\ko20}ン{\ko144}ト
+Dialogue: 0,0:03:44.11,0:03:47.26,roma,____,0,0,0,karaoke,{\k21}sa {\k15}i {\k11}go {\k24}no {\k21}pu {\k15}re {\k44}ze{\k20}n {\k144}to
+Dialogue: 0,0:03:44.11,0:03:47.26,ts,____,0,0,0,karaoke,最后的礼物
+Comment: 0,0:03:44.11,0:03:47.26,tuck,____,0,0,0,,最後のプレゼント
