@@ -316,7 +316,7 @@
               <span begin="02:07.700" end="02:08.090" xmlns="http://www.w3.org/ns/ttml">要</span>
               <span begin="02:08.090" end="02:08.390" xmlns="http://www.w3.org/ns/ttml">我</span>
               <span begin="02:08.390" end="02:08.800" xmlns="http://www.w3.org/ns/ttml">們</span>
-              <span begin="02:08.800" end="02:09.270" xmlns="http://www.w3.org/ns/ttml">危</span>
+              <span begin="02:08.800" end="02:09.140" xmlns="http://www.w3.org/ns/ttml">危</span>
               <span begin="02:09.270" end="02:09.430" xmlns="http://www.w3.org/ns/ttml">難</span>
               <span begin="02:09.430" end="02:09.670" xmlns="http://www.w3.org/ns/ttml">中</span>
               <span begin="02:09.670" end="02:10.120" xmlns="http://www.w3.org/ns/ttml">相</span>
@@ -875,7 +875,7 @@
               <span begin="02:07.700" end="02:08.090" xmlns="http://www.w3.org/ns/ttml">yào </span>
               <span begin="02:08.090" end="02:08.390" xmlns="http://www.w3.org/ns/ttml">wǒ </span>
               <span begin="02:08.390" end="02:08.800" xmlns="http://www.w3.org/ns/ttml">men </span>
-              <span begin="02:08.800" end="02:09.270" xmlns="http://www.w3.org/ns/ttml">wēi </span>
+              <span begin="02:08.800" end="02:09.140" xmlns="http://www.w3.org/ns/ttml">wēi </span>
               <span begin="02:09.270" end="02:09.430" xmlns="http://www.w3.org/ns/ttml">nàn </span>
               <span begin="02:09.430" end="02:09.670" xmlns="http://www.w3.org/ns/ttml">zhōng </span>
               <span begin="02:09.670" end="02:10.120" xmlns="http://www.w3.org/ns/ttml">xiāng </span>
@@ -1449,7 +1449,7 @@
         <span begin="02:07.700" end="02:08.090">要</span>
         <span begin="02:08.090" end="02:08.390">我</span>
         <span begin="02:08.390" end="02:08.800">们</span>
-        <span begin="02:08.800" end="02:09.270">危</span>
+        <span begin="02:08.800" end="02:09.140">危</span>
         <span begin="02:09.270" end="02:09.430">难</span>
         <span begin="02:09.430" end="02:09.670">中</span>
         <span begin="02:09.670" end="02:10.120">相</span>
