@@ -298,9 +298,9 @@
             </text>
             <text for="L23">
               <span begin="02:01.230" end="02:01.480" xmlns="http://www.w3.org/ns/ttml">緣</span>
-              <span begin="02:01.480" end="02:01.880" xmlns="http://www.w3.org/ns/ttml">分</span>
-              <span begin="02:01.880" end="02:02.170" xmlns="http://www.w3.org/ns/ttml">讓</span>
-              <span begin="02:02.170" end="02:02.590" xmlns="http://www.w3.org/ns/ttml">我</span>
+              <span begin="02:01.480" end="02:01.930" xmlns="http://www.w3.org/ns/ttml">分</span>
+              <span begin="02:01.930" end="02:02.160" xmlns="http://www.w3.org/ns/ttml">讓</span>
+              <span begin="02:02.160" end="02:02.590" xmlns="http://www.w3.org/ns/ttml">我</span>
               <span begin="02:02.590" end="02:02.850" xmlns="http://www.w3.org/ns/ttml">們</span>
               <span begin="02:02.850" end="02:03.300" xmlns="http://www.w3.org/ns/ttml">相</span>
               <span begin="02:03.300" end="02:03.820" xmlns="http://www.w3.org/ns/ttml">遇</span>
@@ -465,7 +465,7 @@
               <span begin="03:12.870" end="03:13.200" xmlns="http://www.w3.org/ns/ttml">根</span>
               <span begin="03:13.200" end="03:13.520" xmlns="http://www.w3.org/ns/ttml">本</span>
               <span begin="03:13.520" end="03:13.810" xmlns="http://www.w3.org/ns/ttml">不</span>
-              <span begin="03:14.030" end="03:14.600" xmlns="http://www.w3.org/ns/ttml">想</span>
+              <span begin="03:14.030" end="03:14.380" xmlns="http://www.w3.org/ns/ttml">想</span>
               <span begin="03:14.600" end="03:14.950" xmlns="http://www.w3.org/ns/ttml">逃</span>
             </text>
             <text for="L37">
@@ -544,7 +544,7 @@
               </span>
             </text>
             <text for="L41">
-              <span begin="03:37.940" end="03:38.400" xmlns="http://www.w3.org/ns/ttml">我</span>
+              <span begin="03:38.040" end="03:38.400" xmlns="http://www.w3.org/ns/ttml">我</span>
               <span begin="03:38.400" end="03:38.650" xmlns="http://www.w3.org/ns/ttml">沒</span>
               <span begin="03:38.650" end="03:39.060" xmlns="http://www.w3.org/ns/ttml">想</span>
               <span begin="03:39.060" end="03:39.450" xmlns="http://www.w3.org/ns/ttml">到</span>
@@ -857,9 +857,9 @@
             </text>
             <text for="L23">
               <span begin="02:01.230" end="02:01.480" xmlns="http://www.w3.org/ns/ttml">yuán </span>
-              <span begin="02:01.480" end="02:01.880" xmlns="http://www.w3.org/ns/ttml">fèn </span>
-              <span begin="02:01.880" end="02:02.170" xmlns="http://www.w3.org/ns/ttml">ràng </span>
-              <span begin="02:02.170" end="02:02.590" xmlns="http://www.w3.org/ns/ttml">wǒ </span>
+              <span begin="02:01.480" end="02:01.930" xmlns="http://www.w3.org/ns/ttml">fèn </span>
+              <span begin="02:01.930" end="02:02.160" xmlns="http://www.w3.org/ns/ttml">ràng </span>
+              <span begin="02:02.160" end="02:02.590" xmlns="http://www.w3.org/ns/ttml">wǒ </span>
               <span begin="02:02.590" end="02:02.850" xmlns="http://www.w3.org/ns/ttml">men </span>
               <span begin="02:02.850" end="02:03.300" xmlns="http://www.w3.org/ns/ttml">xiāng </span>
               <span begin="02:03.300" end="02:03.820" xmlns="http://www.w3.org/ns/ttml">yù </span>
@@ -1024,7 +1024,7 @@
               <span begin="03:12.870" end="03:13.200" xmlns="http://www.w3.org/ns/ttml">gēn </span>
               <span begin="03:13.200" end="03:13.520" xmlns="http://www.w3.org/ns/ttml">běn </span>
               <span begin="03:13.520" end="03:13.810" xmlns="http://www.w3.org/ns/ttml">bù </span>
-              <span begin="03:14.030" end="03:14.600" xmlns="http://www.w3.org/ns/ttml">xiǎng </span>
+              <span begin="03:14.030" end="03:14.380" xmlns="http://www.w3.org/ns/ttml">xiǎng </span>
               <span begin="03:14.600" end="03:14.950" xmlns="http://www.w3.org/ns/ttml">táo</span>
             </text>
             <text for="L37">
@@ -1103,7 +1103,7 @@
               </span>
             </text>
             <text for="L41">
-              <span begin="03:37.940" end="03:38.400" xmlns="http://www.w3.org/ns/ttml">wǒ </span>
+              <span begin="03:38.040" end="03:38.400" xmlns="http://www.w3.org/ns/ttml">wǒ </span>
               <span begin="03:38.400" end="03:38.650" xmlns="http://www.w3.org/ns/ttml">méi </span>
               <span begin="03:38.650" end="03:39.060" xmlns="http://www.w3.org/ns/ttml">xiǎng </span>
               <span begin="03:39.060" end="03:39.450" xmlns="http://www.w3.org/ns/ttml">dào</span>
@@ -1431,9 +1431,9 @@
     <div begin="02:01.230" end="02:21.350" itunes:song-part="PreChorus">
       <p begin="02:01.230" end="02:06.070" ttm:agent="v1" itunes:key="L23">
         <span begin="02:01.230" end="02:01.480">缘</span>
-        <span begin="02:01.480" end="02:01.880">分</span>
-        <span begin="02:01.880" end="02:02.170">让</span>
-        <span begin="02:02.170" end="02:02.590">我</span>
+        <span begin="02:01.480" end="02:01.930">分</span>
+        <span begin="02:01.930" end="02:02.160">让</span>
+        <span begin="02:02.160" end="02:02.590">我</span>
         <span begin="02:02.590" end="02:02.850">们</span>
         <span begin="02:02.850" end="02:03.300">相</span>
         <span begin="02:03.300" end="02:03.820">遇</span>
@@ -1604,7 +1604,7 @@
         <span begin="03:12.870" end="03:13.200">根</span>
         <span begin="03:13.200" end="03:13.520">本</span>
         <span begin="03:13.520" end="03:13.810">不</span>
-        <span begin="03:14.030" end="03:14.600">想</span>
+        <span begin="03:14.030" end="03:14.380">想</span>
         <span begin="03:14.600" end="03:14.950">逃</span>
       </p>
       <p begin="03:16.230" end="03:20.360" ttm:agent="v1" itunes:key="L37">
@@ -1684,8 +1684,8 @@
           <span begin="03:36.360" end="03:37.470">爱)</span>
         </span>
       </p>
-      <p begin="03:37.940" end="03:42.800" ttm:agent="v1" itunes:key="L41">
-        <span begin="03:37.940" end="03:38.400">我</span>
+      <p begin="03:38.040" end="03:42.800" ttm:agent="v1" itunes:key="L41">
+        <span begin="03:38.040" end="03:38.400">我</span>
         <span begin="03:38.400" end="03:38.650">没</span>
         <span begin="03:38.650" end="03:39.060">想</span>
         <span begin="03:39.060" end="03:39.450">到</span>
