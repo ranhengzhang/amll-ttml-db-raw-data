@@ -649,21 +649,22 @@
   </head>
   <body dur="04:58.160">
     <div begin="00:31.380" end="01:00.280" itunes:song-part="Verse">
-      <p begin="00:31.380" end="00:33.230" ttm:agent="v2" itunes:key="L1">
+      <p begin="00:31.380" end="00:33.090" ttm:agent="v2" itunes:key="L1">
         <span begin="00:31.380" end="00:31.510">Be</span>
         <span begin="00:31.510" end="00:31.980">fore</span>
         <span begin="00:31.980" end="00:31.980"> </span>
         <span begin="00:31.980" end="00:32.170">the</span>
         <span begin="00:32.170" end="00:32.170"> </span>
-        <span begin="00:32.170" end="00:33.230">dawn</span>
+        <span begin="00:32.170" end="00:33.090">dawn</span>
       </p>
       <p begin="00:33.570" end="00:37.800" ttm:agent="v2" itunes:key="L2">
         <span begin="00:33.570" end="00:33.910">On</span>
         <span begin="00:33.910" end="00:34.200">ly</span>
         <span begin="00:34.200" end="00:34.200"> </span>
-        <span begin="00:34.200" end="00:35.180">dark</span>
-        <span begin="00:35.180" end="00:35.180"> </span>
-        <span begin="00:35.180" end="00:35.860">shrou</span>
+        <span begin="00:34.200" end="00:35.180">dar</span>
+        <span begin="00:35.180" end="00:35.250">k</span>
+        <span begin="00:35.250" end="00:35.250"> </span>
+        <span begin="00:35.250" end="00:35.860">shrou</span>
         <span begin="00:35.860" end="00:36.060">ds</span>
         <span begin="00:36.060" end="00:36.060"> </span>
         <span begin="00:36.060" end="00:36.240">the</span>
@@ -732,9 +733,9 @@
         <span begin="01:00.120" end="01:00.280">s</span>
       </p>
     </div>
-    <div begin="01:00.280" end="01:12.980" itunes:song-part="PreChorus">
-      <p begin="01:00.280" end="01:01.970" ttm:agent="v1" itunes:key="L7">
-        <span begin="01:00.280" end="01:01.970">Now</span>
+    <div begin="01:00.330" end="01:12.980" itunes:song-part="PreChorus">
+      <p begin="01:00.330" end="01:01.970" ttm:agent="v1" itunes:key="L7">
+        <span begin="01:00.330" end="01:01.970">Now</span>
       </p>
       <p begin="01:02.420" end="01:10.190" ttm:agent="v1" itunes:key="L8">
         <span begin="01:02.420" end="01:03.880">Moon</span>
@@ -758,12 +759,12 @@
       </p>
     </div>
     <div begin="01:13.380" end="01:45.820" itunes:song-part="Chorus">
-      <p begin="01:13.380" end="01:18.150" ttm:agent="v1" itunes:key="L10">
+      <p begin="01:13.380" end="01:18.060" ttm:agent="v1" itunes:key="L10">
         <span begin="01:13.380" end="01:15.130">All</span>
         <span begin="01:15.130" end="01:15.130"> </span>
         <span begin="01:15.130" end="01:16.930">are</span>
         <span begin="01:16.930" end="01:16.930"> </span>
-        <span begin="01:16.930" end="01:18.150">one</span>
+        <span begin="01:16.930" end="01:18.060">one</span>
       </p>
       <p begin="01:18.420" end="01:25.630" ttm:agent="v1" itunes:key="L11">
         <span begin="01:18.420" end="01:18.670">The</span>

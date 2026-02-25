@@ -35,22 +35,22 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code once,pre_end_time=-800; pre_po
 Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,code line,if (((line.start_time)-200) < ((pre_end_time)+800)) then line.pos=1-pre_pos; else line.pos=0; end; pre_end_time=line.end_time; pre_pos=line.pos; if line.pos == 1 then line.top = line.top - line.height*1.65; line.bottom = line.bottom - line.height*1.65; end;
 Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.top-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
-Dialogue: 0,0:00:31.27,0:00:33.23,orig,L__1 x-part:Verse x-solo,0,0,0,karaoke,{\ko24}Be{\ko47}fore {\ko19}the {\ko106}dawn
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:zh-Hant,0,0,0,karaoke,天光未顯
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:zh-Hans,0,0,0,karaoke,黎明未至
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:uk-UA,0,0,0,karaoke,Вдосвіта
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:tr-TR,0,0,0,karaoke,Şafaktır o
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:ru-RU,0,0,0,karaoke,В рассветный час
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:pt-BR,0,0,0,karaoke,Antes da alvorada
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:pl-PL,0,0,0,karaoke,Gdy wstaje świt
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:ko-KR,0,0,0,karaoke,동트기 전
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:ja-JP,0,0,0,karaoke,夜明け前
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:it-IT,0,0,0,karaoke,Al primo albor
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:fr-FR,0,0,0,karaoke,Avant l'aube
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:es-ES,0,0,0,karaoke,Antes de la aurora
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:el-GR,0,0,0,karaoke,Πριν απ' την αυγή
-Dialogue: 0,0:00:31.27,0:00:33.23,ts,____ x-lang:de-DE,0,0,0,karaoke,Die Nacht ist still,
-Dialogue: 0,0:00:33.57,0:00:37.80,orig,L__2 x-solo,0,0,0,karaoke,{\ko34}On{\ko29}ly {\ko98}dark {\ko68}shrou{\ko20}ds {\ko18}the {\ko22}s{\ko134}ky
+Dialogue: 0,0:00:31.38,0:00:33.09,orig,L__1 x-part:Verse x-solo,0,0,0,karaoke,{\ko13}Be{\ko47}fore {\ko19}the {\ko92}dawn
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:zh-Hant,0,0,0,karaoke,天光未顯
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:zh-Hans,0,0,0,karaoke,黎明未至
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:uk-UA,0,0,0,karaoke,Вдосвіта
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:tr-TR,0,0,0,karaoke,Şafaktır o
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:ru-RU,0,0,0,karaoke,В рассветный час
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:pt-BR,0,0,0,karaoke,Antes da alvorada
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:pl-PL,0,0,0,karaoke,Gdy wstaje świt
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:ko-KR,0,0,0,karaoke,동트기 전
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:ja-JP,0,0,0,karaoke,夜明け前
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:it-IT,0,0,0,karaoke,Al primo albor
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:fr-FR,0,0,0,karaoke,Avant l'aube
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:es-ES,0,0,0,karaoke,Antes de la aurora
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:el-GR,0,0,0,karaoke,Πριν απ' την αυγή
+Dialogue: 0,0:00:31.38,0:00:33.09,ts,____ x-lang:de-DE,0,0,0,karaoke,Die Nacht ist still,
+Dialogue: 0,0:00:33.57,0:00:37.80,orig,L__2 x-solo,0,0,0,karaoke,{\ko34}On{\ko29}ly {\ko98}dar{\ko7}k {\ko61}shrou{\ko20}ds {\ko18}the {\ko22}s{\ko134}ky
 Dialogue: 0,0:00:33.57,0:00:37.80,ts,____ x-lang:zh-Hant,0,0,0,karaoke,黑暗籠罩蒼穹
 Dialogue: 0,0:00:33.57,0:00:37.80,ts,____ x-lang:zh-Hans,0,0,0,karaoke,唯有黑暗罩苍穹
 Dialogue: 0,0:00:33.57,0:00:37.80,ts,____ x-lang:uk-UA,0,0,0,karaoke,в небі лиш пітьма видна
@@ -125,21 +125,21 @@ Dialogue: 0,0:00:54.76,0:01:00.28,ts,____ x-lang:fr-FR,0,0,0,karaoke,Petit à pe
 Dialogue: 0,0:00:54.76,0:01:00.28,ts,____ x-lang:es-ES,0,0,0,karaoke,Cambiando hasta que llega el crepúsculo
 Dialogue: 0,0:00:54.76,0:01:00.28,ts,____ x-lang:el-GR,0,0,0,karaoke,Μέχρι να βγει το λυκαυγές
 Dialogue: 0,0:00:54.76,0:01:00.28,ts,____ x-lang:de-DE,0,0,0,karaoke,tanzen zum Lied der Dämmerung.
-Dialogue: 0,0:01:00.28,0:01:01.97,orig,L__7 x-part:PreChorus,0,0,0,karaoke,{\ko169}Now
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:zh-Hant,0,0,0,karaoke,此刻
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:zh-Hans,0,0,0,karaoke,现在
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:uk-UA,0,0,0,karaoke,тож
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:tr-TR,0,0,0,karaoke,Ve
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:ru-RU,0,0,0,karaoke,И
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:pt-BR,0,0,0,karaoke,Agora
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:pl-PL,0,0,0,karaoke,gdy
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:ko-KR,0,0,0,karaoke,그때
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:ja-JP,0,0,0,karaoke,今…
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:it-IT,0,0,0,karaoke,Or
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:fr-FR,0,0,0,karaoke,Là où
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:es-ES,0,0,0,karaoke,Ahora
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:el-GR,0,0,0,karaoke,Τώρα
-Dialogue: 0,0:01:00.28,0:01:01.97,ts,____ x-lang:de-DE,0,0,0,karaoke,Schau!
+Dialogue: 0,0:01:00.33,0:01:01.97,orig,L__7 x-part:PreChorus,0,0,0,karaoke,{\ko164}Now
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:zh-Hant,0,0,0,karaoke,此刻
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:zh-Hans,0,0,0,karaoke,现在
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:uk-UA,0,0,0,karaoke,тож
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:tr-TR,0,0,0,karaoke,Ve
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:ru-RU,0,0,0,karaoke,И
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:pt-BR,0,0,0,karaoke,Agora
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:pl-PL,0,0,0,karaoke,gdy
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:ko-KR,0,0,0,karaoke,그때
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:ja-JP,0,0,0,karaoke,今…
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:it-IT,0,0,0,karaoke,Or
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:fr-FR,0,0,0,karaoke,Là où
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:es-ES,0,0,0,karaoke,Ahora
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:el-GR,0,0,0,karaoke,Τώρα
+Dialogue: 0,0:01:00.33,0:01:01.97,ts,____ x-lang:de-DE,0,0,0,karaoke,Schau!
 Dialogue: 0,0:01:02.42,0:01:10.19,orig,L__8,0,0,0,karaoke,{\ko146}Moon{\ko64}ligh{\ko13}t {\ko140}gui{\ko54}des u{\ko22}s, s{\ko148}tar{\ko70}ry {\ko113}eye{\ko7}d
 Dialogue: 0,0:01:02.42,0:01:10.19,ts,____ x-lang:zh-Hant,0,0,0,karaoke,月光引領，星眸閃爍
 Dialogue: 0,0:01:02.42,0:01:10.19,ts,____ x-lang:zh-Hans,0,0,0,karaoke,月光引我，眼底星芒
@@ -170,21 +170,21 @@ Dialogue: 0,0:01:10.19,0:01:12.98,ts,____ x-lang:fr-FR,0,0,0,karaoke,Et nous dit
 Dialogue: 0,0:01:10.19,0:01:12.98,ts,____ x-lang:es-ES,0,0,0,karaoke,Que ven
 Dialogue: 0,0:01:10.19,0:01:12.98,ts,____ x-lang:el-GR,0,0,0,karaoke,Και βλέπουμε πως
 Dialogue: 0,0:01:10.19,0:01:12.98,ts,____ x-lang:de-DE,0,0,0,karaoke,denn es sieht:
-Dialogue: 0,0:01:13.38,0:01:18.15,orig,L_10 x-part:Chorus,0,0,0,karaoke,{\ko175}All {\ko180}are {\ko122}one
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:zh-Hant,0,0,0,karaoke,萬象成一體
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:zh-Hans,0,0,0,karaoke,不分你我
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:uk-UA,0,0,0,karaoke,Єдність є
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:tr-TR,0,0,0,karaoke,Bir olduk
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:ru-RU,0,0,0,karaoke,Мы одни
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:pt-BR,0,0,0,karaoke,Somos um só
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:pl-PL,0,0,0,karaoke,Księżyc nam
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:ko-KR,0,0,0,karaoke,모두는 하나
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:ja-JP,0,0,0,karaoke,万事万物は 単
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:it-IT,0,0,0,karaoke,Tutti noi
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:fr-FR,0,0,0,karaoke,Nous ne faisons qu'un
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:es-ES,0,0,0,karaoke,Que todos somos uno
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:el-GR,0,0,0,karaoke,Τα πάντα γίνονται ένα
-Dialogue: 0,0:01:13.38,0:01:18.15,ts,____ x-lang:de-DE,0,0,0,karaoke,Wir sind eins,
+Dialogue: 0,0:01:13.38,0:01:18.06,orig,L_10 x-part:Chorus,0,0,0,karaoke,{\ko175}All {\ko180}are {\ko113}one
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:zh-Hant,0,0,0,karaoke,萬象成一體
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:zh-Hans,0,0,0,karaoke,不分你我
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:uk-UA,0,0,0,karaoke,Єдність є
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:tr-TR,0,0,0,karaoke,Bir olduk
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:ru-RU,0,0,0,karaoke,Мы одни
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:pt-BR,0,0,0,karaoke,Somos um só
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:pl-PL,0,0,0,karaoke,Księżyc nam
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:ko-KR,0,0,0,karaoke,모두는 하나
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:ja-JP,0,0,0,karaoke,万事万物は 単
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:it-IT,0,0,0,karaoke,Tutti noi
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:fr-FR,0,0,0,karaoke,Nous ne faisons qu'un
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:es-ES,0,0,0,karaoke,Que todos somos uno
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:el-GR,0,0,0,karaoke,Τα πάντα γίνονται ένα
+Dialogue: 0,0:01:13.38,0:01:18.06,ts,____ x-lang:de-DE,0,0,0,karaoke,Wir sind eins,
 Dialogue: 0,0:01:18.42,0:01:25.63,orig,L_11,0,0,0,karaoke,{\ko25}The {\ko10}g{\ko52}lo{\ko52}wing {\ko55}moon {\ko41}and {\ko190}shi{\ko173}ning {\ko123}sun
 Dialogue: 0,0:01:18.42,0:01:25.63,ts,____ x-lang:zh-Hant,0,0,0,karaoke,月映銀光，日灑金暉
 Dialogue: 0,0:01:18.42,0:01:25.63,ts,____ x-lang:zh-Hans,0,0,0,karaoke,皎洁月亮，耀眼太阳
@@ -455,21 +455,21 @@ Dialogue: 0,0:03:03.82,0:03:09.02,ts,____ x-lang:fr-FR,0,0,0,karaoke,Éternellem
 Dialogue: 0,0:03:03.82,0:03:09.02,ts,____ x-lang:es-ES,0,0,0,karaoke,Que gira eternamente
 Dialogue: 0,0:03:03.82,0:03:09.02,ts,____ x-lang:el-GR,0,0,0,karaoke,Που περιστρέφεται αργά
 Dialogue: 0,0:03:03.82,0:03:09.02,ts,____ x-lang:de-DE,0,0,0,karaoke,sich ewig dreht.
-Dialogue: 0,0:03:20.70,0:03:27.64,orig,L_29 x-part:Bridge,0,0,0,karaoke,{\ko188}Fa{\ko25}tes s{\ko172}till {\ko180}wea{\ko129}ving
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:zh-Hant,0,0,0,karaoke,命運編紡
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:zh-Hans,0,0,0,karaoke,命运仍在
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:uk-UA,0,0,0,karaoke,Мойри прядуть
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:tr-TR,0,0,0,karaoke,Yazgı ördü
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:ru-RU,0,0,0,karaoke,Нить довьётся
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:pt-BR,0,0,0,karaoke,As Moiras destinos trançando
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:pl-PL,0,0,0,karaoke,Mojry przędą
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:ko-KR,0,0,0,karaoke,운명은 여전히
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:ja-JP,0,0,0,karaoke,モイライは織りなしつづける
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:it-IT,0,0,0,karaoke,Scelta e Fato
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:fr-FR,0,0,0,karaoke,Les Moires, tissant
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:es-ES,0,0,0,karaoke,Las Moiras hilan
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:el-GR,0,0,0,karaoke,Οι Μοίρες γνέθουν
-Dialogue: 0,0:03:20.70,0:03:27.64,ts,____ x-lang:de-DE,0,0,0,karaoke,Die Moiren weben
+Dialogue: 0,0:03:20.80,0:03:27.64,orig,L_29 x-part:Bridge,0,0,0,karaoke,{\ko178}Fa{\ko25}tes s{\ko172}till {\ko180}wea{\ko129}ving
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:zh-Hant,0,0,0,karaoke,命運編紡
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:zh-Hans,0,0,0,karaoke,命运仍在
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:uk-UA,0,0,0,karaoke,Мойри прядуть
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:tr-TR,0,0,0,karaoke,Yazgı ördü
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:ru-RU,0,0,0,karaoke,Нить довьётся
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:pt-BR,0,0,0,karaoke,As Moiras destinos trançando
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:pl-PL,0,0,0,karaoke,Mojry przędą
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:ko-KR,0,0,0,karaoke,운명은 여전히
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:ja-JP,0,0,0,karaoke,モイライは織りなしつづける
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:it-IT,0,0,0,karaoke,Scelta e Fato
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:fr-FR,0,0,0,karaoke,Les Moires, tissant
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:es-ES,0,0,0,karaoke,Las Moiras hilan
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:el-GR,0,0,0,karaoke,Οι Μοίρες γνέθουν
+Dialogue: 0,0:03:20.80,0:03:27.64,ts,____ x-lang:de-DE,0,0,0,karaoke,Die Moiren weben
 Dialogue: 0,0:03:28.15,0:03:34.80,orig,L_30,0,0,0,karaoke,{\ko175}In{\ko183}ter{\ko186}lea{\ko121}ving
 Dialogue: 0,0:03:28.15,0:03:34.80,ts,____ x-lang:zh-Hant,0,0,0,karaoke,交錯梭織
 Dialogue: 0,0:03:28.15,0:03:34.80,ts,____ x-lang:zh-Hans,0,0,0,karaoke,穿针引线
@@ -500,21 +500,21 @@ Dialogue: 0,0:03:35.33,0:03:38.97,ts,____ x-lang:fr-FR,0,0,0,karaoke,Les Moires 
 Dialogue: 0,0:03:35.33,0:03:38.97,ts,____ x-lang:es-ES,0,0,0,karaoke,Las Moiras hilan y entretejen
 Dialogue: 0,0:03:35.33,0:03:38.97,ts,____ x-lang:el-GR,0,0,0,karaoke,Οι Μοίρες γνέθουν, συνυφαίνουν
 Dialogue: 0,0:03:35.33,0:03:38.97,ts,____ x-lang:de-DE,0,0,0,karaoke,Die Moiren weben uns’re Leben,
-Dialogue: 0,0:03:38.97,0:03:42.62,orig,L_32,0,0,0,karaoke,{\ko52}Wo{\ko60}ven {\ko30}all {\ko36}to{\ko61}ge{\ko49}ther {\ko26}a{\ko16}s {\ko35}we
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:zh-Hant,0,0,0,karaoke,千絲萬縷，織就命途
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:zh-Hans,0,0,0,karaoke,纵横交错彼此相依
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:uk-UA,0,0,0,karaoke,в купу заплітають, бо в нас
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:tr-TR,0,0,0,karaoke,Hepsi bitince şimdi biz
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:ru-RU,0,0,0,karaoke,Свяжет вместе нас отныне
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:pt-BR,0,0,0,karaoke,Trançados juntos em uma peça
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:pl-PL,0,0,0,karaoke,to splątana barwna nić, a
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:ko-KR,0,0,0,karaoke,우리처럼 한데 엮였네
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:ja-JP,0,0,0,karaoke,余白を交えて
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:it-IT,0,0,0,karaoke,Come fili in un intreccio
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:fr-FR,0,0,0,karaoke,Nos vies, nos destins, et ainsi
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:es-ES,0,0,0,karaoke,Nuestros destinos en el tapiz que muestra
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:el-GR,0,0,0,karaoke,Όλοι μαζί είμαστε δεμένοι, καθώς
-Dialogue: 0,0:03:38.97,0:03:42.62,ts,____ x-lang:de-DE,0,0,0,karaoke,knüpfen unser Band, denn wir:
+Dialogue: 0,0:03:39.04,0:03:42.62,orig,L_32,0,0,0,karaoke,{\ko45}Wo{\ko60}ven {\ko30}all {\ko36}to{\ko61}ge{\ko49}ther {\ko26}a{\ko16}s {\ko35}we
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:zh-Hant,0,0,0,karaoke,千絲萬縷，織就命途
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:zh-Hans,0,0,0,karaoke,纵横交错彼此相依
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:uk-UA,0,0,0,karaoke,в купу заплітають, бо в нас
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:tr-TR,0,0,0,karaoke,Hepsi bitince şimdi biz
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:ru-RU,0,0,0,karaoke,Свяжет вместе нас отныне
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:pt-BR,0,0,0,karaoke,Trançados juntos em uma peça
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:pl-PL,0,0,0,karaoke,to splątana barwna nić, a
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:ko-KR,0,0,0,karaoke,우리처럼 한데 엮였네
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:ja-JP,0,0,0,karaoke,余白を交えて
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:it-IT,0,0,0,karaoke,Come fili in un intreccio
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:fr-FR,0,0,0,karaoke,Nos vies, nos destins, et ainsi
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:es-ES,0,0,0,karaoke,Nuestros destinos en el tapiz que muestra
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:el-GR,0,0,0,karaoke,Όλοι μαζί είμαστε δεμένοι, καθώς
+Dialogue: 0,0:03:39.04,0:03:42.62,ts,____ x-lang:de-DE,0,0,0,karaoke,knüpfen unser Band, denn wir:
 Dialogue: 0,0:03:42.62,0:03:47.32,orig,L_33 x-part:Chorus,0,0,0,karaoke,{\ko178}All {\ko178}are {\ko114}one
 Dialogue: 0,0:03:42.62,0:03:47.32,ts,____ x-lang:zh-Hant,0,0,0,karaoke,萬象成一體
 Dialogue: 0,0:03:42.62,0:03:47.32,ts,____ x-lang:zh-Hans,0,0,0,karaoke,不分你我
