@@ -10,7 +10,7 @@
 > [!TIP]
 > 本排名由机器人根据已在库歌词统计元数据信息后自动生成，贡献最多排前，同贡献量排名不分先后。
 > 
-> 最后更新于 2026-03-02 15:06 (UTC+8)
+> 最后更新于 2026-03-02 15:12 (UTC+8)
 
 ![贡献者头像画廊](https://amll-ttml-db.stevexmh.net/contributors.png)
 
@@ -26,7 +26,7 @@
 | 8 | <img src="https://avatars.githubusercontent.com/u/92374733?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Seayay](https://github.com/Seayay) | 127 |
 | 9 | <img src="https://avatars.githubusercontent.com/u/115442729?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[1625423178](https://github.com/1625423178) | 102 |
 | 10 | <img src="https://avatars.githubusercontent.com/u/102236122?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[WongCaihong](https://github.com/WongCaihong) | 70 |
-| 11 | <img src="https://avatars.githubusercontent.com/u/250306205?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kid141252010](https://github.com/kid141252010) | 65 |
+| 11 | <img src="https://avatars.githubusercontent.com/u/250306205?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kid141252010](https://github.com/kid141252010) | 66 |
 | 12 | <img src="https://avatars.githubusercontent.com/u/117785554?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[gaofurui](https://github.com/gaofurui) | 52 |
 | 13 | <img src="https://avatars.githubusercontent.com/u/42143735?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[MeTerminator](https://github.com/MeTerminator) | 52 |
 | 14 | <img src="https://avatars.githubusercontent.com/u/86943191?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[bywhite0](https://github.com/bywhite0) | 50 |
@@ -58,10 +58,10 @@
 | 40 | <img src="https://avatars.githubusercontent.com/u/76810494?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Big-Cake-jpg](https://github.com/Big-Cake-jpg) | 10 |
 | 41 | <img src="https://avatars.githubusercontent.com/u/99335871?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Tseshongfeeshur](https://github.com/Tseshongfeeshur) | 10 |
 | 42 | <img src="https://avatars.githubusercontent.com/u/12137562?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Mrs4s](https://github.com/Mrs4s) | 9 |
-| 43 | <img src="https://avatars.githubusercontent.com/u/39523898?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Steve-xmh](https://github.com/Steve-xmh) | 9 |
-| 44 | <img src="https://avatars.githubusercontent.com/u/96868062?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Shomi-FJS](https://github.com/Shomi-FJS) | 9 |
-| 45 | <img src="https://avatars.githubusercontent.com/u/227764671?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />`#227764671` | 8 |
-| 46 | <img src="https://avatars.githubusercontent.com/u/32015980?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Linho1219](https://github.com/Linho1219) | 8 |
+| 43 | <img src="https://avatars.githubusercontent.com/u/32015980?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Linho1219](https://github.com/Linho1219) | 9 |
+| 44 | <img src="https://avatars.githubusercontent.com/u/39523898?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Steve-xmh](https://github.com/Steve-xmh) | 9 |
+| 45 | <img src="https://avatars.githubusercontent.com/u/96868062?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Shomi-FJS](https://github.com/Shomi-FJS) | 9 |
+| 46 | <img src="https://avatars.githubusercontent.com/u/227764671?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />`#227764671` | 8 |
 | 47 | <img src="https://avatars.githubusercontent.com/u/56493273?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[MianSoft](https://github.com/MianSoft) | 8 |
 | 48 | <img src="https://avatars.githubusercontent.com/u/70053196?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ImYiFeng](https://github.com/ImYiFeng) | 8 |
 | 49 | <img src="https://avatars.githubusercontent.com/u/78802596?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[MariaArusu](https://github.com/MariaArusu) | 8 |
