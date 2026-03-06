@@ -597,7 +597,7 @@
           </translation>
         </translations>
         <transliterations>
-          <transliteration xml:lang="zh-Hans-Latn">
+          <transliteration xml:lang="zh-Latn-pinyin">
             <text for="L1">
               <span begin="00:12.520" end="00:12.790" xmlns="http://www.w3.org/ns/ttml">gǎn </span>
               <span begin="00:12.790" end="00:13.180" xmlns="http://www.w3.org/ns/ttml">shòu </span>

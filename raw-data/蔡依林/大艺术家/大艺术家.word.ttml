@@ -769,7 +769,7 @@
           </translation>
         </translations>
         <transliterations>
-          <transliteration xml:lang="zh-Hans-Latn">
+          <transliteration xml:lang="zh-Latn-pinyin">
             <text for="L2">
               <span begin="00:15.230" end="00:15.350" xmlns="http://www.w3.org/ns/ttml">tā </span>
               <span begin="00:15.350" end="00:15.500" xmlns="http://www.w3.org/ns/ttml">yǎn </span>
