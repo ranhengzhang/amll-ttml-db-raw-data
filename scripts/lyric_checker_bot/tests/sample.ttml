@@ -17,6 +17,7 @@
                 <ttm:name type="full">Chorus Group</ttm:name>
             </ttm:agent>
             <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal">
+                <audio lyricOffset="0.889" role="spatial" />
                 <translations>
                     <translation type="subtitle" xml:lang="en-US">
                         <text for="L1">This is the first line (Vocalist A)</text>
