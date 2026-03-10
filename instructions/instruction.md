@@ -125,6 +125,8 @@
 
 - `album` - 歌曲的专辑名
 
+- `songwriter` - 歌曲的创作者（一般只填写词曲作者）
+
 - `ncmMusicId` - 网易云音乐 ID
 
 - `qqMusicId` - QQ 音乐 ID
