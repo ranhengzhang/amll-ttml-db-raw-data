@@ -16,11 +16,11 @@
 
 **—— 本仓库中的重要文档 ——**
 
-[审核细则](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/instruction.md)
+[审核细则](./instructions/instruction.md)
 /
-[TTML文件规范](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/ttml-specification.md)
+[TTML文件规范](./instructions/ttml-specification.md)
 /
-[审核团成员可审核语言](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/Reviewer%20Auditable%20Languages.md)
+[审核团成员可审核语言](./instructions/Reviewer%20Auditable%20Languages.md)
 
 </div>
 
