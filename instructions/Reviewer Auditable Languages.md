@@ -228,16 +228,16 @@
 ```html5
     <tr>
       <td align="center"><b><img src="https://avatars.githubusercontent.com/u/{github id}?v=4" width="30" height="30" alt="{github login}" style="vertical-align:sub; margin-right:5px;"><br><a href="https://github.com/{github login}">{github login}</a></b></td>
-      <td align="center">❓普通话</td>
-      <td align="center">❓粤语</td>
-      <td align="center">❓闽南语</td>
-      <td align="center">❓英语</td>
-      <td align="center">❓日语</td>
-      <td align="center">❓韩语</td>
-      <td align="center">❓法语</td>
-      <td align="center">❓德语</td>
-      <td align="center">❓西班牙语</td>
-      <td align="center">❓葡萄牙语</td>
-      <td align="center">❓俄语</td>
+      <td align="center">✅❌❓普通话</td>
+      <td align="center">✅❌❓粤语</td>
+      <td align="center">✅❌❓闽南语</td>
+      <td align="center">✅❌❓英语</td>
+      <td align="center">✅❌❓日语</td>
+      <td align="center">✅❌❓韩语</td>
+      <td align="center">✅❌❓法语</td>
+      <td align="center">✅❌❓德语</td>
+      <td align="center">✅❌❓西班牙语</td>
+      <td align="center">✅❌❓葡萄牙语</td>
+      <td align="center">✅❌❓俄语</td>
     </tr>
 ```
