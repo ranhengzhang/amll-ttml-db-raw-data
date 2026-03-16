@@ -220,6 +220,20 @@
       <td align="center">❌</td>
       <td align="center">❌</td>
     </tr>
+        <tr>
+      <td align="center"><b><img src="https://avatars.githubusercontent.com/u/68000793?v=4" width="30" height="30" alt="ranhengzhang" style="vertical-align:sub; margin-right:5px;"><br><a href="https://github.com/ranhengzhang">ranhengzhang</a></b></td>
+      <td align="center">✅</td>
+      <td align="center">✅</td>
+      <td align="center">❌</td>
+      <td align="center">✅</td>
+      <td align="center">✅</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+    </tr>
   </tbody>
 </table>
 
