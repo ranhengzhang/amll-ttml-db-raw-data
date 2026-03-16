@@ -24,16 +24,17 @@
       <th rowspan="2" align="center">英语</th>
       <th rowspan="2" align="center">日语</th>
       <th rowspan="2" align="center">韩语</th>
-      <th rowspan="2" align="center">法语</th>
-      <th rowspan="2" align="center">德语</th>
-      <th rowspan="2" align="center">西班牙语</th>
-      <th rowspan="2" align="center">葡萄牙语</th>
-      <th rowspan="2" align="center">俄语</th>
+      <th colspan="5" align="center">其它</th>
     </tr>
     <tr>
       <th align="center">普通话</th>
       <th align="center">粤语</th>
       <th align="center">闽南语</th>
+      <th align="center">法语</th>
+      <th align="center">德语</th>
+      <th align="center">西班牙语</th>
+      <th align="center">葡萄牙语</th>
+      <th align="center">俄语</th>
     </tr>
   </thead>
   <tbody>
