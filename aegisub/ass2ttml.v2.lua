@@ -19,8 +19,8 @@ local re = require 'aegisub.re'
 script_name = "ASS2TTML V2 - AMLL歌词格式转换 V2"
 script_description = "将ASS格式的字幕文件转为TTML文件"
 script_author = "ranhengzhang@gmail.com"
-script_version = "1.2-Release Hugo Vlad"
-script_modified = "2025-12-22"
+script_version = "1.3-Release Severian Lowell"
+script_modified = "2026-03-20"
 
 -- 导入卡拉OK处理库
 include("karaskel.lua")
@@ -81,151 +81,196 @@ function script_main(subtitles)
         return value;
     end
 
+    local valid_langs = {
+        "af", "ar", "be", "bg", "bn", "ca", "cs", "cy", "da", "de", "el", "en",
+        "eo", "es-419", "es", "et", "fa", "fi", "fr-CA", "fr", "ga", "gl", "gu",
+        "he", "hi", "hr", "ht", "hu", "id", "is", "it", "ja", "ka", "kn", "ko",
+        "lt", "lv", "mk", "mr", "ms", "mt", "nl", "no", "pl", "pt-BR", "pt-PT",
+        "pt", "ro", "ru", "sk", "sl", "sq", "sv", "sw", "ta", "te", "th", "tl",
+        "tr", "uk", "ur", "vi", "zh-Hans", "zh-Hant", "zh"
+    }
+
+    local lang_blacklist = {"zh-Hans-Latn", "zh-Hant-Latn"}
+    local lang_whitelist = {"zh-Latn-pinyin", "zh-Latn-jyutping"}
+
+    local function startsWith(str, prefix)
+        return string.sub(str, 1, #prefix) == prefix
+    end
+
+    local checked_langs = {}
+    local function valid_lang(lang)
+        if checked_langs[lang] ~= nil then return checked_langs[lang] end
+        for _, l in ipairs(lang_whitelist) do
+            if lang == l then
+                checked_langs[lang] = true
+                return true
+            end
+        end
+
+        for _, l in ipairs(lang_blacklist) do
+            if lang == l then
+                checked_langs[lang] = false
+                return false
+            end
+        end
+
+        local is_valid = false
+
+        for _, l in pairs(valid_langs) do
+            if startsWith(lang, l) then
+                is_valid = true
+                break
+            end
+        end
+
+        checked_langs[lang] = is_valid
+        return is_valid
+    end
+
+    local anti_roles = {'anti', 'duet', 'solo', 'fade', 'whis'}
+
+    local function is_anti(line)
+        for _, role in ipairs(anti_roles) do
+            if line.actor:find("x%-" .. role) then return true end
+        end
+
+        return false
+    end
+
+    local function re_anti(line)
+        if is_anti(line) then
+            for _, role in ipairs(anti_roles) do
+                line.actor = line.actor:gsub("x%-" .. role, "")
+            end
+        else
+            line.actor = 'x-anti ' .. line.actor -- 添加反色标记
+        end
+    end
+
     -- ======================================================================
     -- 预处理函数：解析和准备字幕数据
     -- 提取脚本信息、处理标记、分离主行和背景行
     -- @param subtitles: 原始字幕数据
     -- ======================================================================
-    local function pre_process(subtitles)
+    local function pre_process(subtitle)
         local is_bg = false
-        for i = 1, #subtitles do
-            local line = table.copy(subtitles[i])
-            if subtitles[i].class == "info" then -- 读取脚本信息
-                if subtitles[i].key == "Title" then
-                    config.title = subtitles[i].value
-                elseif subtitles[i].key == "Update Details" then
-                    local value = subtitles[i].value
+        for i = 1, #subtitle do
+            local line = table.copy(subtitle[i])
+            if subtitle[i].class == "info" then -- 读取脚本信息
+                if subtitle[i].key == "Title" then
+                    config.title = subtitle[i].value
+                elseif subtitle[i].key == "Update Details" then
+                    local value = subtitle[i].value
                     -- 去掉字符串中的 `\[.*?\]`
                     value, _ = re.sub(value, "\\[.*?\\]", "")
-                    value:gsub("([+-]%d+)", function(v)
+                    value:gsub("([+-]?%d+)", function(v)
                         table.insert(config.offset, tonumber(v))
                     end)
-                elseif subtitles[i].key == "Original Script" then
-                    options.lang = subtitles[i].value
+                elseif subtitle[i].key == "Original Script" then
+                    options.lang = subtitle[i].value
                 end
-            else -- 读取字幕行
-                if line.effect == "" or line.effect == "karaoke" then
-                    if line.style == "ts" and line.actor and
-                        line.actor:find("x%-replace") then
-                        line.style = "roma"
-                    end
+            elseif line.effect == "" or line.effect == "karaoke" then -- 读取字幕行
+                if line.style == "ts" and line.actor and
+                    line.actor:find("x%-replace") then
+                    line.style = "roma"
+                end
+                line.is_bg = is_bg
+                line.raw, _ = re.sub(line.raw, "\\s+", ' ')
+                line.text, _ = re.sub(line.text, "\\s+", ' ')
+                karaskel.preproc_line_text({}, {}, line)
+                if line.style == "orig" then
+                    is_bg = line.actor:find("x%-bg") and
+                                line.actor:find("x%-chor") == nil
                     line.is_bg = is_bg
-                    line.raw = line.raw:gsub('%s+', ' ')
-                    -- 处理卡拉OK音节标记
-                    line.text, _ = re.sub(line.text,
-                                          "(?<=\\\\-)([^\\}]+\\}[^\\}]+)(?=\\})",
-                                          "\\1\\\\-X")
-                    karaskel.preproc_line_text({}, {}, line)
-                    if line.style == "orig" then
-                        is_bg = line.actor:find("x%-bg") and
-                                    line.actor:find("x%-chor") == nil
-                        line.is_bg = is_bg
-                        if line.actor:find("x%-mark") ~= nil then -- 处理标记
-                            if line.is_bg then
-                                add_mark(line.actor, #subs, true)
-                            else
-                                add_mark(line.actor, #subs + 1, false)
-                            end
-                        end
-                        local part = line.actor:find("x%-part")
-                        if part ~= nil then
-                            config.part_split = true
-                            line.part =
-                                re.find(line.actor, "(?<=x-part:)[A-z]+")[1].str
+                    if line.actor:find("x%-mark") ~= nil then -- 处理标记
+                        if line.is_bg then
+                            add_mark(line.actor, #subs, true)
+                        else
+                            add_mark(line.actor, #subs + 1, false)
                         end
                     end
-                    if line.is_bg then -- 背景行处理
-                        local parent_line = table.copy(subs[#subs])
-                        if line.style == "orig" then
-                            line.ts_line = {}
-                            line.roma_line = {}
-                            parent_line.bg_line = line
-                            parent_line.end_time = math.max(
-                                                       parent_line.end_time,
-                                                       line.end_time)
-                        elseif line.style == "roma" then
-                            local bg_line = parent_line.bg_line
-                            local roma_line = bg_line["roma_line"]
-                            local lang = options.lang .. '-Latn'
-                            if line.actor:find('x%-lang') ~= nil then
-                                lang = line.actor:match('x%-lang%:[%w%-]*'):sub(
-                                           8)
-                            end
-                            roman[lang] = {lines = {}}
-                            roma_line[lang] = line
-                            bg_line["roma_line"] = roma_line
-                            parent_line.bg_line = bg_line
-                        elseif line.style == "ts" then
-                            local bg_line = parent_line.bg_line
-                            local ts_line = bg_line["ts_line"]
-                            local lang = 'zh-Hans'
-                            if line.actor:find('x%-lang') ~= nil then
-                                lang = line.actor:match('x%-lang%:[%w%-]*'):sub(
-                                           8)
-                            end
-                            trans[lang] = {}
-                            ts_line[lang] = line
-                            bg_line["ts_line"] = ts_line
-                            parent_line.bg_line = bg_line
+                    local part = line.actor:find("x%-part")
+                    if part ~= nil then
+                        config.part_split = true
+                        line.part = re.find(line.actor, "(?<=x-part:)[A-z]+")[1]
+                                        .str
+                    end
+                end
+                if line.is_bg then -- 背景行处理
+                    local parent_line = table.copy(subs[#subs])
+                    if line.style == "orig" then
+                        line.ts_line = {}
+                        line.roma_line = {}
+                        parent_line.bg_line = line
+                        parent_line.end_time =
+                            math.max(parent_line.end_time, line.end_time)
+                    elseif line.style == "roma" then
+                        local bg_line = parent_line.bg_line
+                        local roma_line = bg_line["roma_line"]
+                        local lang = options.lang .. '-Latn'
+                        if line.actor:find('x%-lang') ~= nil then
+                            lang = line.actor:match('x%-lang%:[%w%-]*'):sub(8)
                         end
-                        subs[#subs] = parent_line
-                    else -- 主行处理
-                        if line.style == "orig" then
-                            line.ts_line = {}
-                            line.roma_line = {}
-                            if line.actor:find("x%-chor") ~= nil then
-                                if line.actor:find("x%-bg") ~= nil then
-                                    line.bg_line = table.copy(line)
-                                    line.bg_line.is_bg = true
-                                    table.insert(subs, line)
-                                else
-                                    local another = table.copy(line)
-
-                                    another.actor, _ =
-                                        re.sub(another.actor, "x-part:[A-z]+",
-                                               "")
-                                    if line.actor:find("x%-anti") == nil and
-                                        line.actor:find("x%-duet") == nil and
-                                        line.actor:find("x%-solo") == nil then
-                                        another.actor = 'x-anti ' ..
-                                                            another.actor
-                                    else
-                                        another.actor = another.actor:gsub(
-                                                            "x%-anti", "")
-                                        another.actor = another.actor:gsub(
-                                                            "x%-duet", "")
-                                    end
-                                    table.insert(subs, line)
-                                    table.insert(subs, another)
-                                end
-                            else
+                        roman[lang] = {lines = {}}
+                        roma_line[lang] = line
+                        bg_line["roma_line"] = roma_line
+                        parent_line.bg_line = bg_line
+                    elseif line.style == "ts" then
+                        local bg_line = parent_line.bg_line
+                        local ts_line = bg_line["ts_line"]
+                        local lang = 'zh-Hans'
+                        if line.actor:find('x%-lang') ~= nil then
+                            lang = line.actor:match('x%-lang%:[%w%-]*'):sub(8)
+                        end
+                        trans[lang] = {}
+                        ts_line[lang] = line
+                        bg_line["ts_line"] = ts_line
+                        parent_line.bg_line = bg_line
+                    end
+                    subs[#subs] = parent_line
+                else -- 主行处理
+                    if line.style == "orig" then
+                        line.ts_line = {}
+                        line.roma_line = {}
+                        if line.actor:find("x%-chor") ~= nil then
+                            if line.actor:find("x%-bg") ~= nil then
+                                line.bg_line = table.copy(line)
+                                line.bg_line.is_bg = true
                                 table.insert(subs, line)
+                            else
+                                local another = table.copy(line)
+
+                                another.actor, _ =
+                                    re.sub(another.actor, "x-part:[A-z]+", "")
+                                re_anti(another)
+                                table.insert(subs, line)
+                                table.insert(subs, another)
                             end
-                        elseif line.style == "roma" then
-                            local orig_line = table.copy(subs[#subs])
-                            local roma_line = orig_line["roma_line"]
-                            local lang = options.lang .. '-Latn'
-                            if line.actor:find('x%-lang') ~= nil then
-                                lang = line.actor:match('x%-lang%:[%w%-]*'):sub(
-                                           8)
-                            end
-                            roman[lang] = {lines = {}}
-                            roma_line[lang] = line
-                            orig_line["roma_line"] = roma_line
-                            subs[#subs] = orig_line
-                        elseif line.style == "ts" then
-                            local orig_line = table.copy(subs[#subs])
-                            local ts_line = orig_line["ts_line"]
-                            local lang = 'zh-Hans'
-                            if line.actor:find('x%-lang') ~= nil then
-                                lang = line.actor:match('x%-lang%:[%w%-]*'):sub(
-                                           8)
-                            end
-                            trans[lang] = {}
-                            ts_line[lang] = line
-                            orig_line["ts_line"] = ts_line
-                            subs[#subs] = orig_line
+                        else
+                            table.insert(subs, line)
                         end
+                    elseif line.style == "roma" then
+                        local orig_line = table.copy(subs[#subs])
+                        local roma_line = orig_line["roma_line"]
+                        local lang = options.lang .. '-Latn'
+                        if line.actor:find('x%-lang') ~= nil then
+                            lang = line.actor:match('x%-lang%:[%w%-]*'):sub(8)
+                        end
+                        roman[lang] = {lines = {}}
+                        roma_line[lang] = line
+                        orig_line["roma_line"] = roma_line
+                        subs[#subs] = orig_line
+                    elseif line.style == "ts" then
+                        local orig_line = table.copy(subs[#subs])
+                        local ts_line = orig_line["ts_line"]
+                        local lang = 'zh-Hans'
+                        if line.actor:find('x%-lang') ~= nil then
+                            lang = line.actor:match('x%-lang%:[%w%-]*'):sub(8)
+                        end
+                        trans[lang] = {}
+                        ts_line[lang] = line
+                        orig_line["ts_line"] = ts_line
+                        subs[#subs] = orig_line
                     end
                 end
             end
@@ -296,11 +341,37 @@ function script_main(subtitles)
                     (syl.sbegin == syl.send or syl.stext == "") then
                     table.insert(text, syl.stext)
                 else
-                    table.insert(text,
-                                 string.format(
-                                     '<span begin="%s" end="%s">%s</span>',
-                                     time_to_string(syl.sbegin),
-                                     time_to_string(syl.send), syl.stext))
+                    if options.ruby and syl.furi_data then
+                        local ruby = {}
+
+                        table.insert(ruby,
+                                     string.format(
+                                         '<span tts:ruby="container"%s>',
+                                         syl.is_start and
+                                             ' amll:rubyPhraseStart="true"' or
+                                             ''))
+                        table.insert(ruby, string.format(
+                                         '<span tts:ruby="base">%s</span>',
+                                         syl.stext))
+                        table.insert(ruby, '<span tts:ruby="textContainer">')
+                        for _, furi in ipairs(syl.furi_data) do
+                            table.insert(ruby,
+                                         string.format(
+                                             '<span tts:ruby="text" begin="%s" end="%s">%s</span>',
+                                             time_to_string(furi.sbegin),
+                                             time_to_string(furi.send),
+                                             xml_symbol(furi.stext)))
+                        end
+                        table.insert(ruby, '</span>')
+                        table.insert(ruby, '</span>')
+                        table.insert(text, table.concat(ruby))
+                    else
+                        table.insert(text,
+                                     string.format(
+                                         '<span begin="%s" end="%s">%s</span>',
+                                         time_to_string(syl.sbegin),
+                                         time_to_string(syl.send), syl.stext))
+                    end
                 end
             end
 
@@ -424,6 +495,18 @@ function script_main(subtitles)
         local text = {}
 
         for lang, lines in pairs(trans) do
+            if valid_lang(lang) == false then
+                local btn_lang, _ = aegisub.dialog.display({
+                    {
+                        class = 'label',
+                        label = '警告：您输入的语言代码 [' .. lang ..
+                            '] 不在常用列表中，是否继续？',
+                        x = 0,
+                        y = 0
+                    }
+                }, {"Yes", "No"})
+                if btn_lang ~= "Yes" then aegisub.cancel() end
+            end
             table.insert(text, string.format(
                              [[<translation type="subtitle" xml:lang="%s">]],
                              lang))
@@ -487,6 +570,18 @@ function script_main(subtitles)
 
         table.insert(text, [[<transliterations>]])
         for lang, roma in pairs(roman) do
+            if valid_lang(lang) == false then
+                local btn_lang, _ = aegisub.dialog.display({
+                    {
+                        class = 'label',
+                        label = '警告：您输入的语言代码 [' .. lang ..
+                            '] 不在常用列表中，是否继续？',
+                        x = 0,
+                        y = 0
+                    }
+                }, {"Yes", "No"})
+                if btn_lang ~= "Yes" then aegisub.cancel() end
+            end
             if #roma.lines ~= 0 then
                 local word = roma.replace == true
                 local temp = {}
@@ -631,6 +726,10 @@ function script_main(subtitles)
 
         for i = 1, #line.kara do
             local syl = util.copy(line.kara[i])
+            if syl.inline_fx and
+                syl.text:find(string.format("\\-%s", syl.inline_fx)) == nil then
+                syl.inline_fx = nil -- 清除无效inline_fx
+            end
 
             -- 合并音节处理
             if syl.inline_fx == "merge" or syl.inline_fx == "M" and #syls > 0 then
@@ -673,22 +772,14 @@ function script_main(subtitles)
 
                 -- 处理零时音节的时间逻辑
                 local base_time = syl.start_time + line.start_time
-                local start_time, end_time
-
-                if i == 1 then
-                    -- 如果是第一个音节：时间设为 (n-5, n)
-                    start_time = base_time - 5
-                    end_time = base_time
-                else
-                    -- 如果不是第一个音节：时间设为 (n, n+5)
-                    start_time = base_time
-                    end_time = base_time + 5
-                end
+                local start_time = base_time
+                local end_time = base_time
 
                 table.insert(syls, {
                     sbegin = start_time,
                     send = end_time,
-                    stext = syl.text_stripped
+                    stext = syl.text_stripped,
+                    is_zero = true
                 })
                 if options.split_space and space then
                     local hole_time = syl.end_time + line.start_time
@@ -761,7 +852,7 @@ function script_main(subtitles)
                         end
                     else -- 时长为 0 的不合并字符
                         local start_time = syl.start_time + line.start_time
-                        local end_time = syl.end_time + line.start_time + 5
+                        local end_time = syl.end_time + line.start_time
                         table.insert(syls, {
                             sbegin = start_time,
                             send = end_time,
@@ -776,18 +867,31 @@ function script_main(subtitles)
                         end
                     end
                 elseif syl.text_stripped ~= '' then
-                    if syl.duration == 0 and not (syl.text_stripped == ' ') then
-                        syl.end_time = syl.end_time + 5
-                    end
-
                     local start_time = syl.start_time + line.start_time
                     local end_time = syl.end_time + line.start_time
-                    table.insert(syls, {
+                    local syl_data = {
                         sbegin = start_time,
                         send = end_time,
                         stext = syl.text_stripped,
                         furi = ((syl.furi.n ~= 0) and count_furi(syl.furi) or 1)
-                    })
+                    }
+                    if syl.furi and syl.furi.n > 0 then
+                        local furi = {}
+                        for j = 1, syl.furi.n do
+                            if syl.furi[j].text_stripped ~= '' then
+                                table.insert(furi, {
+                                    sbegin = syl.furi[j].start_time +
+                                        line.start_time,
+                                    send = syl.furi[j].end_time +
+                                        line.start_time,
+                                    stext = syl.furi[j].text_stripped
+                                })
+                            end
+                        end
+                        syl_data.furi_data = furi
+                        syl_data.is_start = syl.text:find('|<') ~= nil
+                    end
+                    table.insert(syls, syl_data)
                     if options.split_space and space then
                         local hole_time = syl.end_time + line.start_time
                         table.insert(syls, {
@@ -799,6 +903,139 @@ function script_main(subtitles)
                 end
             end
             ::continue::
+        end
+
+        -- 辅助函数：计算字符串的显示宽度
+        local function calc_display_width(str)
+            local width = 0
+            for char in unicode.chars(str) do
+                if unicode.charwidth(char) > 1 then
+                    width = width + 2
+                else
+                    width = width + 1
+                end
+            end
+            return width
+        end
+
+        -- 辅助函数：判断是否为有效音节
+        local function is_valid_syl(syl)
+            return syl and not syl.is_zero and syl.sfx ~= "text"
+        end
+
+        -- 辅助函数：向上取整为10的倍数
+        local function ceil_to_10(value)
+            return math.ceil(value / 10) * 10
+        end
+
+        -- 步骤1: 遍历标记有效音节，重新计算时间
+        for i = 1, #syls do
+            local syl = syls[i]
+            if syl.is_zero then
+                -- 步骤2: 选定参考音节
+                local ref_syl = nil
+                local prev_valid = nil
+                local next_valid = nil
+
+                -- 查找前置有效音节
+                for j = i - 1, 1, -1 do
+                    if is_valid_syl(syls[j]) then
+                        local valid_syl = syls[j]
+                        if syls[i].sbegin - valid_syl.send < 100 then
+                            prev_valid = valid_syl
+                        end
+                        break
+                    end
+                end
+
+                -- 查找后置有效音节
+                for j = i + 1, #syls do
+                    if is_valid_syl(syls[j]) then
+                        local valid_syl = syls[j]
+                        if valid_syl.sbegin - syls[i].send < 100 then
+                            next_valid = valid_syl
+                        end
+                        break
+                    end
+                end
+
+                -- 选择参考音节
+                local use_next = false
+                if not prev_valid then
+                    ref_syl = next_valid
+                    use_next = true
+                else
+                    ref_syl = prev_valid
+                end
+
+                if ref_syl then
+                    -- 步骤3: 计算参考音节的平均速度
+                    local ref_width = calc_display_width(ref_syl.stext)
+                    local ref_duration = ref_syl.send - ref_syl.sbegin
+                    local avg_speed = 40
+                    if ref_width > 0 then
+                        avg_speed = math.min(
+                                        ceil_to_10(ref_duration / ref_width),
+                                        150)
+                    end
+
+                    -- 步骤4: 计算目标字符的显示宽度
+                    local target_text = syl.stext:trim()
+                    if target_text ~= "" then
+                        local target_width = calc_display_width(target_text)
+
+                        -- 步骤5: 计算目标字符的理论持续时间
+                        local theoretical_duration = target_width * avg_speed
+
+                        -- 步骤6: 判断原持续时间
+                        local final_duration;
+                        if prev_valid and next_valid then
+                            local time_diff = next_valid.send -
+                                                  prev_valid.sbegin
+                            if time_diff < 10 then
+                                final_duration = math.min(15,
+                                                          theoretical_duration)
+                            else
+                                final_duration = math.min(time_diff,
+                                                          theoretical_duration)
+                            end
+                        else
+                            final_duration = theoretical_duration
+                        end
+
+                        -- 更新音节时间
+                        if use_next then
+                            -- 使用后置有效音节，修改开始时间
+                            syl.sbegin = syl.send - final_duration
+                        else
+                            -- 使用前置有效音节，修改结束时间
+                            syl.send = syl.sbegin + final_duration
+                        end
+                    end
+                end
+            end
+        end
+
+        -- 步骤7: 遍历修正音节时间
+        for i = 1, #syls do
+            local syl = syls[i]
+            if syl.is_zero then
+                if i == 1 then
+                    -- 首个音节
+                    line.start_time = math.min(line.start_time, syl.sbegin)
+                else
+                    -- 非首个音节
+                    local prev_syl = syls[i - 1]
+                    -- 如果前一个音节的结束时间大于当前音节的起始时间
+                    if prev_syl.send > syl.sbegin then
+                        syl.sbegin = prev_syl.send
+                    end
+                    -- 如果是最后一个音节
+                    if i == #syls then
+                        line.end_time = math.max(line.end_time, syl.send)
+                    end
+                end
+            end
         end
 
         -- 处理和声行的括号
@@ -815,18 +1052,10 @@ function script_main(subtitles)
     -- 将罗马音数据与主音节对齐
     -- @param main_syls: 主音节数据
     -- @param roma_line: 罗马音行数据
-    -- @return: 对齐后的罗马音数据
-    -- ======================================================================
-    -- ======================================================================
-    -- 收集罗马音数据函数
-    -- 将罗马音数据与主音节对齐
-    -- @param main_syls: 主音节数据
-    -- @param roma_line: 罗马音行数据
     -- @param line_num:  (新增) 当前行号，用于日志输出
     -- @return: 对齐后的罗马音数据
     -- ======================================================================
     local function collect_roma(main_syls, roma_line, line_num)
-
         -- [日志] 输出行号
         if line_num then
             aegisub.log(string.format("\nLine %d Start:\n", line_num))
@@ -834,14 +1063,26 @@ function script_main(subtitles)
 
         local function insert_roma(syl)
             local index = -1
+            local last_valid_index = -1
 
             for i = 1, #main_syls do
                 local main_syl = main_syls[i]
-                if type(main_syl.furi) == "number" and main_syl.furi > 0 and
-                    main_syl.stext:trim() ~= "" then
+                if main_syl.roma then last_valid_index = i end
+                if index == -1 and type(main_syl.furi) == "number" and
+                    main_syl.furi > 0 and main_syl.stext:trim() ~= "" then
                     index = i
-                    break
                 end
+            end
+
+            if syl.text_stripped:trim() == "" and last_valid_index ~= -1 then
+                main_syls[last_valid_index].roma =
+                    (main_syls[last_valid_index].roma or "") ..
+                        syl.text_stripped
+                if main_syls[last_valid_index].debug_parts == nil then
+                    main_syls[last_valid_index].debug_parts = {}
+                end
+                table.insert(main_syls[last_valid_index].debug_parts, " (space)")
+                return
             end
 
             if index ~= -1 then
@@ -928,13 +1169,12 @@ function script_main(subtitles)
         local index = 1
         for i = 1, #subs do
             local line = table.copy(subs[i])
+            local text = collect_syls(line)
 
             -- 处理主行正文
             local orig = {
-                is_other = line.actor:find('x%-anti') ~= nil or
-                    line.actor:find('x%-duet') ~= nil or
-                    line.actor:find('x%-solo'),
-                syls = collect_syls(line),
+                is_other = is_anti(line),
+                syls = text,
                 L = index,
                 start_time = line.start_time,
                 end_time = line.end_time,
@@ -969,10 +1209,11 @@ function script_main(subtitles)
             -- 处理和声行
             if line.bg_line ~= nil then
                 local bg_line = table.copy(line.bg_line)
+                local bg_text = collect_syls(bg_line)
 
                 -- 处理和声行正文
                 orig.bg_line = {
-                    syls = collect_syls(bg_line),
+                    syls = bg_text,
                     start_time = bg_line.start_time,
                     end_time = bg_line.end_time
                 }
@@ -1020,7 +1261,7 @@ function script_main(subtitles)
         local text = {}
         if options.lang == nil then options.lang = "zh-Hans" end
         table.insert(text, string.format(
-                         [[<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="%s">]],
+                         [[<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" itunes:timing="Word" xml:lang="%s">]],
                          options.lang))
         table.insert(text, generate_head())
         table.insert(text, generate_body())
@@ -1032,6 +1273,77 @@ function script_main(subtitles)
     -- ======================================================================
     -- 主执行流程
     -- ======================================================================
+
+    local checks = {
+        have_roma = false,
+        word_roma = false,
+        song_part = false,
+        ttml_lang = false
+    }
+
+    for i = 1, #subtitles do
+        local line = subtitles[i]
+        if line.class == "info" then
+            if line.key == "Original Script" then
+                checks.ttml_lang = line.value:trim() ~= ""
+            end
+        else
+            if line.effect == "" or line.effect == "karaoke" then
+                if line.style == "orig" and line.actor:find('x%-part') ~= nil then
+                    checks.song_part = true
+                elseif line.style == "roma" then
+                    checks.have_roma = true
+                    if line.raw:find('%{\\[kK][fo]?.-%}') ~= nil then
+                        checks.word_roma = true
+                    end
+                end
+            end
+        end
+        if (checks.have_roma == checks.word_roma) and checks.song_part and
+            checks.ttml_lang then break end
+    end
+
+    if (checks.have_roma ~= checks.word_roma) or not checks.song_part or
+        not checks.ttml_lang then
+        local ui_config = {
+            {
+                class = "label",
+                label = "以下检测项中存在未完成的设置，是否继续？",
+                x = 0,
+                y = 0,
+                width = 15
+            }, {
+                class = "checkbox",
+                label = "分段",
+                name = "song_part",
+                x = 10,
+                y = 1,
+                width = 5,
+                value = checks.song_part
+            }, {
+                class = "checkbox",
+                label = "TTML 语言代码",
+                name = "ttml_lang",
+                x = 0,
+                y = 1,
+                width = 5,
+                value = checks.ttml_lang
+            }
+        }
+        if checks.have_roma then
+            table.insert(ui_config, {
+                class = "checkbox",
+                label = "逐字音译",
+                name = "word_roma",
+                x = 5,
+                y = 1,
+                width = 5,
+                value = checks.word_roma
+            })
+        end
+        local btn, _ = aegisub.dialog.display(ui_config, {"Continue", "Stop"})
+        if btn ~= "Continue" then aegisub.cancel() end
+    end
 
     -- 1. 预处理字幕数据
     pre_process(subtitles)
@@ -1152,14 +1464,14 @@ function script_main(subtitles)
             class = "label",
             label = "歌词语言",
             name = "tag_lang",
-            x = 14,
+            x = 4,
             y = 5,
             width = 1
         },
         {
             class = "edit",
             name = "lang",
-            x = 16,
+            x = 5,
             y = 5,
             width = 1,
             value = options.lang
@@ -1167,17 +1479,25 @@ function script_main(subtitles)
             class = "label",
             label = "空格处理方式",
             name = "tag_space",
-            x = 18,
+            x = 7,
             y = 5,
             width = 1
         }, {
             class = "dropdown",
             name = "space",
-            x = 19,
+            x = 8,
             y = 5,
             width = 1,
             items = {"不处理", "合并", "拆分"},
             value = "拆分"
+        }, {class = "checkbox", name = "ruby", x = 24, y = 5, width = 1}, {
+            class = "label",
+            label = "是否启用 ruby 注释",
+            name = "tag_ruby",
+            x = 25,
+            y = 5,
+            width = 1,
+            value = true
         }, {
             class = "checkbox",
             name = "keep_roma",
@@ -1236,76 +1556,7 @@ function script_main(subtitles)
     options.offset = tonumber(options.offset) or 0
 
     if #subs == 0 then aegisub.cancel() end
-
-    -- 语言代码有效性检查
-    local valid_langs = {
-        ["af"] = true,
-        ["ar"] = true,
-        ["be"] = true,
-        ["bg"] = true,
-        ["bn"] = true,
-        ["ca"] = true,
-        ["cs"] = true,
-        ["cy"] = true,
-        ["da"] = true,
-        ["de"] = true,
-        ["el"] = true,
-        ["en"] = true,
-        ["eo"] = true,
-        ["es"] = true,
-        ["es-419"] = true,
-        ["et"] = true,
-        ["fa"] = true,
-        ["fi"] = true,
-        ["fr"] = true,
-        ["fr-CA"] = true,
-        ["ga"] = true,
-        ["gl"] = true,
-        ["gu"] = true,
-        ["he"] = true,
-        ["hi"] = true,
-        ["hr"] = true,
-        ["ht"] = true,
-        ["hu"] = true,
-        ["id"] = true,
-        ["is"] = true,
-        ["it"] = true,
-        ["ja"] = true,
-        ["ka"] = true,
-        ["kn"] = true,
-        ["ko"] = true,
-        ["lt"] = true,
-        ["lv"] = true,
-        ["mk"] = true,
-        ["mr"] = true,
-        ["ms"] = true,
-        ["mt"] = true,
-        ["nl"] = true,
-        ["no"] = true,
-        ["pl"] = true,
-        ["pt"] = true,
-        ["pt-BR"] = true,
-        ["pt-PT"] = true,
-        ["ro"] = true,
-        ["ru"] = true,
-        ["sk"] = true,
-        ["sl"] = true,
-        ["sq"] = true,
-        ["sv"] = true,
-        ["sw"] = true,
-        ["ta"] = true,
-        ["te"] = true,
-        ["th"] = true,
-        ["tl"] = true,
-        ["tr"] = true,
-        ["uk"] = true,
-        ["ur"] = true,
-        ["vi"] = true,
-        ["zh"] = true,
-        ["zh-Hans"] = true,
-        ["zh-Hant"] = true
-    }
-    if options.lang ~= nil and options.lang:trim() ~= '' and not valid_langs[options.lang] then
+    if options.lang:trim() ~= '' and not valid_lang(options.lang) then
         local btn_lang, _ = aegisub.dialog.display({
             {
                 class = 'label',
