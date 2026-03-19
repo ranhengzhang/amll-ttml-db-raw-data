@@ -1,4 +1,4 @@
-<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" itunes:timing="Word" xml:lang="ja">
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" itunes:timing="Word" xml:lang="ja">
   <head>
     <metadata>
       <ttm:agent type="person" xml:id="v1" />
@@ -453,8 +453,8 @@
     </metadata>
   </head>
   <body dur="03:37.240">
-    <div begin="00:01.940" end="00:13.640" itunes:song-part="Intro">
-      <p begin="00:01.940" end="00:03.730" ttm:agent="v2" itunes:key="L1">
+    <div begin="00:01.940" end="00:14.090" itunes:song-part="Intro">
+      <p begin="00:01.940" end="00:03.910" ttm:agent="v2" itunes:key="L1">
         <span begin="00:01.940" end="00:02.310">Shine</span>
         <span begin="00:02.310" end="00:02.310"> </span>
         <span begin="00:02.310" end="00:02.490">a</span>
@@ -467,9 +467,9 @@
         <span begin="00:03.290" end="00:03.290"> </span>
         <span begin="00:03.290" end="00:03.620">li</span>
         <span begin="00:03.620" end="00:03.730">fe</span>
-        <span begin="00:03.730" end="00:03.735">...</span>
+        <span begin="00:03.730" end="00:03.910">...</span>
       </p>
-      <p begin="00:05.220" end="00:07.040" ttm:agent="v2" itunes:key="L2">
+      <p begin="00:05.220" end="00:07.190" ttm:agent="v2" itunes:key="L2">
         <span begin="00:05.220" end="00:05.620">Shine</span>
         <span begin="00:05.620" end="00:05.620"> </span>
         <span begin="00:05.620" end="00:05.790">a</span>
@@ -483,35 +483,35 @@
         <span begin="00:06.580" end="00:06.580"> </span>
         <span begin="00:06.580" end="00:06.940">li</span>
         <span begin="00:06.940" end="00:07.040">fe</span>
-        <span begin="00:07.040" end="00:07.045">...</span>
+        <span begin="00:07.040" end="00:07.190">...</span>
       </p>
-      <p begin="00:08.550" end="00:10.260" ttm:agent="v2" itunes:key="L3">
+      <p begin="00:08.550" end="00:10.620" ttm:agent="v2" itunes:key="L3">
         <span begin="00:08.550" end="00:08.730">F</span>
         <span begin="00:08.730" end="00:08.950">ly</span>
         <span begin="00:08.950" end="00:08.950"> </span>
         <span begin="00:08.950" end="00:09.080">a</span>
         <span begin="00:09.080" end="00:09.410">way</span>
-        <span begin="00:09.410" end="00:09.415">,</span>
+        <span begin="00:09.410" end="00:09.520">,</span>
         <span begin="00:09.410" end="00:09.410"> </span>
         <span begin="00:09.410" end="00:09.690">far</span>
         <span begin="00:09.690" end="00:09.690"> </span>
         <span begin="00:09.690" end="00:09.900">a</span>
         <span begin="00:09.900" end="00:10.260">way</span>
-        <span begin="00:10.260" end="00:10.265">...</span>
+        <span begin="00:10.260" end="00:10.620">...</span>
       </p>
-      <p begin="00:11.880" end="00:13.640" ttm:agent="v2" itunes:key="L4">
+      <p begin="00:11.880" end="00:14.090" ttm:agent="v2" itunes:key="L4">
         <span begin="00:11.880" end="00:11.990">F</span>
         <span begin="00:11.990" end="00:12.230">ly</span>
         <span begin="00:12.230" end="00:12.230"> </span>
         <span begin="00:12.230" end="00:12.370">a</span>
         <span begin="00:12.370" end="00:12.680">way</span>
-        <span begin="00:12.680" end="00:12.685">,</span>
+        <span begin="00:12.680" end="00:12.790">,</span>
         <span begin="00:12.680" end="00:12.680"> </span>
         <span begin="00:12.680" end="00:12.960">far</span>
         <span begin="00:12.960" end="00:12.960"> </span>
         <span begin="00:12.960" end="00:13.180">a</span>
         <span begin="00:13.180" end="00:13.640">way</span>
-        <span begin="00:13.640" end="00:13.645">...</span>
+        <span begin="00:13.640" end="00:14.090">...</span>
       </p>
     </div>
     <div begin="00:16.890" end="00:29.720" itunes:song-part="Verse">
@@ -547,39 +547,103 @@
         <span begin="00:22.830" end="00:23.000">s</span>
       </p>
       <p begin="00:23.530" end="00:29.720" ttm:agent="v1" itunes:key="L8">
-        <span begin="00:23.530" end="00:23.780">彼</span>
-        <span begin="00:23.780" end="00:24.770">方</span>
-        <span begin="00:25.050" end="00:25.640">先</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">彼</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:23.530" end="00:23.780">か</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">方</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:23.780" end="00:23.990">な</span>
+            <span tts:ruby="text" begin="00:23.990" end="00:24.770">た</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">先</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:25.050" end="00:25.410">さ</span>
+            <span tts:ruby="text" begin="00:25.410" end="00:25.640">き</span>
+          </span>
+        </span>
         <span begin="00:25.640" end="00:26.110">の</span>
-        <span begin="00:26.350" end="00:27.610">最</span>
-        <span begin="00:27.610" end="00:28.150">盛</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">最</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:26.350" end="00:27.610">さい</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">盛</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:27.610" end="00:27.940">せ</span>
+            <span tts:ruby="text" begin="00:27.940" end="00:28.150">い</span>
+          </span>
+        </span>
         <span begin="00:28.150" end="00:28.500">の</span>
-        <span begin="00:28.500" end="00:28.670">景</span>
-        <span begin="00:28.670" end="00:29.370">色</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">景</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:28.500" end="00:28.670">け</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">色</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:28.670" end="00:29.120">し</span>
+            <span tts:ruby="text" begin="00:29.120" end="00:29.370">き</span>
+          </span>
+        </span>
         <span begin="00:29.370" end="00:29.720">を</span>
       </p>
     </div>
     <div begin="00:30.190" end="00:42.940" itunes:song-part="PreChorus">
       <p begin="00:30.190" end="00:42.940" ttm:agent="v1" itunes:key="L9">
-        <span begin="00:30.190" end="00:31.520">解</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">解</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:30.190" end="00:30.660">ほ</span>
+            <span tts:ruby="text" begin="00:31.020" end="00:31.520">ど</span>
+          </span>
+        </span>
         <span begin="00:31.850" end="00:32.300">か</span>
         <span begin="00:32.600" end="00:32.880">れ</span>
         <span begin="00:32.880" end="00:33.090">て</span>
         <span begin="00:33.090" end="00:34.320">く</span>
         <span begin="00:34.320" end="00:34.320"> </span>
-        <span begin="00:34.320" end="00:35.150">憂</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">憂</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:34.320" end="00:34.750">う</span>
+            <span tts:ruby="text" begin="00:34.750" end="00:35.150">れ</span>
+          </span>
+        </span>
         <span begin="00:35.150" end="00:35.380">い</span>
         <span begin="00:35.380" end="00:35.670">の</span>
         <span begin="00:35.670" end="00:35.980">す</span>
         <span begin="00:35.980" end="00:36.180">べ</span>
         <span begin="00:36.180" end="00:36.460">て</span>
         <span begin="00:36.460" end="00:36.740"> </span>
-        <span begin="00:36.740" end="00:38.930">綻</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">綻</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:36.740" end="00:37.320">ほ</span>
+            <span tts:ruby="text" begin="00:37.620" end="00:38.090">こ</span>
+            <span tts:ruby="text" begin="00:38.470" end="00:38.930">ろ</span>
+          </span>
+        </span>
         <span begin="00:39.290" end="00:39.480">び</span>
         <span begin="00:39.480" end="00:39.610">だ</span>
         <span begin="00:39.610" end="00:40.950">す</span>
         <span begin="00:40.950" end="00:40.950"> </span>
-        <span begin="00:40.950" end="00:41.760">想</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">想</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:40.950" end="00:41.310">お</span>
+            <span tts:ruby="text" begin="00:41.310" end="00:41.760">も</span>
+          </span>
+        </span>
         <span begin="00:41.760" end="00:42.010">い</span>
         <span begin="00:42.010" end="00:42.360">た</span>
         <span begin="00:42.360" end="00:42.610">ち</span>
@@ -601,13 +665,41 @@
         <span begin="00:44.680" end="00:44.960">life</span>
       </p>
       <p begin="00:45.080" end="00:49.760" ttm:agent="v1" itunes:key="L11">
-        <span begin="00:45.080" end="00:45.510">暗</span>
-        <span begin="00:45.510" end="00:45.910">闇</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">暗</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:45.080" end="00:45.350">く</span>
+            <span tts:ruby="text" begin="00:45.350" end="00:45.510">ら</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">闇</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:45.510" end="00:45.770">や</span>
+            <span tts:ruby="text" begin="00:45.770" end="00:45.910">み</span>
+          </span>
+        </span>
         <span begin="00:45.910" end="00:46.360">に</span>
-        <span begin="00:46.760" end="00:47.130">朝</span>
-        <span begin="00:47.130" end="00:47.530">日</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">朝</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:46.760" end="00:46.950">あ</span>
+            <span tts:ruby="text" begin="00:46.950" end="00:47.130">さ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">日</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:47.130" end="00:47.530">ひ</span>
+          </span>
+        </span>
         <span begin="00:47.530" end="00:47.850">が</span>
-        <span begin="00:47.850" end="00:48.240">咲</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">咲</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:47.850" end="00:48.240">さ</span>
+          </span>
+        </span>
         <span begin="00:48.240" end="00:48.400">い</span>
         <span begin="00:48.400" end="00:48.670">て</span>
         <span begin="00:48.670" end="00:48.830">ゆ</span>
@@ -628,22 +720,49 @@
         <span begin="00:51.130" end="00:51.300">your</span>
         <span begin="00:51.300" end="00:51.300"> </span>
         <span begin="00:51.300" end="00:51.540">li</span>
-        <span begin="00:51.540" end="00:51.545">fe</span>
+        <span begin="00:51.540" end="00:51.540">fe</span>
       </p>
       <p begin="00:51.700" end="00:56.260" ttm:agent="v1" itunes:key="L13">
-        <span begin="00:51.700" end="00:51.960">閉</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">閉</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:51.700" end="00:51.960">と</span>
+          </span>
+        </span>
         <span begin="00:51.960" end="00:52.140">じ</span>
         <span begin="00:52.140" end="00:52.390">て</span>
         <span begin="00:52.390" end="00:52.540">い</span>
         <span begin="00:52.540" end="00:52.880">た</span>
         <span begin="00:53.290" end="00:53.600">そ</span>
         <span begin="00:53.600" end="00:53.730">の</span>
-        <span begin="00:53.730" end="00:54.170">目</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">目</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:53.730" end="00:54.170">め</span>
+          </span>
+        </span>
         <span begin="00:54.170" end="00:54.570">に</span>
-        <span begin="00:54.570" end="00:54.870">希</span>
-        <span begin="00:54.870" end="00:55.260">望</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">希</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:54.570" end="00:54.870">き</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">望</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:54.870" end="00:55.030">ぼ</span>
+            <span tts:ruby="text" begin="00:55.030" end="00:55.260">う</span>
+          </span>
+        </span>
         <span begin="00:55.260" end="00:55.450">を</span>
-        <span begin="00:55.450" end="00:55.820">映</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">映</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:55.450" end="00:55.690">う</span>
+            <span tts:ruby="text" begin="00:55.690" end="00:55.820">つ</span>
+          </span>
+        </span>
         <span begin="00:55.820" end="00:56.260">そう</span>
       </p>
     </div>
@@ -654,7 +773,7 @@
         <span begin="00:56.960" end="00:56.960"> </span>
         <span begin="00:56.960" end="00:57.120">a</span>
         <span begin="00:57.120" end="00:57.330">way</span>
-        <span begin="00:57.330" end="00:57.335">,</span>
+        <span begin="00:57.330" end="00:57.400">,</span>
         <span begin="00:57.420" end="00:57.420"> </span>
         <span begin="00:57.420" end="00:57.760">far</span>
         <span begin="00:57.760" end="00:57.760"> </span>
@@ -667,12 +786,34 @@
         <span begin="00:58.730" end="00:59.000">ま</span>
         <span begin="00:59.000" end="00:59.160">で</span>
         <span begin="00:59.160" end="00:59.480">も</span>
-        <span begin="00:59.920" end="01:00.240">自</span>
-        <span begin="01:00.240" end="01:00.790">由</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:59.920" end="01:00.240">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">由</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:00.240" end="01:00.380">ゆ</span>
+            <span tts:ruby="text" begin="01:00.380" end="01:00.790">う</span>
+          </span>
+        </span>
         <span begin="01:00.790" end="01:01.130">に</span>
-        <span begin="01:01.130" end="01:01.360">舞</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">舞</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:01.130" end="01:01.360">ま</span>
+          </span>
+        </span>
         <span begin="01:01.360" end="01:01.470">う</span>
-        <span begin="01:01.470" end="01:01.870">羽</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">羽</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:01.470" end="01:01.620">は</span>
+            <span tts:ruby="text" begin="01:01.620" end="01:01.870">ね</span>
+          </span>
+        </span>
         <span begin="01:01.870" end="01:02.020">の</span>
         <span begin="01:02.020" end="01:02.300">よ</span>
         <span begin="01:02.300" end="01:02.720">う</span>
@@ -684,7 +825,7 @@
         <span begin="01:03.580" end="01:03.580"> </span>
         <span begin="01:03.580" end="01:03.760">a</span>
         <span begin="01:03.760" end="01:03.970">way</span>
-        <span begin="01:03.970" end="01:03.975">,</span>
+        <span begin="01:03.970" end="01:04.040">,</span>
         <span begin="01:04.080" end="01:04.080"> </span>
         <span begin="01:04.080" end="01:04.400">far</span>
         <span begin="01:04.400" end="01:04.400"> </span>
@@ -692,8 +833,19 @@
         <span begin="01:04.510" end="01:04.810">way</span>
       </p>
       <p begin="01:04.940" end="01:12.740" ttm:agent="v1" itunes:key="L17">
-        <span begin="01:04.940" end="01:05.360">高</span>
-        <span begin="01:05.360" end="01:05.640">鳴</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">高</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:04.940" end="01:05.200">た</span>
+            <span tts:ruby="text" begin="01:05.200" end="01:05.360">か</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">鳴</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:05.360" end="01:05.640">な</span>
+          </span>
+        </span>
         <span begin="01:05.640" end="01:05.800">り</span>
         <span begin="01:05.800" end="01:06.220">の</span>
         <span begin="01:06.590" end="01:06.710">は</span>
@@ -702,15 +854,33 @@
         <span begin="01:07.040" end="01:07.390">り</span>
         <span begin="01:07.390" end="01:07.830">へ</span>
         <span begin="01:07.830" end="01:07.830"> </span>
-        <span begin="01:07.830" end="01:08.510">心</span>
-        <span begin="01:08.510" end="01:08.970">共</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">心</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:07.830" end="01:08.110">こ</span>
+            <span tts:ruby="text" begin="01:08.110" end="01:08.270">こ</span>
+            <span tts:ruby="text" begin="01:08.270" end="01:08.510">ろ</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">共</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:08.510" end="01:08.640">ど</span>
+            <span tts:ruby="text" begin="01:08.640" end="01:08.970">も</span>
+          </span>
+        </span>
         <span begin="01:08.970" end="01:09.140">に</span>
-        <span begin="01:09.140" end="01:09.350">行</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">行</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:09.140" end="01:09.350">い</span>
+          </span>
+        </span>
         <span begin="01:09.350" end="01:12.740">こう</span>
       </p>
     </div>
-    <div begin="01:09.780" end="01:21.440" itunes:song-part="Hook">
-      <p begin="01:09.780" end="01:11.580" ttm:agent="v2" itunes:key="L18">
+    <div begin="01:09.780" end="01:21.830" itunes:song-part="Hook">
+      <p begin="01:09.780" end="01:11.790" ttm:agent="v2" itunes:key="L18">
         <span begin="01:09.780" end="01:10.160">Shine</span>
         <span begin="01:10.160" end="01:10.160"> </span>
         <span begin="01:10.160" end="01:10.330">a</span>
@@ -723,9 +893,9 @@
         <span begin="01:11.150" end="01:11.150"> </span>
         <span begin="01:11.150" end="01:11.450">li</span>
         <span begin="01:11.450" end="01:11.580">fe</span>
-        <span begin="01:11.580" end="01:11.585">...</span>
+        <span begin="01:11.580" end="01:11.790">...</span>
       </p>
-      <p begin="01:13.070" end="01:14.960" ttm:agent="v2" itunes:key="L19">
+      <p begin="01:13.070" end="01:15.200" ttm:agent="v2" itunes:key="L19">
         <span begin="01:13.070" end="01:13.460">Shine</span>
         <span begin="01:13.460" end="01:13.460"> </span>
         <span begin="01:13.460" end="01:13.580">a</span>
@@ -739,45 +909,45 @@
         <span begin="01:14.460" end="01:14.460"> </span>
         <span begin="01:14.460" end="01:14.800">li</span>
         <span begin="01:14.800" end="01:14.960">fe</span>
-        <span begin="01:14.960" end="01:14.965">...</span>
+        <span begin="01:14.960" end="01:15.200">...</span>
       </p>
-      <p begin="01:16.410" end="01:18.110" ttm:agent="v2" itunes:key="L20">
+      <p begin="01:16.410" end="01:18.470" ttm:agent="v2" itunes:key="L20">
         <span begin="01:16.410" end="01:16.580">F</span>
         <span begin="01:16.580" end="01:16.810">ly</span>
         <span begin="01:16.810" end="01:16.810"> </span>
         <span begin="01:16.810" end="01:16.990">a</span>
         <span begin="01:16.990" end="01:17.270">way</span>
-        <span begin="01:17.270" end="01:17.275">,</span>
+        <span begin="01:17.270" end="01:17.370">,</span>
         <span begin="01:17.270" end="01:17.270"> </span>
         <span begin="01:17.270" end="01:17.590">far</span>
         <span begin="01:17.590" end="01:17.590"> </span>
         <span begin="01:17.590" end="01:17.760">a</span>
         <span begin="01:17.760" end="01:18.110">way</span>
-        <span begin="01:18.110" end="01:18.115">...</span>
+        <span begin="01:18.110" end="01:18.470">...</span>
       </p>
-      <p begin="01:19.740" end="01:21.440" ttm:agent="v2" itunes:key="L21">
+      <p begin="01:19.740" end="01:21.830" ttm:agent="v2" itunes:key="L21">
         <span begin="01:19.740" end="01:19.850">F</span>
         <span begin="01:19.850" end="01:20.110">ly</span>
         <span begin="01:20.110" end="01:20.110"> </span>
         <span begin="01:20.110" end="01:20.240">a</span>
         <span begin="01:20.240" end="01:20.540">way</span>
-        <span begin="01:20.540" end="01:20.545">,</span>
+        <span begin="01:20.540" end="01:20.640">,</span>
         <span begin="01:20.540" end="01:20.540"> </span>
         <span begin="01:20.540" end="01:20.840">far</span>
         <span begin="01:20.840" end="01:20.840"> </span>
         <span begin="01:20.840" end="01:21.060">a</span>
         <span begin="01:21.060" end="01:21.440">way</span>
-        <span begin="01:21.440" end="01:21.445">...</span>
+        <span begin="01:21.440" end="01:21.830">...</span>
       </p>
     </div>
     <div begin="01:23.050" end="01:35.890" itunes:song-part="Verse">
-      <p begin="01:23.050" end="01:25.730" ttm:agent="v1" itunes:key="L22">
+      <p begin="01:23.050" end="01:25.850" ttm:agent="v1" itunes:key="L22">
         <span begin="01:23.050" end="01:23.390">Can</span>
         <span begin="01:23.390" end="01:23.390"> </span>
         <span begin="01:23.390" end="01:23.510">you</span>
         <span begin="01:23.510" end="01:23.510"> </span>
         <span begin="01:23.510" end="01:24.040">feel</span>
-        <span begin="01:24.040" end="01:24.045">,</span>
+        <span begin="01:24.040" end="01:24.180">,</span>
         <span begin="01:24.570" end="01:24.570"> </span>
         <span begin="01:24.570" end="01:24.730">a</span>
         <span begin="01:24.730" end="01:24.730"> </span>
@@ -785,7 +955,7 @@
         <span begin="01:25.030" end="01:25.250">ging</span>
         <span begin="01:25.250" end="01:25.250"> </span>
         <span begin="01:25.250" end="01:25.730">wind</span>
-        <span begin="01:25.730" end="01:25.735">?</span>
+        <span begin="01:25.730" end="01:25.850">?</span>
       </p>
       <p begin="01:26.060" end="01:29.160" ttm:agent="v1" itunes:key="L23">
         <span begin="01:26.060" end="01:26.660">E</span>
@@ -803,38 +973,90 @@
         <span begin="01:29.700" end="01:30.000">や</span>
         <span begin="01:30.000" end="01:30.170">が</span>
         <span begin="01:30.170" end="01:31.020">て</span>
-        <span begin="01:31.390" end="01:31.890">来</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">来</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:31.390" end="01:31.640">き</span>
+            <span tts:ruby="text" begin="01:31.640" end="01:31.890">た</span>
+          </span>
+        </span>
         <span begin="01:31.890" end="01:32.320">る</span>
-        <span begin="01:32.590" end="01:33.840">快</span>
-        <span begin="01:33.840" end="01:34.320">晴</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">快</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:32.590" end="01:33.840">かい</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">晴</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:33.840" end="01:34.090">せ</span>
+            <span tts:ruby="text" begin="01:34.090" end="01:34.320">い</span>
+          </span>
+        </span>
         <span begin="01:34.320" end="01:34.720">を</span>
-        <span begin="01:34.720" end="01:35.320">望</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">望</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:34.720" end="01:34.930">の</span>
+            <span tts:ruby="text" begin="01:34.930" end="01:35.320">ぞ</span>
+          </span>
+        </span>
         <span begin="01:35.320" end="01:35.570">ん</span>
         <span begin="01:35.570" end="01:35.890">で</span>
       </p>
     </div>
     <div begin="01:36.390" end="01:49.220" itunes:song-part="PreChorus">
       <p begin="01:36.390" end="01:49.220" ttm:agent="v1" itunes:key="L25">
-        <span begin="01:36.390" end="01:37.580">頬</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">頬</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:36.390" end="01:36.850">ほ</span>
+            <span tts:ruby="text" begin="01:37.200" end="01:37.580">お</span>
+          </span>
+        </span>
         <span begin="01:38.020" end="01:38.410">を</span>
-        <span begin="01:38.880" end="01:39.090">撫</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">撫</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:38.880" end="01:39.090">な</span>
+          </span>
+        </span>
         <span begin="01:39.090" end="01:39.300">で</span>
         <span begin="01:39.300" end="01:40.460">る</span>
         <span begin="01:40.460" end="01:40.460"> </span>
-        <span begin="01:40.460" end="01:41.290">優</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">優</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:40.460" end="01:40.900">や</span>
+            <span tts:ruby="text" begin="01:40.900" end="01:41.290">さ</span>
+          </span>
+        </span>
         <span begin="01:41.290" end="01:41.580">し</span>
         <span begin="01:41.580" end="01:41.900">き</span>
         <span begin="01:41.900" end="01:42.180">す</span>
         <span begin="01:42.180" end="01:42.380">べ</span>
         <span begin="01:42.380" end="01:42.660">て</span>
         <span begin="01:42.660" end="01:43.030"> </span>
-        <span begin="01:43.030" end="01:44.240">恐</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">恐</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:43.030" end="01:43.410">お</span>
+            <span tts:ruby="text" begin="01:43.720" end="01:44.240">そ</span>
+          </span>
+        </span>
         <span begin="01:44.590" end="01:45.050">れ</span>
         <span begin="01:45.360" end="01:45.700">さ</span>
         <span begin="01:45.700" end="01:45.940">え</span>
         <span begin="01:45.940" end="01:47.090">も</span>
         <span begin="01:47.090" end="01:47.090"> </span>
-        <span begin="01:47.090" end="01:48.010">包</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">包</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:47.090" end="01:47.520">つ</span>
+            <span tts:ruby="text" begin="01:47.520" end="01:48.010">つ</span>
+          </span>
+        </span>
         <span begin="01:48.010" end="01:48.150">む</span>
         <span begin="01:48.150" end="01:48.540">よ</span>
         <span begin="01:48.540" end="01:48.810">う</span>
@@ -857,19 +1079,61 @@
         <span begin="01:50.850" end="01:51.120">life</span>
       </p>
       <p begin="01:51.230" end="01:55.960" ttm:agent="v1" itunes:key="L27">
-        <span begin="01:51.230" end="01:51.670">爪</span>
-        <span begin="01:51.670" end="01:52.150">先</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">爪</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:51.230" end="01:51.560">つ</span>
+            <span tts:ruby="text" begin="01:51.560" end="01:51.670">ま</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">先</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:51.670" end="01:51.960">さ</span>
+            <span tts:ruby="text" begin="01:51.960" end="01:52.150">き</span>
+          </span>
+        </span>
         <span begin="01:52.150" end="01:52.510">で</span>
-        <span begin="01:52.940" end="01:53.070">打</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">打</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:52.940" end="01:53.070">う</span>
+          </span>
+        </span>
         <span begin="01:53.070" end="01:53.210">ち</span>
-        <span begin="01:53.210" end="01:53.350">鳴</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">鳴</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:53.210" end="01:53.350">な</span>
+          </span>
+        </span>
         <span begin="01:53.350" end="01:53.650">ら</span>
         <span begin="01:53.650" end="01:54.230">す</span>
-        <span begin="01:54.230" end="01:54.310">リ</span>
-        <span begin="01:54.310" end="01:54.460">ズ</span>
-        <span begin="01:54.460" end="01:54.600">ム</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">リ</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:54.230" end="01:54.310">rhy</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">ズ</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:54.310" end="01:54.460">th</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">ム</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:54.460" end="01:54.600">m</span>
+          </span>
+        </span>
         <span begin="01:54.600" end="01:54.870">に</span>
-        <span begin="01:54.870" end="01:55.060">乗</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">乗</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:54.870" end="01:55.060">の</span>
+          </span>
+        </span>
         <span begin="01:55.060" end="01:55.260">る</span>
         <span begin="01:55.260" end="01:55.440">よ</span>
         <span begin="01:55.440" end="01:55.700">う</span>
@@ -891,77 +1155,194 @@
       <p begin="01:57.860" end="02:05.730" ttm:agent="v1" itunes:key="L29">
         <span begin="01:57.860" end="01:58.190">そ</span>
         <span begin="01:58.190" end="01:58.350">の</span>
-        <span begin="01:58.350" end="01:59.070">心</span>
-        <span begin="01:59.540" end="01:59.820">軽</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">心</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:58.350" end="01:58.600">こ</span>
+            <span tts:ruby="text" begin="01:58.600" end="01:58.750">こ</span>
+            <span tts:ruby="text" begin="01:58.750" end="01:59.070">ろ</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">軽</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:59.540" end="01:59.690">か</span>
+            <span tts:ruby="text" begin="01:59.690" end="01:59.820">ろ</span>
+          </span>
+        </span>
         <span begin="01:59.820" end="01:59.990">や</span>
         <span begin="01:59.990" end="02:00.400">か</span>
         <span begin="02:00.400" end="02:00.670">に</span>
-        <span begin="02:00.820" end="02:01.030">明</span>
-        <span begin="02:01.030" end="02:01.210">日</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">明</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:00.820" end="02:01.030">あ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">日</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:01.030" end="02:01.210">す</span>
+          </span>
+        </span>
         <span begin="02:01.210" end="02:01.510">を</span>
-        <span begin="02:01.510" end="02:01.930">迎</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">迎</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:01.510" end="02:01.650">む</span>
+            <span tts:ruby="text" begin="02:01.650" end="02:01.930">か</span>
+          </span>
+        </span>
         <span begin="02:01.930" end="02:02.070">え</span>
         <span begin="02:02.070" end="02:02.260">に</span>
-        <span begin="02:02.260" end="02:02.460">行</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">行</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:02.260" end="02:02.460">い</span>
+          </span>
+        </span>
         <span begin="02:02.460" end="02:05.730">こう</span>
       </p>
     </div>
     <div begin="02:15.940" end="02:42.220" itunes:song-part="Bridge">
-      <p begin="02:15.940" end="02:18.630" ttm:agent="v1" itunes:key="L30">
+      <p begin="02:15.940" end="02:18.780" ttm:agent="v1" itunes:key="L30">
         <span begin="02:15.940" end="02:16.100">S</span>
         <span begin="02:16.100" end="02:16.920">till</span>
         <span begin="02:16.920" end="02:16.920"> </span>
         <span begin="02:16.920" end="02:17.390">be</span>
         <span begin="02:17.390" end="02:18.530">lie</span>
         <span begin="02:18.530" end="02:18.630">ve</span>
-        <span begin="02:18.630" end="02:18.635">...</span>
+        <span begin="02:18.630" end="02:18.780">...</span>
       </p>
       <p begin="02:18.810" end="02:29.010" ttm:agent="v1" itunes:key="L31">
-        <span begin="02:18.810" end="02:19.100">思</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">思</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:18.810" end="02:18.930">お</span>
+            <span tts:ruby="text" begin="02:18.930" end="02:19.100">も</span>
+          </span>
+        </span>
         <span begin="02:19.100" end="02:20.240">い</span>
-        <span begin="02:20.240" end="02:20.540">出</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">出</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:20.240" end="02:20.540">だ</span>
+          </span>
+        </span>
         <span begin="02:20.540" end="02:21.020">す</span>
-        <span begin="02:21.280" end="02:21.550">彼</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">彼</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:21.280" end="02:21.550">かれ</span>
+          </span>
+        </span>
         <span begin="02:21.550" end="02:21.690">の</span>
-        <span begin="02:21.690" end="02:21.960">日</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">日</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:21.690" end="02:21.960">ひ</span>
+          </span>
+        </span>
         <span begin="02:21.960" end="02:22.280">を</span>
-        <span begin="02:22.620" end="02:23.980">全</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">全</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:22.620" end="02:23.590">す</span>
+            <span tts:ruby="text" begin="02:23.590" end="02:23.980">べ</span>
+          </span>
+        </span>
         <span begin="02:23.980" end="02:25.190">て</span>
         <span begin="02:25.190" end="02:25.400"> </span>
-        <span begin="02:25.400" end="02:25.550">変</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">変</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:25.400" end="02:25.550">か</span>
+          </span>
+        </span>
         <span begin="02:25.550" end="02:25.680">わ</span>
         <span begin="02:25.680" end="02:27.110">る</span>
-        <span begin="02:27.110" end="02:27.710">前</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">前</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:27.110" end="02:27.340">ま</span>
+            <span tts:ruby="text" begin="02:27.340" end="02:27.710">え</span>
+          </span>
+        </span>
         <span begin="02:27.710" end="02:27.840">の</span>
-        <span begin="02:27.840" end="02:28.320">世</span>
-        <span begin="02:28.320" end="02:28.770">界</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">世</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:27.840" end="02:28.320">せ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">界</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:28.320" end="02:28.570">か</span>
+            <span tts:ruby="text" begin="02:28.570" end="02:28.770">い</span>
+          </span>
+        </span>
         <span begin="02:28.770" end="02:29.010">を</span>
       </p>
-      <p begin="02:29.230" end="02:31.830" ttm:agent="v1" itunes:key="L32">
+      <p begin="02:29.230" end="02:32.280" ttm:agent="v1" itunes:key="L32">
         <span begin="02:29.230" end="02:29.380">S</span>
         <span begin="02:29.380" end="02:30.140">till</span>
         <span begin="02:30.140" end="02:30.140"> </span>
         <span begin="02:30.140" end="02:30.540">blo</span>
         <span begin="02:30.540" end="02:31.830">wing</span>
-        <span begin="02:31.830" end="02:31.835">...</span>
+        <span begin="02:31.830" end="02:32.280">...</span>
       </p>
       <p begin="02:32.050" end="02:42.220" ttm:agent="v1" itunes:key="L33">
-        <span begin="02:32.050" end="02:32.310">風</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">風</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:32.050" end="02:32.140">か</span>
+            <span tts:ruby="text" begin="02:32.140" end="02:32.310">ぜ</span>
+          </span>
+        </span>
         <span begin="02:32.310" end="02:33.420">に</span>
-        <span begin="02:33.420" end="02:33.870">吹</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">吹</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:33.420" end="02:33.870">ふ</span>
+          </span>
+        </span>
         <span begin="02:33.870" end="02:34.480">か</span>
         <span begin="02:34.480" end="02:34.770">れ</span>
         <span begin="02:34.770" end="02:34.940">な</span>
         <span begin="02:34.940" end="02:35.150">が</span>
         <span begin="02:35.150" end="02:35.550">ら</span>
         <span begin="02:35.550" end="02:35.910"> </span>
-        <span begin="02:35.910" end="02:36.810">巡</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">巡</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:35.910" end="02:36.380">め</span>
+            <span tts:ruby="text" begin="02:36.380" end="02:36.810">ぐ</span>
+          </span>
+        </span>
         <span begin="02:36.810" end="02:37.140">る</span>
-        <span begin="02:37.140" end="02:38.050">空</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">空</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:37.140" end="02:37.660">そ</span>
+            <span tts:ruby="text" begin="02:37.660" end="02:38.050">ら</span>
+          </span>
+        </span>
         <span begin="02:38.050" end="02:38.480">の</span>
-        <span begin="02:38.480" end="02:38.830">向</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">向</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:38.480" end="02:38.830">む</span>
+          </span>
+        </span>
         <span begin="02:38.830" end="02:40.270">こう</span>
-        <span begin="02:40.270" end="02:40.590">想</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">想</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:40.270" end="02:40.430">お</span>
+            <span tts:ruby="text" begin="02:40.430" end="02:40.590">も</span>
+          </span>
+        </span>
         <span begin="02:40.590" end="02:42.220">う</span>
       </p>
     </div>
@@ -980,13 +1361,41 @@
         <span begin="02:43.870" end="02:44.130">life</span>
       </p>
       <p begin="02:44.270" end="02:48.900" ttm:agent="v1" itunes:key="L35">
-        <span begin="02:44.270" end="02:44.690">暗</span>
-        <span begin="02:44.690" end="02:45.130">闇</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">暗</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:44.270" end="02:44.530">く</span>
+            <span tts:ruby="text" begin="02:44.530" end="02:44.690">ら</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">闇</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:44.690" end="02:44.920">や</span>
+            <span tts:ruby="text" begin="02:44.920" end="02:45.130">み</span>
+          </span>
+        </span>
         <span begin="02:45.130" end="02:45.470">に</span>
-        <span begin="02:45.930" end="02:46.320">朝</span>
-        <span begin="02:46.320" end="02:46.750">日</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">朝</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:45.930" end="02:46.100">あ</span>
+            <span tts:ruby="text" begin="02:46.100" end="02:46.320">さ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">日</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:46.320" end="02:46.750">ひ</span>
+          </span>
+        </span>
         <span begin="02:46.750" end="02:47.050">が</span>
-        <span begin="02:47.050" end="02:47.400">咲</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">咲</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:47.050" end="02:47.400">さ</span>
+          </span>
+        </span>
         <span begin="02:47.400" end="02:47.570">い</span>
         <span begin="02:47.570" end="02:47.820">て</span>
         <span begin="02:47.820" end="02:48.010">ゆ</span>
@@ -1010,19 +1419,46 @@
         <span begin="02:50.450" end="02:50.720">life</span>
       </p>
       <p begin="02:50.880" end="02:55.400" ttm:agent="v1" itunes:key="L37">
-        <span begin="02:50.880" end="02:51.130">閉</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">閉</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:50.880" end="02:51.130">と</span>
+          </span>
+        </span>
         <span begin="02:51.130" end="02:51.290">じ</span>
         <span begin="02:51.290" end="02:51.550">て</span>
         <span begin="02:51.550" end="02:51.730">い</span>
         <span begin="02:51.730" end="02:52.040">た</span>
         <span begin="02:52.430" end="02:52.770">そ</span>
         <span begin="02:52.770" end="02:52.930">の</span>
-        <span begin="02:52.930" end="02:53.390">目</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">目</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:52.930" end="02:53.390">め</span>
+          </span>
+        </span>
         <span begin="02:53.390" end="02:53.740">に</span>
-        <span begin="02:53.740" end="02:54.050">希</span>
-        <span begin="02:54.050" end="02:54.460">望</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">希</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:53.740" end="02:54.050">き</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">望</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:54.050" end="02:54.180">ぼ</span>
+            <span tts:ruby="text" begin="02:54.180" end="02:54.460">う</span>
+          </span>
+        </span>
         <span begin="02:54.460" end="02:54.660">を</span>
-        <span begin="02:54.660" end="02:54.990">映</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">映</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:54.660" end="02:54.860">う</span>
+            <span tts:ruby="text" begin="02:54.860" end="02:54.990">つ</span>
+          </span>
+        </span>
         <span begin="02:54.990" end="02:55.400">そう</span>
       </p>
     </div>
@@ -1033,7 +1469,7 @@
         <span begin="02:56.110" end="02:56.110"> </span>
         <span begin="02:56.110" end="02:56.320">a</span>
         <span begin="02:56.320" end="02:56.510">way</span>
-        <span begin="02:56.510" end="02:56.515">,</span>
+        <span begin="02:56.510" end="02:56.580">,</span>
         <span begin="02:56.640" end="02:56.640"> </span>
         <span begin="02:56.640" end="02:56.920">far</span>
         <span begin="02:56.920" end="02:56.920"> </span>
@@ -1046,12 +1482,34 @@
         <span begin="02:57.900" end="02:58.180">ま</span>
         <span begin="02:58.180" end="02:58.340">で</span>
         <span begin="02:58.340" end="02:58.670">も</span>
-        <span begin="02:59.130" end="02:59.400">自</span>
-        <span begin="02:59.400" end="02:59.920">由</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:59.130" end="02:59.400">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">由</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:59.400" end="02:59.570">ゆ</span>
+            <span tts:ruby="text" begin="02:59.570" end="02:59.920">う</span>
+          </span>
+        </span>
         <span begin="02:59.920" end="03:00.400">に</span>
-        <span begin="03:00.400" end="03:00.580">舞</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">舞</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="03:00.400" end="03:00.580">ま</span>
+          </span>
+        </span>
         <span begin="03:00.580" end="03:00.690">う</span>
-        <span begin="03:00.690" end="03:01.040">羽</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">羽</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="03:00.690" end="03:00.820">は</span>
+            <span tts:ruby="text" begin="03:00.820" end="03:01.040">ね</span>
+          </span>
+        </span>
         <span begin="03:01.040" end="03:01.180">の</span>
         <span begin="03:01.180" end="03:01.470">よ</span>
         <span begin="03:01.470" end="03:01.900">う</span>
@@ -1063,7 +1521,7 @@
         <span begin="03:02.750" end="03:02.750"> </span>
         <span begin="03:02.750" end="03:02.880">a</span>
         <span begin="03:02.880" end="03:03.150">way</span>
-        <span begin="03:03.150" end="03:03.155">,</span>
+        <span begin="03:03.150" end="03:03.240">,</span>
         <span begin="03:03.240" end="03:03.240"> </span>
         <span begin="03:03.240" end="03:03.530">far</span>
         <span begin="03:03.530" end="03:03.530"> </span>
@@ -1071,8 +1529,19 @@
         <span begin="03:03.710" end="03:03.950">way</span>
       </p>
       <p begin="03:04.110" end="03:11.900" ttm:agent="v1" itunes:key="L41">
-        <span begin="03:04.110" end="03:04.530">高</span>
-        <span begin="03:04.530" end="03:04.810">鳴</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">高</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="03:04.110" end="03:04.370">た</span>
+            <span tts:ruby="text" begin="03:04.370" end="03:04.530">か</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">鳴</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="03:04.530" end="03:04.810">な</span>
+          </span>
+        </span>
         <span begin="03:04.810" end="03:04.940">り</span>
         <span begin="03:04.940" end="03:05.310">の</span>
         <span begin="03:05.740" end="03:05.840">は</span>
@@ -1081,15 +1550,33 @@
         <span begin="03:06.200" end="03:06.550">り</span>
         <span begin="03:06.550" end="03:06.990">へ</span>
         <span begin="03:06.990" end="03:06.990"> </span>
-        <span begin="03:06.990" end="03:07.670">心</span>
-        <span begin="03:07.670" end="03:08.090">共</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">心</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="03:06.990" end="03:07.280">こ</span>
+            <span tts:ruby="text" begin="03:07.280" end="03:07.450">こ</span>
+            <span tts:ruby="text" begin="03:07.450" end="03:07.670">ろ</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">共</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="03:07.670" end="03:07.830">ど</span>
+            <span tts:ruby="text" begin="03:07.830" end="03:08.090">も</span>
+          </span>
+        </span>
         <span begin="03:08.090" end="03:08.190">に</span>
-        <span begin="03:08.190" end="03:08.510">行</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">行</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="03:08.190" end="03:08.510">い</span>
+          </span>
+        </span>
         <span begin="03:08.510" end="03:11.900">こう</span>
       </p>
     </div>
-    <div begin="03:08.980" end="03:20.600" itunes:song-part="Hook">
-      <p begin="03:08.980" end="03:10.840" ttm:agent="v2" itunes:key="L42">
+    <div begin="03:08.980" end="03:21.020" itunes:song-part="Hook">
+      <p begin="03:08.980" end="03:11.110" ttm:agent="v2" itunes:key="L42">
         <span begin="03:08.980" end="03:09.340">Shine</span>
         <span begin="03:09.340" end="03:09.340"> </span>
         <span begin="03:09.340" end="03:09.460">a</span>
@@ -1102,9 +1589,9 @@
         <span begin="03:10.390" end="03:10.390"> </span>
         <span begin="03:10.390" end="03:10.660">li</span>
         <span begin="03:10.660" end="03:10.840">fe</span>
-        <span begin="03:10.840" end="03:10.845">...</span>
+        <span begin="03:10.840" end="03:11.110">...</span>
       </p>
-      <p begin="03:12.250" end="03:14.090" ttm:agent="v2" itunes:key="L43">
+      <p begin="03:12.250" end="03:14.240" ttm:agent="v2" itunes:key="L43">
         <span begin="03:12.250" end="03:12.660">Shine</span>
         <span begin="03:12.660" end="03:12.660"> </span>
         <span begin="03:12.660" end="03:12.820">a</span>
@@ -1118,43 +1605,43 @@
         <span begin="03:13.640" end="03:13.640"> </span>
         <span begin="03:13.640" end="03:13.990">li</span>
         <span begin="03:13.990" end="03:14.090">fe</span>
-        <span begin="03:14.090" end="03:14.095">...</span>
+        <span begin="03:14.090" end="03:14.240">...</span>
       </p>
-      <p begin="03:15.580" end="03:17.290" ttm:agent="v2" itunes:key="L44">
+      <p begin="03:15.580" end="03:17.650" ttm:agent="v2" itunes:key="L44">
         <span begin="03:15.580" end="03:15.740">F</span>
         <span begin="03:15.740" end="03:15.960">ly</span>
         <span begin="03:15.960" end="03:15.960"> </span>
         <span begin="03:15.960" end="03:16.170">a</span>
         <span begin="03:16.170" end="03:16.440">way</span>
-        <span begin="03:16.440" end="03:16.445">,</span>
+        <span begin="03:16.440" end="03:16.530">,</span>
         <span begin="03:16.440" end="03:16.440"> </span>
         <span begin="03:16.440" end="03:16.710">far</span>
         <span begin="03:16.710" end="03:16.710"> </span>
         <span begin="03:16.710" end="03:16.940">a</span>
         <span begin="03:16.940" end="03:17.290">way</span>
-        <span begin="03:17.290" end="03:17.295">...</span>
+        <span begin="03:17.290" end="03:17.650">...</span>
       </p>
-      <p begin="03:18.910" end="03:20.600" ttm:agent="v2" itunes:key="L45">
+      <p begin="03:18.910" end="03:21.020" ttm:agent="v2" itunes:key="L45">
         <span begin="03:18.910" end="03:19.020">F</span>
         <span begin="03:19.020" end="03:19.240">ly</span>
         <span begin="03:19.240" end="03:19.240"> </span>
         <span begin="03:19.240" end="03:19.410">a</span>
         <span begin="03:19.410" end="03:19.730">way</span>
-        <span begin="03:19.730" end="03:19.735">,</span>
+        <span begin="03:19.730" end="03:19.840">,</span>
         <span begin="03:19.730" end="03:19.730"> </span>
         <span begin="03:19.730" end="03:20.000">far</span>
         <span begin="03:20.000" end="03:20.000"> </span>
         <span begin="03:20.000" end="03:20.200">a</span>
         <span begin="03:20.200" end="03:20.600">way</span>
-        <span begin="03:20.600" end="03:20.605">...</span>
+        <span begin="03:20.600" end="03:21.020">...</span>
       </p>
     </div>
     <div begin="03:21.450" end="03:35.200" itunes:song-part="Outro">
-      <p begin="03:21.450" end="03:23.620" ttm:agent="v1" itunes:key="L46">
+      <p begin="03:21.450" end="03:23.770" ttm:agent="v1" itunes:key="L46">
         <span begin="03:21.450" end="03:21.860">Go</span>
         <span begin="03:21.860" end="03:21.860"> </span>
         <span begin="03:21.860" end="03:23.620">on</span>
-        <span begin="03:23.620" end="03:23.625">.</span>
+        <span begin="03:23.620" end="03:23.770">.</span>
       </p>
       <p begin="03:23.770" end="03:26.510" ttm:agent="v1" itunes:key="L47">
         <span begin="03:23.770" end="03:23.980">E</span>
@@ -1192,8 +1679,8 @@
         <span begin="03:33.560" end="03:35.200">you</span>
       </p>
     </div>
-    <div begin="03:22.200" end="03:33.840" itunes:song-part="Hook">
-      <p begin="03:22.200" end="03:23.760" ttm:agent="v2" itunes:key="L50">
+    <div begin="03:22.200" end="03:34.200" itunes:song-part="Hook">
+      <p begin="03:22.200" end="03:23.910" ttm:agent="v2" itunes:key="L50">
         <span begin="03:22.200" end="03:22.570">Shine</span>
         <span begin="03:22.570" end="03:22.570"> </span>
         <span begin="03:22.570" end="03:22.710">a</span>
@@ -1205,9 +1692,9 @@
         <span begin="03:23.360" end="03:23.580">your</span>
         <span begin="03:23.580" end="03:23.580"> </span>
         <span begin="03:23.580" end="03:23.760">life</span>
-        <span begin="03:23.760" end="03:23.765">...</span>
+        <span begin="03:23.760" end="03:23.910">...</span>
       </p>
-      <p begin="03:25.490" end="03:27.420" ttm:agent="v2" itunes:key="L51">
+      <p begin="03:25.490" end="03:27.780" ttm:agent="v2" itunes:key="L51">
         <span begin="03:25.490" end="03:25.920">Shine</span>
         <span begin="03:25.920" end="03:25.920"> </span>
         <span begin="03:25.920" end="03:26.070">a</span>
@@ -1220,35 +1707,35 @@
         <span begin="03:26.880" end="03:26.880"> </span>
         <span begin="03:26.880" end="03:27.190">li</span>
         <span begin="03:27.190" end="03:27.420">fe</span>
-        <span begin="03:27.420" end="03:27.425">...</span>
+        <span begin="03:27.420" end="03:27.780">...</span>
       </p>
-      <p begin="03:28.820" end="03:30.370" ttm:agent="v2" itunes:key="L52">
+      <p begin="03:28.820" end="03:30.580" ttm:agent="v2" itunes:key="L52">
         <span begin="03:28.820" end="03:28.950">F</span>
         <span begin="03:28.950" end="03:29.210">ly</span>
         <span begin="03:29.210" end="03:29.210"> </span>
         <span begin="03:29.210" end="03:29.400">a</span>
         <span begin="03:29.400" end="03:29.670">way</span>
-        <span begin="03:29.670" end="03:29.675">,</span>
+        <span begin="03:29.670" end="03:29.760">,</span>
         <span begin="03:29.670" end="03:29.670"> </span>
         <span begin="03:29.670" end="03:29.950">far</span>
         <span begin="03:29.950" end="03:29.950"> </span>
         <span begin="03:29.950" end="03:30.160">a</span>
         <span begin="03:30.160" end="03:30.370">way</span>
-        <span begin="03:30.370" end="03:30.375">...</span>
+        <span begin="03:30.370" end="03:30.580">...</span>
       </p>
-      <p begin="03:32.140" end="03:33.840" ttm:agent="v2" itunes:key="L53">
+      <p begin="03:32.140" end="03:34.200" ttm:agent="v2" itunes:key="L53">
         <span begin="03:32.140" end="03:32.270">F</span>
         <span begin="03:32.270" end="03:32.470">ly</span>
         <span begin="03:32.470" end="03:32.470"> </span>
         <span begin="03:32.470" end="03:32.710">a</span>
         <span begin="03:32.710" end="03:32.980">way</span>
-        <span begin="03:32.980" end="03:32.985">,</span>
+        <span begin="03:32.980" end="03:33.070">,</span>
         <span begin="03:32.980" end="03:32.980"> </span>
         <span begin="03:32.980" end="03:33.270">far</span>
         <span begin="03:33.270" end="03:33.270"> </span>
         <span begin="03:33.270" end="03:33.490">a</span>
         <span begin="03:33.490" end="03:33.840">way</span>
-        <span begin="03:33.840" end="03:33.845">...</span>
+        <span begin="03:33.840" end="03:34.200">...</span>
       </p>
     </div>
     <div begin="03:35.460" end="03:37.240" itunes:song-part="Refrain">
