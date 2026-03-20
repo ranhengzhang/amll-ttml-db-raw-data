@@ -10,7 +10,7 @@
 > [!TIP]
 > 本排名由机器人根据已在库歌词统计元数据信息后自动生成，贡献最多排前，同贡献量排名不分先后。
 > 
-> 最后更新于 2026-03-20 00:45 (UTC+8)
+> 最后更新于 2026-03-21 02:03 (UTC+8)
 
 ![贡献者头像画廊](https://amll-ttml-db.stevexmh.net/contributors.png)
 
@@ -38,7 +38,7 @@
 | 20 | <img src="https://avatars.githubusercontent.com/u/59403448?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[csdeTR](https://github.com/csdeTR) | 32 |
 | 21 | <img src="https://avatars.githubusercontent.com/u/165106362?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Sakkaku1111](https://github.com/Sakkaku1111) | 27 |
 | 22 | <img src="https://avatars.githubusercontent.com/u/85813508?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[dontknowhy](https://github.com/dontknowhy) | 27 |
-| 23 | <img src="https://avatars.githubusercontent.com/u/86895196?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[HGUFlyingDog](https://github.com/HGUFlyingDog) | 25 |
+| 23 | <img src="https://avatars.githubusercontent.com/u/86895196?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[HGUFlyingDog](https://github.com/HGUFlyingDog) | 26 |
 | 24 | <img src="https://avatars.githubusercontent.com/u/65570536?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[haroyamada](https://github.com/haroyamada) | 24 |
 | 25 | <img src="https://avatars.githubusercontent.com/u/136059186?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[MiaowCham](https://github.com/MiaowCham) | 22 |
 | 26 | <img src="https://avatars.githubusercontent.com/u/70494801?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Super12138](https://github.com/Super12138) | 20 |
@@ -51,9 +51,9 @@
 | 33 | <img src="https://avatars.githubusercontent.com/u/71890055?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Burial0268](https://github.com/Burial0268) | 14 |
 | 34 | <img src="https://avatars.githubusercontent.com/u/52089819?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Miaoyww](https://github.com/Miaoyww) | 13 |
 | 35 | <img src="https://avatars.githubusercontent.com/u/69256612?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Fanzai7838](https://github.com/Fanzai7838) | 12 |
-| 36 | <img src="https://avatars.githubusercontent.com/u/122847541?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[xiaowumin-mark](https://github.com/xiaowumin-mark) | 11 |
-| 37 | <img src="https://avatars.githubusercontent.com/u/190055247?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />`#190055247` | 11 |
-| 38 | <img src="https://avatars.githubusercontent.com/u/96868062?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Shomi-FJS](https://github.com/Shomi-FJS) | 11 |
+| 36 | <img src="https://avatars.githubusercontent.com/u/96868062?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Shomi-FJS](https://github.com/Shomi-FJS) | 12 |
+| 37 | <img src="https://avatars.githubusercontent.com/u/122847541?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[xiaowumin-mark](https://github.com/xiaowumin-mark) | 11 |
+| 38 | <img src="https://avatars.githubusercontent.com/u/190055247?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />`#190055247` | 11 |
 | 39 | <img src="https://avatars.githubusercontent.com/u/177028641?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[WMH2024](https://github.com/WMH2024) | 10 |
 | 40 | <img src="https://avatars.githubusercontent.com/u/36076482?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[amatke31](https://github.com/amatke31) | 10 |
 | 41 | <img src="https://avatars.githubusercontent.com/u/76810494?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Big-Cake-jpg](https://github.com/Big-Cake-jpg) | 10 |
