@@ -12,7 +12,7 @@
 /
 [AMLL Editor 下一代逐词歌词编辑器](https://github.com/amll-dev/amll-editor)
 
-[AMLL Player 本地播放器](https://github.com/amll-dev/applemusic-like-lyrics/packages/player/README.md)
+[AMLL Player 本地播放器](https://github.com/amll-dev/applemusic-like-lyrics/tree/full-refractor/packages/player/README.md)
 /
 [AMLL Page 网页播放器](https://github.com/apoint123/amll-page)
 
