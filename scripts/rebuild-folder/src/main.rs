@@ -200,7 +200,7 @@ fn load_raw_lyrics(raw_dir: &Path) -> Result<Vec<std::fs::DirEntry>> {
             let file_name_os = entry.file_name();
             let file_name = file_name_os.to_string_lossy();
 
-            if file_name == "raw-lyrics.zip" {
+            if file_name == "raw-lyrics.zip" || file_name == "version.json" {
                 return None;
             }
 
@@ -706,7 +706,7 @@ fn main() -> Result<()> {
         "file_count": raw_lyrics.len(),
     });
 
-    let version_file_path = layout.root.join("version.json");
+    let version_file_path = layout.raw_dir.join("version.json");
     let version_file = std::fs::File::create(&version_file_path)?;
     serde_json::to_writer_pretty(version_file, &version_info)?;
 
