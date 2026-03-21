@@ -358,15 +358,6 @@ fn generate_contributor_report(
         md_file,
         "> 本排名由机器人根据已在库歌词统计元数据信息后自动生成，贡献最多排前，同贡献量排名不分先后。"
     )?;
-
-    let cst_offset = FixedOffset::east_opt(8 * 3600).expect("创建时区失败");
-    let now_cst = Utc::now().with_timezone(&cst_offset);
-
-    writeln!(
-        md_file,
-        "> \n> 最后更新于 {} (UTC+8)",
-        now_cst.format("%Y-%m-%d %H:%M")
-    )?;
     writeln!(md_file)?;
 
     writeln!(
