@@ -46,7 +46,6 @@
 > 本仓库已迁移至 [amll-dev](https://github.com/amll-dev) 组织，仓库链接已更新为 https://github.com/amll-dev/amll-ttml-db ，请下游仓库注意更新。
 
 ***
-
 > [!Important]
 > <details>
 > <summary><h2>A note for non-Chinese contributors:</h2></summary>
@@ -109,7 +108,6 @@
 > >
 > > *Although this format complies with the new standards of Apple Music, we strongly discourage using it because most programs utilizing amll-ttml-db cannot parse it. Furthermore, if you submit lyrics in this format via the Issue, the bot will automatically convert them to the first format.*
 > </details>
-
 ***
 
 # 歌词提交流程
@@ -310,7 +308,7 @@ Apple Music-like Lyrics for BetterNCM 已内置本仓库歌词源，无需手动
 ```
 
 ### 社区镜像源
-
+<details>
 您也可以尝试由社区提供的镜像源，具体使用方法请自行在站内查阅，感谢 [@HelloZGY](https://github.com/cybaka520), [@Luorix](https://github.com/LuorixDev) 与 [@Burial0268](https://github.com/Burial0268) ！
 
 [AMLL TTML DB 镜像站](https://amlldb.bikonoo.com/mirror.html) By [@HelloZGY](https://github.com/cybaka520)
@@ -329,6 +327,7 @@ Apple Music-like Lyrics for BetterNCM 已内置本仓库歌词源，无需手动
 ```text
 c552e13a-19a4-4ff1-9b37-f4cdeb3de9dd|GDBA%E9%95%9C%E5%83%8F%E7%AB%99||ttml|https://amll-ttml-db.gbclstudio.cn/ncm-lyrics/[NCM_ID].ttml
 ```
+</details>  
 
 ## UniLyric [适配最多]
 
