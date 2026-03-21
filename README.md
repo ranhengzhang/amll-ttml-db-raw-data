@@ -299,6 +299,7 @@ Apple Music-like Lyrics for BetterNCM 已内置本仓库歌词源，无需手动
 
 ### 镜像源
 
+<details>
 官方源出于部分原因，可能偶发无法搜索歌词、未搜索到歌词、歌词返回数据异常等问题，您可以使用以下镜像源，在插件设置 - `歌词源` - `从歌词源字符串添加` 中输入以下内容：
 
 作者镜像源 [@Steve-xmh](https://github.com/Steve-xmh)
@@ -308,7 +309,7 @@ Apple Music-like Lyrics for BetterNCM 已内置本仓库歌词源，无需手动
 ```
 
 ### 社区镜像源
-<details>
+
 您也可以尝试由社区提供的镜像源，具体使用方法请自行在站内查阅，感谢 [@HelloZGY](https://github.com/cybaka520), [@Luorix](https://github.com/LuorixDev) 与 [@Burial0268](https://github.com/Burial0268) ！
 
 [AMLL TTML DB 镜像站](https://amlldb.bikonoo.com/mirror.html) By [@HelloZGY](https://github.com/cybaka520)
