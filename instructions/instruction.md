@@ -574,6 +574,26 @@
 
 - 在不影响时间轴精确度的情况下，可以将标点符号作为单独的单词打轴；
 
+- 不得过度使用截断。但以下常见情况除外：
+<table>
+  <thead>
+    <tr>
+      <th>原文</th>
+      <th>处理</th>
+      <th>原因</th>
+      <th>出处</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr style="vertical-align: middle;"><td></td><td></td><td>句中存在长时间的停顿（≥1s）</td><td></td></tr>
+      <tr style="vertical-align: middle;"><td>どうしてこんな目に に に</td><td>どうしてこんな目に // に // に //</td><td>演唱者跟随节拍停顿</td><td>《テトリス》 - 柊マグネタイト/重音テト</td>
+      </tr>
+      <tr style="vertical-align: middle;"><td>いつもの帰り道で ふと気が付いたんだ</td><td>いつもの帰り道で ふと // 気が付いたんだ</td><td>位于演唱者的“气口”</td><td>《Tomorrow's Door》 - Poppin'Party</td></tr>
+      <tr style="vertical-align: middle;"><td>雨が降る予報の日に</td><td>雨 // が // 降 // る // 予 // 報 // の // 日 // に</td><td>演唱者中同时包含真人与虚拟歌手时，区分真人与虚拟歌手，且当前句子的演唱者为虚拟歌手</td><td>《イフ (feat. 花里みのり&桐谷遥&桃井愛莉&日野森雫&初音ミク)》 - MORE MORE JUMP！</td></tr>
+      <tr style="vertical-align: middle;"><td>胸には涙 顔には笑顔で</td><td>胸には涙 // 顔には // 笑顔で</td><td>匹配念白 / 对白 / Talking 的语音节奏</td><td>《冬の花》 - 宮本浩次</td></tr>   
+  </tbody>
+</table> 
+
 - 合理使用对唱/背景视图：
 
   - 背景人声的歌词应单独为一行，放在主唱人声歌词的下一行并标记为背景行；
@@ -655,6 +675,14 @@
 ---
 
 ### 4.1 英语限定
+
+在 [第四章](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/instruction.md#4-%E6%8E%92%E7%89%88) 的基础上，我们对 `按音节的单词拆分` 做出如下额外规定：
+- 拆分后的每个音节至少包含一个 `元音音素`；
+  - 元音音素：指发音时发出这些音节的，如 短元音 /ɪ/ /e/ 等、长元音 /iː/ /ɑː/ 等、双元音 /eɪ/ /ɔɪ/ 等。
+  - 若该音节为 `爆破音` ，可单独拆分；
+    - 爆破音：指发音时发出这些音节的，如 /p/ /b/ /t/ /d/ /k/ /g/。
+- 拆分后的音节数原则上不多于 `权威词典` 中标注的数量。
+  - 权威词典：《牛津词典》(Oxford English Dictionary)、韦氏词典(Merriam-Webster's Collegiate Dictionary) 等。
 
 在 PR 提交的文件（包括机器人处理后的文件）中：
 
