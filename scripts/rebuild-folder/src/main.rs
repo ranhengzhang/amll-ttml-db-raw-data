@@ -200,6 +200,10 @@ fn load_raw_lyrics(raw_dir: &Path) -> Result<Vec<std::fs::DirEntry>> {
             let file_name_os = entry.file_name();
             let file_name = file_name_os.to_string_lossy();
 
+            if file_name == "raw-lyrics.zip" {
+                return None;
+            }
+
             match RawLyricInfo::from_str(&file_name) {
                 Ok(info) => Some((info, entry)),
                 Err(e) => {
@@ -407,7 +411,7 @@ fn generate_zip_archive(layout: &ProjectLayout, entries: &[std::fs::DirEntry]) -
     println!("正在生成 raw-lyrics.zip 压缩包...");
     let start = Instant::now();
 
-    let zip_path = layout.root.join("raw-lyrics.zip");
+    let zip_path = layout.raw_dir.join("raw-lyrics.zip");
     let file = File::create(&zip_path).context("无法创建压缩包文件")?;
 
     let mut zip = zip::ZipWriter::new(file);
