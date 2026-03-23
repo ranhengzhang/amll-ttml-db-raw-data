@@ -46,71 +46,11 @@
 > 本仓库已迁移至 [amll-dev](https://github.com/amll-dev) 组织，仓库链接已更新为 https://github.com/amll-dev/amll-ttml-db ，请下游仓库注意更新。
 
 ***
-> [!Important]
-> <details>
-> <summary><h2>A note for non-Chinese contributors:</h2></summary>
->
-> This database is mainly for Chinese speakers. However, if you're translating lyrics into other languages, please specify it using the "xml:lang" attribute. If Chinese (or other language) version already exists, just keep all.
->
-> Since AMLL series software currently does not support multilingual translations, users should get single-language-translated lyric by third-party tools (e.g. [ranhengzhang/ttml-trans-filter](https://github.com/ranhengzhang/ttml-trans-filter)) before using.
->
-> Looking for more details? 👉[TTML Specification (Section 5.3)](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/ttml-specification-en.md#53-multi-language-and-background-support).
->
-> ---
->
-> *For demonstration purposes, the examples provided below are formatted. Please note that in an actual TTML file, the content is minified according to HTML standards. Keep this in mind when reading the examples and submitting files.*
->
-> ---
->
-> ###### Format 1:
->
-> > **Example Code:**
-> >
-> > ```xml
-> > <p begin="00:21.400" end="00:23.870" ttm:agent="v1" itunes:key="L1">
-> >   <span begin="00:21.400" end="00:22.010">低</span>
-> >   <span begin="00:22.200" end="00:23.010">等</span>
-> >   <span begin="00:23.010" end="00:23.210">动</span>
-> >   <span begin="00:23.210" end="00:23.870">物</span>
-> >   <span ttm:role="x-translation" xml:lang="en-US">Lower beings</span>
-> >   <span ttm:role="x-translation" xml:lang="ja-JP">劣等な生物たちよ</span>
-> > </p>
-> > ```
-> >
-> > **Example File:**
-> >
-> > [HOYOMiX/YMIR - 耀斑](https://github.com/amll-dev/amll-ttml-db/blob/main/raw-lyrics/1752080938784-68000793-8355bb14.ttml)
->
-> ---
->
-> ###### Format 2:
->
-> > **Example Code:**
-> >
-> > ```xml
-> > <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal">
-> >   <translations>
-> >     <translation type="subtitle" xml:lang="zh-Hans">
-> >       <text for="L1">黎明未至</text>
-> >     </translation>
-> >     <translation type="subtitle" xml:lang="el-GR">
-> >       <text for="L1">Πριν απ&apos; την αυγή</text>
-> >     </translation>
-> >   </translations>
-> > </iTunesMetadata>
-> > ```
-> >
-> > **Example File:**
-> >
-> > [Darren Korb - Time Belongs to Us](https://github.com/amll-dev/amll-ttml-db/blob/main/raw-lyrics/1762708573944-68000793-qnjnaX11.ttml)
-> >
-> > ---
-> >
-> > *Although this format complies with the new standards of Apple Music, we strongly discourage using it because most programs utilizing amll-ttml-db cannot parse it. Furthermore, if you submit lyrics in this format via the Issue, the bot will automatically convert them to the first format.*
-> </details>
-***
 
 # 歌词提交流程
+
+> [!IMPORTANT]
+> 提交歌词前，请完整阅读有关 [Wiki](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)！
 
 ## 1. 检查是否重复提交
 
@@ -162,7 +102,7 @@
 
 ### 歌词要求
 
-歌词审核细则参考 [此文件](./instructions/instruction.md) ，以下内容为简要基本要求概述。
+歌词审核细则参考 [此条目](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D) ，以下内容为简要基本要求概述。
 
 #### 硬性要求
 
