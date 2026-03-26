@@ -22,9 +22,9 @@
 
 **—— 本仓库中的重要文档 ——**
 
-[审核细则](./wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)
+[审核细则](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)
 /
-[TTML文件规范](./wiki/%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83)
+[TTML文件规范](https://github.com/amll-dev/amll-ttml-db/wiki/%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83)
 /
 [审核团成员可审核语言](./instructions/Reviewer%20Auditable%20Languages.md)
 
