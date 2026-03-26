@@ -14,7 +14,7 @@
 
 | 排名 | 贡献者 | 贡献次数 |
 | :---: | :--- | :---: |
-| 🥇 | <img src="https://avatars.githubusercontent.com/u/50747104?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Xionghaizi001](https://github.com/Xionghaizi001) | 361 |
+| 🥇 | <img src="https://avatars.githubusercontent.com/u/50747104?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Xionghaizi001](https://github.com/Xionghaizi001) | 362 |
 | 🥈 | <img src="https://avatars.githubusercontent.com/u/50987405?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ITManCHINA](https://github.com/ITManCHINA) | 259 |
 | 🥉 | <img src="https://avatars.githubusercontent.com/u/68000793?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ranhengzhang](https://github.com/ranhengzhang) | 235 |
 | 4 | <img src="https://avatars.githubusercontent.com/u/174598250?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ASyunagi](https://github.com/ASyunagi) | 206 |
@@ -34,7 +34,7 @@
 | 18 | <img src="https://avatars.githubusercontent.com/u/132769718?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Y-CIAO](https://github.com/Y-CIAO) | 34 |
 | 19 | <img src="https://avatars.githubusercontent.com/u/111688524?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[cybaka520](https://github.com/cybaka520) | 32 |
 | 20 | <img src="https://avatars.githubusercontent.com/u/59403448?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[csdeTR](https://github.com/csdeTR) | 32 |
-| 21 | <img src="https://avatars.githubusercontent.com/u/86895196?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[HGUFlyingDog](https://github.com/HGUFlyingDog) | 28 |
+| 21 | <img src="https://avatars.githubusercontent.com/u/86895196?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[HGUFlyingDog](https://github.com/HGUFlyingDog) | 29 |
 | 22 | <img src="https://avatars.githubusercontent.com/u/165106362?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Sakkaku1111](https://github.com/Sakkaku1111) | 27 |
 | 23 | <img src="https://avatars.githubusercontent.com/u/85813508?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[dontknowhy](https://github.com/dontknowhy) | 27 |
 | 24 | <img src="https://avatars.githubusercontent.com/u/65570536?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[haroyamada](https://github.com/haroyamada) | 24 |
