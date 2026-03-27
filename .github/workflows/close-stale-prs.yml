@@ -1,4 +1,4 @@
-name: 关闭超过 3 天未更新的 PR
+name: 关闭超过 7 天未更新的 PR
 
 on:
   schedule:
