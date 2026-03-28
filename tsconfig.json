@@ -1,15 +1,15 @@
 {
+	"include": ["./scripts/close-stale-prs"],
 	"compilerOptions": {
 		// Environment setup & latest features
 		"lib": ["ESNext"],
+		"types": ["bun"],
 		"target": "ESNext",
 		"module": "Preserve",
 		"moduleDetection": "force",
-		"baseUrl": ".",
 		"paths": {
-			"@/*": ["scripts/*"]
+			"@/*": ["./scripts/*"]
 		},
-		"allowJs": false,
 
 		// Bundler mode
 		"moduleResolution": "bundler",
@@ -23,22 +23,14 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"noFallthroughCasesInSwitch": true,
-		"noUncheckedIndexedAccess": true,
 		"noImplicitOverride": true,
 
 		// Some stricter flags
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-		"noPropertyAccessFromIndexSignature": true,
-		"exactOptionalPropertyTypes": true
-	},
-	"exclude": [
-		"node_modules",
-		"am-lyrics",
-		"qq-lyrics",
-		"raw-lyrics",
-		"spotify-lyrics",
-		"Issue-files",
-		"**/target"
-	]
+		"noPropertyAccessFromIndexSignature": false,
+		"noUncheckedIndexedAccess": false,
+		"exactOptionalPropertyTypes": false,
+		"noImplicitReturns": true
+	}
 }

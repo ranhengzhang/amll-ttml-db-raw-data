@@ -1,16 +1,14 @@
-/** biome-ignore-all lint/complexity/useLiteralKeys: 与 ts 配置 noPropertyAccessFromIndexSignature 冲突 */
-
 import { Octokit } from "octokit";
 
 const LABEL_NAME = "待更新";
 const DAYS_THRESHOLD = 7;
 
-const repoEnv = process.env["GITHUB_REPOSITORY"] || "";
-const OWNER = process.env["OWNER"] || repoEnv.split("/")[0] || "amll-dev";
-const REPO = process.env["REPO"] || repoEnv.split("/")[1] || "amll-ttml-db";
-const TOKEN = process.env["GITHUB_TOKEN"];
+const repoEnv = process.env.GITHUB_REPOSITORY || "";
+const OWNER = process.env.OWNER || repoEnv.split("/")[0] || "amll-dev";
+const REPO = process.env.REPO || repoEnv.split("/")[1] || "amll-ttml-db";
+const TOKEN = process.env.GITHUB_TOKEN;
 
-const IS_DRY_RUN = process.env["DRY_RUN"] === "true";
+const IS_DRY_RUN = process.env.DRY_RUN === "true";
 
 if (!OWNER || !REPO || !TOKEN) {
 	console.error(
