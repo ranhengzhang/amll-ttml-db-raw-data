@@ -6,16 +6,17 @@ ScriptType: v4.00+
 Timer: 100.0000
 PlayResX: 1920
 PlayResY: 1080
+Original Script: zh-Hans
+WrapStyle: 0
+ScaledBorderAndShadow: no
 
 [Aegisub Project Garbage]
-Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: roma-furigana,Noto Sans SC ExtraBold,26,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,2,10,10,10,0
-Style: orig-furigana,更纱黑体 SC SemiBold,64,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,10,0,1,4,0,2,10,10,10,1
-Style: orig,更纱黑体 SC SemiBold,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,10,0,1,8,0,2,10,10,10,1
-Style: roma,Noto Sans SC ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
+Style: orig,HarmonyOS Sans SC Black,128,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,10,0,1,8,0,2,10,10,10,1
+Style: roma,阿里巴巴普惠体 3.0 95 ExtraBold,52,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,10,0
+Style: ts,Sarasa Gothic TC,94,&H00D9CA8B,&H00A77F44,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,6.5,0,8,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -25,111 +26,165 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:15.17,0:00:17.46,orig,L__1 x-part:Verse,0,0,0,karaoke,{\ko98}徐{\ko55}徐{\ko22}回{\ko54}望
-Comment: 0,0:00:15.17,0:00:17.46,roma,____ ,0,0,0,karaoke,ceoi4 ceoi4 wui4 mong6
-Comment: 0,0:00:17.74,0:00:21.41,orig,L__2,0,0,0,karaoke,{\ko21}曾{\ko27}属{\ko60}于{\ko41}彼{\ko51}此{\ko40}的{\ko21}晚{\ko106}上
-Comment: 0,0:00:17.74,0:00:21.41,roma,____ ,0,0,0,karaoke,cang4 suk6 jyu1 bei2 ci2 dik1 maan5 soeng6
-Comment: 0,0:00:22.37,0:00:24.50,orig,L__3,0,0,0,karaoke,{\ko32}红{\ko60}红{\ko35}仍{\ko34}是{\ko52}你
-Comment: 0,0:00:22.37,0:00:24.50,roma,____ ,0,0,0,karaoke,hung4 hung4 jing4 si6 nei5
-Comment: 0,0:00:24.82,0:00:28.78,orig,L__4,0,0,0,karaoke,{\ko22}赠{\ko28}我{\ko42}的{\ko98}心{\ko52}中{\ko26}艳{\ko128}阳
-Comment: 0,0:00:24.82,0:00:28.78,roma,____ ,0,0,0,karaoke,zang6 ngo5 dik1 sam1 zung1 jim6 joeng4
-Comment: 0,0:00:29.40,0:00:31.49,orig,L__5,0,0,0,karaoke,{\ko81}如{\ko44}流{\ko38}傻{\ko46}泪
-Comment: 0,0:00:29.40,0:00:31.49,roma,____ ,0,0,0,karaoke,jyu4 lau4 so4 leoi6
-Comment: 0,0:00:31.84,0:00:35.67,orig,L__6,0,0,0,karaoke,{\ko25}祈{\ko21}望{\ko65}可{\ko40}体{\ko34}恤{\ko18}{\ko46}兼{\ko20}见{\ko114}谅
-Comment: 0,0:00:31.84,0:00:35.67,roma,____ ,0,0,0,karaoke,kei4 mong6 ho2 tai2 seot1 gim1 gin3 loeng6
-Comment: 0,0:00:36.49,0:00:38.60,orig,L__7,0,0,0,karaoke,{\ko26}明{\ko53}晨{\ko56}离{\ko19}别{\ko57}你
-Comment: 0,0:00:36.49,0:00:38.60,roma,____ ,0,0,0,karaoke,ming4 san4 lei4 bit6 nei5
-Comment: 0,0:00:38.94,0:00:42.86,orig,L__8,0,0,0,karaoke,{\ko22}路{\ko21}也{\ko72}许{\ko42}孤{\ko43}单{\ko36}得{\ko30}漫{\ko126}长
-Comment: 0,0:00:38.94,0:00:42.86,roma,____ ,0,0,0,karaoke,lou6 jaa5 heoi2 gu1 daan1 dak1 maan6 coeng4
-Comment: 0,0:00:43.52,0:00:46.72,orig,L__9 x-part:PreChorus,0,0,0,karaoke,{\ko29}一{\ko46}瞬{\ko36}间{\ko26} {\ko23}太{\ko22}多{\ko16}东{\ko29}西{\ko24}要{\ko69}讲
-Comment: 0,0:00:43.52,0:00:46.72,roma,____ ,0,0,0,karaoke,jat1 seon3 gaan1 taai3 do1 dung1 sai1 jiu3 gong2
-Comment: 0,0:00:47.08,0:00:49.87,orig,L_10,0,0,0,karaoke,{\ko26}可{\ko29}惜{\ko29}即{\ko50}将{\ko46}在{\ko27}各{\ko14}一{\ko58}方
-Comment: 0,0:00:47.08,0:00:49.87,roma,____ ,0,0,0,karaoke,ho2 sik1 zik1 zoeng1 zoi6 gok3 jat1 fong1
-Comment: 0,0:00:50.21,0:00:55.99,orig,L_11,0,0,0,karaoke,{\ko20}只{\ko18}好{\ko27}深{\ko66}深{\ko39}把{\ko26}这{\ko68}刻{\ko36}{\ko50}尽{\ko24}凝{\ko204}望
-Comment: 0,0:00:50.21,0:00:55.99,roma,____ ,0,0,0,karaoke,zi2 hou2 sam1 sam1 baa2 ze5 hak1 zeon6 jing4 mong6
-Comment: 0,0:00:56.67,0:01:00.00,orig,L_12 x-part:Chorus,0,0,0,karaoke,{\ko40}来{\ko18}日{\ko20}纵{\ko24}使{\ko89}千{\ko48}千{\ko24}阕{\ko70}歌
-Comment: 0,0:00:56.67,0:01:00.00,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 kyut3 go1
-Comment: 0,0:01:00.38,0:01:03.26,orig,L_13,0,0,0,karaoke,{\ko23}飘{\ko22}于{\ko15}远{\ko28}方{\ko44}我{\ko19}路{\ko137}上
-Comment: 0,0:01:00.38,0:01:03.26,roma,____ ,0,0,0,karaoke,piu1 jyu1 jyun5 fong1 ngo5 lou6 soeng6
-Comment: 0,0:01:03.87,0:01:07.05,orig,L_14,0,0,0,karaoke,{\ko29}来{\ko17}日{\ko19}纵{\ko23}使{\ko84}千{\ko52}千{\ko18}晚{\ko76}星
-Comment: 0,0:01:03.87,0:01:07.05,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 maan5 sing1
-Comment: 0,0:01:07.40,0:01:11.02,orig,L_15,0,0,0,karaoke,{\ko38}亮{\ko27}过{\ko27}今{\ko46}晚{\ko17}月{\ko207}亮
-Comment: 0,0:01:07.40,0:01:11.02,roma,____ ,0,0,0,karaoke,loeng6 gwo3 gam1 maan5 jyut6 loeng6
-Comment: 0,0:01:11.47,0:01:14.62,orig,L_16,0,0,0,karaoke,{\ko16}都{\ko27}比{\ko81}不{\ko46}起{\ko18}这{\ko47}宵{\ko29}美{\ko51}丽
-Comment: 0,0:01:11.47,0:01:14.62,roma,____ ,0,0,0,karaoke,dou1 bei2 bat1 hei2 ze5 siu1 mei5 lai6
-Comment: 0,0:01:14.93,0:01:18.11,orig,L_17,0,0,0,karaoke,{\ko20}亦{\ko14}绝{\ko13}{\ko29}不{\ko50}可{\ko49}使{\ko21}我{\ko9}{\ko41}更{\ko14}欣{\ko58}赏
-Comment: 0,0:01:14.93,0:01:18.11,roma,____ ,0,0,0,karaoke,jik6 zyut6 bat1 ho2 si2 ngo5 gang3 jan1 soeng2
-Comment: 0,0:01:18.47,0:01:25.46,orig,L_18,0,0,0,karaoke,{\ko41}A{\ko64}H{\ko22} {\ko49}因{\ko24}你{\ko61}今{\ko50}晚{\ko25}共{\ko56}我{\ko307}唱
-Comment: 0,0:01:18.47,0:01:25.46,roma,____ ,0,0,0,karaoke,jan1 nei5 gam1 maan5 gung6 ngo5 coeng3
-Comment: 0,0:01:57.64,0:01:59.82,orig,L_19 x-part:Verse,0,0,0,karaoke,{\ko84}临{\ko58}行{\ko32}临{\ko44}别
-Comment: 0,0:01:57.64,0:01:59.82,roma,____ ,0,0,0,karaoke,lam4 hang4 lam4 bit6
-Comment: 0,0:02:00.18,0:02:03.90,orig,L_20,0,0,0,karaoke,{\ko26}才{\ko24}顿{\ko65}感{\ko24}哀{\ko64}伤{\ko28}的{\ko13}{\ko28}漂{\ko100}亮
-Comment: 0,0:02:00.18,0:02:03.90,roma,____ ,0,0,0,karaoke,coi4 deon6 gam2 oi1 soeng1 dik1 piu3 loeng6
-Comment: 0,0:02:04.77,0:02:06.92,orig,L_21,0,0,0,karaoke,{\ko31}原{\ko55}来{\ko47}全{\ko36}是{\ko46}你
-Comment: 0,0:02:04.77,0:02:06.92,roma,____ ,0,0,0,karaoke,jyun4 loi4 cyun4 si6 nei5
-Comment: 0,0:02:07.27,0:02:11.15,orig,L_22,0,0,0,karaoke,{\ko27}令{\ko24}我{\ko36}的{\ko111}思{\ko44}忆{\ko24}漫{\ko122}长
-Comment: 0,0:02:07.27,0:02:11.15,roma,____ ,0,0,0,karaoke,ling6 ngo5 dik1 si1 jik1 maan6 coeng4
-Comment: 0,0:02:11.86,0:02:13.98,orig,L_23,0,0,0,karaoke,{\ko80}何{\ko48}年{\ko42}何{\ko42}月
-Comment: 0,0:02:11.86,0:02:13.98,roma,____ ,0,0,0,karaoke,ho4 nin4 ho4 jyut6
-Comment: 0,0:02:14.30,0:02:18.16,orig,L_24,0,0,0,karaoke,{\ko26}才{\ko22}又{\ko55}可{\ko11}{\ko31}今{\ko59}宵{\ko70}一{\ko112}样
-Comment: 0,0:02:14.30,0:02:18.16,roma,____ ,0,0,0,karaoke,coi4 jau6 ho2 gam1 siu1 jat1 joeng4
-Comment: 0,0:02:18.94,0:02:21.12,orig,L_25,0,0,0,karaoke,{\ko28}停{\ko69}留{\ko35}凝{\ko31}望{\ko55}里
-Comment: 0,0:02:18.94,0:02:21.12,roma,____ ,0,0,0,karaoke,ting4 lau4 jing4 mong6 lei5
-Comment: 0,0:02:21.44,0:02:25.22,orig,L_26,0,0,0,karaoke,{\ko24}让{\ko21}眼{\ko64}睛{\ko48}讲{\ko31}彼{\ko49}此{\ko25}立{\ko116}场
-Comment: 0,0:02:21.44,0:02:25.22,roma,____ ,0,0,0,karaoke,joeng6 ngaan5 zing1 gong2 bei2 ci2 laap6 coeng4
-Comment: 0,0:02:26.07,0:02:27.13,orig,L_27 x-part:PreChorus,0,0,0,karaoke,{\ko38}当{\ko30}某{\ko38}天
-Comment: 0,0:02:26.07,0:02:27.13,roma,____ ,0,0,0,karaoke,dong1 mau5 tin1
-Comment: 0,0:02:27.40,0:02:28.91,orig,L_28,0,0,0,karaoke,{\ko21}雨{\ko16}点{\ko21}轻{\ko25}敲{\ko20}你{\ko48}窗
-Comment: 0,0:02:27.40,0:02:28.91,roma,____ ,0,0,0,karaoke,jyu5 dim2 hing1 haau1 nei5 coeng1
-Comment: 0,0:02:29.38,0:02:32.29,orig,L_29,0,0,0,karaoke,{\ko16}当{\ko39}风{\ko43}声{\ko50}吹{\ko37}乱{\ko31}你{\ko24}构{\ko51}想
-Comment: 0,0:02:29.38,0:02:32.29,roma,____ ,0,0,0,karaoke,dong1 fung1 sing1 ceoi1 lyun6 nei5 kau3 soeng2
-Comment: 0,0:02:32.64,0:02:38.43,orig,L_30,0,0,0,karaoke,{\ko17}可{\ko24}否{\ko26}抽{\ko54}空{\ko53}想{\ko27}这{\ko66}张{\ko43}{\ko42}旧{\ko24}模{\ko203}样
-Comment: 0,0:02:32.64,0:02:38.43,roma,____ ,0,0,0,karaoke,ho2 fau2 cau1 hung1 soeng2 ze5 zoeng1 gau6 mou4 joeng4
-Comment: 0,0:02:39.10,0:02:42.50,orig,L_31 x-part:Chorus,0,0,0,karaoke,{\ko35}来{\ko20}日{\ko20}纵{\ko24}使{\ko86}千{\ko52}千{\ko15}阕{\ko10}{\ko78}歌
-Comment: 0,0:02:39.10,0:02:42.50,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 kyut3 go1
-Comment: 0,0:02:42.81,0:02:45.75,orig,L_32,0,0,0,karaoke,{\ko22}飘{\ko22}于{\ko18}远{\ko30}方{\ko46}我{\ko15}路{\ko141}上
-Comment: 0,0:02:42.81,0:02:45.75,roma,____ ,0,0,0,karaoke,piu1 jyu1 jyun5 fong1 ngo5 lou6 soeng6
-Comment: 0,0:02:46.34,0:02:49.51,orig,L_33,0,0,0,karaoke,{\ko27}来{\ko17}日{\ko18}纵{\ko21}使{\ko89}千{\ko45}千{\ko23}晚{\ko77}星
-Comment: 0,0:02:46.34,0:02:49.51,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 maan5 sing1
-Comment: 0,0:02:49.83,0:02:53.50,orig,L_34,0,0,0,karaoke,{\ko37}亮{\ko33}过{\ko23}今{\ko48}晚{\ko19}月{\ko207}亮
-Comment: 0,0:02:49.83,0:02:53.50,roma,____ ,0,0,0,karaoke,loeng6 gwo3 gam1 maan5 jyut6 loeng6
-Comment: 0,0:02:53.92,0:02:57.02,orig,L_35,0,0,0,karaoke,{\ko20}都{\ko17}比{\ko9}{\ko75}不{\ko46}起{\ko23}这{\ko49}宵{\ko24}美{\ko47}丽
-Comment: 0,0:02:53.92,0:02:57.02,roma,____ ,0,0,0,karaoke,dou1 bei2 bat1 hei2 ze5 siu1 mei5 lai6
-Comment: 0,0:02:57.40,0:03:00.58,orig,L_36,0,0,0,karaoke,{\ko16}亦{\ko17}绝{\ko12}{\ko27}不{\ko48}可{\ko53}使{\ko22}我{\ko48}更{\ko16}欣{\ko59}赏
-Comment: 0,0:02:57.40,0:03:00.58,roma,____ ,0,0,0,karaoke,jik6 zyut6 bat1 ho2 si2 ngo5 gang3 jan1 soeng2
-Comment: 0,0:03:00.97,0:03:07.57,orig,L_37,0,0,0,karaoke,{\ko39}A{\ko56}H{\ko27} {\ko46}因{\ko25}你{\ko66}今{\ko46}晚{\ko25}共{\ko59}我{\ko271}唱
-Comment: 0,0:03:00.97,0:03:07.57,roma,____ ,0,0,0,karaoke,jan1 nei5 gam1 maan5 gung6 ngo5 coeng3
-Comment: 0,0:03:20.72,0:03:25.31,orig,L_38 x-part:Refrain,0,0,0,karaoke,{\ko139}HA {\ko22}怎{\ko23}都{\ko46}比{\ko39}不{\ko44}起{\ko22}这{\ko49}宵{\ko19}美{\ko56}丽
-Comment: 0,0:03:20.72,0:03:25.31,roma,____ ,0,0,0,karaoke,zam2 dou1 bei2 bat1 hei2 ze5 siu1 mei5 lai6
-Comment: 0,0:03:25.67,0:03:28.84,orig,L_39,0,0,0,karaoke,{\ko19}亦{\ko16}绝{\ko10}{\ko31}不{\ko46}可{\ko56}使{\ko21}我{\ko47}更{\ko14}欣{\ko57}赏
-Comment: 0,0:03:25.67,0:03:28.84,roma,____ ,0,0,0,karaoke,jik6 zyut6 bat1 ho2 si2 ngo5 gang3 jan1 soeng2
-Comment: 0,0:03:29.18,0:03:35.30,orig,L_40,0,0,0,karaoke,{\ko25}因{\ko17}今{\ko97}宵{\ko38}的{\ko25}我{\ko108}可{\ko24}共{\ko60}你{\ko218}唱
-Comment: 0,0:03:29.18,0:03:35.30,roma,____ ,0,0,0,karaoke,jan1 gam1 siu1 dik1 ngo5 ho2 gung6 nei5 coeng3
-Comment: 0,0:03:35.69,0:03:39.00,orig,L_41 x-part:Chorus,0,0,0,karaoke,{\ko37}来{\ko16}日{\ko21}纵{\ko24}使{\ko87}千{\ko51}千{\ko20}阕{\ko75}歌
-Comment: 0,0:03:35.69,0:03:39.00,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 kyut3 go1
-Comment: 0,0:03:39.34,0:03:42.31,orig,L_42,0,0,0,karaoke,{\ko24}飘{\ko22}于{\ko16}远{\ko29}方{\ko45}我{\ko21}路{\ko140}上
-Comment: 0,0:03:39.34,0:03:42.31,roma,____ ,0,0,0,karaoke,piu1 jyu1 jyun5 fong1 ngo5 lou6 soeng6
-Comment: 0,0:03:42.84,0:03:46.05,orig,L_43,0,0,0,karaoke,{\ko27}来{\ko15}日{\ko22}纵{\ko24}使{\ko84}千{\ko46}千{\ko23}晚{\ko80}星
-Comment: 0,0:03:42.84,0:03:46.05,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 maan5 sing1
-Comment: 0,0:03:46.39,0:03:50.02,orig,L_44,0,0,0,karaoke,{\ko37}亮{\ko30}过{\ko28}今{\ko38}晚{\ko22}月{\ko208}亮
-Comment: 0,0:03:46.39,0:03:50.02,roma,____ ,0,0,0,karaoke,loeng6 gwo3 gam1 maan5 jyut6 loeng6
-Comment: 0,0:03:50.43,0:03:53.56,orig,L_45,0,0,0,karaoke,{\ko17}都{\ko25}比{\ko85}不{\ko44}起{\ko19}这{\ko52}宵{\ko20}美{\ko51}丽
-Comment: 0,0:03:50.43,0:03:53.56,roma,____ ,0,0,0,karaoke,dou1 bei2 bat1 hei2 ze5 siu1 mei5 lai6
-Comment: 0,0:03:53.93,0:03:57.14,orig,L_46,0,0,0,karaoke,{\ko19}亦{\ko22}绝{\ko34}不{\ko49}可{\ko50}使{\ko24}我{\ko48}更{\ko15}欣{\ko60}赏
-Comment: 0,0:03:53.93,0:03:57.14,roma,____ ,0,0,0,karaoke,jik6 zyut6 bat1 ho2 si2 ngo5 gang3 jan1 soeng2
-Comment: 0,0:03:57.48,0:04:03.39,orig,L_47,0,0,0,karaoke,{\ko42}A{\ko54}H{\ko30} {\ko44}因{\ko29}你{\ko65}今{\ko39}晚{\ko24}共{\ko60}我{\ko204}唱
-Comment: 0,0:03:57.48,0:04:03.39,roma,____ ,0,0,0,karaoke,jan1 nei5 gam1 maan5 gung6 ngo5 coeng3
-Comment: 0,0:04:03.97,0:04:07.30,orig,L_48 x-part:Refrain,0,0,0,karaoke,{\ko31}来{\ko20}日{\ko20}纵{\ko23}使{\ko86}千{\ko54}千{\ko15}阕{\ko9}{\ko75}歌
-Comment: 0,0:04:03.97,0:04:07.30,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 kyut3 go1
-Comment: 0,0:04:07.66,0:04:10.62,orig,L_49,0,0,0,karaoke,{\ko20}飘{\ko21}于{\ko16}远{\ko32}方{\ko44}我{\ko15}路{\ko148}上
-Comment: 0,0:04:07.66,0:04:10.62,roma,____ ,0,0,0,karaoke,piu1 jyu1 jyun5 fong1 ngo5 lou6 soeng6
-Comment: 0,0:04:11.15,0:04:14.33,orig,L_50,0,0,0,karaoke,{\ko27}来{\ko16}日{\ko18}纵{\ko24}使{\ko86}千{\ko49}千{\ko21}晚{\ko77}星
-Comment: 0,0:04:11.15,0:04:14.33,roma,____ ,0,0,0,karaoke,loi4 jat6 zung3 si2 cin1 cin1 maan5 sing1
-Comment: 0,0:04:14.66,0:04:18.28,orig,L_51,0,0,0,karaoke,{\ko41}亮{\ko29}过{\ko27}今{\ko46}晚{\ko22}月{\ko197}亮
-Comment: 0,0:04:14.66,0:04:18.28,roma,____ ,0,0,0,karaoke,loeng6 gwo3 gam1 maan5 jyut6 loeng6
-Comment: 0,0:04:18.61,0:04:21.83,orig,L_52,0,0,0,karaoke,{\ko25}都{\ko24}比{\ko84}不{\ko48}起{\ko20}这{\ko49}宵{\ko27}美{\ko45}丽
-Comment: 0,0:04:18.61,0:04:21.83,roma,____ ,0,0,0,karaoke,dou1 bei2 bat1 hei2 ze5 siu1 mei5 lai6
-Comment: 0,0:04:22.22,0:04:25.40,orig,L_53,0,0,0,karaoke,{\ko15}都{\ko27}洗{\ko35}不{\ko48}清{\ko11}{\ko38}今{\ko25}晚{\ko34}我{\ko27}所{\ko58}想
-Comment: 0,0:04:22.22,0:04:25.40,roma,____ ,0,0,0,karaoke,dou1 sai2 bat1 cing1 gam1 maan5 ngo5 so2 soeng2
-Comment: 0,0:04:25.75,0:04:32.36,orig,L_54,0,0,0,karaoke,{\ko47}因{\ko78}不{\ko47}知{\ko28}哪{\ko60}天{\ko50}再{\ko20}共{\ko61}你{\ko270}唱
-Comment: 0,0:04:25.75,0:04:32.36,roma,____ ,0,0,0,karaoke,jan1 bat1 zi1 naa5 tin1 zoi3 gung6 nei5 coeng3
+Dialogue: 0,0:00:15.17,0:00:17.46,orig,L__1 x-part:Verse,0,0,0,karaoke,{\k98}徐{\k55}徐{\k22}回{\k54}望
+Dialogue: 0,0:00:15.17,0:00:17.46,roma,____,0,0,0,karaoke,{\k98}ceoi4 {\k55}ceoi4 {\k22}wui4 {\k54}mong6
+Dialogue: 0,0:00:15.17,0:00:17.46,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko98}徐{\ko55}徐{\ko22}回{\ko54}望
+Dialogue: 0,0:00:17.74,0:00:21.41,orig,L__2,0,0,0,karaoke,{\k21}曾{\k27}屬{\k60}於{\k41}彼{\k51}此{\k40}的{\k21}晚{\k106}上
+Dialogue: 0,0:00:17.74,0:00:21.41,roma,____,0,0,0,karaoke,{\k21}cang4 {\k27}suk6 {\k60}jyu1 {\k41}bei2 {\k51}ci2 {\k40}dik1 {\k21}maan5 {\k106}soeng6
+Dialogue: 0,0:00:17.74,0:00:21.41,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko21}曾{\ko27}属{\ko60}于{\ko41}彼{\ko51}此{\ko40}的{\ko21}晚{\ko106}上
+Dialogue: 0,0:00:22.37,0:00:24.50,orig,L__3,0,0,0,karaoke,{\k32}紅{\k60}紅{\k35}仍{\k34}是{\k52}你
+Dialogue: 0,0:00:22.37,0:00:24.50,roma,____,0,0,0,karaoke,{\k32}hung4 {\k60}hung4 {\k35}jing4 {\k34}si6 {\k52}nei5
+Dialogue: 0,0:00:22.37,0:00:24.50,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko32}红{\ko60}红{\ko35}仍{\ko34}是{\ko52}你
+Dialogue: 0,0:00:24.82,0:00:28.78,orig,L__4,0,0,0,karaoke,{\k22}贈{\k28}我{\k42}的{\k98}心{\k52}中{\k26}艷{\k128}陽
+Dialogue: 0,0:00:24.82,0:00:28.78,roma,____,0,0,0,karaoke,{\k22}zang6 {\k28}ngo5 {\k42}dik1 {\k98}sam1 {\k52}zung1 {\k26}jim6 {\k128}joeng4
+Dialogue: 0,0:00:24.82,0:00:28.78,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko22}赠{\ko28}我{\ko42}的{\ko98}心{\ko52}中{\ko26}艳{\ko128}阳
+Dialogue: 0,0:00:29.40,0:00:31.49,orig,L__5,0,0,0,karaoke,{\k81}如{\k44}流{\k38}儍{\k46}涙
+Dialogue: 0,0:00:29.40,0:00:31.49,roma,____,0,0,0,karaoke,{\k81}jyu4 {\k44}lau4 {\k38}so4 {\k46}leoi6
+Dialogue: 0,0:00:29.40,0:00:31.49,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko81}如{\ko44}流{\ko38}傻{\ko46}泪
+Dialogue: 0,0:00:31.84,0:00:35.67,orig,L__6,0,0,0,karaoke,{\k25}祈{\k21}望{\k65}可{\k40}體{\k34}恤{\k18}{\k46}兼{\k20}見{\k114}諒
+Dialogue: 0,0:00:31.84,0:00:35.67,roma,____,0,0,0,karaoke,{\k25}kei4 {\k21}mong6 {\k65}ho2 {\k40}tai2 {\k34}seot1 {\k18}{\k46}gim1 {\k20}gin3 {\k114}loeng6
+Dialogue: 0,0:00:31.84,0:00:35.67,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko25}祈{\ko21}望{\ko65}可{\ko40}体{\ko34}恤{\ko18}{\ko46}兼{\ko20}见{\ko114}谅
+Dialogue: 0,0:00:36.49,0:00:38.60,orig,L__7,0,0,0,karaoke,{\k26}明{\k53}晨{\k56}離{\k19}別{\k57}你
+Dialogue: 0,0:00:36.49,0:00:38.60,roma,____,0,0,0,karaoke,{\k26}ming4 {\k53}san4 {\k56}lei4 {\k19}bit6 {\k57}nei5
+Dialogue: 0,0:00:36.49,0:00:38.60,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko26}明{\ko53}晨{\ko56}离{\ko19}别{\ko57}你
+Dialogue: 0,0:00:38.94,0:00:42.86,orig,L__8,0,0,0,karaoke,{\k22}路{\k21}也{\k72}許{\k42}孤{\k43}單{\k36}得{\k30}漫{\k126}長
+Dialogue: 0,0:00:38.94,0:00:42.86,roma,____,0,0,0,karaoke,{\k22}lou6 {\k21}jaa5 {\k72}heoi2 {\k42}gu1 {\k43}daan1 {\k36}dak1 {\k30}maan6 {\k126}coeng4
+Dialogue: 0,0:00:38.94,0:00:42.86,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko22}路{\ko21}也{\ko72}许{\ko42}孤{\ko43}单{\ko36}得{\ko30}漫{\ko126}长
+Dialogue: 0,0:00:43.52,0:00:46.72,orig,L__9 x-part:PreChorus,0,0,0,karaoke,{\k29}一{\k46}瞬{\k36}間 {\k26}{\k23}太{\k22}多{\k16}東{\k29}西{\k24}要{\k69}講
+Dialogue: 0,0:00:43.52,0:00:46.72,roma,____,0,0,0,karaoke,{\k29}jat1 {\k46}seon3 {\k36}gaan1 {\k26}{\k23}taai3 {\k22}do1 {\k16}dung1 {\k29}sai1 {\k24}jiu3 {\k69}gong2
+Dialogue: 0,0:00:43.52,0:00:46.72,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko29}一{\ko46}瞬{\ko36}间{\ko26} {\ko23}太{\ko22}多{\ko16}东{\ko29}西{\ko24}要{\ko69}讲
+Dialogue: 0,0:00:47.08,0:00:49.87,orig,L_10,0,0,0,karaoke,{\k26}可{\k29}惜{\k29}即{\k50}將{\k46}在{\k27}各{\k14}一{\k58}方
+Dialogue: 0,0:00:47.08,0:00:49.87,roma,____,0,0,0,karaoke,{\k26}ho2 {\k29}sik1 {\k29}zik1 {\k50}zoeng1 {\k46}zoi6 {\k27}gok3 {\k14}jat1 {\k58}fong1
+Dialogue: 0,0:00:47.08,0:00:49.87,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko26}可{\ko29}惜{\ko29}即{\ko50}将{\ko46}在{\ko27}各{\ko14}一{\ko58}方
+Dialogue: 0,0:00:50.21,0:00:55.99,orig,L_11,0,0,0,karaoke,{\k20}只{\k18}好{\k27}深{\k66}深{\k39}把{\k26}這{\k68}刻{\k36}{\k50}盡{\k24}凝{\k204}望
+Dialogue: 0,0:00:50.21,0:00:55.99,roma,____,0,0,0,karaoke,{\k20}zi2 {\k18}hou2 {\k27}sam1 {\k66}sam1 {\k39}baa2 {\k26}ze5 {\k68}hak1 {\k36}{\k50}zeon6 {\k24}jing4 {\k204}mong6
+Dialogue: 0,0:00:50.21,0:00:55.99,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko20}只{\ko18}好{\ko27}深{\ko66}深{\ko39}把{\ko26}这{\ko68}刻{\ko36}{\ko50}尽{\ko24}凝{\ko204}望
+Dialogue: 0,0:00:56.67,0:01:00.00,orig,L_12 x-part:Chorus,0,0,0,karaoke,{\k40}來{\k18}日{\k20}縱{\k24}使{\k89}千{\k48}千{\k24}闋{\k70}歌
+Dialogue: 0,0:00:56.67,0:01:00.00,roma,____,0,0,0,karaoke,{\k40}loi4 {\k18}jat6 {\k20}zung3 {\k24}si2 {\k89}cin1 {\k48}cin1 {\k24}kyut3 {\k70}go1
+Dialogue: 0,0:00:56.67,0:01:00.00,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko40}来{\ko18}日{\ko20}纵{\ko24}使{\ko89}千{\ko48}千{\ko24}阕{\ko70}歌
+Dialogue: 0,0:01:00.38,0:01:03.26,orig,L_13,0,0,0,karaoke,{\k23}飄{\k22}於{\k15}遠{\k28}方{\k44}我{\k19}路{\k137}上
+Dialogue: 0,0:01:00.38,0:01:03.26,roma,____,0,0,0,karaoke,{\k23}piu1 {\k22}jyu1 {\k15}jyun5 {\k28}fong1 {\k44}ngo5 {\k19}lou6 {\k137}soeng6
+Dialogue: 0,0:01:00.38,0:01:03.26,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko23}飘{\ko22}于{\ko15}远{\ko28}方{\ko44}我{\ko19}路{\ko137}上
+Dialogue: 0,0:01:03.87,0:01:07.05,orig,L_14,0,0,0,karaoke,{\k29}來{\k17}日{\k19}縱{\k23}使{\k84}千{\k52}千{\k18}晚{\k76}星
+Dialogue: 0,0:01:03.87,0:01:07.05,roma,____,0,0,0,karaoke,{\k29}loi4 {\k17}jat6 {\k19}zung3 {\k23}si2 {\k84}cin1 {\k52}cin1 {\k18}maan5 {\k76}sing1
+Dialogue: 0,0:01:03.87,0:01:07.05,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko29}来{\ko17}日{\ko19}纵{\ko23}使{\ko84}千{\ko52}千{\ko18}晚{\ko76}星
+Dialogue: 0,0:01:07.40,0:01:11.02,orig,L_15,0,0,0,karaoke,{\k38}亮{\k27}過{\k27}今{\k46}晚{\k17}月{\k207}亮
+Dialogue: 0,0:01:07.40,0:01:11.02,roma,____,0,0,0,karaoke,{\k38}loeng6 {\k27}gwo3 {\k27}gam1 {\k46}maan5 {\k17}jyut6 {\k207}loeng6
+Dialogue: 0,0:01:07.40,0:01:11.02,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko38}亮{\ko27}过{\ko27}今{\ko46}晚{\ko17}月{\ko207}亮
+Dialogue: 0,0:01:11.47,0:01:14.62,orig,L_16,0,0,0,karaoke,{\k16}都{\k27}比{\k81}不{\k46}起{\k18}這{\k47}宵{\k29}美{\k51}麗
+Dialogue: 0,0:01:11.47,0:01:14.62,roma,____,0,0,0,karaoke,{\k16}dou1 {\k27}bei2 {\k81}bat1 {\k46}hei2 {\k18}ze5 {\k47}siu1 {\k29}mei5 {\k51}lai6
+Dialogue: 0,0:01:11.47,0:01:14.62,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko16}都{\ko27}比{\ko81}不{\ko46}起{\ko18}这{\ko47}宵{\ko29}美{\ko51}丽
+Dialogue: 0,0:01:14.93,0:01:18.11,orig,L_17,0,0,0,karaoke,{\k20}亦{\k14}絕{\k13}{\k29}不{\k50}可{\k49}使{\k21}我{\k9}{\k41}更{\k14}欣{\k58}賞
+Dialogue: 0,0:01:14.93,0:01:18.11,roma,____,0,0,0,karaoke,{\k20}jik6 {\k14}zyut6 {\k13}{\k29}bat1 {\k50}ho2 {\k49}si2 {\k21}ngo5 {\k9}{\k41}gang3 {\k14}jan1 {\k58}soeng2
+Dialogue: 0,0:01:14.93,0:01:18.11,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko20}亦{\ko14}绝{\ko13}{\ko29}不{\ko50}可{\ko49}使{\ko21}我{\ko9}{\ko41}更{\ko14}欣{\ko58}赏
+Dialogue: 0,0:01:18.47,0:01:25.46,orig,L_18,0,0,0,karaoke,{\k41}A{\k64}H{\k22} {\k49}因{\k24}你{\k61}今{\k50}晚{\k25}共{\k56}我{\k307}唱
+Dialogue: 0,0:01:18.47,0:01:25.46,roma,____,0,0,0,karaoke,{\k41}a{\k64}h {\k22}{\k49}jan1 {\k24}nei5 {\k61}gam1 {\k50}maan5 {\k25}gung6 {\k56}ngo5 {\k307}coeng3
+Dialogue: 0,0:01:18.47,0:01:25.46,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko41}A{\ko64}H {\ko22}{\ko49}因{\ko24}你{\ko61}今{\ko50}晚{\ko25}共{\ko56}我{\ko307}唱
+Dialogue: 0,0:01:57.64,0:01:59.82,orig,L_19 x-part:Verse,0,0,0,karaoke,{\k84}臨{\k58}行{\k32}臨{\k44}別
+Dialogue: 0,0:01:57.64,0:01:59.82,roma,____,0,0,0,karaoke,{\k84}lam4 {\k58}hang4 {\k32}lam4 {\k44}bit6
+Dialogue: 0,0:01:57.64,0:01:59.82,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko84}临{\ko58}行{\ko32}临{\ko44}别
+Dialogue: 0,0:02:00.18,0:02:03.90,orig,L_20,0,0,0,karaoke,{\k26}才{\k24}頓{\k65}感{\k24}哀{\k64}傷{\k28}的{\k13}{\k28}漂{\k100}亮
+Dialogue: 0,0:02:00.18,0:02:03.90,roma,____,0,0,0,karaoke,{\k26}coi4 {\k24}deon6 {\k65}gam2 {\k24}oi1 {\k64}soeng1 {\k28}dik1 {\k13}{\k28}piu3 {\k100}loeng6
+Dialogue: 0,0:02:00.18,0:02:03.90,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko26}才{\ko24}顿{\ko65}感{\ko24}哀{\ko64}伤{\ko28}的{\ko13}{\ko28}漂{\ko100}亮
+Dialogue: 0,0:02:04.77,0:02:06.92,orig,L_21,0,0,0,karaoke,{\k31}原{\k55}來{\k47}全{\k36}是{\k46}你
+Dialogue: 0,0:02:04.77,0:02:06.92,roma,____,0,0,0,karaoke,{\k31}jyun4 {\k55}loi4 {\k47}cyun4 {\k36}si6 {\k46}nei5
+Dialogue: 0,0:02:04.77,0:02:06.92,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko31}原{\ko55}来{\ko47}全{\ko36}是{\ko46}你
+Dialogue: 0,0:02:07.27,0:02:11.15,orig,L_22,0,0,0,karaoke,{\k27}令{\k24}我{\k36}的{\k111}思{\k44}憶{\k24}漫{\k122}長
+Dialogue: 0,0:02:07.27,0:02:11.15,roma,____,0,0,0,karaoke,{\k27}ling6 {\k24}ngo5 {\k36}dik1 {\k111}si1 {\k44}jik1 {\k24}maan6 {\k122}coeng4
+Dialogue: 0,0:02:07.27,0:02:11.15,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko27}令{\ko24}我{\ko36}的{\ko111}思{\ko44}忆{\ko24}漫{\ko122}长
+Dialogue: 0,0:02:11.86,0:02:13.98,orig,L_23,0,0,0,karaoke,{\k80}何{\k48}年{\k42}何{\k42}月
+Dialogue: 0,0:02:11.86,0:02:13.98,roma,____,0,0,0,karaoke,{\k80}ho4 {\k48}nin4 {\k42}ho4 {\k42}jyut6
+Dialogue: 0,0:02:11.86,0:02:13.98,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko80}何{\ko48}年{\ko42}何{\ko42}月
+Dialogue: 0,0:02:14.30,0:02:18.16,orig,L_24,0,0,0,karaoke,{\k26}才{\k22}又{\k55}可{\k11}{\k31}今{\k59}宵{\k70}一{\k112}樣
+Dialogue: 0,0:02:14.30,0:02:18.16,roma,____,0,0,0,karaoke,{\k26}coi4 {\k22}jau6 {\k55}ho2 {\k11}{\k31}gam1 {\k59}siu1 {\k70}jat1 {\k112}joeng4
+Dialogue: 0,0:02:14.30,0:02:18.16,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko26}才{\ko22}又{\ko55}可{\ko11}{\ko31}今{\ko59}宵{\ko70}一{\ko112}样
+Dialogue: 0,0:02:18.94,0:02:21.12,orig,L_25,0,0,0,karaoke,{\k28}停{\k69}留{\k35}凝{\k31}望{\k55}裏
+Dialogue: 0,0:02:18.94,0:02:21.12,roma,____,0,0,0,karaoke,{\k28}ting4 {\k69}lau4 {\k35}jing4 {\k31}mong6 {\k55}lei5
+Dialogue: 0,0:02:18.94,0:02:21.12,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko28}停{\ko69}留{\ko35}凝{\ko31}望{\ko55}里
+Dialogue: 0,0:02:21.44,0:02:25.22,orig,L_26,0,0,0,karaoke,{\k24}讓{\k21}眼{\k64}睛{\k48}講{\k31}彼{\k49}此{\k25}立{\k116}場
+Dialogue: 0,0:02:21.44,0:02:25.22,roma,____,0,0,0,karaoke,{\k24}joeng6 {\k21}ngaan5 {\k64}zing1 {\k48}gong2 {\k31}bei2 {\k49}ci2 {\k25}laap6 {\k116}coeng4
+Dialogue: 0,0:02:21.44,0:02:25.22,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko24}让{\ko21}眼{\ko64}睛{\ko48}讲{\ko31}彼{\ko49}此{\ko25}立{\ko116}场
+Dialogue: 0,0:02:26.07,0:02:27.13,orig,L_27 x-part:PreChorus,0,0,0,karaoke,{\k38}當{\k30}某{\k38}天
+Dialogue: 0,0:02:26.07,0:02:27.13,roma,____,0,0,0,karaoke,{\k38}dong1 {\k30}mau5 {\k38}tin1
+Dialogue: 0,0:02:26.07,0:02:27.13,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko38}当{\ko30}某{\ko38}天
+Dialogue: 0,0:02:27.40,0:02:28.91,orig,L_28,0,0,0,karaoke,{\k21}雨{\k16}點{\k21}輕{\k25}敲{\k20}你{\k48}窗
+Dialogue: 0,0:02:27.40,0:02:28.91,roma,____,0,0,0,karaoke,{\k21}jyu5 {\k16}dim2 {\k21}hing1 {\k25}haau1 {\k20}nei5 {\k48}coeng1
+Dialogue: 0,0:02:27.40,0:02:28.91,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko21}雨{\ko16}点{\ko21}轻{\ko25}敲{\ko20}你{\ko48}窗
+Dialogue: 0,0:02:29.38,0:02:32.29,orig,L_29,0,0,0,karaoke,{\k16}當{\k39}風{\k43}聲{\k50}吹{\k37}亂{\k31}你{\k24}構{\k51}想
+Dialogue: 0,0:02:29.38,0:02:32.29,roma,____,0,0,0,karaoke,{\k16}dong1 {\k39}fung1 {\k43}sing1 {\k50}ceoi1 {\k37}lyun6 {\k31}nei5 {\k24}kau3 {\k51}soeng2
+Dialogue: 0,0:02:29.38,0:02:32.29,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko16}当{\ko39}风{\ko43}声{\ko50}吹{\ko37}乱{\ko31}你{\ko24}构{\ko51}想
+Dialogue: 0,0:02:32.64,0:02:38.43,orig,L_30,0,0,0,karaoke,{\k17}可{\k24}否{\k26}抽{\k54}空{\k53}想{\k27}這{\k66}張{\k43}{\k42}舊{\k24}模{\k203}樣
+Dialogue: 0,0:02:32.64,0:02:38.43,roma,____,0,0,0,karaoke,{\k17}ho2 {\k24}fau2 {\k26}cau1 {\k54}hung1 {\k53}soeng2 {\k27}ze5 {\k66}zoeng1 {\k43}{\k42}gau6 {\k24}mou4 {\k203}joeng4
+Dialogue: 0,0:02:32.64,0:02:38.43,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko17}可{\ko24}否{\ko26}抽{\ko54}空{\ko53}想{\ko27}这{\ko66}张{\ko43}{\ko42}旧{\ko24}模{\ko203}样
+Dialogue: 0,0:02:39.10,0:02:42.50,orig,L_31 x-part:Chorus,0,0,0,karaoke,{\k35}來{\k20}日{\k20}縱{\k24}使{\k86}千{\k52}千{\k15}闋{\k10}{\k78}歌
+Dialogue: 0,0:02:39.10,0:02:42.50,roma,____,0,0,0,karaoke,{\k35}loi4 {\k20}jat6 {\k20}zung3 {\k24}si2 {\k86}cin1 {\k52}cin1 {\k15}kyut3 {\k10}{\k78}go1
+Dialogue: 0,0:02:39.10,0:02:42.50,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko35}来{\ko20}日{\ko20}纵{\ko24}使{\ko86}千{\ko52}千{\ko15}阕{\ko10}{\ko78}歌
+Dialogue: 0,0:02:42.81,0:02:45.75,orig,L_32,0,0,0,karaoke,{\k22}飄{\k22}於{\k18}遠{\k30}方{\k46}我{\k15}路{\k141}上
+Dialogue: 0,0:02:42.81,0:02:45.75,roma,____,0,0,0,karaoke,{\k22}piu1 {\k22}jyu1 {\k18}jyun5 {\k30}fong1 {\k46}ngo5 {\k15}lou6 {\k141}soeng6
+Dialogue: 0,0:02:42.81,0:02:45.75,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko22}飘{\ko22}于{\ko18}远{\ko30}方{\ko46}我{\ko15}路{\ko141}上
+Dialogue: 0,0:02:46.34,0:02:49.51,orig,L_33,0,0,0,karaoke,{\k27}來{\k17}日{\k18}縱{\k21}使{\k89}千{\k45}千{\k23}晚{\k77}星
+Dialogue: 0,0:02:46.34,0:02:49.51,roma,____,0,0,0,karaoke,{\k27}loi4 {\k17}jat6 {\k18}zung3 {\k21}si2 {\k89}cin1 {\k45}cin1 {\k23}maan5 {\k77}sing1
+Dialogue: 0,0:02:46.34,0:02:49.51,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko27}来{\ko17}日{\ko18}纵{\ko21}使{\ko89}千{\ko45}千{\ko23}晚{\ko77}星
+Dialogue: 0,0:02:49.83,0:02:53.50,orig,L_34,0,0,0,karaoke,{\k37}亮{\k33}過{\k23}今{\k48}晚{\k19}月{\k207}亮
+Dialogue: 0,0:02:49.83,0:02:53.50,roma,____,0,0,0,karaoke,{\k37}loeng6 {\k33}gwo3 {\k23}gam1 {\k48}maan5 {\k19}jyut6 {\k207}loeng6
+Dialogue: 0,0:02:49.83,0:02:53.50,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko37}亮{\ko33}过{\ko23}今{\ko48}晚{\ko19}月{\ko207}亮
+Dialogue: 0,0:02:53.92,0:02:57.02,orig,L_35,0,0,0,karaoke,{\k20}都{\k17}比{\k9}{\k75}不{\k46}起{\k23}這{\k49}宵{\k24}美{\k47}麗
+Dialogue: 0,0:02:53.92,0:02:57.02,roma,____,0,0,0,karaoke,{\k20}dou1 {\k17}bei2 {\k9}{\k75}bat1 {\k46}hei2 {\k23}ze5 {\k49}siu1 {\k24}mei5 {\k47}lai6
+Dialogue: 0,0:02:53.92,0:02:57.02,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko20}都{\ko17}比{\ko9}{\ko75}不{\ko46}起{\ko23}这{\ko49}宵{\ko24}美{\ko47}丽
+Dialogue: 0,0:02:57.40,0:03:00.58,orig,L_36,0,0,0,karaoke,{\k16}亦{\k17}絶{\k12}{\k27}不{\k48}可{\k53}使{\k22}我{\k48}更{\k16}欣{\k59}賞
+Dialogue: 0,0:02:57.40,0:03:00.58,roma,____,0,0,0,karaoke,{\k16}jik6 {\k17}zyut6 {\k12}{\k27}bat1 {\k48}ho2 {\k53}si2 {\k22}ngo5 {\k48}gang3 {\k16}jan1 {\k59}soeng2
+Dialogue: 0,0:02:57.40,0:03:00.58,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko16}亦{\ko17}绝{\ko12}{\ko27}不{\ko48}可{\ko53}使{\ko22}我{\ko48}更{\ko16}欣{\ko59}赏
+Dialogue: 0,0:03:00.97,0:03:07.57,orig,L_37,0,0,0,karaoke,{\k39}A{\k56}H{\k27} {\k46}因{\k25}你{\k66}今{\k46}晚{\k25}共{\k59}我{\k271}唱
+Dialogue: 0,0:03:00.97,0:03:07.57,roma,____,0,0,0,karaoke,{\k39}a{\k56}h {\k27}{\k46}jan1 {\k25}nei5 {\k66}gam1 {\k46}maan5 {\k25}gung6 {\k59}ngo5 {\k271}coeng3
+Dialogue: 0,0:03:00.97,0:03:07.57,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko39}A{\ko56}H{\ko27} {\ko46}因{\ko25}你{\ko66}今{\ko46}晚{\ko25}共{\ko59}我{\ko271}唱
+Dialogue: 0,0:03:20.72,0:03:25.31,orig,L_38 x-part:Refrain,0,0,0,karaoke,{\k139}HA {\k22}怎{\k23}都{\k46}比{\k39}不{\k44}起{\k22}這{\k49}宵{\k19}美{\k56}麗
+Dialogue: 0,0:03:20.72,0:03:25.31,roma,____,0,0,0,karaoke,{\k139}ha {\k22}zam2 {\k23}dou1 {\k46}bei2 {\k39}bat1 {\k44}hei2 {\k22}ze5 {\k49}siu1 {\k19}mei5 {\k56}lai6
+Dialogue: 0,0:03:20.72,0:03:25.31,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko139}HA {\ko22}怎{\ko23}都{\ko46}比{\ko39}不{\ko44}起{\ko22}这{\ko49}宵{\ko19}美{\ko56}丽
+Dialogue: 0,0:03:25.67,0:03:28.84,orig,L_39,0,0,0,karaoke,{\k19}亦{\k16}絕{\k10}{\k31}不{\k46}可{\k56}使{\k21}我{\k47}更{\k14}欣{\k57}賞
+Dialogue: 0,0:03:25.67,0:03:28.84,roma,____,0,0,0,karaoke,{\k19}jik6 {\k16}zyut6 {\k10}{\k31}bat1 {\k46}ho2 {\k56}si2 {\k21}ngo5 {\k47}gang3 {\k14}jan1 {\k57}soeng2
+Dialogue: 0,0:03:25.67,0:03:28.84,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko19}亦{\ko16}绝{\ko10}{\ko31}不{\ko46}可{\ko56}使{\ko21}我{\ko47}更{\ko14}欣{\ko57}赏
+Dialogue: 0,0:03:29.18,0:03:35.30,orig,L_40,0,0,0,karaoke,{\k25}因{\k17}今{\k97}宵{\k38}的{\k25}我{\k108}可{\k24}共{\k60}你{\k218}唱
+Dialogue: 0,0:03:29.18,0:03:35.30,roma,____,0,0,0,karaoke,{\k25}jan1 {\k17}gam1 {\k97}siu1 {\k38}dik1 {\k25}ngo5 {\k108}ho2 {\k24}gung6 {\k60}nei5 {\k218}coeng3
+Dialogue: 0,0:03:29.18,0:03:35.30,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko25}因{\ko17}今{\ko97}宵{\ko38}的{\ko25}我{\ko108}可{\ko24}共{\ko60}你{\ko218}唱
+Dialogue: 0,0:03:35.69,0:03:39.00,orig,L_41 x-part:Chorus,0,0,0,karaoke,{\k37}來{\k16}日{\k21}縱{\k24}使{\k87}千{\k51}千{\k20}闋{\k75}歌
+Dialogue: 0,0:03:35.69,0:03:39.00,roma,____,0,0,0,karaoke,{\k37}loi4 {\k16}jat6 {\k21}zung3 {\k24}si2 {\k87}cin1 {\k51}cin1 {\k20}kyut3 {\k75}go1
+Dialogue: 0,0:03:35.69,0:03:39.00,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko37}来{\ko16}日{\ko21}纵{\ko24}使{\ko87}千{\ko51}千{\ko20}阕{\ko75}歌
+Dialogue: 0,0:03:39.34,0:03:42.31,orig,L_42,0,0,0,karaoke,{\k24}飄{\k22}於{\k16}遠{\k29}方{\k45}我{\k21}路{\k140}上
+Dialogue: 0,0:03:39.34,0:03:42.31,roma,____,0,0,0,karaoke,{\k24}piu1 {\k22}jyu1 {\k16}jyun5 {\k29}fong1 {\k45}ngo5 {\k21}lou6 {\k140}soeng6
+Dialogue: 0,0:03:39.34,0:03:42.31,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko24}飘{\ko22}于{\ko16}远{\ko29}方{\ko45}我{\ko21}路{\ko140}上
+Dialogue: 0,0:03:42.84,0:03:46.05,orig,L_43,0,0,0,karaoke,{\k27}來{\k15}日{\k22}縱{\k24}使{\k84}千{\k46}千{\k23}晚{\k80}星
+Dialogue: 0,0:03:42.84,0:03:46.05,roma,____,0,0,0,karaoke,{\k27}loi4 {\k15}jat6 {\k22}zung3 {\k24}si2 {\k84}cin1 {\k46}cin1 {\k23}maan5 {\k80}sing1
+Dialogue: 0,0:03:42.84,0:03:46.05,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko27}来{\ko15}日{\ko22}纵{\ko24}使{\ko84}千{\ko46}千{\ko23}晚{\ko80}星
+Dialogue: 0,0:03:46.39,0:03:50.02,orig,L_44,0,0,0,karaoke,{\k37}亮{\k30}過{\k28}今{\k38}晚{\k22}月{\k208}亮
+Dialogue: 0,0:03:46.39,0:03:50.02,roma,____,0,0,0,karaoke,{\k37}loeng6 {\k30}gwo3 {\k28}gam1 {\k38}maan5 {\k22}jyut6 {\k208}loeng6
+Dialogue: 0,0:03:46.39,0:03:50.02,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko37}亮{\ko30}过{\ko28}今{\ko38}晚{\ko22}月{\ko208}亮
+Dialogue: 0,0:03:50.43,0:03:53.56,orig,L_45,0,0,0,karaoke,{\k17}都{\k25}比{\k85}不{\k44}起{\k19}這{\k52}宵{\k20}美{\k51}麗
+Dialogue: 0,0:03:50.43,0:03:53.56,roma,____,0,0,0,karaoke,{\k17}dou1 {\k25}bei2 {\k85}bat1 {\k44}hei2 {\k19}ze5 {\k52}siu1 {\k20}mei5 {\k51}lai6
+Dialogue: 0,0:03:50.43,0:03:53.56,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko17}都{\ko25}比{\ko85}不{\ko44}起{\ko19}这{\ko52}宵{\ko20}美{\ko51}丽
+Dialogue: 0,0:03:53.93,0:03:57.14,orig,L_46,0,0,0,karaoke,{\k19}亦{\k22}絕{\k34}不{\k49}可{\k50}使{\k24}我{\k48}更{\k15}欣{\k60}賞
+Dialogue: 0,0:03:53.93,0:03:57.14,roma,____,0,0,0,karaoke,{\k19}jik6 {\k22}zyut6 {\k34}bat1 {\k49}ho2 {\k50}si2 {\k24}ngo5 {\k48}gang3 {\k15}jan1 {\k60}soeng2
+Dialogue: 0,0:03:53.93,0:03:57.14,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko19}亦{\ko22}绝{\ko34}不{\ko49}可{\ko50}使{\ko24}我{\ko48}更{\ko15}欣{\ko60}赏
+Dialogue: 0,0:03:57.48,0:04:03.39,orig,L_47,0,0,0,karaoke,{\k42}A{\k54}H{\k30} {\k44}因{\k29}你{\k65}今{\k39}晚{\k24}共{\k60}我{\k204}唱
+Dialogue: 0,0:03:57.48,0:04:03.39,roma,____,0,0,0,karaoke,{\k42}a{\k54}h {\k30}{\k44}jan1 {\k29}nei5 {\k65}gam1 {\k39}maan5 {\k24}gung6 {\k60}ngo5 {\k204}coeng3
+Dialogue: 0,0:03:57.48,0:04:03.39,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko42}A{\ko54}H{\ko30} {\ko44}因{\ko29}你{\ko65}今{\ko39}晚{\ko24}共{\ko60}我{\ko204}唱
+Dialogue: 0,0:04:03.97,0:04:07.30,orig,L_48 x-part:Refrain,0,0,0,karaoke,{\k31}來{\k20}日{\k20}縱{\k23}使{\k86}千{\k54}千{\k15}闋{\k9}{\k75}歌
+Dialogue: 0,0:04:03.97,0:04:07.30,roma,____,0,0,0,karaoke,{\k31}loi4 {\k20}jat6 {\k20}zung3 {\k23}si2 {\k86}cin1 {\k54}cin1 {\k15}kyut3 {\k9}{\k75}go1
+Dialogue: 0,0:04:03.97,0:04:07.30,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko31}来{\ko20}日{\ko20}纵{\ko23}使{\ko86}千{\ko54}千{\ko15}阕{\ko9}{\ko75}歌
+Dialogue: 0,0:04:07.66,0:04:10.62,orig,L_49,0,0,0,karaoke,{\k20}飄{\k21}於{\k16}遠{\k32}方{\k44}我{\k15}路{\k148}上
+Dialogue: 0,0:04:07.66,0:04:10.62,roma,____,0,0,0,karaoke,{\k20}piu1 {\k21}jyu1 {\k16}jyun5 {\k32}fong1 {\k44}ngo5 {\k15}lou6 {\k148}soeng6
+Dialogue: 0,0:04:07.66,0:04:10.62,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko20}飘{\ko21}于{\ko16}远{\ko32}方{\ko44}我{\ko15}路{\ko148}上
+Dialogue: 0,0:04:11.15,0:04:14.33,orig,L_50,0,0,0,karaoke,{\k27}來{\k16}日{\k18}縱{\k24}使{\k86}千{\k49}千{\k21}晚{\k77}星
+Dialogue: 0,0:04:11.15,0:04:14.33,roma,____,0,0,0,karaoke,{\k27}loi4 {\k16}jat6 {\k18}zung3 {\k24}si2 {\k86}cin1 {\k49}cin1 {\k21}maan5 {\k77}sing1
+Dialogue: 0,0:04:11.15,0:04:14.33,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko27}来{\ko16}日{\ko18}纵{\ko24}使{\ko86}千{\ko49}千{\ko21}晚{\ko77}星
+Dialogue: 0,0:04:14.66,0:04:18.28,orig,L_51,0,0,0,karaoke,{\k41}亮{\k29}過{\k27}今{\k46}晚{\k22}月{\k197}亮
+Dialogue: 0,0:04:14.66,0:04:18.28,roma,____,0,0,0,karaoke,{\k41}loeng6 {\k29}gwo3 {\k27}gam1 {\k46}maan5 {\k22}jyut6 {\k197}loeng6
+Dialogue: 0,0:04:14.66,0:04:18.28,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko41}亮{\ko29}过{\ko27}今{\ko46}晚{\ko22}月{\ko197}亮
+Dialogue: 0,0:04:18.61,0:04:21.83,orig,L_52,0,0,0,karaoke,{\k25}都{\k24}比{\k84}不{\k48}起{\k20}這{\k49}宵{\k27}美{\k45}麗
+Dialogue: 0,0:04:18.61,0:04:21.83,roma,____,0,0,0,karaoke,{\k25}dou1 {\k24}bei2 {\k84}bat1 {\k48}hei2 {\k20}ze5 {\k49}siu1 {\k27}mei5 {\k45}lai6
+Dialogue: 0,0:04:18.61,0:04:21.83,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko25}都{\ko24}比{\ko84}不{\ko48}起{\ko20}这{\ko49}宵{\ko27}美{\ko45}丽
+Dialogue: 0,0:04:22.22,0:04:25.40,orig,L_53,0,0,0,karaoke,{\k15}都{\k27}洗{\k35}不{\k48}清{\k11}{\k38}今{\k25}晚{\k34}我{\k27}所{\k58}想
+Dialogue: 0,0:04:22.22,0:04:25.40,roma,____,0,0,0,karaoke,{\k15}dou1 {\k27}sai2 {\k35}bat1 {\k48}cing1 {\k11}{\k38}gam1 {\k25}maan5 {\k34}ngo5 {\k27}so2 {\k58}soeng2
+Dialogue: 0,0:04:22.22,0:04:25.40,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko15}都{\ko27}洗{\ko35}不{\ko48}清{\ko11}{\ko38}今{\ko25}晚{\ko34}我{\ko27}所{\ko58}想
+Dialogue: 0,0:04:25.75,0:04:32.36,orig,L_54,0,0,0,karaoke,{\k47}因{\k78}不{\k47}知{\k28}哪{\k60}天{\k50}再{\k20}共{\k61}你{\k270}唱
+Dialogue: 0,0:04:25.75,0:04:32.36,roma,____,0,0,0,karaoke,{\k47}jan1 {\k78}bat1 {\k47}zi1 {\k28}naa5 {\k60}tin1 {\k50}zoi3 {\k20}gung6 {\k61}nei5 {\k270}coeng3
+Dialogue: 0,0:04:25.75,0:04:32.36,ts,____ x-lang:zh-Hans x-replace,0,0,0,karaoke,{\ko47}因{\ko78}不{\ko47}知{\ko28}哪{\ko60}天{\ko50}再{\ko20}共{\ko61}你{\ko270}唱
