@@ -8,9 +8,9 @@ PlayResX: 2560
 PlayResY: 1440
 WrapStyle: 0
 ScaledBorderAndShadow: no
+Original Script: zh-Hans
 
 [Aegisub Project Garbage]
-Last Style Storage: Default
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -27,47 +27,59 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank,!retime("line
 Comment: 1,0:00:00.00,0:00:00.00,orig,,0,0,0,template syl noblank,!retime("line", -800, 200)!{\pos(!line.left+syl.center!,!line.bottom-200!)\k!($sstart/10)+80!\kf!($skdur)!\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,roma,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template line,!retime("line", -800, 200)!{\fad(200,200)}
-Comment: 0,0:00:00.15,0:00:01.73,orig,x-duet,0,0,0,karaoke,{\ko31}We'{\ko21}re {\ko22}con{\ko49}nec{\ko35}ted
-Comment: 0,0:00:00.15,0:00:01.73,ts,x-duet,0,0,0,karaoke,契约已成
-Comment: 0,0:00:17.44,0:00:19.03,orig,x-duet,0,0,0,karaoke,{\ko32}We'{\ko23}re {\ko21}con{\ko48}nec{\ko35}ted
-Comment: 0,0:00:17.44,0:00:19.03,ts,x-duet,0,0,0,karaoke,契约已成
-Comment: 0,0:00:23.62,0:00:31.42,orig,,0,0,0,karaoke,{\ko56}像{\ko46}困{\ko53}兽{\ko48}在{\ko37}囚{\ko43}笼{\ko55}中{\ko41}梦{\ko47}寐{\ko46}以{\ko61}求{\ko25}的{\ko26} {\ko40}那{\ko44}句{\ko62}呼{\ko50}唤
-Comment: 0,0:00:31.67,0:00:39.45,orig,,0,0,0,karaoke,{\ko53}月{\ko55}亮{\ko41}被{\ko50}揣{\ko35}进{\ko45}日{\ko50}与{\ko52}夜{\ko42}的{\ko51}交{\ko45}锋 {\ko55}撕{\ko49}扯{\ko55}间{\ko45}轮{\ko55}转
-Comment: 0,0:00:43.66,0:00:48.88,orig,,0,0,0,karaoke,{\ko54}温{\ko55}暖{\ko33}偶{\ko42}尔{\ko45}咫{\ko55}尺{\ko42}平{\ko196}凡
-Comment: 0,0:00:51.65,0:00:57.00,orig,,0,0,0,karaoke,{\ko50}会{\ko49}否{\ko33}忽{\ko52}然{\ko49}云{\ko33}烟{\ko49}消{\ko220}散
-Comment: 0,0:00:55.60,0:00:58.89,orig,,0,0,0,karaoke,{\ko53}想{\ko56}触{\ko50}碰{\ko42}又{\ko34}收{\ko41}回{\ko53}手
-Comment: 0,0:00:59.23,0:01:05.44,orig,,0,0,0,karaoke,{\ko46}怕{\ko31}告{\ko35}别{\ko87}时{\ko52}不{\ko50}能{\ko18}够{\ko57}从{\ko245}容
-Comment: 0,0:01:06.23,0:01:09.49,orig,,0,0,0,karaoke,{\ko26}一{\ko24}个{\ko21}人{\ko255}走
-Comment: 0,0:01:12.97,0:01:14.84,orig,x-duet,0,0,0,karaoke,{\ko25}我{\ko24}冥{\ko38}顽{\ko18} {\ko19}不{\ko26}转{\ko37}圜
-Comment: 0,0:01:15.00,0:01:16.88,orig,x-duet,0,0,0,karaoke,{\ko16}我{\ko30}混{\ko29}乱{\ko22} {\ko21}已{\ko26}茫{\ko44}然
-Comment: 0,0:01:16.98,0:01:18.92,orig,x-duet,0,0,0,karaoke,{\ko40}Bu{\ko30}t you {\ko124}dare
-Comment: 0,0:01:16.98,0:01:18.92,ts,x-duet,0,0,0,karaoke,但你无所畏惧
-Comment: 0,0:01:18.92,0:01:20.66,orig,x-duet,0,0,0,karaoke,{\ko55}来{\ko19}共{\ko34}死{\ko20}并{\ko46}肩
-Comment: 0,0:01:20.97,0:01:22.88,orig,x-duet,0,0,0,karaoke,{\ko21}我{\ko30}溃{\ko34}裂{\ko15} {\ko20}成{\ko27}碎{\ko44}片
-Comment: 0,0:01:22.98,0:01:24.91,orig,x-duet,0,0,0,karaoke,{\ko10}我{\ko39}失{\ko28}控{\ko21} {\ko12}入{\ko38}深{\ko45}渊
-Comment: 0,0:01:25.00,0:01:27.43,orig,x-duet,0,0,0,karaoke,{\ko40}Bu{\ko28}t you {\ko54}ne{\ko23}ver {\ko47}ever {\ko51}leave
-Comment: 0,0:01:25.00,0:01:27.43,ts,x-duet,0,0,0,karaoke,但你不离不弃
-Comment: 0,0:01:27.43,0:01:29.81,orig,x-duet,0,0,0,karaoke,{\ko32}约{\ko15}定{\ko35}所{\ko22}有{\ko28}的{\ko25}未{\ko81}来
-Comment: 0,0:01:32.20,0:01:35.23,orig,x-duet,0,0,0,karaoke,{\ko49}Take {\ko46}my {\ko208}life
-Comment: 0,0:01:32.20,0:01:35.23,ts,x-duet,0,0,0,karaoke,献祭我的生命
-Comment: 0,0:01:35.45,0:01:37.05,orig,x-duet,0,0,0,karaoke,{\ko33}We'{\ko17}re {\ko26}con{\ko38}nec{\ko46}ted
-Comment: 0,0:01:35.45,0:01:37.05,ts,x-duet,0,0,0,karaoke,与我缔结契约
-Comment: 0,0:01:39.74,0:01:47.36,orig,,0,0,0,karaoke,{\ko39}惯{\ko60}性{\ko53}退{\ko39}避{\ko29}去{\ko54}晦{\ko55}暗{\ko31}无{\ko60}需{\ko53}同{\ko51}伴{\ko39}也{\ko13} {\ko35}不{\ko16}{\ko38}必{\ko54}自{\ko43}白
-Comment: 0,0:01:47.69,0:01:55.39,orig,,0,0,0,karaoke,{\ko51}默{\ko47}认{\ko52}质{\ko47}疑{\ko30}开{\ko42}篇{\ko59}和{\ko42}背{\ko57}弃{\ko39}尾{\ko49}声 {\ko48}是{\ko62}相{\ko47}遇{\ko51}答{\ko47}案
-Comment: 0,0:01:59.61,0:02:05.09,orig,,0,0,0,karaoke,{\ko60}神{\ko51}经{\ko20}滚{\ko60}沸{\ko50}本{\ko40}能{\ko55}贪{\ko212}婪
-Comment: 0,0:02:07.66,0:02:14.52,orig,,0,0,0,karaoke,{\ko58}唯{\ko45}你{\ko36}能{\ko44}让{\ko36}真{\ko48}心{\ko58}生{\ko361}还
-Comment: 0,0:02:11.60,0:02:14.92,orig,,0,0,0,karaoke,{\ko63}牵{\ko51}绊{\ko53}令{\ko41}彼{\ko36}此{\ko43}完{\ko45}整
-Comment: 0,0:02:15.20,0:02:21.61,orig,,0,0,0,karaoke,{\ko44}掌{\ko38}心{\ko44}纹{\ko40}路{\ko36}{\ko45}不{\ko51}会{\ko31}再{\ko51}落{\ko261}空
-Comment: 0,0:02:22.19,0:02:25.46,orig,,0,0,0,karaoke,{\ko25}交{\ko27}错{\ko31}紧{\ko244}握
-Comment: 0,0:02:44.97,0:02:48.91,orig,x-duet,0,0,0,karaoke,{\ko25}我{\ko21}冥{\ko37}顽{\ko20} {\ko18}不{\ko27}转{\ko40}圜{\ko15} {\ko18}我{\ko29}混{\ko30}乱{\ko20} {\ko19}已{\ko28}茫{\ko47}然
-Comment: 0,0:02:49.00,0:02:50.91,orig,x-duet,0,0,0,karaoke,{\ko39}Bu{\ko30}t you {\ko122}dare
-Comment: 0,0:02:49.00,0:02:50.91,ts,x-duet,0,0,0,karaoke,但你无所畏惧
-Comment: 0,0:02:50.91,0:02:52.76,orig,x-duet,0,0,0,karaoke,{\ko55}来{\ko20}共{\ko33}死{\ko19}并{\ko58}肩
-Comment: 0,0:02:52.99,0:02:56.90,orig,x-duet,0,0,0,karaoke,{\ko20}我{\ko29}溃{\ko28}裂{\ko19} {\ko16}成{\ko36}碎{\ko30}片{\ko16} {\ko15}我{\ko39}失{\ko30}控{\ko17} {\ko15}入{\ko36}深{\ko45}渊
-Comment: 0,0:02:57.00,0:02:59.48,orig,x-duet,0,0,0,karaoke,{\ko40}Bu{\ko29}t you {\ko52}ne{\ko25}ver {\ko48}ever {\ko54}leave
-Comment: 0,0:02:57.00,0:02:59.48,ts,x-duet,0,0,0,karaoke,但你不离不弃
-Comment: 0,0:02:59.48,0:03:01.75,orig,x-duet,0,0,0,karaoke,{\ko29}约{\ko13}定{\ko32}所{\ko28}有{\ko23}的{\ko28}未{\ko74}来
-Comment: 0,0:03:04.19,0:03:07.24,orig,x-duet,0,0,0,karaoke,{\ko50}Take {\ko51}my {\ko204}life
-Comment: 0,0:03:04.19,0:03:07.24,ts,x-duet,0,0,0,karaoke,献祭我的生命
-Comment: 0,0:03:07.45,0:03:09.04,orig,x-duet,0,0,0,karaoke,{\ko30}We'{\ko21}re {\ko25}con{\ko41}nec{\ko42}ted
-Comment: 0,0:03:07.45,0:03:09.04,ts,x-duet,0,0,0,karaoke,与我缔结契约
+Dialogue: 0,0:00:00.15,0:00:01.73,orig,L__1 x-other x-part:Intro,0,0,0,karaoke,{\ko31}We'{\ko21}re {\ko22}con{\ko49}nec{\ko35}ted
+Dialogue: 0,0:00:00.15,0:00:01.73,ts,____,0,0,0,karaoke,与我缔结契约
+Dialogue: 0,0:00:17.44,0:00:19.03,orig,L__2 x-other x-part:Intro,0,0,0,karaoke,{\ko32}We'{\ko23}re {\ko21}con{\ko48}nec{\ko35}ted
+Dialogue: 0,0:00:17.44,0:00:19.03,ts,____,0,0,0,karaoke,此生永不背弃
+Dialogue: 0,0:00:23.62,0:00:27.00,orig,L__3 x-role:"莫弈" x-part:Verse,0,0,0,karaoke,{\ko56}像{\ko46}困{\ko53}兽{\ko48}在{\ko37}囚{\ko43}笼{\ko55}中
+Dialogue: 0,0:00:27.00,0:00:29.20,orig,L__4 x-role:"莫弈",0,0,0,karaoke,{\ko41}梦{\ko47}寐{\ko46}以{\ko61}求{\ko25}的
+Dialogue: 0,0:00:29.46,0:00:31.42,orig,L__5 x-role:"莫弈",0,0,0,karaoke,{\ko40}那{\ko44}句{\ko62}呼{\ko50}唤
+Dialogue: 0,0:00:31.67,0:00:34.01,orig,L__6 x-role:"左然" x-part:Verse,0,0,0,karaoke,{\ko53}月{\ko55}亮{\ko41}被{\ko50}揣{\ko35}进
+Dialogue: 0,0:00:34.01,0:00:36.86,orig,L__7 x-role:"左然",0,0,0,karaoke,{\ko45}日{\ko50}与{\ko52}夜{\ko42}的{\ko51}交{\ko45}锋
+Dialogue: 0,0:00:36.86,0:00:39.45,orig,L__8 x-role:"左然",0,0,0,karaoke,{\ko55}撕{\ko49}扯{\ko55}间{\ko45}轮{\ko55}转
+Dialogue: 0,0:00:43.66,0:00:48.88,orig,L__9 x-role:"夏彦" x-part:PreChorus,0,0,0,karaoke,{\ko54}温{\ko55}暖{\ko33}偶{\ko42}尔{\ko45}咫{\ko55}尺{\ko42}平{\ko196}凡
+Dialogue: 0,0:00:51.65,0:00:57.00,orig,L_10 x-role:"夏彦",0,0,0,karaoke,{\ko50}会{\ko49}否{\ko33}忽{\ko52}然{\ko49}云{\ko33}烟{\ko49}消{\ko220}散
+Dialogue: 0,0:00:55.60,0:00:58.89,orig,L_11 x-role:"陆景和" x-part:PreChorus,0,0,0,karaoke,{\ko53}想{\ko56}触{\ko50}碰{\ko42}又{\ko34}收{\ko41}回{\ko53}手
+Dialogue: 0,0:00:59.23,0:01:05.44,orig,L_12 x-role:"陆景和",0,0,0,karaoke,{\ko46}怕{\ko31}告{\ko35}别{\ko87}时{\ko52}不{\ko50}能{\ko18}够{\ko57}从{\ko245}容
+Dialogue: 0,0:01:06.23,0:01:09.49,orig,L_13 x-role:"陆景和",0,0,0,karaoke,{\ko26}一{\ko24}个{\ko21}人{\ko255}走
+Dialogue: 0,0:01:12.97,0:01:14.84,orig,L_14 x-role:"左然" x-role:"莫弈" x-part:Chorus,0,0,0,karaoke,{\ko25}我{\ko24}冥{\ko38}顽{\ko18} {\ko19}不{\ko26}转{\ko37}圜
+Dialogue: 0,0:01:15.00,0:01:16.88,orig,L_15 x-role:"夏彦" x-role:"陆景和",0,0,0,karaoke,{\ko16}我{\ko30}混{\ko29}乱{\ko22} {\ko21}已{\ko26}茫{\ko44}然
+Dialogue: 0,0:01:16.98,0:01:18.92,orig,L_16 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko40}Bu{\ko30}t you {\ko124}dare
+Dialogue: 0,0:01:16.98,0:01:18.92,ts,____,0,0,0,karaoke,但你无所畏惧
+Dialogue: 0,0:01:18.92,0:01:20.66,orig,L_17 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko55}来{\ko19}共{\ko34}死{\ko20}并{\ko46}肩
+Dialogue: 0,0:01:20.97,0:01:22.88,orig,L_18 x-role:"夏彦" x-role:"左然" x-part:Chorus,0,0,0,karaoke,{\ko21}我{\ko30}溃{\ko34}裂{\ko15} {\ko20}成{\ko27}碎{\ko44}片
+Dialogue: 0,0:01:22.98,0:01:24.91,orig,L_19 x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko10}我{\ko39}失{\ko28}控{\ko21} {\ko12}入{\ko38}深{\ko45}渊
+Dialogue: 0,0:01:25.00,0:01:27.43,orig,L_20 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko40}Bu{\ko28}t you {\ko54}ne{\ko23}ver {\ko47}ever {\ko51}leave
+Dialogue: 0,0:01:25.00,0:01:27.43,ts,____,0,0,0,karaoke,但你不离不弃
+Dialogue: 0,0:01:27.43,0:01:29.81,orig,L_21 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko32}约{\ko15}定{\ko35}所{\ko22}有{\ko28}的{\ko25}未{\ko81}来
+Dialogue: 0,0:01:32.20,0:01:35.23,orig,L_22 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和" x-part:Hook,0,0,0,karaoke,{\ko49}Take {\ko46}my {\ko208}life
+Dialogue: 0,0:01:32.20,0:01:35.23,ts,____,0,0,0,karaoke,找到我 带走我
+Dialogue: 0,0:01:35.45,0:01:37.05,orig,L_23 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko33}We'{\ko17}re {\ko26}con{\ko38}nec{\ko46}ted
+Dialogue: 0,0:01:35.45,0:01:37.05,ts,____,0,0,0,karaoke,以此契约为引
+Dialogue: 0,0:01:39.74,0:01:43.03,orig,L_24 x-role:"左然" x-part:Verse,0,0,0,karaoke,{\ko39}惯{\ko60}性{\ko53}退{\ko39}避{\ko29}去{\ko54}晦{\ko55}暗
+Dialogue: 0,0:01:43.03,0:01:44.98,orig,L_25 x-role:"左然",0,0,0,karaoke,{\ko31}无{\ko60}需{\ko53}同{\ko51}伴
+Dialogue: 0,0:01:44.98,0:01:47.36,orig,L_26 x-role:"左然",0,0,0,karaoke,{\ko39}也{\ko13}{\ko35}不{\ko16}{\ko38}必{\ko54}自{\ko43}白
+Dialogue: 0,0:01:47.69,0:01:50.38,orig,L_27 x-role:"莫弈" x-part:Verse,0,0,0,karaoke,{\ko51}默{\ko47}认{\ko52}质{\ko47}疑{\ko30}开{\ko42}篇
+Dialogue: 0,0:01:50.38,0:01:52.84,orig,L_28 x-role:"莫弈",0,0,0,karaoke,{\ko59}和{\ko42}背{\ko57}弃{\ko39}尾{\ko49}声
+Dialogue: 0,0:01:52.84,0:01:55.39,orig,L_29 x-role:"莫弈",0,0,0,karaoke,{\ko48}是{\ko62}相{\ko47}遇{\ko51}答{\ko47}案
+Dialogue: 0,0:01:59.61,0:02:01.52,orig,L_30 x-role:"陆景和" x-part:PreChorus,0,0,0,karaoke,{\ko60}神{\ko51}经{\ko20}滚{\ko60}沸
+Dialogue: 0,0:02:01.52,0:02:05.09,orig,L_31 x-role:"陆景和",0,0,0,karaoke,{\ko50}本{\ko40}能{\ko55}贪{\ko212}婪
+Dialogue: 0,0:02:07.66,0:02:14.52,orig,L_32 x-role:"陆景和",0,0,0,karaoke,{\ko58}唯{\ko45}你{\ko36}能{\ko44}让{\ko36}真{\ko48}心{\ko58}生{\ko361}还
+Dialogue: 0,0:02:11.60,0:02:14.92,orig,L_33 x-role:"夏彦" x-part:PreChorus,0,0,0,karaoke,{\ko63}牵{\ko51}绊{\ko53}令{\ko41}彼{\ko36}此{\ko43}完{\ko45}整
+Dialogue: 0,0:02:15.20,0:02:16.86,orig,L_34 x-role:"夏彦",0,0,0,karaoke,{\ko44}掌{\ko38}心{\ko44}纹{\ko40}路
+Dialogue: 0,0:02:17.22,0:02:21.61,orig,L_35 x-role:"夏彦",0,0,0,karaoke,{\ko45}不{\ko51}会{\ko31}再{\ko51}落{\ko261}空
+Dialogue: 0,0:02:22.19,0:02:25.46,orig,L_36 x-role:"夏彦",0,0,0,karaoke,{\ko25}交{\ko27}错{\ko31}紧{\ko244}握
+Dialogue: 0,0:02:44.97,0:02:46.85,orig,L_37 x-role:"夏彦" x-role:"莫弈" x-part:FalseChorus,0,0,0,karaoke,{\ko25}我{\ko21}冥{\ko37}顽{\ko20} {\ko18}不{\ko27}转{\ko40}圜
+Dialogue: 0,0:02:47.00,0:02:48.91,orig,L_38 x-role:"左然" x-role:"莫弈",0,0,0,karaoke,{\ko18}我{\ko29}混{\ko30}乱{\ko20} {\ko19}已{\ko28}茫{\ko47}然
+Dialogue: 0,0:02:49.00,0:02:50.91,orig,L_39 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko39}Bu{\ko30}t you {\ko122}dare
+Dialogue: 0,0:02:49.00,0:02:50.91,ts,____,0,0,0,karaoke,但你无所畏惧
+Dialogue: 0,0:02:50.91,0:02:52.76,orig,L_40 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko55}来{\ko20}共{\ko33}死{\ko19}并{\ko58}肩
+Dialogue: 0,0:02:52.99,0:02:54.77,orig,L_41 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和" x-part:FinalChorus,0,0,0,karaoke,{\ko20}我{\ko29}溃{\ko28}裂{\ko19} {\ko16}成{\ko36}碎{\ko30}片
+Dialogue: 0,0:02:54.93,0:02:56.90,orig,L_42 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko15}我{\ko39}失{\ko30}控{\ko17} {\ko15}入{\ko36}深{\ko45}渊
+Dialogue: 0,0:02:57.00,0:02:59.48,orig,L_43 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko40}Bu{\ko29}t you {\ko52}ne{\ko25}ver {\ko48}ever {\ko54}leave
+Dialogue: 0,0:02:57.00,0:02:59.48,ts,____,0,0,0,karaoke,但你不离不弃
+Dialogue: 0,0:02:59.48,0:03:01.75,orig,L_44 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko29}约{\ko13}定{\ko32}所{\ko28}有{\ko23}的{\ko28}未{\ko74}来
+Dialogue: 0,0:03:04.19,0:03:07.24,orig,L_45 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和" x-part:Hook,0,0,0,karaoke,{\ko50}Take {\ko51}my {\ko204}life
+Dialogue: 0,0:03:04.19,0:03:07.24,ts,____,0,0,0,karaoke,找到我 带走我
+Dialogue: 0,0:03:07.45,0:03:09.04,orig,L_46 x-role:"夏彦" x-role:"左然" x-role:"莫弈" x-role:"陆景和",0,0,0,karaoke,{\ko30}We'{\ko21}re {\ko25}con{\ko41}nec{\ko42}ted
+Dialogue: 0,0:03:07.45,0:03:09.04,ts,____,0,0,0,karaoke,以此契约为引
