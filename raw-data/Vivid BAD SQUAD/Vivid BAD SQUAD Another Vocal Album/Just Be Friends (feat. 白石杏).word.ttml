@@ -5,12 +5,18 @@
       <ttm:agent type="other" xml:id="v2" />
       <amll:meta key="musicName" value="Just Be Friends (feat. 白石杏)" />
       <amll:meta key="musicName" value="Just Be Friends" />
+      <amll:meta key="artists" value="白石 杏" />
       <amll:meta key="artists" value="白石杏" />
+      <amll:meta key="artists" value="シライシ アン" />
+      <amll:meta key="artists" value="しらいし あん" />
       <amll:meta key="artists" value="Shiraishi An" />
+      <amll:meta key="artists" value="시라이시" />
       <amll:meta key="artists" value="Vivid BAD SQUAD" />
+      <amll:meta key="artists" value="ビビッドバッドスクワッド" />
+      <amll:meta key="artists" value="Bibiddo Baddo Sukuwaddo" />
       <amll:meta key="artists" value="炫狂小队" />
-      <amll:meta key="album" value="プロジェクトセカイ カラフルステージ！ feat. 初音ミク　アナザーボーカルアルバム Vivid BAD SQUAD" />
       <amll:meta key="album" value="Vivid BAD SQUAD Another Vocal Album" />
+      <amll:meta key="album" value="プロジェクトセカイ カラフルステージ！ feat. 初音ミク　アナザーボーカルアルバム Vivid BAD SQUAD" />
       <amll:meta key="album" value="Project SEKAI COLORFUL STAGE! feat. Hatsune Miku Another Vocal Album Vivid BAD SQUAD" />
       <amll:meta key="ncmMusicId" value="2623131382" />
       <amll:meta key="qqMusicId" value="004Wvpy73F8DfK" />
