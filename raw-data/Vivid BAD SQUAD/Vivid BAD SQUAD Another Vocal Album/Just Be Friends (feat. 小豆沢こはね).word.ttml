@@ -5,14 +5,21 @@
       <ttm:agent type="other" xml:id="v2" />
       <amll:meta key="musicName" value="Just Be Friends (feat. 小豆沢こはね)" />
       <amll:meta key="musicName" value="Just Be Friends" />
+      <amll:meta key="artists" value="小豆沢 こはね" />
       <amll:meta key="artists" value="小豆沢こはね" />
+      <amll:meta key="artists" value="あずさわ こはね" />
+      <amll:meta key="artists" value="アズサワ コハネ" />
+      <amll:meta key="artists" value="Azusawa Kohane" />
       <amll:meta key="artists" value="小豆沢心羽" />
       <amll:meta key="artists" value="小豆澤心羽" />
-      <amll:meta key="artists" value="Azusawa Kohane" />
+      <amll:meta key="artists" value="小豆泽心羽" />
+      <amll:meta key="artists" value="아즈사와 코하네" />
       <amll:meta key="artists" value="Vivid BAD SQUAD" />
+      <amll:meta key="artists" value="ビビッドバッドスクワッド" />
+      <amll:meta key="artists" value="Bibiddo Baddo Sukuwaddo" />
       <amll:meta key="artists" value="炫狂小队" />
-      <amll:meta key="album" value="プロジェクトセカイ カラフルステージ！ feat. 初音ミク　アナザーボーカルアルバム Vivid BAD SQUAD" />
       <amll:meta key="album" value="Vivid BAD SQUAD Another Vocal Album" />
+      <amll:meta key="album" value="プロジェクトセカイ カラフルステージ！ feat. 初音ミク　アナザーボーカルアルバム Vivid BAD SQUAD" />
       <amll:meta key="album" value="Project SEKAI COLORFUL STAGE! feat. Hatsune Miku Another Vocal Album Vivid BAD SQUAD" />
       <amll:meta key="ncmMusicId" value="2623126895" />
       <amll:meta key="qqMusicId" value="001Fin9T0DTYZk" />
