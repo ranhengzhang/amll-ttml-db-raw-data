@@ -39,7 +39,7 @@
 | 23 | <img src="https://avatars.githubusercontent.com/u/85813508?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[dontknowhy](https://github.com/dontknowhy) | 27 |
 | 24 | <img src="https://avatars.githubusercontent.com/u/65570536?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[haroyamada](https://github.com/haroyamada) | 24 |
 | 25 | <img src="https://avatars.githubusercontent.com/u/136059186?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[MiaowCham](https://github.com/MiaowCham) | 22 |
-| 26 | <img src="https://avatars.githubusercontent.com/u/205412075?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[zhushao233](https://github.com/zhushao233) | 20 |
+| 26 | <img src="https://avatars.githubusercontent.com/u/205412075?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[zhushao233](https://github.com/zhushao233) | 21 |
 | 27 | <img src="https://avatars.githubusercontent.com/u/70494801?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Super12138](https://github.com/Super12138) | 20 |
 | 28 | <img src="https://avatars.githubusercontent.com/u/79665752?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[EnchStudio](https://github.com/EnchStudio) | 20 |
 | 29 | <img src="https://avatars.githubusercontent.com/u/154799151?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[user10124-RS](https://github.com/user10124-RS) | 19 |
