@@ -45,16 +45,20 @@
       <amll:meta key="musicName" value="遊戲《未定事件簿》「萬靈局·妖聞簿」主題曲" />
       <amll:meta key="artists" value="夏彦" />
       <amll:meta key="artists" value="Luke Pearce" />
+      <amll:meta key="artists" value="Luke" />
       <amll:meta key="artists" value="Raven" />
       <amll:meta key="artists" value="左然" />
       <amll:meta key="artists" value="Artem Wing" />
+      <amll:meta key="artists" value="Artem" />
       <amll:meta key="artists" value="Libra" />
       <amll:meta key="artists" value="莫弈" />
       <amll:meta key="artists" value="Vyn Richter" />
+      <amll:meta key="artists" value="Vyn" />
       <amll:meta key="artists" value="Vilhelm Richard Albert de Haspran" />
       <amll:meta key="artists" value="Adjudicator" />
       <amll:meta key="artists" value="陆景和" />
       <amll:meta key="artists" value="Marius von Hagen" />
+      <amll:meta key="artists" value="Marius" />
       <amll:meta key="artists" value="King" />
       <amll:meta key="artists" value="HOYO-MiX" />
       <amll:meta key="album" value="未定事件簿：契 - Resonance" />
@@ -98,6 +102,38 @@
             <text for="L37">但你不离不弃</text>
             <text for="L39">找到我 带走我</text>
             <text for="L40">以此契约为引</text>
+          </translation>
+          <translation type="subtitle" xml:lang="en">
+            <text for="L3">Like a trapped beast in a cage yearning for</text>
+            <text for="L4">That long-awaited call</text>
+            <text for="L5">The moon is caught in the clash between day and night</text>
+            <text for="L6">Torn in its eternal rotation</text>
+            <text for="L7">Occasional warmth, ordinarily within arm&apos;s reach</text>
+            <text for="L8">Will it suddenly vanish like smoke and clouds</text>
+            <text for="L9">Wanting to reach out, but pulling my hand back</text>
+            <text for="L10">For fear that I won&apos;t be composed enough when it&apos;s time to say goodbye</text>
+            <text for="L11">Walking alone</text>
+            <text for="L12">I&apos;m stubborn, unyielding</text>
+            <text for="L13">Lost in confusion and uncertainty</text>
+            <text for="L15">To die by my side</text>
+            <text for="L16">I shatter into pieces</text>
+            <text for="L17">Lose control, fall into the abyss</text>
+            <text for="L19">Promising me all our futures</text>
+            <text for="L22">Out of habit I retreat into the darkness, no need for company</text>
+            <text for="L23">Nor any need to confess</text>
+            <text for="L24">Accepting doubt at the start and betrayal at the end</text>
+            <text for="L25">As the answer to our encounter</text>
+            <text for="L26">Nerves seething, instincts greedy</text>
+            <text for="L27">Only you can bring my true heart back to life</text>
+            <text for="L28">The bond that makes us whole</text>
+            <text for="L29">The lines in my palm will never again fall empty</text>
+            <text for="L30">Interlocked and clenched tight</text>
+            <text for="L31">I&apos;m stubborn, unyielding</text>
+            <text for="L32">Lost in confusion and uncertainty</text>
+            <text for="L34">To die by my side</text>
+            <text for="L35">I shatter into pieces</text>
+            <text for="L36">Lose control, fall into the abyss</text>
+            <text for="L38">Promising me all our futures</text>
           </translation>
         </translations>
         <transliterations></transliterations>
