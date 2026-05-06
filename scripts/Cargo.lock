@@ -2754,9 +2754,9 @@ checksum = "e421abadd41a4225275504ea4d6566923418b7f05506fbc9c0fe86ba7396114b"
 
 [[package]]
 name = "ttml_processor"
-version = "0.3.2"
+version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d94157b21e94d48e8b918f9f2cf935d316fbe0f4f48ff61d019701d29e9c6ae2"
+checksum = "90356b24a7c8257e651d44d27b4c02deeda08aff8d78188730f58463875ae0ab"
 dependencies = [
  "indexmap 2.14.0",
  "quick-xml 0.39.2",
