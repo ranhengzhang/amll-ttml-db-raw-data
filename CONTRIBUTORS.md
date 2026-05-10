@@ -18,11 +18,11 @@
 | 🥈 | <img src="https://avatars.githubusercontent.com/u/50987405?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ITManCHINA](https://github.com/ITManCHINA) | 260 |
 | 🥉 | <img src="https://avatars.githubusercontent.com/u/68000793?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ranhengzhang](https://github.com/ranhengzhang) | 239 |
 | 4 | <img src="https://avatars.githubusercontent.com/u/174598250?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ASyunagi](https://github.com/ASyunagi) | 226 |
-| 5 | <img src="https://avatars.githubusercontent.com/u/207428447?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kid1412520](https://github.com/kid1412520) | 186 |
+| 5 | <img src="https://avatars.githubusercontent.com/u/207428447?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kid1412520](https://github.com/kid1412520) | 187 |
 | 6 | <img src="https://avatars.githubusercontent.com/u/108002475?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[apoint123](https://github.com/apoint123) | 180 |
 | 7 | <img src="https://avatars.githubusercontent.com/u/37899975?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[WorldSansha](https://github.com/WorldSansha) | 167 |
 | 8 | <img src="https://avatars.githubusercontent.com/u/92374733?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Seayay](https://github.com/Seayay) | 128 |
-| 9 | <img src="https://avatars.githubusercontent.com/u/250306205?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kid141252010](https://github.com/kid141252010) | 106 |
+| 9 | <img src="https://avatars.githubusercontent.com/u/250306205?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kid141252010](https://github.com/kid141252010) | 107 |
 | 10 | <img src="https://avatars.githubusercontent.com/u/115442729?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[1625423178](https://github.com/1625423178) | 103 |
 | 11 | <img src="https://avatars.githubusercontent.com/u/102236122?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[WongCaihong](https://github.com/WongCaihong) | 72 |
 | 12 | <img src="https://avatars.githubusercontent.com/u/86943191?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[bywhite0](https://github.com/bywhite0) | 56 |
@@ -43,8 +43,8 @@
 | 27 | <img src="https://avatars.githubusercontent.com/u/70494801?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Super12138](https://github.com/Super12138) | 20 |
 | 28 | <img src="https://avatars.githubusercontent.com/u/79665752?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[EnchStudio](https://github.com/EnchStudio) | 20 |
 | 29 | <img src="https://avatars.githubusercontent.com/u/154799151?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[user10124-RS](https://github.com/user10124-RS) | 19 |
-| 30 | <img src="https://avatars.githubusercontent.com/u/141757610?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[smzase](https://github.com/smzase) | 18 |
-| 31 | <img src="https://avatars.githubusercontent.com/u/96868062?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Shomi-FJS](https://github.com/Shomi-FJS) | 18 |
+| 30 | <img src="https://avatars.githubusercontent.com/u/96868062?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Shomi-FJS](https://github.com/Shomi-FJS) | 19 |
+| 31 | <img src="https://avatars.githubusercontent.com/u/141757610?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[smzase](https://github.com/smzase) | 18 |
 | 32 | <img src="https://avatars.githubusercontent.com/u/181631327?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[studyxi](https://github.com/studyxi) | 17 |
 | 33 | <img src="https://avatars.githubusercontent.com/u/71890055?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Burial0268](https://github.com/Burial0268) | 17 |
 | 34 | <img src="https://avatars.githubusercontent.com/u/34237075?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[SteamFinder](https://github.com/SteamFinder) | 16 |
