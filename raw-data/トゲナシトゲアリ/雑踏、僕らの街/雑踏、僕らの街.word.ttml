@@ -1,0 +1,2725 @@
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" itunes:timing="Word" xml:lang="ja">
+  <head>
+    <metadata>
+      <ttm:agent type="person" xml:id="v1" />
+      <amll:meta key="musicName" value="雑踏、僕らの街" />
+      <amll:meta key="musicName" value="熙熙攘攘、我们的城市" />
+      <amll:meta key="musicName" value="TV动画 Girls Band Cry op" />
+      <amll:meta key="musicName" value="熙熙攘攘我们的城市" />
+      <amll:meta key="musicName" value="《哭泣少女乐队》TV动画片头曲" />
+      <amll:meta key="musicName" value="Wrong World" />
+      <amll:meta key="artists" value="トゲナシトゲアリ" />
+      <amll:meta key="artists" value="TOGENASHI TOGEARI" />
+      <amll:meta key="artists" value="无刺有刺" />
+      <amll:meta key="album" value="雑踏、僕らの街" />
+      <amll:meta key="album" value="Wrong World - Single" />
+      <amll:meta key="album" value="雑踏、僕らの街 - Single" />
+      <amll:meta key="ncmMusicId" value="2142857204" />
+      <amll:meta key="qqMusicId" value="0021mFT32j45p6" />
+      <amll:meta key="qqMusicId" value="481819484" />
+      <amll:meta key="spotifyId" value="0tNSVPZeJjpNH7Q9VqrbyJ" />
+      <amll:meta key="appleMusicId" value="1737842246" />
+      <amll:meta key="isrc" value="JPPO02400704" />
+      <amll:meta key="Arranger" value="大濱健悟" />
+      <amll:meta key="Arranger" value="Kenji Tamai" />
+      <amll:meta key="Bass" value="Shuri" />
+      <amll:meta key="Conductor" value="Koki Magatani" />
+      <amll:meta key="Drums" value="Mirei" />
+      <amll:meta key="Guitar" value="Yuri" />
+      <amll:meta key="Guitar" value="Yukio Nagoshi" />
+      <amll:meta key="Keyboards" value="Natsu" />
+      <amll:meta key="Mastering Engineer" value="Yuji Chinone" />
+      <amll:meta key="Mixing Engineer" value="Kenichi &apos;NK-1&apos; Nakamura" />
+      <amll:meta key="Music Director" value="Koki Magatani" />
+      <amll:meta key="Performer" value="Kenji Tamai" />
+      <amll:meta key="Producer" value="Kenji Tamai" />
+      <amll:meta key="Recording Engineer" value="Masaki Mori" />
+      <amll:meta key="Songwriter" value="大濱健悟" />
+      <amll:meta key="Synthesizer Programming" value="大濱健悟" />
+      <amll:meta key="Vocals" value="RiNa" />
+      <amll:meta key="ttmlAuthorGithub" value="68000793" />
+      <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
+      <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal">
+        <translations>
+          <translation type="subtitle" xml:lang="en">
+            <text for="L1">The unfinished heartbeat veils the night</text>
+            <text for="L2">Before it all shatters, wrapping us tight</text>
+            <text for="L3">That hand — frail and unsure is just fine</text>
+            <text for="L4">This hand, after all, is yours and mine</text>
+            <text for="L5">Nothing ever stays the same — reach out your hand</text>
+            <text for="L6">Amid the crowd, I wept in silence</text>
+            <text for="L7">Footprints fade a voice in the morning&apos;s quiet</text>
+            <text for="L8">Never withering through endless days</text>
+            <text for="L9">The rotten city&apos;s mudwater runs cold</text>
+            <text for="L10">In a world that never changes</text>
+            <text for="L11">Still we scrape through another day</text>
+            <text for="L12">Pointless, yet what can we do anyway</text>
+            <text for="L13">We&apos;ve already started walking on</text>
+            <text for="L14">Unbelievable, like goddamn fools</text>
+            <text for="L15">This hopeless city of ours</text>
+            <text for="L16">Even so, I saw it clear with these eyes</text>
+            <text for="L17">Felt it real with these hands — hey, look, look</text>
+            <text for="L18">There you go again, spouting like a fool</text>
+            <text for="L19">Lighting up the impenetrable dark</text>
+            <text for="L20">It&apos;s no dream — even if the city&apos;s already wrecked</text>
+            <text for="L21">Giving up won&apos;t change a damn thing — ah, not yet, not yet, not yet</text>
+            <text for="L22">The unfinished heartbeat veils the night</text>
+            <text for="L23">Before it all shatters, wrapping us tight</text>
+            <text for="L24">That hand — frail and unsure is just fine</text>
+            <text for="L25">This hand, after all, is yours and mine</text>
+            <text for="L26">Nothing ever stays the same — reach out your hand</text>
+            <text for="L27">In eternity, a warmth to keep from losing my way</text>
+            <text for="L28">Scattering, never reaching your shallow heart</text>
+            <text for="L29">Just as you imagined? No way that&apos;s true</text>
+            <text for="L30">Just run away, right? Don&apos;t say it so lightly</text>
+            <text for="L31">Through the world same as always</text>
+            <text for="L32">We keep dashing on today</text>
+            <text for="L33">If you slip and fall, I&apos;ll pull you up</text>
+            <text for="L34">That gleam of blue shining inside the gray sky</text>
+            <text for="L35">Unbelievable, like goddamn fools</text>
+            <text for="L36">This hopeless city of ours</text>
+            <text for="L37">Even so, I saw it clear with these eyes</text>
+            <text for="L38">Felt it real with these hands — hey, look, look</text>
+            <text for="L39">There you go again, spouting like a fool</text>
+            <text for="L40">Lighting up the impenetrable dark</text>
+            <text for="L41">It&apos;s no dream — even if the city&apos;s already wrecked</text>
+            <text for="L42">Giving up won&apos;t change a damn thing — ah, not yet, not yet, not yet</text>
+            <text for="L43">The unfinished heartbeat veils the night</text>
+            <text for="L44">Before it all shatters, wrapping us tight</text>
+            <text for="L45">That hand — frail and unsure is just fine</text>
+            <text for="L46">This hand, after all, is yours and mine</text>
+            <text for="L47">Nothing ever stays the same — reach out your hand</text>
+            <text for="L48">Everything rests on you, and on me</text>
+          </translation>
+          <translation type="subtitle" xml:lang="zh-Hans">
+            <text for="L1">未竟的心愿 覆盖了整片夜空</text>
+            <text for="L2">化作齑粉之前 将我重重包裹</text>
+            <text for="L3">这只手 哪怕不可靠也没关系</text>
+            <text for="L4">毕竟 这是你自己的手</text>
+            <text for="L5">唯一不变的就是变化 伸出你的手吧</text>
+            <text for="L6">人来人往中 静静地哭出了声</text>
+            <text for="L7">今天早上 又有谁的声音消失在足迹中</text>
+            <text for="L8">历经悠久岁月 不见枯败</text>
+            <text for="L9">腐败的街道 泥水寒冷刺骨</text>
+            <text for="L10">这世界 一成不变</text>
+            <text for="L11">今天也要 努力过活</text>
+            <text for="L12">虽然无趣 亦无可奈何</text>
+            <text for="L13">我们已经开始向前迈进</text>
+            <text for="L14">难以置信 又愚不可及</text>
+            <text for="L15">我们的街道 无可救药</text>
+            <text for="L16">即便如此 也要亲眼见证</text>
+            <text for="L17">来吧 来吧 亲手去触碰感受</text>
+            <text for="L18">看你又说大话 不是天真就是傻</text>
+            <text for="L19">深不可测的黑暗也想照亮</text>
+            <text for="L20">这不是梦 反正街道已经完蛋</text>
+            <text for="L21">自暴自弃也没好处 还不到放弃的时候</text>
+            <text for="L22">未竟的心愿 覆盖了整片夜空</text>
+            <text for="L23">化作齑粉之前 将我重重包裹</text>
+            <text for="L24">这只手 哪怕不可靠也没关系</text>
+            <text for="L25">毕竟 这是你自己的手</text>
+            <text for="L26">唯一不变的就是变化 伸出你的手吧</text>
+            <text for="L27">永恒之中 一份不致迷失的温热</text>
+            <text for="L28">飘向浅薄的你 未曾抵达便散落殆尽</text>
+            <text for="L29">如你所料？ 怎么可能</text>
+            <text for="L30">逃跑就完事了？ 别说得那么轻巧</text>
+            <text for="L31">一如既往的世界</text>
+            <text for="L32">今天也要 奋力奔跑</text>
+            <text for="L33">若你失足滑落 就由我来抓住</text>
+            <text for="L34">灰色天空里 那一抹闪耀的蓝</text>
+            <text for="L35">难以置信 又愚不可及</text>
+            <text for="L36">我们的街道 无可救药</text>
+            <text for="L37">即便如此 也要亲眼见证</text>
+            <text for="L38">来吧 来吧 亲手去触碰感受</text>
+            <text for="L39">看你又说大话 不是天真就是傻</text>
+            <text for="L40">深不可测的黑暗也想照亮</text>
+            <text for="L41">这不是梦 反正街道已经完蛋</text>
+            <text for="L42">自暴自弃也没好处 还不到放弃的时候</text>
+            <text for="L43">未竟的心愿 覆盖了整片夜空</text>
+            <text for="L44">化作齑粉之前 将我重重包裹</text>
+            <text for="L45">这只手 哪怕不可靠也没关系</text>
+            <text for="L46">毕竟 这是你自己的手</text>
+            <text for="L47">唯一不变的就是变化 伸出你的手吧</text>
+            <text for="L48">万事皆由你 也皆由我</text>
+          </translation>
+        </translations>
+        <transliterations>
+          <transliteration xml:lang="ja-Latn">
+            <text for="L1">
+              <span begin="00:00.500" end="00:00.760" xmlns="http://www.w3.org/ns/ttml">ya </span>
+              <span begin="00:00.760" end="00:00.920" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="00:00.920" end="00:01.310" xmlns="http://www.w3.org/ns/ttml">no ko </span>
+              <span begin="00:01.310" end="00:01.400" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="00:01.400" end="00:01.570" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:01.570" end="00:01.650" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="00:01.650" end="00:01.890" xmlns="http://www.w3.org/ns/ttml">do u </span>
+              <span begin="00:01.890" end="00:01.930" xmlns="http://www.w3.org/ns/ttml">ga</span>
+              <span begin="00:01.930" end="00:01.930" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:01.930" end="00:02.120" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="00:02.120" end="00:02.230" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:02.230" end="00:02.420" xmlns="http://www.w3.org/ns/ttml">yo </span>
+              <span begin="00:02.420" end="00:02.530" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:02.530" end="00:02.980" xmlns="http://www.w3.org/ns/ttml">o o </span>
+              <span begin="00:02.980" end="00:03.080" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="00:03.080" end="00:03.250" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L2">
+              <span begin="00:03.410" end="00:03.760" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
+              <span begin="00:03.760" end="00:03.920" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="00:03.920" end="00:04.130" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:04.130" end="00:04.350" xmlns="http://www.w3.org/ns/ttml">tsu tsu</span>
+              <span begin="00:04.350" end="00:04.390" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="00:04.390" end="00:04.450" xmlns="http://www.w3.org/ns/ttml">de</span>
+              <span begin="00:04.450" end="00:04.450" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:04.450" end="00:04.740" xmlns="http://www.w3.org/ns/ttml">ko na </span>
+              <span begin="00:04.740" end="00:04.980" xmlns="http://www.w3.org/ns/ttml">go na </span>
+              <span begin="00:04.980" end="00:05.160" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="00:05.160" end="00:05.320" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:05.320" end="00:05.570" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="00:05.570" end="00:05.890" xmlns="http://www.w3.org/ns/ttml">ma e </span>
+              <span begin="00:05.890" end="00:06.070" xmlns="http://www.w3.org/ns/ttml">ni</span>
+            </text>
+            <text for="L3">
+              <span begin="00:06.220" end="00:06.550" xmlns="http://www.w3.org/ns/ttml">ta yo </span>
+              <span begin="00:06.550" end="00:06.700" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="00:06.700" end="00:06.880" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:06.880" end="00:07.000" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="00:07.000" end="00:07.160" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:07.160" end="00:07.270" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="00:07.270" end="00:07.390" xmlns="http://www.w3.org/ns/ttml">i i</span>
+              <span begin="00:07.390" end="00:07.390" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:07.390" end="00:07.530" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="00:07.530" end="00:07.690" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:07.690" end="00:07.780" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:07.780" end="00:07.970" xmlns="http://www.w3.org/ns/ttml">o</span>
+            </text>
+            <text for="L4">
+              <span begin="00:08.130" end="00:08.300" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="00:08.300" end="00:08.410" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:08.410" end="00:08.550" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:08.550" end="00:08.670" xmlns="http://www.w3.org/ns/ttml">wa</span>
+              <span begin="00:08.670" end="00:08.670" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:08.670" end="00:08.880" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="00:08.880" end="00:09.070" xmlns="http://www.w3.org/ns/ttml">bun </span>
+              <span begin="00:09.070" end="00:09.160" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="00:09.160" end="00:09.380" xmlns="http://www.w3.org/ns/ttml">shin </span>
+              <span begin="00:09.380" end="00:09.560" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:09.560" end="00:09.890" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="00:09.890" end="00:09.980" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:09.980" end="00:10.560" xmlns="http://www.w3.org/ns/ttml">sa</span>
+            </text>
+            <text for="L5">
+              <span begin="00:10.920" end="00:11.170" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="00:11.170" end="00:11.240" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="00:11.240" end="00:11.430" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="00:11.430" end="00:11.590" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:11.590" end="00:11.720" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:11.720" end="00:11.850" xmlns="http://www.w3.org/ns/ttml">ha </span>
+              <span begin="00:11.850" end="00:11.950" xmlns="http://www.w3.org/ns/ttml">zu </span>
+              <span begin="00:11.950" end="00:12.060" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="00:12.060" end="00:12.200" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="00:12.200" end="00:12.530" xmlns="http://www.w3.org/ns/ttml">yo</span>
+              <span begin="00:12.530" end="00:12.530" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:12.530" end="00:12.700" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:12.700" end="00:12.890" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:12.890" end="00:13.050" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:13.050" end="00:13.340" xmlns="http://www.w3.org/ns/ttml">ba </span>
+              <span begin="00:13.340" end="00:13.430" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="00:13.430" end="00:13.750" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L6">
+              <span begin="00:19.310" end="00:19.640" xmlns="http://www.w3.org/ns/ttml">za t</span>
+              <span begin="00:19.640" end="00:19.890" xmlns="http://www.w3.org/ns/ttml">to u </span>
+              <span begin="00:19.890" end="00:20.030" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:20.030" end="00:20.420" xmlns="http://www.w3.org/ns/ttml">na ka </span>
+              <span begin="00:20.420" end="00:20.630" xmlns="http://www.w3.org/ns/ttml">de</span>
+              <span begin="00:20.630" end="00:21.080" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:21.080" end="00:21.480" xmlns="http://www.w3.org/ns/ttml">ko e </span>
+              <span begin="00:21.480" end="00:21.650" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:21.650" end="00:21.740" xmlns="http://www.w3.org/ns/ttml">ki </span>
+              <span begin="00:21.740" end="00:22.150" xmlns="http://www.w3.org/ns/ttml">ko e </span>
+              <span begin="00:22.150" end="00:22.330" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="00:22.330" end="00:22.540" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:22.540" end="00:22.750" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:22.750" end="00:23.030" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:23.030" end="00:23.240" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:23.240" end="00:23.470" xmlns="http://www.w3.org/ns/ttml">ru</span>
+            </text>
+            <text for="L7">
+              <span begin="00:23.550" end="00:23.900" xmlns="http://www.w3.org/ns/ttml">a shi </span>
+              <span begin="00:23.900" end="00:24.260" xmlns="http://www.w3.org/ns/ttml">a to </span>
+              <span begin="00:24.260" end="00:24.430" xmlns="http://www.w3.org/ns/ttml">ga </span>
+              <span begin="00:24.430" end="00:24.920" xmlns="http://www.w3.org/ns/ttml">i ma</span>
+              <span begin="00:24.920" end="00:25.330" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:25.330" end="00:25.660" xmlns="http://www.w3.org/ns/ttml">da re </span>
+              <span begin="00:25.660" end="00:25.960" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="00:25.960" end="00:26.200" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:26.200" end="00:26.610" xmlns="http://www.w3.org/ns/ttml">ko e </span>
+              <span begin="00:26.610" end="00:26.740" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="00:26.740" end="00:26.930" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="00:26.930" end="00:27.010" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="00:27.010" end="00:27.220" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:27.220" end="00:27.780" xmlns="http://www.w3.org/ns/ttml">a sa</span>
+            </text>
+            <text for="L8">
+              <span begin="00:27.780" end="00:28.020" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:28.020" end="00:28.180" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="00:28.180" end="00:28.330" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="00:28.330" end="00:28.480" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:28.480" end="00:28.670" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="00:28.670" end="00:28.860" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:28.860" end="00:29.250" xmlns="http://www.w3.org/ns/ttml">mo</span>
+              <span begin="00:29.250" end="00:29.490" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:29.490" end="00:29.700" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="00:29.700" end="00:29.890" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="00:29.890" end="00:30.190" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="00:30.190" end="00:30.390" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="00:30.390" end="00:30.750" xmlns="http://www.w3.org/ns/ttml">to </span>
+              <span begin="00:30.750" end="00:30.940" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:30.940" end="00:31.340" xmlns="http://www.w3.org/ns/ttml">na i</span>
+            </text>
+            <text for="L9">
+              <span begin="00:31.810" end="00:31.990" xmlns="http://www.w3.org/ns/ttml">fu </span>
+              <span begin="00:31.990" end="00:32.310" xmlns="http://www.w3.org/ns/ttml">ha i </span>
+              <span begin="00:32.310" end="00:32.500" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="00:32.500" end="00:32.710" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:32.710" end="00:33.030" xmlns="http://www.w3.org/ns/ttml">ma chi </span>
+              <span begin="00:33.030" end="00:33.520" xmlns="http://www.w3.org/ns/ttml">no</span>
+              <span begin="00:33.520" end="00:33.740" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:33.740" end="00:34.090" xmlns="http://www.w3.org/ns/ttml">do ro </span>
+              <span begin="00:34.090" end="00:34.620" xmlns="http://www.w3.org/ns/ttml">mi zu </span>
+              <span begin="00:34.620" end="00:34.940" xmlns="http://www.w3.org/ns/ttml">ga </span>
+              <span begin="00:34.940" end="00:35.790" xmlns="http://www.w3.org/ns/ttml">tsu me </span>
+              <span begin="00:35.790" end="00:36.390" xmlns="http://www.w3.org/ns/ttml">ta i</span>
+            </text>
+            <text for="L10">
+              <span begin="00:36.560" end="00:36.750" xmlns="http://www.w3.org/ns/ttml">nan </span>
+              <span begin="00:36.750" end="00:36.880" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="00:36.880" end="00:37.030" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="00:37.030" end="00:37.150" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="00:37.150" end="00:37.270" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="00:37.270" end="00:37.360" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="00:37.360" end="00:37.480" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:37.480" end="00:37.540" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:37.540" end="00:37.630" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="00:37.630" end="00:37.820" xmlns="http://www.w3.org/ns/ttml">ka i </span>
+              <span begin="00:37.820" end="00:38.000" xmlns="http://www.w3.org/ns/ttml">de</span>
+            </text>
+            <text for="L11">
+              <span begin="00:39.260" end="00:39.560" xmlns="http://www.w3.org/ns/ttml">kyo </span>
+              <span begin="00:39.560" end="00:39.650" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="00:39.650" end="00:39.800" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="00:39.800" end="00:39.830" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="00:39.830" end="00:39.930" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:39.930" end="00:40.070" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:40.070" end="00:40.160" xmlns="http://www.w3.org/ns/ttml">ki </span>
+              <span begin="00:40.160" end="00:40.290" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:40.290" end="00:40.410" xmlns="http://www.w3.org/ns/ttml">yu </span>
+              <span begin="00:40.410" end="00:40.510" xmlns="http://www.w3.org/ns/ttml">ku</span>
+              <span begin="00:40.510" end="00:40.610" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="00:40.610" end="00:40.800" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L12">
+              <span begin="00:41.790" end="00:41.980" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="00:41.980" end="00:42.150" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="00:42.150" end="00:42.360" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="00:42.360" end="00:42.480" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:42.480" end="00:42.630" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:42.630" end="00:42.740" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="00:42.740" end="00:42.910" xmlns="http://www.w3.org/ns/ttml">do</span>
+              <span begin="00:42.910" end="00:42.910" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:42.910" end="00:43.210" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="00:43.210" end="00:43.510" xmlns="http://www.w3.org/ns/ttml">ka ta </span>
+              <span begin="00:43.510" end="00:43.660" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="00:43.660" end="00:43.730" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:43.730" end="00:43.750" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="00:43.750" end="00:43.950" xmlns="http://www.w3.org/ns/ttml">sho</span>
+            </text>
+            <text for="L13">
+              <span begin="00:44.100" end="00:44.450" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
+              <span begin="00:44.450" end="00:44.540" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="00:44.540" end="00:44.710" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="00:44.710" end="00:44.820" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="00:44.820" end="00:44.980" xmlns="http://www.w3.org/ns/ttml">u</span>
+              <span begin="00:44.980" end="00:45.140" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:45.140" end="00:45.520" xmlns="http://www.w3.org/ns/ttml">a ru </span>
+              <span begin="00:45.520" end="00:45.600" xmlns="http://www.w3.org/ns/ttml">ki </span>
+              <span begin="00:45.600" end="00:45.860" xmlns="http://www.w3.org/ns/ttml">ha ji </span>
+              <span begin="00:45.860" end="00:46.200" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="00:46.200" end="00:46.450" xmlns="http://www.w3.org/ns/ttml">ta</span>
+              <span begin="00:46.450" end="00:46.590" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="00:46.590" end="00:47.020" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L14">
+              <span begin="00:47.230" end="00:47.610" xmlns="http://www.w3.org/ns/ttml">u so </span>
+              <span begin="00:47.610" end="00:47.720" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="00:47.720" end="00:47.990" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:47.990" end="00:48.150" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:48.150" end="00:48.500" xmlns="http://www.w3.org/ns/ttml">na</span>
+              <span begin="00:48.500" end="00:48.680" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:48.680" end="00:48.840" xmlns="http://www.w3.org/ns/ttml">ba </span>
+              <span begin="00:48.840" end="00:49.020" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="00:49.020" end="00:49.120" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="00:49.120" end="00:49.390" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:49.390" end="00:49.540" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:49.540" end="00:49.930" xmlns="http://www.w3.org/ns/ttml">na</span>
+            </text>
+            <text for="L15">
+              <span begin="00:50.070" end="00:50.190" xmlns="http://www.w3.org/ns/ttml">do </span>
+              <span begin="00:50.190" end="00:50.320" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="00:50.320" end="00:50.580" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="00:50.580" end="00:50.740" xmlns="http://www.w3.org/ns/ttml">yo </span>
+              <span begin="00:50.740" end="00:50.910" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="00:50.910" end="00:51.280" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="00:51.280" end="00:51.620" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="00:51.620" end="00:52.000" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
+              <span begin="00:52.000" end="00:52.170" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="00:52.170" end="00:52.330" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:52.330" end="00:52.770" xmlns="http://www.w3.org/ns/ttml">ma chi</span>
+            </text>
+            <text for="L16">
+              <span begin="00:52.770" end="00:53.050" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="00:53.050" end="00:53.220" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="00:53.220" end="00:53.390" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="00:53.390" end="00:53.590" xmlns="http://www.w3.org/ns/ttml">mo</span>
+              <span begin="00:53.590" end="00:53.760" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:53.760" end="00:53.860" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="00:53.860" end="00:53.930" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:53.930" end="00:54.080" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="00:54.080" end="00:54.130" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="00:54.130" end="00:54.270" xmlns="http://www.w3.org/ns/ttml">ta shi </span>
+              <span begin="00:54.270" end="00:54.380" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="00:54.380" end="00:54.450" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="00:54.450" end="00:54.510" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="00:54.510" end="00:54.640" xmlns="http://www.w3.org/ns/ttml">e </span>
+              <span begin="00:54.640" end="00:54.760" xmlns="http://www.w3.org/ns/ttml">ta</span>
+              <span begin="00:54.760" end="00:54.830" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="00:54.830" end="00:54.980" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L17">
+              <span begin="00:55.140" end="00:55.220" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="00:55.220" end="00:55.320" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="00:55.320" end="00:55.410" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="00:55.410" end="00:55.510" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="00:55.510" end="00:55.670" xmlns="http://www.w3.org/ns/ttml">ta shi </span>
+              <span begin="00:55.670" end="00:55.780" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="00:55.780" end="00:55.840" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="00:55.840" end="00:55.900" xmlns="http://www.w3.org/ns/ttml">fu </span>
+              <span begin="00:55.900" end="00:56.010" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="00:56.010" end="00:56.200" xmlns="http://www.w3.org/ns/ttml">tan </span>
+              <span begin="00:56.200" end="00:56.490" xmlns="http://www.w3.org/ns/ttml">da</span>
+              <span begin="00:56.490" end="00:56.590" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:56.590" end="00:56.860" xmlns="http://www.w3.org/ns/ttml">ne e</span>
+              <span begin="00:56.860" end="00:56.860" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:56.860" end="00:57.080" xmlns="http://www.w3.org/ns/ttml">ho </span>
+              <span begin="00:57.080" end="00:57.320" xmlns="http://www.w3.org/ns/ttml">ra</span>
+              <span begin="00:57.320" end="00:57.600" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:57.600" end="00:57.800" xmlns="http://www.w3.org/ns/ttml">ho </span>
+              <span begin="00:57.800" end="00:58.030" xmlns="http://www.w3.org/ns/ttml">ra</span>
+            </text>
+            <text for="L18">
+              <span begin="00:58.270" end="00:58.450" xmlns="http://www.w3.org/ns/ttml">ho </span>
+              <span begin="00:58.450" end="00:58.600" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="00:58.600" end="00:58.740" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="00:58.740" end="00:58.860" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="00:58.860" end="00:59.230" xmlns="http://www.w3.org/ns/ttml">fu </span>
+              <span begin="00:59.230" end="00:59.370" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="00:59.370" end="00:59.780" xmlns="http://www.w3.org/ns/ttml">ta</span>
+              <span begin="00:59.780" end="00:59.930" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="00:59.930" end="01:00.080" xmlns="http://www.w3.org/ns/ttml">ba </span>
+              <span begin="01:00.080" end="01:00.200" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="01:00.200" end="01:00.360" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="01:00.360" end="01:00.640" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:00.640" end="01:00.790" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:00.790" end="01:01.120" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L19">
+              <span begin="01:01.310" end="01:01.430" xmlns="http://www.w3.org/ns/ttml">do </span>
+              <span begin="01:01.430" end="01:01.570" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="01:01.570" end="01:01.880" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="01:01.880" end="01:02.150" xmlns="http://www.w3.org/ns/ttml">yo u </span>
+              <span begin="01:02.150" end="01:02.550" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:02.550" end="01:02.780" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:02.780" end="01:02.870" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:02.870" end="01:03.220" xmlns="http://www.w3.org/ns/ttml">ya mi </span>
+              <span begin="01:03.220" end="01:03.380" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:03.380" end="01:03.570" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:03.570" end="01:03.690" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="01:03.690" end="01:04.050" xmlns="http://www.w3.org/ns/ttml">se</span>
+            </text>
+            <text for="L20">
+              <span begin="01:04.110" end="01:04.420" xmlns="http://www.w3.org/ns/ttml">yu me </span>
+              <span begin="01:04.420" end="01:04.640" xmlns="http://www.w3.org/ns/ttml">ja </span>
+              <span begin="01:04.640" end="01:04.830" xmlns="http://www.w3.org/ns/ttml">na i</span>
+              <span begin="01:04.830" end="01:04.990" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:04.990" end="01:05.120" xmlns="http://www.w3.org/ns/ttml">do u </span>
+              <span begin="01:05.120" end="01:05.270" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="01:05.270" end="01:05.340" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:05.340" end="01:05.440" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:05.440" end="01:05.510" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="01:05.510" end="01:05.590" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:05.590" end="01:05.670" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="01:05.670" end="01:05.860" xmlns="http://www.w3.org/ns/ttml">ma chi </span>
+              <span begin="01:05.860" end="01:05.960" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="01:05.960" end="01:06.030" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="01:06.030" end="01:06.220" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L21">
+              <span begin="01:06.370" end="01:06.610" xmlns="http://www.w3.org/ns/ttml">a ki ra </span>
+              <span begin="01:06.610" end="01:06.710" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="01:06.710" end="01:06.820" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:06.820" end="01:06.880" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="01:06.880" end="01:06.970" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:06.970" end="01:07.040" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="01:07.040" end="01:07.220" xmlns="http://www.w3.org/ns/ttml">wan </span>
+              <span begin="01:07.220" end="01:07.400" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="01:07.400" end="01:07.620" xmlns="http://www.w3.org/ns/ttml">ze</span>
+              <span begin="01:07.620" end="01:07.760" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:07.760" end="01:08.140" xmlns="http://www.w3.org/ns/ttml">a a</span>
+              <span begin="01:08.140" end="01:08.140" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:08.140" end="01:08.320" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="01:08.320" end="01:08.530" xmlns="http://www.w3.org/ns/ttml">da</span>
+              <span begin="01:08.530" end="01:08.790" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:08.790" end="01:09.020" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="01:09.020" end="01:09.210" xmlns="http://www.w3.org/ns/ttml">da</span>
+              <span begin="01:09.210" end="01:09.510" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:09.510" end="01:09.720" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="01:09.720" end="01:10.010" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L22">
+              <span begin="01:10.090" end="01:10.270" xmlns="http://www.w3.org/ns/ttml">ya </span>
+              <span begin="01:10.270" end="01:10.420" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="01:10.420" end="01:10.770" xmlns="http://www.w3.org/ns/ttml">no ko </span>
+              <span begin="01:10.770" end="01:10.850" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="01:10.850" end="01:11.030" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:11.030" end="01:11.110" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="01:11.110" end="01:11.280" xmlns="http://www.w3.org/ns/ttml">do u </span>
+              <span begin="01:11.280" end="01:11.380" xmlns="http://www.w3.org/ns/ttml">ga</span>
+              <span begin="01:11.380" end="01:11.380" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:11.380" end="01:11.550" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="01:11.550" end="01:11.680" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:11.680" end="01:11.970" xmlns="http://www.w3.org/ns/ttml">yon </span>
+              <span begin="01:11.970" end="01:12.210" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:12.210" end="01:12.480" xmlns="http://www.w3.org/ns/ttml">o o </span>
+              <span begin="01:12.480" end="01:12.550" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="01:12.550" end="01:12.760" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L23">
+              <span begin="01:12.880" end="01:13.230" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
+              <span begin="01:13.230" end="01:13.430" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="01:13.430" end="01:13.590" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:13.590" end="01:13.820" xmlns="http://www.w3.org/ns/ttml">tsu tsu</span>
+              <span begin="01:13.820" end="01:13.860" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="01:13.860" end="01:13.930" xmlns="http://www.w3.org/ns/ttml">de</span>
+              <span begin="01:13.930" end="01:13.930" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:13.930" end="01:14.230" xmlns="http://www.w3.org/ns/ttml">ko na </span>
+              <span begin="01:14.230" end="01:14.480" xmlns="http://www.w3.org/ns/ttml">go na </span>
+              <span begin="01:14.480" end="01:14.600" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="01:14.600" end="01:14.790" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:14.790" end="01:15.040" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="01:15.040" end="01:15.350" xmlns="http://www.w3.org/ns/ttml">ma e </span>
+              <span begin="01:15.350" end="01:15.530" xmlns="http://www.w3.org/ns/ttml">ni</span>
+            </text>
+            <text for="L24">
+              <span begin="01:15.670" end="01:16.040" xmlns="http://www.w3.org/ns/ttml">ta yo </span>
+              <span begin="01:16.040" end="01:16.200" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="01:16.200" end="01:16.380" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:16.380" end="01:16.470" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="01:16.470" end="01:16.620" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:16.620" end="01:16.710" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:16.710" end="01:16.860" xmlns="http://www.w3.org/ns/ttml">i i</span>
+              <span begin="01:16.860" end="01:16.860" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:16.860" end="01:16.980" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="01:16.980" end="01:17.150" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:17.150" end="01:17.250" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:17.250" end="01:17.430" xmlns="http://www.w3.org/ns/ttml">o</span>
+            </text>
+            <text for="L25">
+              <span begin="01:17.600" end="01:17.780" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="01:17.780" end="01:17.870" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:17.870" end="01:18.030" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:18.030" end="01:18.120" xmlns="http://www.w3.org/ns/ttml">wa</span>
+              <span begin="01:18.120" end="01:18.120" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:18.120" end="01:18.310" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="01:18.310" end="01:18.470" xmlns="http://www.w3.org/ns/ttml">bun </span>
+              <span begin="01:18.470" end="01:18.570" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="01:18.570" end="01:18.830" xmlns="http://www.w3.org/ns/ttml">shin </span>
+              <span begin="01:18.830" end="01:19.030" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:19.030" end="01:19.360" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:19.360" end="01:19.460" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:19.460" end="01:20.060" xmlns="http://www.w3.org/ns/ttml">sa</span>
+            </text>
+            <text for="L26">
+              <span begin="01:20.400" end="01:20.660" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="01:20.660" end="01:20.730" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:20.730" end="01:20.920" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="01:20.920" end="01:21.060" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:21.060" end="01:21.180" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:21.180" end="01:21.270" xmlns="http://www.w3.org/ns/ttml">ha </span>
+              <span begin="01:21.270" end="01:21.380" xmlns="http://www.w3.org/ns/ttml">zu </span>
+              <span begin="01:21.380" end="01:21.480" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:21.480" end="01:21.640" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="01:21.640" end="01:21.990" xmlns="http://www.w3.org/ns/ttml">yo</span>
+              <span begin="01:21.990" end="01:21.990" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:21.990" end="01:22.190" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:22.190" end="01:22.370" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:22.370" end="01:22.560" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:22.560" end="01:22.820" xmlns="http://www.w3.org/ns/ttml">ba </span>
+              <span begin="01:22.820" end="01:22.930" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="01:22.930" end="01:23.190" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L27">
+              <span begin="01:28.820" end="01:29.190" xmlns="http://www.w3.org/ns/ttml">e i </span>
+              <span begin="01:29.190" end="01:29.420" xmlns="http://www.w3.org/ns/ttml">en </span>
+              <span begin="01:29.420" end="01:29.550" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:29.550" end="01:29.930" xmlns="http://www.w3.org/ns/ttml">na ka </span>
+              <span begin="01:29.930" end="01:30.250" xmlns="http://www.w3.org/ns/ttml">de</span>
+              <span begin="01:30.250" end="01:30.590" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:30.590" end="01:30.960" xmlns="http://www.w3.org/ns/ttml">ma yo </span>
+              <span begin="01:30.960" end="01:31.190" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:31.190" end="01:31.480" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="01:31.480" end="01:31.810" xmlns="http://www.w3.org/ns/ttml">ta me </span>
+              <span begin="01:31.810" end="01:32.000" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:32.000" end="01:32.520" xmlns="http://www.w3.org/ns/ttml">nu ku </span>
+              <span begin="01:32.520" end="01:32.710" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:32.710" end="01:32.950" xmlns="http://www.w3.org/ns/ttml">ri</span>
+            </text>
+            <text for="L28">
+              <span begin="01:33.020" end="01:33.270" xmlns="http://www.w3.org/ns/ttml">ke i </span>
+              <span begin="01:33.270" end="01:33.600" xmlns="http://www.w3.org/ns/ttml">ha ku </span>
+              <span begin="01:33.600" end="01:33.720" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:33.720" end="01:34.100" xmlns="http://www.w3.org/ns/ttml">ki mi </span>
+              <span begin="01:34.100" end="01:34.340" xmlns="http://www.w3.org/ns/ttml">ni</span>
+              <span begin="01:34.340" end="01:34.790" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:34.790" end="01:35.140" xmlns="http://www.w3.org/ns/ttml">to do </span>
+              <span begin="01:35.140" end="01:35.420" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="01:35.420" end="01:35.680" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="01:35.680" end="01:35.840" xmlns="http://www.w3.org/ns/ttml">to </span>
+              <span begin="01:35.840" end="01:36.040" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:36.040" end="01:36.170" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="01:36.170" end="01:36.410" xmlns="http://www.w3.org/ns/ttml">chi </span>
+              <span begin="01:36.410" end="01:36.480" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="01:36.480" end="01:36.720" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:36.720" end="01:36.880" xmlns="http://www.w3.org/ns/ttml">yu </span>
+              <span begin="01:36.880" end="01:37.180" xmlns="http://www.w3.org/ns/ttml">ku</span>
+            </text>
+            <text for="L29">
+              <span begin="01:37.180" end="01:37.570" xmlns="http://www.w3.org/ns/ttml">so u </span>
+              <span begin="01:37.570" end="01:37.970" xmlns="http://www.w3.org/ns/ttml">zo u </span>
+              <span begin="01:37.970" end="01:38.320" xmlns="http://www.w3.org/ns/ttml">do u </span>
+              <span begin="01:38.320" end="01:38.670" xmlns="http://www.w3.org/ns/ttml">ri</span>
+              <span begin="01:38.670" end="01:38.910" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:38.910" end="01:38.910" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="01:38.910" end="01:39.170" xmlns="http://www.w3.org/ns/ttml">so</span>
+              <span begin="01:39.170" end="01:39.350" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="01:39.350" end="01:39.650" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="01:39.650" end="01:39.840" xmlns="http://www.w3.org/ns/ttml">ha </span>
+              <span begin="01:39.840" end="01:40.210" xmlns="http://www.w3.org/ns/ttml">zu </span>
+              <span begin="01:40.210" end="01:40.420" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:40.420" end="01:40.780" xmlns="http://www.w3.org/ns/ttml">na i</span>
+            </text>
+            <text for="L30">
+              <span begin="01:41.300" end="01:41.480" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="01:41.480" end="01:41.810" xmlns="http://www.w3.org/ns/ttml">ge </span>
+              <span begin="01:41.810" end="01:42.030" xmlns="http://www.w3.org/ns/ttml">rya </span>
+              <span begin="01:42.030" end="01:42.160" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:42.160" end="01:42.340" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:42.340" end="01:42.450" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="01:42.450" end="01:42.880" xmlns="http://www.w3.org/ns/ttml">sho</span>
+              <span begin="01:42.880" end="01:43.100" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:43.190" end="01:43.190" xmlns="http://www.w3.org/ns/ttml"></span>
+              <span begin="01:43.190" end="01:43.560" xmlns="http://www.w3.org/ns/ttml">kan </span>
+              <span begin="01:43.560" end="01:43.950" xmlns="http://www.w3.org/ns/ttml">tan </span>
+              <span begin="01:43.950" end="01:44.130" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="01:44.130" end="01:44.430" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:44.430" end="01:44.630" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="01:44.630" end="01:45.260" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="01:45.260" end="01:45.780" xmlns="http://www.w3.org/ns/ttml">de</span>
+            </text>
+            <text for="L31">
+              <span begin="01:45.980" end="01:46.160" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="01:46.160" end="01:46.310" xmlns="http://www.w3.org/ns/ttml">tsu </span>
+              <span begin="01:46.310" end="01:46.500" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="01:46.500" end="01:46.770" xmlns="http://www.w3.org/ns/ttml">to u </span>
+              <span begin="01:46.770" end="01:46.880" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="01:46.880" end="01:47.000" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:47.000" end="01:47.130" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="01:47.130" end="01:47.340" xmlns="http://www.w3.org/ns/ttml">ka i </span>
+              <span begin="01:47.340" end="01:47.590" xmlns="http://www.w3.org/ns/ttml">o</span>
+            </text>
+            <text for="L32">
+              <span begin="01:48.780" end="01:49.030" xmlns="http://www.w3.org/ns/ttml">kyo </span>
+              <span begin="01:49.030" end="01:49.160" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="01:49.160" end="01:49.290" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="01:49.290" end="01:49.330" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="01:49.330" end="01:49.410" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:49.410" end="01:49.590" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="01:49.590" end="01:49.710" xmlns="http://www.w3.org/ns/ttml">ke </span>
+              <span begin="01:49.710" end="01:49.840" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="01:49.840" end="01:49.950" xmlns="http://www.w3.org/ns/ttml">yu </span>
+              <span begin="01:49.950" end="01:50.050" xmlns="http://www.w3.org/ns/ttml">ku</span>
+              <span begin="01:50.050" end="01:50.130" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="01:50.130" end="01:50.350" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L33">
+              <span begin="01:51.210" end="01:51.640" xmlns="http://www.w3.org/ns/ttml">su be </span>
+              <span begin="01:51.640" end="01:51.790" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="01:51.790" end="01:51.930" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="01:51.930" end="01:52.140" xmlns="http://www.w3.org/ns/ttml">chi </span>
+              <span begin="01:52.140" end="01:52.270" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="01:52.270" end="01:52.500" xmlns="http://www.w3.org/ns/ttml">ra</span>
+              <span begin="01:52.500" end="01:52.500" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:52.500" end="01:52.910" xmlns="http://www.w3.org/ns/ttml">tsu ka</span>
+              <span begin="01:52.910" end="01:53.010" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="01:53.010" end="01:53.170" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="01:53.170" end="01:53.290" xmlns="http://www.w3.org/ns/ttml">ya </span>
+              <span begin="01:53.290" end="01:53.380" xmlns="http://www.w3.org/ns/ttml">ro </span>
+              <span begin="01:53.380" end="01:53.490" xmlns="http://www.w3.org/ns/ttml">u</span>
+            </text>
+            <text for="L34">
+              <span begin="01:53.600" end="01:53.840" xmlns="http://www.w3.org/ns/ttml">ha i </span>
+              <span begin="01:53.840" end="01:54.050" xmlns="http://www.w3.org/ns/ttml">i ro </span>
+              <span begin="01:54.050" end="01:54.180" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:54.180" end="01:54.500" xmlns="http://www.w3.org/ns/ttml">so ra</span>
+              <span begin="01:54.500" end="01:54.620" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="01:54.620" end="01:54.820" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="01:54.820" end="01:55.010" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="01:55.010" end="01:55.280" xmlns="http://www.w3.org/ns/ttml">na ka </span>
+              <span begin="01:55.280" end="01:55.350" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="01:55.350" end="01:55.870" xmlns="http://www.w3.org/ns/ttml">ki ra </span>
+              <span begin="01:55.870" end="01:56.010" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="01:56.010" end="01:56.500" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="01:56.500" end="01:57.340" xmlns="http://www.w3.org/ns/ttml">a o </span>
+              <span begin="01:57.340" end="01:57.660" xmlns="http://www.w3.org/ns/ttml">sa </span>
+              <span begin="01:57.660" end="02:02.730" xmlns="http://www.w3.org/ns/ttml">o</span>
+            </text>
+            <text for="L35">
+              <span begin="02:07.910" end="02:08.270" xmlns="http://www.w3.org/ns/ttml">u so </span>
+              <span begin="02:08.270" end="02:08.400" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="02:08.400" end="02:08.670" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:08.670" end="02:08.830" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:08.830" end="02:09.330" xmlns="http://www.w3.org/ns/ttml">na</span>
+              <span begin="02:09.330" end="02:09.330" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:09.330" end="02:09.510" xmlns="http://www.w3.org/ns/ttml">ba </span>
+              <span begin="02:09.510" end="02:09.690" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:09.690" end="02:09.800" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="02:09.800" end="02:10.030" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:10.030" end="02:10.200" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:10.200" end="02:10.560" xmlns="http://www.w3.org/ns/ttml">na</span>
+            </text>
+            <text for="L36">
+              <span begin="02:10.730" end="02:10.940" xmlns="http://www.w3.org/ns/ttml">do </span>
+              <span begin="02:10.940" end="02:11.040" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="02:11.040" end="02:11.350" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="02:11.350" end="02:11.620" xmlns="http://www.w3.org/ns/ttml">yo u </span>
+              <span begin="02:11.620" end="02:12.000" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:12.000" end="02:12.210" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:12.210" end="02:12.330" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:12.330" end="02:12.730" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
+              <span begin="02:12.730" end="02:12.880" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="02:12.880" end="02:13.030" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:13.030" end="02:13.500" xmlns="http://www.w3.org/ns/ttml">ma chi</span>
+            </text>
+            <text for="L37">
+              <span begin="02:13.500" end="02:13.720" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="02:13.720" end="02:13.940" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="02:13.940" end="02:14.120" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="02:14.120" end="02:14.330" xmlns="http://www.w3.org/ns/ttml">mo</span>
+              <span begin="02:14.330" end="02:14.430" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:14.430" end="02:14.530" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="02:14.530" end="02:14.600" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:14.600" end="02:14.680" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="02:14.680" end="02:14.780" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="02:14.780" end="02:14.950" xmlns="http://www.w3.org/ns/ttml">ta shi </span>
+              <span begin="02:14.950" end="02:15.040" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:15.040" end="02:15.140" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="02:15.140" end="02:15.220" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="02:15.220" end="02:15.320" xmlns="http://www.w3.org/ns/ttml">e </span>
+              <span begin="02:15.320" end="02:15.450" xmlns="http://www.w3.org/ns/ttml">ta</span>
+              <span begin="02:15.450" end="02:15.520" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="02:15.520" end="02:15.710" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L38">
+              <span begin="02:15.840" end="02:15.910" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="02:15.910" end="02:16.020" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:16.020" end="02:16.110" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:16.110" end="02:16.220" xmlns="http://www.w3.org/ns/ttml">de </span>
+              <span begin="02:16.220" end="02:16.370" xmlns="http://www.w3.org/ns/ttml">ta shi </span>
+              <span begin="02:16.370" end="02:16.460" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:16.460" end="02:16.520" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="02:16.520" end="02:16.600" xmlns="http://www.w3.org/ns/ttml">fu </span>
+              <span begin="02:16.600" end="02:16.740" xmlns="http://www.w3.org/ns/ttml">re </span>
+              <span begin="02:16.740" end="02:16.880" xmlns="http://www.w3.org/ns/ttml">ta</span>
+              <span begin="02:16.880" end="02:16.950" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="02:16.950" end="02:17.260" xmlns="http://www.w3.org/ns/ttml">da</span>
+              <span begin="02:17.260" end="02:17.260" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:17.260" end="02:17.390" xmlns="http://www.w3.org/ns/ttml">ne </span>
+              <span begin="02:17.390" end="02:17.570" xmlns="http://www.w3.org/ns/ttml">e</span>
+              <span begin="02:17.570" end="02:17.570" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:17.570" end="02:17.790" xmlns="http://www.w3.org/ns/ttml">ho </span>
+              <span begin="02:17.790" end="02:18.030" xmlns="http://www.w3.org/ns/ttml">ra</span>
+              <span begin="02:18.030" end="02:18.280" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:18.280" end="02:18.490" xmlns="http://www.w3.org/ns/ttml">ho </span>
+              <span begin="02:18.490" end="02:18.710" xmlns="http://www.w3.org/ns/ttml">ra</span>
+            </text>
+            <text for="L39">
+              <span begin="02:18.990" end="02:19.190" xmlns="http://www.w3.org/ns/ttml">ho </span>
+              <span begin="02:19.190" end="02:19.310" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="02:19.310" end="02:19.440" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="02:19.440" end="02:19.580" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:19.580" end="02:19.890" xmlns="http://www.w3.org/ns/ttml">fu </span>
+              <span begin="02:19.890" end="02:20.060" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:20.060" end="02:20.460" xmlns="http://www.w3.org/ns/ttml">ta</span>
+              <span begin="02:20.460" end="02:20.590" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:20.590" end="02:20.790" xmlns="http://www.w3.org/ns/ttml">ba </span>
+              <span begin="02:20.790" end="02:20.960" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:20.960" end="02:21.060" xmlns="http://www.w3.org/ns/ttml">mi </span>
+              <span begin="02:21.060" end="02:21.340" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:21.340" end="02:21.490" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:21.490" end="02:21.830" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L40">
+              <span begin="02:22.010" end="02:22.160" xmlns="http://www.w3.org/ns/ttml">do </span>
+              <span begin="02:22.160" end="02:22.300" xmlns="http://www.w3.org/ns/ttml">u </span>
+              <span begin="02:22.300" end="02:22.560" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="02:22.560" end="02:22.880" xmlns="http://www.w3.org/ns/ttml">yo u </span>
+              <span begin="02:22.880" end="02:23.240" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:23.240" end="02:23.550" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="02:23.550" end="02:23.960" xmlns="http://www.w3.org/ns/ttml">ya mi </span>
+              <span begin="02:23.960" end="02:24.100" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="02:24.100" end="02:24.260" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:24.260" end="02:24.360" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="02:24.360" end="02:24.750" xmlns="http://www.w3.org/ns/ttml">se</span>
+            </text>
+            <text for="L41">
+              <span begin="02:24.780" end="02:25.120" xmlns="http://www.w3.org/ns/ttml">yu me </span>
+              <span begin="02:25.120" end="02:25.330" xmlns="http://www.w3.org/ns/ttml">ja </span>
+              <span begin="02:25.330" end="02:25.530" xmlns="http://www.w3.org/ns/ttml">na i</span>
+              <span begin="02:25.530" end="02:25.680" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:25.680" end="02:25.830" xmlns="http://www.w3.org/ns/ttml">do u </span>
+              <span begin="02:25.830" end="02:25.920" xmlns="http://www.w3.org/ns/ttml">se </span>
+              <span begin="02:25.920" end="02:26.030" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="02:26.030" end="02:26.130" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:26.130" end="02:26.190" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="02:26.190" end="02:26.280" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:26.280" end="02:26.360" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="02:26.360" end="02:26.560" xmlns="http://www.w3.org/ns/ttml">ma chi </span>
+              <span begin="02:26.560" end="02:26.660" xmlns="http://www.w3.org/ns/ttml">da </span>
+              <span begin="02:26.660" end="02:26.730" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="02:26.730" end="02:26.900" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L42">
+              <span begin="02:27.070" end="02:27.320" xmlns="http://www.w3.org/ns/ttml">a ki ra </span>
+              <span begin="02:27.320" end="02:27.450" xmlns="http://www.w3.org/ns/ttml">me </span>
+              <span begin="02:27.450" end="02:27.530" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:27.530" end="02:27.610" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="02:27.610" end="02:27.680" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:27.680" end="02:27.770" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:27.770" end="02:27.920" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:27.920" end="02:27.990" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="02:27.990" end="02:28.150" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="02:28.150" end="02:28.450" xmlns="http://www.w3.org/ns/ttml">ze</span>
+              <span begin="02:28.450" end="02:28.450" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:28.450" end="02:28.850" xmlns="http://www.w3.org/ns/ttml">a a</span>
+              <span begin="02:28.850" end="02:28.850" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:28.850" end="02:29.040" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="02:29.040" end="02:29.270" xmlns="http://www.w3.org/ns/ttml">da</span>
+              <span begin="02:29.270" end="02:29.560" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:29.560" end="02:29.730" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="02:29.730" end="02:29.940" xmlns="http://www.w3.org/ns/ttml">da</span>
+              <span begin="02:29.940" end="02:30.200" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:30.200" end="02:30.430" xmlns="http://www.w3.org/ns/ttml">ma </span>
+              <span begin="02:30.430" end="02:30.730" xmlns="http://www.w3.org/ns/ttml">da</span>
+            </text>
+            <text for="L43">
+              <span begin="02:30.790" end="02:30.970" xmlns="http://www.w3.org/ns/ttml">ya </span>
+              <span begin="02:30.970" end="02:31.120" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="02:31.120" end="02:31.480" xmlns="http://www.w3.org/ns/ttml">no ko </span>
+              <span begin="02:31.480" end="02:31.580" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="02:31.580" end="02:31.730" xmlns="http://www.w3.org/ns/ttml">ta </span>
+              <span begin="02:31.730" end="02:31.840" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="02:31.840" end="02:32.010" xmlns="http://www.w3.org/ns/ttml">do u </span>
+              <span begin="02:32.010" end="02:32.120" xmlns="http://www.w3.org/ns/ttml">ga</span>
+              <span begin="02:32.120" end="02:32.120" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:32.120" end="02:32.300" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="02:32.300" end="02:32.390" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:32.390" end="02:32.660" xmlns="http://www.w3.org/ns/ttml">yon </span>
+              <span begin="02:32.660" end="02:32.750" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="02:32.750" end="02:33.140" xmlns="http://www.w3.org/ns/ttml">o o </span>
+              <span begin="02:33.140" end="02:33.240" xmlns="http://www.w3.org/ns/ttml">t</span>
+              <span begin="02:33.240" end="02:33.440" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L44">
+              <span begin="02:33.590" end="02:33.920" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
+              <span begin="02:33.920" end="02:34.100" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="02:34.100" end="02:34.270" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="02:34.270" end="02:34.490" xmlns="http://www.w3.org/ns/ttml">tsu tsu</span>
+              <span begin="02:34.490" end="02:34.540" xmlns="http://www.w3.org/ns/ttml">n </span>
+              <span begin="02:34.540" end="02:34.610" xmlns="http://www.w3.org/ns/ttml">de</span>
+              <span begin="02:34.610" end="02:34.610" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:34.610" end="02:34.920" xmlns="http://www.w3.org/ns/ttml">ko na </span>
+              <span begin="02:34.920" end="02:35.180" xmlns="http://www.w3.org/ns/ttml">go na </span>
+              <span begin="02:35.180" end="02:35.340" xmlns="http://www.w3.org/ns/ttml">ni </span>
+              <span begin="02:35.340" end="02:35.540" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:35.540" end="02:35.740" xmlns="http://www.w3.org/ns/ttml">ru </span>
+              <span begin="02:35.740" end="02:36.070" xmlns="http://www.w3.org/ns/ttml">ma e </span>
+              <span begin="02:36.070" end="02:36.250" xmlns="http://www.w3.org/ns/ttml">ni</span>
+            </text>
+            <text for="L45">
+              <span begin="02:36.390" end="02:36.750" xmlns="http://www.w3.org/ns/ttml">ta yo </span>
+              <span begin="02:36.750" end="02:36.900" xmlns="http://www.w3.org/ns/ttml">ri </span>
+              <span begin="02:36.900" end="02:37.070" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:37.070" end="02:37.170" xmlns="http://www.w3.org/ns/ttml">ku </span>
+              <span begin="02:37.170" end="02:37.340" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:37.340" end="02:37.450" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:37.450" end="02:37.560" xmlns="http://www.w3.org/ns/ttml">i i</span>
+              <span begin="02:37.560" end="02:37.560" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:37.560" end="02:37.730" xmlns="http://www.w3.org/ns/ttml">so </span>
+              <span begin="02:37.730" end="02:37.880" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:37.880" end="02:37.990" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:37.990" end="02:38.160" xmlns="http://www.w3.org/ns/ttml">o</span>
+            </text>
+            <text for="L46">
+              <span begin="02:38.310" end="02:38.500" xmlns="http://www.w3.org/ns/ttml">ko </span>
+              <span begin="02:38.500" end="02:38.580" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:38.580" end="02:38.730" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:38.730" end="02:38.840" xmlns="http://www.w3.org/ns/ttml">wa</span>
+              <span begin="02:38.840" end="02:38.840" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:38.840" end="02:39.030" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="02:39.030" end="02:39.220" xmlns="http://www.w3.org/ns/ttml">bun </span>
+              <span begin="02:39.220" end="02:39.310" xmlns="http://www.w3.org/ns/ttml">ji </span>
+              <span begin="02:39.310" end="02:39.540" xmlns="http://www.w3.org/ns/ttml">shin </span>
+              <span begin="02:39.540" end="02:39.730" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:39.730" end="02:40.080" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:40.080" end="02:40.170" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:40.170" end="02:40.760" xmlns="http://www.w3.org/ns/ttml">sa</span>
+            </text>
+            <text for="L47">
+              <span begin="02:41.090" end="02:41.320" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:41.320" end="02:41.400" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:41.400" end="02:41.570" xmlns="http://www.w3.org/ns/ttml">ra </span>
+              <span begin="02:41.570" end="02:41.690" xmlns="http://www.w3.org/ns/ttml">na </span>
+              <span begin="02:41.690" end="02:41.850" xmlns="http://www.w3.org/ns/ttml">i </span>
+              <span begin="02:41.850" end="02:41.980" xmlns="http://www.w3.org/ns/ttml">ha </span>
+              <span begin="02:41.980" end="02:42.070" xmlns="http://www.w3.org/ns/ttml">zu </span>
+              <span begin="02:42.070" end="02:42.160" xmlns="http://www.w3.org/ns/ttml">wa </span>
+              <span begin="02:42.160" end="02:42.300" xmlns="http://www.w3.org/ns/ttml">na i </span>
+              <span begin="02:42.300" end="02:42.680" xmlns="http://www.w3.org/ns/ttml">yo</span>
+              <span begin="02:42.680" end="02:42.680" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:42.680" end="02:42.870" xmlns="http://www.w3.org/ns/ttml">te </span>
+              <span begin="02:42.870" end="02:43.050" xmlns="http://www.w3.org/ns/ttml">o </span>
+              <span begin="02:43.050" end="02:43.220" xmlns="http://www.w3.org/ns/ttml">no </span>
+              <span begin="02:43.220" end="02:43.500" xmlns="http://www.w3.org/ns/ttml">ba </span>
+              <span begin="02:43.500" end="02:43.600" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="02:43.600" end="02:43.870" xmlns="http://www.w3.org/ns/ttml">te</span>
+            </text>
+            <text for="L48">
+              <span begin="02:46.740" end="02:47.000" xmlns="http://www.w3.org/ns/ttml">na ni </span>
+              <span begin="02:47.000" end="02:47.170" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:47.170" end="02:47.290" xmlns="http://www.w3.org/ns/ttml">ka </span>
+              <span begin="02:47.290" end="02:47.480" xmlns="http://www.w3.org/ns/ttml">mo </span>
+              <span begin="02:47.480" end="02:47.650" xmlns="http://www.w3.org/ns/ttml">ki mi </span>
+              <span begin="02:47.650" end="02:47.780" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="02:47.780" end="02:47.920" xmlns="http://www.w3.org/ns/ttml">da i </span>
+              <span begin="02:47.920" end="02:48.300" xmlns="http://www.w3.org/ns/ttml">de</span>
+              <span begin="02:48.300" end="02:48.300" xmlns="http://www.w3.org/ns/ttml"> </span>
+              <span begin="02:48.300" end="02:48.640" xmlns="http://www.w3.org/ns/ttml">bo ku </span>
+              <span begin="02:48.640" end="02:48.850" xmlns="http://www.w3.org/ns/ttml">shi </span>
+              <span begin="02:48.850" end="02:49.180" xmlns="http://www.w3.org/ns/ttml">da i </span>
+              <span begin="02:49.180" end="02:49.610" xmlns="http://www.w3.org/ns/ttml">sa</span>
+            </text>
+          </transliteration>
+        </transliterations>
+      </iTunesMetadata>
+    </metadata>
+  </head>
+  <body dur="02:49.610">
+    <div begin="00:00.500" end="00:10.560" itunes:song-part="Intro">
+      <p begin="00:00.500" end="00:03.250" ttm:agent="v1" itunes:key="L1">
+        <span begin="00:00.500" end="00:00.760">や</span>
+        <span begin="00:00.760" end="00:00.920">り</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">残</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:00.920" end="00:01.100">の</span>
+            <span tts:ruby="text" begin="00:01.100" end="00:01.310">こ</span>
+          </span>
+        </span>
+        <span begin="00:01.310" end="00:01.400">し</span>
+        <span begin="00:01.400" end="00:01.570">た</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">鼓</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:01.570" end="00:01.650">こ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">動</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:01.650" end="00:01.810">ど</span>
+            <span tts:ruby="text" begin="00:01.810" end="00:01.890">う</span>
+          </span>
+        </span>
+        <span begin="00:01.890" end="00:01.930">が</span>
+        <span begin="00:01.930" end="00:01.930"> </span>
+        <span begin="00:01.930" end="00:02.120">こ</span>
+        <span begin="00:02.120" end="00:02.230">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">夜</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:02.230" end="00:02.420">よ</span>
+          </span>
+        </span>
+        <span begin="00:02.420" end="00:02.530">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">覆</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:02.530" end="00:02.760">お</span>
+            <span tts:ruby="text" begin="00:02.760" end="00:02.980">お</span>
+          </span>
+        </span>
+        <span begin="00:02.980" end="00:03.080">っ</span>
+        <span begin="00:03.080" end="00:03.250">て</span>
+      </p>
+      <p begin="00:03.410" end="00:06.070" ttm:agent="v1" itunes:key="L2">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">僕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:03.410" end="00:03.560">ぼ</span>
+            <span tts:ruby="text" begin="00:03.560" end="00:03.760">く</span>
+          </span>
+        </span>
+        <span begin="00:03.760" end="00:03.920">ら</span>
+        <span begin="00:03.920" end="00:04.130">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">包</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:04.130" end="00:04.200">つ</span>
+            <span tts:ruby="text" begin="00:04.200" end="00:04.350">つ</span>
+          </span>
+        </span>
+        <span begin="00:04.350" end="00:04.390">ん</span>
+        <span begin="00:04.390" end="00:04.450">で</span>
+        <span begin="00:04.450" end="00:04.450"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">粉</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:04.450" end="00:04.630">こ</span>
+            <span tts:ruby="text" begin="00:04.630" end="00:04.740">な</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">々</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:04.740" end="00:04.890">ご</span>
+            <span tts:ruby="text" begin="00:04.890" end="00:04.980">な</span>
+          </span>
+        </span>
+        <span begin="00:04.980" end="00:05.160">に</span>
+        <span begin="00:05.160" end="00:05.320">な</span>
+        <span begin="00:05.320" end="00:05.570">る</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">前</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:05.570" end="00:05.740">ま</span>
+            <span tts:ruby="text" begin="00:05.740" end="00:05.890">え</span>
+          </span>
+        </span>
+        <span begin="00:05.890" end="00:06.070">に</span>
+      </p>
+      <p begin="00:06.220" end="00:07.970" ttm:agent="v1" itunes:key="L3">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">頼</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:06.220" end="00:06.360">た</span>
+            <span tts:ruby="text" begin="00:06.360" end="00:06.550">よ</span>
+          </span>
+        </span>
+        <span begin="00:06.550" end="00:06.700">り</span>
+        <span begin="00:06.700" end="00:06.880">な</span>
+        <span begin="00:06.880" end="00:07.000">く</span>
+        <span begin="00:07.000" end="00:07.160">て</span>
+        <span begin="00:07.160" end="00:07.270">も</span>
+        <span begin="00:07.270" end="00:07.390">いい</span>
+        <span begin="00:07.390" end="00:07.390"> </span>
+        <span begin="00:07.390" end="00:07.530">そ</span>
+        <span begin="00:07.530" end="00:07.690">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:07.690" end="00:07.780">て</span>
+          </span>
+        </span>
+        <span begin="00:07.780" end="00:07.970">を</span>
+      </p>
+      <p begin="00:08.130" end="00:10.560" ttm:agent="v1" itunes:key="L4">
+        <span begin="00:08.130" end="00:08.300">こ</span>
+        <span begin="00:08.300" end="00:08.410">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:08.410" end="00:08.550">て</span>
+          </span>
+        </span>
+        <span begin="00:08.550" end="00:08.670">は</span>
+        <span begin="00:08.670" end="00:08.670"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:08.670" end="00:08.880">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">分</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:08.880" end="00:08.980">ぶ</span>
+            <span tts:ruby="text" begin="00:08.980" end="00:09.070">ん</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:09.070" end="00:09.160">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">身</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:09.160" end="00:09.280">し</span>
+            <span tts:ruby="text" begin="00:09.280" end="00:09.380">ん</span>
+          </span>
+        </span>
+        <span begin="00:09.380" end="00:09.560">の</span>
+        <span begin="00:09.560" end="00:09.890">も</span>
+        <span begin="00:09.890" end="00:09.980">の</span>
+        <span begin="00:09.980" end="00:10.560">さ</span>
+      </p>
+    </div>
+    <div begin="00:10.920" end="00:13.750" itunes:song-part="Hook">
+      <p begin="00:10.920" end="00:13.750" ttm:agent="v1" itunes:key="L5">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">変</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:10.920" end="00:11.170">か</span>
+          </span>
+        </span>
+        <span begin="00:11.170" end="00:11.240">わ</span>
+        <span begin="00:11.240" end="00:11.430">ら</span>
+        <span begin="00:11.430" end="00:11.590">な</span>
+        <span begin="00:11.590" end="00:11.720">い</span>
+        <span begin="00:11.720" end="00:11.850">は</span>
+        <span begin="00:11.850" end="00:11.950">ず</span>
+        <span begin="00:11.950" end="00:12.060">は</span>
+        <span begin="00:12.060" end="00:12.200">ない</span>
+        <span begin="00:12.200" end="00:12.530">よ</span>
+        <span begin="00:12.530" end="00:12.530"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:12.530" end="00:12.700">て</span>
+          </span>
+        </span>
+        <span begin="00:12.700" end="00:12.890">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">伸</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:12.890" end="00:13.050">の</span>
+          </span>
+        </span>
+        <span begin="00:13.050" end="00:13.340">ば</span>
+        <span begin="00:13.340" end="00:13.430">し</span>
+        <span begin="00:13.430" end="00:13.750">て</span>
+      </p>
+    </div>
+    <div begin="00:19.310" end="00:36.390" itunes:song-part="Verse">
+      <p begin="00:19.310" end="00:23.470" ttm:agent="v1" itunes:key="L6">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">雑</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:19.310" end="00:19.550">ざ</span>
+            <span tts:ruby="text" begin="00:19.550" end="00:19.640">っ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">踏</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:19.640" end="00:19.780">と</span>
+            <span tts:ruby="text" begin="00:19.780" end="00:19.890">う</span>
+          </span>
+        </span>
+        <span begin="00:19.890" end="00:20.030">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">中</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:20.030" end="00:20.220">な</span>
+            <span tts:ruby="text" begin="00:20.220" end="00:20.420">か</span>
+          </span>
+        </span>
+        <span begin="00:20.420" end="00:20.630">で</span>
+        <span begin="00:20.630" end="00:21.080"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">声</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:21.080" end="00:21.260">こ</span>
+            <span tts:ruby="text" begin="00:21.260" end="00:21.480">え</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">無</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:21.480" end="00:21.650">な</span>
+          </span>
+        </span>
+        <span begin="00:21.650" end="00:21.740">き</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">声</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:21.740" end="00:21.950">こ</span>
+            <span tts:ruby="text" begin="00:21.950" end="00:22.150">え</span>
+          </span>
+        </span>
+        <span begin="00:22.150" end="00:22.330">で</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">泣</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:22.330" end="00:22.540">な</span>
+          </span>
+        </span>
+        <span begin="00:22.540" end="00:22.750">い</span>
+        <span begin="00:22.750" end="00:23.030">て</span>
+        <span begin="00:23.030" end="00:23.240">い</span>
+        <span begin="00:23.240" end="00:23.470">る</span>
+      </p>
+      <p begin="00:23.550" end="00:27.780" ttm:agent="v1" itunes:key="L7">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">足</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:23.550" end="00:23.730">あ</span>
+            <span tts:ruby="text" begin="00:23.730" end="00:23.900">し</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">跡</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:23.900" end="00:24.080">あ</span>
+            <span tts:ruby="text" begin="00:24.080" end="00:24.260">と</span>
+          </span>
+        </span>
+        <span begin="00:24.260" end="00:24.430">が</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">今</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:24.430" end="00:24.560">い</span>
+            <span tts:ruby="text" begin="00:24.670" end="00:24.920">ま</span>
+          </span>
+        </span>
+        <span begin="00:24.920" end="00:25.330"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">誰</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:25.330" end="00:25.510">だ</span>
+            <span tts:ruby="text" begin="00:25.510" end="00:25.660">れ</span>
+          </span>
+        </span>
+        <span begin="00:25.660" end="00:25.960">か</span>
+        <span begin="00:25.960" end="00:26.200">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">声</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:26.200" end="00:26.400">こ</span>
+            <span tts:ruby="text" begin="00:26.400" end="00:26.610">え</span>
+          </span>
+        </span>
+        <span begin="00:26.610" end="00:26.740">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">消</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:26.740" end="00:26.930">け</span>
+          </span>
+        </span>
+        <span begin="00:26.930" end="00:27.010">し</span>
+        <span begin="00:27.010" end="00:27.220">た</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">朝</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:27.220" end="00:27.400">あ</span>
+            <span tts:ruby="text" begin="00:27.400" end="00:27.780">さ</span>
+          </span>
+        </span>
+      </p>
+      <p begin="00:27.780" end="00:31.340" ttm:agent="v1" itunes:key="L8">
+        <span begin="00:27.780" end="00:28.020">い</span>
+        <span begin="00:28.020" end="00:28.180">つ</span>
+        <span begin="00:28.180" end="00:28.330">に</span>
+        <span begin="00:28.330" end="00:28.480">な</span>
+        <span begin="00:28.480" end="00:28.670">っ</span>
+        <span begin="00:28.670" end="00:28.860">て</span>
+        <span begin="00:28.860" end="00:29.250">も</span>
+        <span begin="00:29.250" end="00:29.490"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">枯</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:29.490" end="00:29.700">か</span>
+          </span>
+        </span>
+        <span begin="00:29.700" end="00:29.890">れ</span>
+        <span begin="00:29.890" end="00:30.190">る</span>
+        <span begin="00:30.190" end="00:30.390">こ</span>
+        <span begin="00:30.390" end="00:30.750">と</span>
+        <span begin="00:30.750" end="00:30.940">の</span>
+        <span begin="00:30.940" end="00:31.340">ない</span>
+      </p>
+      <p begin="00:31.810" end="00:36.390" ttm:agent="v1" itunes:key="L9">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">腐</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:31.810" end="00:31.990">ふ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">敗</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:31.990" end="00:32.310">はい</span>
+          </span>
+        </span>
+        <span begin="00:32.310" end="00:32.500">し</span>
+        <span begin="00:32.500" end="00:32.710">た</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">街</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:32.710" end="00:32.860">ま</span>
+            <span tts:ruby="text" begin="00:32.860" end="00:33.030">ち</span>
+          </span>
+        </span>
+        <span begin="00:33.030" end="00:33.520">の</span>
+        <span begin="00:33.520" end="00:33.740"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">泥</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:33.740" end="00:33.920">ど</span>
+            <span tts:ruby="text" begin="00:33.920" end="00:34.090">ろ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">水</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:34.090" end="00:34.410">み</span>
+            <span tts:ruby="text" begin="00:34.410" end="00:34.620">ず</span>
+          </span>
+        </span>
+        <span begin="00:34.620" end="00:34.940">が</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">冷</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:34.940" end="00:35.190">つ</span>
+            <span tts:ruby="text" begin="00:35.190" end="00:35.790">め</span>
+          </span>
+        </span>
+        <span begin="00:35.790" end="00:36.390">たい</span>
+      </p>
+    </div>
+    <div begin="00:36.560" end="00:47.020" itunes:song-part="PreChorus">
+      <p begin="00:36.560" end="00:38.000" ttm:agent="v1" itunes:key="L10">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">何</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:36.560" end="00:36.680">な</span>
+            <span tts:ruby="text" begin="00:36.680" end="00:36.750">ん</span>
+          </span>
+        </span>
+        <span begin="00:36.750" end="00:36.880">に</span>
+        <span begin="00:36.880" end="00:37.030">も</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">変</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:37.030" end="00:37.150">か</span>
+          </span>
+        </span>
+        <span begin="00:37.150" end="00:37.270">わ</span>
+        <span begin="00:37.270" end="00:37.360">ら</span>
+        <span begin="00:37.360" end="00:37.480">な</span>
+        <span begin="00:37.480" end="00:37.540">い</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">世</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:37.540" end="00:37.630">せ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">界</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:37.630" end="00:37.820">かい</span>
+          </span>
+        </span>
+        <span begin="00:37.820" end="00:38.000">で</span>
+      </p>
+      <p begin="00:39.260" end="00:40.800" ttm:agent="v1" itunes:key="L11">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">今</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:39.260" end="00:39.560">きょ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">日</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:39.560" end="00:39.650">う</span>
+          </span>
+        </span>
+        <span begin="00:39.650" end="00:39.800">だ</span>
+        <span begin="00:39.800" end="00:39.830">っ</span>
+        <span begin="00:39.830" end="00:39.930">て</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">生</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:39.930" end="00:40.070">い</span>
+          </span>
+        </span>
+        <span begin="00:40.070" end="00:40.160">き</span>
+        <span begin="00:40.160" end="00:40.290">て</span>
+        <span begin="00:40.290" end="00:40.410">ゆ</span>
+        <span begin="00:40.410" end="00:40.510">く</span>
+        <span begin="00:40.510" end="00:40.610">ん</span>
+        <span begin="00:40.610" end="00:40.800">だ</span>
+      </p>
+      <p begin="00:41.790" end="00:43.950" ttm:agent="v1" itunes:key="L12">
+        <span begin="00:41.790" end="00:41.980">く</span>
+        <span begin="00:41.980" end="00:42.150">だ</span>
+        <span begin="00:42.150" end="00:42.360">ら</span>
+        <span begin="00:42.360" end="00:42.480">な</span>
+        <span begin="00:42.480" end="00:42.630">い</span>
+        <span begin="00:42.630" end="00:42.740">け</span>
+        <span begin="00:42.740" end="00:42.910">ど</span>
+        <span begin="00:42.910" end="00:42.910"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">仕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:42.910" end="00:43.210">し</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">方</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:43.210" end="00:43.400">か</span>
+            <span tts:ruby="text" begin="00:43.400" end="00:43.510">た</span>
+          </span>
+        </span>
+        <span begin="00:43.510" end="00:43.660">な</span>
+        <span begin="00:43.660" end="00:43.730">い</span>
+        <span begin="00:43.730" end="00:43.750">で</span>
+        <span begin="00:43.750" end="00:43.950">しょ</span>
+      </p>
+      <p begin="00:44.100" end="00:47.020" ttm:agent="v1" itunes:key="L13">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">僕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:44.100" end="00:44.230">ぼ</span>
+            <span tts:ruby="text" begin="00:44.230" end="00:44.450">く</span>
+          </span>
+        </span>
+        <span begin="00:44.450" end="00:44.540">ら</span>
+        <span begin="00:44.540" end="00:44.710">は</span>
+        <span begin="00:44.710" end="00:44.820">も</span>
+        <span begin="00:44.820" end="00:44.980">う</span>
+        <span begin="00:44.980" end="00:45.140"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">歩</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:45.140" end="00:45.340">あ</span>
+            <span tts:ruby="text" begin="00:45.340" end="00:45.520">る</span>
+          </span>
+        </span>
+        <span begin="00:45.520" end="00:45.600">き</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">始</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:45.600" end="00:45.760">は</span>
+            <span tts:ruby="text" begin="00:45.760" end="00:45.860">じ</span>
+          </span>
+        </span>
+        <span begin="00:45.860" end="00:46.200">め</span>
+        <span begin="00:46.200" end="00:46.450">た</span>
+        <span begin="00:46.450" end="00:46.590">ん</span>
+        <span begin="00:46.590" end="00:47.020">だ</span>
+      </p>
+    </div>
+    <div begin="00:47.230" end="00:58.030" itunes:song-part="Chorus">
+      <p begin="00:47.230" end="00:49.930" ttm:agent="v1" itunes:key="L14">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">嘘</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:47.230" end="00:47.360">う</span>
+            <span tts:ruby="text" begin="00:47.360" end="00:47.610">そ</span>
+          </span>
+        </span>
+        <span begin="00:47.610" end="00:47.720">み</span>
+        <span begin="00:47.720" end="00:47.990">た</span>
+        <span begin="00:47.990" end="00:48.150">い</span>
+        <span begin="00:48.150" end="00:48.500">な</span>
+        <span begin="00:48.500" end="00:48.680"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">馬</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:48.680" end="00:48.840">ば</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">鹿</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:48.840" end="00:49.020">か</span>
+          </span>
+        </span>
+        <span begin="00:49.020" end="00:49.120">み</span>
+        <span begin="00:49.120" end="00:49.390">た</span>
+        <span begin="00:49.390" end="00:49.540">い</span>
+        <span begin="00:49.540" end="00:49.930">な</span>
+      </p>
+      <p begin="00:50.070" end="00:52.770" ttm:agent="v1" itunes:key="L15">
+        <span begin="00:50.070" end="00:50.190">ど</span>
+        <span begin="00:50.190" end="00:50.320">う</span>
+        <span begin="00:50.320" end="00:50.580">し</span>
+        <span begin="00:50.580" end="00:50.740">よ</span>
+        <span begin="00:50.740" end="00:50.910">う</span>
+        <span begin="00:50.910" end="00:51.280">も</span>
+        <span begin="00:51.280" end="00:51.620">ない</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">僕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:51.620" end="00:51.920">ぼ</span>
+            <span tts:ruby="text" begin="00:51.920" end="00:52.000">く</span>
+          </span>
+        </span>
+        <span begin="00:52.000" end="00:52.170">ら</span>
+        <span begin="00:52.170" end="00:52.330">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">街</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:52.330" end="00:52.460">ま</span>
+            <span tts:ruby="text" begin="00:52.460" end="00:52.770">ち</span>
+          </span>
+        </span>
+      </p>
+      <p begin="00:52.770" end="00:54.980" ttm:agent="v1" itunes:key="L16">
+        <span begin="00:52.770" end="00:53.050">そ</span>
+        <span begin="00:53.050" end="00:53.220">れ</span>
+        <span begin="00:53.220" end="00:53.390">で</span>
+        <span begin="00:53.390" end="00:53.590">も</span>
+        <span begin="00:53.590" end="00:53.760"> </span>
+        <span begin="00:53.760" end="00:53.860">こ</span>
+        <span begin="00:53.860" end="00:53.930">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">眼</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:53.930" end="00:54.080">め</span>
+          </span>
+        </span>
+        <span begin="00:54.080" end="00:54.130">で</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">確</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:54.130" end="00:54.200">た</span>
+            <span tts:ruby="text" begin="00:54.200" end="00:54.270">し</span>
+          </span>
+        </span>
+        <span begin="00:54.270" end="00:54.380">か</span>
+        <span begin="00:54.380" end="00:54.450">に</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">見</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:54.450" end="00:54.510">み</span>
+          </span>
+        </span>
+        <span begin="00:54.510" end="00:54.640">え</span>
+        <span begin="00:54.640" end="00:54.760">た</span>
+        <span begin="00:54.760" end="00:54.830">ん</span>
+        <span begin="00:54.830" end="00:54.980">だ</span>
+      </p>
+      <p begin="00:55.140" end="00:58.030" ttm:agent="v1" itunes:key="L17">
+        <span begin="00:55.140" end="00:55.220">こ</span>
+        <span begin="00:55.220" end="00:55.320">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:55.320" end="00:55.410">て</span>
+          </span>
+        </span>
+        <span begin="00:55.410" end="00:55.510">で</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">確</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:55.510" end="00:55.590">た</span>
+            <span tts:ruby="text" begin="00:55.590" end="00:55.670">し</span>
+          </span>
+        </span>
+        <span begin="00:55.670" end="00:55.780">か</span>
+        <span begin="00:55.780" end="00:55.840">に</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">触</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:55.840" end="00:55.900">ふ</span>
+          </span>
+        </span>
+        <span begin="00:55.900" end="00:56.010">れ</span>
+        <span begin="00:56.010" end="00:56.200">たん</span>
+        <span begin="00:56.200" end="00:56.490">だ</span>
+        <span begin="00:56.490" end="00:56.590"> </span>
+        <span begin="00:56.590" end="00:56.860">ねえ</span>
+        <span begin="00:56.860" end="00:56.860"> </span>
+        <span begin="00:56.860" end="00:57.080">ほ</span>
+        <span begin="00:57.080" end="00:57.320">ら</span>
+        <span begin="00:57.320" end="00:57.600"> </span>
+        <span begin="00:57.600" end="00:57.800">ほ</span>
+        <span begin="00:57.800" end="00:58.030">ら</span>
+      </p>
+    </div>
+    <div begin="00:58.270" end="01:10.010" itunes:song-part="Chorus">
+      <p begin="00:58.270" end="01:01.120" ttm:agent="v1" itunes:key="L18">
+        <span begin="00:58.270" end="00:58.450">ほ</span>
+        <span begin="00:58.450" end="00:58.600">ら</span>
+        <span begin="00:58.600" end="00:58.740">ま</span>
+        <span begin="00:58.740" end="00:58.860">た</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">吹</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:58.860" end="00:59.230">ふ</span>
+          </span>
+        </span>
+        <span begin="00:59.230" end="00:59.370">い</span>
+        <span begin="00:59.370" end="00:59.780">た</span>
+        <span begin="00:59.780" end="00:59.930"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">馬</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="00:59.930" end="01:00.080">ば</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">鹿</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:00.080" end="01:00.200">か</span>
+          </span>
+        </span>
+        <span begin="01:00.200" end="01:00.360">み</span>
+        <span begin="01:00.360" end="01:00.640">た</span>
+        <span begin="01:00.640" end="01:00.790">い</span>
+        <span begin="01:00.790" end="01:01.120">だ</span>
+      </p>
+      <p begin="01:01.310" end="01:04.050" ttm:agent="v1" itunes:key="L19">
+        <span begin="01:01.310" end="01:01.430">ど</span>
+        <span begin="01:01.430" end="01:01.570">う</span>
+        <span begin="01:01.570" end="01:01.880">し</span>
+        <span begin="01:01.880" end="01:02.150">よう</span>
+        <span begin="01:02.150" end="01:02.550">も</span>
+        <span begin="01:02.550" end="01:02.780">な</span>
+        <span begin="01:02.780" end="01:02.870">い</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">闇</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:02.870" end="01:03.110">や</span>
+            <span tts:ruby="text" begin="01:03.110" end="01:03.220">み</span>
+          </span>
+        </span>
+        <span begin="01:03.220" end="01:03.380">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">照</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:03.380" end="01:03.570">て</span>
+          </span>
+        </span>
+        <span begin="01:03.570" end="01:03.690">ら</span>
+        <span begin="01:03.690" end="01:04.050">せ</span>
+      </p>
+      <p begin="01:04.110" end="01:06.220" ttm:agent="v1" itunes:key="L20">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">夢</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:04.110" end="01:04.280">ゆ</span>
+            <span tts:ruby="text" begin="01:04.280" end="01:04.420">め</span>
+          </span>
+        </span>
+        <span begin="01:04.420" end="01:04.640">じゃ</span>
+        <span begin="01:04.640" end="01:04.830">ない</span>
+        <span begin="01:04.830" end="01:04.990"> </span>
+        <span begin="01:04.990" end="01:05.120">どう</span>
+        <span begin="01:05.120" end="01:05.270">せ</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">終</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:05.270" end="01:05.340">お</span>
+          </span>
+        </span>
+        <span begin="01:05.340" end="01:05.440">わ</span>
+        <span begin="01:05.440" end="01:05.510">っ</span>
+        <span begin="01:05.510" end="01:05.590">て</span>
+        <span begin="01:05.590" end="01:05.670">る</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">街</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:05.670" end="01:05.750">ま</span>
+            <span tts:ruby="text" begin="01:05.750" end="01:05.860">ち</span>
+          </span>
+        </span>
+        <span begin="01:05.860" end="01:05.960">だ</span>
+        <span begin="01:05.960" end="01:06.030">っ</span>
+        <span begin="01:06.030" end="01:06.220">て</span>
+      </p>
+      <p begin="01:06.370" end="01:10.010" ttm:agent="v1" itunes:key="L21">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">諦</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:06.370" end="01:06.470">あ</span>
+            <span tts:ruby="text" begin="01:06.470" end="01:06.530">き</span>
+            <span tts:ruby="text" begin="01:06.530" end="01:06.610">ら</span>
+          </span>
+        </span>
+        <span begin="01:06.610" end="01:06.710">め</span>
+        <span begin="01:06.710" end="01:06.820">た</span>
+        <span begin="01:06.820" end="01:06.880">っ</span>
+        <span begin="01:06.880" end="01:06.970">て</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">変</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:06.970" end="01:07.040">か</span>
+          </span>
+        </span>
+        <span begin="01:07.040" end="01:07.220">わん</span>
+        <span begin="01:07.220" end="01:07.400">ない</span>
+        <span begin="01:07.400" end="01:07.620">ぜ</span>
+        <span begin="01:07.620" end="01:07.760"> </span>
+        <span begin="01:07.760" end="01:08.140">ああ</span>
+        <span begin="01:08.140" end="01:08.140"> </span>
+        <span begin="01:08.140" end="01:08.320">ま</span>
+        <span begin="01:08.320" end="01:08.530">だ</span>
+        <span begin="01:08.530" end="01:08.790"> </span>
+        <span begin="01:08.790" end="01:09.020">ま</span>
+        <span begin="01:09.020" end="01:09.210">だ</span>
+        <span begin="01:09.210" end="01:09.510"> </span>
+        <span begin="01:09.510" end="01:09.720">ま</span>
+        <span begin="01:09.720" end="01:10.010">だ</span>
+      </p>
+    </div>
+    <div begin="01:10.090" end="01:20.060" itunes:song-part="Hook">
+      <p begin="01:10.090" end="01:12.760" ttm:agent="v1" itunes:key="L22">
+        <span begin="01:10.090" end="01:10.270">や</span>
+        <span begin="01:10.270" end="01:10.420">り</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">残</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:10.420" end="01:10.570">の</span>
+            <span tts:ruby="text" begin="01:10.570" end="01:10.770">こ</span>
+          </span>
+        </span>
+        <span begin="01:10.770" end="01:10.850">し</span>
+        <span begin="01:10.850" end="01:11.030">た</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">鼓</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:11.030" end="01:11.110">こ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">動</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:11.110" end="01:11.280">どう</span>
+          </span>
+        </span>
+        <span begin="01:11.280" end="01:11.380">が</span>
+        <span begin="01:11.380" end="01:11.380"> </span>
+        <span begin="01:11.380" end="01:11.550">こ</span>
+        <span begin="01:11.550" end="01:11.680">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">夜</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:11.680" end="01:11.860">よ</span>
+            <span tts:ruby="text" begin="01:11.860" end="01:11.970">ん</span>
+          </span>
+        </span>
+        <span begin="01:11.970" end="01:12.210">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">覆</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:12.210" end="01:12.380">お</span>
+            <span tts:ruby="text" begin="01:12.380" end="01:12.480">お</span>
+          </span>
+        </span>
+        <span begin="01:12.480" end="01:12.550">っ</span>
+        <span begin="01:12.550" end="01:12.760">て</span>
+      </p>
+      <p begin="01:12.880" end="01:15.530" ttm:agent="v1" itunes:key="L23">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">僕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:12.880" end="01:13.030">ぼ</span>
+            <span tts:ruby="text" begin="01:13.030" end="01:13.230">く</span>
+          </span>
+        </span>
+        <span begin="01:13.230" end="01:13.430">ら</span>
+        <span begin="01:13.430" end="01:13.590">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">包</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:13.590" end="01:13.640">つ</span>
+            <span tts:ruby="text" begin="01:13.640" end="01:13.820">つ</span>
+          </span>
+        </span>
+        <span begin="01:13.820" end="01:13.860">ん</span>
+        <span begin="01:13.860" end="01:13.930">で</span>
+        <span begin="01:13.930" end="01:13.930"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">粉</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:13.930" end="01:14.100">こ</span>
+            <span tts:ruby="text" begin="01:14.100" end="01:14.230">な</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">々</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:14.230" end="01:14.360">ご</span>
+            <span tts:ruby="text" begin="01:14.360" end="01:14.480">な</span>
+          </span>
+        </span>
+        <span begin="01:14.480" end="01:14.600">に</span>
+        <span begin="01:14.600" end="01:14.790">な</span>
+        <span begin="01:14.790" end="01:15.040">る</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">前</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:15.040" end="01:15.190">ま</span>
+            <span tts:ruby="text" begin="01:15.190" end="01:15.350">え</span>
+          </span>
+        </span>
+        <span begin="01:15.350" end="01:15.530">に</span>
+      </p>
+      <p begin="01:15.670" end="01:17.430" ttm:agent="v1" itunes:key="L24">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">頼</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:15.670" end="01:15.830">た</span>
+            <span tts:ruby="text" begin="01:15.830" end="01:16.040">よ</span>
+          </span>
+        </span>
+        <span begin="01:16.040" end="01:16.200">り</span>
+        <span begin="01:16.200" end="01:16.380">な</span>
+        <span begin="01:16.380" end="01:16.470">く</span>
+        <span begin="01:16.470" end="01:16.620">て</span>
+        <span begin="01:16.620" end="01:16.710">も</span>
+        <span begin="01:16.710" end="01:16.860">いい</span>
+        <span begin="01:16.860" end="01:16.860"> </span>
+        <span begin="01:16.860" end="01:16.980">そ</span>
+        <span begin="01:16.980" end="01:17.150">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:17.150" end="01:17.250">て</span>
+          </span>
+        </span>
+        <span begin="01:17.250" end="01:17.430">を</span>
+      </p>
+      <p begin="01:17.600" end="01:20.060" ttm:agent="v1" itunes:key="L25">
+        <span begin="01:17.600" end="01:17.780">こ</span>
+        <span begin="01:17.780" end="01:17.870">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:17.870" end="01:18.030">て</span>
+          </span>
+        </span>
+        <span begin="01:18.030" end="01:18.120">は</span>
+        <span begin="01:18.120" end="01:18.120"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:18.120" end="01:18.310">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">分</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:18.310" end="01:18.390">ぶ</span>
+            <span tts:ruby="text" begin="01:18.390" end="01:18.470">ん</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:18.470" end="01:18.570">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">身</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:18.570" end="01:18.730">し</span>
+            <span tts:ruby="text" begin="01:18.730" end="01:18.830">ん</span>
+          </span>
+        </span>
+        <span begin="01:18.830" end="01:19.030">の</span>
+        <span begin="01:19.030" end="01:19.360">も</span>
+        <span begin="01:19.360" end="01:19.460">の</span>
+        <span begin="01:19.460" end="01:20.060">さ</span>
+      </p>
+    </div>
+    <div begin="01:20.400" end="01:23.190" itunes:song-part="Hook">
+      <p begin="01:20.400" end="01:23.190" ttm:agent="v1" itunes:key="L26">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">変</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:20.400" end="01:20.660">か</span>
+          </span>
+        </span>
+        <span begin="01:20.660" end="01:20.730">わ</span>
+        <span begin="01:20.730" end="01:20.920">ら</span>
+        <span begin="01:20.920" end="01:21.060">な</span>
+        <span begin="01:21.060" end="01:21.180">い</span>
+        <span begin="01:21.180" end="01:21.270">は</span>
+        <span begin="01:21.270" end="01:21.380">ず</span>
+        <span begin="01:21.380" end="01:21.480">は</span>
+        <span begin="01:21.480" end="01:21.640">ない</span>
+        <span begin="01:21.640" end="01:21.990">よ</span>
+        <span begin="01:21.990" end="01:21.990"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:21.990" end="01:22.190">て</span>
+          </span>
+        </span>
+        <span begin="01:22.190" end="01:22.370">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">伸</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:22.370" end="01:22.560">の</span>
+          </span>
+        </span>
+        <span begin="01:22.560" end="01:22.820">ば</span>
+        <span begin="01:22.820" end="01:22.930">し</span>
+        <span begin="01:22.930" end="01:23.190">て</span>
+      </p>
+    </div>
+    <div begin="01:28.820" end="01:45.780" itunes:song-part="Verse">
+      <p begin="01:28.820" end="01:32.950" ttm:agent="v1" itunes:key="L27">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">永</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:28.820" end="01:29.060">え</span>
+            <span tts:ruby="text" begin="01:29.060" end="01:29.190">い</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">遠</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:29.190" end="01:29.330">え</span>
+            <span tts:ruby="text" begin="01:29.330" end="01:29.420">ん</span>
+          </span>
+        </span>
+        <span begin="01:29.420" end="01:29.550">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">中</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:29.550" end="01:29.720">な</span>
+            <span tts:ruby="text" begin="01:29.720" end="01:29.930">か</span>
+          </span>
+        </span>
+        <span begin="01:29.930" end="01:30.250">で</span>
+        <span begin="01:30.250" end="01:30.590"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">迷</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:30.590" end="01:30.800">ま</span>
+            <span tts:ruby="text" begin="01:30.800" end="01:30.960">よ</span>
+          </span>
+        </span>
+        <span begin="01:30.960" end="01:31.190">わ</span>
+        <span begin="01:31.190" end="01:31.480">ない</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">為</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:31.480" end="01:31.650">た</span>
+            <span tts:ruby="text" begin="01:31.650" end="01:31.810">め</span>
+          </span>
+        </span>
+        <span begin="01:31.810" end="01:32.000">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">温</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:32.000" end="01:32.230">ぬ</span>
+            <span tts:ruby="text" begin="01:32.230" end="01:32.520">く</span>
+          </span>
+        </span>
+        <span begin="01:32.520" end="01:32.710">も</span>
+        <span begin="01:32.710" end="01:32.950">り</span>
+      </p>
+      <p begin="01:33.020" end="01:37.180" ttm:agent="v1" itunes:key="L28">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">軽</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:33.020" end="01:33.270">けい</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">薄</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:33.270" end="01:33.500">は</span>
+            <span tts:ruby="text" begin="01:33.500" end="01:33.600">く</span>
+          </span>
+        </span>
+        <span begin="01:33.600" end="01:33.720">な</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">君</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:33.720" end="01:33.940">き</span>
+            <span tts:ruby="text" begin="01:33.940" end="01:34.100">み</span>
+          </span>
+        </span>
+        <span begin="01:34.100" end="01:34.340">に</span>
+        <span begin="01:34.340" end="01:34.790"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">届</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:34.790" end="01:34.960">と</span>
+            <span tts:ruby="text" begin="01:34.960" end="01:35.140">ど</span>
+          </span>
+        </span>
+        <span begin="01:35.140" end="01:35.420">く</span>
+        <span begin="01:35.420" end="01:35.680">こ</span>
+        <span begin="01:35.680" end="01:35.840">と</span>
+        <span begin="01:35.840" end="01:36.040">な</span>
+        <span begin="01:36.040" end="01:36.170">く</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">散</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:36.170" end="01:36.410">ち</span>
+          </span>
+        </span>
+        <span begin="01:36.410" end="01:36.480">っ</span>
+        <span begin="01:36.480" end="01:36.720">て</span>
+        <span begin="01:36.720" end="01:36.880">ゆ</span>
+        <span begin="01:36.880" end="01:37.180">く</span>
+      </p>
+      <p begin="01:37.180" end="01:40.780" ttm:agent="v1" itunes:key="L29">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">想</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:37.180" end="01:37.380">そ</span>
+            <span tts:ruby="text" begin="01:37.380" end="01:37.570">う</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">像</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:37.570" end="01:37.810">ぞ</span>
+            <span tts:ruby="text" begin="01:37.810" end="01:37.970">う</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">通</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:37.970" end="01:38.110">ど</span>
+            <span tts:ruby="text" begin="01:38.110" end="01:38.320">お</span>
+          </span>
+        </span>
+        <span begin="01:38.320" end="01:38.670">り</span>
+        <span begin="01:38.670" end="01:38.910">？</span>
+        <span begin="01:38.910" end="01:38.910"> </span>
+        <span begin="01:38.910" end="01:39.170">そ</span>
+        <span begin="01:39.170" end="01:39.350">ん</span>
+        <span begin="01:39.350" end="01:39.650">な</span>
+        <span begin="01:39.650" end="01:39.840">は</span>
+        <span begin="01:39.840" end="01:40.210">ず</span>
+        <span begin="01:40.210" end="01:40.420">は</span>
+        <span begin="01:40.420" end="01:40.780">ない</span>
+      </p>
+      <p begin="01:41.300" end="01:45.780" ttm:agent="v1" itunes:key="L30">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">逃</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:41.300" end="01:41.480">に</span>
+          </span>
+        </span>
+        <span begin="01:41.480" end="01:41.810">げ</span>
+        <span begin="01:41.810" end="01:42.030">りゃ</span>
+        <span begin="01:42.030" end="01:42.160">い</span>
+        <span begin="01:42.160" end="01:42.340">い</span>
+        <span begin="01:42.340" end="01:42.450">で</span>
+        <span begin="01:42.450" end="01:42.880">しょ</span>
+        <span begin="01:42.880" end="01:43.100">？</span>
+        <span begin="01:43.190" end="01:43.190"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">簡</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:43.190" end="01:43.400">か</span>
+            <span tts:ruby="text" begin="01:43.400" end="01:43.560">ん</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">単</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:43.560" end="01:43.840">た</span>
+            <span tts:ruby="text" begin="01:43.840" end="01:43.950">ん</span>
+          </span>
+        </span>
+        <span begin="01:43.950" end="01:44.130">に</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">言</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:44.130" end="01:44.430">い</span>
+          </span>
+        </span>
+        <span begin="01:44.430" end="01:44.630">わ</span>
+        <span begin="01:44.630" end="01:45.260">ない</span>
+        <span begin="01:45.260" end="01:45.780">で</span>
+      </p>
+    </div>
+    <div begin="01:45.980" end="02:02.730" itunes:song-part="Bridge">
+      <p begin="01:45.980" end="01:47.590" ttm:agent="v1" itunes:key="L31">
+        <span begin="01:45.980" end="01:46.160">い</span>
+        <span begin="01:46.160" end="01:46.310">つ</span>
+        <span begin="01:46.310" end="01:46.500">も</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">通</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:46.500" end="01:46.630">と</span>
+            <span tts:ruby="text" begin="01:46.630" end="01:46.770">お</span>
+          </span>
+        </span>
+        <span begin="01:46.770" end="01:46.880">り</span>
+        <span begin="01:46.880" end="01:47.000">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">世</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:47.000" end="01:47.130">せ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">界</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:47.130" end="01:47.270">か</span>
+            <span tts:ruby="text" begin="01:47.270" end="01:47.340">い</span>
+          </span>
+        </span>
+        <span begin="01:47.340" end="01:47.590">を</span>
+      </p>
+      <p begin="01:48.780" end="01:50.350" ttm:agent="v1" itunes:key="L32">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">今</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:48.780" end="01:49.030">きょ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">日</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:49.030" end="01:49.160">う</span>
+          </span>
+        </span>
+        <span begin="01:49.160" end="01:49.290">だ</span>
+        <span begin="01:49.290" end="01:49.330">っ</span>
+        <span begin="01:49.330" end="01:49.410">て</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">駆</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:49.410" end="01:49.590">か</span>
+          </span>
+        </span>
+        <span begin="01:49.590" end="01:49.710">け</span>
+        <span begin="01:49.710" end="01:49.840">て</span>
+        <span begin="01:49.840" end="01:49.950">ゆ</span>
+        <span begin="01:49.950" end="01:50.050">く</span>
+        <span begin="01:50.050" end="01:50.130">ん</span>
+        <span begin="01:50.130" end="01:50.350">だ</span>
+      </p>
+      <p begin="01:51.210" end="01:53.490" ttm:agent="v1" itunes:key="L33">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">滑</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:51.210" end="01:51.450">す</span>
+            <span tts:ruby="text" begin="01:51.450" end="01:51.640">べ</span>
+          </span>
+        </span>
+        <span begin="01:51.640" end="01:51.790">り</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">落</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:51.790" end="01:51.930">お</span>
+          </span>
+        </span>
+        <span begin="01:51.930" end="01:52.140">ち</span>
+        <span begin="01:52.140" end="01:52.270">た</span>
+        <span begin="01:52.270" end="01:52.500">ら</span>
+        <span begin="01:52.500" end="01:52.500"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">掴</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:52.500" end="01:52.680">つ</span>
+            <span tts:ruby="text" begin="01:52.680" end="01:52.910">か</span>
+          </span>
+        </span>
+        <span begin="01:52.910" end="01:53.010">ん</span>
+        <span begin="01:53.010" end="01:53.170">で</span>
+        <span begin="01:53.170" end="01:53.290">や</span>
+        <span begin="01:53.290" end="01:53.380">ろ</span>
+        <span begin="01:53.380" end="01:53.490">う</span>
+      </p>
+      <p begin="01:53.600" end="02:02.730" ttm:agent="v1" itunes:key="L34">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">灰</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:53.600" end="01:53.780">は</span>
+            <span tts:ruby="text" begin="01:53.780" end="01:53.840">い</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">色</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:53.840" end="01:53.950">い</span>
+            <span tts:ruby="text" begin="01:53.950" end="01:54.050">ろ</span>
+          </span>
+        </span>
+        <span begin="01:54.050" end="01:54.180">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">空</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:54.180" end="01:54.340">そ</span>
+            <span tts:ruby="text" begin="01:54.340" end="01:54.500">ら</span>
+          </span>
+        </span>
+        <span begin="01:54.500" end="01:54.620"> </span>
+        <span begin="01:54.620" end="01:54.820">そ</span>
+        <span begin="01:54.820" end="01:55.010">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">中</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:55.010" end="01:55.120">な</span>
+            <span tts:ruby="text" begin="01:55.120" end="01:55.280">か</span>
+          </span>
+        </span>
+        <span begin="01:55.280" end="01:55.350">で</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">煌</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:55.350" end="01:55.660">き</span>
+            <span tts:ruby="text" begin="01:55.660" end="01:55.870">ら</span>
+          </span>
+        </span>
+        <span begin="01:55.870" end="01:56.010">め</span>
+        <span begin="01:56.010" end="01:56.500">く</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">青</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="01:56.500" end="01:56.790">あ</span>
+            <span tts:ruby="text" begin="01:56.790" end="01:57.340">お</span>
+          </span>
+        </span>
+        <span begin="01:57.340" end="01:57.660">さ</span>
+        <span begin="01:57.660" end="02:02.730">を</span>
+      </p>
+    </div>
+    <div begin="02:07.910" end="02:18.710" itunes:song-part="Chorus">
+      <p begin="02:07.910" end="02:10.560" ttm:agent="v1" itunes:key="L35">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">嘘</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:07.910" end="02:08.010">う</span>
+            <span tts:ruby="text" begin="02:08.010" end="02:08.270">そ</span>
+          </span>
+        </span>
+        <span begin="02:08.270" end="02:08.400">み</span>
+        <span begin="02:08.400" end="02:08.670">た</span>
+        <span begin="02:08.670" end="02:08.830">い</span>
+        <span begin="02:08.830" end="02:09.330">な</span>
+        <span begin="02:09.330" end="02:09.330"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">馬</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:09.330" end="02:09.510">ば</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">鹿</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:09.510" end="02:09.690">か</span>
+          </span>
+        </span>
+        <span begin="02:09.690" end="02:09.800">み</span>
+        <span begin="02:09.800" end="02:10.030">た</span>
+        <span begin="02:10.030" end="02:10.200">い</span>
+        <span begin="02:10.200" end="02:10.560">な</span>
+      </p>
+      <p begin="02:10.730" end="02:13.500" ttm:agent="v1" itunes:key="L36">
+        <span begin="02:10.730" end="02:10.940">ど</span>
+        <span begin="02:10.940" end="02:11.040">う</span>
+        <span begin="02:11.040" end="02:11.350">し</span>
+        <span begin="02:11.350" end="02:11.620">よう</span>
+        <span begin="02:11.620" end="02:12.000">も</span>
+        <span begin="02:12.000" end="02:12.210">な</span>
+        <span begin="02:12.210" end="02:12.330">い</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">僕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:12.330" end="02:12.630">ぼ</span>
+            <span tts:ruby="text" begin="02:12.630" end="02:12.730">く</span>
+          </span>
+        </span>
+        <span begin="02:12.730" end="02:12.880">ら</span>
+        <span begin="02:12.880" end="02:13.030">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">街</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:13.030" end="02:13.160">ま</span>
+            <span tts:ruby="text" begin="02:13.160" end="02:13.500">ち</span>
+          </span>
+        </span>
+      </p>
+      <p begin="02:13.500" end="02:15.710" ttm:agent="v1" itunes:key="L37">
+        <span begin="02:13.500" end="02:13.720">そ</span>
+        <span begin="02:13.720" end="02:13.940">れ</span>
+        <span begin="02:13.940" end="02:14.120">で</span>
+        <span begin="02:14.120" end="02:14.330">も</span>
+        <span begin="02:14.330" end="02:14.430"> </span>
+        <span begin="02:14.430" end="02:14.530">こ</span>
+        <span begin="02:14.530" end="02:14.600">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">眼</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:14.600" end="02:14.680">め</span>
+          </span>
+        </span>
+        <span begin="02:14.680" end="02:14.780">で</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">確</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:14.780" end="02:14.870">た</span>
+            <span tts:ruby="text" begin="02:14.870" end="02:14.950">し</span>
+          </span>
+        </span>
+        <span begin="02:14.950" end="02:15.040">か</span>
+        <span begin="02:15.040" end="02:15.140">に</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">見</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:15.140" end="02:15.220">み</span>
+          </span>
+        </span>
+        <span begin="02:15.220" end="02:15.320">え</span>
+        <span begin="02:15.320" end="02:15.450">た</span>
+        <span begin="02:15.450" end="02:15.520">ん</span>
+        <span begin="02:15.520" end="02:15.710">だ</span>
+      </p>
+      <p begin="02:15.840" end="02:18.710" ttm:agent="v1" itunes:key="L38">
+        <span begin="02:15.840" end="02:15.910">こ</span>
+        <span begin="02:15.910" end="02:16.020">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:16.020" end="02:16.110">て</span>
+          </span>
+        </span>
+        <span begin="02:16.110" end="02:16.220">で</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">確</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:16.220" end="02:16.290">た</span>
+            <span tts:ruby="text" begin="02:16.290" end="02:16.370">し</span>
+          </span>
+        </span>
+        <span begin="02:16.370" end="02:16.460">か</span>
+        <span begin="02:16.460" end="02:16.520">に</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">触</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:16.520" end="02:16.600">ふ</span>
+          </span>
+        </span>
+        <span begin="02:16.600" end="02:16.740">れ</span>
+        <span begin="02:16.740" end="02:16.880">た</span>
+        <span begin="02:16.880" end="02:16.950">ん</span>
+        <span begin="02:16.950" end="02:17.260">だ</span>
+        <span begin="02:17.260" end="02:17.260"> </span>
+        <span begin="02:17.260" end="02:17.390">ね</span>
+        <span begin="02:17.390" end="02:17.570">え</span>
+        <span begin="02:17.570" end="02:17.570"> </span>
+        <span begin="02:17.570" end="02:17.790">ほ</span>
+        <span begin="02:17.790" end="02:18.030">ら</span>
+        <span begin="02:18.030" end="02:18.280"> </span>
+        <span begin="02:18.280" end="02:18.490">ほ</span>
+        <span begin="02:18.490" end="02:18.710">ら</span>
+      </p>
+    </div>
+    <div begin="02:18.990" end="02:30.730" itunes:song-part="Chorus">
+      <p begin="02:18.990" end="02:21.830" ttm:agent="v1" itunes:key="L39">
+        <span begin="02:18.990" end="02:19.190">ほ</span>
+        <span begin="02:19.190" end="02:19.310">ら</span>
+        <span begin="02:19.310" end="02:19.440">ま</span>
+        <span begin="02:19.440" end="02:19.580">た</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">吹</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:19.580" end="02:19.890">ふ</span>
+          </span>
+        </span>
+        <span begin="02:19.890" end="02:20.060">い</span>
+        <span begin="02:20.060" end="02:20.460">た</span>
+        <span begin="02:20.460" end="02:20.590"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">馬</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:20.590" end="02:20.790">ば</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">鹿</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:20.790" end="02:20.960">か</span>
+          </span>
+        </span>
+        <span begin="02:20.960" end="02:21.060">み</span>
+        <span begin="02:21.060" end="02:21.340">た</span>
+        <span begin="02:21.340" end="02:21.490">い</span>
+        <span begin="02:21.490" end="02:21.830">だ</span>
+      </p>
+      <p begin="02:22.010" end="02:24.750" ttm:agent="v1" itunes:key="L40">
+        <span begin="02:22.010" end="02:22.160">ど</span>
+        <span begin="02:22.160" end="02:22.300">う</span>
+        <span begin="02:22.300" end="02:22.560">し</span>
+        <span begin="02:22.560" end="02:22.880">よう</span>
+        <span begin="02:22.880" end="02:23.240">も</span>
+        <span begin="02:23.240" end="02:23.550">ない</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">闇</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:23.550" end="02:23.850">や</span>
+            <span tts:ruby="text" begin="02:23.850" end="02:23.960">み</span>
+          </span>
+        </span>
+        <span begin="02:23.960" end="02:24.100">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">照</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:24.100" end="02:24.260">て</span>
+          </span>
+        </span>
+        <span begin="02:24.260" end="02:24.360">ら</span>
+        <span begin="02:24.360" end="02:24.750">せ</span>
+      </p>
+      <p begin="02:24.780" end="02:26.900" ttm:agent="v1" itunes:key="L41">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">夢</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:24.780" end="02:24.960">ゆ</span>
+            <span tts:ruby="text" begin="02:24.960" end="02:25.120">め</span>
+          </span>
+        </span>
+        <span begin="02:25.120" end="02:25.330">じゃ</span>
+        <span begin="02:25.330" end="02:25.530">ない</span>
+        <span begin="02:25.530" end="02:25.680"> </span>
+        <span begin="02:25.680" end="02:25.830">どう</span>
+        <span begin="02:25.830" end="02:25.920">せ</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">終</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:25.920" end="02:26.030">お</span>
+          </span>
+        </span>
+        <span begin="02:26.030" end="02:26.130">わ</span>
+        <span begin="02:26.130" end="02:26.190">っ</span>
+        <span begin="02:26.190" end="02:26.280">て</span>
+        <span begin="02:26.280" end="02:26.360">る</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">街</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:26.360" end="02:26.460">ま</span>
+            <span tts:ruby="text" begin="02:26.460" end="02:26.560">ち</span>
+          </span>
+        </span>
+        <span begin="02:26.560" end="02:26.660">だ</span>
+        <span begin="02:26.660" end="02:26.730">っ</span>
+        <span begin="02:26.730" end="02:26.900">て</span>
+      </p>
+      <p begin="02:27.070" end="02:30.730" ttm:agent="v1" itunes:key="L42">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">諦</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:27.070" end="02:27.160">あ</span>
+            <span tts:ruby="text" begin="02:27.160" end="02:27.250">き</span>
+            <span tts:ruby="text" begin="02:27.250" end="02:27.320">ら</span>
+          </span>
+        </span>
+        <span begin="02:27.320" end="02:27.450">め</span>
+        <span begin="02:27.450" end="02:27.530">た</span>
+        <span begin="02:27.530" end="02:27.610">っ</span>
+        <span begin="02:27.610" end="02:27.680">て</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">変</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:27.680" end="02:27.770">か</span>
+          </span>
+        </span>
+        <span begin="02:27.770" end="02:27.920">わ</span>
+        <span begin="02:27.920" end="02:27.990">ん</span>
+        <span begin="02:27.990" end="02:28.150">ない</span>
+        <span begin="02:28.150" end="02:28.450">ぜ</span>
+        <span begin="02:28.450" end="02:28.450"> </span>
+        <span begin="02:28.450" end="02:28.850">ああ</span>
+        <span begin="02:28.850" end="02:28.850"> </span>
+        <span begin="02:28.850" end="02:29.040">ま</span>
+        <span begin="02:29.040" end="02:29.270">だ</span>
+        <span begin="02:29.270" end="02:29.560"> </span>
+        <span begin="02:29.560" end="02:29.730">ま</span>
+        <span begin="02:29.730" end="02:29.940">だ</span>
+        <span begin="02:29.940" end="02:30.200"> </span>
+        <span begin="02:30.200" end="02:30.430">ま</span>
+        <span begin="02:30.430" end="02:30.730">だ</span>
+      </p>
+    </div>
+    <div begin="02:30.790" end="02:40.760" itunes:song-part="Hook">
+      <p begin="02:30.790" end="02:33.440" ttm:agent="v1" itunes:key="L43">
+        <span begin="02:30.790" end="02:30.970">や</span>
+        <span begin="02:30.970" end="02:31.120">り</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">残</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:31.120" end="02:31.280">の</span>
+            <span tts:ruby="text" begin="02:31.280" end="02:31.480">こ</span>
+          </span>
+        </span>
+        <span begin="02:31.480" end="02:31.580">し</span>
+        <span begin="02:31.580" end="02:31.730">た</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">鼓</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:31.730" end="02:31.840">こ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">動</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:31.840" end="02:32.010">どう</span>
+          </span>
+        </span>
+        <span begin="02:32.010" end="02:32.120">が</span>
+        <span begin="02:32.120" end="02:32.120"> </span>
+        <span begin="02:32.120" end="02:32.300">こ</span>
+        <span begin="02:32.300" end="02:32.390">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">夜</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:32.390" end="02:32.560">よ</span>
+            <span tts:ruby="text" begin="02:32.560" end="02:32.660">ん</span>
+          </span>
+        </span>
+        <span begin="02:32.660" end="02:32.750">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">覆</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:32.750" end="02:32.950">お</span>
+            <span tts:ruby="text" begin="02:32.950" end="02:33.140">お</span>
+          </span>
+        </span>
+        <span begin="02:33.140" end="02:33.240">っ</span>
+        <span begin="02:33.240" end="02:33.440">て</span>
+      </p>
+      <p begin="02:33.590" end="02:36.250" ttm:agent="v1" itunes:key="L44">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">僕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:33.590" end="02:33.730">ぼ</span>
+            <span tts:ruby="text" begin="02:33.730" end="02:33.920">く</span>
+          </span>
+        </span>
+        <span begin="02:33.920" end="02:34.100">ら</span>
+        <span begin="02:34.100" end="02:34.270">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">包</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:34.270" end="02:34.360">つ</span>
+            <span tts:ruby="text" begin="02:34.360" end="02:34.490">つ</span>
+          </span>
+        </span>
+        <span begin="02:34.490" end="02:34.540">ん</span>
+        <span begin="02:34.540" end="02:34.610">で</span>
+        <span begin="02:34.610" end="02:34.610"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">粉</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:34.610" end="02:34.810">こ</span>
+            <span tts:ruby="text" begin="02:34.810" end="02:34.920">な</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">々</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:34.920" end="02:35.070">ご</span>
+            <span tts:ruby="text" begin="02:35.070" end="02:35.180">な</span>
+          </span>
+        </span>
+        <span begin="02:35.180" end="02:35.340">に</span>
+        <span begin="02:35.340" end="02:35.540">な</span>
+        <span begin="02:35.540" end="02:35.740">る</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">前</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:35.740" end="02:35.910">ま</span>
+            <span tts:ruby="text" begin="02:35.910" end="02:36.070">え</span>
+          </span>
+        </span>
+        <span begin="02:36.070" end="02:36.250">に</span>
+      </p>
+      <p begin="02:36.390" end="02:38.160" ttm:agent="v1" itunes:key="L45">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">頼</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:36.390" end="02:36.550">た</span>
+            <span tts:ruby="text" begin="02:36.550" end="02:36.750">よ</span>
+          </span>
+        </span>
+        <span begin="02:36.750" end="02:36.900">り</span>
+        <span begin="02:36.900" end="02:37.070">な</span>
+        <span begin="02:37.070" end="02:37.170">く</span>
+        <span begin="02:37.170" end="02:37.340">て</span>
+        <span begin="02:37.340" end="02:37.450">も</span>
+        <span begin="02:37.450" end="02:37.560">いい</span>
+        <span begin="02:37.560" end="02:37.560"> </span>
+        <span begin="02:37.560" end="02:37.730">そ</span>
+        <span begin="02:37.730" end="02:37.880">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:37.880" end="02:37.990">て</span>
+          </span>
+        </span>
+        <span begin="02:37.990" end="02:38.160">を</span>
+      </p>
+      <p begin="02:38.310" end="02:40.760" ttm:agent="v1" itunes:key="L46">
+        <span begin="02:38.310" end="02:38.500">こ</span>
+        <span begin="02:38.500" end="02:38.580">の</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:38.580" end="02:38.730">て</span>
+          </span>
+        </span>
+        <span begin="02:38.730" end="02:38.840">は</span>
+        <span begin="02:38.840" end="02:38.840"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:38.840" end="02:39.030">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">分</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:39.030" end="02:39.140">ぶ</span>
+            <span tts:ruby="text" begin="02:39.140" end="02:39.220">ん</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">自</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:39.220" end="02:39.310">じ</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">身</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:39.310" end="02:39.500">し</span>
+            <span tts:ruby="text" begin="02:39.500" end="02:39.540">ん</span>
+          </span>
+        </span>
+        <span begin="02:39.540" end="02:39.730">の</span>
+        <span begin="02:39.730" end="02:40.080">も</span>
+        <span begin="02:40.080" end="02:40.170">の</span>
+        <span begin="02:40.170" end="02:40.760">さ</span>
+      </p>
+    </div>
+    <div begin="02:41.090" end="02:43.870" itunes:song-part="Hook">
+      <p begin="02:41.090" end="02:43.870" ttm:agent="v1" itunes:key="L47">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">変</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:41.090" end="02:41.320">か</span>
+          </span>
+        </span>
+        <span begin="02:41.320" end="02:41.400">わ</span>
+        <span begin="02:41.400" end="02:41.570">ら</span>
+        <span begin="02:41.570" end="02:41.690">な</span>
+        <span begin="02:41.690" end="02:41.850">い</span>
+        <span begin="02:41.850" end="02:41.980">は</span>
+        <span begin="02:41.980" end="02:42.070">ず</span>
+        <span begin="02:42.070" end="02:42.160">は</span>
+        <span begin="02:42.160" end="02:42.300">ない</span>
+        <span begin="02:42.300" end="02:42.680">よ</span>
+        <span begin="02:42.680" end="02:42.680"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">手</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:42.680" end="02:42.870">て</span>
+          </span>
+        </span>
+        <span begin="02:42.870" end="02:43.050">を</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">伸</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:43.050" end="02:43.220">の</span>
+          </span>
+        </span>
+        <span begin="02:43.220" end="02:43.500">ば</span>
+        <span begin="02:43.500" end="02:43.600">し</span>
+        <span begin="02:43.600" end="02:43.870">て</span>
+      </p>
+    </div>
+    <div begin="02:46.740" end="02:49.610" itunes:song-part="Outro">
+      <p begin="02:46.740" end="02:49.610" ttm:agent="v1" itunes:key="L48">
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">何</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:46.740" end="02:46.920">な</span>
+            <span tts:ruby="text" begin="02:46.920" end="02:47.000">に</span>
+          </span>
+        </span>
+        <span begin="02:47.000" end="02:47.170">も</span>
+        <span begin="02:47.170" end="02:47.290">か</span>
+        <span begin="02:47.290" end="02:47.480">も</span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">君</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:47.480" end="02:47.600">き</span>
+            <span tts:ruby="text" begin="02:47.600" end="02:47.650">み</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">次</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:47.650" end="02:47.780">し</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">第</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:47.780" end="02:47.920">だい</span>
+          </span>
+        </span>
+        <span begin="02:47.920" end="02:48.300">で</span>
+        <span begin="02:48.300" end="02:48.300"> </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">僕</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:48.300" end="02:48.480">ぼ</span>
+            <span tts:ruby="text" begin="02:48.480" end="02:48.640">く</span>
+          </span>
+        </span>
+        <span tts:ruby="container" amll:rubyPhraseStart="true">
+          <span tts:ruby="base">次</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:48.640" end="02:48.850">し</span>
+          </span>
+        </span>
+        <span tts:ruby="container">
+          <span tts:ruby="base">第</span>
+          <span tts:ruby="textContainer">
+            <span tts:ruby="text" begin="02:48.850" end="02:49.180">だい</span>
+          </span>
+        </span>
+        <span begin="02:49.180" end="02:49.610">さ</span>
+      </p>
+    </div>
+  </body>
+</tt>
