@@ -1,0 +1,294 @@
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:amll="http://www.example.com/ns/amll" xmlns:itunes="http://music.apple.com/lyric-ttml-internal" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" itunes:timing="Word" xml:lang="el">
+  <head>
+    <metadata>
+      <ttm:agent type="person" xml:id="v1" />
+      <amll:meta key="musicName" value="放逐者的吟咏 Forsaken Hymn" />
+      <amll:meta key="musicName" value="放逐者的吟咏" />
+      <amll:meta key="musicName" value="放逐者的吟詠" />
+      <amll:meta key="musicName" value="追放者の歌" />
+      <amll:meta key="musicName" value="Forsaken Hymn" />
+      <amll:meta key="artists" value="HOYO-MiX" />
+      <amll:meta key="album" value="原神-朔望凝待之庭 Where Roads Are Pledged to Cross" />
+      <amll:meta key="album" value="原神-朔望凝待之庭 (游戏《原神》原声音乐)" />
+      <amll:meta key="album" value="原神-朔望凝待之庭 (遊戲《原神》原聲音樂)" />
+      <amll:meta key="album" value="原神-朔望を待つ庭 (Original Game Soundtrack)" />
+      <amll:meta key="album" value="원신 - 삭망을 기다리는 정원 (Original Game Soundtrack)" />
+      <amll:meta key="album" value="Genshin Impact -Where Roads Are Pledged to Cross (Original Game Soundtrack)" />
+      <amll:meta key="ncmMusicId" value="3358780012" />
+      <amll:meta key="qqMusicId" value="002pk9fK40K7d1" />
+      <amll:meta key="qqMusicId" value="647619699" />
+      <amll:meta key="spotifyId" value="1dfLsS4YxbWhAWTL2sP8TY" />
+      <amll:meta key="spotifyId" value="2nTXD5hw5AwOU9JozCUnwW" />
+      <amll:meta key="spotifyId" value="2HlwFFdH5ooC9XG8RheA42" />
+      <amll:meta key="spotifyId" value="02PHDixadyV5fUeXCJVwRh" />
+      <amll:meta key="appleMusicId" value="1882958888" />
+      <amll:meta key="appleMusicId" value="1882967836" />
+      <amll:meta key="appleMusicId" value="1882965400" />
+      <amll:meta key="appleMusicId" value="1882967326" />
+      <amll:meta key="appleMusicId" value="1882966319" />
+      <amll:meta key="isrc" value="FR59R2600357" />
+      <amll:meta key="isrc" value="FR59R2600276" />
+      <amll:meta key="isrc" value="FR59R2601826" />
+      <amll:meta key="isrc" value="FR59R2600121" />
+      <amll:meta key="Arranger" value="尤裴佳" />
+      <amll:meta key="Arranger" value="Peijia You" />
+      <amll:meta key="Composer" value="尤裴佳" />
+      <amll:meta key="Composer" value="Peijia You" />
+      <amll:meta key="Lyricist" value="项柳" />
+      <amll:meta key="Lyricist" value="Hsiang Liu" />
+      <amll:meta key="Mastering Engineer" value="鸦雀有声" />
+      <amll:meta key="Mastering Engineer" value="Anzol" />
+      <amll:meta key="Mixing Engineer" value="黄巍" />
+      <amll:meta key="Mixing Engineer" value="Zach Huang" />
+      <amll:meta key="Music Copyist" value="周千朔" />
+      <amll:meta key="Music Copyist" value="Qianshuo Zhou" />
+      <amll:meta key="Produced by" value="HOYO-MiX" />
+      <amll:meta key="Recording Engineer" value="王俊涵" />
+      <amll:meta key="Recording Engineer" value="Junhan Wang" />
+      <amll:meta key="Recording Studio" value="Music In Eyes Studio" />
+      <amll:meta key="Voice" value="丁子涵" />
+      <amll:meta key="Voice" value="Zihan Ding" />
+      <amll:meta key="人声" value="丁子涵" />
+      <amll:meta key="人声" value="Zihan Ding" />
+      <amll:meta key="作曲" value="尤裴佳" />
+      <amll:meta key="作曲" value="Peijia You" />
+      <amll:meta key="作词" value="项柳" />
+      <amll:meta key="作词" value="Hsiang Liu" />
+      <amll:meta key="出品" value="HOYO-MiX" />
+      <amll:meta key="制谱" value="周千朔" />
+      <amll:meta key="制谱" value="Qianshuo Zhou" />
+      <amll:meta key="录音师" value="王俊涵" />
+      <amll:meta key="录音师" value="Junhan Wang" />
+      <amll:meta key="录音棚" value="Music In Eyes Studio" />
+      <amll:meta key="母带制作" value="鸦雀有声" />
+      <amll:meta key="母带制作" value="Anzol" />
+      <amll:meta key="混音师" value="黄巍" />
+      <amll:meta key="混音师" value="Zach Huang" />
+      <amll:meta key="编曲" value="尤裴佳" />
+      <amll:meta key="编曲" value="Peijia You" />
+      <amll:meta key="ttmlAuthorGithub" value="68000793" />
+      <amll:meta key="ttmlAuthorGithubLogin" value="ranhengzhang" />
+      <iTunesMetadata xmlns="http://music.apple.com/lyric-ttml-internal">
+        <translations>
+          <translation type="subtitle" xml:lang="zh-Hans">
+            <text for="L1">往日秋夜的蝉鸣，放逐者的吟唱</text>
+            <text for="L2">唯有歌与回忆，在这陌生的异乡</text>
+            <text for="L3">最后的歌者，弹奏着苍白的终曲，在天使的厅堂</text>
+            <text for="L4">往日秋夜的蝉鸣，放逐者的吟唱</text>
+            <text for="L5">唯有歌与回忆，在这陌生的异乡</text>
+            <text for="L6">最后的歌者，弹奏着苍白的终曲，在天使的厅堂</text>
+          </translation>
+        </translations>
+        <transliterations></transliterations>
+      </iTunesMetadata>
+    </metadata>
+  </head>
+  <body dur="02:08.030">
+    <div begin="00:00.440" end="01:06.840" itunes:song-part="Verse">
+      <p begin="00:00.440" end="00:15.830" ttm:agent="v1" itunes:key="L1">
+        <span begin="00:00.440" end="00:02.250">ᾨ</span>
+        <span begin="00:02.460" end="00:03.850">δή</span>
+        <span begin="00:03.850" end="00:04.400"> </span>
+        <span begin="00:04.400" end="00:05.360">ἥ</span>
+        <span begin="00:05.360" end="00:06.120">δε</span>
+        <span begin="00:06.120" end="00:06.120"> </span>
+        <span begin="00:06.120" end="00:06.440">ᾠ</span>
+        <span begin="00:06.440" end="00:07.790">δή</span>
+        <span begin="00:07.790" end="00:08.480"> </span>
+        <span begin="00:08.480" end="00:08.920">ὡς</span>
+        <span begin="00:08.920" end="00:08.920"> </span>
+        <span begin="00:08.920" end="00:09.380">τέ</span>
+        <span begin="00:09.380" end="00:10.230">ττιξ</span>
+        <span begin="00:10.230" end="00:10.440"> </span>
+        <span begin="00:10.440" end="00:10.940">φθι</span>
+        <span begin="00:10.940" end="00:11.440">νο</span>
+        <span begin="00:11.440" end="00:12.500">πω</span>
+        <span begin="00:12.500" end="00:13.520">ρι</span>
+        <span begin="00:13.520" end="00:15.830">νός</span>
+      </p>
+      <p begin="00:16.660" end="00:31.800" ttm:agent="v1" itunes:key="L2">
+        <span begin="00:16.660" end="00:18.640">Οἴ</span>
+        <span begin="00:18.640" end="00:20.150">δη</span>
+        <span begin="00:20.150" end="00:20.300">,</span>
+        <span begin="00:20.790" end="00:20.790"> </span>
+        <span begin="00:20.790" end="00:21.230">οἴ</span>
+        <span begin="00:21.230" end="00:21.720">δη</span>
+        <span begin="00:21.720" end="00:21.720"> </span>
+        <span begin="00:21.720" end="00:22.510">καὶ</span>
+        <span begin="00:22.510" end="00:22.510"> </span>
+        <span begin="00:22.510" end="00:22.650">μνή</span>
+        <span begin="00:22.650" end="00:24.050">μη</span>
+        <span begin="00:24.050" end="00:24.200">,</span>
+        <span begin="00:24.700" end="00:24.700"> </span>
+        <span begin="00:24.700" end="00:25.230">μό</span>
+        <span begin="00:25.230" end="00:26.670">ναι</span>
+        <span begin="00:26.670" end="00:26.670"> </span>
+        <span begin="00:26.670" end="00:27.240">μέ</span>
+        <span begin="00:27.240" end="00:27.670">νου</span>
+        <span begin="00:27.670" end="00:28.270">σιν</span>
+        <span begin="00:28.270" end="00:28.270"> </span>
+        <span begin="00:28.270" end="00:28.730">ἐν</span>
+        <span begin="00:28.730" end="00:28.730"> </span>
+        <span begin="00:28.730" end="00:29.740">ξέ</span>
+        <span begin="00:29.740" end="00:31.800">νῃ</span>
+      </p>
+      <p begin="00:33.070" end="01:06.840" ttm:agent="v1" itunes:key="L3">
+        <span begin="00:33.070" end="00:33.690">Τε</span>
+        <span begin="00:33.690" end="00:34.140">λευ</span>
+        <span begin="00:34.140" end="00:35.200">ταί</span>
+        <span begin="00:35.200" end="00:36.080">α</span>
+        <span begin="00:36.080" end="00:36.080"> </span>
+        <span begin="00:36.080" end="00:36.210">ἀ</span>
+        <span begin="00:36.210" end="00:37.310">οι</span>
+        <span begin="00:37.310" end="00:38.100">δός</span>
+        <span begin="00:38.100" end="00:38.240">,</span>
+        <span begin="00:38.340" end="00:38.340"> </span>
+        <span begin="00:38.340" end="00:38.770">κα</span>
+        <span begin="00:38.770" end="00:39.300">θη</span>
+        <span begin="00:39.300" end="00:40.380">μέ</span>
+        <span begin="00:40.380" end="00:41.890">νη</span>
+        <span begin="00:41.890" end="00:42.040">,</span>
+        <span begin="00:42.550" end="00:42.550"> </span>
+        <span begin="00:42.550" end="00:43.590">ἔν</span>
+        <span begin="00:43.590" end="00:44.590">θα</span>
+        <span begin="00:44.590" end="00:45.600">δε</span>
+        <span begin="00:45.600" end="00:45.600"> </span>
+        <span begin="00:45.600" end="00:46.540">κα</span>
+        <span begin="00:46.670" end="00:47.010">θη</span>
+        <span begin="00:47.010" end="00:47.360">μέ</span>
+        <span begin="00:47.360" end="00:49.250">νη</span>
+        <span begin="00:49.250" end="00:49.400">,</span>
+        <span begin="00:50.690" end="00:50.690"> </span>
+        <span begin="00:50.690" end="00:51.830">κρού</span>
+        <span begin="00:51.830" end="00:52.940">ει</span>
+        <span begin="00:52.940" end="00:52.940"> </span>
+        <span begin="00:52.940" end="00:53.950">τὸ</span>
+        <span begin="00:53.950" end="00:53.950"> </span>
+        <span begin="00:53.950" end="00:54.850">ὠ</span>
+        <span begin="00:54.850" end="00:55.600">χρὸν</span>
+        <span begin="00:55.600" end="00:55.990"> </span>
+        <span begin="00:55.990" end="00:56.510">μέ</span>
+        <span begin="00:56.510" end="00:57.050">λος</span>
+        <span begin="00:57.050" end="00:57.050"> </span>
+        <span begin="00:57.050" end="00:58.020">τέ</span>
+        <span begin="00:58.020" end="00:59.020">λει</span>
+        <span begin="00:59.020" end="00:59.560">ον</span>
+        <span begin="00:59.560" end="00:59.700">,</span>
+        <span begin="01:00.200" end="01:00.200"> </span>
+        <span begin="01:00.200" end="01:01.240">ἐν</span>
+        <span begin="01:01.240" end="01:01.240"> </span>
+        <span begin="01:01.240" end="01:02.240">τῷ</span>
+        <span begin="01:02.240" end="01:02.240"> </span>
+        <span begin="01:02.240" end="01:03.000">ἱ</span>
+        <span begin="01:03.000" end="01:03.350">ε</span>
+        <span begin="01:03.350" end="01:03.860">ρῷ</span>
+        <span begin="01:03.860" end="01:03.860"> </span>
+        <span begin="01:03.860" end="01:04.430">αὐ</span>
+        <span begin="01:04.430" end="01:06.840">τῆς</span>
+      </p>
+    </div>
+    <div begin="01:12.010" end="02:08.030" itunes:song-part="Verse">
+      <p begin="01:12.010" end="01:25.430" ttm:agent="v1" itunes:key="L4">
+        <span begin="01:12.010" end="01:13.650">ᾨ</span>
+        <span begin="01:13.850" end="01:15.040">δή</span>
+        <span begin="01:15.040" end="01:15.460"> </span>
+        <span begin="01:15.460" end="01:16.380">ἥ</span>
+        <span begin="01:16.380" end="01:17.050">δε</span>
+        <span begin="01:17.050" end="01:17.050"> </span>
+        <span begin="01:17.050" end="01:17.350">ᾠ</span>
+        <span begin="01:17.350" end="01:18.550">δή</span>
+        <span begin="01:18.550" end="01:19.000"> </span>
+        <span begin="01:19.000" end="01:19.510">ὡς</span>
+        <span begin="01:19.510" end="01:19.510"> </span>
+        <span begin="01:19.510" end="01:19.910">τέ</span>
+        <span begin="01:19.910" end="01:20.670">ττιξ</span>
+        <span begin="01:20.670" end="01:20.820"> </span>
+        <span begin="01:20.820" end="01:21.270">φθι</span>
+        <span begin="01:21.270" end="01:21.690">νο</span>
+        <span begin="01:21.690" end="01:22.580">πω</span>
+        <span begin="01:22.580" end="01:23.510">ρι</span>
+        <span begin="01:23.510" end="01:25.430">νός</span>
+      </p>
+      <p begin="01:26.110" end="01:38.830" ttm:agent="v1" itunes:key="L5">
+        <span begin="01:26.110" end="01:27.810">Οἴ</span>
+        <span begin="01:27.940" end="01:29.100">δη</span>
+        <span begin="01:29.100" end="01:29.250">,</span>
+        <span begin="01:29.610" end="01:29.610"> </span>
+        <span begin="01:29.610" end="01:30.070">οἴ</span>
+        <span begin="01:30.070" end="01:30.490">δη</span>
+        <span begin="01:30.490" end="01:30.490"> </span>
+        <span begin="01:30.490" end="01:31.140">καὶ</span>
+        <span begin="01:31.140" end="01:31.140"> </span>
+        <span begin="01:31.140" end="01:31.280">μνή</span>
+        <span begin="01:31.280" end="01:32.590">μη</span>
+        <span begin="01:32.590" end="01:32.740">,</span>
+        <span begin="01:33.150" end="01:33.150"> </span>
+        <span begin="01:33.150" end="01:33.620">μό</span>
+        <span begin="01:33.620" end="01:34.890">ναι</span>
+        <span begin="01:34.890" end="01:34.890"> </span>
+        <span begin="01:34.890" end="01:35.380">μέ</span>
+        <span begin="01:35.380" end="01:35.750">νου</span>
+        <span begin="01:35.750" end="01:36.250">σιν</span>
+        <span begin="01:36.250" end="01:36.250"> </span>
+        <span begin="01:36.250" end="01:36.610">ἐν</span>
+        <span begin="01:36.610" end="01:36.610"> </span>
+        <span begin="01:36.610" end="01:37.570">ξέ</span>
+        <span begin="01:37.570" end="01:38.830">νῃ</span>
+      </p>
+      <p begin="01:39.300" end="02:08.030" ttm:agent="v1" itunes:key="L6">
+        <span begin="01:39.300" end="01:39.790">Τε</span>
+        <span begin="01:39.790" end="01:40.190">λευ</span>
+        <span begin="01:40.190" end="01:41.140">ταί</span>
+        <span begin="01:41.140" end="01:41.950">α</span>
+        <span begin="01:41.950" end="01:41.950"> </span>
+        <span begin="01:41.950" end="01:42.040">ἀ</span>
+        <span begin="01:42.040" end="01:42.850">οι</span>
+        <span begin="01:42.850" end="01:43.400">δός</span>
+        <span begin="01:43.400" end="01:43.500">,</span>
+        <span begin="01:43.720" end="01:43.720"> </span>
+        <span begin="01:43.720" end="01:44.120">κα</span>
+        <span begin="01:44.120" end="01:44.620">θη</span>
+        <span begin="01:44.620" end="01:45.490">μέ</span>
+        <span begin="01:45.490" end="01:46.830">νη</span>
+        <span begin="01:46.830" end="01:46.980">,</span>
+        <span begin="01:47.320" end="01:47.320"> </span>
+        <span begin="01:47.320" end="01:48.150">ἔν</span>
+        <span begin="01:48.150" end="01:49.120">θα</span>
+        <span begin="01:49.120" end="01:49.920">δε</span>
+        <span begin="01:49.920" end="01:49.920"> </span>
+        <span begin="01:49.920" end="01:50.710">κα</span>
+        <span begin="01:50.830" end="01:51.110">θη</span>
+        <span begin="01:51.110" end="01:51.420">μέ</span>
+        <span begin="01:51.420" end="01:52.760">νη</span>
+        <span begin="01:52.760" end="01:52.910">,</span>
+        <span begin="01:53.360" end="01:53.360"> </span>
+        <span begin="01:53.360" end="01:54.360">κρού</span>
+        <span begin="01:54.360" end="01:55.260">ει</span>
+        <span begin="01:55.260" end="01:55.260"> </span>
+        <span begin="01:55.260" end="01:56.160">τὸ</span>
+        <span begin="01:56.160" end="01:56.160"> </span>
+        <span begin="01:56.160" end="01:56.880">ὠ</span>
+        <span begin="01:56.880" end="01:57.520">χρὸν</span>
+        <span begin="01:57.520" end="01:57.830"> </span>
+        <span begin="01:57.830" end="01:58.340">μέ</span>
+        <span begin="01:58.340" end="01:58.730">λος</span>
+        <span begin="01:58.730" end="01:58.730"> </span>
+        <span begin="01:58.730" end="01:59.680">τέ</span>
+        <span begin="01:59.680" end="02:00.470">λει</span>
+        <span begin="02:00.470" end="02:00.970">ον</span>
+        <span begin="02:00.970" end="02:01.100">,</span>
+        <span begin="02:01.450" end="02:01.450"> </span>
+        <span begin="02:01.450" end="02:02.280">ἐν</span>
+        <span begin="02:02.280" end="02:02.280"> </span>
+        <span begin="02:02.280" end="02:03.160">τῷ</span>
+        <span begin="02:03.160" end="02:03.160"> </span>
+        <span begin="02:03.160" end="02:03.770">ἱ</span>
+        <span begin="02:03.770" end="02:04.060">ε</span>
+        <span begin="02:04.060" end="02:04.490">ρῷ</span>
+        <span begin="02:04.490" end="02:04.490"> </span>
+        <span begin="02:04.490" end="02:04.950">αὐ</span>
+        <span begin="02:04.950" end="02:08.030">τῆς</span>
+      </p>
+    </div>
+  </body>
+</tt>
