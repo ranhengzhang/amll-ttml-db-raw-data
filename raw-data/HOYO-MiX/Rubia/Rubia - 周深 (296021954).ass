@@ -34,7 +34,7 @@ Comment: 0,0:00:00.00,0:00:00.00,orig,,0,0,0,template furi noblank notext,!retim
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,code line,ts_index(line); line.top=line.top+line.height*ts_pos; line.bottom=line.bottom+line.height*ts_pos; ts_count=ts_count+1;
 Comment: 0,0:00:00.00,0:00:00.00,ts,,0,0,0,template syl noblank notext,!retime("line", -(ahead_time), 200)!{\an8\pos(!line.left+syl.center!,!line.top!)\fad(!math.min(math.max(ahead_time-600,0),200)!,200)\k!line.raw:find("{\\k") and (($sstart/10)+ahead_time/10) or 0!\kf!($skdur)!}!syl.text_stripped:trim()!
 Dialogue: 0,0:00:03.41,0:00:06.39,orig,L__1 x-part:Verse,0,0,0,karaoke,{\kf58}Life{\kf28} {\kf21}{\kf63}bloom{\kf16}s {\kf43}li{\kf13}ke a {\kf20}f{\kf36}lower
-Dialogue: 0,0:00:03.41,0:00:06.39,ts,x-lang:ko,0,0,0,karaoke,생명은 꽂처럼
+Dialogue: 0,0:00:03.41,0:00:06.39,ts,x-lang:ko,0,0,0,karaoke,생명은 꽃처럼
 Dialogue: 0,0:00:03.41,0:00:06.39,ts,x-lang:ja,0,0,0,karaoke,咲き誇る命の花
 Dialogue: 0,0:00:03.41,0:00:06.39,ts,x-lang:zh-Hant,0,0,0,karaoke,生命如花朵綻放
 Dialogue: 0,0:00:03.41,0:00:06.39,ts,____,0,0,0,karaoke,生命如花朵绽放
@@ -54,7 +54,7 @@ Dialogue: 0,0:00:13.92,0:00:16.27,ts,x-lang:ja,0,0,0,karaoke,拠り所へ導く�
 Dialogue: 0,0:00:13.92,0:00:16.27,ts,x-lang:zh-Hant,0,0,0,karaoke,找到回歸的路
 Dialogue: 0,0:00:13.92,0:00:16.27,ts,____,0,0,0,karaoke,找到回家的路
 Dialogue: 0,0:00:17.66,0:00:20.69,orig,L__5 x-part:Verse,0,0,0,karaoke,{\kf42}Rain{\kf26} {\kf75}fall{\kf12}s {\kf14}a {\kf44}thou{\kf26}sand {\kf31}time{\kf19}{\kf14}s
-Dialogue: 0,0:00:17.66,0:00:20.69,ts,x-lang:ko,0,0,0,karaoke,수 천 번외 비에 씻겨
+Dialogue: 0,0:00:17.66,0:00:20.69,ts,x-lang:ko,0,0,0,karaoke,수 천 번의 비에 씻겨
 Dialogue: 0,0:00:17.66,0:00:20.69,ts,x-lang:ja,0,0,0,karaoke,絶えることない雨の中
 Dialogue: 0,0:00:17.66,0:00:20.69,ts,x-lang:zh-Hant,0,0,0,karaoke,雨水數千次的沖刷
 Dialogue: 0,0:00:17.66,0:00:20.69,ts,____,0,0,0,karaoke,雨水数千次的冲刷
@@ -94,7 +94,7 @@ Dialogue: 0,0:00:42.76,0:00:44.99,ts,x-lang:ja,0,0,0,karaoke,次のページを�
 Dialogue: 0,0:00:42.76,0:00:44.99,ts,x-lang:zh-Hant,0,0,0,karaoke,所以一切還未結束
 Dialogue: 0,0:00:42.76,0:00:44.99,ts,____,0,0,0,karaoke,所以一切还未结束
 Dialogue: 0,0:00:45.90,0:00:48.70,orig,L_13 x-part:FalseChorus,0,0,0,karaoke,{\kf54}Life{\kf30} {\kf67}bloom{\kf22}s {\kf43}li{\kf14}ke a {\kf16}f{\kf34}lower
-Dialogue: 0,0:00:45.90,0:00:48.70,ts,x-lang:ko,0,0,0,karaoke,생명은 꽂처럼
+Dialogue: 0,0:00:45.90,0:00:48.70,ts,x-lang:ko,0,0,0,karaoke,생명은 꽃처럼
 Dialogue: 0,0:00:45.90,0:00:48.70,ts,x-lang:ja,0,0,0,karaoke,咲き誇る命の花
 Dialogue: 0,0:00:45.90,0:00:48.70,ts,x-lang:zh-Hant,0,0,0,karaoke,生命如花朵綻放
 Dialogue: 0,0:00:45.90,0:00:48.70,ts,____,0,0,0,karaoke,生命如花朵绽放
@@ -119,7 +119,7 @@ Dialogue: 0,0:00:59.90,0:01:02.77,ts,x-lang:ja,0,0,0,karaoke,浮世の歳月が�
 Dialogue: 0,0:00:59.90,0:01:02.77,ts,x-lang:zh-Hant,0,0,0,karaoke,時光流淌過天地間
 Dialogue: 0,0:00:59.90,0:01:02.77,ts,____,0,0,0,karaoke,时光流淌过天地间
 Dialogue: 0,0:01:03.50,0:01:07.46,orig,L_18,0,0,0,karaoke,{\kf44}There {\kf14}i{\kf17}s {\kf38}a{\kf43}lway{\kf8}s {\kf20}a {\kf40}lon{\kf24}ger {\kf61}way {\kf26}to{\kf16} {\kf45}go
-Dialogue: 0,0:01:03.50,0:01:07.46,ts,x-lang:ko,0,0,0,karaoke,내 여정은 끝니지 않겠지
+Dialogue: 0,0:01:03.50,0:01:07.46,ts,x-lang:ko,0,0,0,karaoke,내 여정은 끝나지 않겠지
 Dialogue: 0,0:01:03.50,0:01:07.46,ts,x-lang:ja,0,0,0,karaoke,終わらない私の旅路
 Dialogue: 0,0:01:03.50,0:01:07.46,ts,x-lang:zh-Hant,0,0,0,karaoke,我的旅程不會結束
 Dialogue: 0,0:01:03.50,0:01:07.46,ts,____,0,0,0,karaoke,我的旅程不会结束
@@ -144,7 +144,7 @@ Dialogue: 0,0:01:17.67,0:01:20.36,ts,x-lang:ja,0,0,0,karaoke,澪はやがて一�
 Dialogue: 0,0:01:17.67,0:01:20.36,ts,x-lang:zh-Hant,0,0,0,karaoke,無數水流終將合一
 Dialogue: 0,0:01:17.67,0:01:20.36,ts,____,0,0,0,karaoke,无数水流终将合一
 Dialogue: 0,0:01:21.05,0:01:24.21,orig,L_23,0,0,0,karaoke,{\kf53}Tra{\kf27}{\kf102}cing {\kf51}to {\kf9}the {\kf52}sour{\kf10}{\kf12}ce
-Dialogue: 0,0:01:21.05,0:01:24.21,ts,x-lang:ko,0,0,0,karaoke,뿌리를 쫒을 때
+Dialogue: 0,0:01:21.05,0:01:24.21,ts,x-lang:ko,0,0,0,karaoke,뿌리를 쫓을 때
 Dialogue: 0,0:01:21.05,0:01:24.21,ts,x-lang:ja,0,0,0,karaoke,根源にたどり着いた頃には
 Dialogue: 0,0:01:21.05,0:01:24.21,ts,x-lang:zh-Hant,0,0,0,karaoke,追溯著源頭
 Dialogue: 0,0:01:21.05,0:01:24.21,ts,____,0,0,0,karaoke,追溯着源头
@@ -154,7 +154,7 @@ Dialogue: 0,0:01:24.71,0:01:26.58,ts,x-lang:ja,0,0,0,karaoke,迷いも戸惑い�
 Dialogue: 0,0:01:24.71,0:01:26.58,ts,x-lang:zh-Hant,0,0,0,karaoke,便可不再迷惘
 Dialogue: 0,0:01:24.71,0:01:26.58,ts,____,0,0,0,karaoke,便可不再迷惘
 Dialogue: 0,0:01:26.92,0:01:30.07,orig,L_25 x-part:PreChorus,0,0,0,karaoke,{\kf41}You {\kf31}will {\kf49}see{\kf11} {\kf122}pe{\kf17}tal{\kf11}s {\kf7}f{\kf26}ly
-Dialogue: 0,0:01:26.92,0:01:30.07,ts,x-lang:ko,0,0,0,karaoke,꽂잎이 흩날리는 게 보인다면
+Dialogue: 0,0:01:26.92,0:01:30.07,ts,x-lang:ko,0,0,0,karaoke,꽃잎이 흩날리는 게 보인다면
 Dialogue: 0,0:01:26.92,0:01:30.07,ts,x-lang:ja,0,0,0,karaoke,花吹雪が目に映り
 Dialogue: 0,0:01:26.92,0:01:30.07,ts,x-lang:zh-Hant,0,0,0,karaoke,你將看見花瓣紛飛
 Dialogue: 0,0:01:26.92,0:01:30.07,ts,____,0,0,0,karaoke,你将看见花瓣纷飞
@@ -174,7 +174,7 @@ Dialogue: 0,0:01:37.51,0:01:41.78,ts,x-lang:ja,0,0,0,karaoke,君と二重唱を�
 Dialogue: 0,0:01:37.51,0:01:41.78,ts,x-lang:zh-Hant,0,0,0,karaoke,正渴望與你二重唱
 Dialogue: 0,0:01:37.51,0:01:41.78,ts,____,0,0,0,karaoke,正渴望与你二重唱
 Dialogue: 0,0:01:42.37,0:01:45.43,orig,L_29 x-part:Chorus,0,0,0,karaoke,{\kf56}Li{\kf19}fe {\kf13}b{\kf65}loom{\kf11}s {\kf47}li{\kf14}ke a {\kf20}f{\kf61}lower
-Dialogue: 0,0:01:42.37,0:01:45.43,ts,x-lang:ko,0,0,0,karaoke,생명은 꽂처럼
+Dialogue: 0,0:01:42.37,0:01:45.43,ts,x-lang:ko,0,0,0,karaoke,생명은 꽃처럼
 Dialogue: 0,0:01:42.37,0:01:45.43,ts,x-lang:ja,0,0,0,karaoke,咲き誇る命の花
 Dialogue: 0,0:01:42.37,0:01:45.43,ts,x-lang:zh-Hant,0,0,0,karaoke,生命如花朵綻放
 Dialogue: 0,0:01:42.37,0:01:45.43,ts,____,0,0,0,karaoke,生命如花朵绽放
@@ -199,7 +199,7 @@ Dialogue: 0,0:01:56.38,0:01:59.55,ts,x-lang:ja,0,0,0,karaoke,浮世の歳月が�
 Dialogue: 0,0:01:56.38,0:01:59.55,ts,x-lang:zh-Hant,0,0,0,karaoke,時光流淌過天地間
 Dialogue: 0,0:01:56.38,0:01:59.55,ts,____,0,0,0,karaoke,时光流淌过天地间
 Dialogue: 0,0:01:59.98,0:02:04.03,orig,L_34,0,0,0,karaoke,{\kf45}There {\kf14}i{\kf13}s {\kf38}al{\kf43}way{\kf6}s {\kf22}a {\kf37}lon{\kf23}ger {\kf64}way {\kf23}to {\kf77}go
-Dialogue: 0,0:01:59.98,0:02:04.03,ts,x-lang:ko,0,0,0,karaoke,내 여정은 끝니지 않겠지
+Dialogue: 0,0:01:59.98,0:02:04.03,ts,x-lang:ko,0,0,0,karaoke,내 여정은 끝나지 않겠지
 Dialogue: 0,0:01:59.98,0:02:04.03,ts,x-lang:ja,0,0,0,karaoke,終わらない私の旅路
 Dialogue: 0,0:01:59.98,0:02:04.03,ts,x-lang:zh-Hant,0,0,0,karaoke,我的旅程不會結束
 Dialogue: 0,0:01:59.98,0:02:04.03,ts,____,0,0,0,karaoke,我的旅程不会结束
@@ -214,7 +214,7 @@ Dialogue: 0,0:02:06.85,0:02:10.91,ts,x-lang:ja,0,0,0,karaoke,一枝のアカネ�
 Dialogue: 0,0:02:06.85,0:02:10.91,ts,x-lang:zh-Hant,0,0,0,karaoke,並獻上一株茜草
 Dialogue: 0,0:02:06.85,0:02:10.91,ts,____,0,0,0,karaoke,并献上一株茜草
 Dialogue: 0,0:02:36.90,0:02:40.06,orig,L_37 x-part:FinalChorus,0,0,0,karaoke,{\kf81}Life{\kf12} {\kf12}b{\kf65}loom{\kf12}s {\kf46}li{\kf14}ke a {\kf15}f{\kf59}lower
-Dialogue: 0,0:02:36.90,0:02:40.06,ts,x-lang:ko,0,0,0,karaoke,생명은 꽂처럼
+Dialogue: 0,0:02:36.90,0:02:40.06,ts,x-lang:ko,0,0,0,karaoke,생명은 꽃처럼
 Dialogue: 0,0:02:36.90,0:02:40.06,ts,x-lang:ja,0,0,0,karaoke,咲き誇る命の花
 Dialogue: 0,0:02:36.90,0:02:40.06,ts,x-lang:zh-Hant,0,0,0,karaoke,生命如花朵綻放
 Dialogue: 0,0:02:36.90,0:02:40.06,ts,____,0,0,0,karaoke,生命如花朵绽放
@@ -239,7 +239,7 @@ Dialogue: 0,0:02:51.11,0:02:54.25,ts,x-lang:ja,0,0,0,karaoke,浮世の歳月が�
 Dialogue: 0,0:02:51.11,0:02:54.25,ts,x-lang:zh-Hant,0,0,0,karaoke,時光流淌過天地間
 Dialogue: 0,0:02:51.11,0:02:54.25,ts,____,0,0,0,karaoke,时光流淌过天地间
 Dialogue: 0,0:02:54.67,0:02:58.75,orig,L_42,0,0,0,karaoke,{\kf47}There {\kf20}i{\kf10}s {\kf39}al{\kf40}way{\kf13}s {\kf8}a {\kf42}lon{\kf27}ger {\kf61}way {\kf43}to {\kf58}go
-Dialogue: 0,0:02:54.67,0:02:58.75,ts,x-lang:ko,0,0,0,karaoke,내 여정은 끝니지 않겠지
+Dialogue: 0,0:02:54.67,0:02:58.75,ts,x-lang:ko,0,0,0,karaoke,내 여정은 끝나지 않겠지
 Dialogue: 0,0:02:54.67,0:02:58.75,ts,x-lang:ja,0,0,0,karaoke,終わらない私の旅路
 Dialogue: 0,0:02:54.67,0:02:58.75,ts,x-lang:zh-Hant,0,0,0,karaoke,我的旅程不會結束
 Dialogue: 0,0:02:54.67,0:02:58.75,ts,____,0,0,0,karaoke,我的旅程不会结束
