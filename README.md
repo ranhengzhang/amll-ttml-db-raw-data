@@ -934,3 +934,17 @@ Dialogue: 0,0:00:32.92,0:00:37.03,ts,____,0,0,0,fx,{\fad(200,200)}桃夭灼灼�
 - [![reset-line.lua](https://img.shields.io/badge/automate-reset_line.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/reset-line.lua)：清除 fx 行并取消注释脚本
 - [![set-part.lua](https://img.shields.io/badge/automate-set_part.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/set-part.lua)：预设 songPart 设置脚本
 - [![add-tag.lua](https://img.shields.io/badge/automate-add_tag.lua-000080)](https://github.com/ranhengzhang/amll-ttml-db-raw-data/blob/main/aegisub/add-tag.lua)：批量添加 TTML 标记脚本
+
+## 许可声明
+
+本仓库的不同部分适用不同的许可证：
+
+| 目录/文件 | 许可证 | 说明 |
+|-----------|--------|------|
+| 根目录 `LICENSE`（CC0 1.0）覆盖的范围 | CC0 1.0 Universal | `lyrics/`、`raw-data/`、`assets/`、`am-lyrics/` 等歌词数据文件 |
+| [`aegisub/`](./aegisub/LICENSE) | GNU GPLv3 | Aegisub 自动化脚本（`.lua`） |
+| [`subtitles/`](./subtitles/LICENSE) | GNU GPLv3 | Aegisub 字幕模板文件（`.ass`） |
+
+> [!NOTE]
+>
+> `aegisub/` 与 `subtitles/` 目录下的文件自提交 `ddca9a082` 之后适用 GPLv3 协议，保留版权。在此之前的版本仍受 CC0 协议约束。
