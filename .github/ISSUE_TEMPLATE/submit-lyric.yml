@@ -25,6 +25,7 @@ body:
       label: 提交缘由
       description: 是一首新歌曲的歌词呢？还是原来的歌词有疏漏或者错误呢？
       options:
+        - 
         - 新歌词提交
         - 修正已有歌词
     validations:
