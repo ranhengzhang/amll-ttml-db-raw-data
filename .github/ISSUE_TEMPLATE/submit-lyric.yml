@@ -32,6 +32,7 @@ body:
   - type: checkboxes
     id: read-wiki
     attributes:
+      label: 请确认以下事项
       options:
         - label: 我已经阅读了 [Wiki 投稿要求](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)，并了解投稿规范
           required: true
